@@ -25,3 +25,7 @@ This list is in chronological order.
 + E: 
 + W: 
 + D:
+
+## License
+
+SIL Open Font License [OFL](documentation/OFL.txt)
