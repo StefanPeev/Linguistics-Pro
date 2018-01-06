@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="commarightcomb" format="1">
+  <advance width="0"/>
+  <outline>
+    <contour>
+      <point x="-320" y="584" type="line"/>
+      <point x="-289" y="620"/>
+      <point x="-265" y="658"/>
+      <point x="-265" y="696" type="curve" smooth="yes"/>
+      <point x="-265" y="733"/>
+      <point x="-298" y="754"/>
+      <point x="-298" y="790" type="curve" smooth="yes"/>
+      <point x="-298" y="817"/>
+      <point x="-280" y="838"/>
+      <point x="-250" y="838" type="curve" smooth="yes"/>
+      <point x="-217" y="838"/>
+      <point x="-185" y="806"/>
+      <point x="-185" y="752" type="curve" smooth="yes"/>
+      <point x="-185" y="681"/>
+      <point x="-253" y="614"/>
+      <point x="-303" y="568" type="curve"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.hintData</key>
+      <dict>
+        <key>hhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>870</integer>
+            <key>width</key>
+            <integer>20</integer>
+          </dict>
+        </array>
+        <key>vhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>-12</integer>
+            <key>width</key>
+            <integer>80</integer>
+          </dict>
+        </array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>
