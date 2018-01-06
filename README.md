@@ -5,3 +5,23 @@
 The Linguistics Pro font family is based on the Utopia Nova font family, issued by Andreas Nolda, copyright(c) 2015, under the [SIL Open Font License (OFL), version 1.1](http://scripts.sil.org/ofl). On 2016-10-08 Andreas Nolda renamed his font "Utopia Nova" to "Lingua Franca", for licensing reasons. "Utopia Nova" no longer exists. See the [ChangeLog.txt in "Lingua Franca"](https://fontlibrary.org/en/font/lingua-franca) for more information, the Nolda's [website](http://andreas.nolda.org/software.html) and [documentation](/documentation/).
 
 The Linguistics Pro font family contains two models of Cyrillic glyphs. The base range of the Cyrillic glyphs <code>(uni0410:uni044F)</code> represents the modern Bulgarian letterform model. The traditional Cyrillic letterform model is included as a local feature for Russian language and as a Stylistic Set 01. In the future the project will be develop as a multilingual font for Latin and for Cyrillic scripts with a special attention to local features in OpenType.
+
+## Acknowledgements
+
+If you make modifications be sure to add your name (N),
+email (if you have one) (E), web-address (if you have one) (W), twitter handle (if you have one) (T) and description (D).
+This list is in chronological order.
+
+### Author for Linguistics Pro
+
++ N: Stefan Peev
++ E: context.bg@gmail.com
++ W: https://localfonts.eu
++ D: Designer
+
+### Contributors
+
++ N: 
++ E: 
++ W: 
++ D:
