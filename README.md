@@ -32,7 +32,7 @@ SIL Open Font License [OFL](documentation/OFL.txt)
 
 ## Local Fonts Project
 
-+ [Linguistics Pro](StefanPeev/Linguistics-Pro)
-+ [Libra Sans](StefanPeev/Libra-Sans)
-+ [Coval](StefanPeev/Libra-coval)
++ [Linguistics Pro](https://github.com/StefanPeev/Linguistics-Pro)
++ [Libra Sans](https://github.com/StefanPeev/Libra-Sans)
++ [Coval](https://github.com/StefanPeev/coval)
 
