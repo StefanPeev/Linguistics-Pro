@@ -32,4 +32,4 @@ SIL Open Font License [OFL](documentation/OFL.txt)
 
 ### Donations
 
-If you apreciate the project, please feel free to donate: [PayPal](https://www.paypal.me/localfonts" rel="nofollow noreferrer).
+If you apreciate the project, please feel free to donate: [PayPal](https://www.paypal.me/localfonts).
