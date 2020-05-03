@@ -29,3 +29,7 @@ SIL Open Font License [OFL](documentation/OFL.txt)
 + [Libra Sans](https://github.com/StefanPeev/Libra-Sans)
 + [Coval](https://github.com/StefanPeev/coval)
 + [Veleka](https://github.com/StefanPeev/Veleka)
+
+### Donations
+
+If you apreciate the project, please feel free to donate: [PayPal](https://www.paypal.me/localfonts" rel="nofollow noreferrer).
