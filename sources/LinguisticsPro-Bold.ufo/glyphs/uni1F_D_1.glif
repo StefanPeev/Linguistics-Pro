@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni1FD1" format="2">
+	<unicode hex="1FD1"/>
+	<advance width="388"/>
+	<outline>
+		<component base="iota"/>
+		<component base="uni0304" xOffset="474"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.fontlab.autolayer</key>
+			<true/>
+			<key>com.fontlab.hintData</key>
+			<dict>
+				<key>hhints</key>
+				<array>
+					<dict>
+						<key>position</key>
+						<integer>-12</integer>
+						<key>width</key>
+						<integer>54</integer>
+					</dict>
+					<dict>
+						<key>position</key>
+						<integer>482</integer>
+						<key>width</key>
+						<integer>20</integer>
+					</dict>
+					<dict>
+						<key>position</key>
+						<integer>597</integer>
+						<key>width</key>
+						<integer>59</integer>
+					</dict>
+				</array>
+				<key>vhints</key>
+				<array>
+					<dict>
+						<key>position</key>
+						<integer>4</integer>
+						<key>width</key>
+						<integer>288</integer>
+					</dict>
+					<dict>
+						<key>position</key>
+						<integer>70</integer>
+						<key>width</key>
+						<integer>94</integer>
+					</dict>
+				</array>
+			</dict>
+			<key>com.fontlab.recipe</key>
+			<string>iota+uni0304</string>
+		</dict>
+	</lib>
+</glyph>

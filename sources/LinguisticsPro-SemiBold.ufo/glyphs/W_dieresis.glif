@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Wdieresis" format="2">
+	<unicode hex="1E84"/>
+	<advance width="935"/>
+	<outline>
+		<component base="W"/>
+		<component base="dieresis.cap" xOffset="256.333"/>
+	</outline>
+	<anchor name="top" x="467.667" y="926.667"/>
+	<lib>
+		<dict>
+			<key>com.fontlab.autolayer</key>
+			<true/>
+			<key>com.fontlab.hintData</key>
+			<dict>
+				<key>hhints</key>
+				<array>
+					<dict>
+						<key>position</key>
+						<integer>0</integer>
+						<key>width</key>
+						<integer>21</integer>
+					</dict>
+					<dict>
+						<key>position</key>
+						<integer>663</integer>
+						<key>width</key>
+						<integer>29</integer>
+					</dict>
+					<dict>
+						<key>position</key>
+						<integer>732</integer>
+						<key>width</key>
+						<integer>109</integer>
+					</dict>
+				</array>
+				<key>vhints</key>
+				<array>
+					<dict>
+						<key>position</key>
+						<integer>315</integer>
+						<key>width</key>
+						<integer>116</integer>
+					</dict>
+					<dict>
+						<key>position</key>
+						<integer>523</integer>
+						<key>width</key>
+						<integer>116</integer>
+					</dict>
+				</array>
+			</dict>
+			<key>com.fontlab.recipe</key>
+			<string>W+dieresis.cap</string>
+		</dict>
+	</lib>
+</glyph>

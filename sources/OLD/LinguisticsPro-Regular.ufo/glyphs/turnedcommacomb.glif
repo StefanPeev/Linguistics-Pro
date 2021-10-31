@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="turnedcommacomb" format="1">
+  <advance width="0"/>
+  <unicode hex="0312"/>
+  <outline>
+    <contour>
+      <point x="-351" y="654" type="curve" smooth="yes"/>
+      <point x="-351" y="725"/>
+      <point x="-283" y="792"/>
+      <point x="-233" y="838" type="curve"/>
+      <point x="-216" y="822" type="line"/>
+      <point x="-247" y="786"/>
+      <point x="-271" y="748"/>
+      <point x="-271" y="710" type="curve" smooth="yes"/>
+      <point x="-271" y="673"/>
+      <point x="-238" y="652"/>
+      <point x="-238" y="616" type="curve" smooth="yes"/>
+      <point x="-238" y="589"/>
+      <point x="-256" y="568"/>
+      <point x="-286" y="568" type="curve" smooth="yes"/>
+      <point x="-319" y="568"/>
+      <point x="-351" y="600"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.hintData</key>
+      <dict>
+        <key>hhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>516</integer>
+            <key>width</key>
+            <integer>20</integer>
+          </dict>
+        </array>
+        <key>vhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>-604</integer>
+            <key>width</key>
+            <integer>80</integer>
+          </dict>
+        </array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

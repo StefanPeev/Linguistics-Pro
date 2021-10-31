@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni1E93" format="2">
+	<unicode hex="1E93"/>
+	<advance width="482"/>
+	<outline>
+		<component base="z"/>
+		<component base="dotbelowcomb" xOffset="451"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.fontlab.autolayer</key>
+			<true/>
+			<key>com.fontlab.hintData</key>
+			<dict>
+				<key>hhints</key>
+				<array>
+					<dict>
+						<key>position</key>
+						<integer>-210</integer>
+						<key>width</key>
+						<integer>113</integer>
+					</dict>
+					<dict>
+						<key>position</key>
+						<integer>0</integer>
+						<key>width</key>
+						<integer>35</integer>
+					</dict>
+					<dict>
+						<key>position</key>
+						<integer>455</integer>
+						<key>width</key>
+						<integer>35</integer>
+					</dict>
+				</array>
+				<key>vhints</key>
+				<array>
+					<dict>
+						<key>position</key>
+						<integer>61</integer>
+						<key>width</key>
+						<integer>31</integer>
+					</dict>
+					<dict>
+						<key>position</key>
+						<integer>180</integer>
+						<key>width</key>
+						<integer>120</integer>
+					</dict>
+					<dict>
+						<key>position</key>
+						<integer>431</integer>
+						<key>width</key>
+						<integer>31</integer>
+					</dict>
+				</array>
+			</dict>
+			<key>com.fontlab.recipe</key>
+			<string>z+dotbelowcomb</string>
+		</dict>
+	</lib>
+</glyph>

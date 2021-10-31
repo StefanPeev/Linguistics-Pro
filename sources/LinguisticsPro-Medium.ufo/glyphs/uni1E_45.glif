@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni1E45" format="2">
+	<unicode hex="1E45"/>
+	<advance width="625"/>
+	<outline>
+		<component base="n"/>
+		<component base="uni0307" xOffset="552.667"/>
+	</outline>
+	<anchor name="top" x="311.333" y="746.667"/>
+	<lib>
+		<dict>
+			<key>com.fontlab.autolayer</key>
+			<true/>
+			<key>com.fontlab.hintData</key>
+			<dict>
+				<key>hhints</key>
+				<array>
+					<dict>
+						<key>position</key>
+						<integer>0</integer>
+						<key>width</key>
+						<integer>29</integer>
+					</dict>
+					<dict>
+						<key>position</key>
+						<integer>448</integer>
+						<key>width</key>
+						<integer>54</integer>
+					</dict>
+					<dict>
+						<key>position</key>
+						<integer>570</integer>
+						<key>width</key>
+						<integer>113</integer>
+					</dict>
+				</array>
+				<key>vhints</key>
+				<array>
+					<dict>
+						<key>position</key>
+						<integer>107</integer>
+						<key>width</key>
+						<integer>94</integer>
+					</dict>
+					<dict>
+						<key>position</key>
+						<integer>258</integer>
+						<key>width</key>
+						<integer>120</integer>
+					</dict>
+					<dict>
+						<key>position</key>
+						<integer>435</integer>
+						<key>width</key>
+						<integer>94</integer>
+					</dict>
+				</array>
+			</dict>
+			<key>com.fontlab.recipe</key>
+			<string>n+uni0307</string>
+		</dict>
+	</lib>
+</glyph>

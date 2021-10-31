@@ -1,131 +1,82 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="uogonek" format="1">
-  <advance width="629"/>
-  <unicode hex="0173"/>
-  <outline>
-    <contour>
-      <point x="23" y="437" type="line"/>
-      <point x="23" y="473" type="line"/>
-      <point x="226" y="502" type="line"/>
-      <point x="233" y="496" type="line"/>
-      <point x="233" y="176" type="line" smooth="yes"/>
-      <point x="233" y="98"/>
-      <point x="264" y="67"/>
-      <point x="317" y="67" type="curve" smooth="yes"/>
-      <point x="361" y="67"/>
-      <point x="387" y="91"/>
-      <point x="396" y="114" type="curve" smooth="yes"/>
-      <point x="402" y="129"/>
-      <point x="404" y="153"/>
-      <point x="404" y="170" type="curve" smooth="yes"/>
-      <point x="404" y="381" type="line" smooth="yes"/>
-      <point x="404" y="421"/>
-      <point x="396" y="430"/>
-      <point x="380" y="432" type="curve" smooth="yes"/>
-      <point x="345" y="437" type="line"/>
-      <point x="345" y="473" type="line"/>
-      <point x="548" y="502" type="line"/>
-      <point x="555" y="496" type="line"/>
-      <point x="555" y="87" type="line" smooth="yes"/>
-      <point x="555" y="45"/>
-      <point x="563" y="41"/>
-      <point x="620" y="38" type="curve"/>
-      <point x="620" y="0" type="line"/>
-      <point x="412" y="0" type="line"/>
-      <point x="404" y="56" type="line"/>
-      <point x="364" y="34"/>
-      <point x="312" y="-12"/>
-      <point x="227" y="-12" type="curve" smooth="yes"/>
-      <point x="155" y="-12"/>
-      <point x="82" y="21"/>
-      <point x="82" y="138" type="curve" smooth="yes"/>
-      <point x="82" y="381" type="line" smooth="yes"/>
-      <point x="82" y="421"/>
-      <point x="74" y="430"/>
-      <point x="58" y="432" type="curve" smooth="yes"/>
-    </contour>
-    <contour>
-      <point x="330" y="-153" type="curve" smooth="yes"/>
-      <point x="330" y="-102"/>
-      <point x="385" y="-39"/>
-      <point x="451" y="-4" type="curve"/>
-      <point x="508" y="-4" type="line"/>
-      <point x="454" y="-48"/>
-      <point x="426" y="-94"/>
-      <point x="426" y="-134" type="curve" smooth="yes"/>
-      <point x="427" y="-174"/>
-      <point x="453" y="-196"/>
-      <point x="486" y="-196" type="curve" smooth="yes"/>
-      <point x="501" y="-196"/>
-      <point x="522" y="-191"/>
-      <point x="535" y="-183" type="curve"/>
-      <point x="550" y="-210" type="line"/>
-      <point x="513" y="-241"/>
-      <point x="476" y="-250"/>
-      <point x="445" y="-250" type="curve" smooth="yes"/>
-      <point x="342" y="-250"/>
-      <point x="330" y="-186"/>
-    </contour>
-  </outline>
-  <lib>
-    <dict>
-      <key>com.fontlab.hintData</key>
-      <dict>
-        <key>hhints</key>
-        <array>
-          <dict>
-            <key>position</key>
-            <integer>-250</integer>
-            <key>width</key>
-            <integer>54</integer>
-          </dict>
-          <dict>
-            <key>position</key>
-            <integer>-24</integer>
-            <key>width</key>
-            <integer>20</integer>
-          </dict>
-          <dict>
-            <key>position</key>
-            <integer>-12</integer>
-            <key>width</key>
-            <integer>79</integer>
-          </dict>
-          <dict>
-            <key>position</key>
-            <integer>0</integer>
-            <key>width</key>
-            <integer>38</integer>
-          </dict>
-          <dict>
-            <key>position</key>
-            <integer>437</integer>
-            <key>width</key>
-            <integer>36</integer>
-          </dict>
-        </array>
-        <key>vhints</key>
-        <array>
-          <dict>
-            <key>position</key>
-            <integer>82</integer>
-            <key>width</key>
-            <integer>151</integer>
-          </dict>
-          <dict>
-            <key>position</key>
-            <integer>330</integer>
-            <key>width</key>
-            <integer>96</integer>
-          </dict>
-          <dict>
-            <key>position</key>
-            <integer>404</integer>
-            <key>width</key>
-            <integer>151</integer>
-          </dict>
-        </array>
-      </dict>
-    </dict>
-  </lib>
+<glyph name="uogonek" format="2">
+	<unicode hex="0173"/>
+	<advance width="629"/>
+	<outline>
+		<component base="u"/>
+		<component base="uni0328" xOffset="721" yOffset="8"/>
+	</outline>
+	<anchor name="ogonek" x="545" y="18"/>
+	<anchor name="top" x="322" y="522"/>
+	<lib>
+		<dict>
+			<key>com.fontlab.autolayer</key>
+			<true/>
+			<key>com.fontlab.hintData</key>
+			<dict>
+				<key>hhints</key>
+				<array>
+					<dict>
+						<key>position</key>
+						<integer>-230</integer>
+						<key>width</key>
+						<integer>21</integer>
+					</dict>
+					<dict>
+						<key>position</key>
+						<integer>-20</integer>
+						<key>width</key>
+						<integer>20</integer>
+					</dict>
+					<dict>
+						<key>position</key>
+						<integer>-12</integer>
+						<key>width</key>
+						<integer>54</integer>
+					</dict>
+					<dict>
+						<key>position</key>
+						<integer>0</integer>
+						<key>width</key>
+						<integer>29</integer>
+					</dict>
+					<dict>
+						<key>position</key>
+						<integer>452</integer>
+						<key>width</key>
+						<integer>25</integer>
+					</dict>
+					<dict>
+						<key>position</key>
+						<integer>482</integer>
+						<key>width</key>
+						<integer>20</integer>
+					</dict>
+				</array>
+				<key>vhints</key>
+				<array>
+					<dict>
+						<key>position</key>
+						<integer>96</integer>
+						<key>width</key>
+						<integer>94</integer>
+					</dict>
+					<dict>
+						<key>position</key>
+						<integer>399</integer>
+						<key>width</key>
+						<integer>69</integer>
+					</dict>
+					<dict>
+						<key>position</key>
+						<integer>422</integer>
+						<key>width</key>
+						<integer>94</integer>
+					</dict>
+				</array>
+			</dict>
+			<key>com.fontlab.recipe</key>
+			<string>u+uni0328</string>
+		</dict>
+	</lib>
 </glyph>

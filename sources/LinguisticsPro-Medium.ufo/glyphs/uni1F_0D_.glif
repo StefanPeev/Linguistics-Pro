@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni1F0D" format="2">
+	<unicode hex="1F0D"/>
+	<advance width="638"/>
+	<outline>
+		<component base="Alpha"/>
+		<component base="uni1FDE" xyScale="0" xOffset="-197" yOffset="-46.3333"/>
+	</outline>
+	<anchor name="aring" x="312" y="666.667"/>
+	<anchor name="ogonek" x="518.667" y="10"/>
+	<anchor name="tonos" x="165.333" y="703.667"/>
+	<anchor name="top" x="313.333" y="736.667"/>
+	<lib>
+		<dict>
+			<key>com.fontlab.autolayer</key>
+			<true/>
+			<key>com.fontlab.hintData</key>
+			<dict>
+				<key>hhints</key>
+				<array>
+					<dict>
+						<key>position</key>
+						<integer>0</integer>
+						<key>width</key>
+						<integer>29</integer>
+					</dict>
+					<dict>
+						<key>position</key>
+						<integer>267</integer>
+						<key>width</key>
+						<integer>38</integer>
+					</dict>
+					<dict>
+						<key>position</key>
+						<integer>591</integer>
+						<key>width</key>
+						<integer>101</integer>
+					</dict>
+					<dict>
+						<key>position</key>
+						<integer>672</integer>
+						<key>width</key>
+						<integer>20</integer>
+					</dict>
+					<dict>
+						<key>position</key>
+						<integer>689</integer>
+						<key>width</key>
+						<integer>20</integer>
+					</dict>
+				</array>
+				<key>vhints</key>
+				<array>
+					<dict>
+						<key>position</key>
+						<integer>12</integer>
+						<key>width</key>
+						<integer>67</integer>
+					</dict>
+					<dict>
+						<key>position</key>
+						<integer>89</integer>
+						<key>width</key>
+						<integer>139</integer>
+					</dict>
+					<dict>
+						<key>position</key>
+						<integer>89</integer>
+						<key>width</key>
+						<integer>679</integer>
+					</dict>
+					<dict>
+						<key>position</key>
+						<integer>589</integer>
+						<key>width</key>
+						<integer>179</integer>
+					</dict>
+				</array>
+			</dict>
+			<key>com.fontlab.recipe</key>
+			<string>Alpha+uni1FDE</string>
+		</dict>
+	</lib>
+</glyph>

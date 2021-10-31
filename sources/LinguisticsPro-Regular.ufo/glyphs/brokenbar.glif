@@ -1,44 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="brokenbar" format="1">
-  <advance width="228"/>
-  <unicode hex="00A6"/>
-  <outline>
-    <contour>
-      <point x="80" y="-175" type="line"/>
-      <point x="80" y="175" type="line"/>
-      <point x="148" y="175" type="line"/>
-      <point x="148" y="-175" type="line"/>
-    </contour>
-    <contour>
-      <point x="80" y="325" type="line"/>
-      <point x="80" y="675" type="line"/>
-      <point x="148" y="675" type="line"/>
-      <point x="148" y="325" type="line"/>
-    </contour>
-  </outline>
-  <lib>
-    <dict>
-      <key>com.fontlab.hintData</key>
-      <dict>
-        <key>hhints</key>
-        <array>
-          <dict>
-            <key>position</key>
-            <integer>655</integer>
-            <key>width</key>
-            <integer>20</integer>
-          </dict>
-        </array>
-        <key>vhints</key>
-        <array>
-          <dict>
-            <key>position</key>
-            <integer>80</integer>
-            <key>width</key>
-            <integer>68</integer>
-          </dict>
-        </array>
-      </dict>
-    </dict>
-  </lib>
+<glyph name="brokenbar" format="2">
+	<unicode hex="00A6"/>
+	<advance width="228"/>
+	<outline>
+		<contour>
+			<point x="80" y="-175" type="line"/>
+			<point x="80" y="175" type="line"/>
+			<point x="148" y="175" type="line"/>
+			<point x="148" y="-175" type="line"/>
+		</contour>
+		<contour>
+			<point x="80" y="325" type="line"/>
+			<point x="80" y="675" type="line"/>
+			<point x="148" y="675" type="line"/>
+			<point x="148" y="325" type="line"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.fontlab.hintData</key>
+			<dict>
+				<key>hhints</key>
+				<array>
+					<dict>
+						<key>position</key>
+						<integer>655</integer>
+						<key>width</key>
+						<integer>20</integer>
+					</dict>
+				</array>
+				<key>vhints</key>
+				<array>
+					<dict>
+						<key>position</key>
+						<integer>80</integer>
+						<key>width</key>
+						<integer>68</integer>
+					</dict>
+				</array>
+			</dict>
+		</dict>
+	</lib>
 </glyph>

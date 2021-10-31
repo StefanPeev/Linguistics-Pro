@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni1FAB" format="2">
+	<unicode hex="1FAB"/>
+	<advance width="883"/>
+	<outline>
+		<component base="uni1F6B"/>
+		<component base="uni0345" xOffset="546.135"/>
+	</outline>
+	<anchor name="tonos" x="68" y="702"/>
+	<lib>
+		<dict>
+			<key>com.fontlab.autolayer</key>
+			<true/>
+			<key>com.fontlab.hintData</key>
+			<dict>
+				<key>hhints</key>
+				<array>
+					<dict>
+						<key>position</key>
+						<integer>-242</integer>
+						<key>width</key>
+						<integer>51</integer>
+					</dict>
+					<dict>
+						<key>position</key>
+						<integer>0</integer>
+						<key>width</key>
+						<integer>88</integer>
+					</dict>
+					<dict>
+						<key>position</key>
+						<integer>493</integer>
+						<key>width</key>
+						<integer>21</integer>
+					</dict>
+					<dict>
+						<key>position</key>
+						<integer>666</integer>
+						<key>width</key>
+						<integer>38</integer>
+					</dict>
+				</array>
+				<key>vhints</key>
+				<array>
+					<dict>
+						<key>position</key>
+						<integer>25</integer>
+						<key>width</key>
+						<integer>67</integer>
+					</dict>
+					<dict>
+						<key>position</key>
+						<integer>347</integer>
+						<key>width</key>
+						<integer>29</integer>
+					</dict>
+					<dict>
+						<key>position</key>
+						<integer>378</integer>
+						<key>width</key>
+						<integer>107</integer>
+					</dict>
+					<dict>
+						<key>position</key>
+						<integer>607</integer>
+						<key>width</key>
+						<integer>84</integer>
+					</dict>
+					<dict>
+						<key>position</key>
+						<integer>935</integer>
+						<key>width</key>
+						<integer>107</integer>
+					</dict>
+					<dict>
+						<key>position</key>
+						<integer>1044</integer>
+						<key>width</key>
+						<integer>29</integer>
+					</dict>
+				</array>
+			</dict>
+			<key>com.fontlab.recipe</key>
+			<string>uni1F6B+uni0345</string>
+		</dict>
+	</lib>
+</glyph>

@@ -1,66 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="quotedbl" format="1">
-  <advance width="458"/>
-  <unicode hex="0022"/>
-  <outline>
-    <contour>
-      <point x="101" y="703" type="curve" smooth="yes"/>
-      <point x="101" y="729"/>
-      <point x="115" y="742"/>
-      <point x="147" y="742" type="curve" smooth="yes"/>
-      <point x="179" y="742"/>
-      <point x="193" y="729"/>
-      <point x="193" y="703" type="curve" smooth="yes"/>
-      <point x="193" y="698"/>
-      <point x="193" y="694"/>
-      <point x="192" y="689" type="curve" smooth="yes"/>
-      <point x="157" y="464" type="line"/>
-      <point x="137" y="464" type="line"/>
-      <point x="102" y="689" type="line" smooth="yes"/>
-      <point x="101" y="694"/>
-      <point x="101" y="698"/>
-    </contour>
-    <contour>
-      <point x="266" y="703" type="curve" smooth="yes"/>
-      <point x="266" y="729"/>
-      <point x="280" y="742"/>
-      <point x="312" y="742" type="curve" smooth="yes"/>
-      <point x="344" y="742"/>
-      <point x="358" y="729"/>
-      <point x="358" y="703" type="curve" smooth="yes"/>
-      <point x="358" y="698"/>
-      <point x="358" y="694"/>
-      <point x="357" y="689" type="curve" smooth="yes"/>
-      <point x="322" y="464" type="line"/>
-      <point x="302" y="464" type="line"/>
-      <point x="267" y="689" type="line" smooth="yes"/>
-      <point x="266" y="694"/>
-      <point x="266" y="698"/>
-    </contour>
-  </outline>
-  <lib>
-    <dict>
-      <key>com.fontlab.hintData</key>
-      <dict>
-        <key>hhints</key>
-        <array>
-          <dict>
-            <key>position</key>
-            <integer>722</integer>
-            <key>width</key>
-            <integer>20</integer>
-          </dict>
-        </array>
-        <key>vhints</key>
-        <array>
-          <dict>
-            <key>position</key>
-            <integer>101</integer>
-            <key>width</key>
-            <integer>257</integer>
-          </dict>
-        </array>
-      </dict>
-    </dict>
-  </lib>
+<glyph name="quotedbl" format="2">
+	<unicode hex="0022"/>
+	<advance width="458"/>
+	<outline>
+		<component base="quotesingle" xOffset="7"/>
+		<component base="quotesingle" xOffset="172.4"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.fontlab.hintData</key>
+			<dict>
+				<key>hhints</key>
+				<array>
+					<dict>
+						<key>position</key>
+						<integer>722</integer>
+						<key>width</key>
+						<integer>20</integer>
+					</dict>
+				</array>
+				<key>vhints</key>
+				<array>
+					<dict>
+						<key>position</key>
+						<integer>101</integer>
+						<key>width</key>
+						<integer>257</integer>
+					</dict>
+				</array>
+			</dict>
+		</dict>
+	</lib>
 </glyph>

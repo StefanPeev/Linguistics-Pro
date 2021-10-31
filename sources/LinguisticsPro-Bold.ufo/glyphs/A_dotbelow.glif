@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Adotbelow" format="2">
+	<unicode hex="1EA0"/>
+	<advance width="644"/>
+	<outline>
+		<component base="A"/>
+		<component base="uni0323.cap" xOffset="537"/>
+	</outline>
+	<anchor name="aring" x="320" y="660"/>
+	<anchor name="ogonek" x="496" y="10"/>
+	<anchor name="tonos" x="156" y="707"/>
+	<anchor name="top" x="318" y="730"/>
+	<lib>
+		<dict>
+			<key>com.fontlab.autolayer</key>
+			<true/>
+			<key>com.fontlab.hintData</key>
+			<dict>
+				<key>hhints</key>
+				<array>
+					<dict>
+						<key>position</key>
+						<integer>-210</integer>
+						<key>width</key>
+						<integer>113</integer>
+					</dict>
+					<dict>
+						<key>position</key>
+						<integer>0</integer>
+						<key>width</key>
+						<integer>29</integer>
+					</dict>
+					<dict>
+						<key>position</key>
+						<integer>267</integer>
+						<key>width</key>
+						<integer>38</integer>
+					</dict>
+					<dict>
+						<key>position</key>
+						<integer>672</integer>
+						<key>width</key>
+						<integer>20</integer>
+					</dict>
+				</array>
+				<key>vhints</key>
+				<array>
+					<dict>
+						<key>position</key>
+						<integer>260</integer>
+						<key>width</key>
+						<integer>120</integer>
+					</dict>
+				</array>
+			</dict>
+			<key>com.fontlab.recipe</key>
+			<string>A+uni0323.cap</string>
+		</dict>
+	</lib>
+</glyph>

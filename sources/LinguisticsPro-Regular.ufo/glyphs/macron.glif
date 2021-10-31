@@ -1,38 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="macron" format="1">
-  <advance width="400"/>
-  <unicode hex="00AF"/>
-  <outline>
-    <contour>
-      <point x="56" y="597" type="line"/>
-      <point x="56" y="656" type="line"/>
-      <point x="344" y="656" type="line"/>
-      <point x="344" y="597" type="line"/>
-    </contour>
-  </outline>
-  <lib>
-    <dict>
-      <key>com.fontlab.hintData</key>
-      <dict>
-        <key>hhints</key>
-        <array>
-          <dict>
-            <key>position</key>
-            <integer>597</integer>
-            <key>width</key>
-            <integer>59</integer>
-          </dict>
-        </array>
-        <key>vhints</key>
-        <array>
-          <dict>
-            <key>position</key>
-            <integer>56</integer>
-            <key>width</key>
-            <integer>288</integer>
-          </dict>
-        </array>
-      </dict>
-    </dict>
-  </lib>
+<glyph name="macron" format="2">
+	<unicode hex="00AF"/>
+	<advance width="400"/>
+	<outline>
+		<contour>
+			<point x="200" y="656" type="line"/>
+			<point x="344" y="656" type="line"/>
+			<point x="344" y="597" type="line"/>
+			<point x="200" y="597" type="line"/>
+		</contour>
+		<contour>
+			<point x="200" y="597" type="line"/>
+			<point x="56" y="597" type="line"/>
+			<point x="56" y="656" type="line"/>
+			<point x="200" y="656" type="line"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.fontlab.hintData</key>
+			<dict>
+				<key>hhints</key>
+				<array>
+					<dict>
+						<key>position</key>
+						<integer>597</integer>
+						<key>width</key>
+						<integer>59</integer>
+					</dict>
+				</array>
+				<key>vhints</key>
+				<array>
+					<dict>
+						<key>position</key>
+						<integer>56</integer>
+						<key>width</key>
+						<integer>288</integer>
+					</dict>
+				</array>
+			</dict>
+		</dict>
+	</lib>
 </glyph>

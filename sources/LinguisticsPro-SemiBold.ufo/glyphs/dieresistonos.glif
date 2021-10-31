@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="dieresistonos" format="2">
+	<unicode hex="0385"/>
+	<advance width="420"/>
+	<outline>
+		<component base="dieresis"/>
+		<component base="acutecomb" xyScale="0" xOffset="463.333" yOffset="204.667"/>
+	</outline>
+	<anchor name="top" x="212" y="733.333"/>
+	<lib>
+		<dict>
+			<key>com.fontlab.autolayer</key>
+			<true/>
+			<key>com.fontlab.hintData</key>
+			<dict>
+				<key>hhints</key>
+				<array>
+					<dict>
+						<key>position</key>
+						<integer>570</integer>
+						<key>width</key>
+						<integer>113</integer>
+					</dict>
+					<dict>
+						<key>position</key>
+						<integer>703</integer>
+						<key>width</key>
+						<integer>181</integer>
+					</dict>
+				</array>
+				<key>vhints</key>
+				<array>
+					<dict>
+						<key>position</key>
+						<integer>70</integer>
+						<key>width</key>
+						<integer>120</integer>
+					</dict>
+					<dict>
+						<key>position</key>
+						<integer>169</integer>
+						<key>width</key>
+						<integer>222</integer>
+					</dict>
+					<dict>
+						<key>position</key>
+						<integer>278</integer>
+						<key>width</key>
+						<integer>120</integer>
+					</dict>
+				</array>
+			</dict>
+			<key>com.fontlab.recipe</key>
+			<string>dieresis+acutecomb</string>
+		</dict>
+	</lib>
+</glyph>

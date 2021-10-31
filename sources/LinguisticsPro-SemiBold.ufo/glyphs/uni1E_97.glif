@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni1E97" format="2">
+	<unicode hex="1E97"/>
+	<advance width="361"/>
+	<outline>
+		<component base="t"/>
+		<component base="uni0308" xOffset="396"/>
+	</outline>
+	<anchor name="top" x="181.333" y="733.333"/>
+	<lib>
+		<dict>
+			<key>com.fontlab.autolayer</key>
+			<true/>
+			<key>com.fontlab.hintData</key>
+			<dict>
+				<key>hhints</key>
+				<array>
+					<dict>
+						<key>position</key>
+						<integer>684</integer>
+						<key>width</key>
+						<integer>113</integer>
+					</dict>
+				</array>
+				<key>vhints</key>
+				<array>
+					<dict>
+						<key>position</key>
+						<integer>-14</integer>
+						<key>width</key>
+						<integer>120</integer>
+					</dict>
+					<dict>
+						<key>position</key>
+						<integer>194</integer>
+						<key>width</key>
+						<integer>120</integer>
+					</dict>
+				</array>
+			</dict>
+			<key>com.fontlab.recipe</key>
+			<string>t+uni0308</string>
+			<key>public.markColor</key>
+			<string>1,0.6,0.6,1</string>
+		</dict>
+	</lib>
+</glyph>

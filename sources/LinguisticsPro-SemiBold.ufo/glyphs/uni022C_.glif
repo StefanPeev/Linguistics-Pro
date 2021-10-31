@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni022C" format="2">
+	<unicode hex="022C"/>
+	<advance width="766"/>
+	<outline>
+		<component base="Otilde"/>
+		<component base="macron.cap" xOffset="179.398" yOffset="182"/>
+	</outline>
+	<anchor name="tonos" x="47.3333" y="702"/>
+	<anchor name="top" x="379.398" y="945.333"/>
+	<lib>
+		<dict>
+			<key>com.fontlab.autolayer</key>
+			<true/>
+			<key>com.fontlab.hintData</key>
+			<dict>
+				<key>hhints</key>
+				<array>
+					<dict>
+						<key>position</key>
+						<integer>736</integer>
+						<key>width</key>
+						<integer>60</integer>
+					</dict>
+					<dict>
+						<key>position</key>
+						<integer>774</integer>
+						<key>width</key>
+						<integer>60</integer>
+					</dict>
+					<dict>
+						<key>position</key>
+						<integer>902</integer>
+						<key>width</key>
+						<integer>59</integer>
+					</dict>
+				</array>
+				<key>vhints</key>
+				<array>
+					<dict>
+						<key>position</key>
+						<integer>380</integer>
+						<key>width</key>
+						<integer>316</integer>
+					</dict>
+				</array>
+			</dict>
+			<key>com.fontlab.recipe</key>
+			<string>Otilde+macron.cap</string>
+		</dict>
+	</lib>
+</glyph>

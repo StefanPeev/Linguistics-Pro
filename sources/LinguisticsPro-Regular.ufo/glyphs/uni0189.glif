@@ -1,98 +1,55 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="uni0189" format="1">
-  <advance width="785"/>
-  <unicode hex="0189"/>
-  <outline>
-    <contour>
-      <point x="20" y="341" type="line"/>
-      <point x="20" y="379" type="line"/>
-      <point x="131" y="379" type="line"/>
-      <point x="131" y="599" type="line" smooth="yes"/>
-      <point x="131" y="655"/>
-      <point x="129" y="657"/>
-      <point x="41" y="663" type="curve"/>
-      <point x="41" y="692" type="line"/>
-      <point x="373" y="692" type="line" smooth="yes"/>
-      <point x="493" y="691"/>
-      <point x="582" y="666"/>
-      <point x="647" y="605" type="curve" smooth="yes"/>
-      <point x="708" y="546"/>
-      <point x="737" y="459"/>
-      <point x="737" y="358" type="curve" smooth="yes"/>
-      <point x="737" y="208"/>
-      <point x="681" y="115"/>
-      <point x="607" y="64" type="curve" smooth="yes"/>
-      <point x="533" y="13"/>
-      <point x="442" y="0"/>
-      <point x="353" y="0" type="curve" smooth="yes"/>
-      <point x="41" y="0" type="line"/>
-      <point x="41" y="29" type="line"/>
-      <point x="129" y="35"/>
-      <point x="131" y="37"/>
-      <point x="131" y="93" type="curve" smooth="yes"/>
-      <point x="131" y="341" type="line"/>
-    </contour>
-    <contour>
-      <point x="230" y="125" type="line" smooth="yes"/>
-      <point x="230" y="46"/>
-      <point x="247" y="35"/>
-      <point x="334" y="35" type="curve" smooth="yes"/>
-      <point x="502" y="35"/>
-      <point x="625" y="102"/>
-      <point x="625" y="354" type="curve" smooth="yes"/>
-      <point x="625" y="523"/>
-      <point x="561" y="653"/>
-      <point x="346" y="657" type="curve" smooth="yes"/>
-      <point x="239" y="657"/>
-      <point x="230" y="652"/>
-      <point x="230" y="600" type="curve" smooth="yes"/>
-      <point x="230" y="379" type="line"/>
-      <point x="368" y="379" type="line"/>
-      <point x="368" y="341" type="line"/>
-      <point x="230" y="341" type="line"/>
-    </contour>
-  </outline>
-  <lib>
-    <dict>
-      <key>com.fontlab.hintData</key>
-      <dict>
-        <key>hhints</key>
-        <array>
-          <dict>
-            <key>position</key>
-            <integer>0</integer>
-            <key>width</key>
-            <integer>35</integer>
-          </dict>
-          <dict>
-            <key>position</key>
-            <integer>341</integer>
-            <key>width</key>
-            <integer>38</integer>
-          </dict>
-          <dict>
-            <key>position</key>
-            <integer>657</integer>
-            <key>width</key>
-            <integer>35</integer>
-          </dict>
-        </array>
-        <key>vhints</key>
-        <array>
-          <dict>
-            <key>position</key>
-            <integer>131</integer>
-            <key>width</key>
-            <integer>99</integer>
-          </dict>
-          <dict>
-            <key>position</key>
-            <integer>625</integer>
-            <key>width</key>
-            <integer>112</integer>
-          </dict>
-        </array>
-      </dict>
-    </dict>
-  </lib>
+<glyph name="uni0189" format="2">
+	<unicode hex="0189"/>
+	<advance width="785"/>
+	<outline>
+		<component base="Dcroat"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.fontlab.autolayer</key>
+			<true/>
+			<key>com.fontlab.hintData</key>
+			<dict>
+				<key>hhints</key>
+				<array>
+					<dict>
+						<key>position</key>
+						<integer>0</integer>
+						<key>width</key>
+						<integer>35</integer>
+					</dict>
+					<dict>
+						<key>position</key>
+						<integer>341</integer>
+						<key>width</key>
+						<integer>38</integer>
+					</dict>
+					<dict>
+						<key>position</key>
+						<integer>657</integer>
+						<key>width</key>
+						<integer>35</integer>
+					</dict>
+				</array>
+				<key>vhints</key>
+				<array>
+					<dict>
+						<key>position</key>
+						<integer>131</integer>
+						<key>width</key>
+						<integer>99</integer>
+					</dict>
+					<dict>
+						<key>position</key>
+						<integer>625</integer>
+						<key>width</key>
+						<integer>112</integer>
+					</dict>
+				</array>
+			</dict>
+			<key>com.fontlab.recipe</key>
+			<string>Dcroat</string>
+		</dict>
+	</lib>
 </glyph>

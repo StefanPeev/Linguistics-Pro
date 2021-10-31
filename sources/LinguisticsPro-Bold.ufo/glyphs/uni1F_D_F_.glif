@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni1FDF" format="2">
+	<unicode hex="1FDF"/>
+	<advance width="336"/>
+	<outline>
+		<component base="uni1FFE"/>
+		<component base="uni1FC0" xOffset="-54.5401" yOffset="247.834"/>
+	</outline>
+	<anchor name="_tonos" x="339" y="770"/>
+	<guideline x="0" y="850" angle="0"/>
+	<lib>
+		<dict>
+			<key>com.fontlab.hintData</key>
+			<dict>
+				<key>hhints</key>
+				<array>
+					<dict>
+						<key>position</key>
+						<integer>731</integer>
+						<key>width</key>
+						<integer>20</integer>
+					</dict>
+				</array>
+				<key>vhints</key>
+				<array>
+					<dict>
+						<key>position</key>
+						<integer>89</integer>
+						<key>width</key>
+						<integer>67</integer>
+					</dict>
+				</array>
+			</dict>
+			<key>com.fontlab.recipe</key>
+			<string>uni1FFE+uni1FC0</string>
+		</dict>
+	</lib>
+</glyph>

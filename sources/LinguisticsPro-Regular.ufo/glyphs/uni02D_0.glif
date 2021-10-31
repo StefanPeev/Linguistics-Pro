@@ -1,50 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="uni02D0" format="1">
-  <advance width="265"/>
-  <unicode hex="02D0"/>
-  <outline>
-    <contour>
-      <point x="65" y="0" type="line"/>
-      <point x="132" y="137" type="line"/>
-      <point x="133" y="137" type="line"/>
-      <point x="200" y="0" type="line"/>
-    </contour>
-    <contour>
-      <point x="65" y="490" type="line"/>
-      <point x="200" y="490" type="line"/>
-      <point x="133" y="353" type="line"/>
-      <point x="132" y="353" type="line"/>
-    </contour>
-  </outline>
-  <lib>
-    <dict>
-      <key>com.fontlab.hintData</key>
-      <dict>
-        <key>hhints</key>
-        <array>
-          <dict>
-            <key>position</key>
-            <integer>0</integer>
-            <key>width</key>
-            <integer>21</integer>
-          </dict>
-          <dict>
-            <key>position</key>
-            <integer>470</integer>
-            <key>width</key>
-            <integer>20</integer>
-          </dict>
-        </array>
-        <key>vhints</key>
-        <array>
-          <dict>
-            <key>position</key>
-            <integer>65</integer>
-            <key>width</key>
-            <integer>135</integer>
-          </dict>
-        </array>
-      </dict>
-    </dict>
-  </lib>
+<glyph name="uni02D0" format="2">
+	<unicode hex="02D0"/>
+	<advance width="265"/>
+	<outline>
+		<component base="uni02D1"/>
+		<component base="uni02D1" yScale="-1" yOffset="490"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.fontlab.hintData</key>
+			<dict>
+				<key>hhints</key>
+				<array>
+					<dict>
+						<key>position</key>
+						<integer>0</integer>
+						<key>width</key>
+						<integer>21</integer>
+					</dict>
+					<dict>
+						<key>position</key>
+						<integer>470</integer>
+						<key>width</key>
+						<integer>20</integer>
+					</dict>
+				</array>
+				<key>vhints</key>
+				<array>
+					<dict>
+						<key>position</key>
+						<integer>65</integer>
+						<key>width</key>
+						<integer>135</integer>
+					</dict>
+				</array>
+			</dict>
+		</dict>
+	</lib>
 </glyph>

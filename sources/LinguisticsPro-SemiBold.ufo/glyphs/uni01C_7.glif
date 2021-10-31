@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni01C7" format="2">
+	<unicode hex="01C7"/>
+	<advance width="953"/>
+	<outline>
+		<component base="L"/>
+		<component base="J" xOffset="579.333"/>
+	</outline>
+	<anchor name="dot" x="377.333" y="387"/>
+	<anchor name="quote" x="525" y="742"/>
+	<lib>
+		<dict>
+			<key>com.fontlab.autolayer</key>
+			<true/>
+			<key>com.fontlab.hintData</key>
+			<dict>
+				<key>hhints</key>
+				<array>
+					<dict>
+						<key>position</key>
+						<integer>0</integer>
+						<key>width</key>
+						<integer>35</integer>
+					</dict>
+					<dict>
+						<key>position</key>
+						<integer>663</integer>
+						<key>width</key>
+						<integer>29</integer>
+					</dict>
+				</array>
+				<key>vhints</key>
+				<array>
+					<dict>
+						<key>position</key>
+						<integer>125</integer>
+						<key>width</key>
+						<integer>99</integer>
+					</dict>
+					<dict>
+						<key>position</key>
+						<integer>536</integer>
+						<key>width</key>
+						<integer>30</integer>
+					</dict>
+					<dict>
+						<key>position</key>
+						<integer>702</integer>
+						<key>width</key>
+						<integer>99</integer>
+					</dict>
+				</array>
+			</dict>
+			<key>com.fontlab.recipe</key>
+			<string>L_J</string>
+		</dict>
+	</lib>
+</glyph>

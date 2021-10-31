@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Jcircumflex" format="2">
+	<unicode hex="0134"/>
+	<advance width="362"/>
+	<outline>
+		<component base="J"/>
+		<component base="uni0302" xOffset="480" yOffset="202"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.fontlab.autolayer</key>
+			<true/>
+			<key>com.fontlab.hintData</key>
+			<dict>
+				<key>hhints</key>
+				<array>
+					<dict>
+						<key>position</key>
+						<integer>792</integer>
+						<key>width</key>
+						<integer>84</integer>
+					</dict>
+				</array>
+				<key>vhints</key>
+				<array>
+					<dict>
+						<key>position</key>
+						<integer>31</integer>
+						<key>width</key>
+						<integer>306</integer>
+					</dict>
+				</array>
+			</dict>
+			<key>com.fontlab.recipe</key>
+			<string>J+uni0302</string>
+		</dict>
+	</lib>
+</glyph>

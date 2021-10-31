@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni01F9" format="2">
+	<unicode hex="01F9"/>
+	<advance width="625"/>
+	<outline>
+		<component base="n"/>
+		<component base="gravecomb" xOffset="557.333"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.fontlab.autolayer</key>
+			<true/>
+			<key>com.fontlab.hintData</key>
+			<dict>
+				<key>hhints</key>
+				<array>
+					<dict>
+						<key>position</key>
+						<integer>542</integer>
+						<key>width</key>
+						<integer>181</integer>
+					</dict>
+				</array>
+				<key>vhints</key>
+				<array>
+					<dict>
+						<key>position</key>
+						<integer>157</integer>
+						<key>width</key>
+						<integer>222</integer>
+					</dict>
+				</array>
+			</dict>
+			<key>com.fontlab.recipe</key>
+			<string>n+gravecomb</string>
+		</dict>
+	</lib>
+</glyph>

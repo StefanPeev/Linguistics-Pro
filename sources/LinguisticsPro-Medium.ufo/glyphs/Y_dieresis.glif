@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Ydieresis" format="2">
+	<unicode hex="0178"/>
+	<advance width="598"/>
+	<outline>
+		<component base="Y"/>
+		<component base="dieresis.cap" xOffset="93.1667"/>
+	</outline>
+	<anchor name="tonos" x="-39.3333" y="702"/>
+	<anchor name="top" x="298.833" y="913.333"/>
+	<lib>
+		<dict>
+			<key>com.fontlab.autolayer</key>
+			<true/>
+			<key>com.fontlab.hintData</key>
+			<dict>
+				<key>hhints</key>
+				<array>
+					<dict>
+						<key>position</key>
+						<integer>732</integer>
+						<key>width</key>
+						<integer>109</integer>
+					</dict>
+				</array>
+				<key>vhints</key>
+				<array>
+					<dict>
+						<key>position</key>
+						<integer>150</integer>
+						<key>width</key>
+						<integer>116</integer>
+					</dict>
+					<dict>
+						<key>position</key>
+						<integer>358</integer>
+						<key>width</key>
+						<integer>116</integer>
+					</dict>
+				</array>
+			</dict>
+			<key>com.fontlab.recipe</key>
+			<string>Y+dieresis.cap</string>
+		</dict>
+	</lib>
+</glyph>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="zetailcyr" format="2">
+	<unicode hex="0499"/>
+	<advance width="519"/>
+	<outline>
+		<component base="uni0437"/>
+		<contour>
+			<point x="334.667" y="-4" type="line"/>
+			<point x="303.333" y="-33.6667"/>
+			<point x="282" y="-61.3333"/>
+			<point x="272.333" y="-168" type="curve"/>
+			<point x="236.333" y="-168" type="line"/>
+			<point x="226" y="-45"/>
+			<point x="190" y="-19"/>
+			<point x="162.333" y="-3.33333" type="curve"/>
+			<point x="162.027" y="26.5724" type="line"/>
+			<point x="334.702" y="26.8555" type="line"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.fontlab.recipe</key>
+			<string>uni0437+uni0329</string>
+			<key>public.markColor</key>
+			<string>0.604,0.6,1,1</string>
+		</dict>
+	</lib>
+</glyph>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Lcaron" format="2">
+	<unicode hex="013D"/>
+	<advance width="843"/>
+	<outline>
+		<component base="L"/>
+		<component base="quoteright" xyScale="0" xOffset="374" yOffset="11.6667"/>
+	</outline>
+	<anchor name="dot" x="379.667" y="383"/>
+	<anchor name="quote" x="511" y="742"/>
+	<lib>
+		<dict>
+			<key>com.fontlab.autolayer</key>
+			<true/>
+			<key>com.fontlab.hintData</key>
+			<dict>
+				<key>hhints</key>
+				<array>
+					<dict>
+						<key>position</key>
+						<integer>548</integer>
+						<key>width</key>
+						<integer>242</integer>
+					</dict>
+				</array>
+				<key>vhints</key>
+				<array>
+					<dict>
+						<key>position</key>
+						<integer>407</integer>
+						<key>width</key>
+						<integer>73</integer>
+					</dict>
+				</array>
+			</dict>
+			<key>com.fontlab.recipe</key>
+			<string>L_quoteright</string>
+		</dict>
+	</lib>
+</glyph>

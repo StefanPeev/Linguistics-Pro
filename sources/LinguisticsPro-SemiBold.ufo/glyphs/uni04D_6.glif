@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni04D6" format="2">
+	<unicode hex="04D6"/>
+	<advance width="621"/>
+	<outline>
+		<component base="uni0415"/>
+		<component base="uni0306" xOffset="607.333" yOffset="202"/>
+	</outline>
+	<anchor name="ogonek" x="479.667" y="10"/>
+	<anchor name="tonos" x="-1.33333" y="703.667"/>
+	<lib>
+		<dict>
+			<key>com.fontlab.autolayer</key>
+			<true/>
+			<key>com.fontlab.hintData</key>
+			<dict>
+				<key>hhints</key>
+				<array>
+					<dict>
+						<key>position</key>
+						<integer>749</integer>
+						<key>width</key>
+						<integer>62</integer>
+					</dict>
+				</array>
+				<key>vhints</key>
+				<array>
+					<dict>
+						<key>position</key>
+						<integer>156</integer>
+						<key>width</key>
+						<integer>28</integer>
+					</dict>
+					<dict>
+						<key>position</key>
+						<integer>428</integer>
+						<key>width</key>
+						<integer>28</integer>
+					</dict>
+				</array>
+			</dict>
+			<key>com.fontlab.recipe</key>
+			<string>uni0415+uni0306</string>
+		</dict>
+	</lib>
+</glyph>

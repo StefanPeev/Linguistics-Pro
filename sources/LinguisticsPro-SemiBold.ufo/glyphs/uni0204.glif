@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni0204" format="2">
+	<unicode hex="0204"/>
+	<advance width="621"/>
+	<outline>
+		<component base="E"/>
+		<component base="uni030F.cap" xOffset="495.833"/>
+	</outline>
+	<anchor name="ogonek" x="479.667" y="10"/>
+	<anchor name="tonos" x="-1.33333" y="703.667"/>
+	<lib>
+		<dict>
+			<key>com.fontlab.autolayer</key>
+			<true/>
+			<key>com.fontlab.hintData</key>
+			<dict>
+				<key>hhints</key>
+				<array>
+					<dict>
+						<key>position</key>
+						<integer>0</integer>
+						<key>width</key>
+						<integer>35</integer>
+					</dict>
+					<dict>
+						<key>position</key>
+						<integer>341</integer>
+						<key>width</key>
+						<integer>38</integer>
+					</dict>
+					<dict>
+						<key>position</key>
+						<integer>657</integer>
+						<key>width</key>
+						<integer>35</integer>
+					</dict>
+					<dict>
+						<key>position</key>
+						<integer>744</integer>
+						<key>width</key>
+						<integer>150</integer>
+					</dict>
+				</array>
+				<key>vhints</key>
+				<array>
+					<dict>
+						<key>position</key>
+						<integer>125</integer>
+						<key>width</key>
+						<integer>99</integer>
+					</dict>
+					<dict>
+						<key>position</key>
+						<integer>462</integer>
+						<key>width</key>
+						<integer>30</integer>
+					</dict>
+					<dict>
+						<key>position</key>
+						<integer>510</integer>
+						<key>width</key>
+						<integer>30</integer>
+					</dict>
+					<dict>
+						<key>position</key>
+						<integer>547</integer>
+						<key>width</key>
+						<integer>30</integer>
+					</dict>
+				</array>
+			</dict>
+			<key>com.fontlab.recipe</key>
+			<string>E+uni030F.cap</string>
+		</dict>
+	</lib>
+</glyph>

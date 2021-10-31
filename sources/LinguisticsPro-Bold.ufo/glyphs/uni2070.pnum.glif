@@ -1,71 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="uni2070.pnum" format="1">
-  <advance width="390"/>
-  <outline>
-    <contour>
-      <point x="19" y="608" type="curve" smooth="yes"/>
-      <point x="19" y="726"/>
-      <point x="62" y="816"/>
-      <point x="195" y="816" type="curve" smooth="yes"/>
-      <point x="328" y="816"/>
-      <point x="371" y="726"/>
-      <point x="371" y="608" type="curve" smooth="yes"/>
-      <point x="371" y="490"/>
-      <point x="328" y="401"/>
-      <point x="195" y="401" type="curve" smooth="yes"/>
-      <point x="62" y="401"/>
-      <point x="19" y="490"/>
-    </contour>
-    <contour>
-      <point x="146" y="608" type="curve" smooth="yes"/>
-      <point x="146" y="543"/>
-      <point x="147" y="439"/>
-      <point x="195" y="439" type="curve" smooth="yes"/>
-      <point x="243" y="439"/>
-      <point x="244" y="543"/>
-      <point x="244" y="608" type="curve" smooth="yes"/>
-      <point x="244" y="673"/>
-      <point x="243" y="778"/>
-      <point x="195" y="778" type="curve" smooth="yes"/>
-      <point x="147" y="778"/>
-      <point x="146" y="673"/>
-    </contour>
-  </outline>
-  <lib>
-    <dict>
-      <key>com.fontlab.hintData</key>
-      <dict>
-        <key>hhints</key>
-        <array>
-          <dict>
-            <key>position</key>
-            <integer>401</integer>
-            <key>width</key>
-            <integer>38</integer>
-          </dict>
-          <dict>
-            <key>position</key>
-            <integer>778</integer>
-            <key>width</key>
-            <integer>38</integer>
-          </dict>
-        </array>
-        <key>vhints</key>
-        <array>
-          <dict>
-            <key>position</key>
-            <integer>19</integer>
-            <key>width</key>
-            <integer>127</integer>
-          </dict>
-          <dict>
-            <key>position</key>
-            <integer>244</integer>
-            <key>width</key>
-            <integer>127</integer>
-          </dict>
-        </array>
-      </dict>
-    </dict>
-  </lib>
+<glyph name="uni2070.pnum" format="2">
+	<advance width="402"/>
+	<outline>
+		<component base="uni2070"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.fontlab.autolayer</key>
+			<true/>
+			<key>com.fontlab.recipe</key>
+			<string>uni2070</string>
+		</dict>
+	</lib>
 </glyph>

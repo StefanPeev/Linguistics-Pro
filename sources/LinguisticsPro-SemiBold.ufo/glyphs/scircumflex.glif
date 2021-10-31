@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="scircumflex" format="2">
+	<unicode hex="015D"/>
+	<advance width="443"/>
+	<outline>
+		<component base="s"/>
+		<component base="uni0302" xOffset="520.333"/>
+	</outline>
+	<anchor name="cedilla" x="226" y="0"/>
+	<lib>
+		<dict>
+			<key>com.fontlab.autolayer</key>
+			<true/>
+			<key>com.fontlab.hintData</key>
+			<dict>
+				<key>hhints</key>
+				<array>
+					<dict>
+						<key>position</key>
+						<integer>-12</integer>
+						<key>width</key>
+						<integer>35</integer>
+					</dict>
+					<dict>
+						<key>position</key>
+						<integer>467</integer>
+						<key>width</key>
+						<integer>35</integer>
+					</dict>
+					<dict>
+						<key>position</key>
+						<integer>541</integer>
+						<key>width</key>
+						<integer>20</integer>
+					</dict>
+					<dict>
+						<key>position</key>
+						<integer>633</integer>
+						<key>width</key>
+						<integer>87</integer>
+					</dict>
+				</array>
+				<key>vhints</key>
+				<array>
+					<dict>
+						<key>position</key>
+						<integer>47</integer>
+						<key>width</key>
+						<integer>29</integer>
+					</dict>
+					<dict>
+						<key>position</key>
+						<integer>56</integer>
+						<key>width</key>
+						<integer>80</integer>
+					</dict>
+					<dict>
+						<key>position</key>
+						<integer>84</integer>
+						<key>width</key>
+						<integer>306</integer>
+					</dict>
+					<dict>
+						<key>position</key>
+						<integer>315</integer>
+						<key>width</key>
+						<integer>85</integer>
+					</dict>
+					<dict>
+						<key>position</key>
+						<integer>338</integer>
+						<key>width</key>
+						<integer>29</integer>
+					</dict>
+				</array>
+			</dict>
+			<key>com.fontlab.recipe</key>
+			<string>s+uni0302</string>
+		</dict>
+	</lib>
+</glyph>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ucaron" format="2">
+	<unicode hex="01D4"/>
+	<advance width="614"/>
+	<outline>
+		<component base="u"/>
+		<component base="caron" xOffset="101.833"/>
+	</outline>
+	<anchor name="ogonek" x="527.667" y="12.6667"/>
+	<anchor name="top" x="314" y="535.333"/>
+	<lib>
+		<dict>
+			<key>com.fontlab.autolayer</key>
+			<true/>
+			<key>com.fontlab.hintData</key>
+			<dict>
+				<key>hhints</key>
+				<array>
+					<dict>
+						<key>position</key>
+						<integer>-12</integer>
+						<key>width</key>
+						<integer>54</integer>
+					</dict>
+					<dict>
+						<key>position</key>
+						<integer>0</integer>
+						<key>width</key>
+						<integer>29</integer>
+					</dict>
+					<dict>
+						<key>position</key>
+						<integer>452</integer>
+						<key>width</key>
+						<integer>25</integer>
+					</dict>
+					<dict>
+						<key>position</key>
+						<integer>482</integer>
+						<key>width</key>
+						<integer>20</integer>
+					</dict>
+					<dict>
+						<key>position</key>
+						<integer>541</integer>
+						<key>width</key>
+						<integer>87</integer>
+					</dict>
+					<dict>
+						<key>position</key>
+						<integer>679</integer>
+						<key>width</key>
+						<integer>20</integer>
+					</dict>
+					<dict>
+						<key>position</key>
+						<integer>700</integer>
+						<key>width</key>
+						<integer>20</integer>
+					</dict>
+				</array>
+				<key>vhints</key>
+				<array>
+					<dict>
+						<key>position</key>
+						<integer>96</integer>
+						<key>width</key>
+						<integer>94</integer>
+					</dict>
+					<dict>
+						<key>position</key>
+						<integer>153</integer>
+						<key>width</key>
+						<integer>306</integer>
+					</dict>
+					<dict>
+						<key>position</key>
+						<integer>422</integer>
+						<key>width</key>
+						<integer>94</integer>
+					</dict>
+				</array>
+			</dict>
+			<key>com.fontlab.recipe</key>
+			<string>u+caron</string>
+		</dict>
+	</lib>
+</glyph>

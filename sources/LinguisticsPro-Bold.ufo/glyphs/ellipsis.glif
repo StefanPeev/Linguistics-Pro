@@ -1,86 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="ellipsis" format="1">
-  <advance width="1000"/>
-  <unicode hex="2026"/>
-  <outline>
-    <contour>
-      <point x="74" y="81" type="curve" smooth="yes"/>
-      <point x="74" y="136"/>
-      <point x="112" y="174"/>
-      <point x="167" y="174" type="curve" smooth="yes"/>
-      <point x="222" y="174"/>
-      <point x="260" y="136"/>
-      <point x="260" y="81" type="curve" smooth="yes"/>
-      <point x="260" y="26"/>
-      <point x="222" y="-12"/>
-      <point x="167" y="-12" type="curve" smooth="yes"/>
-      <point x="112" y="-12"/>
-      <point x="74" y="26"/>
-    </contour>
-    <contour>
-      <point x="407" y="81" type="curve" smooth="yes"/>
-      <point x="407" y="136"/>
-      <point x="445" y="174"/>
-      <point x="500" y="174" type="curve" smooth="yes"/>
-      <point x="555" y="174"/>
-      <point x="593" y="136"/>
-      <point x="593" y="81" type="curve" smooth="yes"/>
-      <point x="593" y="26"/>
-      <point x="555" y="-12"/>
-      <point x="500" y="-12" type="curve" smooth="yes"/>
-      <point x="445" y="-12"/>
-      <point x="407" y="26"/>
-    </contour>
-    <contour>
-      <point x="740" y="81" type="curve" smooth="yes"/>
-      <point x="740" y="136"/>
-      <point x="778" y="174"/>
-      <point x="833" y="174" type="curve" smooth="yes"/>
-      <point x="888" y="174"/>
-      <point x="926" y="136"/>
-      <point x="926" y="81" type="curve" smooth="yes"/>
-      <point x="926" y="26"/>
-      <point x="888" y="-12"/>
-      <point x="833" y="-12" type="curve" smooth="yes"/>
-      <point x="778" y="-12"/>
-      <point x="740" y="26"/>
-    </contour>
-  </outline>
-  <lib>
-    <dict>
-      <key>com.fontlab.hintData</key>
-      <dict>
-        <key>hhints</key>
-        <array>
-          <dict>
-            <key>position</key>
-            <integer>-12</integer>
-            <key>width</key>
-            <integer>186</integer>
-          </dict>
-        </array>
-        <key>vhints</key>
-        <array>
-          <dict>
-            <key>position</key>
-            <integer>75</integer>
-            <key>width</key>
-            <integer>184</integer>
-          </dict>
-          <dict>
-            <key>position</key>
-            <integer>408</integer>
-            <key>width</key>
-            <integer>184</integer>
-          </dict>
-          <dict>
-            <key>position</key>
-            <integer>741</integer>
-            <key>width</key>
-            <integer>184</integer>
-          </dict>
-        </array>
-      </dict>
-    </dict>
-  </lib>
+<glyph name="ellipsis" format="2">
+	<unicode hex="2026"/>
+	<advance width="1000"/>
+	<outline>
+		<component base="onedotenleader" xOffset="723"/>
+		<component base="onedotenleader" xOffset="390"/>
+		<component base="onedotenleader" xOffset="57"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.fontlab.hintData</key>
+			<dict>
+				<key>hhints</key>
+				<array>
+					<dict>
+						<key>position</key>
+						<integer>-12</integer>
+						<key>width</key>
+						<integer>128</integer>
+					</dict>
+				</array>
+				<key>vhints</key>
+				<array>
+					<dict>
+						<key>position</key>
+						<integer>104</integer>
+						<key>width</key>
+						<integer>126</integer>
+					</dict>
+					<dict>
+						<key>position</key>
+						<integer>437</integer>
+						<key>width</key>
+						<integer>126</integer>
+					</dict>
+					<dict>
+						<key>position</key>
+						<integer>770</integer>
+						<key>width</key>
+						<integer>126</integer>
+					</dict>
+				</array>
+			</dict>
+		</dict>
+	</lib>
 </glyph>

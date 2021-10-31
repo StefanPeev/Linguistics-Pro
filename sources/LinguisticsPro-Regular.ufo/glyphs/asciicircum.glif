@@ -1,32 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="asciicircum" format="1">
-  <advance width="570"/>
-  <unicode hex="005E"/>
-  <outline>
-    <contour>
-      <point x="56" y="228" type="line"/>
-      <point x="252" y="668" type="line"/>
-      <point x="323" y="668" type="line"/>
-      <point x="514" y="228" type="line"/>
-      <point x="443" y="228" type="line"/>
-      <point x="287" y="599" type="line"/>
-      <point x="127" y="228" type="line"/>
-    </contour>
-  </outline>
-  <lib>
-    <dict>
-      <key>com.fontlab.hintData</key>
-      <dict>
-        <key>hhints</key>
-        <array>
-          <dict>
-            <key>position</key>
-            <integer>648</integer>
-            <key>width</key>
-            <integer>20</integer>
-          </dict>
-        </array>
-      </dict>
-    </dict>
-  </lib>
+<glyph name="asciicircum" format="2">
+	<unicode hex="005E"/>
+	<advance width="570"/>
+	<outline>
+		<contour>
+			<point x="56" y="228" type="line"/>
+			<point x="252" y="668" type="line"/>
+			<point x="323" y="668" type="line"/>
+			<point x="514" y="228" type="line"/>
+			<point x="443" y="228" type="line"/>
+			<point x="287" y="599" type="line"/>
+			<point x="127" y="228" type="line"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.fontlab.hintData</key>
+			<dict>
+				<key>hhints</key>
+				<array>
+					<dict>
+						<key>position</key>
+						<integer>648</integer>
+						<key>width</key>
+						<integer>20</integer>
+					</dict>
+				</array>
+			</dict>
+		</dict>
+	</lib>
 </glyph>

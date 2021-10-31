@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni1E09" format="2">
+	<unicode hex="1E09"/>
+	<advance width="495"/>
+	<outline>
+		<component base="ccedilla"/>
+		<component base="acutecomb" xOffset="417.333"/>
+	</outline>
+	<anchor name="cedilla" x="275" y="0"/>
+	<lib>
+		<dict>
+			<key>com.fontlab.autolayer</key>
+			<true/>
+			<key>com.fontlab.hintData</key>
+			<dict>
+				<key>hhints</key>
+				<array>
+					<dict>
+						<key>position</key>
+						<integer>542</integer>
+						<key>width</key>
+						<integer>181</integer>
+					</dict>
+				</array>
+				<key>vhints</key>
+				<array>
+					<dict>
+						<key>position</key>
+						<integer>211</integer>
+						<key>width</key>
+						<integer>222</integer>
+					</dict>
+				</array>
+			</dict>
+			<key>com.fontlab.recipe</key>
+			<string>ccedilla+acutecomb</string>
+		</dict>
+	</lib>
+</glyph>

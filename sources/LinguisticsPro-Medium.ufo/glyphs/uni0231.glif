@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni0231" format="2">
+	<unicode hex="0231"/>
+	<advance width="580"/>
+	<outline>
+		<component base="uni022F"/>
+		<component base="uni0304" xyScale="0" xOffset="568.667" yOffset="165.667"/>
+	</outline>
+	<anchor name="top" x="289" y="745.667"/>
+	<lib>
+		<dict>
+			<key>com.fontlab.autolayer</key>
+			<true/>
+			<key>com.fontlab.hintData</key>
+			<dict>
+				<key>hhints</key>
+				<array>
+					<dict>
+						<key>position</key>
+						<integer>-12</integer>
+						<key>width</key>
+						<integer>35</integer>
+					</dict>
+					<dict>
+						<key>position</key>
+						<integer>467</integer>
+						<key>width</key>
+						<integer>35</integer>
+					</dict>
+					<dict>
+						<key>position</key>
+						<integer>570</integer>
+						<key>width</key>
+						<integer>113</integer>
+					</dict>
+					<dict>
+						<key>position</key>
+						<integer>743</integer>
+						<key>width</key>
+						<integer>59</integer>
+					</dict>
+				</array>
+				<key>vhints</key>
+				<array>
+					<dict>
+						<key>position</key>
+						<integer>49</integer>
+						<key>width</key>
+						<integer>104</integer>
+					</dict>
+					<dict>
+						<key>position</key>
+						<integer>145</integer>
+						<key>width</key>
+						<integer>288</integer>
+					</dict>
+					<dict>
+						<key>position</key>
+						<integer>229</integer>
+						<key>width</key>
+						<integer>120</integer>
+					</dict>
+					<dict>
+						<key>position</key>
+						<integer>425</integer>
+						<key>width</key>
+						<integer>104</integer>
+					</dict>
+				</array>
+			</dict>
+			<key>com.fontlab.recipe</key>
+			<string>uni022F+uni0304</string>
+		</dict>
+	</lib>
+</glyph>

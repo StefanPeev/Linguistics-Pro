@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Ecircumflexdotbelow" format="2">
+	<unicode hex="1EC6"/>
+	<advance width="629"/>
+	<outline>
+		<component base="Edotbelow"/>
+		<component base="uni0302" xOffset="618" yOffset="245"/>
+	</outline>
+	<anchor name="ogonek" x="480" y="10"/>
+	<lib>
+		<dict>
+			<key>com.fontlab.hintData</key>
+			<dict>
+				<key>hhints</key>
+				<array>
+					<dict>
+						<key>position</key>
+						<integer>0</integer>
+						<key>width</key>
+						<integer>35</integer>
+					</dict>
+					<dict>
+						<key>position</key>
+						<integer>341</integer>
+						<key>width</key>
+						<integer>38</integer>
+					</dict>
+					<dict>
+						<key>position</key>
+						<integer>657</integer>
+						<key>width</key>
+						<integer>35</integer>
+					</dict>
+					<dict>
+						<key>position</key>
+						<integer>792</integer>
+						<key>width</key>
+						<integer>84</integer>
+					</dict>
+				</array>
+				<key>vhints</key>
+				<array>
+					<dict>
+						<key>position</key>
+						<integer>125</integer>
+						<key>width</key>
+						<integer>99</integer>
+					</dict>
+					<dict>
+						<key>position</key>
+						<integer>150</integer>
+						<key>width</key>
+						<integer>306</integer>
+					</dict>
+					<dict>
+						<key>position</key>
+						<integer>462</integer>
+						<key>width</key>
+						<integer>30</integer>
+					</dict>
+					<dict>
+						<key>position</key>
+						<integer>510</integer>
+						<key>width</key>
+						<integer>30</integer>
+					</dict>
+					<dict>
+						<key>position</key>
+						<integer>547</integer>
+						<key>width</key>
+						<integer>30</integer>
+					</dict>
+				</array>
+			</dict>
+			<key>com.fontlab.recipe</key>
+			<string>Edotbelow+uni0302</string>
+		</dict>
+	</lib>
+</glyph>

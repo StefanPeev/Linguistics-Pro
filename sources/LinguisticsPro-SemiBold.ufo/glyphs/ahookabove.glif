@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ahookabove" format="2">
+	<unicode hex="1EA3"/>
+	<advance width="537"/>
+	<outline>
+		<component base="a"/>
+		<component base="hookabovecomb" xOffset="466"/>
+	</outline>
+	<anchor name="aring" x="270.667" y="540"/>
+	<anchor name="ogonek" x="437" y="10"/>
+	<lib>
+		<dict>
+			<key>com.fontlab.autolayer</key>
+			<true/>
+			<key>com.fontlab.hintData</key>
+			<dict>
+				<key>hhints</key>
+				<array>
+					<dict>
+						<key>position</key>
+						<integer>577</integer>
+						<key>width</key>
+						<integer>22</integer>
+					</dict>
+					<dict>
+						<key>position</key>
+						<integer>791</integer>
+						<key>width</key>
+						<integer>26</integer>
+					</dict>
+				</array>
+				<key>vhints</key>
+				<array>
+					<dict>
+						<key>position</key>
+						<integer>146</integer>
+						<key>width</key>
+						<integer>60</integer>
+					</dict>
+					<dict>
+						<key>position</key>
+						<integer>215</integer>
+						<key>width</key>
+						<integer>47</integer>
+					</dict>
+					<dict>
+						<key>position</key>
+						<integer>305</integer>
+						<key>width</key>
+						<integer>80</integer>
+					</dict>
+				</array>
+			</dict>
+			<key>com.fontlab.recipe</key>
+			<string>a+hookabovecomb</string>
+		</dict>
+	</lib>
+</glyph>

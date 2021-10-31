@@ -1,37 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="uni2023" format="1">
-  <advance width="409"/>
-  <unicode hex="2023"/>
-  <outline>
-    <contour>
-      <point x="47" y="192" type="line"/>
-      <point x="47" y="512" type="line"/>
-      <point x="367" y="353" type="line"/>
-    </contour>
-  </outline>
-  <lib>
-    <dict>
-      <key>com.fontlab.hintData</key>
-      <dict>
-        <key>hhints</key>
-        <array>
-          <dict>
-            <key>position</key>
-            <integer>192</integer>
-            <key>width</key>
-            <integer>320</integer>
-          </dict>
-        </array>
-        <key>vhints</key>
-        <array>
-          <dict>
-            <key>position</key>
-            <integer>45</integer>
-            <key>width</key>
-            <integer>319</integer>
-          </dict>
-        </array>
-      </dict>
-    </dict>
-  </lib>
+<glyph name="uni2023" format="2">
+	<unicode hex="2023"/>
+	<advance width="409"/>
+	<outline>
+		<contour>
+			<point x="47" y="192" type="line"/>
+			<point x="47" y="512" type="line"/>
+			<point x="367" y="353" type="line"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.fontlab.hintData</key>
+			<dict>
+				<key>hhints</key>
+				<array>
+					<dict>
+						<key>position</key>
+						<integer>192</integer>
+						<key>width</key>
+						<integer>320</integer>
+					</dict>
+				</array>
+				<key>vhints</key>
+				<array>
+					<dict>
+						<key>position</key>
+						<integer>45</integer>
+						<key>width</key>
+						<integer>319</integer>
+					</dict>
+				</array>
+			</dict>
+		</dict>
+	</lib>
 </glyph>

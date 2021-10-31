@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni2171" format="2">
+	<unicode hex="2171"/>
+	<advance width="599"/>
+	<outline>
+		<component base="i"/>
+		<component base="i" xOffset="299.333"/>
+	</outline>
+	<anchor name="ogonek" x="472.667" y="13.3333"/>
+	<lib>
+		<dict>
+			<key>com.fontlab.autolayer</key>
+			<true/>
+			<key>com.fontlab.hintData</key>
+			<dict>
+				<key>hhints</key>
+				<array>
+					<dict>
+						<key>position</key>
+						<integer>593</integer>
+						<key>width</key>
+						<integer>122</integer>
+					</dict>
+				</array>
+				<key>vhints</key>
+				<array>
+					<dict>
+						<key>position</key>
+						<integer>92</integer>
+						<key>width</key>
+						<integer>122</integer>
+					</dict>
+					<dict>
+						<key>position</key>
+						<integer>383</integer>
+						<key>width</key>
+						<integer>122</integer>
+					</dict>
+				</array>
+			</dict>
+			<key>com.fontlab.recipe</key>
+			<string>i_i</string>
+		</dict>
+	</lib>
+</glyph>

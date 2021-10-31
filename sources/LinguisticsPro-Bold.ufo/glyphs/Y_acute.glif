@@ -1,106 +1,57 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="Yacute" format="1">
-  <advance width="617"/>
-  <unicode hex="00DD"/>
-  <outline>
-    <contour>
-      <point x="-12" y="654" type="curve"/>
-      <point x="-12" y="692" type="line"/>
-      <point x="304" y="692" type="line"/>
-      <point x="304" y="654" type="line"/>
-      <point x="250" y="648" type="line" smooth="yes"/>
-      <point x="228" y="645"/>
-      <point x="229" y="631"/>
-      <point x="236" y="615" type="curve" smooth="yes"/>
-      <point x="359" y="342" type="line"/>
-      <point x="362" y="342" type="line"/>
-      <point x="402" y="432"/>
-      <point x="455" y="540"/>
-      <point x="481" y="608" type="curve" smooth="yes"/>
-      <point x="491" y="634"/>
-      <point x="485" y="646"/>
-      <point x="466" y="648" type="curve" smooth="yes"/>
-      <point x="414" y="654" type="line"/>
-      <point x="414" y="692" type="line"/>
-      <point x="655" y="692" type="line"/>
-      <point x="655" y="654" type="line"/>
-      <point x="601" y="648"/>
-      <point x="584" y="640"/>
-      <point x="561" y="600" type="curve" smooth="yes"/>
-      <point x="514" y="518"/>
-      <point x="463" y="416"/>
-      <point x="416" y="321" type="curve" smooth="yes"/>
-      <point x="405" y="298"/>
-      <point x="398" y="278"/>
-      <point x="398" y="250" type="curve" smooth="yes"/>
-      <point x="398" y="97" type="line" smooth="yes"/>
-      <point x="398" y="46"/>
-      <point x="406" y="41"/>
-      <point x="494" y="38" type="curve"/>
-      <point x="494" y="0" type="line"/>
-      <point x="142" y="0" type="line"/>
-      <point x="142" y="38" type="line"/>
-      <point x="230" y="41"/>
-      <point x="238" y="46"/>
-      <point x="238" y="97" type="curve" smooth="yes"/>
-      <point x="238" y="240" type="line" smooth="yes"/>
-      <point x="238" y="265"/>
-      <point x="227" y="289"/>
-      <point x="217" y="309" type="curve" smooth="yes"/>
-      <point x="72" y="597" type="line" smooth="yes"/>
-      <point x="49" y="643"/>
-      <point x="40" y="650"/>
-    </contour>
-    <contour>
-      <point x="234" y="751" type="line"/>
-      <point x="406" y="874" type="line" smooth="yes"/>
-      <point x="437" y="897"/>
-      <point x="452" y="904"/>
-      <point x="470" y="904" type="curve" smooth="yes"/>
-      <point x="502" y="904"/>
-      <point x="524" y="860"/>
-      <point x="524" y="840" type="curve" smooth="yes"/>
-      <point x="524" y="811"/>
-      <point x="504" y="800"/>
-      <point x="451" y="783" type="curve" smooth="yes"/>
-      <point x="248" y="719" type="line"/>
-    </contour>
-  </outline>
-  <lib>
-    <dict>
-      <key>com.fontlab.hintData</key>
-      <dict>
-        <key>hhints</key>
-        <array>
-          <dict>
-            <key>position</key>
-            <integer>0</integer>
-            <key>width</key>
-            <integer>38</integer>
-          </dict>
-          <dict>
-            <key>position</key>
-            <integer>651</integer>
-            <key>width</key>
-            <integer>41</integer>
-          </dict>
-        </array>
-        <key>vhints</key>
-        <array>
-          <dict>
-            <key>position</key>
-            <integer>238</integer>
-            <key>width</key>
-            <integer>160</integer>
-          </dict>
-          <dict>
-            <key>position</key>
-            <integer>486</integer>
-            <key>width</key>
-            <integer>169</integer>
-          </dict>
-        </array>
-      </dict>
-    </dict>
-  </lib>
+<glyph name="Yacute" format="2">
+	<unicode hex="00DD"/>
+	<advance width="617"/>
+	<outline>
+		<component base="Y"/>
+		<component base="acute.cap" xOffset="62.5"/>
+	</outline>
+	<anchor name="tonos" x="-34" y="702"/>
+	<lib>
+		<dict>
+			<key>com.fontlab.autolayer</key>
+			<true/>
+			<key>com.fontlab.hintData</key>
+			<dict>
+				<key>hhints</key>
+				<array>
+					<dict>
+						<key>position</key>
+						<integer>0</integer>
+						<key>width</key>
+						<integer>29</integer>
+					</dict>
+					<dict>
+						<key>position</key>
+						<integer>663</integer>
+						<key>width</key>
+						<integer>29</integer>
+					</dict>
+				</array>
+				<key>vhints</key>
+				<array>
+					<dict>
+						<key>position</key>
+						<integer>-12</integer>
+						<key>width</key>
+						<integer>185</integer>
+					</dict>
+					<dict>
+						<key>position</key>
+						<integer>256</integer>
+						<key>width</key>
+						<integer>99</integer>
+					</dict>
+					<dict>
+						<key>position</key>
+						<integer>483</integer>
+						<key>width</key>
+						<integer>149</integer>
+					</dict>
+				</array>
+			</dict>
+			<key>com.fontlab.recipe</key>
+			<string>Y+acute.cap</string>
+		</dict>
+	</lib>
 </glyph>

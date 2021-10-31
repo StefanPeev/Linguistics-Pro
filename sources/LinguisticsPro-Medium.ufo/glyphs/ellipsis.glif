@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ellipsis" format="2">
+	<unicode hex="2026"/>
+	<advance width="928"/>
+	<outline>
+		<component base="onedotenleader" xOffset="685"/>
+		<component base="onedotenleader" xyScale="0" xOffset="352" yOffset="0"/>
+		<component base="onedotenleader" xOffset="19"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.fontlab.hintData</key>
+			<dict>
+				<key>hhints</key>
+				<array>
+					<dict>
+						<key>position</key>
+						<integer>-12</integer>
+						<key>width</key>
+						<integer>128</integer>
+					</dict>
+				</array>
+				<key>vhints</key>
+				<array>
+					<dict>
+						<key>position</key>
+						<integer>104</integer>
+						<key>width</key>
+						<integer>126</integer>
+					</dict>
+					<dict>
+						<key>position</key>
+						<integer>437</integer>
+						<key>width</key>
+						<integer>126</integer>
+					</dict>
+					<dict>
+						<key>position</key>
+						<integer>770</integer>
+						<key>width</key>
+						<integer>126</integer>
+					</dict>
+				</array>
+			</dict>
+		</dict>
+	</lib>
+</glyph>

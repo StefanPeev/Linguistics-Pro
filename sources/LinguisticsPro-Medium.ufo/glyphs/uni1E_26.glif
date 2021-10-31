@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni1E26" format="2">
+	<unicode hex="1E26"/>
+	<advance width="801"/>
+	<outline>
+		<component base="H"/>
+		<component base="dieresis.cap" xOffset="194.833"/>
+	</outline>
+	<anchor name="tonos" x="4" y="702"/>
+	<anchor name="top" x="400.5" y="913.333"/>
+	<lib>
+		<dict>
+			<key>com.fontlab.autolayer</key>
+			<true/>
+			<key>com.fontlab.hintData</key>
+			<dict>
+				<key>hhints</key>
+				<array>
+					<dict>
+						<key>position</key>
+						<integer>0</integer>
+						<key>width</key>
+						<integer>29</integer>
+					</dict>
+					<dict>
+						<key>position</key>
+						<integer>341</integer>
+						<key>width</key>
+						<integer>38</integer>
+					</dict>
+					<dict>
+						<key>position</key>
+						<integer>663</integer>
+						<key>width</key>
+						<integer>29</integer>
+					</dict>
+					<dict>
+						<key>position</key>
+						<integer>732</integer>
+						<key>width</key>
+						<integer>109</integer>
+					</dict>
+				</array>
+				<key>vhints</key>
+				<array>
+					<dict>
+						<key>position</key>
+						<integer>125</integer>
+						<key>width</key>
+						<integer>99</integer>
+					</dict>
+					<dict>
+						<key>position</key>
+						<integer>237</integer>
+						<key>width</key>
+						<integer>116</integer>
+					</dict>
+					<dict>
+						<key>position</key>
+						<integer>445</integer>
+						<key>width</key>
+						<integer>116</integer>
+					</dict>
+					<dict>
+						<key>position</key>
+						<integer>574</integer>
+						<key>width</key>
+						<integer>99</integer>
+					</dict>
+				</array>
+			</dict>
+			<key>com.fontlab.recipe</key>
+			<string>H+dieresis.cap</string>
+		</dict>
+	</lib>
+</glyph>

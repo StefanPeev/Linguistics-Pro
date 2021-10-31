@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Idotbelow" format="2">
+	<unicode hex="1ECA"/>
+	<advance width="372"/>
+	<outline>
+		<component base="I"/>
+		<component base="uni0323.cap" xOffset="396.167"/>
+	</outline>
+	<anchor name="ogonek" x="203.333" y="10"/>
+	<anchor name="tonos" x="0" y="702"/>
+	<lib>
+		<dict>
+			<key>com.fontlab.autolayer</key>
+			<true/>
+			<key>com.fontlab.hintData</key>
+			<dict>
+				<key>hhints</key>
+				<array>
+					<dict>
+						<key>position</key>
+						<integer>0</integer>
+						<key>width</key>
+						<integer>29</integer>
+					</dict>
+					<dict>
+						<key>position</key>
+						<integer>663</integer>
+						<key>width</key>
+						<integer>29</integer>
+					</dict>
+				</array>
+				<key>vhints</key>
+				<array>
+					<dict>
+						<key>position</key>
+						<integer>125</integer>
+						<key>width</key>
+						<integer>99</integer>
+					</dict>
+				</array>
+			</dict>
+			<key>com.fontlab.recipe</key>
+			<string>I+uni0323.cap</string>
+		</dict>
+	</lib>
+</glyph>

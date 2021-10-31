@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="edieresis" format="2">
+	<unicode hex="00EB"/>
+	<advance width="517"/>
+	<outline>
+		<component base="e"/>
+		<component base="uni0308" xOffset="474"/>
+	</outline>
+	<anchor name="ogonek" x="327.667" y="0"/>
+	<anchor name="top" x="259.333" y="733.333"/>
+	<lib>
+		<dict>
+			<key>com.fontlab.autolayer</key>
+			<true/>
+			<key>com.fontlab.hintData</key>
+			<dict>
+				<key>hhints</key>
+				<array>
+					<dict>
+						<key>position</key>
+						<integer>570</integer>
+						<key>width</key>
+						<integer>113</integer>
+					</dict>
+				</array>
+				<key>vhints</key>
+				<array>
+					<dict>
+						<key>position</key>
+						<integer>93</integer>
+						<key>width</key>
+						<integer>120</integer>
+					</dict>
+					<dict>
+						<key>position</key>
+						<integer>301</integer>
+						<key>width</key>
+						<integer>120</integer>
+					</dict>
+				</array>
+			</dict>
+			<key>com.fontlab.recipe</key>
+			<string>e+uni0308</string>
+		</dict>
+	</lib>
+</glyph>

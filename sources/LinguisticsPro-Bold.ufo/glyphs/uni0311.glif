@@ -1,54 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="uni0311" format="1">
-  <advance width="0"/>
-  <unicode hex="0311"/>
-  <outline>
-    <contour>
-      <point x="-374" y="556" type="line"/>
-      <point x="-374" y="626"/>
-      <point x="-357" y="716"/>
-      <point x="-215" y="716" type="curve" smooth="yes"/>
-      <point x="-72" y="716"/>
-      <point x="-55" y="632"/>
-      <point x="-55" y="556" type="curve"/>
-      <point x="-93" y="556" type="line"/>
-      <point x="-95" y="580"/>
-      <point x="-112" y="631"/>
-      <point x="-214" y="631" type="curve" smooth="yes"/>
-      <point x="-316" y="631"/>
-      <point x="-333" y="580"/>
-      <point x="-335" y="556" type="curve"/>
-    </contour>
-  </outline>
-  <lib>
-    <dict>
-      <key>com.fontlab.hintData</key>
-      <dict>
-        <key>hhints</key>
-        <array>
-          <dict>
-            <key>position</key>
-            <integer>631</integer>
-            <key>width</key>
-            <integer>85</integer>
-          </dict>
-        </array>
-        <key>vhints</key>
-        <array>
-          <dict>
-            <key>position</key>
-            <integer>-374</integer>
-            <key>width</key>
-            <integer>39</integer>
-          </dict>
-          <dict>
-            <key>position</key>
-            <integer>-93</integer>
-            <key>width</key>
-            <integer>38</integer>
-          </dict>
-        </array>
-      </dict>
-    </dict>
-  </lib>
+<glyph name="uni0311" format="2">
+	<unicode hex="0311"/>
+	<outline>
+		<component base="uni0311.cap" xOffset="0.5" yOffset="-190"/>
+	</outline>
 </glyph>

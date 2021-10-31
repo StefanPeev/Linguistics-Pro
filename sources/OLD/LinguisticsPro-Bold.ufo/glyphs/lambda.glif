@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="lambda" format="1">
+  <advance width="695"/>
+  <unicode hex="03BB"/>
+  <outline>
+    <contour>
+      <point x="37" y="-12" type="line"/>
+      <point x="130" y="150"/>
+      <point x="205" y="315"/>
+      <point x="275" y="473" type="curve" smooth="yes"/>
+      <point x="277" y="477"/>
+      <point x="277" y="480"/>
+      <point x="277" y="484" type="curve" smooth="yes"/>
+      <point x="276" y="488" type="line" smooth="yes"/>
+      <point x="246" y="594"/>
+      <point x="218" y="676"/>
+      <point x="173" y="676" type="curve" smooth="yes"/>
+      <point x="159" y="676"/>
+      <point x="152" y="674"/>
+      <point x="144" y="669" type="curve"/>
+      <point x="129" y="703" type="line"/>
+      <point x="140" y="715"/>
+      <point x="213" y="742"/>
+      <point x="262" y="742" type="curve" smooth="yes"/>
+      <point x="338" y="742"/>
+      <point x="375" y="677"/>
+      <point x="396" y="606" type="curve" smooth="yes"/>
+      <point x="512" y="229" type="line" smooth="yes"/>
+      <point x="544" y="124"/>
+      <point x="573" y="53"/>
+      <point x="617" y="53" type="curve" smooth="yes"/>
+      <point x="631" y="53"/>
+      <point x="642" y="55"/>
+      <point x="651" y="60" type="curve"/>
+      <point x="667" y="27" type="line"/>
+      <point x="656" y="15"/>
+      <point x="584" y="-12"/>
+      <point x="535" y="-12" type="curve" smooth="yes"/>
+      <point x="458" y="-12"/>
+      <point x="412" y="53"/>
+      <point x="391" y="124" type="curve" smooth="yes"/>
+      <point x="307" y="400" type="line"/>
+      <point x="168" y="0" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.hintData</key>
+      <dict>
+        <key>hhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>-12</integer>
+            <key>width</key>
+            <integer>65</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>676</integer>
+            <key>width</key>
+            <integer>66</integer>
+          </dict>
+        </array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

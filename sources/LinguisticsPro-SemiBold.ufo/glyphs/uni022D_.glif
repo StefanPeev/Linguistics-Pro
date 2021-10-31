@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni022D" format="2">
+	<unicode hex="022D"/>
+	<advance width="582"/>
+	<outline>
+		<component base="otilde"/>
+		<component base="uni0304" xyScale="0" xOffset="573.333" yOffset="202.667"/>
+	</outline>
+	<anchor name="top" x="293" y="782.667"/>
+	<lib>
+		<dict>
+			<key>com.fontlab.autolayer</key>
+			<true/>
+			<key>com.fontlab.hintData</key>
+			<dict>
+				<key>hhints</key>
+				<array>
+					<dict>
+						<key>position</key>
+						<integer>576</integer>
+						<key>width</key>
+						<integer>60</integer>
+					</dict>
+					<dict>
+						<key>position</key>
+						<integer>614</integer>
+						<key>width</key>
+						<integer>60</integer>
+					</dict>
+					<dict>
+						<key>position</key>
+						<integer>742</integer>
+						<key>width</key>
+						<integer>59</integer>
+					</dict>
+				</array>
+				<key>vhints</key>
+				<array>
+					<dict>
+						<key>position</key>
+						<integer>142</integer>
+						<key>width</key>
+						<integer>288</integer>
+					</dict>
+				</array>
+			</dict>
+			<key>com.fontlab.recipe</key>
+			<string>otilde+uni0304</string>
+		</dict>
+	</lib>
+</glyph>

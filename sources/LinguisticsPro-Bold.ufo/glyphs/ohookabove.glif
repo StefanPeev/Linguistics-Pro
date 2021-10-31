@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ohookabove" format="2">
+	<unicode hex="1ECF"/>
+	<advance width="585"/>
+	<outline>
+		<component base="o"/>
+		<component base="hookabovecomb" xOffset="489"/>
+	</outline>
+	<anchor name="top" x="293" y="577"/>
+	<lib>
+		<dict>
+			<key>com.fontlab.autolayer</key>
+			<true/>
+			<key>com.fontlab.hintData</key>
+			<dict>
+				<key>hhints</key>
+				<array>
+					<dict>
+						<key>position</key>
+						<integer>-12</integer>
+						<key>width</key>
+						<integer>35</integer>
+					</dict>
+					<dict>
+						<key>position</key>
+						<integer>467</integer>
+						<key>width</key>
+						<integer>35</integer>
+					</dict>
+					<dict>
+						<key>position</key>
+						<integer>577</integer>
+						<key>width</key>
+						<integer>22</integer>
+					</dict>
+					<dict>
+						<key>position</key>
+						<integer>791</integer>
+						<key>width</key>
+						<integer>26</integer>
+					</dict>
+				</array>
+				<key>vhints</key>
+				<array>
+					<dict>
+						<key>position</key>
+						<integer>49</integer>
+						<key>width</key>
+						<integer>104</integer>
+					</dict>
+					<dict>
+						<key>position</key>
+						<integer>171</integer>
+						<key>width</key>
+						<integer>60</integer>
+					</dict>
+					<dict>
+						<key>position</key>
+						<integer>240</integer>
+						<key>width</key>
+						<integer>47</integer>
+					</dict>
+					<dict>
+						<key>position</key>
+						<integer>330</integer>
+						<key>width</key>
+						<integer>80</integer>
+					</dict>
+					<dict>
+						<key>position</key>
+						<integer>425</integer>
+						<key>width</key>
+						<integer>104</integer>
+					</dict>
+				</array>
+			</dict>
+			<key>com.fontlab.recipe</key>
+			<string>o+hookabovecomb</string>
+		</dict>
+	</lib>
+</glyph>

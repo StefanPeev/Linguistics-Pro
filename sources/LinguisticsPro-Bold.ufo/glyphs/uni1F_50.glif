@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni1F50" format="2">
+	<unicode hex="1F50"/>
+	<advance width="627"/>
+	<outline>
+		<component base="upsilon"/>
+		<component base="uni0313" xOffset="482.506"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.fontlab.autolayer</key>
+			<true/>
+			<key>com.fontlab.hintData</key>
+			<dict>
+				<key>hhints</key>
+				<array>
+					<dict>
+						<key>position</key>
+						<integer>-12</integer>
+						<key>width</key>
+						<integer>36</integer>
+					</dict>
+					<dict>
+						<key>position</key>
+						<integer>448</integer>
+						<key>width</key>
+						<integer>58</integer>
+					</dict>
+					<dict>
+						<key>position</key>
+						<integer>482</integer>
+						<key>width</key>
+						<integer>20</integer>
+					</dict>
+					<dict>
+						<key>position</key>
+						<integer>731</integer>
+						<key>width</key>
+						<integer>20</integer>
+					</dict>
+				</array>
+				<key>vhints</key>
+				<array>
+					<dict>
+						<key>position</key>
+						<integer>112</integer>
+						<key>width</key>
+						<integer>96</integer>
+					</dict>
+					<dict>
+						<key>position</key>
+						<integer>260</integer>
+						<key>width</key>
+						<integer>67</integer>
+					</dict>
+					<dict>
+						<key>position</key>
+						<integer>384</integer>
+						<key>width</key>
+						<integer>128</integer>
+					</dict>
+					<dict>
+						<key>position</key>
+						<integer>445</integer>
+						<key>width</key>
+						<integer>67</integer>
+					</dict>
+				</array>
+			</dict>
+			<key>com.fontlab.recipe</key>
+			<string>upsilon+uni0313</string>
+		</dict>
+	</lib>
+</glyph>

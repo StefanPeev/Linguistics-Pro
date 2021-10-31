@@ -1,52 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="uni1FEF" format="1">
-  <advance width="324"/>
-  <unicode hex="1FEF"/>
-  <outline>
-    <contour>
-      <point x="100" y="719" type="curve" smooth="yes"/>
-      <point x="100" y="725"/>
-      <point x="101" y="730"/>
-      <point x="104" y="734" type="curve" smooth="yes"/>
-      <point x="112" y="747"/>
-      <point x="132" y="755"/>
-      <point x="147" y="755" type="curve" smooth="yes"/>
-      <point x="151" y="755"/>
-      <point x="156" y="754"/>
-      <point x="159" y="752" type="curve" smooth="yes"/>
-      <point x="174" y="743"/>
-      <point x="184" y="726"/>
-      <point x="194" y="684" type="curve" smooth="yes"/>
-      <point x="224" y="555" type="line"/>
-      <point x="204" y="540" type="line"/>
-      <point x="125" y="659" type="line" smooth="yes"/>
-      <point x="111" y="681"/>
-      <point x="100" y="702"/>
-    </contour>
-  </outline>
-  <lib>
-    <dict>
-      <key>com.fontlab.hintData</key>
-      <dict>
-        <key>hhints</key>
-        <array>
-          <dict>
-            <key>position</key>
-            <integer>540</integer>
-            <key>width</key>
-            <integer>215</integer>
-          </dict>
-        </array>
-        <key>vhints</key>
-        <array>
-          <dict>
-            <key>position</key>
-            <integer>100</integer>
-            <key>width</key>
-            <integer>124</integer>
-          </dict>
-        </array>
-      </dict>
-    </dict>
-  </lib>
+<glyph name="uni1FEF" format="2">
+	<unicode hex="1FEF"/>
+	<advance width="324"/>
+	<outline>
+		<contour>
+			<point x="100.5" y="715.441" type="curve" smooth="yes"/>
+			<point x="100.5" y="742.679"/>
+			<point x="126.934" y="755.5"/>
+			<point x="148.217" y="755.5" type="curve" smooth="yes"/>
+			<point x="171.597" y="755.5"/>
+			<point x="181.587" y="740.027"/>
+			<point x="194.5" y="684.5" type="curve" smooth="yes"/>
+			<point x="224.5" y="555.5" type="line"/>
+			<point x="204.5" y="540.5" type="line"/>
+			<point x="125.5" y="659.5" type="line" smooth="yes"/>
+			<point x="106.467" y="688.171"/>
+			<point x="100.5" y="702.5"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.fontlab.hintData</key>
+			<dict>
+				<key>hhints</key>
+				<array>
+					<dict>
+						<key>position</key>
+						<integer>540</integer>
+						<key>width</key>
+						<integer>215</integer>
+					</dict>
+				</array>
+				<key>vhints</key>
+				<array>
+					<dict>
+						<key>position</key>
+						<integer>100</integer>
+						<key>width</key>
+						<integer>124</integer>
+					</dict>
+				</array>
+			</dict>
+		</dict>
+	</lib>
 </glyph>

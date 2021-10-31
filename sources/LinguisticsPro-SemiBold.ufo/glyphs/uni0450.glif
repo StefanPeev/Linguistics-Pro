@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni0450" format="2">
+	<unicode hex="0450"/>
+	<advance width="517"/>
+	<outline>
+		<component base="uni0435"/>
+		<component base="gravecomb" xOffset="508"/>
+	</outline>
+	<anchor name="ogonek" x="327.667" y="0"/>
+	<lib>
+		<dict>
+			<key>com.fontlab.autolayer</key>
+			<true/>
+			<key>com.fontlab.hintData</key>
+			<dict>
+				<key>hhints</key>
+				<array>
+					<dict>
+						<key>position</key>
+						<integer>542</integer>
+						<key>width</key>
+						<integer>181</integer>
+					</dict>
+				</array>
+				<key>vhints</key>
+				<array>
+					<dict>
+						<key>position</key>
+						<integer>117</integer>
+						<key>width</key>
+						<integer>222</integer>
+					</dict>
+				</array>
+			</dict>
+			<key>com.fontlab.recipe</key>
+			<string>uni0435+gravecomb</string>
+		</dict>
+	</lib>
+</glyph>

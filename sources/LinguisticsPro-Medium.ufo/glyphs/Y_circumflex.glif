@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Ycircumflex" format="2">
+	<unicode hex="0176"/>
+	<advance width="598"/>
+	<outline>
+		<component base="Y"/>
+		<component base="uni0302" xOffset="597.833" yOffset="202"/>
+	</outline>
+	<anchor name="tonos" x="-39.3333" y="702"/>
+	<lib>
+		<dict>
+			<key>com.fontlab.autolayer</key>
+			<true/>
+			<key>com.fontlab.hintData</key>
+			<dict>
+				<key>hhints</key>
+				<array>
+					<dict>
+						<key>position</key>
+						<integer>792</integer>
+						<key>width</key>
+						<integer>84</integer>
+					</dict>
+				</array>
+				<key>vhints</key>
+				<array>
+					<dict>
+						<key>position</key>
+						<integer>149</integer>
+						<key>width</key>
+						<integer>306</integer>
+					</dict>
+				</array>
+			</dict>
+			<key>com.fontlab.recipe</key>
+			<string>Y+uni0302</string>
+		</dict>
+	</lib>
+</glyph>
