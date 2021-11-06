@@ -4,25 +4,25 @@
 	<advance width="167"/>
 	<outline>
 		<contour>
-			<point x="2" y="488" type="line"/>
-			<point x="33" y="524"/>
-			<point x="57" y="562"/>
-			<point x="57" y="596.521" type="curve" smooth="yes"/>
-			<point x="57" y="617.293"/>
-			<point x="49.0785" y="633.391"/>
-			<point x="39.8484" y="648.109" type="curve" smooth="yes"/>
-			<point x="30.8212" y="662.503"/>
-			<point x="24" y="676.474"/>
-			<point x="24" y="694" type="curve" smooth="yes"/>
-			<point x="24" y="721"/>
-			<point x="42" y="742"/>
-			<point x="70.1952" y="742" type="curve" smooth="yes"/>
-			<point x="105" y="742"/>
-			<point x="137" y="710"/>
-			<point x="137" y="659.14" type="curve" smooth="yes"/>
-			<point x="137" y="585"/>
-			<point x="69" y="518"/>
-			<point x="19" y="472" type="curve"/>
+			<point x="-1.40446" y="470.884" type="line"/>
+			<point x="29.2805" y="505.768"/>
+			<point x="52.2135" y="542.913"/>
+			<point x="52.2135" y="577.764" type="curve" smooth="yes"/>
+			<point x="52.2135" y="599.646"/>
+			<point x="43.7179" y="616.015"/>
+			<point x="34.8204" y="630.678" type="curve"/>
+			<point x="25.4718" y="645.041"/>
+			<point x="18.9445" y="658.954"/>
+			<point x="18.9445" y="676.54" type="curve" smooth="yes"/>
+			<point x="18.9445" y="705.705"/>
+			<point x="38.0015" y="729.607"/>
+			<point x="70.3981" y="729.607" type="curve" smooth="yes"/>
+			<point x="108.739" y="729.607"/>
+			<point x="141.362" y="696.015"/>
+			<point x="141.362" y="643.562" type="curve" smooth="yes"/>
+			<point x="141.362" y="566.492"/>
+			<point x="70.9475" y="497.693"/>
+			<point x="18.6215" y="451.827" type="curve"/>
 		</contour>
 	</outline>
 	<lib>
@@ -48,6 +48,8 @@
 					</dict>
 				</array>
 			</dict>
+			<key>com.fontlab.recipe</key>
+			<string>quoteright</string>
 		</dict>
 	</lib>
 </glyph>

@@ -1,74 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Ohorngrave" format="2">
 	<unicode hex="1EDC"/>
-	<advance width="762"/>
+	<advance width="766"/>
 	<outline>
-		<contour>
-			<point x="48" y="346" type="curve" smooth="yes"/>
-			<point x="48" y="507"/>
-			<point x="115" y="707"/>
-			<point x="381" y="707" type="curve" smooth="yes"/>
-			<point x="473" y="707"/>
-			<point x="546" y="683"/>
-			<point x="600" y="638" type="curve"/>
-			<point x="625" y="662"/>
-			<point x="633" y="678"/>
-			<point x="633" y="687" type="curve" smooth="yes"/>
-			<point x="633" y="717"/>
-			<point x="580" y="729"/>
-			<point x="580" y="758" type="curve" smooth="yes"/>
-			<point x="580" y="766"/>
-			<point x="589" y="800"/>
-			<point x="626" y="800" type="curve" smooth="yes"/>
-			<point x="661" y="800"/>
-			<point x="684" y="769"/>
-			<point x="684" y="729" type="curve" smooth="yes"/>
-			<point x="684" y="675"/>
-			<point x="648" y="639"/>
-			<point x="622" y="617" type="curve"/>
-			<point x="651" y="586"/>
-			<point x="714" y="509"/>
-			<point x="714" y="346" type="curve" smooth="yes"/>
-			<point x="714" y="185"/>
-			<point x="647" y="-15"/>
-			<point x="381" y="-15" type="curve" smooth="yes"/>
-			<point x="115" y="-15"/>
-			<point x="48" y="185"/>
-		</contour>
-		<contour>
-			<point x="160" y="346" type="curve" smooth="yes"/>
-			<point x="160" y="199"/>
-			<point x="203" y="20"/>
-			<point x="381" y="20" type="curve" smooth="yes"/>
-			<point x="559" y="20"/>
-			<point x="602" y="199"/>
-			<point x="602" y="346" type="curve" smooth="yes"/>
-			<point x="602" y="493"/>
-			<point x="559" y="672"/>
-			<point x="381" y="672" type="curve" smooth="yes"/>
-			<point x="203" y="672"/>
-			<point x="160" y="493"/>
-		</contour>
-		<contour>
-			<point x="213" y="841" type="curve" smooth="yes"/>
-			<point x="213" y="861"/>
-			<point x="231" y="887"/>
-			<point x="245" y="890" type="curve"/>
-			<point x="247" y="890"/>
-			<point x="250" y="891"/>
-			<point x="252" y="891" type="curve"/>
-			<point x="266" y="891"/>
-			<point x="280" y="883"/>
-			<point x="310" y="863" type="curve" smooth="yes"/>
-			<point x="455" y="764" type="line"/>
-			<point x="444" y="742" type="line"/>
-			<point x="274" y="798" type="line"/>
-			<point x="228" y="812"/>
-			<point x="213" y="819"/>
-		</contour>
+		<component base="Ohorn"/>
+		<component base="grave.cap" xOffset="226.833"/>
 	</outline>
 	<lib>
 		<dict>
+			<key>com.fontlab.autolayer</key>
+			<true/>
 			<key>com.fontlab.hintData</key>
 			<dict>
 				<key>hhints</key>
@@ -126,6 +67,8 @@
 					</dict>
 				</array>
 			</dict>
+			<key>com.fontlab.recipe</key>
+			<string>Ohorn+grave.cap</string>
 		</dict>
 	</lib>
 </glyph>

@@ -1,84 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Wcircumflex.sc" format="2">
-	<advance width="824"/>
+	<advance width="747"/>
 	<outline>
-		<contour>
-			<point x="1" y="483" type="curve"/>
-			<point x="1" y="512" type="line"/>
-			<point x="218" y="512" type="line"/>
-			<point x="218" y="483" type="line"/>
-			<point x="193" y="480" type="line"/>
-			<point x="182" y="479"/>
-			<point x="164" y="477"/>
-			<point x="164" y="458" type="curve" smooth="yes"/>
-			<point x="164" y="455"/>
-			<point x="165" y="451"/>
-			<point x="166" y="447" type="curve"/>
-			<point x="198" y="333"/>
-			<point x="231" y="228"/>
-			<point x="271" y="101" type="curve"/>
-			<point x="272" y="101" type="line"/>
-			<point x="396" y="500" type="line"/>
-			<point x="469" y="500" type="line"/>
-			<point x="513" y="363"/>
-			<point x="551" y="246"/>
-			<point x="599" y="101" type="curve"/>
-			<point x="601" y="101" type="line"/>
-			<point x="646" y="252"/>
-			<point x="669" y="331"/>
-			<point x="700" y="449" type="curve"/>
-			<point x="701" y="451"/>
-			<point x="701" y="454"/>
-			<point x="701" y="456" type="curve"/>
-			<point x="701" y="468"/>
-			<point x="693" y="478"/>
-			<point x="674" y="480" type="curve" smooth="yes"/>
-			<point x="643" y="483" type="line"/>
-			<point x="643" y="512" type="line"/>
-			<point x="828" y="512" type="line"/>
-			<point x="828" y="483" type="line"/>
-			<point x="783" y="478"/>
-			<point x="760" y="474"/>
-			<point x="747" y="432" type="curve" smooth="yes"/>
-			<point x="710" y="318"/>
-			<point x="657" y="145"/>
-			<point x="613" y="0" type="curve"/>
-			<point x="537" y="0" type="line"/>
-			<point x="496" y="137"/>
-			<point x="458" y="256"/>
-			<point x="408" y="399" type="curve"/>
-			<point x="407" y="399" type="line"/>
-			<point x="285" y="0" type="line"/>
-			<point x="209" y="0" type="line"/>
-			<point x="162" y="156"/>
-			<point x="120" y="294"/>
-			<point x="73" y="439" type="curve" smooth="yes"/>
-			<point x="62" y="473"/>
-			<point x="41" y="479"/>
-		</contour>
-		<contour>
-			<point x="263" y="583" type="line"/>
-			<point x="377" y="704" type="line" smooth="yes"/>
-			<point x="390" y="718"/>
-			<point x="404" y="732"/>
-			<point x="416" y="732" type="curve" smooth="yes"/>
-			<point x="428" y="732"/>
-			<point x="442" y="718"/>
-			<point x="455" y="704" type="curve" smooth="yes"/>
-			<point x="569" y="583" type="line"/>
-			<point x="554" y="562" type="line"/>
-			<point x="447" y="632" type="line" smooth="yes"/>
-			<point x="436" y="639"/>
-			<point x="423" y="647"/>
-			<point x="416" y="647" type="curve" smooth="yes"/>
-			<point x="409" y="647"/>
-			<point x="396" y="639"/>
-			<point x="385" y="632" type="curve" smooth="yes"/>
-			<point x="278" y="562" type="line"/>
-		</contour>
+		<component base="W.sc"/>
+		<component base="uni0302" xOffset="672.667"/>
 	</outline>
+	<anchor name="top" x="373" y="733.333"/>
 	<lib>
 		<dict>
+			<key>com.fontlab.autolayer</key>
+			<true/>
 			<key>com.fontlab.hintData</key>
 			<dict>
 				<key>hhints</key>
@@ -124,8 +55,8 @@
 					</dict>
 				</array>
 			</dict>
-			<key>public.markColor</key>
-			<string>1,0.6,0.6,1</string>
+			<key>com.fontlab.recipe</key>
+			<string>W.sc+circumflexcomb</string>
 		</dict>
 	</lib>
 </glyph>

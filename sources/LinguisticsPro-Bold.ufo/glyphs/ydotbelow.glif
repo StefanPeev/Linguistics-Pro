@@ -4,12 +4,10 @@
 	<advance width="524"/>
 	<outline>
 		<component base="y"/>
-		<component base="dotbelowcomb" xOffset="477"/>
+		<component base="dotbelowcomb" xOffset="627"/>
 	</outline>
 	<lib>
 		<dict>
-			<key>com.fontlab.autolayer</key>
-			<true/>
 			<key>com.fontlab.hintData</key>
 			<dict>
 				<key>hhints</key>
@@ -30,8 +28,6 @@
 			</dict>
 			<key>com.fontlab.recipe</key>
 			<string>y+dotbelowcomb</string>
-			<key>public.markColor</key>
-			<string>1,0.6,0.6,1</string>
 		</dict>
 	</lib>
 </glyph>

@@ -3,106 +3,15 @@
 	<unicode hex="1EC3"/>
 	<advance width="514"/>
 	<outline>
-		<contour>
-			<point x="49" y="241" type="curve" smooth="yes"/>
-			<point x="49" y="391"/>
-			<point x="123" y="502"/>
-			<point x="279" y="502" type="curve" smooth="yes"/>
-			<point x="462" y="502"/>
-			<point x="481" y="360"/>
-			<point x="481" y="301" type="curve" smooth="yes"/>
-			<point x="481" y="268"/>
-			<point x="462" y="263"/>
-			<point x="441" y="263" type="curve" smooth="yes"/>
-			<point x="153" y="263" type="line"/>
-			<point x="153" y="259"/>
-			<point x="153" y="256"/>
-			<point x="153" y="252" type="curve" smooth="yes"/>
-			<point x="153" y="151"/>
-			<point x="180" y="39"/>
-			<point x="300" y="39" type="curve" smooth="yes"/>
-			<point x="379" y="39"/>
-			<point x="417" y="87"/>
-			<point x="445" y="145" type="curve"/>
-			<point x="475" y="129" type="line"/>
-			<point x="448" y="50"/>
-			<point x="391" y="-12"/>
-			<point x="280" y="-12" type="curve" smooth="yes"/>
-			<point x="117" y="-12"/>
-			<point x="49" y="83"/>
-		</contour>
-		<contour>
-			<point x="120" y="562" type="line"/>
-			<point x="237" y="695" type="line"/>
-			<point x="250" y="709"/>
-			<point x="261" y="720"/>
-			<point x="273" y="720" type="curve" smooth="yes"/>
-			<point x="285" y="720"/>
-			<point x="297" y="708"/>
-			<point x="309" y="695" type="curve" smooth="yes"/>
-			<point x="426" y="562" type="line"/>
-			<point x="407" y="541" type="line"/>
-			<point x="304" y="618" type="line" smooth="yes"/>
-			<point x="293" y="626"/>
-			<point x="282" y="633"/>
-			<point x="273" y="633" type="curve" smooth="yes"/>
-			<point x="265" y="633"/>
-			<point x="253" y="626"/>
-			<point x="242" y="618" type="curve" smooth="yes"/>
-			<point x="139" y="541" type="line"/>
-		</contour>
-		<contour>
-			<point x="154" y="301" type="curve"/>
-			<point x="343" y="301" type="line" smooth="yes"/>
-			<point x="371" y="301"/>
-			<point x="377" y="314"/>
-			<point x="377" y="333" type="curve" smooth="yes"/>
-			<point x="377" y="372"/>
-			<point x="366" y="467"/>
-			<point x="273" y="467" type="curve" smooth="yes"/>
-			<point x="169" y="467"/>
-			<point x="154" y="342"/>
-		</contour>
-		<contour>
-			<point x="314" y="839" type="curve" smooth="yes"/>
-			<point x="314" y="866"/>
-			<point x="342" y="906"/>
-			<point x="440" y="906" type="curve" smooth="yes"/>
-			<point x="505" y="906"/>
-			<point x="553" y="884"/>
-			<point x="553" y="841" type="curve" smooth="yes"/>
-			<point x="553" y="778"/>
-			<point x="430" y="778"/>
-			<point x="430" y="721" type="curve"/>
-			<point x="431" y="702"/>
-			<point x="454" y="688"/>
-			<point x="474" y="688" type="curve" smooth="yes"/>
-			<point x="479" y="688" type="line"/>
-			<point x="482" y="671" type="line"/>
-			<point x="472" y="667"/>
-			<point x="457" y="666"/>
-			<point x="443" y="666" type="curve" smooth="yes"/>
-			<point x="407" y="666"/>
-			<point x="383" y="700"/>
-			<point x="383" y="729" type="curve" smooth="yes"/>
-			<point x="383" y="787"/>
-			<point x="473" y="784"/>
-			<point x="473" y="845" type="curve" smooth="yes"/>
-			<point x="473" y="859"/>
-			<point x="460" y="880"/>
-			<point x="428" y="880" type="curve" smooth="yes"/>
-			<point x="413" y="880"/>
-			<point x="374" y="867"/>
-			<point x="374" y="831" type="curve" smooth="yes"/>
-			<point x="374" y="812"/>
-			<point x="357" y="808"/>
-			<point x="345" y="808" type="curve" smooth="yes"/>
-			<point x="331" y="808"/>
-			<point x="314" y="818"/>
-		</contour>
+		<component base="ecircumflex"/>
+		<component base="hookabovecomb" xOffset="472" yOffset="160"/>
 	</outline>
+	<anchor name="ogonek" x="331" y="0"/>
+	<anchor name="top" x="257" y="740"/>
 	<lib>
 		<dict>
+			<key>com.fontlab.autolayer</key>
+			<true/>
 			<key>com.fontlab.hintData</key>
 			<dict>
 				<key>hhints</key>
@@ -160,6 +69,8 @@
 					</dict>
 				</array>
 			</dict>
+			<key>com.fontlab.recipe</key>
+			<string>ecircumflex+hookabovecomb</string>
 		</dict>
 	</lib>
 </glyph>

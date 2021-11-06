@@ -4,12 +4,12 @@
 	<advance width="635"/>
 	<outline>
 		<component base="A"/>
-		<component base="dieresis.cap" xOffset="117.5"/>
+		<component base="dieresis.cap" xOffset="111" yOffset="8"/>
 	</outline>
 	<anchor name="aring" x="308" y="670"/>
 	<anchor name="ogonek" x="530" y="10"/>
 	<anchor name="tonos" x="170" y="702"/>
-	<anchor name="top" x="317.5" y="900"/>
+	<anchor name="top" x="311" y="908"/>
 	<lib>
 		<dict>
 			<key>com.fontlab.autolayer</key>

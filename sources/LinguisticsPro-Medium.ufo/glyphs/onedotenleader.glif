@@ -3,7 +3,20 @@
 	<unicode hex="2024"/>
 	<advance width="226"/>
 	<outline>
-		<component base="period" xyScale="0" xOffset="-23.3333" yOffset="0"/>
+		<contour>
+			<point x="39" y="61" type="curve" smooth="yes"/>
+			<point x="39" y="104"/>
+			<point x="68.3333" y="135.333"/>
+			<point x="112" y="135.333" type="curve" smooth="yes"/>
+			<point x="156.333" y="135.333"/>
+			<point x="185" y="104"/>
+			<point x="185" y="61" type="curve"/>
+			<point x="184.333" y="18.6667"/>
+			<point x="156.333" y="-12"/>
+			<point x="112" y="-12" type="curve" smooth="yes"/>
+			<point x="68.3333" y="-12"/>
+			<point x="39" y="18.6667"/>
+		</contour>
 	</outline>
 	<lib>
 		<dict>

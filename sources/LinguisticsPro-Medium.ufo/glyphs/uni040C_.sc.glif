@@ -2,90 +2,14 @@
 <glyph name="uni040C.sc" format="2">
 	<advance width="638"/>
 	<outline>
-		<contour>
-			<point x="38" y="0" type="line"/>
-			<point x="38" y="29" type="line"/>
-			<point x="113" y="34"/>
-			<point x="118" y="35"/>
-			<point x="118" y="89" type="curve" smooth="yes"/>
-			<point x="118" y="423" type="line" smooth="yes"/>
-			<point x="118" y="477"/>
-			<point x="113" y="478"/>
-			<point x="38" y="483" type="curve"/>
-			<point x="38" y="512" type="line"/>
-			<point x="293" y="512" type="line"/>
-			<point x="293" y="483" type="line"/>
-			<point x="218" y="478"/>
-			<point x="213" y="477"/>
-			<point x="213" y="423" type="curve" smooth="yes"/>
-			<point x="213" y="284" type="line"/>
-			<point x="248" y="284" type="line" smooth="yes"/>
-			<point x="327" y="284"/>
-			<point x="351" y="336"/>
-			<point x="372" y="395" type="curve" smooth="yes"/>
-			<point x="399" y="470"/>
-			<point x="432" y="524"/>
-			<point x="496" y="524" type="curve" smooth="yes"/>
-			<point x="584" y="524"/>
-			<point x="597" y="456"/>
-			<point x="597" y="429" type="curve" smooth="yes"/>
-			<point x="597" y="411"/>
-			<point x="591" y="381"/>
-			<point x="545" y="381" type="curve" smooth="yes"/>
-			<point x="522" y="381"/>
-			<point x="505" y="398"/>
-			<point x="505" y="416" type="curve" smooth="yes"/>
-			<point x="505" y="438"/>
-			<point x="511" y="452"/>
-			<point x="511" y="467" type="curve" smooth="yes"/>
-			<point x="511" y="478"/>
-			<point x="504" y="489"/>
-			<point x="490" y="489" type="curve" smooth="yes"/>
-			<point x="461" y="489"/>
-			<point x="435" y="452"/>
-			<point x="418" y="403" type="curve" smooth="yes"/>
-			<point x="390" y="321"/>
-			<point x="370" y="286"/>
-			<point x="332" y="272" type="curve"/>
-			<point x="332" y="270" type="line"/>
-			<point x="403" y="262"/>
-			<point x="476" y="198"/>
-			<point x="497" y="129" type="curve" smooth="yes"/>
-			<point x="527" y="29"/>
-			<point x="552" y="23"/>
-			<point x="604" y="23" type="curve"/>
-			<point x="604" y="-12" type="line"/>
-			<point x="569" y="-12" type="line" smooth="yes"/>
-			<point x="467" y="-12"/>
-			<point x="438" y="5"/>
-			<point x="409" y="94" type="curve" smooth="yes"/>
-			<point x="372" y="207"/>
-			<point x="348" y="249"/>
-			<point x="264" y="249" type="curve" smooth="yes"/>
-			<point x="213" y="249" type="line"/>
-			<point x="213" y="89" type="line" smooth="yes"/>
-			<point x="213" y="35"/>
-			<point x="218" y="34"/>
-			<point x="293" y="29" type="curve"/>
-			<point x="293" y="0" type="line"/>
-		</contour>
-		<contour>
-			<point x="207" y="585" type="line"/>
-			<point x="341" y="696" type="line" smooth="yes"/>
-			<point x="371" y="720"/>
-			<point x="385" y="731"/>
-			<point x="401" y="731" type="curve" smooth="yes"/>
-			<point x="424" y="731"/>
-			<point x="441" y="702"/>
-			<point x="441" y="678" type="curve" smooth="yes"/>
-			<point x="441" y="659"/>
-			<point x="424" y="651"/>
-			<point x="384" y="634" type="curve" smooth="yes"/>
-			<point x="221" y="563" type="line"/>
-		</contour>
+		<component base="uni041A.sc"/>
+		<component base="uni0301.cap" xyScale="0" xOffset="463.333" yOffset="-155.333"/>
 	</outline>
+	<anchor name="top" x="315" y="580"/>
 	<lib>
 		<dict>
+			<key>com.fontlab.autolayer</key>
+			<true/>
 			<key>com.fontlab.hintData</key>
 			<dict>
 				<key>hhints</key>
@@ -143,8 +67,8 @@
 					</dict>
 				</array>
 			</dict>
-			<key>public.markColor</key>
-			<string>1,0.6,0.6,1</string>
+			<key>com.fontlab.recipe</key>
+			<string>uni041A.sc+uni0301.cap</string>
 		</dict>
 	</lib>
 </glyph>

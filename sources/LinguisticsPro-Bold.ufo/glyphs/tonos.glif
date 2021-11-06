@@ -3,7 +3,20 @@
 	<unicode hex="0384"/>
 	<advance width="400"/>
 	<outline>
-		<component base="acutecomb" xOffset="421.717" yOffset="13.5905"/>
+		<contour>
+			<point x="110.717" y="554.591" type="line"/>
+			<point x="255.717" y="703.591" type="line" smooth="yes"/>
+			<point x="292.717" y="741.591"/>
+			<point x="309.717" y="753.591"/>
+			<point x="325.717" y="753.591" type="curve" smooth="yes"/>
+			<point x="353.717" y="753.591"/>
+			<point x="382.717" y="718.591"/>
+			<point x="382.717" y="693.591" type="curve" smooth="yes"/>
+			<point x="382.717" y="667.591"/>
+			<point x="350.717" y="647.591"/>
+			<point x="314.717" y="627.591" type="curve" smooth="yes"/>
+			<point x="131.717" y="524.591" type="line"/>
+		</contour>
 	</outline>
 	<anchor name="_tonos" x="383" y="754"/>
 	<anchor name="_top" x="187" y="540"/>

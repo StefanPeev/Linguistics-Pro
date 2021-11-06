@@ -2,69 +2,14 @@
 <glyph name="uni04EB.sc" format="2">
 	<advance width="633"/>
 	<outline>
-		<contour>
-			<point x="48" y="256" type="curve" smooth="yes"/>
-			<point x="48" y="431"/>
-			<point x="144" y="525"/>
-			<point x="316" y="525" type="curve" smooth="yes"/>
-			<point x="488" y="525"/>
-			<point x="585" y="431"/>
-			<point x="585" y="256" type="curve" smooth="yes"/>
-			<point x="585" y="81"/>
-			<point x="488" y="-13"/>
-			<point x="316" y="-13" type="curve" smooth="yes"/>
-			<point x="144" y="-13"/>
-			<point x="48" y="81"/>
-		</contour>
-		<contour>
-			<point x="152" y="616" type="curve" smooth="yes"/>
-			<point x="152" y="645"/>
-			<point x="173" y="672"/>
-			<point x="212" y="672" type="curve" smooth="yes"/>
-			<point x="251" y="672"/>
-			<point x="272" y="645"/>
-			<point x="272" y="616" type="curve" smooth="yes"/>
-			<point x="272" y="587"/>
-			<point x="251" y="559"/>
-			<point x="212" y="559" type="curve" smooth="yes"/>
-			<point x="173" y="559"/>
-			<point x="152" y="587"/>
-		</contour>
-		<contour>
-			<point x="154" y="248" type="line"/>
-			<point x="156" y="140"/>
-			<point x="189" y="22"/>
-			<point x="316" y="22" type="curve" smooth="yes"/>
-			<point x="443" y="22"/>
-			<point x="477" y="140"/>
-			<point x="479" y="248" type="curve"/>
-		</contour>
-		<contour>
-			<point x="155" y="283" type="curve"/>
-			<point x="478" y="283" type="line"/>
-			<point x="473" y="385"/>
-			<point x="435" y="490"/>
-			<point x="316" y="490" type="curve" smooth="yes"/>
-			<point x="197" y="490"/>
-			<point x="160" y="385"/>
-		</contour>
-		<contour>
-			<point x="360" y="616" type="curve" smooth="yes"/>
-			<point x="360" y="645"/>
-			<point x="381" y="672"/>
-			<point x="420" y="672" type="curve" smooth="yes"/>
-			<point x="459" y="672"/>
-			<point x="480" y="645"/>
-			<point x="480" y="616" type="curve" smooth="yes"/>
-			<point x="480" y="587"/>
-			<point x="459" y="559"/>
-			<point x="420" y="559" type="curve" smooth="yes"/>
-			<point x="381" y="559"/>
-			<point x="360" y="587"/>
-		</contour>
+		<component base="uni04E9.sc"/>
+		<component base="uni0308" xyScale="0" xOffset="524" yOffset="13.3333"/>
 	</outline>
+	<anchor name="top" x="309.667" y="740"/>
 	<lib>
 		<dict>
+			<key>com.fontlab.autolayer</key>
+			<true/>
 			<key>com.fontlab.hintData</key>
 			<dict>
 				<key>hhints</key>
@@ -92,8 +37,8 @@
 					</dict>
 				</array>
 			</dict>
-			<key>public.markColor</key>
-			<string>1,0.6,0.6,1</string>
+			<key>com.fontlab.recipe</key>
+			<string>uni04E9.sc+uni0308</string>
 		</dict>
 	</lib>
 </glyph>

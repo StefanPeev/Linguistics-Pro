@@ -3,15 +3,15 @@
 	<unicode hex="04A1"/>
 	<advance width="650"/>
 	<outline>
-		<component base="uni043A" xyScale="0" xOffset="60" yOffset="0"/>
+		<component base="uni043A" xOffset="60"/>
 		<contour>
 			<point x="189.863" y="490" type="line"/>
 			<point x="190" y="403.502" type="line"/>
 			<point x="162.529" y="403.667" type="line"/>
 			<point x="162.529" y="447"/>
 			<point x="150.602" y="451.333"/>
-			<point x="134.863" y="451.333" type="curve" smooth="yes"/>
-			<point x="132.863" y="451.333" type="line" smooth="yes"/>
+			<point x="134.863" y="451.333" type="curve"/>
+			<point x="132.863" y="451.333" type="line"/>
 			<point x="73.5293" y="451.333"/>
 			<point x="55.196" y="425.667"/>
 			<point x="38.196" y="335.333" type="curve"/>

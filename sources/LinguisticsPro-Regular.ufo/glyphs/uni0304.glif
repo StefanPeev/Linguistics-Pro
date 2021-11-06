@@ -2,9 +2,21 @@
 <glyph name="uni0304" format="2">
 	<unicode hex="0304"/>
 	<outline>
-		<component base="macron" xOffset="-480"/>
+		<contour>
+			<point x="-280" y="656" type="line"/>
+			<point x="-136" y="656" type="line"/>
+			<point x="-136" y="597" type="line"/>
+			<point x="-280" y="597" type="line"/>
+		</contour>
+		<contour>
+			<point x="-280" y="597" type="line"/>
+			<point x="-424" y="597" type="line"/>
+			<point x="-424" y="656" type="line"/>
+			<point x="-280" y="656" type="line"/>
+		</contour>
 	</outline>
 	<anchor name="_top" x="-279" y="580"/>
+	<anchor name="top" x="-280" y="709"/>
 	<lib>
 		<dict>
 			<key>com.fontlab.hintData</key>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="parenright.sups" format="2">
+	<unicode hex="207E"/>
+	<advance width="257"/>
+	<outline>
+		<contour>
+			<point x="219" y="479.923" type="curve" smooth="yes"/>
+			<point x="219" y="602.691"/>
+			<point x="187.248" y="754.37"/>
+			<point x="39" y="760" type="curve"/>
+			<point x="38" y="739" type="line"/>
+			<point x="84" y="727"/>
+			<point x="141" y="659"/>
+			<point x="141" y="483" type="curve" smooth="yes"/>
+			<point x="141" y="305"/>
+			<point x="84" y="238"/>
+			<point x="38" y="226" type="curve"/>
+			<point x="39" y="205" type="line"/>
+			<point x="189.202" y="211.008"/>
+			<point x="219" y="360.991"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.fontlab.hintData</key>
+			<dict>
+				<key>hhints</key>
+				<array>
+					<dict>
+						<key>position</key>
+						<integer>737</integer>
+						<key>width</key>
+						<integer>23</integer>
+					</dict>
+				</array>
+				<key>vhints</key>
+				<array>
+					<dict>
+						<key>position</key>
+						<integer>131</integer>
+						<key>width</key>
+						<integer>78</integer>
+					</dict>
+				</array>
+			</dict>
+			<key>com.fontlab.recipe</key>
+			<string>parenleft.sups</string>
+		</dict>
+	</lib>
+</glyph>

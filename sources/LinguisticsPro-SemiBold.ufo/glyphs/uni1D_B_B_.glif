@@ -5,9 +5,7 @@
 	<outline>
 		<contour>
 			<point x="3" y="392.667" type="line"/>
-			<point x="63.6667" y="478.667"/>
-			<point x="124" y="563.333"/>
-			<point x="182" y="649.333" type="curve"/>
+			<point x="182" y="649.333" type="line"/>
 			<point x="129.333" y="649.333" type="line" smooth="yes"/>
 			<point x="69.6667" y="649.333"/>
 			<point x="62" y="629.667"/>
@@ -16,9 +14,7 @@
 			<point x="29.6667" y="675" type="line"/>
 			<point x="275" y="675" type="line"/>
 			<point x="281.333" y="664.333" type="line"/>
-			<point x="220.667" y="578.333"/>
-			<point x="160.667" y="492.667"/>
-			<point x="103" y="406.667" type="curve"/>
+			<point x="103" y="406.667" type="line"/>
 			<point x="167.333" y="406.667" type="line" smooth="yes"/>
 			<point x="231" y="406.667"/>
 			<point x="248.333" y="423.667"/>
@@ -28,6 +24,8 @@
 			<point x="10" y="381" type="line"/>
 		</contour>
 	</outline>
+	<guideline x="0" y="702" angle="0"/>
+	<guideline x="0" y="408" angle="0"/>
 	<lib>
 		<dict>
 			<key>com.fontlab.hintData</key>

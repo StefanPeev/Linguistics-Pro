@@ -1,29 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="four.osf" format="2">
-	<advance width="540"/>
+	<advance width="550"/>
 	<outline>
-		<contour>
-			<point x="19.6667" y="27" type="line"/>
-			<point x="110.667" y="186"/>
-			<point x="210.333" y="354.667"/>
-			<point x="314.333" y="506" type="curve"/>
-			<point x="418.667" y="506" type="line"/>
-			<point x="418.667" y="61.6667" type="line"/>
-			<point x="519.667" y="61.6667" type="line"/>
-			<point x="519.667" y="0" type="line"/>
-			<point x="418.667" y="0" type="line"/>
-			<point x="418.667" y="-160" type="line"/>
-			<point x="294.667" y="-160" type="line"/>
-			<point x="294.667" y="0" type="line"/>
-			<point x="35.3333" y="0" type="line"/>
-		</contour>
-		<contour>
-			<point x="111.667" y="61.6667" type="curve"/>
-			<point x="294.667" y="61.6667" type="line"/>
-			<point x="294.667" y="387.667" type="line"/>
-			<point x="292.667" y="387.667" type="line"/>
-			<point x="224.333" y="276.667"/>
-			<point x="164.667" y="164.333"/>
-		</contour>
+		<component base="four.tosf"/>
 	</outline>
+	<lib>
+		<dict>
+			<key>com.fontlab.autolayer</key>
+			<true/>
+			<key>com.fontlab.hintData</key>
+			<dict>
+				<key>hhints</key>
+				<array>
+					<dict>
+						<key>position</key>
+						<integer>0</integer>
+						<key>width</key>
+						<integer>47</integer>
+					</dict>
+					<dict>
+						<key>position</key>
+						<integer>409</integer>
+						<key>width</key>
+						<integer>97</integer>
+					</dict>
+				</array>
+				<key>vhints</key>
+				<array>
+					<dict>
+						<key>position</key>
+						<integer>300</integer>
+						<key>width</key>
+						<integer>90</integer>
+					</dict>
+				</array>
+			</dict>
+			<key>com.fontlab.recipe</key>
+			<string>four.tosf</string>
+		</dict>
+	</lib>
 </glyph>

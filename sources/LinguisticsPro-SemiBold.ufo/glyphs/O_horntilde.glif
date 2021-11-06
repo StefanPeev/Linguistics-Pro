@@ -1,88 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Ohorntilde" format="2">
 	<unicode hex="1EE0"/>
-	<advance width="762"/>
+	<advance width="766"/>
 	<outline>
-		<contour>
-			<point x="48" y="346" type="curve" smooth="yes"/>
-			<point x="48" y="507"/>
-			<point x="115" y="707"/>
-			<point x="381" y="707" type="curve" smooth="yes"/>
-			<point x="473" y="707"/>
-			<point x="546" y="683"/>
-			<point x="600" y="638" type="curve"/>
-			<point x="625" y="662"/>
-			<point x="633" y="678"/>
-			<point x="633" y="687" type="curve" smooth="yes"/>
-			<point x="633" y="717"/>
-			<point x="580" y="729"/>
-			<point x="580" y="758" type="curve" smooth="yes"/>
-			<point x="580" y="766"/>
-			<point x="589" y="800"/>
-			<point x="626" y="800" type="curve" smooth="yes"/>
-			<point x="661" y="800"/>
-			<point x="684" y="769"/>
-			<point x="684" y="729" type="curve" smooth="yes"/>
-			<point x="684" y="675"/>
-			<point x="648" y="639"/>
-			<point x="622" y="617" type="curve"/>
-			<point x="651" y="586"/>
-			<point x="714" y="509"/>
-			<point x="714" y="346" type="curve" smooth="yes"/>
-			<point x="714" y="185"/>
-			<point x="647" y="-15"/>
-			<point x="381" y="-15" type="curve" smooth="yes"/>
-			<point x="115" y="-15"/>
-			<point x="48" y="185"/>
-		</contour>
-		<contour>
-			<point x="160" y="346" type="curve" smooth="yes"/>
-			<point x="160" y="199"/>
-			<point x="203" y="20"/>
-			<point x="381" y="20" type="curve" smooth="yes"/>
-			<point x="559" y="20"/>
-			<point x="602" y="199"/>
-			<point x="602" y="346" type="curve" smooth="yes"/>
-			<point x="602" y="493"/>
-			<point x="559" y="672"/>
-			<point x="381" y="672" type="curve" smooth="yes"/>
-			<point x="203" y="672"/>
-			<point x="160" y="493"/>
-		</contour>
-		<contour>
-			<point x="207" y="831" type="line"/>
-			<point x="227" y="871"/>
-			<point x="255" y="929"/>
-			<point x="319" y="929" type="curve" smooth="yes"/>
-			<point x="343" y="929"/>
-			<point x="371" y="920"/>
-			<point x="398" y="910" type="curve"/>
-			<point x="426" y="901"/>
-			<point x="453" y="891"/>
-			<point x="474" y="891" type="curve" smooth="yes"/>
-			<point x="502" y="891"/>
-			<point x="514" y="902"/>
-			<point x="542" y="937" type="curve"/>
-			<point x="562" y="926" type="line"/>
-			<point x="548" y="898"/>
-			<point x="534" y="874"/>
-			<point x="518" y="857" type="curve"/>
-			<point x="501" y="841"/>
-			<point x="483" y="831"/>
-			<point x="458" y="831" type="curve" smooth="yes"/>
-			<point x="436" y="831"/>
-			<point x="407" y="841"/>
-			<point x="378" y="850" type="curve"/>
-			<point x="349" y="860"/>
-			<point x="320" y="869"/>
-			<point x="298" y="869" type="curve" smooth="yes"/>
-			<point x="265" y="869"/>
-			<point x="248" y="853"/>
-			<point x="226" y="818" type="curve"/>
-		</contour>
+		<component base="Ohorn"/>
+		<component base="tildecomb" xOffset="594.398" yOffset="202"/>
 	</outline>
+	<anchor name="top" x="379.398" y="945.333"/>
 	<lib>
 		<dict>
+			<key>com.fontlab.autolayer</key>
+			<true/>
 			<key>com.fontlab.hintData</key>
 			<dict>
 				<key>hhints</key>
@@ -134,6 +62,8 @@
 					</dict>
 				</array>
 			</dict>
+			<key>com.fontlab.recipe</key>
+			<string>Ohorn+tildecomb</string>
 		</dict>
 	</lib>
 </glyph>

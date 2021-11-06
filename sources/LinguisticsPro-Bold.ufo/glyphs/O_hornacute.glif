@@ -1,74 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Ohornacute" format="2">
 	<unicode hex="1EDA"/>
-	<advance width="762"/>
+	<advance width="768"/>
 	<outline>
-		<contour>
-			<point x="48" y="346" type="curve" smooth="yes"/>
-			<point x="48" y="507"/>
-			<point x="115" y="707"/>
-			<point x="381" y="707" type="curve" smooth="yes"/>
-			<point x="473" y="707"/>
-			<point x="546" y="683"/>
-			<point x="600" y="638" type="curve"/>
-			<point x="625" y="662"/>
-			<point x="633" y="678"/>
-			<point x="633" y="687" type="curve" smooth="yes"/>
-			<point x="633" y="717"/>
-			<point x="580" y="729"/>
-			<point x="580" y="758" type="curve" smooth="yes"/>
-			<point x="580" y="766"/>
-			<point x="589" y="800"/>
-			<point x="626" y="800" type="curve" smooth="yes"/>
-			<point x="661" y="800"/>
-			<point x="684" y="769"/>
-			<point x="684" y="729" type="curve" smooth="yes"/>
-			<point x="684" y="675"/>
-			<point x="648" y="639"/>
-			<point x="622" y="617" type="curve"/>
-			<point x="651" y="586"/>
-			<point x="714" y="509"/>
-			<point x="714" y="346" type="curve" smooth="yes"/>
-			<point x="714" y="185"/>
-			<point x="647" y="-15"/>
-			<point x="381" y="-15" type="curve" smooth="yes"/>
-			<point x="115" y="-15"/>
-			<point x="48" y="185"/>
-		</contour>
-		<contour>
-			<point x="160" y="346" type="curve" smooth="yes"/>
-			<point x="160" y="199"/>
-			<point x="203" y="20"/>
-			<point x="381" y="20" type="curve" smooth="yes"/>
-			<point x="559" y="20"/>
-			<point x="602" y="199"/>
-			<point x="602" y="346" type="curve" smooth="yes"/>
-			<point x="602" y="493"/>
-			<point x="559" y="672"/>
-			<point x="381" y="672" type="curve" smooth="yes"/>
-			<point x="203" y="672"/>
-			<point x="160" y="493"/>
-		</contour>
-		<contour>
-			<point x="282" y="764" type="line"/>
-			<point x="427" y="863" type="line" smooth="yes"/>
-			<point x="457" y="883"/>
-			<point x="471" y="891"/>
-			<point x="485" y="891" type="curve"/>
-			<point x="487" y="891"/>
-			<point x="490" y="890"/>
-			<point x="492" y="890" type="curve"/>
-			<point x="506" y="887"/>
-			<point x="524" y="861"/>
-			<point x="524" y="841" type="curve" smooth="yes"/>
-			<point x="524" y="819"/>
-			<point x="509" y="812"/>
-			<point x="463" y="798" type="curve"/>
-			<point x="293" y="742" type="line"/>
-		</contour>
+		<component base="Ohorn"/>
+		<component base="acute.cap" xOffset="138"/>
 	</outline>
+	<anchor name="top" x="354" y="950"/>
 	<lib>
 		<dict>
+			<key>com.fontlab.autolayer</key>
+			<true/>
 			<key>com.fontlab.hintData</key>
 			<dict>
 				<key>hhints</key>
@@ -126,6 +68,8 @@
 					</dict>
 				</array>
 			</dict>
+			<key>com.fontlab.recipe</key>
+			<string>Ohorn+acute.cap</string>
 		</dict>
 	</lib>
 </glyph>

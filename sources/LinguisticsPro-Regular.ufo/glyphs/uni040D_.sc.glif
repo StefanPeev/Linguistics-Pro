@@ -2,68 +2,14 @@
 <glyph name="uni040D.sc" format="2">
 	<advance width="696"/>
 	<outline>
-		<contour>
-			<point x="38" y="0" type="line"/>
-			<point x="38" y="29" type="line"/>
-			<point x="113" y="34"/>
-			<point x="118" y="35"/>
-			<point x="118" y="89" type="curve" smooth="yes"/>
-			<point x="118" y="423" type="line" smooth="yes"/>
-			<point x="118" y="477"/>
-			<point x="113" y="478"/>
-			<point x="38" y="483" type="curve"/>
-			<point x="38" y="512" type="line"/>
-			<point x="293" y="512" type="line"/>
-			<point x="293" y="483" type="line"/>
-			<point x="218" y="478"/>
-			<point x="213" y="477"/>
-			<point x="213" y="423" type="curve" smooth="yes"/>
-			<point x="213" y="150" type="line"/>
-			<point x="483" y="439" type="line"/>
-			<point x="481" y="477"/>
-			<point x="470" y="479"/>
-			<point x="403" y="483" type="curve"/>
-			<point x="403" y="512" type="line"/>
-			<point x="658" y="512" type="line"/>
-			<point x="658" y="483" type="line"/>
-			<point x="583" y="478"/>
-			<point x="578" y="477"/>
-			<point x="578" y="423" type="curve" smooth="yes"/>
-			<point x="578" y="89" type="line" smooth="yes"/>
-			<point x="578" y="35"/>
-			<point x="583" y="34"/>
-			<point x="658" y="29" type="curve"/>
-			<point x="658" y="0" type="line"/>
-			<point x="403" y="0" type="line"/>
-			<point x="403" y="29" type="line"/>
-			<point x="478" y="34"/>
-			<point x="483" y="35"/>
-			<point x="483" y="89" type="curve" smooth="yes"/>
-			<point x="483" y="381" type="line"/>
-			<point x="213" y="92" type="line"/>
-			<point x="213" y="89" type="line" smooth="yes"/>
-			<point x="213" y="35"/>
-			<point x="218" y="34"/>
-			<point x="293" y="29" type="curve"/>
-			<point x="293" y="0" type="line"/>
-		</contour>
-		<contour>
-			<point x="207" y="678" type="curve" smooth="yes"/>
-			<point x="207" y="702"/>
-			<point x="224" y="731"/>
-			<point x="247" y="731" type="curve" smooth="yes"/>
-			<point x="263" y="731"/>
-			<point x="277" y="720"/>
-			<point x="307" y="696" type="curve" smooth="yes"/>
-			<point x="441" y="585" type="line"/>
-			<point x="427" y="563" type="line"/>
-			<point x="264" y="634" type="line" smooth="yes"/>
-			<point x="224" y="651"/>
-			<point x="207" y="659"/>
-		</contour>
+		<component base="uni0418.sc"/>
+		<component base="uni0300.cap" xOffset="610" yOffset="-162"/>
 	</outline>
+	<anchor name="top" x="348" y="580"/>
 	<lib>
 		<dict>
+			<key>com.fontlab.autolayer</key>
+			<true/>
 			<key>com.fontlab.hintData</key>
 			<dict>
 				<key>hhints</key>
@@ -97,8 +43,8 @@
 					</dict>
 				</array>
 			</dict>
-			<key>public.markColor</key>
-			<string>1,0.6,0.6,1</string>
+			<key>com.fontlab.recipe</key>
+			<string>uni0418.sc+uni0300.cap</string>
 		</dict>
 	</lib>
 </glyph>

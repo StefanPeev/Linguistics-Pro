@@ -2,10 +2,12 @@
 <glyph name="eight.osf" format="2">
 	<advance width="560"/>
 	<outline>
-		<component base="eight"/>
+		<component base="eight.tosf"/>
 	</outline>
 	<lib>
 		<dict>
+			<key>com.fontlab.autolayer</key>
+			<true/>
 			<key>com.fontlab.hintData</key>
 			<dict>
 				<key>hhints</key>
@@ -57,6 +59,8 @@
 					</dict>
 				</array>
 			</dict>
+			<key>com.fontlab.recipe</key>
+			<string>eight.tosf</string>
 		</dict>
 	</lib>
 </glyph>

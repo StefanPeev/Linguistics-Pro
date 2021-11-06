@@ -3,8 +3,59 @@
 	<unicode hex="1FDF"/>
 	<advance width="336"/>
 	<outline>
-		<component base="uni1FFE"/>
-		<component base="uni1FC0" xOffset="-54.5401" yOffset="247.834"/>
+		<contour>
+			<point x="191.054" y="555" type="line"/>
+			<point x="158.054" y="591"/>
+			<point x="137.963" y="617.276"/>
+			<point x="138.963" y="639.41" type="curve" smooth="yes"/>
+			<point x="140.128" y="665.204"/>
+			<point x="143.923" y="675.769"/>
+			<point x="155.073" y="693.576" type="curve" smooth="yes"/>
+			<point x="164.072" y="707.949"/>
+			<point x="171.963" y="723.485"/>
+			<point x="171.963" y="744.175" type="curve" smooth="yes"/>
+			<point x="171.963" y="779.175"/>
+			<point x="148.963" y="810.175"/>
+			<point x="102.461" y="810.175" type="curve" smooth="yes"/>
+			<point x="50.4705" y="810.175"/>
+			<point x="18.7634" y="771.176"/>
+			<point x="18.9467" y="715.391" type="curve" smooth="yes"/>
+			<point x="19.1517" y="653.003"/>
+			<point x="59.1528" y="598.718"/>
+			<point x="163.054" y="528" type="curve"/>
+		</contour>
+		<contour>
+			<point x="163.089" y="830.97" type="line"/>
+			<point x="184.861" y="822.007"/>
+			<point x="206.722" y="815.834"/>
+			<point x="225.824" y="815.834" type="curve" smooth="yes"/>
+			<point x="291.424" y="815.834"/>
+			<point x="319.424" y="894.834"/>
+			<point x="333.824" y="937.834" type="curve"/>
+			<point x="308.224" y="955.834" type="line"/>
+			<point x="290.624" y="916.834"/>
+			<point x="277.824" y="900.834"/>
+			<point x="245.936" y="900.834" type="curve" smooth="yes"/>
+			<point x="218.915" y="900.834"/>
+			<point x="190.949" y="911.669"/>
+			<point x="163.424" y="924.598" type="curve"/>
+		</contour>
+		<contour>
+			<point x="163.424" y="924.598" type="line"/>
+			<point x="141.652" y="933.561"/>
+			<point x="120.222" y="940.834"/>
+			<point x="101.119" y="940.834" type="curve" smooth="yes"/>
+			<point x="35.5193" y="940.834"/>
+			<point x="7.51931" y="861.834"/>
+			<point x="-6.88068" y="818.834" type="curve"/>
+			<point x="18.7193" y="800.834" type="line"/>
+			<point x="36.3193" y="839.834"/>
+			<point x="49.1193" y="855.834"/>
+			<point x="81.0072" y="855.834" type="curve" smooth="yes"/>
+			<point x="108.028" y="855.834"/>
+			<point x="135.854" y="844.345"/>
+			<point x="163.38" y="831.416" type="curve"/>
+		</contour>
 	</outline>
 	<anchor name="_tonos" x="339" y="770"/>
 	<guideline x="0" y="850" angle="0"/>

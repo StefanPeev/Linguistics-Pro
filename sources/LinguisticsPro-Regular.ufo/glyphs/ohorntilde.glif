@@ -3,86 +3,14 @@
 	<unicode hex="1EE1"/>
 	<advance width="577"/>
 	<outline>
-		<contour>
-			<point x="49" y="245" type="curve" smooth="yes"/>
-			<point x="49" y="407"/>
-			<point x="128" y="502"/>
-			<point x="288" y="502" type="curve" smooth="yes"/>
-			<point x="359" y="502"/>
-			<point x="414" y="483"/>
-			<point x="453" y="449" type="curve"/>
-			<point x="478" y="473"/>
-			<point x="486" y="489"/>
-			<point x="486" y="498" type="curve" smooth="yes"/>
-			<point x="486" y="528"/>
-			<point x="433" y="540"/>
-			<point x="433" y="569" type="curve" smooth="yes"/>
-			<point x="433" y="577"/>
-			<point x="442" y="611"/>
-			<point x="479" y="611" type="curve" smooth="yes"/>
-			<point x="514" y="611"/>
-			<point x="537" y="580"/>
-			<point x="537" y="540" type="curve" smooth="yes"/>
-			<point x="537" y="486"/>
-			<point x="501" y="449"/>
-			<point x="474" y="427" type="curve"/>
-			<point x="510" y="383"/>
-			<point x="528" y="322"/>
-			<point x="528" y="245" type="curve" smooth="yes"/>
-			<point x="528" y="83"/>
-			<point x="450" y="-12"/>
-			<point x="288" y="-12" type="curve" smooth="yes"/>
-			<point x="128" y="-12"/>
-			<point x="49" y="83"/>
-		</contour>
-		<contour>
-			<point x="112" y="654" type="line"/>
-			<point x="132" y="694"/>
-			<point x="160" y="752"/>
-			<point x="224" y="752" type="curve" smooth="yes"/>
-			<point x="248" y="752"/>
-			<point x="276" y="743"/>
-			<point x="303" y="733" type="curve"/>
-			<point x="331" y="724"/>
-			<point x="358" y="714"/>
-			<point x="379" y="714" type="curve" smooth="yes"/>
-			<point x="407" y="714"/>
-			<point x="419" y="725"/>
-			<point x="447" y="760" type="curve"/>
-			<point x="467" y="749" type="line"/>
-			<point x="453" y="721"/>
-			<point x="439" y="697"/>
-			<point x="423" y="680" type="curve"/>
-			<point x="406" y="664"/>
-			<point x="388" y="654"/>
-			<point x="363" y="654" type="curve" smooth="yes"/>
-			<point x="341" y="654"/>
-			<point x="312" y="664"/>
-			<point x="283" y="673" type="curve"/>
-			<point x="254" y="683"/>
-			<point x="225" y="692"/>
-			<point x="203" y="692" type="curve" smooth="yes"/>
-			<point x="170" y="692"/>
-			<point x="153" y="676"/>
-			<point x="131" y="641" type="curve"/>
-		</contour>
-		<contour>
-			<point x="153" y="245" type="curve" smooth="yes"/>
-			<point x="153" y="107"/>
-			<point x="197" y="23"/>
-			<point x="288" y="23" type="curve" smooth="yes"/>
-			<point x="381" y="23"/>
-			<point x="424" y="107"/>
-			<point x="424" y="245" type="curve" smooth="yes"/>
-			<point x="424" y="383"/>
-			<point x="381" y="467"/>
-			<point x="288" y="467" type="curve" smooth="yes"/>
-			<point x="197" y="467"/>
-			<point x="153" y="383"/>
-		</contour>
+		<component base="ohorn"/>
+		<component base="tildecomb" xOffset="490.812"/>
 	</outline>
+	<anchor name="top" x="295.812" y="730"/>
 	<lib>
 		<dict>
+			<key>com.fontlab.autolayer</key>
+			<true/>
 			<key>com.fontlab.hintData</key>
 			<dict>
 				<key>hhints</key>
@@ -134,6 +62,8 @@
 					</dict>
 				</array>
 			</dict>
+			<key>com.fontlab.recipe</key>
+			<string>ohorn+tildecomb</string>
 		</dict>
 	</lib>
 </glyph>

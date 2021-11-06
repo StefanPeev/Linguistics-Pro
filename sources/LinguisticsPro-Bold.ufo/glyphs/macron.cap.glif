@@ -3,13 +3,20 @@
 	<advance width="400"/>
 	<outline>
 		<contour>
-			<point x="25" y="765" type="line"/>
-			<point x="25" y="852" type="line"/>
-			<point x="375" y="852" type="line"/>
-			<point x="375" y="765" type="line"/>
+			<point x="199.5" y="852" type="line"/>
+			<point x="356" y="852" type="line"/>
+			<point x="356" y="765" type="line"/>
+			<point x="199.5" y="765" type="line"/>
+		</contour>
+		<contour>
+			<point x="199.5" y="765" type="line"/>
+			<point x="44" y="765" type="line"/>
+			<point x="44" y="852" type="line"/>
+			<point x="199.5" y="852" type="line"/>
 		</contour>
 	</outline>
 	<anchor name="_top" x="200" y="765"/>
+	<anchor name="top" x="200" y="902"/>
 	<lib>
 		<dict>
 			<key>com.fontlab.hintData</key>

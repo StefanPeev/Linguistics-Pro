@@ -1,99 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Ocircumflextilde" format="2">
 	<unicode hex="1ED6"/>
-	<advance width="762"/>
+	<advance width="768"/>
 	<outline>
-		<contour>
-			<point x="48" y="346" type="curve" smooth="yes"/>
-			<point x="48" y="458"/>
-			<point x="79" y="550"/>
-			<point x="133" y="610" type="curve" smooth="yes"/>
-			<point x="189" y="673"/>
-			<point x="271" y="707"/>
-			<point x="381" y="707" type="curve" smooth="yes"/>
-			<point x="491" y="707"/>
-			<point x="573" y="673"/>
-			<point x="629" y="610" type="curve" smooth="yes"/>
-			<point x="683" y="550"/>
-			<point x="714" y="458"/>
-			<point x="714" y="346" type="curve" smooth="yes"/>
-			<point x="714" y="234"/>
-			<point x="683" y="142"/>
-			<point x="629" y="82" type="curve" smooth="yes"/>
-			<point x="573" y="19"/>
-			<point x="491" y="-15"/>
-			<point x="381" y="-15" type="curve" smooth="yes"/>
-			<point x="271" y="-15"/>
-			<point x="189" y="19"/>
-			<point x="133" y="82" type="curve" smooth="yes"/>
-			<point x="79" y="142"/>
-			<point x="48" y="234"/>
-		</contour>
-		<contour>
-			<point x="160" y="346" type="curve" smooth="yes"/>
-			<point x="160" y="199"/>
-			<point x="203" y="20"/>
-			<point x="381" y="20" type="curve" smooth="yes"/>
-			<point x="559" y="20"/>
-			<point x="602" y="199"/>
-			<point x="602" y="346" type="curve" smooth="yes"/>
-			<point x="602" y="493"/>
-			<point x="559" y="672"/>
-			<point x="381" y="672" type="curve" smooth="yes"/>
-			<point x="203" y="672"/>
-			<point x="160" y="493"/>
-		</contour>
-		<contour>
-			<point x="228" y="738" type="line"/>
-			<point x="344" y="852" type="line"/>
-			<point x="358" y="865"/>
-			<point x="369" y="876"/>
-			<point x="381" y="876" type="curve" smooth="yes"/>
-			<point x="393" y="876"/>
-			<point x="405" y="864"/>
-			<point x="418" y="852" type="curve"/>
-			<point x="534" y="738" type="line"/>
-			<point x="521" y="717" type="line"/>
-			<point x="414" y="778" type="line" smooth="yes"/>
-			<point x="401" y="785"/>
-			<point x="390" y="792"/>
-			<point x="381" y="792" type="curve" smooth="yes"/>
-			<point x="373" y="792"/>
-			<point x="361" y="785"/>
-			<point x="348" y="778" type="curve" smooth="yes"/>
-			<point x="241" y="717" type="line"/>
-		</contour>
-		<contour>
-			<point x="245" y="936" type="line"/>
-			<point x="265" y="976"/>
-			<point x="293" y="1034"/>
-			<point x="357" y="1034" type="curve" smooth="yes"/>
-			<point x="381" y="1034"/>
-			<point x="409" y="1025"/>
-			<point x="436" y="1015" type="curve"/>
-			<point x="464" y="1006"/>
-			<point x="491" y="996"/>
-			<point x="512" y="996" type="curve" smooth="yes"/>
-			<point x="540" y="996"/>
-			<point x="552" y="1007"/>
-			<point x="580" y="1042" type="curve"/>
-			<point x="600" y="1031" type="line"/>
-			<point x="571" y="974"/>
-			<point x="545" y="936"/>
-			<point x="496" y="936" type="curve" smooth="yes"/>
-			<point x="474" y="936"/>
-			<point x="445" y="946"/>
-			<point x="416" y="955" type="curve"/>
-			<point x="387" y="965"/>
-			<point x="358" y="974"/>
-			<point x="336" y="974" type="curve" smooth="yes"/>
-			<point x="303" y="974"/>
-			<point x="286" y="958"/>
-			<point x="264" y="923" type="curve"/>
-		</contour>
+		<component base="Ocircumflex"/>
+		<component base="tildecomb" xOffset="599" yOffset="410"/>
 	</outline>
+	<anchor name="tonos" x="38" y="702"/>
+	<anchor name="top" x="374" y="1160"/>
 	<lib>
 		<dict>
+			<key>com.fontlab.autolayer</key>
+			<true/>
 			<key>com.fontlab.hintData</key>
 			<dict>
 				<key>hhints</key>
@@ -112,6 +30,8 @@
 					</dict>
 				</array>
 			</dict>
+			<key>com.fontlab.recipe</key>
+			<string>Ocircumflex+tildecomb</string>
 		</dict>
 	</lib>
 </glyph>

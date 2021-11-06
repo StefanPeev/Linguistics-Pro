@@ -2,7 +2,28 @@
 <glyph name="uni0328" format="2">
 	<unicode hex="0328"/>
 	<outline>
-		<component base="ogonek" xyScale="0" xOffset="-415.575" yOffset="9.98612"/>
+		<contour>
+			<point x="-311.241" y="-141.746" type="curve" smooth="yes"/>
+			<point x="-311.241" y="-85.3472"/>
+			<point x="-260.575" y="-24.0139"/>
+			<point x="-196.575" y="9.98612" type="curve"/>
+			<point x="-144.241" y="9.98612" type="line"/>
+			<point x="-196.241" y="-32.6806"/>
+			<point x="-223.899" y="-77.3464"/>
+			<point x="-223.899" y="-118.922" type="curve" smooth="yes"/>
+			<point x="-223.899" y="-159.35"/>
+			<point x="-196.575" y="-180.014"/>
+			<point x="-163.241" y="-180.014" type="curve" smooth="yes"/>
+			<point x="-147.575" y="-180.014"/>
+			<point x="-127.575" y="-175.347"/>
+			<point x="-113.241" y="-167.347" type="curve"/>
+			<point x="-100.575" y="-192.347" type="line"/>
+			<point x="-134.364" y="-220.92"/>
+			<point x="-168.868" y="-230.681"/>
+			<point x="-205.947" y="-230.681" type="curve" smooth="yes"/>
+			<point x="-300.241" y="-230.681"/>
+			<point x="-311.241" y="-168.014"/>
+		</contour>
 	</outline>
 	<anchor name="_ogonek" x="-173" y="10"/>
 	<lib>

@@ -2,10 +2,12 @@
 <glyph name="nine.osf" format="2">
 	<advance width="530"/>
 	<outline>
-		<component base="nine" xOffset="0" yOffset="-155"/>
+		<component base="nine.tosf"/>
 	</outline>
 	<lib>
 		<dict>
+			<key>com.fontlab.autolayer</key>
+			<true/>
 			<key>com.fontlab.hintData</key>
 			<dict>
 				<key>hhints</key>
@@ -15,12 +17,6 @@
 						<integer>-160</integer>
 						<key>width</key>
 						<integer>35</integer>
-					</dict>
-					<dict>
-						<key>position</key>
-						<integer>-26</integer>
-						<key>width</key>
-						<integer>20</integer>
 					</dict>
 					<dict>
 						<key>position</key>
@@ -45,18 +41,14 @@
 					</dict>
 					<dict>
 						<key>position</key>
-						<integer>56</integer>
+						<integer>378</integer>
 						<key>width</key>
-						<integer>75</integer>
-					</dict>
-					<dict>
-						<key>position</key>
-						<integer>373</integer>
-						<key>width</key>
-						<integer>103</integer>
+						<integer>98</integer>
 					</dict>
 				</array>
 			</dict>
+			<key>com.fontlab.recipe</key>
+			<string>nine.tosf</string>
 		</dict>
 	</lib>
 </glyph>

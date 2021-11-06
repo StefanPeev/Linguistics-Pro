@@ -2,28 +2,41 @@
 <glyph name="four.osf" format="2">
 	<advance width="560"/>
 	<outline>
-		<contour>
-			<point x="21" y="30" type="line"/>
-			<point x="110" y="186"/>
-			<point x="206" y="350"/>
-			<point x="313" y="506" type="curve"/>
-			<point x="433" y="506" type="line"/>
-			<point x="433" y="69" type="line"/>
-			<point x="531" y="69" type="line"/>
-			<point x="531" y="0" type="line"/>
-			<point x="433" y="0" type="line"/>
-			<point x="433" y="-160" type="line"/>
-			<point x="292" y="-160" type="line"/>
-			<point x="292" y="0" type="line"/>
-			<point x="40" y="0" type="line"/>
-		</contour>
-		<contour>
-			<point x="124" y="69" type="curve"/>
-			<point x="292" y="69" type="line"/>
-			<point x="292" y="377" type="line"/>
-			<point x="290" y="377" type="line"/>
-			<point x="227" y="273"/>
-			<point x="172" y="165"/>
-		</contour>
+		<component base="four.tosf"/>
 	</outline>
+	<lib>
+		<dict>
+			<key>com.fontlab.autolayer</key>
+			<true/>
+			<key>com.fontlab.hintData</key>
+			<dict>
+				<key>hhints</key>
+				<array>
+					<dict>
+						<key>position</key>
+						<integer>0</integer>
+						<key>width</key>
+						<integer>47</integer>
+					</dict>
+					<dict>
+						<key>position</key>
+						<integer>409</integer>
+						<key>width</key>
+						<integer>97</integer>
+					</dict>
+				</array>
+				<key>vhints</key>
+				<array>
+					<dict>
+						<key>position</key>
+						<integer>300</integer>
+						<key>width</key>
+						<integer>90</integer>
+					</dict>
+				</array>
+			</dict>
+			<key>com.fontlab.recipe</key>
+			<string>four.tosf</string>
+		</dict>
+	</lib>
 </glyph>

@@ -1,48 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni1D4A" format="2">
 	<unicode hex="1D4A"/>
-	<advance width="308"/>
+	<advance width="311"/>
 	<outline>
-		<contour>
-			<point x="20" y="440" type="curve" smooth="yes"/>
-			<point x="20" y="460"/>
-			<point x="31" y="463"/>
-			<point x="44" y="463" type="curve" smooth="yes"/>
-			<point x="217" y="463" type="line"/>
-			<point x="217" y="465"/>
-			<point x="217" y="467"/>
-			<point x="217" y="468" type="curve"/>
-			<point x="217" y="529"/>
-			<point x="200" y="598"/>
-			<point x="128" y="598" type="curve" smooth="yes"/>
-			<point x="81" y="598"/>
-			<point x="58" y="569"/>
-			<point x="41" y="534" type="curve"/>
-			<point x="23" y="544" type="line"/>
-			<point x="39" y="591"/>
-			<point x="73" y="629"/>
-			<point x="140" y="629" type="curve" smooth="yes"/>
-			<point x="238" y="629"/>
-			<point x="279" y="571"/>
-			<point x="279" y="476" type="curve" smooth="yes"/>
-			<point x="279" y="386"/>
-			<point x="235" y="320"/>
-			<point x="141" y="320" type="curve" smooth="yes"/>
-			<point x="31" y="320"/>
-			<point x="20" y="405"/>
-		</contour>
-		<contour>
-			<point x="82" y="421" type="curve" smooth="yes"/>
-			<point x="82" y="398"/>
-			<point x="89" y="341"/>
-			<point x="145" y="341" type="curve" smooth="yes"/>
-			<point x="207" y="341"/>
-			<point x="216" y="415"/>
-			<point x="216" y="440" type="curve"/>
-			<point x="103" y="440" type="line" smooth="yes"/>
-			<point x="86" y="440"/>
-			<point x="82" y="432"/>
-		</contour>
+		<component base="uni1D49" xScale="-1" yScale="-1" xOffset="317" yOffset="1111"/>
 	</outline>
 	<lib>
 		<dict>

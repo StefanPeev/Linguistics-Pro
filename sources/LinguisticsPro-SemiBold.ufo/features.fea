@@ -2,6 +2,8 @@
 #/> otclasses
 @tnum = [zero one two three four five six seven eight nine];
 @tnum2 = [zero.tnum one.tnum two.tnum three.tnum four.tnum five.tnum six.tnum seven.tnum eight.tnum nine.tnum];
+@c2sc = [A AE Aacute Acircumflex Adieresis Agrave Aring Atilde B C Ccaron Ccedilla D Dcaron E Eacute Ebreve Ecaron Ecircumflex Edieresis Egrave Emacron Eth F G H I Iacute Ibreve Icircumflex Idieresis Igrave Imacron Itilde J Jcircumflex K L Lacute Lcaron M N Nacute Ncaron Ntilde O Oacute Obreve Ocircumflex Odieresis Ograve Omacron Oslash Otilde P Q R Racute Rcaron S Sacute Scaron Scircumflex T Tcaron Thorn U Uacute Ubreve Ucircumflex Udieresis Ugrave Umacron Uring V W Wcircumflex X Y Yacute Ycircumflex Ydieresis Z Zacute Zcaron Zdotaccent a aacute abreve amacron uni0400 uni0401 uni0402 uni0403 uni0404 uni0405 uni0406 uni0407 uni0408 uni0409 uni040A uni040B uni040C uni040D uni040E uni040F uni0410 uni0411 uni0412 uni0413 uni0414 uni0415 uni0416 uni0417 uni0418 uni0419 uni041A uni041B uni041C uni041D uni041E uni041F uni0420 uni0421 uni0422 uni0423 uni0424 uni0425 uni0426 uni0427 uni0428 uni0429 uni042A uni042B uni042C uni042D uni042E uni042F];
+@c2sc2 = [A.sc AE.sc Aacute.sc Acircumflex.sc Adieresis.sc Agrave.sc Aring.sc Atilde.sc B.sc C.sc Ccaron.sc Ccedilla.sc D.sc Dcaron.sc E.sc Eacute.sc Ebreve.sc Ecaron.sc Ecircumflex.sc Edieresis.sc Egrave.sc Emacron.sc Eth.sc F.sc G.sc H.sc I.sc Iacute.sc Ibreve.sc Icircumflex.sc Idieresis.sc Igrave.sc Imacron.sc Itilde.sc J.sc Jcircumflex.sc K.sc L.sc Lacute.sc Lcaron.sc M.sc N.sc Nacute.sc Ncaron.sc Ntilde.sc O.sc Oacute.sc Obreve.sc Ocircumflex.sc Odieresis.sc Ograve.sc Omacron.sc Oslash.sc Otilde.sc P.sc Q.sc R.sc Racute.sc Rcaron.sc S.sc Sacute.sc Scaron.sc Scircumflex.sc T.sc Tcaron.sc Thorn.sc U.sc Uacute.sc Ubreve.sc Ucircumflex.sc Udieresis.sc Ugrave.sc Umacron.sc Uring.sc V.sc W.sc Wcircumflex.sc X.sc Y.sc Yacute.sc Ycircumflex.sc Ydieresis.sc Z.sc Zacute.sc Zcaron.sc Zdotaccent.sc a.sc aacute.sc abreve.sc amacron.sc uni0400.sc uni0401.sc uni0402.sc uni0403.sc uni0404.sc uni0405.sc uni0406.sc uni0407.sc uni0408.sc uni0409.sc uni040A.sc uni040B.sc uni040C.sc uni040D.sc uni040E.sc uni040F.sc uni0410.sc uni0411.sc uni0412.sc uni0413.sc uni0414.sc uni0415.sc uni0416.sc uni0417.sc uni0418.sc uni0419.sc uni041A.sc uni041B.sc uni041C.sc uni041D.sc uni041E.sc uni041F.sc uni0420.sc uni0421.sc uni0422.sc uni0423.sc uni0424.sc uni0425.sc uni0426.sc uni0427.sc uni0428.sc uni0429.sc uni042A.sc uni042B.sc uni042C.sc uni042D.sc uni042E.sc uni042F.sc];
 #/< otclasses
 #< classes
 
@@ -44,6 +46,7 @@ feature ccmp {
   sub space uni030F by space_uni030F;
 #< feature
 } ccmp;
+
 feature locl {
 # Localized Forms
 
@@ -103,24 +106,26 @@ feature locl {
   sub uni0163 by uni021B;
 #< feature
 } locl;
+
 feature sinf {
 # Scientific Inferiors
 
 #> feature
-  sub eight by uni2088;
-  sub five by uni2085;
-  sub four by uni2084;
-  sub nine by uni2089;
-  sub one by uni2081;
-  sub parenleft by uni208D;
-  sub parenright by uni208E;
-  sub seven by uni2087;
-  sub six by uni2086;
-  sub three by uni2083;
-  sub two by uni2082;
-  sub zero by zero.inferior;
+  sub eight by eight.subs;
+  sub five by five.subs;
+  sub four by four.subs;
+  sub nine by nine.subs;
+  sub one by one.subs;
+  sub parenleft by parenleft.subs;
+  sub parenright by parenright.subs;
+  sub seven by seven.subs;
+  sub six by six.subs;
+  sub three by three.subs;
+  sub two by two.subs;
+  sub zero by zero.subs;
 #< feature
 } sinf;
+
 feature sups {
 # Superscript
 
@@ -132,12 +137,12 @@ feature sups {
   sub chi by uni1D61;
   sub d by uni1D48;
   sub e by uni1D49;
-  sub eight by uni2078;
+  sub eight by eight.sups;
   sub eng by uni1D51;
   sub eth by uni1D9E;
   sub f by uni1DA0;
-  sub five by uni2075;
-  sub four by uni2074;
+  sub five by five.sups;
+  sub four by four.sups;
   sub g by uni1D4D;
   sub gamma by uni1D5E;
   sub h by uni02B0;
@@ -146,20 +151,20 @@ feature sups {
   sub l by uni02E1;
   sub m by uni1D50;
   sub n by uni207F;
-  sub nine by uni2079;
+  sub nine by nine.sups;
   sub o by uni1D52;
-  sub one by onesuperior;
+  sub one by one.sups;
   sub p by uni1D56;
-  sub parenleft by uni207D;
-  sub parenright by uni207E;
+  sub parenleft by parenleft.sups;
+  sub parenright by parenright.sups;
   sub phi by uni1D60;
   sub r by uni02B3;
   sub s by uni02E2;
-  sub seven by uni2077;
-  sub six by uni2076;
+  sub seven by seven.sups;
+  sub six by six.sups;
   sub t by uni1D57;
-  sub three by threesuperior;
-  sub two by twosuperior;
+  sub three by three.sups;
+  sub two by two.sups;
   sub u by uni1D58;
   sub uni0250 by uni1D44;
   sub uni0251 by uni1D45;
@@ -207,27 +212,29 @@ feature sups {
   sub x by uni02E3;
   sub y by uni02B8;
   sub z by uni1DBB;
-  sub zero by zero.superior;
+  sub zero by zero.sups;
 #< feature
 } sups;
+
 feature subs {
 # Subscript
 
 #> feature
-  sub eight by uni2088;
-  sub five by uni2085;
-  sub four by uni2084;
-  sub nine by uni2089;
-  sub one by uni2081;
-  sub parenleft by uni208D;
-  sub parenright by uni208E;
-  sub seven by uni2087;
-  sub six by uni2086;
-  sub three by uni2083;
-  sub two by uni2082;
-  sub zero by uni2080;
+  sub eight by eight.subs;
+  sub five by five.subs;
+  sub four by four.subs;
+  sub nine by nine.subs;
+  sub one by one.subs;
+  sub parenleft by parenleft.subs;
+  sub parenright by parenright.subs;
+  sub seven by seven.subs;
+  sub six by six.subs;
+  sub three by three.subs;
+  sub two by two.subs;
+  sub zero by zero.subs;
 #< feature
 } subs;
+
 feature frac {
 # Fractions
 
@@ -255,6 +262,7 @@ lookup frac_precomposed {
 } frac_precomposed;
 #< feature
 } frac;
+
 feature ordn {
 # Ordinals
 
@@ -264,6 +272,7 @@ feature ordn {
   sub N o period by uni2116;
 #< feature
 } ordn;
+
 feature smcp {
 # Small Caps
 
@@ -271,98 +280,111 @@ feature smcp {
   sub a by a.sc;
   sub aacute by aacute.sc;
   sub abreve by abreve.sc;
-  sub acircumflex by acircumflex.sc;
-  sub adieresis by adieresis.sc;
-  sub ae by ae.sc;
-  sub agrave by agrave.sc;
+  sub acircumflex by Acircumflex.sc;
+  sub adieresis by Adieresis.sc;
+  sub ae by AE.sc;
+  sub agrave by Agrave.sc;
   sub amacron by amacron.sc;
-  sub aring by aring.sc;
-  sub atilde by atilde.sc;
-  sub b by b.sc;
-  sub c by c.sc;
-  sub ccedilla by ccedilla.sc;
-  sub d by d.sc;
+  sub aring by Aring.sc;
+  sub atilde by Atilde.sc;
+  sub b by B.sc;
+  sub c by C.sc;
+  sub ccaron by Ccaron.sc;
+  sub ccedilla by Ccedilla.sc;
+  sub d by D.sc;
+  sub dcaron by Dcaron.sc;
   sub dotlessi by dotlessi.small;
-  sub e by e.sc;
-  sub eacute by eacute.sc;
-  sub ecircumflex by ecircumflex.sc;
-  sub edieresis by edieresis.sc;
-  sub egrave by egrave.sc;
-  sub eth by eth.sc;
-  sub f by f.sc;
-  sub g by g.sc;
-  sub h by h.sc;
-  sub i by i.sc;
-  sub iacute by iacute.sc;
-  sub icircumflex by icircumflex.sc;
-  sub idieresis by idieresis.sc;
-  sub igrave by igrave.sc;
-  sub j by j.sc;
-  sub k by k.sc;
-  sub l by l.sc;
-  sub m by m.sc;
-  sub n by n.sc;
-  sub ntilde by ntilde.sc;
-  sub o by o.sc;
-  sub oacute by oacute.sc;
+  sub e by E.sc;
+  sub eacute by Eacute.sc;
+  sub ebreve by Ebreve.sc;
+  sub ecaron by Ecaron.sc;
+  sub ecircumflex by Ecircumflex.sc;
+  sub edieresis by Edieresis.sc;
+  sub egrave by Egrave.sc;
+  sub emacron by Emacron.sc;
+  sub eth by Eth.sc;
+  sub f by F.sc;
+  sub g by G.sc;
+  sub h by H.sc;
+  sub i by I.sc;
+  sub iacute by Iacute.sc;
+  sub ibreve by Ibreve.sc;
+  sub icircumflex by Icircumflex.sc;
+  sub idieresis by Idieresis.sc;
+  sub igrave by Igrave.sc;
+  sub imacron by Imacron.sc;
+  sub itilde by Itilde.sc;
+  sub j by J.sc;
+  sub jcircumflex by Jcircumflex.sc;
+  sub k by K.sc;
+  sub l by L.sc;
+  sub lacute by Lacute.sc;
+  sub lcaron by Lcaron.sc;
+  sub m by M.sc;
+  sub n by N.sc;
+  sub nacute by Nacute.sc;
+  sub ncaron by Ncaron.sc;
+  sub ntilde by Ntilde.sc;
+  sub o by O.sc;
+  sub oacute by Oacute.sc;
   sub obreve by Obreve.sc;
-  sub ocircumflex by ocircumflex.sc;
-  sub odieresis by odieresis.sc;
-  sub ograve by ograve.sc;
+  sub ocircumflex by Ocircumflex.sc;
+  sub odieresis by Odieresis.sc;
+  sub ograve by Ograve.sc;
   sub omacron by Omacron.sc;
-  sub oslash by oslash.sc;
-  sub otilde by otilde.sc;
-  sub p by p.sc;
-  sub q by q.sc;
-  sub r by r.sc;
+  sub oslash by Oslash.sc;
+  sub otilde by Otilde.sc;
+  sub p by P.sc;
+  sub q by Q.sc;
+  sub r by R.sc;
   sub racute by Racute.sc;
   sub rcaron by Rcaron.sc;
-  sub s by s.sc;
+  sub s by S.sc;
   sub sacute by Sacute.sc;
   sub scaron by Scaron.sc;
   sub scircumflex by Scircumflex.sc;
-  sub t by t.sc;
+  sub t by T.sc;
   sub tcaron by Tcaron.sc;
-  sub thorn by thorn.sc;
-  sub u by u.sc;
-  sub uacute by uacute.sc;
+  sub thorn by Thorn.sc;
+  sub u by U.sc;
+  sub uacute by Uacute.sc;
   sub ubreve by Ubreve.sc;
-  sub ucircumflex by ucircumflex.sc;
-  sub udieresis by udieresis.sc;
-  sub ugrave by ugrave.sc;
+  sub ucircumflex by Ucircumflex.sc;
+  sub udieresis by Udieresis.sc;
+  sub ugrave by Ugrave.sc;
   sub umacron by Umacron.sc;
-  sub uni0430 by uni0430.sc;
-  sub uni0431 by uni0431.sc;
-  sub uni0432 by uni0432.sc;
-  sub uni0433 by uni0433.sc;
-  sub uni0434 by uni0434.sc;
-  sub uni0435 by uni0435.sc;
-  sub uni0436 by uni0436.sc;
-  sub uni0437 by uni0437.sc;
-  sub uni0438 by uni0438.sc;
-  sub uni0439 by uni0439.sc;
-  sub uni043A by uni043A.sc;
-  sub uni043B by uni043B.sc;
-  sub uni043C by uni043C.sc;
-  sub uni043D by uni043D.sc;
-  sub uni043E by uni043E.sc;
-  sub uni043F by uni043F.sc;
-  sub uni0440 by uni0440.sc;
-  sub uni0441 by uni0441.sc;
-  sub uni0442 by uni0442.sc;
-  sub uni0443 by uni0443.sc;
-  sub uni0444 by uni0444.sc;
-  sub uni0445 by uni0445.sc;
-  sub uni0446 by uni0446.sc;
-  sub uni0447 by uni0447.sc;
-  sub uni0448 by uni0448.sc;
-  sub uni0449 by uni0449.sc;
-  sub uni044A by uni044A.sc;
-  sub uni044B by uni044B.sc;
-  sub uni044C by uni044C.sc;
-  sub uni044D by uni044D.sc;
-  sub uni044E by uni044E.sc;
-  sub uni044F by uni044F.sc;
+  sub uni0430 by uni0410.sc;
+  sub uni0431 by uni0411.sc;
+  sub uni0432 by uni0412.sc;
+  sub uni0433 by uni0413.sc;
+  sub uni0434 by uni0414.sc;
+  sub uni0435 by uni0415.sc;
+  sub uni0436 by uni0416.sc;
+  sub uni0437 by uni0417.sc;
+  sub uni0438 by uni0418.sc;
+  sub uni0439 by uni0419.sc;
+  sub uni043A by uni041A.sc;
+  sub uni043B by uni041B.sc;
+  sub uni043C by uni041C.sc;
+  sub uni043D by uni041D.sc;
+  sub uni043E by uni041E.sc;
+  sub uni043F by uni041F.sc;
+  sub uni0440 by uni0420.sc;
+  sub uni0441 by uni0421.sc;
+  sub uni0442 by uni0422.sc;
+  sub uni0443 by uni0423.sc;
+  sub uni0444 by uni0424.sc;
+  sub uni0445 by uni0425.sc;
+  sub uni0446 by uni0426.sc;
+  sub uni0447 by uni0427.sc;
+  sub uni0448 by uni0428.sc;
+  sub uni0449 by uni0429.sc;
+  sub uni044A by uni042A.sc;
+  sub uni044B by uni042B.sc;
+  sub uni044C by uni042C.sc;
+  sub uni044D by uni042D.sc;
+  sub uni044E by uni042E.sc;
+  sub uni044F by uni042F.sc;
   sub uni0450 by uni0400.sc;
   sub uni0451 by uni0401.sc;
   sub uni0452 by uni0402.sc;
@@ -404,217 +426,79 @@ feature smcp {
   sub uni04F5 by uni04F5.sc;
   sub uni04F9 by uni04F9.sc;
   sub uring by Uring.sc;
-  sub v by v.sc;
-  sub w by w.sc;
+  sub v by V.sc;
+  sub w by W.sc;
   sub wacute by wacute.sc;
   sub wcircumflex by Wcircumflex.sc;
   sub wdieresis by wdieresis.sc;
   sub wgrave by wgrave.sc;
-  sub x by x.sc;
-  sub y by y.sc;
-  sub yacute by yacute.sc;
-  sub ydieresis by ydieresis.sc;
-  sub z by z.sc;
+  sub x by X.sc;
+  sub y by Y.sc;
+  sub yacute by Yacute.sc;
+  sub ycircumflex by Ycircumflex.sc;
+  sub ydieresis by Ydieresis.sc;
+  sub z by Z.sc;
   sub zacute by Zacute.sc;
   sub zcaron by Zcaron.sc;
   sub zdotaccent by Zdotaccent.sc;
 #< feature
 } smcp;
+
 feature c2sc {
 # Capitals to Small Caps
 
 #> feature
-  sub A by a.sc;
-  sub AE by ae.sc;
-  sub Aacute by aacute.sc;
-  sub Abreve by abreve.sc;
-  sub Acircumflex by acircumflex.sc;
-  sub Adieresis by adieresis.sc;
-  sub Agrave by agrave.sc;
-  sub Amacron by amacron.sc;
-  sub Aring by aring.sc;
-  sub Atilde by atilde.sc;
-  sub B by b.sc;
-  sub C by c.sc;
-  sub Ccedilla by ccedilla.sc;
-  sub D by d.sc;
-  sub E by e.sc;
-  sub Eacute by eacute.sc;
-  sub Ecircumflex by ecircumflex.sc;
-  sub Edieresis by edieresis.sc;
-  sub Egrave by egrave.sc;
-  sub Eth by eth.sc;
-  sub F by f.sc;
-  sub G by g.sc;
-  sub H by h.sc;
-  sub I by i.sc;
-  sub Iacute by iacute.sc;
-  sub Icircumflex by icircumflex.sc;
-  sub Idieresis by idieresis.sc;
-  sub Igrave by igrave.sc;
-  sub J by j.sc;
-  sub K by k.sc;
-  sub L by l.sc;
-  sub M by m.sc;
-  sub N by n.sc;
-  sub Ntilde by ntilde.sc;
-  sub O by o.sc;
-  sub Oacute by oacute.sc;
-  sub Obreve by Obreve.sc;
-  sub Ocircumflex by ocircumflex.sc;
-  sub Odieresis by odieresis.sc;
-  sub Ograve by ograve.sc;
-  sub Omacron by Omacron.sc;
-  sub Oslash by oslash.sc;
-  sub Otilde by otilde.sc;
-  sub P by p.sc;
-  sub Q by q.sc;
-  sub R by r.sc;
-  sub Racute by Racute.sc;
-  sub Rcaron by Rcaron.sc;
-  sub S by s.sc;
-  sub Sacute by Sacute.sc;
-  sub Scaron by Scaron.sc;
-  sub Scircumflex by Scircumflex.sc;
-  sub T by t.sc;
-  sub Tcaron by Tcaron.sc;
-  sub Thorn by thorn.sc;
-  sub U by u.sc;
-  sub Uacute by uacute.sc;
-  sub Ubreve by Ubreve.sc;
-  sub Ucircumflex by ucircumflex.sc;
-  sub Udieresis by udieresis.sc;
-  sub Ugrave by ugrave.sc;
-  sub Umacron by Umacron.sc;
-  sub Uring by Uring.sc;
-  sub V by v.sc;
-  sub W by w.sc;
-  sub Wacute by wacute.sc;
-  sub Wcircumflex by Wcircumflex.sc;
-  sub Wdieresis by wdieresis.sc;
-  sub Wgrave by wgrave.sc;
-  sub X by x.sc;
-  sub Y by y.sc;
-  sub Yacute by yacute.sc;
-  sub Ydieresis by ydieresis.sc;
-  sub Z by z.sc;
-  sub Zacute by Zacute.sc;
-  sub Zcaron by Zcaron.sc;
-  sub Zdotaccent by Zdotaccent.sc;
-  sub uni0400 by uni0400.sc;
-  sub uni0401 by uni0401.sc;
-  sub uni0402 by uni0402.sc;
-  sub uni0403 by uni0403.sc;
-  sub uni0404 by uni0404.sc;
-  sub uni0405 by uni0405.sc;
-  sub uni0406 by uni0406.sc;
-  sub uni0407 by uni0407.sc;
-  sub uni0408 by uni0408.sc;
-  sub uni0409 by uni0409.sc;
-  sub uni040A by uni040A.sc;
-  sub uni040B by uni040B.sc;
-  sub uni040C by uni040C.sc;
-  sub uni040D by uni045D.sc;
-  sub uni040E by uni040E.sc;
-  sub uni040F by uni040F.sc;
-  sub uni0410 by uni0430.sc;
-  sub uni0411 by uni0431.sc;
-  sub uni0412 by uni0432.sc;
-  sub uni0413 by uni0433.sc;
-  sub uni0414 by uni0434.sc;
-  sub uni0415 by uni0435.sc;
-  sub uni0416 by uni0436.sc;
-  sub uni0417 by uni0437.sc;
-  sub uni0418 by uni0438.sc;
-  sub uni0419 by uni0439.sc;
-  sub uni041A by uni043A.sc;
-  sub uni041B by uni043B.sc;
-  sub uni041C by uni043C.sc;
-  sub uni041D by uni043D.sc;
-  sub uni041E by uni043E.sc;
-  sub uni041F by uni043F.sc;
-  sub uni0420 by uni0440.sc;
-  sub uni0421 by uni0441.sc;
-  sub uni0422 by uni0442.sc;
-  sub uni0423 by uni0443.sc;
-  sub uni0424 by uni0444.sc;
-  sub uni0425 by uni0445.sc;
-  sub uni0426 by uni0446.sc;
-  sub uni0427 by uni0447.sc;
-  sub uni0428 by uni0448.sc;
-  sub uni0429 by uni0449.sc;
-  sub uni042A by uni044A.sc;
-  sub uni042B by uni044B.sc;
-  sub uni042C by uni044C.sc;
-  sub uni042D by uni044D.sc;
-  sub uni042E by uni044E.sc;
-  sub uni042F by uni044F.sc;
-  sub uni0462 by uni0463.sc;
-  sub uni0472 by uni0473.sc;
-  sub uni0474 by uni0475.sc;
-  sub uni04A4 by uni04A5.sc;
-  sub uni04AA by uni04AB.sc;
-  sub uni04AE by uni04AF.sc;
-  sub uni04B0 by uni04B1.sc;
-  sub uni04C1 by uni04C2.sc;
-  sub uni04D0 by uni04D1.sc;
-  sub uni04D2 by uni04D3.sc;
-  sub uni04D4 by uni04D5.sc;
-  sub uni04D6 by uni04D7.sc;
-  sub uni04DC by uni04DD.sc;
-  sub uni04DE by uni04DF.sc;
-  sub uni04E2 by uni04E3.sc;
-  sub uni04E4 by uni04E5.sc;
-  sub uni04E6 by uni04E7.sc;
-  sub uni04E8 by uni04E9.sc;
-  sub uni04EA by uni04EB.sc;
-  sub uni04EC by uni04ED.sc;
-  sub uni04EE by uni04EF.sc;
-  sub uni04F0 by uni04F1.sc;
-  sub uni04F4 by uni04F5.sc;
-  sub uni04F8 by uni04F9.sc;
+  sub @c2sc by @c2sc2;
 #< feature
 } c2sc;
+
 feature pnum {
 # Proportional Figures
 
 #> feature
-  sub eight.tnum by eight.pnum;
+  sub eight.tosf by eight.osf;
+  sub eight.oldstyle.pnum by eight.osf;
+  sub eight.tnum by eight.osf;
   sub eight by eight.pnum;
-  sub eightsuperior by eightsuperior.pnum;
-  sub five.tnum by five.pnum;
+  sub five.tosf by five.osf;
+  sub five.oldstyle.pnum by five.osf;
+  sub five.tnum by five.osf;
   sub five by five.pnum;
-  sub fivesuperior by fivesuperior.pnum;
-  sub four.tnum by four.pnum;
+  sub four.tosf by four.osf;
+  sub four.oldstyle.pnum by four.osf;
+  sub four.tnum by four.osf;
   sub four by four.pnum;
-  sub foursuperior by foursuperior.pnum;
-  sub nine.tnum by nine.pnum;
+  sub nine.tosf by nine.osf;
+  sub nine.oldstyle.pnum by nine.osf;
+  sub nine.tnum by nine.osf;
   sub nine by nine.pnum;
-  sub ninesuperior by ninesuperior.pnum;
-  sub one.tnum by one.pnum;
+  sub one.tosf by one.osf;
+  sub one.oldstyle.pnum by one.osf;
+  sub one.tnum by one.osf;
   sub one by one.pnum;
-  sub seven.tnum by seven.pnum;
+  sub seven.tosf by seven.osf;
+  sub seven.oldstyle.pnum by seven.osf;
+  sub seven.tnum by seven.osf;
   sub seven by seven.pnum;
-  sub sevensuperior by sevensuperior.pnum;
-  sub six.tnum by six.pnum;
+  sub six.tosf by six.osf;
+  sub six.oldstyle.pnum by six.osf;
+  sub six.tnum by six.osf;
   sub six by six.pnum;
-  sub sixsuperior by sixsuperior.pnum;
-  sub three.tnum by three.pnum;
+  sub three.tosf by three.osf;
+  sub three.oldstyle.pnum by three.osf;
+  sub three.tnum by three.osf;
   sub three by three.pnum;
-  sub two.tnum by two.pnum;
+  sub two.tosf by two.osf;
+  sub two.oldstyle.pnum by two.osf;
+  sub two.tnum by two.osf;
   sub two by two.pnum;
-  sub uni2070 by uni2070.pnum;
-  sub uni2074 by uni2074.pnum;
-  sub uni2075 by uni2075.pnum;
-  sub uni2076 by uni2076.pnum;
-  sub uni2077 by uni2077.pnum;
-  sub uni2078 by uni2078.pnum;
-  sub uni2079 by uni2079.pnum;
-  sub zero.tnum by zero.pnum;
+  sub zero.tosf by zero.osf;
+  sub zero.oldstyle.pnum by zero.osf;
+  sub zero.tnum by zero.osf;
   sub zero by zero.pnum;
-  sub zerosuperior by zerosuperior.pnum;
 #< feature
 } pnum;
+
 feature tnum {
 # GSUB feature: Tabular Figures
 # Lookups: 1
@@ -622,69 +506,91 @@ feature tnum {
   sub @tnum by @tnum2;
 
 } tnum;
+
 feature onum {
 # Oldstyle Figures
 
 #> feature
+  sub eight.tnum by eight.tosf;
   sub eight by eight.oldstyle.pnum;
-  sub eight.tnum by eight.oldstyle.pnum;
-  sub eight.pnum by eight.osf;
+  sub eight.pnum by eight.oldstyle.pnum;
+  sub five.tnum by five.tosf;
   sub five by five.oldstyle.pnum;
-  sub five.tnum by five.oldstyle.pnum;
-  sub five.pnum by five.osf;
+  sub five.pnum by five.oldstyle.pnum;
+  sub four.tnum by four.tosf;
   sub four by four.oldstyle.pnum;
-  sub four.tnum by four.oldstyle.pnum;
-  sub four.pnum by four.osf;
+  sub four.pnum by four.oldstyle.pnum;
+  sub nine.tnum by nine.tosf;
   sub nine by nine.oldstyle.pnum;
-  sub nine.tnum by nine.oldstyle.pnum;
-  sub nine.pnum by nine.osf;
+  sub nine.pnum by nine.oldstyle.pnum;
+  sub one.tnum by one.tosf;
   sub one by one.oldstyle.pnum;
-  sub one.tnum by one.oldstyle.pnum;
-  sub one.pnum by one.osf;
+  sub one.pnum by one.oldstyle.pnum;
+  sub seven.tnum by seven.tosf;
   sub seven by seven.oldstyle.pnum;
-  sub seven.tnum by seven.oldstyle.pnum;
-  sub seven.pnum by seven.osf;
+  sub seven.pnum by seven.oldstyle.pnum;
+  sub six.tnum by six.tosf;
   sub six by six.oldstyle.pnum;
-  sub six.tnum by six.oldstyle.pnum;
-  sub six.pnum by six.osf;
+  sub six.pnum by six.oldstyle.pnum;
+  sub three.tnum by three.tosf;
   sub three by three.oldstyle.pnum;
-  sub three.tnum by three.oldstyle.pnum;
-  sub three.pnum by three.osf;
+  sub three.pnum by three.oldstyle.pnum;
+  sub two.tnum by two.tosf;
   sub two by two.oldstyle.pnum;
-  sub two.tnum by two.oldstyle.pnum;
-  sub two.pnum by two.osf;
+  sub two.pnum by two.oldstyle.pnum;
+  sub zero.tnum by zero.tosf;
   sub zero by zero.oldstyle.pnum;
-  sub zero.tnum by zero.oldstyle.pnum;
-  sub zero.pnum by zero.osf;
+  sub zero.pnum by zero.oldstyle.pnum;
 #< feature
 } onum;
+
 feature lnum {
 # Lining Figures
 
 #> feature
+  sub eight.tosf by eight.tnum;
   sub eight.osf by eight.tnum;
-  sub eight by eight.tnum;
+  sub eight.oldstyle.pnum by eight.pnum;
+  sub eight by eight.pnum;
+  sub five.tosf by five.tnum;
   sub five.osf by five.tnum;
-  sub five by five.tnum;
+  sub five.oldstyle.pnum by five.pnum;
+  sub five by five.pnum;
+  sub four.tosf by four.tnum;
   sub four.osf by four.tnum;
-  sub four by four.tnum;
+  sub four.oldstyle.pnum by four.pnum;
+  sub four by four.pnum;
+  sub nine.tosf by nine.tnum;
   sub nine.osf by nine.tnum;
-  sub nine by nine.tnum;
+  sub nine.oldstyle.pnum by nine.pnum;
+  sub nine by nine.pnum;
+  sub one.tosf by one.tnum;
   sub one.osf by one.tnum;
-  sub one by one.tnum;
+  sub one.oldstyle.pnum by one.pnum;
+  sub one by one.pnum;
+  sub seven.tosf by seven.tnum;
   sub seven.osf by seven.tnum;
-  sub seven by seven.tnum;
+  sub seven.oldstyle.pnum by seven.pnum;
+  sub seven by seven.pnum;
+  sub six.tosf by six.tnum;
   sub six.osf by six.tnum;
-  sub six by six.tnum;
+  sub six.oldstyle.pnum by six.pnum;
+  sub six by six.pnum;
+  sub three.tosf by three.tnum;
   sub three.osf by three.tnum;
-  sub three by three.tnum;
+  sub three.oldstyle.pnum by three.pnum;
+  sub three by three.pnum;
+  sub two.tosf by two.tnum;
   sub two.osf by two.tnum;
-  sub two by two.tnum;
-  sub zero.oldstyle.pnum by zero.tnum;
-  sub zero by zero.tnum;
-  sub zero.pnum by zero.tnum;
+  sub two.oldstyle.pnum by two.pnum;
+  sub two by two.pnum;
+  sub zero.tosf by zero.tnum;
+  sub zero.osf by zero.tnum;
+  sub zero.oldstyle.pnum by zero.pnum;
+  sub zero by zero.pnum;
 #< feature
 } lnum;
+
 feature salt {
 # Stylistic Alternates
 
@@ -692,16 +598,18 @@ feature salt {
   sub backslash from [backslash.alt];
   sub bar from [bar.alt];
   sub slash from [slash.alt];
-  sub uniEFF3 from [uniEFF3.001];
 #< feature
 } salt;
+
 feature dlig {
 # Discretionary Ligatures
 
 #> feature
+  sub f J by f_J;
   sub s t by s_t;
 #< feature
 } dlig;
+
 feature hist {
 # Historical Forms
 
@@ -709,6 +617,7 @@ feature hist {
   sub s by longs;
 #< feature
 } hist;
+
 feature swsh {
 # Swash
 
@@ -717,6 +626,7 @@ feature swsh {
   sub uni043A by uni043A.swsh;
 #< feature
 } swsh;
+
 feature case {
 # Case Sensitive Forms
 
@@ -746,6 +656,7 @@ feature case {
   sub uni0331 by uni0331.cap;
 #< feature
 } case;
+
 feature mark {
 # GPOS feature : Mark Positioning
     markClass acutecomb <anchor -230 542> @top;
@@ -1173,6 +1084,7 @@ feature mark {
   lookup markLTR4;
   lookup markLTR5;
 } mark;
+
 feature mkmk {
 # GPOS feature : Mark to Mark Positioning
 #    markClass acutecomb <anchor -230 542> @top;
@@ -1191,3 +1103,22 @@ feature mkmk {
 
   lookup mkmkLTR;
 } mkmk;
+
+feature liga {
+# Standard Ligatures
+
+#> feature
+  sub f b by f_b;
+  sub f h by f_h;
+  sub f k by f_k;
+  sub longs b by longs_b;
+  sub longs h by longs_h;
+  sub longs i by longs_i;
+  sub longs k by longs_k;
+  sub longs l by longs_l;
+  sub longs longs by longs_longs;
+  sub longs longs i by longs_longs_i;
+  sub longs longs l by longs_longs_l;
+#< feature
+} liga;
+

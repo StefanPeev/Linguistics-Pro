@@ -2,10 +2,12 @@
 <glyph name="five.osf" format="2">
 	<advance width="550"/>
 	<outline>
-		<component base="five" xyScale="0" xOffset="0.666667" yOffset="-162"/>
+		<component base="five.tosf"/>
 	</outline>
 	<lib>
 		<dict>
+			<key>com.fontlab.autolayer</key>
+			<true/>
 			<key>com.fontlab.hintData</key>
 			<dict>
 				<key>hhints</key>
@@ -33,18 +35,14 @@
 				<array>
 					<dict>
 						<key>position</key>
-						<integer>41</integer>
-						<key>width</key>
-						<integer>81</integer>
-					</dict>
-					<dict>
-						<key>position</key>
-						<integer>376</integer>
+						<integer>375</integer>
 						<key>width</key>
 						<integer>104</integer>
 					</dict>
 				</array>
 			</dict>
+			<key>com.fontlab.recipe</key>
+			<string>five.tosf</string>
 		</dict>
 	</lib>
 </glyph>

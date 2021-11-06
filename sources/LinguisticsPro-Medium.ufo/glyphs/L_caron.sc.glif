@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Lcaron.sc" format="2">
+	<advance width="501"/>
+	<outline>
+		<component base="L.sc"/>
+		<component base="quoteright" xyScale="0" xOffset="263.568" yOffset="-180.9"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.fontlab.hintData</key>
+			<dict>
+				<key>hhints</key>
+				<array>
+					<dict>
+						<key>position</key>
+						<integer>363</integer>
+						<key>width</key>
+						<integer>242</integer>
+					</dict>
+				</array>
+				<key>vhints</key>
+				<array>
+					<dict>
+						<key>position</key>
+						<integer>392</integer>
+						<key>width</key>
+						<integer>73</integer>
+					</dict>
+				</array>
+			</dict>
+			<key>com.fontlab.recipe</key>
+			<string>L.sc+quoteright</string>
+		</dict>
+	</lib>
+</glyph>

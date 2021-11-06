@@ -3,41 +3,13 @@
 	<unicode hex="2150"/>
 	<advance width="900"/>
 	<outline>
-		<component base="uni2081" xOffset="-5" yOffset="390"/>
+		<component base="one.subs" xOffset="-5" yOffset="390"/>
+		<component base="seven.subs" xOffset="502" yOffset="118"/>
 		<contour>
 			<point x="233" y="4" type="line"/>
 			<point x="590" y="695" type="line"/>
 			<point x="643" y="667" type="line"/>
 			<point x="285" y="-27" type="line"/>
-		</contour>
-		<contour>
-			<point x="536" y="296" type="line"/>
-			<point x="566" y="401" type="line"/>
-			<point x="865" y="401" type="line"/>
-			<point x="874" y="390" type="line"/>
-			<point x="858" y="318"/>
-			<point x="839" y="289"/>
-			<point x="776" y="206" type="curve" smooth="yes"/>
-			<point x="745" y="165"/>
-			<point x="738" y="105"/>
-			<point x="738" y="31" type="curve" smooth="yes"/>
-			<point x="738" y="-2"/>
-			<point x="703" y="-7"/>
-			<point x="673" y="-7" type="curve" smooth="yes"/>
-			<point x="644" y="-7"/>
-			<point x="610" y="-6"/>
-			<point x="610" y="32" type="curve" smooth="yes"/>
-			<point x="610" y="91"/>
-			<point x="654" y="152"/>
-			<point x="709" y="211" type="curve" smooth="yes"/>
-			<point x="753" y="259"/>
-			<point x="767" y="295"/>
-			<point x="776" y="319" type="curve"/>
-			<point x="615" y="319" type="line" smooth="yes"/>
-			<point x="586" y="319"/>
-			<point x="579" y="310"/>
-			<point x="571" y="296" type="curve" smooth="yes"/>
-			<point x="564" y="284" type="line"/>
 		</contour>
 	</outline>
 	<lib>
