@@ -6,11 +6,13 @@ The Linguistics Pro font family is based on the Utopia Nova font family, issued 
 
 The Linguistics Pro font family contains two models of Cyrillic glyphs. The base range of the Cyrillic glyphs <code>(uni0410:uni044F)</code> represents the modern Bulgarian letterform model. The traditional Cyrillic letterform model is included as a local feature for Russian language and as a Stylistic Set 01. In the future the project will be develop as a multilingual font for Latin and for Cyrillic scripts with a special attention to local features in OpenType.
 
-### Acknowledgements
+Acknowledgements
+----------------
 
 If you make modifications be sure to add <code>your name</code> (N), <code>email</code> (if you have one) (E), <code>web-address</code> (if you have one) (W), <code>twitter handle</code> (if you have one) (T) and <code>description</code> (D).
 
-### Project Manager
+Project Manager
+---------------
 
 + N: Stefan Peev
 + E: context.bg@gmail.com
@@ -18,11 +20,13 @@ If you make modifications be sure to add <code>your name</code> (N), <code>email
 + T: https://twitter.com/localfonts
 + D: Project Manager and Designer
 
-### License
+License
+-------
 
 SIL Open Font License [OFL](documentation/OFL.txt)
 
-### Local Fonts Project
+Local Fonts Project
+-------------------
 
 + [Coval](https://github.com/StefanPeev/coval)
 + [Libra Sans](https://github.com/StefanPeev/Libra-Sans)
@@ -31,6 +35,7 @@ SIL Open Font License [OFL](documentation/OFL.txt)
 + [Pliska](https://github.com/StefanPeev/Pliska)
 + [Veleka](https://github.com/StefanPeev/Veleka)
 
-### Donations
+Donations
+---------
 
 If you apreciate the project, please feel free to donate: [PayPal](https://www.paypal.me/localfonts).
