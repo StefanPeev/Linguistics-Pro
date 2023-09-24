@@ -1,12 +1,18 @@
+**2023-09-24:**  
+ Bump **Regular**, **Bold**, **Italic**, **Bold Italic** styles to v.1.076  
+ 
+ ### Full set of IPA Extensions  
+ * **IPA Extensions (96/96):** uni0250 uni0251 uni0252 uni0253 uni0254 uni0255 uni0256 uni0257 uni0258 uni0259 uni025A uni025B uni025C uni025D uni025E uni025F uni0260 uni0261 uni0262 uni0263 uni0264 uni0265 uni0266 uni0267 uni0268 uni0269 uni026A uni026B uni026C uni026D uni026E uni026F uni0270 uni0271 uni0272 uni0273 uni0274 uni0275 uni0276 uni0277 uni0278 uni0279 uni027A uni027B uni027C uni027D uni027E uni027F uni0280 uni0281 uni0282 uni0283 uni0284 uni0285 uni0286 uni0287 uni0288 uni0289 uni028A uni028B uni028C uni028D uni028E uni028F uni0290 uni0291 uni0292 uni0293 uni0294 uni0295 uni0296 uni0297 uni0298 uni0299 uni029A uni029B uni029C uni029D uni029E uni029F uni02A0 uni02A1 uni02A2 uni02A3 uni02A4 uni02A5 uni02A6 uni02A7 uni02A8 uni02A9 uni02AA uni02AB uni02AC uni02AD uni02AE uni02AF  
+  
 **2023-09-19:**  
  Bump **Regular** and **Bold** styles to v.1.074  
  
- ## Changes in Regular and Bold styles in v.1.074  
+ ### Changes in Regular and Bold styles in v.1.074  
 
- ### Corrections in the glyphs  
+ #### Corrections in the glyphs  
  * **Number Forms:** uni2180 uni2181 uni2182 uni2183  
  
- ### Additional glyphs  
+ #### Additional glyphs  
  * **Spacing Modifier Letters:** arrowheadleftmod/uni02C2 (˂) arrowheadrightmod/uni02C3 (˃) arrowheadupmod/uni02C4 (˄) arrowheaddownmod/uni02C5 (˅)  
  * **Latin Extended-B:** uni01B1  
  * **Number Forms:** uni2183  
