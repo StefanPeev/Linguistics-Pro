@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni022E" format="2">
+  <advance width="768"/>
+  <unicode hex="022E"/>
+  <anchor x="38" y="702" name="tonos"/>
+  <anchor x="386" y="962" name="top"/>
+  <outline>
+    <component base="O"/>
+    <component base="uni0307" xOffset="624" yOffset="202"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.autolayer</key>
+  <true/>
+  <key>com.fontlab.hintData</key>
+  <dict>
+    <key>hhints</key>
+    <array>
+      <dict>
+        <key>position</key>
+        <integer>-15</integer>
+        <key>width</key>
+        <integer>46</integer>
+      </dict>
+      <dict>
+        <key>position</key>
+        <integer>661</integer>
+        <key>width</key>
+        <integer>46</integer>
+      </dict>
+      <dict>
+        <key>position</key>
+        <integer>731</integer>
+        <key>width</key>
+        <integer>150</integer>
+      </dict>
+    </array>
+    <key>vhints</key>
+    <array>
+      <dict>
+        <key>position</key>
+        <integer>42</integer>
+        <key>width</key>
+        <integer>177</integer>
+      </dict>
+      <dict>
+        <key>position</key>
+        <integer>305</integer>
+        <key>width</key>
+        <integer>158</integer>
+      </dict>
+      <dict>
+        <key>position</key>
+        <integer>549</integer>
+        <key>width</key>
+        <integer>177</integer>
+      </dict>
+    </array>
+  </dict>
+  <key>com.fontlab.recipe</key>
+  <string>O+uni0307</string>
+  </dict>
+  </lib>
+</glyph>

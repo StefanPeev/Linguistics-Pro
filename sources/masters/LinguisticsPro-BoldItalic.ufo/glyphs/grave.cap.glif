@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="grave.cap" format="2">
+  <advance width="400"/>
+  <outline>
+    <contour>
+      <point x="173" y="840" type="curve" smooth="yes"/>
+      <point x="173" y="860"/>
+      <point x="195" y="904"/>
+      <point x="227" y="904" type="curve" smooth="yes"/>
+      <point x="245" y="904"/>
+      <point x="260" y="897"/>
+      <point x="291" y="874" type="curve" smooth="yes"/>
+      <point x="463" y="751" type="line"/>
+      <point x="449" y="719" type="line"/>
+      <point x="246" y="783" type="line" smooth="yes"/>
+      <point x="193" y="800"/>
+      <point x="173" y="811"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.postscript.hints</key>
+  <dict>
+    <key>formatVersion</key>
+    <string>1</string>
+    <key>id</key>
+    <string>w400m173,840c173,860 195,904 227,904c245,904 260,897 291,874l463,751l449,719l246,783c193,800 173,811 173,840</string>
+    <key>hintSetList</key>
+    <array>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem 719 185</string>
+          <string>vstem 173 290</string>
+        </array>
+      </dict>
+    </array>
+  </dict>
+  </dict>
+  </lib>
+</glyph>

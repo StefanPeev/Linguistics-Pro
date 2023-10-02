@@ -1,116 +1,63 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="Ocaron" format="1">
-  <advance width="762"/>
-  <unicode hex="01D1"/>
-  <outline>
-    <contour>
-      <point x="48" y="346" type="curve" smooth="yes"/>
-      <point x="48" y="458"/>
-      <point x="79" y="550"/>
-      <point x="133" y="610" type="curve" smooth="yes"/>
-      <point x="189" y="673"/>
-      <point x="271" y="707"/>
-      <point x="381" y="707" type="curve" smooth="yes"/>
-      <point x="491" y="707"/>
-      <point x="573" y="673"/>
-      <point x="629" y="610" type="curve" smooth="yes"/>
-      <point x="683" y="550"/>
-      <point x="714" y="458"/>
-      <point x="714" y="346" type="curve" smooth="yes"/>
-      <point x="714" y="234"/>
-      <point x="683" y="142"/>
-      <point x="629" y="82" type="curve" smooth="yes"/>
-      <point x="573" y="19"/>
-      <point x="491" y="-15"/>
-      <point x="381" y="-15" type="curve" smooth="yes"/>
-      <point x="271" y="-15"/>
-      <point x="189" y="19"/>
-      <point x="133" y="82" type="curve" smooth="yes"/>
-      <point x="79" y="142"/>
-      <point x="48" y="234"/>
-    </contour>
-    <contour>
-      <point x="160" y="346" type="curve" smooth="yes"/>
-      <point x="160" y="199"/>
-      <point x="203" y="20"/>
-      <point x="381" y="20" type="curve" smooth="yes"/>
-      <point x="559" y="20"/>
-      <point x="602" y="199"/>
-      <point x="602" y="346" type="curve" smooth="yes"/>
-      <point x="602" y="493"/>
-      <point x="559" y="672"/>
-      <point x="381" y="672" type="curve" smooth="yes"/>
-      <point x="203" y="672"/>
-      <point x="160" y="493"/>
-    </contour>
-    <contour>
-      <point x="228" y="861" type="line"/>
-      <point x="241" y="882" type="line"/>
-      <point x="348" y="821" type="line" smooth="yes"/>
-      <point x="361" y="814"/>
-      <point x="373" y="807"/>
-      <point x="381" y="807" type="curve" smooth="yes"/>
-      <point x="390" y="807"/>
-      <point x="401" y="814"/>
-      <point x="414" y="821" type="curve" smooth="yes"/>
-      <point x="521" y="882" type="line"/>
-      <point x="534" y="861" type="line"/>
-      <point x="418" y="747" type="line" smooth="yes"/>
-      <point x="405" y="735"/>
-      <point x="393" y="723"/>
-      <point x="381" y="723" type="curve" smooth="yes"/>
-      <point x="369" y="723"/>
-      <point x="358" y="734"/>
-      <point x="344" y="747" type="curve" smooth="yes"/>
-    </contour>
-  </outline>
-  <lib>
-    <dict>
-      <key>com.fontlab.hintData</key>
-      <dict>
-        <key>hhints</key>
-        <array>
-          <dict>
-            <key>position</key>
-            <integer>-15</integer>
-            <key>width</key>
-            <integer>35</integer>
-          </dict>
-          <dict>
-            <key>position</key>
-            <integer>672</integer>
-            <key>width</key>
-            <integer>35</integer>
-          </dict>
-          <dict>
-            <key>position</key>
-            <integer>723</integer>
-            <key>width</key>
-            <integer>84</integer>
-          </dict>
-        </array>
-        <key>vhints</key>
-        <array>
-          <dict>
-            <key>position</key>
-            <integer>48</integer>
-            <key>width</key>
-            <integer>112</integer>
-          </dict>
-          <dict>
-            <key>position</key>
-            <integer>228</integer>
-            <key>width</key>
-            <integer>306</integer>
-          </dict>
-          <dict>
-            <key>position</key>
-            <integer>602</integer>
-            <key>width</key>
-            <integer>112</integer>
-          </dict>
-        </array>
-      </dict>
-    </dict>
-  </lib>
+<glyph name="Ocaron" format="2">
+	<unicode hex="01D1"/>
+	<advance width="762"/>
+	<outline>
+		<component base="O"/>
+		<component base="caron.cap" xOffset="181"/>
+	</outline>
+	<anchor name="tonos" x="66" y="702"/>
+	<lib>
+		<dict>
+			<key>com.fontlab.autolayer</key>
+			<true/>
+			<key>com.fontlab.hintData</key>
+			<dict>
+				<key>hhints</key>
+				<array>
+					<dict>
+						<key>position</key>
+						<integer>-15</integer>
+						<key>width</key>
+						<integer>35</integer>
+					</dict>
+					<dict>
+						<key>position</key>
+						<integer>672</integer>
+						<key>width</key>
+						<integer>35</integer>
+					</dict>
+					<dict>
+						<key>position</key>
+						<integer>723</integer>
+						<key>width</key>
+						<integer>84</integer>
+					</dict>
+				</array>
+				<key>vhints</key>
+				<array>
+					<dict>
+						<key>position</key>
+						<integer>48</integer>
+						<key>width</key>
+						<integer>112</integer>
+					</dict>
+					<dict>
+						<key>position</key>
+						<integer>228</integer>
+						<key>width</key>
+						<integer>306</integer>
+					</dict>
+					<dict>
+						<key>position</key>
+						<integer>602</integer>
+						<key>width</key>
+						<integer>112</integer>
+					</dict>
+				</array>
+			</dict>
+			<key>com.fontlab.recipe</key>
+			<string>O+caron.cap</string>
+		</dict>
+	</lib>
 </glyph>

@@ -1,128 +1,75 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="uni04EA" format="1">
-  <advance width="762"/>
-  <unicode hex="04EA"/>
-  <outline>
-    <contour>
-      <point x="48" y="346" type="curve" smooth="yes"/>
-      <point x="48" y="568"/>
-      <point x="162" y="707"/>
-      <point x="381" y="707" type="curve" smooth="yes"/>
-      <point x="600" y="707"/>
-      <point x="714" y="568"/>
-      <point x="714" y="346" type="curve" smooth="yes"/>
-      <point x="714" y="124"/>
-      <point x="600" y="-15"/>
-      <point x="381" y="-15" type="curve" smooth="yes"/>
-      <point x="162" y="-15"/>
-      <point x="48" y="124"/>
-    </contour>
-    <contour>
-      <point x="160" y="341" type="line"/>
-      <point x="161" y="195"/>
-      <point x="205" y="20"/>
-      <point x="381" y="20" type="curve" smooth="yes"/>
-      <point x="557" y="20"/>
-      <point x="601" y="195"/>
-      <point x="602" y="341" type="curve"/>
-    </contour>
-    <contour>
-      <point x="161" y="379" type="curve"/>
-      <point x="601" y="379" type="line"/>
-      <point x="595" y="518"/>
-      <point x="546" y="672"/>
-      <point x="381" y="672" type="curve" smooth="yes"/>
-      <point x="216" y="672"/>
-      <point x="167" y="518"/>
-    </contour>
-    <contour>
-      <point x="219" y="787" type="curve" smooth="yes"/>
-      <point x="219" y="815"/>
-      <point x="240" y="841"/>
-      <point x="277" y="841" type="curve" smooth="yes"/>
-      <point x="315" y="841"/>
-      <point x="335" y="815"/>
-      <point x="335" y="787" type="curve" smooth="yes"/>
-      <point x="335" y="759"/>
-      <point x="315" y="732"/>
-      <point x="277" y="732" type="curve" smooth="yes"/>
-      <point x="240" y="732"/>
-      <point x="219" y="759"/>
-    </contour>
-    <contour>
-      <point x="427" y="787" type="curve" smooth="yes"/>
-      <point x="427" y="815"/>
-      <point x="448" y="841"/>
-      <point x="485" y="841" type="curve" smooth="yes"/>
-      <point x="523" y="841"/>
-      <point x="543" y="815"/>
-      <point x="543" y="787" type="curve" smooth="yes"/>
-      <point x="543" y="759"/>
-      <point x="523" y="732"/>
-      <point x="485" y="732" type="curve" smooth="yes"/>
-      <point x="448" y="732"/>
-      <point x="427" y="759"/>
-    </contour>
-  </outline>
-  <lib>
-    <dict>
-      <key>com.fontlab.hintData</key>
-      <dict>
-        <key>hhints</key>
-        <array>
-          <dict>
-            <key>position</key>
-            <integer>-15</integer>
-            <key>width</key>
-            <integer>35</integer>
-          </dict>
-          <dict>
-            <key>position</key>
-            <integer>341</integer>
-            <key>width</key>
-            <integer>38</integer>
-          </dict>
-          <dict>
-            <key>position</key>
-            <integer>672</integer>
-            <key>width</key>
-            <integer>35</integer>
-          </dict>
-          <dict>
-            <key>position</key>
-            <integer>732</integer>
-            <key>width</key>
-            <integer>109</integer>
-          </dict>
-        </array>
-        <key>vhints</key>
-        <array>
-          <dict>
-            <key>position</key>
-            <integer>48</integer>
-            <key>width</key>
-            <integer>112</integer>
-          </dict>
-          <dict>
-            <key>position</key>
-            <integer>219</integer>
-            <key>width</key>
-            <integer>116</integer>
-          </dict>
-          <dict>
-            <key>position</key>
-            <integer>427</integer>
-            <key>width</key>
-            <integer>116</integer>
-          </dict>
-          <dict>
-            <key>position</key>
-            <integer>602</integer>
-            <key>width</key>
-            <integer>112</integer>
-          </dict>
-        </array>
-      </dict>
-    </dict>
-  </lib>
+<glyph name="uni04EA" format="2">
+	<unicode hex="04EA"/>
+	<advance width="762"/>
+	<outline>
+		<component base="uni04E8"/>
+		<component base="dieresis.cap" xOffset="181"/>
+	</outline>
+	<anchor name="top" x="381" y="900"/>
+	<lib>
+		<dict>
+			<key>com.fontlab.autolayer</key>
+			<true/>
+			<key>com.fontlab.hintData</key>
+			<dict>
+				<key>hhints</key>
+				<array>
+					<dict>
+						<key>position</key>
+						<integer>-15</integer>
+						<key>width</key>
+						<integer>35</integer>
+					</dict>
+					<dict>
+						<key>position</key>
+						<integer>341</integer>
+						<key>width</key>
+						<integer>38</integer>
+					</dict>
+					<dict>
+						<key>position</key>
+						<integer>672</integer>
+						<key>width</key>
+						<integer>35</integer>
+					</dict>
+					<dict>
+						<key>position</key>
+						<integer>732</integer>
+						<key>width</key>
+						<integer>109</integer>
+					</dict>
+				</array>
+				<key>vhints</key>
+				<array>
+					<dict>
+						<key>position</key>
+						<integer>48</integer>
+						<key>width</key>
+						<integer>112</integer>
+					</dict>
+					<dict>
+						<key>position</key>
+						<integer>219</integer>
+						<key>width</key>
+						<integer>116</integer>
+					</dict>
+					<dict>
+						<key>position</key>
+						<integer>427</integer>
+						<key>width</key>
+						<integer>116</integer>
+					</dict>
+					<dict>
+						<key>position</key>
+						<integer>602</integer>
+						<key>width</key>
+						<integer>112</integer>
+					</dict>
+				</array>
+			</dict>
+			<key>com.fontlab.recipe</key>
+			<string>uni04E8+dieresis.cap</string>
+		</dict>
+	</lib>
 </glyph>

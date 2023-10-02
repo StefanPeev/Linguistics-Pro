@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="lessequal" format="2">
+  <advance width="643"/>
+  <unicode hex="2264"/>
+  <outline>
+    <component base="less" xOffset="28.7374" yOffset="92.5233"/>
+    <component base="minus" xOffset="11.7374" yOffset="-232"/>
+  </outline>
+  <guideline angle="90" x="127" y="0"/>
+  <guideline angle="90" x="605" y="0"/>
+  <guideline angle="0" x="0" y="58"/>
+  <guideline angle="0" x="0" y="96"/>
+  <lib>
+  <dict>
+  <key>com.fontlab.recipe</key>
+  <string>space+^less+minus%</string>
+  <key>public.markColor</key>
+  <string>1,0.994,0.6,1</string>
+  </dict>
+  </lib>
+</glyph>

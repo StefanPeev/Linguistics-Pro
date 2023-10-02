@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni1FE9" format="2">
+  <advance width="617"/>
+  <unicode hex="1FE9"/>
+  <anchor x="-34" y="702" name="tonos"/>
+  <anchor x="308.5" y="902" name="top"/>
+  <outline>
+    <component base="Upsilon"/>
+    <component base="macron.cap" xOffset="108.5"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.autolayer</key>
+  <true/>
+  <key>com.fontlab.recipe</key>
+  <string>Upsilon+macron.cap</string>
+  </dict>
+  </lib>
+</glyph>

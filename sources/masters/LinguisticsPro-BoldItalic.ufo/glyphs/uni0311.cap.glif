@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni0311.cap" format="2">
+  <outline>
+    <contour>
+      <point x="-165" y="746" type="line"/>
+      <point x="-148" y="820"/>
+      <point x="-101" y="892"/>
+      <point x="34" y="892" type="curve" smooth="yes"/>
+      <point x="169" y="892"/>
+      <point x="182" y="820"/>
+      <point x="165" y="746" type="curve"/>
+      <point x="124" y="746" type="line"/>
+      <point x="128" y="770"/>
+      <point x="111" y="815"/>
+      <point x="16" y="815" type="curve" smooth="yes"/>
+      <point x="-79" y="815"/>
+      <point x="-116" y="770"/>
+      <point x="-124" y="746" type="curve"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.postscript.hints</key>
+  <dict>
+    <key>formatVersion</key>
+    <string>1</string>
+    <key>id</key>
+    <string>w0m-165,746c-148,820 -101,892 34,892c169,892 182,820 165,746l124,746c128,770 111,815 16,815c-79,815 -116,770 -124,746</string>
+    <key>hintSetList</key>
+    <array>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem 815 77</string>
+          <string>vstem -165 41</string>
+          <string>vstem 124 41</string>
+        </array>
+      </dict>
+    </array>
+  </dict>
+  </dict>
+  </lib>
+</glyph>

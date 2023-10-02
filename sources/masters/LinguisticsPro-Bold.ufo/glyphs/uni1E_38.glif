@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni1E38" format="2">
+  <advance width="585"/>
+  <unicode hex="1E38"/>
+  <anchor x="539" y="742" name="quote"/>
+  <anchor x="375" y="391" name="dot"/>
+  <anchor x="292.5" y="902" name="top"/>
+  <outline>
+    <component base="uni1E36"/>
+    <component base="macron.cap" xOffset="92.5"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.autolayer</key>
+  <true/>
+  <key>com.fontlab.hintData</key>
+  <dict>
+    <key>hhints</key>
+    <array>
+      <dict>
+        <key>position</key>
+        <integer>-231</integer>
+        <key>width</key>
+        <integer>150</integer>
+      </dict>
+      <dict>
+        <key>position</key>
+        <integer>0</integer>
+        <key>width</key>
+        <integer>38</integer>
+      </dict>
+      <dict>
+        <key>position</key>
+        <integer>0</integer>
+        <key>width</key>
+        <integer>46</integer>
+      </dict>
+      <dict>
+        <key>position</key>
+        <integer>654</integer>
+        <key>width</key>
+        <integer>38</integer>
+      </dict>
+      <dict>
+        <key>position</key>
+        <integer>765</integer>
+        <key>width</key>
+        <integer>87</integer>
+      </dict>
+    </array>
+    <key>vhints</key>
+    <array>
+      <dict>
+        <key>position</key>
+        <integer>112</integer>
+        <key>width</key>
+        <integer>160</integer>
+      </dict>
+      <dict>
+        <key>position</key>
+        <integer>228</integer>
+        <key>width</key>
+        <integer>158</integer>
+      </dict>
+      <dict>
+        <key>position</key>
+        <integer>546</integer>
+        <key>width</key>
+        <integer>38</integer>
+      </dict>
+    </array>
+  </dict>
+  <key>com.fontlab.recipe</key>
+  <string>uni1E36+macron.cap</string>
+  </dict>
+  </lib>
+</glyph>

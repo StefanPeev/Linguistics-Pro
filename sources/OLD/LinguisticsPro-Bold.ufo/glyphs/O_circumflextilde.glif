@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Ocircumflextilde" format="2">
+	<unicode hex="1ED6"/>
+	<advance width="768"/>
+	<outline>
+		<component base="Ocircumflex"/>
+		<component base="tildecomb" xOffset="599" yOffset="410"/>
+	</outline>
+	<anchor name="tonos" x="38" y="702"/>
+	<anchor name="top" x="374" y="1160"/>
+	<lib>
+		<dict>
+			<key>com.fontlab.autolayer</key>
+			<true/>
+			<key>com.fontlab.hintData</key>
+			<dict>
+				<key>hhints</key>
+				<array>
+					<dict>
+						<key>position</key>
+						<integer>936</integer>
+						<key>width</key>
+						<integer>60</integer>
+					</dict>
+					<dict>
+						<key>position</key>
+						<integer>974</integer>
+						<key>width</key>
+						<integer>60</integer>
+					</dict>
+				</array>
+			</dict>
+			<key>com.fontlab.recipe</key>
+			<string>Ocircumflex+tildecomb</string>
+		</dict>
+	</lib>
+</glyph>

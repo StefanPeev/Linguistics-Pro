@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="rlonglegturned" format="2">
+  <advance width="346"/>
+  <unicode hex="027A"/>
+  <outline>
+    <component base="r" xScale="-1" yScale="-1" xOffset="440" yOffset="490"/>
+    <contour>
+      <point x="214" y="490" type="line"/>
+      <point x="249" y="633" type="line" smooth="yes"/>
+      <point x="251.192" y="641.955"/>
+      <point x="252" y="649"/>
+      <point x="252" y="655" type="curve" smooth="yes"/>
+      <point x="252" y="669"/>
+      <point x="243.944" y="674.438"/>
+      <point x="231" y="676" type="curve" smooth="yes"/>
+      <point x="173" y="683" type="line"/>
+      <point x="180" y="715" type="line"/>
+      <point x="407" y="742" type="line"/>
+      <point x="413" y="737" type="line"/>
+      <point x="353.514" y="501.958" type="line"/>
+    </contour>
+  </outline>
+  <guideline angle="184.899" x="226" y="491.457"/>
+  <lib>
+  <dict>
+  <key>com.fontlab.recipe</key>
+  <string>r</string>
+  <key>public.markColor</key>
+  <string>0.6,0.602,1,1</string>
+  </dict>
+  </lib>
+</glyph>

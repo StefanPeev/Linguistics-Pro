@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="notelement" format="2">
+  <advance width="595"/>
+  <unicode hex="2209"/>
+  <outline>
+    <contour>
+      <point x="185.379" y="-22.8149" type="line"/>
+      <point x="227.379" y="-49.8149" type="line"/>
+      <point x="526.764" y="521.548" type="line"/>
+      <point x="482.764" y="547.548" type="line"/>
+    </contour>
+    <contour>
+      <point x="144.422" y="221.78" type="line"/>
+      <point x="580" y="221.78" type="line"/>
+      <point x="580" y="280.77" type="line"/>
+      <point x="143.612" y="280.77" type="line"/>
+    </contour>
+    <contour>
+      <point x="96" y="280.77" type="curve" smooth="yes"/>
+      <point x="96" y="221.78" type="line" smooth="yes"/>
+      <point x="96" y="103.143"/>
+      <point x="171.158" y="26.83"/>
+      <point x="288" y="26.83" type="curve" smooth="yes"/>
+      <point x="580" y="26.83" type="line"/>
+      <point x="580" y="85.83" type="line"/>
+      <point x="288" y="85.83" type="line" smooth="yes"/>
+      <point x="205.416" y="85.83"/>
+      <point x="159.422" y="134.461"/>
+      <point x="159.422" y="221.78" type="curve" smooth="yes"/>
+      <point x="158.612" y="280.77" type="line" smooth="yes"/>
+      <point x="158.612" y="373.015"/>
+      <point x="202.479" y="420.33"/>
+      <point x="288" y="420.33" type="curve" smooth="yes"/>
+      <point x="580" y="420.33" type="line"/>
+      <point x="580" y="479.33" type="line"/>
+      <point x="288" y="479.33" type="line" smooth="yes"/>
+      <point x="165.35" y="479.33"/>
+      <point x="96" y="407.61"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.recipe</key>
+  <string>element+uni0338</string>
+  <key>public.markColor</key>
+  <string>0.6,0.602,1,1</string>
+  </dict>
+  </lib>
+</glyph>

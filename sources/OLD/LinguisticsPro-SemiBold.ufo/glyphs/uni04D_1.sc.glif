@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni04D1.sc" format="2">
+	<advance width="568"/>
+	<outline>
+		<component base="uni0410.sc"/>
+		<component base="brevecyr.cap" xyScale="0" xOffset="-114.667" yOffset="-165.333"/>
+	</outline>
+	<anchor name="top" x="290.667" y="580"/>
+	<lib>
+		<dict>
+			<key>com.fontlab.autolayer</key>
+			<true/>
+			<key>com.fontlab.hintData</key>
+			<dict>
+				<key>hhints</key>
+				<array>
+					<dict>
+						<key>position</key>
+						<integer>0</integer>
+						<key>width</key>
+						<integer>29</integer>
+					</dict>
+					<dict>
+						<key>position</key>
+						<integer>196</integer>
+						<key>width</key>
+						<integer>35</integer>
+					</dict>
+					<dict>
+						<key>position</key>
+						<integer>582</integer>
+						<key>width</key>
+						<integer>64</integer>
+					</dict>
+				</array>
+				<key>vhints</key>
+				<array>
+					<dict>
+						<key>position</key>
+						<integer>142</integer>
+						<key>width</key>
+						<integer>26</integer>
+					</dict>
+					<dict>
+						<key>position</key>
+						<integer>400</integer>
+						<key>width</key>
+						<integer>26</integer>
+					</dict>
+				</array>
+			</dict>
+			<key>com.fontlab.recipe</key>
+			<string>uni0410.sc+brevecyr.cap</string>
+		</dict>
+	</lib>
+</glyph>

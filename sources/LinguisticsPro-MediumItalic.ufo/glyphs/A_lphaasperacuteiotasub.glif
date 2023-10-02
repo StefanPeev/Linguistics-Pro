@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Alphaasperacuteiotasub" format="2">
+  <advance width="627"/>
+  <unicode hex="1F8D"/>
+  <anchor x="464.333" y="666.667" name="aring"/>
+  <anchor x="526.667" y="10" name="ogonek"/>
+  <anchor x="116.946" y="713.667" name="top"/>
+  <outline>
+    <component base="Alphaasperacute"/>
+    <component base="iotasubcomb" xScale="1" xOffset="448.288"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.autolayer</key>
+  <true/>
+  <key>com.fontlab.recipe</key>
+  <string>uni1F0D+uni0345</string>
+  <key>public.markColor</key>
+  <string>0.6,0.602,1,1</string>
+  </dict>
+  </lib>
+</glyph>

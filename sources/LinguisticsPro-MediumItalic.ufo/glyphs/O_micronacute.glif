@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Omicronacute" format="2">
+  <advance width="756"/>
+  <unicode hex="1FF9"/>
+  <anchor x="399" y="10" name="ogonek"/>
+  <outline>
+    <component base="Omicron"/>
+    <component base="acute-gr" xOffset="-131" yOffset="-53"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.autolayer</key>
+  <true/>
+  <key>com.fontlab.recipe</key>
+  <string>Omicron+acute-gr</string>
+  <key>public.markColor</key>
+  <string>1,0.994,0.6,1</string>
+  </dict>
+  </lib>
+</glyph>

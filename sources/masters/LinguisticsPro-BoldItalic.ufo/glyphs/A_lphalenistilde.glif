@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Alphalenistilde" format="2">
+  <advance width="634"/>
+  <unicode hex="1F0E"/>
+  <anchor x="469" y="660" name="aring"/>
+  <anchor x="520" y="10" name="ogonek"/>
+  <outline>
+    <component base="Alpha"/>
+    <component base="lenistilde" xOffset="-180" yOffset="-63"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.autolayer</key>
+  <true/>
+  <key>com.fontlab.recipe</key>
+  <string>Alpha+lenistilde</string>
+  <key>public.markColor</key>
+  <string>0.6,0.602,1,1</string>
+  </dict>
+  </lib>
+</glyph>

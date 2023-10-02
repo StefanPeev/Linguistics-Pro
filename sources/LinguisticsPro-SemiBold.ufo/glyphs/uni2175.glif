@@ -1,51 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni2175" format="2">
-	<unicode hex="2175"/>
-	<advance width="822"/>
-	<outline>
-		<component base="v"/>
-		<component base="i" xOffset="514.667"/>
-	</outline>
-	<anchor name="ogonek" x="691.333" y="16.6667"/>
-	<lib>
-		<dict>
-			<key>com.fontlab.autolayer</key>
-			<true/>
-			<key>com.fontlab.hintData</key>
-			<dict>
-				<key>hhints</key>
-				<array>
-					<dict>
-						<key>position</key>
-						<integer>0</integer>
-						<key>width</key>
-						<integer>21</integer>
-					</dict>
-					<dict>
-						<key>position</key>
-						<integer>461</integer>
-						<key>width</key>
-						<integer>29</integer>
-					</dict>
-					<dict>
-						<key>position</key>
-						<integer>593</integer>
-						<key>width</key>
-						<integer>122</integer>
-					</dict>
-				</array>
-				<key>vhints</key>
-				<array>
-					<dict>
-						<key>position</key>
-						<integer>596</integer>
-						<key>width</key>
-						<integer>122</integer>
-					</dict>
-				</array>
-			</dict>
-			<key>com.fontlab.recipe</key>
-			<string>v_i</string>
-		</dict>
-	</lib>
+  <advance width="822"/>
+  <unicode hex="2175"/>
+  <anchor x="691.333" y="16.667" name="ogonek"/>
+  <outline>
+    <component base="v"/>
+    <component base="i" xScale="1" xOffset="514.667"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.autolayer</key>
+  <true/>
+  <key>com.fontlab.hintData</key>
+  <dict>
+    <key>hhints</key>
+    <array>
+      <dict>
+        <key>position</key>
+        <integer>0</integer>
+        <key>width</key>
+        <integer>21</integer>
+      </dict>
+      <dict>
+        <key>position</key>
+        <integer>461</integer>
+        <key>width</key>
+        <integer>29</integer>
+      </dict>
+      <dict>
+        <key>position</key>
+        <integer>593</integer>
+        <key>width</key>
+        <integer>122</integer>
+      </dict>
+    </array>
+    <key>vhints</key>
+    <array>
+      <dict>
+        <key>position</key>
+        <integer>596</integer>
+        <key>width</key>
+        <integer>122</integer>
+      </dict>
+    </array>
+  </dict>
+  <key>com.fontlab.recipe</key>
+  <string>v_i</string>
+  </dict>
+  </lib>
 </glyph>

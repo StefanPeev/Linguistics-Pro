@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="omicrontonos" format="2">
+  <advance width="535"/>
+  <unicode hex="03CC"/>
+  <anchor x="412.946" y="753.333" name="top"/>
+  <outline>
+    <component base="omicron"/>
+    <component base="acutecomb" xOffset="442.333"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.recipe</key>
+  <string>omicron+acutecomb</string>
+  <key>public.markColor</key>
+  <string>0.6,0.602,1,1</string>
+  </dict>
+  </lib>
+</glyph>

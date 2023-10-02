@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="notidentical" format="2">
+  <advance width="625"/>
+  <unicode hex="2262"/>
+  <outline>
+    <component base="uni0338" xOffset="441.481" yOffset="-87.5819"/>
+    <contour>
+      <point x="125" y="85.8362" type="line"/>
+      <point x="125" y="26.8362" type="line"/>
+      <point x="609" y="26.8362" type="line"/>
+      <point x="609" y="85.8362" type="line"/>
+    </contour>
+    <contour>
+      <point x="126" y="283.723" type="line"/>
+      <point x="126" y="224.723" type="line"/>
+      <point x="610" y="224.723" type="line"/>
+      <point x="610" y="283.723" type="line"/>
+    </contour>
+    <contour>
+      <point x="126" y="490" type="line"/>
+      <point x="126" y="431" type="line"/>
+      <point x="610" y="431" type="line"/>
+      <point x="610" y="490" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.recipe</key>
+  <string>equivalence+uni0338</string>
+  <key>public.markColor</key>
+  <string>0.6,0.602,1,1</string>
+  </dict>
+  </lib>
+</glyph>

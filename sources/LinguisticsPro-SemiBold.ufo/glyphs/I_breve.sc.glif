@@ -1,62 +1,62 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Ibreve.sc" format="2">
-	<advance width="311"/>
-	<outline>
-		<component base="I.sc"/>
-		<component base="uni0306" xOffset="452.167"/>
-	</outline>
-	<anchor name="top" x="156.167" y="716.667"/>
-	<lib>
-		<dict>
-			<key>com.fontlab.autolayer</key>
-			<true/>
-			<key>com.fontlab.hintData</key>
-			<dict>
-				<key>hhints</key>
-				<array>
-					<dict>
-						<key>position</key>
-						<integer>0</integer>
-						<key>width</key>
-						<integer>29</integer>
-					</dict>
-					<dict>
-						<key>position</key>
-						<integer>483</integer>
-						<key>width</key>
-						<integer>29</integer>
-					</dict>
-					<dict>
-						<key>position</key>
-						<integer>582</integer>
-						<key>width</key>
-						<integer>64</integer>
-					</dict>
-				</array>
-				<key>vhints</key>
-				<array>
-					<dict>
-						<key>position</key>
-						<integer>23</integer>
-						<key>width</key>
-						<integer>26</integer>
-					</dict>
-					<dict>
-						<key>position</key>
-						<integer>118</integer>
-						<key>width</key>
-						<integer>95</integer>
-					</dict>
-					<dict>
-						<key>position</key>
-						<integer>281</integer>
-						<key>width</key>
-						<integer>26</integer>
-					</dict>
-				</array>
-			</dict>
-			<key>com.fontlab.recipe</key>
-			<string>I.sc+uni0306</string>
-		</dict>
-	</lib>
+  <advance width="311"/>
+  <anchor x="156.167" y="716.667" name="top"/>
+  <outline>
+    <component base="I.sc"/>
+    <component base="uni0306" xOffset="452.167"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.autolayer</key>
+  <true/>
+  <key>com.fontlab.hintData</key>
+  <dict>
+    <key>hhints</key>
+    <array>
+      <dict>
+        <key>position</key>
+        <integer>0</integer>
+        <key>width</key>
+        <integer>29</integer>
+      </dict>
+      <dict>
+        <key>position</key>
+        <integer>483</integer>
+        <key>width</key>
+        <integer>29</integer>
+      </dict>
+      <dict>
+        <key>position</key>
+        <integer>582</integer>
+        <key>width</key>
+        <integer>64</integer>
+      </dict>
+    </array>
+    <key>vhints</key>
+    <array>
+      <dict>
+        <key>position</key>
+        <integer>23</integer>
+        <key>width</key>
+        <integer>26</integer>
+      </dict>
+      <dict>
+        <key>position</key>
+        <integer>118</integer>
+        <key>width</key>
+        <integer>95</integer>
+      </dict>
+      <dict>
+        <key>position</key>
+        <integer>281</integer>
+        <key>width</key>
+        <integer>26</integer>
+      </dict>
+    </array>
+  </dict>
+  <key>com.fontlab.recipe</key>
+  <string>I.sc+uni0306</string>
+  </dict>
+  </lib>
 </glyph>

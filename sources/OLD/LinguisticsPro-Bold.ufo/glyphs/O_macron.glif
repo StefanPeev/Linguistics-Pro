@@ -1,84 +1,64 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="Omacron" format="1">
-  <advance width="768"/>
-  <unicode hex="014C"/>
-  <outline>
-    <contour>
-      <point x="42" y="346" type="curve" smooth="yes"/>
-      <point x="42" y="572"/>
-      <point x="154" y="707"/>
-      <point x="384" y="707" type="curve" smooth="yes"/>
-      <point x="614" y="707"/>
-      <point x="726" y="572"/>
-      <point x="726" y="346" type="curve" smooth="yes"/>
-      <point x="726" y="120"/>
-      <point x="614" y="-15"/>
-      <point x="384" y="-15" type="curve" smooth="yes"/>
-      <point x="154" y="-15"/>
-      <point x="42" y="120"/>
-    </contour>
-    <contour>
-      <point x="209" y="765" type="line"/>
-      <point x="209" y="852" type="line"/>
-      <point x="559" y="852" type="line"/>
-      <point x="559" y="765" type="line"/>
-    </contour>
-    <contour>
-      <point x="219" y="346" type="curve" smooth="yes"/>
-      <point x="219" y="225"/>
-      <point x="239" y="31"/>
-      <point x="384" y="31" type="curve" smooth="yes"/>
-      <point x="531" y="31"/>
-      <point x="549" y="225"/>
-      <point x="549" y="346" type="curve" smooth="yes"/>
-      <point x="549" y="467"/>
-      <point x="531" y="661"/>
-      <point x="384" y="661" type="curve" smooth="yes"/>
-      <point x="237" y="661"/>
-      <point x="219" y="467"/>
-    </contour>
-  </outline>
-  <lib>
-    <dict>
-      <key>com.fontlab.hintData</key>
-      <dict>
-        <key>hhints</key>
-        <array>
-          <dict>
-            <key>position</key>
-            <integer>-15</integer>
-            <key>width</key>
-            <integer>46</integer>
-          </dict>
-          <dict>
-            <key>position</key>
-            <integer>661</integer>
-            <key>width</key>
-            <integer>46</integer>
-          </dict>
-          <dict>
-            <key>position</key>
-            <integer>765</integer>
-            <key>width</key>
-            <integer>87</integer>
-          </dict>
-        </array>
-        <key>vhints</key>
-        <array>
-          <dict>
-            <key>position</key>
-            <integer>42</integer>
-            <key>width</key>
-            <integer>177</integer>
-          </dict>
-          <dict>
-            <key>position</key>
-            <integer>549</integer>
-            <key>width</key>
-            <integer>177</integer>
-          </dict>
-        </array>
-      </dict>
-    </dict>
-  </lib>
+<glyph name="Omacron" format="2">
+	<unicode hex="014C"/>
+	<advance width="768"/>
+	<outline>
+		<component base="O"/>
+		<component base="macron.cap" xOffset="184"/>
+	</outline>
+	<anchor name="tonos" x="38" y="702"/>
+	<anchor name="top" x="384" y="902"/>
+	<lib>
+		<dict>
+			<key>com.fontlab.autolayer</key>
+			<true/>
+			<key>com.fontlab.hintData</key>
+			<dict>
+				<key>hhints</key>
+				<array>
+					<dict>
+						<key>position</key>
+						<integer>-15</integer>
+						<key>width</key>
+						<integer>35</integer>
+					</dict>
+					<dict>
+						<key>position</key>
+						<integer>672</integer>
+						<key>width</key>
+						<integer>35</integer>
+					</dict>
+					<dict>
+						<key>position</key>
+						<integer>759</integer>
+						<key>width</key>
+						<integer>59</integer>
+					</dict>
+				</array>
+				<key>vhints</key>
+				<array>
+					<dict>
+						<key>position</key>
+						<integer>48</integer>
+						<key>width</key>
+						<integer>112</integer>
+					</dict>
+					<dict>
+						<key>position</key>
+						<integer>223</integer>
+						<key>width</key>
+						<integer>316</integer>
+					</dict>
+					<dict>
+						<key>position</key>
+						<integer>602</integer>
+						<key>width</key>
+						<integer>112</integer>
+					</dict>
+				</array>
+			</dict>
+			<key>com.fontlab.recipe</key>
+			<string>O+macron.cap</string>
+		</dict>
+	</lib>
 </glyph>

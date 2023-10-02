@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Alphaaspertilde" format="2">
+  <advance width="624"/>
+  <unicode hex="1F0F"/>
+  <anchor x="462" y="670" name="aring"/>
+  <anchor x="530" y="10" name="ogonek"/>
+  <outline>
+    <component base="Alpha"/>
+    <component base="aspertilde" xOffset="-85" yOffset="-38"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.autolayer</key>
+  <true/>
+  <key>com.fontlab.recipe</key>
+  <string>Alpha+aspertilde</string>
+  <key>public.markColor</key>
+  <string>0.6,0.602,1,1</string>
+  </dict>
+  </lib>
+</glyph>

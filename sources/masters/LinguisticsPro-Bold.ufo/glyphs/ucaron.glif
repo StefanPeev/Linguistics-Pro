@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ucaron" format="2">
+  <advance width="629"/>
+  <unicode hex="01D4"/>
+  <anchor x="322" y="522" name="top"/>
+  <anchor x="545" y="18" name="ogonek"/>
+  <outline>
+    <component base="u"/>
+    <component base="caron" xOffset="99.5"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.autolayer</key>
+  <true/>
+  <key>com.fontlab.recipe</key>
+  <string>u+caron</string>
+  </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="omicron" format="2">
+  <advance width="535"/>
+  <unicode hex="03BF"/>
+  <anchor x="378" y="533" name="top"/>
+  <outline>
+    <contour>
+      <point x="194.333" y="121.667" type="curve" smooth="yes"/>
+      <point x="194.333" y="67.667"/>
+      <point x="216.666" y="27.333"/>
+      <point x="270.333" y="27.333" type="curve" smooth="yes"/>
+      <point x="395" y="27.333"/>
+      <point x="455" y="271"/>
+      <point x="455" y="366" type="curve" smooth="yes"/>
+      <point x="455" y="420"/>
+      <point x="437.666" y="464"/>
+      <point x="379.333" y="464" type="curve" smooth="yes"/>
+      <point x="253.333" y="464"/>
+      <point x="194.333" y="215.667"/>
+    </contour>
+    <contour>
+      <point x="81.333" y="170.667" type="curve" smooth="yes"/>
+      <point x="81.333" y="341.333"/>
+      <point x="197.333" y="502"/>
+      <point x="378.666" y="502" type="curve" smooth="yes"/>
+      <point x="493" y="502"/>
+      <point x="568.666" y="438.333"/>
+      <point x="568.666" y="325.333" type="curve" smooth="yes"/>
+      <point x="568.666" y="156.333"/>
+      <point x="456" y="-12"/>
+      <point x="273" y="-12" type="curve" smooth="yes"/>
+      <point x="140.666" y="-12"/>
+      <point x="81.333" y="63.333"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.postscript.hints</key>
+  <dict>
+    <key>formatVersion</key>
+    <string>1</string>
+    <key>id</key>
+    <string>46f6a0d13c7101f462a83128ac47b1c0a4aa06b62a5ff78107a378f9cbaa14673b9cbd608a5e2ebbd3b0a13727e7768c1586114c2cb8e2b648fd71252ecf2d8a</string>
+    <key>hintSetList</key>
+    <array>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>vstem 81.33 113</string>
+        </array>
+      </dict>
+    </array>
+  </dict>
+  </dict>
+  </lib>
+</glyph>

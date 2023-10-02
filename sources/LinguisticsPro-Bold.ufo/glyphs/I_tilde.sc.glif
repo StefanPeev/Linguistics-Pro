@@ -1,35 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Itilde.sc" format="2">
-	<advance width="301"/>
-	<outline>
-		<component base="I.sc"/>
-		<component base="tildecomb" xOffset="366.441"/>
-	</outline>
-	<anchor name="top" x="141.441" y="750"/>
-	<lib>
-		<dict>
-			<key>com.fontlab.autolayer</key>
-			<true/>
-			<key>com.fontlab.hintData</key>
-			<dict>
-				<key>hhints</key>
-				<array>
-					<dict>
-						<key>position</key>
-						<integer>590</integer>
-						<key>width</key>
-						<integer>60</integer>
-					</dict>
-					<dict>
-						<key>position</key>
-						<integer>628</integer>
-						<key>width</key>
-						<integer>60</integer>
-					</dict>
-				</array>
-			</dict>
-			<key>com.fontlab.recipe</key>
-			<string>I.sc+tildecomb</string>
-		</dict>
-	</lib>
+  <advance width="301"/>
+  <anchor x="141.441" y="750" name="top"/>
+  <outline>
+    <component base="I.sc"/>
+    <component base="tildecomb" xOffset="366.441"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.autolayer</key>
+  <true/>
+  <key>com.fontlab.hintData</key>
+  <dict>
+    <key>hhints</key>
+    <array>
+      <dict>
+        <key>position</key>
+        <integer>590</integer>
+        <key>width</key>
+        <integer>60</integer>
+      </dict>
+      <dict>
+        <key>position</key>
+        <integer>628</integer>
+        <key>width</key>
+        <integer>60</integer>
+      </dict>
+    </array>
+  </dict>
+  <key>com.fontlab.recipe</key>
+  <string>I.sc+tildecomb</string>
+  </dict>
+  </lib>
 </glyph>

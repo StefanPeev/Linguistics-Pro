@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Acircumflexacute" format="2">
+  <advance width="644"/>
+  <unicode hex="1EA4"/>
+  <anchor x="496" y="10" name="ogonek"/>
+  <anchor x="320" y="660" name="aring"/>
+  <anchor x="156" y="707" name="tonos"/>
+  <anchor x="309" y="1125" name="top"/>
+  <outline>
+    <component base="Acircumflex"/>
+    <component base="acute.cap" xOffset="93" yOffset="175"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.autolayer</key>
+  <true/>
+  <key>com.fontlab.recipe</key>
+  <string>Acircumflex+acute.cap</string>
+  </dict>
+  </lib>
+</glyph>

@@ -1,75 +1,75 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Gbreve" format="2">
-	<unicode hex="011E"/>
-	<advance width="726"/>
-	<outline>
-		<component base="G"/>
-		<component base="uni0306" xOffset="659.5" yOffset="202"/>
-	</outline>
-	<anchor name="top" x="362.5" y="922"/>
-	<lib>
-		<dict>
-			<key>com.fontlab.autolayer</key>
-			<true/>
-			<key>com.fontlab.hintData</key>
-			<dict>
-				<key>hhints</key>
-				<array>
-					<dict>
-						<key>position</key>
-						<integer>-15</integer>
-						<key>width</key>
-						<integer>35</integer>
-					</dict>
-					<dict>
-						<key>position</key>
-						<integer>286</integer>
-						<key>width</key>
-						<integer>29</integer>
-					</dict>
-					<dict>
-						<key>position</key>
-						<integer>672</integer>
-						<key>width</key>
-						<integer>35</integer>
-					</dict>
-					<dict>
-						<key>position</key>
-						<integer>749</integer>
-						<key>width</key>
-						<integer>62</integer>
-					</dict>
-				</array>
-				<key>vhints</key>
-				<array>
-					<dict>
-						<key>position</key>
-						<integer>48</integer>
-						<key>width</key>
-						<integer>112</integer>
-					</dict>
-					<dict>
-						<key>position</key>
-						<integer>279</integer>
-						<key>width</key>
-						<integer>28</integer>
-					</dict>
-					<dict>
-						<key>position</key>
-						<integer>551</integer>
-						<key>width</key>
-						<integer>28</integer>
-					</dict>
-					<dict>
-						<key>position</key>
-						<integer>555</integer>
-						<key>width</key>
-						<integer>99</integer>
-					</dict>
-				</array>
-			</dict>
-			<key>com.fontlab.recipe</key>
-			<string>G+uni0306</string>
-		</dict>
-	</lib>
+  <advance width="726"/>
+  <unicode hex="011E"/>
+  <anchor x="362.5" y="922" name="top"/>
+  <outline>
+    <component base="G"/>
+    <component base="uni0306" xOffset="659.5" yOffset="202"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.autolayer</key>
+  <true/>
+  <key>com.fontlab.hintData</key>
+  <dict>
+    <key>hhints</key>
+    <array>
+      <dict>
+        <key>position</key>
+        <integer>-15</integer>
+        <key>width</key>
+        <integer>35</integer>
+      </dict>
+      <dict>
+        <key>position</key>
+        <integer>286</integer>
+        <key>width</key>
+        <integer>29</integer>
+      </dict>
+      <dict>
+        <key>position</key>
+        <integer>672</integer>
+        <key>width</key>
+        <integer>35</integer>
+      </dict>
+      <dict>
+        <key>position</key>
+        <integer>749</integer>
+        <key>width</key>
+        <integer>62</integer>
+      </dict>
+    </array>
+    <key>vhints</key>
+    <array>
+      <dict>
+        <key>position</key>
+        <integer>48</integer>
+        <key>width</key>
+        <integer>112</integer>
+      </dict>
+      <dict>
+        <key>position</key>
+        <integer>279</integer>
+        <key>width</key>
+        <integer>28</integer>
+      </dict>
+      <dict>
+        <key>position</key>
+        <integer>551</integer>
+        <key>width</key>
+        <integer>28</integer>
+      </dict>
+      <dict>
+        <key>position</key>
+        <integer>555</integer>
+        <key>width</key>
+        <integer>99</integer>
+      </dict>
+    </array>
+  </dict>
+  <key>com.fontlab.recipe</key>
+  <string>G+uni0306</string>
+  </dict>
+  </lib>
 </glyph>

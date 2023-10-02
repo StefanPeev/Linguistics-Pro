@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="normalsubgroup" format="2">
+  <advance width="666"/>
+  <unicode hex="22B2"/>
+  <outline>
+    <contour>
+      <point x="607.319" y="0.462" type="line"/>
+      <point x="607.319" y="529.538" type="line"/>
+      <point x="58.6808" y="265.396" type="line"/>
+    </contour>
+    <contour>
+      <point x="536.342" y="123.076" type="line"/>
+      <point x="229.183" y="265" type="line"/>
+      <point x="536.276" y="406.893" type="line"/>
+    </contour>
+  </outline>
+  <guideline angle="0" x="0" y="530"/>
+  <guideline angle="0" x="0" y="265"/>
+  <guideline angle="90" x="537" y="0"/>
+  <guideline angle="205.807" x="607" y="530"/>
+  <guideline angle="24.7867" x="229" y="265"/>
+  <guideline angle="155.213" x="543" y="120"/>
+  <guideline angle="334.193" x="59" y="265"/>
+  <guideline angle="90" x="607" y="0"/>
+  <lib>
+  <dict>
+  <key>com.fontlab.metricsLeft</key>
+  <string>=equal</string>
+  <key>com.fontlab.metricsRight</key>
+  <string>=equal</string>
+  <key>com.fontlab.recipe</key>
+  <string>containsasnormalsubgroup</string>
+  <key>public.markColor</key>
+  <string>0.6,0.602,1,1</string>
+  </dict>
+  </lib>
+</glyph>

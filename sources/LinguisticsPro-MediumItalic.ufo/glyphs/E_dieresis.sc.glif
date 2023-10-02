@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Edieresis.sc" format="2">
+  <advance width="605"/>
+  <anchor x="149.333" y="705.333" name="tonos"/>
+  <anchor x="149.333" y="692" name="greek.UC.tonos"/>
+  <anchor x="479.333" y="10" name="ogonek"/>
+  <anchor x="460.667" y="736.667" name="top"/>
+  <outline>
+    <component base="E"/>
+    <component base="dieresis.cap" xOffset="87.514"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.recipe</key>
+  <string>Edieresis</string>
+  <key>public.markColor</key>
+  <string>1,0.994,0.6,1</string>
+  </dict>
+  </lib>
+</glyph>

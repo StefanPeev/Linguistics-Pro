@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni04DF" format="2">
+  <advance width="522"/>
+  <unicode hex="04DF"/>
+  <anchor x="261" y="740" name="top"/>
+  <outline>
+    <component base="uni0437"/>
+    <component base="uni0308" xOffset="476"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.autolayer</key>
+  <true/>
+  <key>com.fontlab.hintData</key>
+  <dict>
+    <key>hhints</key>
+    <array>
+      <dict>
+        <key>position</key>
+        <integer>-12</integer>
+        <key>width</key>
+        <integer>46</integer>
+      </dict>
+      <dict>
+        <key>position</key>
+        <integer>240</integer>
+        <key>width</key>
+        <integer>46</integer>
+      </dict>
+      <dict>
+        <key>position</key>
+        <integer>456</integer>
+        <key>width</key>
+        <integer>46</integer>
+      </dict>
+      <dict>
+        <key>position</key>
+        <integer>561</integer>
+        <key>width</key>
+        <integer>149</integer>
+      </dict>
+    </array>
+    <key>vhints</key>
+    <array>
+      <dict>
+        <key>position</key>
+        <integer>28</integer>
+        <key>width</key>
+        <integer>131</integer>
+      </dict>
+      <dict>
+        <key>position</key>
+        <integer>42</integer>
+        <key>width</key>
+        <integer>158</integer>
+      </dict>
+      <dict>
+        <key>position</key>
+        <integer>52</integer>
+        <key>width</key>
+        <integer>36</integer>
+      </dict>
+      <dict>
+        <key>position</key>
+        <integer>282</integer>
+        <key>width</key>
+        <integer>158</integer>
+      </dict>
+      <dict>
+        <key>position</key>
+        <integer>309</integer>
+        <key>width</key>
+        <integer>148</integer>
+      </dict>
+      <dict>
+        <key>position</key>
+        <integer>331</integer>
+        <key>width</key>
+        <integer>157</integer>
+      </dict>
+    </array>
+  </dict>
+  <key>com.fontlab.recipe</key>
+  <string>uni0437+uni0308</string>
+  </dict>
+  </lib>
+</glyph>

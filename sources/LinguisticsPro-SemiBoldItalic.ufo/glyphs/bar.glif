@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="bar" format="2">
+  <advance width="267"/>
+  <unicode hex="007C"/>
+  <outline>
+    <contour>
+      <point x="156.333" y="-250" type="line"/>
+      <point x="156.333" y="750" type="line"/>
+      <point x="248.333" y="750" type="line"/>
+      <point x="248.333" y="-250" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.postscript.hints</key>
+  <dict>
+    <key>formatVersion</key>
+    <string>1</string>
+    <key>id</key>
+    <string>w267m156.33,-250l156.33,750l248.33,750l248.33,-250</string>
+    <key>hintSetList</key>
+    <array>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem -250 1000</string>
+          <string>vstem 156.33 92</string>
+        </array>
+      </dict>
+    </array>
+  </dict>
+  </dict>
+  </lib>
+</glyph>

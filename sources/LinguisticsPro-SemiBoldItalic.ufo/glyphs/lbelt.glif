@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="lbelt" format="2">
+  <advance width="451"/>
+  <unicode hex="026C"/>
+  <outline>
+    <component base="l" xOffset="110"/>
+    <contour>
+      <point x="333.215" y="510.823" type="line"/>
+      <point x="313.524" y="522.132"/>
+      <point x="282.063" y="528.399"/>
+      <point x="252.896" y="528.399" type="curve" smooth="yes"/>
+      <point x="158.627" y="528.399"/>
+      <point x="101.589" y="469.074"/>
+      <point x="101.589" y="385.208" type="curve" smooth="yes"/>
+      <point x="101.589" y="303.241"/>
+      <point x="168.006" y="256.977"/>
+      <point x="273.493" y="256.937" type="curve"/>
+      <point x="292.202" y="310.376" type="line"/>
+      <point x="227.11" y="310.732"/>
+      <point x="191.55" y="335.885"/>
+      <point x="191.55" y="382.639" type="curve" smooth="yes"/>
+      <point x="191.55" y="426.562"/>
+      <point x="220.172" y="457.811"/>
+      <point x="260.438" y="457.811" type="curve" smooth="yes"/>
+      <point x="281.163" y="457.811"/>
+      <point x="301.13" y="448.685"/>
+      <point x="314.452" y="429.197" type="curve"/>
+    </contour>
+    <contour>
+      <point x="366.44" y="263.787" type="line"/>
+      <point x="406.638" y="273.862"/>
+      <point x="453.775" y="298.029"/>
+      <point x="520.663" y="339" type="curve"/>
+      <point x="511.029" y="375.198" type="line"/>
+      <point x="464.917" y="349.266"/>
+      <point x="421.765" y="328.252"/>
+      <point x="375.054" y="317.37" type="curve"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.recipe</key>
+  <string>l</string>
+  <key>public.markColor</key>
+  <string>0.6,0.602,1,1</string>
+  </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ecircumflexhookabove" format="2">
+  <advance width="519"/>
+  <unicode hex="1EC3"/>
+  <anchor x="326" y="0" name="ogonek"/>
+  <outline>
+    <component base="ecircumflex"/>
+    <component base="hookabovecomb" xOffset="475.5" yOffset="150"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.autolayer</key>
+  <true/>
+  <key>com.fontlab.recipe</key>
+  <string>ecircumflex+hookabovecomb</string>
+  </dict>
+  </lib>
+</glyph>

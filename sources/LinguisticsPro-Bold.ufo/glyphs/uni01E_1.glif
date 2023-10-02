@@ -1,77 +1,77 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni01E1" format="2">
-	<unicode hex="01E1"/>
-	<advance width="544"/>
-	<outline>
-		<component base="uni0227"/>
-		<component base="uni0304" xOffset="555" yOffset="180"/>
-	</outline>
-	<anchor name="aring" x="273" y="540"/>
-	<anchor name="ogonek" x="437" y="10"/>
-	<anchor name="top" x="274" y="904"/>
-	<lib>
-		<dict>
-			<key>com.fontlab.autolayer</key>
-			<true/>
-			<key>com.fontlab.hintData</key>
-			<dict>
-				<key>hhints</key>
-				<array>
-					<dict>
-						<key>position</key>
-						<integer>-12</integer>
-						<key>width</key>
-						<integer>53</integer>
-					</dict>
-					<dict>
-						<key>position</key>
-						<integer>467</integer>
-						<key>width</key>
-						<integer>35</integer>
-					</dict>
-					<dict>
-						<key>position</key>
-						<integer>570</integer>
-						<key>width</key>
-						<integer>113</integer>
-					</dict>
-					<dict>
-						<key>position</key>
-						<integer>743</integer>
-						<key>width</key>
-						<integer>59</integer>
-					</dict>
-				</array>
-				<key>vhints</key>
-				<array>
-					<dict>
-						<key>position</key>
-						<integer>49</integer>
-						<key>width</key>
-						<integer>101</integer>
-					</dict>
-					<dict>
-						<key>position</key>
-						<integer>125</integer>
-						<key>width</key>
-						<integer>288</integer>
-					</dict>
-					<dict>
-						<key>position</key>
-						<integer>209</integer>
-						<key>width</key>
-						<integer>120</integer>
-					</dict>
-					<dict>
-						<key>position</key>
-						<integer>343</integer>
-						<key>width</key>
-						<integer>90</integer>
-					</dict>
-				</array>
-			</dict>
-			<key>com.fontlab.recipe</key>
-			<string>uni0227+uni0304</string>
-		</dict>
-	</lib>
+  <advance width="544"/>
+  <unicode hex="01E1"/>
+  <anchor x="273" y="540" name="aring"/>
+  <anchor x="437" y="10" name="ogonek"/>
+  <anchor x="274" y="904" name="top"/>
+  <outline>
+    <component base="uni0227"/>
+    <component base="uni0304" xOffset="555" yOffset="180"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.autolayer</key>
+  <true/>
+  <key>com.fontlab.hintData</key>
+  <dict>
+    <key>hhints</key>
+    <array>
+      <dict>
+        <key>position</key>
+        <integer>-12</integer>
+        <key>width</key>
+        <integer>53</integer>
+      </dict>
+      <dict>
+        <key>position</key>
+        <integer>467</integer>
+        <key>width</key>
+        <integer>35</integer>
+      </dict>
+      <dict>
+        <key>position</key>
+        <integer>570</integer>
+        <key>width</key>
+        <integer>113</integer>
+      </dict>
+      <dict>
+        <key>position</key>
+        <integer>743</integer>
+        <key>width</key>
+        <integer>59</integer>
+      </dict>
+    </array>
+    <key>vhints</key>
+    <array>
+      <dict>
+        <key>position</key>
+        <integer>49</integer>
+        <key>width</key>
+        <integer>101</integer>
+      </dict>
+      <dict>
+        <key>position</key>
+        <integer>125</integer>
+        <key>width</key>
+        <integer>288</integer>
+      </dict>
+      <dict>
+        <key>position</key>
+        <integer>209</integer>
+        <key>width</key>
+        <integer>120</integer>
+      </dict>
+      <dict>
+        <key>position</key>
+        <integer>343</integer>
+        <key>width</key>
+        <integer>90</integer>
+      </dict>
+    </array>
+  </dict>
+  <key>com.fontlab.recipe</key>
+  <string>uni0227+uni0304</string>
+  </dict>
+  </lib>
 </glyph>

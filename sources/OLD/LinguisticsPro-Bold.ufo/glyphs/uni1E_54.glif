@@ -1,128 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="uni1E54" format="1">
-  <advance width="650"/>
-  <unicode hex="1E54"/>
-  <outline>
-    <contour>
-      <point x="33" y="0" type="line"/>
-      <point x="33" y="38" type="line"/>
-      <point x="104" y="41"/>
-      <point x="112" y="46"/>
-      <point x="112" y="97" type="curve" smooth="yes"/>
-      <point x="112" y="595" type="line" smooth="yes"/>
-      <point x="112" y="646"/>
-      <point x="104" y="651"/>
-      <point x="33" y="654" type="curve"/>
-      <point x="33" y="692" type="line"/>
-      <point x="343" y="692" type="line" smooth="yes"/>
-      <point x="424" y="692"/>
-      <point x="489" y="684"/>
-      <point x="538" y="654" type="curve" smooth="yes"/>
-      <point x="587" y="624"/>
-      <point x="623" y="569"/>
-      <point x="623" y="489" type="curve" smooth="yes"/>
-      <point x="623" y="415"/>
-      <point x="596" y="361"/>
-      <point x="546" y="325" type="curve" smooth="yes"/>
-      <point x="500" y="292"/>
-      <point x="426" y="275"/>
-      <point x="332" y="275" type="curve" smooth="yes"/>
-      <point x="272" y="275" type="line"/>
-      <point x="272" y="97" type="line" smooth="yes"/>
-      <point x="272" y="46"/>
-      <point x="280" y="41"/>
-      <point x="368" y="36" type="curve"/>
-      <point x="368" y="0" type="line"/>
-    </contour>
-    <contour>
-      <point x="207" y="751" type="line"/>
-      <point x="379" y="874" type="line" smooth="yes"/>
-      <point x="410" y="897"/>
-      <point x="425" y="904"/>
-      <point x="443" y="904" type="curve" smooth="yes"/>
-      <point x="475" y="904"/>
-      <point x="497" y="860"/>
-      <point x="497" y="840" type="curve" smooth="yes"/>
-      <point x="497" y="811"/>
-      <point x="477" y="800"/>
-      <point x="424" y="783" type="curve" smooth="yes"/>
-      <point x="221" y="719" type="line"/>
-    </contour>
-    <contour>
-      <point x="272" y="364" type="line" smooth="yes"/>
-      <point x="272" y="326"/>
-      <point x="289" y="321"/>
-      <point x="328" y="321" type="curve" smooth="yes"/>
-      <point x="429" y="321"/>
-      <point x="455" y="410"/>
-      <point x="455" y="486" type="curve" smooth="yes"/>
-      <point x="455" y="601"/>
-      <point x="398" y="646"/>
-      <point x="331" y="646" type="curve" smooth="yes"/>
-      <point x="280" y="646"/>
-      <point x="272" y="637"/>
-      <point x="272" y="609" type="curve" smooth="yes"/>
-    </contour>
-  </outline>
-  <lib>
-    <dict>
-      <key>com.fontlab.hintData</key>
-      <dict>
-        <key>hhints</key>
-        <array>
-          <dict>
-            <key>position</key>
-            <integer>0</integer>
-            <key>width</key>
-            <integer>38</integer>
-          </dict>
-          <dict>
-            <key>position</key>
-            <integer>275</integer>
-            <key>width</key>
-            <integer>46</integer>
-          </dict>
-          <dict>
-            <key>position</key>
-            <integer>646</integer>
-            <key>width</key>
-            <integer>46</integer>
-          </dict>
-          <dict>
-            <key>position</key>
-            <integer>654</integer>
-            <key>width</key>
-            <integer>38</integer>
-          </dict>
-          <dict>
-            <key>position</key>
-            <integer>783</integer>
-            <key>width</key>
-            <integer>121</integer>
-          </dict>
-        </array>
-        <key>vhints</key>
-        <array>
-          <dict>
-            <key>position</key>
-            <integer>112</integer>
-            <key>width</key>
-            <integer>160</integer>
-          </dict>
-          <dict>
-            <key>position</key>
-            <integer>207</integer>
-            <key>width</key>
-            <integer>290</integer>
-          </dict>
-          <dict>
-            <key>position</key>
-            <integer>455</integer>
-            <key>width</key>
-            <integer>168</integer>
-          </dict>
-        </array>
-      </dict>
-    </dict>
-  </lib>
+<glyph name="uni1E54" format="2">
+	<unicode hex="1E54"/>
+	<advance width="650"/>
+	<outline>
+		<component base="P"/>
+		<component base="acute.cap" xOffset="79"/>
+	</outline>
+	<anchor name="tonos" x="-4" y="702"/>
+	<anchor name="top" x="295" y="950"/>
+	<lib>
+		<dict>
+			<key>com.fontlab.autolayer</key>
+			<true/>
+			<key>com.fontlab.hintData</key>
+			<dict>
+				<key>hhints</key>
+				<array>
+					<dict>
+						<key>position</key>
+						<integer>742</integer>
+						<key>width</key>
+						<integer>21</integer>
+					</dict>
+					<dict>
+						<key>position</key>
+						<integer>798</integer>
+						<key>width</key>
+						<integer>92</integer>
+					</dict>
+				</array>
+				<key>vhints</key>
+				<array>
+					<dict>
+						<key>position</key>
+						<integer>191</integer>
+						<key>width</key>
+						<integer>242</integer>
+					</dict>
+				</array>
+			</dict>
+			<key>com.fontlab.recipe</key>
+			<string>P+acute.cap</string>
+		</dict>
+	</lib>
 </glyph>

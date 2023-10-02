@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="gravecomb" format="2">
+  <unicode hex="0300"/>
+  <anchor x="-99.667" y="528.667" name="_top"/>
+  <outline>
+    <contour>
+      <point x="-243.667" y="680" type="curve" smooth="yes"/>
+      <point x="-243.667" y="703.333"/>
+      <point x="-216.334" y="734.333"/>
+      <point x="-195.334" y="734.333" type="curve" smooth="yes"/>
+      <point x="-176.334" y="734.333"/>
+      <point x="-159.334" y="723"/>
+      <point x="-124.667" y="687.333" type="curve" smooth="yes"/>
+      <point x="11.666" y="548" type="line"/>
+      <point x="-7.334" y="521.333" type="line"/>
+      <point x="-179.667" y="618" type="line" smooth="yes"/>
+      <point x="-213.667" y="636.666"/>
+      <point x="-243.667" y="655.666"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.postscript.hints</key>
+  <dict>
+    <key>formatVersion</key>
+    <string>1</string>
+    <key>id</key>
+    <string>662a9604738c5b44f849bff2683a780863509c58d86f63306ffc405a260b2302227c1ab4f113560b2bf2be0cbd675bf47417447469b49a18f6a8a9fb72f44e62</string>
+    <key>hintSetList</key>
+    <array>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem 521.33 213</string>
+          <string>vstem -243.67 255.33</string>
+        </array>
+      </dict>
+    </array>
+  </dict>
+  </dict>
+  </lib>
+</glyph>

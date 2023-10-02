@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="epsilonlenis" format="2">
+  <advance width="438"/>
+  <unicode hex="1F10"/>
+  <outline>
+    <component base="epsilon"/>
+    <component base="lenis" xOffset="140" yOffset="-39"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.autolayer</key>
+  <true/>
+  <key>com.fontlab.recipe</key>
+  <string>epsilon+lenis</string>
+  <key>public.markColor</key>
+  <string>0.6,0.602,1,1</string>
+  </dict>
+  </lib>
+</glyph>

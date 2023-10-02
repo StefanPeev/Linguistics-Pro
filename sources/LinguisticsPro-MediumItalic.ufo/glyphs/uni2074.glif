@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni2074" format="2">
+  <advance width="381"/>
+  <unicode hex="2074"/>
+  <outline>
+    <contour>
+      <point x="174.334" y="547.666" type="curve"/>
+      <point x="296.667" y="547.666" type="line"/>
+      <point x="338.334" y="731.666" type="line"/>
+      <point x="333.667" y="731.666" type="line"/>
+      <point x="281.334" y="677.666"/>
+      <point x="225.334" y="612.666"/>
+    </contour>
+    <contour>
+      <point x="107.667" y="529.999" type="line"/>
+      <point x="192.667" y="629.999"/>
+      <point x="280.667" y="727.333"/>
+      <point x="364.667" y="808.999" type="curve"/>
+      <point x="436.667" y="808.999" type="line"/>
+      <point x="380.334" y="547.666" type="line"/>
+      <point x="444.334" y="547.666" type="line"/>
+      <point x="434.334" y="511.333" type="line"/>
+      <point x="372.334" y="511.333" type="line"/>
+      <point x="361.667" y="459.333" type="line" smooth="yes"/>
+      <point x="358.667" y="443.333"/>
+      <point x="364.667" y="436.333"/>
+      <point x="378.334" y="435.333" type="curve"/>
+      <point x="408.334" y="432.333" type="line"/>
+      <point x="403.334" y="408" type="line"/>
+      <point x="201" y="408" type="line"/>
+      <point x="206" y="432.333" type="line"/>
+      <point x="240" y="434.666" type="line"/>
+      <point x="250" y="435.333" type="line" smooth="yes"/>
+      <point x="264" y="436.333"/>
+      <point x="274.667" y="443.333"/>
+      <point x="277.667" y="459.333" type="curve" smooth="yes"/>
+      <point x="288.334" y="511.333" type="line"/>
+      <point x="118" y="511.333" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.postscript.hints</key>
+  <dict>
+    <key>formatVersion</key>
+    <string>1</string>
+    <key>id</key>
+    <string>2430eb2e2576b917aae706c3e047458f122863b1646b69f008ea735164b26035c8d48229ea7dd93e92de1cc3668ec551ca4f4274b844d86519a4b9fccc4bc0b1</string>
+    <key>hintSetList</key>
+    <array>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem 408 24.33</string>
+          <string>hstem 511.33 36.33</string>
+          <string>vstem 107.67 336.67</string>
+        </array>
+      </dict>
+    </array>
+  </dict>
+  </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="dieresisacute" format="2">
+  <advance width="345"/>
+  <unicode hex="1FEE"/>
+  <anchor x="287.442" y="750" name="top"/>
+  <anchor x="289.442" y="542" name="_top"/>
+  <anchor x="310" y="798" name="_bottom"/>
+  <outline>
+    <component base="dieresis" xOffset="-55"/>
+    <component base="tonos" xOffset="138.289" yOffset="11.7093"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.recipe</key>
+  <string>dieresistonos</string>
+  <key>public.markColor</key>
+  <string>1,0.994,0.6,1</string>
+  <key>public.postscript.hints</key>
+  <dict>
+    <key>formatVersion</key>
+    <string>1</string>
+    <key>id</key>
+    <string>w345</string>
+    <key>hintSetList</key>
+    <array>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem 542 181</string>
+          <string>vstem 168.44 222</string>
+        </array>
+      </dict>
+    </array>
+  </dict>
+  </dict>
+  </lib>
+</glyph>

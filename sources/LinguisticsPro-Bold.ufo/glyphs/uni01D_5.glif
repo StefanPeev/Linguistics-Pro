@@ -1,82 +1,82 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni01D5" format="2">
-	<unicode hex="01D5"/>
-	<advance width="786"/>
-	<outline>
-		<component base="Udieresis"/>
-		<component base="macron.cap" xOffset="193" yOffset="175"/>
-	</outline>
-	<anchor name="ogonek" x="423" y="0"/>
-	<anchor name="top" x="393" y="1077"/>
-	<lib>
-		<dict>
-			<key>com.fontlab.autolayer</key>
-			<true/>
-			<key>com.fontlab.hintData</key>
-			<dict>
-				<key>hhints</key>
-				<array>
-					<dict>
-						<key>position</key>
-						<integer>-15</integer>
-						<key>width</key>
-						<integer>35</integer>
-					</dict>
-					<dict>
-						<key>position</key>
-						<integer>663</integer>
-						<key>width</key>
-						<integer>29</integer>
-					</dict>
-					<dict>
-						<key>position</key>
-						<integer>732</integer>
-						<key>width</key>
-						<integer>109</integer>
-					</dict>
-					<dict>
-						<key>position</key>
-						<integer>901</integer>
-						<key>width</key>
-						<integer>59</integer>
-					</dict>
-				</array>
-				<key>vhints</key>
-				<array>
-					<dict>
-						<key>position</key>
-						<integer>119</integer>
-						<key>width</key>
-						<integer>99</integer>
-					</dict>
-					<dict>
-						<key>position</key>
-						<integer>234</integer>
-						<key>width</key>
-						<integer>116</integer>
-					</dict>
-					<dict>
-						<key>position</key>
-						<integer>238</integer>
-						<key>width</key>
-						<integer>316</integer>
-					</dict>
-					<dict>
-						<key>position</key>
-						<integer>442</integer>
-						<key>width</key>
-						<integer>116</integer>
-					</dict>
-					<dict>
-						<key>position</key>
-						<integer>573</integer>
-						<key>width</key>
-						<integer>99</integer>
-					</dict>
-				</array>
-			</dict>
-			<key>com.fontlab.recipe</key>
-			<string>Udieresis+macron.cap</string>
-		</dict>
-	</lib>
+  <advance width="786"/>
+  <unicode hex="01D5"/>
+  <anchor x="423" y="0" name="ogonek"/>
+  <anchor x="393" y="1077" name="top"/>
+  <outline>
+    <component base="Udieresis"/>
+    <component base="macron.cap" xOffset="193" yOffset="175"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.autolayer</key>
+  <true/>
+  <key>com.fontlab.hintData</key>
+  <dict>
+    <key>hhints</key>
+    <array>
+      <dict>
+        <key>position</key>
+        <integer>-15</integer>
+        <key>width</key>
+        <integer>35</integer>
+      </dict>
+      <dict>
+        <key>position</key>
+        <integer>663</integer>
+        <key>width</key>
+        <integer>29</integer>
+      </dict>
+      <dict>
+        <key>position</key>
+        <integer>732</integer>
+        <key>width</key>
+        <integer>109</integer>
+      </dict>
+      <dict>
+        <key>position</key>
+        <integer>901</integer>
+        <key>width</key>
+        <integer>59</integer>
+      </dict>
+    </array>
+    <key>vhints</key>
+    <array>
+      <dict>
+        <key>position</key>
+        <integer>119</integer>
+        <key>width</key>
+        <integer>99</integer>
+      </dict>
+      <dict>
+        <key>position</key>
+        <integer>234</integer>
+        <key>width</key>
+        <integer>116</integer>
+      </dict>
+      <dict>
+        <key>position</key>
+        <integer>238</integer>
+        <key>width</key>
+        <integer>316</integer>
+      </dict>
+      <dict>
+        <key>position</key>
+        <integer>442</integer>
+        <key>width</key>
+        <integer>116</integer>
+      </dict>
+      <dict>
+        <key>position</key>
+        <integer>573</integer>
+        <key>width</key>
+        <integer>99</integer>
+      </dict>
+    </array>
+  </dict>
+  <key>com.fontlab.recipe</key>
+  <string>Udieresis+macron.cap</string>
+  </dict>
+  </lib>
 </glyph>

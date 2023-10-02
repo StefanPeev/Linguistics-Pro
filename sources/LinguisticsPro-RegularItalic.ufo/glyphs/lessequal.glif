@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="lessequal" format="2">
+  <advance width="586"/>
+  <unicode hex="2264"/>
+  <outline>
+    <component base="less" xOffset="41" yOffset="95"/>
+    <component base="minus" xOffset="28" yOffset="-221"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.recipe</key>
+  <string>space+^less+minus%</string>
+  <key>public.markColor</key>
+  <string>1,0.994,0.6,1</string>
+  </dict>
+  </lib>
+</glyph>

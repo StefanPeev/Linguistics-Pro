@@ -1,50 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni1F41" format="2">
-	<unicode hex="1F41"/>
-	<advance width="580"/>
-	<outline>
-		<component base="omicron"/>
-		<component base="uni0314" xOffset="482.794"/>
-	</outline>
-	<lib>
-		<dict>
-			<key>com.fontlab.autolayer</key>
-			<true/>
-			<key>com.fontlab.hintData</key>
-			<dict>
-				<key>hhints</key>
-				<array>
-					<dict>
-						<key>position</key>
-						<integer>-12</integer>
-						<key>width</key>
-						<integer>35</integer>
-					</dict>
-					<dict>
-						<key>position</key>
-						<integer>467</integer>
-						<key>width</key>
-						<integer>35</integer>
-					</dict>
-				</array>
-				<key>vhints</key>
-				<array>
-					<dict>
-						<key>position</key>
-						<integer>49</integer>
-						<key>width</key>
-						<integer>104</integer>
-					</dict>
-					<dict>
-						<key>position</key>
-						<integer>425</integer>
-						<key>width</key>
-						<integer>104</integer>
-					</dict>
-				</array>
-			</dict>
-			<key>com.fontlab.recipe</key>
-			<string>omicron+uni0314</string>
-		</dict>
-	</lib>
+  <advance width="580"/>
+  <unicode hex="1F41"/>
+  <anchor x="290.333" y="533" name="top"/>
+  <outline>
+    <component base="omicron"/>
+    <component base="uni0314" xOffset="482.794"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.autolayer</key>
+  <true/>
+  <key>com.fontlab.hintData</key>
+  <dict>
+    <key>hhints</key>
+    <array>
+      <dict>
+        <key>position</key>
+        <integer>-12</integer>
+        <key>width</key>
+        <integer>35</integer>
+      </dict>
+      <dict>
+        <key>position</key>
+        <integer>467</integer>
+        <key>width</key>
+        <integer>35</integer>
+      </dict>
+    </array>
+    <key>vhints</key>
+    <array>
+      <dict>
+        <key>position</key>
+        <integer>49</integer>
+        <key>width</key>
+        <integer>104</integer>
+      </dict>
+      <dict>
+        <key>position</key>
+        <integer>425</integer>
+        <key>width</key>
+        <integer>104</integer>
+      </dict>
+    </array>
+  </dict>
+  <key>com.fontlab.recipe</key>
+  <string>omicron+uni0314</string>
+  </dict>
+  </lib>
 </glyph>

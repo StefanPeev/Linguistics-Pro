@@ -1,40 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="logicalnot" format="2">
-	<unicode hex="00AC"/>
-	<advance width="600"/>
-	<outline>
-		<contour>
-			<point x="58" y="317" type="line"/>
-			<point x="58" y="397" type="line"/>
-			<point x="542" y="397" type="line"/>
-			<point x="542" y="95" type="line"/>
-			<point x="446" y="95" type="line"/>
-			<point x="446" y="317" type="line"/>
-		</contour>
-	</outline>
-	<lib>
-		<dict>
-			<key>com.fontlab.hintData</key>
-			<dict>
-				<key>hhints</key>
-				<array>
-					<dict>
-						<key>position</key>
-						<integer>331</integer>
-						<key>width</key>
-						<integer>58</integer>
-					</dict>
-				</array>
-				<key>vhints</key>
-				<array>
-					<dict>
-						<key>position</key>
-						<integer>459</integer>
-						<key>width</key>
-						<integer>68</integer>
-					</dict>
-				</array>
-			</dict>
-		</dict>
-	</lib>
+  <advance width="600"/>
+  <unicode hex="00AC"/>
+  <outline>
+    <contour>
+      <point x="58" y="317" type="line"/>
+      <point x="58" y="397" type="line"/>
+      <point x="542" y="397" type="line"/>
+      <point x="542" y="95" type="line"/>
+      <point x="446" y="95" type="line"/>
+      <point x="446" y="317" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.hintData</key>
+  <dict>
+    <key>hhints</key>
+    <array>
+      <dict>
+        <key>position</key>
+        <integer>331</integer>
+        <key>width</key>
+        <integer>58</integer>
+      </dict>
+    </array>
+    <key>vhints</key>
+    <array>
+      <dict>
+        <key>position</key>
+        <integer>459</integer>
+        <key>width</key>
+        <integer>68</integer>
+      </dict>
+    </array>
+  </dict>
+  </dict>
+  </lib>
 </glyph>

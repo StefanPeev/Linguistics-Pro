@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Upsilondieresis" format="2">
+  <advance width="617"/>
+  <unicode hex="03AB"/>
+  <anchor x="-34" y="702" name="tonos"/>
+  <anchor x="308.5" y="940" name="top"/>
+  <outline>
+    <component base="Upsilon"/>
+    <component base="dieresis.cap" xOffset="91.5"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.autolayer</key>
+  <true/>
+  <key>com.fontlab.recipe</key>
+  <string>Upsilon+dieresis.cap</string>
+  </dict>
+  </lib>
+</glyph>

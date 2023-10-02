@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni01EB" format="2">
+  <advance width="585"/>
+  <unicode hex="01EB"/>
+  <anchor x="293" y="540" name="top"/>
+  <outline>
+    <component base="o"/>
+    <component base="uni0328" xOffset="504.5"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.autolayer</key>
+  <true/>
+  <key>com.fontlab.hintData</key>
+  <dict>
+    <key>hhints</key>
+    <array>
+      <dict>
+        <key>position</key>
+        <integer>-250</integer>
+        <key>width</key>
+        <integer>54</integer>
+      </dict>
+      <dict>
+        <key>position</key>
+        <integer>-12</integer>
+        <key>width</key>
+        <integer>46</integer>
+      </dict>
+      <dict>
+        <key>position</key>
+        <integer>456</integer>
+        <key>width</key>
+        <integer>46</integer>
+      </dict>
+    </array>
+    <key>vhints</key>
+    <array>
+      <dict>
+        <key>position</key>
+        <integer>34</integer>
+        <key>width</key>
+        <integer>159</integer>
+      </dict>
+      <dict>
+        <key>position</key>
+        <integer>143</integer>
+        <key>width</key>
+        <integer>96</integer>
+      </dict>
+      <dict>
+        <key>position</key>
+        <integer>392</integer>
+        <key>width</key>
+        <integer>159</integer>
+      </dict>
+    </array>
+  </dict>
+  <key>com.fontlab.recipe</key>
+  <string>o+uni0328</string>
+  </dict>
+  </lib>
+</glyph>

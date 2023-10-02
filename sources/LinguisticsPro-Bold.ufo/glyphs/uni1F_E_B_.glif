@@ -1,69 +1,68 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni1FEB" format="2">
-	<unicode hex="1FEB"/>
-	<advance width="617"/>
-	<outline>
-		<component base="Upsilon"/>
-		<component base="tonos" xOffset="-417" yOffset="-52"/>
-	</outline>
-	<anchor name="tonos" x="-34" y="702"/>
-	<lib>
-		<dict>
-			<key>com.fontlab.autolayer</key>
-			<true/>
-			<key>com.fontlab.hintData</key>
-			<dict>
-				<key>hhints</key>
-				<array>
-					<dict>
-						<key>position</key>
-						<integer>0</integer>
-						<key>width</key>
-						<integer>29</integer>
-					</dict>
-					<dict>
-						<key>position</key>
-						<integer>663</integer>
-						<key>width</key>
-						<integer>29</integer>
-					</dict>
-					<dict>
-						<key>position</key>
-						<integer>744</integer>
-						<key>width</key>
-						<integer>181</integer>
-					</dict>
-				</array>
-				<key>vhints</key>
-				<array>
-					<dict>
-						<key>position</key>
-						<integer>-12</integer>
-						<key>width</key>
-						<integer>185</integer>
-					</dict>
-					<dict>
-						<key>position</key>
-						<integer>183</integer>
-						<key>width</key>
-						<integer>222</integer>
-					</dict>
-					<dict>
-						<key>position</key>
-						<integer>256</integer>
-						<key>width</key>
-						<integer>99</integer>
-					</dict>
-					<dict>
-						<key>position</key>
-						<integer>483</integer>
-						<key>width</key>
-						<integer>149</integer>
-					</dict>
-				</array>
-			</dict>
-			<key>com.fontlab.recipe</key>
-			<string>Upsilon+tonos</string>
-		</dict>
-	</lib>
+  <advance width="617"/>
+  <unicode hex="1FEB"/>
+  <outline>
+    <component base="Upsilon"/>
+    <component base="tonos" xOffset="-417" yOffset="-52"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.autolayer</key>
+  <true/>
+  <key>com.fontlab.hintData</key>
+  <dict>
+    <key>hhints</key>
+    <array>
+      <dict>
+        <key>position</key>
+        <integer>0</integer>
+        <key>width</key>
+        <integer>29</integer>
+      </dict>
+      <dict>
+        <key>position</key>
+        <integer>663</integer>
+        <key>width</key>
+        <integer>29</integer>
+      </dict>
+      <dict>
+        <key>position</key>
+        <integer>744</integer>
+        <key>width</key>
+        <integer>181</integer>
+      </dict>
+    </array>
+    <key>vhints</key>
+    <array>
+      <dict>
+        <key>position</key>
+        <integer>-12</integer>
+        <key>width</key>
+        <integer>185</integer>
+      </dict>
+      <dict>
+        <key>position</key>
+        <integer>183</integer>
+        <key>width</key>
+        <integer>222</integer>
+      </dict>
+      <dict>
+        <key>position</key>
+        <integer>256</integer>
+        <key>width</key>
+        <integer>99</integer>
+      </dict>
+      <dict>
+        <key>position</key>
+        <integer>483</integer>
+        <key>width</key>
+        <integer>149</integer>
+      </dict>
+    </array>
+  </dict>
+  <key>com.fontlab.recipe</key>
+  <string>Upsilon+tonos</string>
+  </dict>
+  </lib>
 </glyph>

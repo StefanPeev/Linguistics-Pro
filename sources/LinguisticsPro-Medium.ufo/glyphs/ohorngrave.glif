@@ -1,56 +1,56 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ohorngrave" format="2">
-	<unicode hex="1EDD"/>
-	<advance width="589"/>
-	<outline>
-		<component base="ohorn"/>
-		<component base="gravecomb" xOffset="539"/>
-	</outline>
-	<lib>
-		<dict>
-			<key>com.fontlab.autolayer</key>
-			<true/>
-			<key>com.fontlab.hintData</key>
-			<dict>
-				<key>hhints</key>
-				<array>
-					<dict>
-						<key>position</key>
-						<integer>-12</integer>
-						<key>width</key>
-						<integer>35</integer>
-					</dict>
-					<dict>
-						<key>position</key>
-						<integer>467</integer>
-						<key>width</key>
-						<integer>35</integer>
-					</dict>
-				</array>
-				<key>vhints</key>
-				<array>
-					<dict>
-						<key>position</key>
-						<integer>49</integer>
-						<key>width</key>
-						<integer>104</integer>
-					</dict>
-					<dict>
-						<key>position</key>
-						<integer>424</integer>
-						<key>width</key>
-						<integer>104</integer>
-					</dict>
-					<dict>
-						<key>position</key>
-						<integer>433</integer>
-						<key>width</key>
-						<integer>104</integer>
-					</dict>
-				</array>
-			</dict>
-			<key>com.fontlab.recipe</key>
-			<string>ohorn+gravecomb</string>
-		</dict>
-	</lib>
+  <advance width="589"/>
+  <unicode hex="1EDD"/>
+  <outline>
+    <component base="ohorn"/>
+    <component base="gravecomb" xOffset="539"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.autolayer</key>
+  <true/>
+  <key>com.fontlab.hintData</key>
+  <dict>
+    <key>hhints</key>
+    <array>
+      <dict>
+        <key>position</key>
+        <integer>-12</integer>
+        <key>width</key>
+        <integer>35</integer>
+      </dict>
+      <dict>
+        <key>position</key>
+        <integer>467</integer>
+        <key>width</key>
+        <integer>35</integer>
+      </dict>
+    </array>
+    <key>vhints</key>
+    <array>
+      <dict>
+        <key>position</key>
+        <integer>49</integer>
+        <key>width</key>
+        <integer>104</integer>
+      </dict>
+      <dict>
+        <key>position</key>
+        <integer>424</integer>
+        <key>width</key>
+        <integer>104</integer>
+      </dict>
+      <dict>
+        <key>position</key>
+        <integer>433</integer>
+        <key>width</key>
+        <integer>104</integer>
+      </dict>
+    </array>
+  </dict>
+  <key>com.fontlab.recipe</key>
+  <string>ohorn+gravecomb</string>
+  </dict>
+  </lib>
 </glyph>

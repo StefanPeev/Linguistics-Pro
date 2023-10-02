@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="etatildeiotasub" format="2">
+  <advance width="630"/>
+  <unicode hex="1FC7"/>
+  <anchor x="478.667" y="696" name="top"/>
+  <outline>
+    <component base="etatilde"/>
+    <component base="iotasubcomb" xOffset="390"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.autolayer</key>
+  <true/>
+  <key>com.fontlab.recipe</key>
+  <string>uni1FC6+iotasubcomb</string>
+  <key>public.markColor</key>
+  <string>1,0.994,0.6,1</string>
+  </dict>
+  </lib>
+</glyph>

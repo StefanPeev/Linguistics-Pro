@@ -1,43 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni1E38" format="2">
-	<unicode hex="1E38"/>
-	<advance width="579"/>
-	<outline>
-		<component base="uni1E36"/>
-		<component base="macron.cap" xOffset="89.6667"/>
-	</outline>
-	<anchor name="dot" x="377.333" y="387"/>
-	<anchor name="quote" x="525" y="742"/>
-	<anchor name="top" x="289.667" y="890"/>
-	<lib>
-		<dict>
-			<key>com.fontlab.autolayer</key>
-			<true/>
-			<key>com.fontlab.hintData</key>
-			<dict>
-				<key>hhints</key>
-				<array>
-					<dict>
-						<key>position</key>
-						<integer>759</integer>
-						<key>width</key>
-						<integer>59</integer>
-					</dict>
-				</array>
-				<key>vhints</key>
-				<array>
-					<dict>
-						<key>position</key>
-						<integer>142</integer>
-						<key>width</key>
-						<integer>316</integer>
-					</dict>
-				</array>
-			</dict>
-			<key>com.fontlab.recipe</key>
-			<string>uni1E36+macron.cap</string>
-			<key>public.markColor</key>
-			<string>1,0.6,0.6,1</string>
-		</dict>
-	</lib>
+  <advance width="579"/>
+  <unicode hex="1E38"/>
+  <anchor x="525" y="742" name="quote"/>
+  <anchor x="377.333" y="387" name="dot"/>
+  <anchor x="289.667" y="890" name="top"/>
+  <outline>
+    <component base="uni1E36"/>
+    <component base="macron.cap" xScale="1" xOffset="89.667"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.autolayer</key>
+  <true/>
+  <key>com.fontlab.hintData</key>
+  <dict>
+    <key>hhints</key>
+    <array>
+      <dict>
+        <key>position</key>
+        <integer>759</integer>
+        <key>width</key>
+        <integer>59</integer>
+      </dict>
+    </array>
+    <key>vhints</key>
+    <array>
+      <dict>
+        <key>position</key>
+        <integer>142</integer>
+        <key>width</key>
+        <integer>316</integer>
+      </dict>
+    </array>
+  </dict>
+  <key>com.fontlab.recipe</key>
+  <string>uni1E36+macron.cap</string>
+  </dict>
+  </lib>
 </glyph>

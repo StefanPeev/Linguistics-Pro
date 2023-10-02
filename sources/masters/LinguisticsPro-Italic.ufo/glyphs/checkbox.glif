@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="checkbox" format="2">
+  <advance width="730"/>
+  <unicode hex="2610"/>
+  <outline>
+    <contour>
+      <point x="119" y="-16" type="line"/>
+      <point x="119" y="490" type="line"/>
+      <point x="216" y="570" type="line"/>
+      <point x="725" y="570" type="line"/>
+      <point x="725" y="59" type="line"/>
+      <point x="624" y="-16" type="line"/>
+    </contour>
+    <contour>
+      <point x="160" y="26" type="line"/>
+      <point x="599" y="26" type="line"/>
+      <point x="599" y="476" type="line"/>
+      <point x="160" y="476" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>1,0.994,0.6,1</string>
+  </dict>
+  </lib>
+</glyph>

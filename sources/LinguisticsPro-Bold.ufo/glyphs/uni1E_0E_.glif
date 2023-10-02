@@ -1,38 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni1E0E" format="2">
-	<unicode hex="1E0E"/>
-	<advance width="777"/>
-	<outline>
-		<component base="D"/>
-		<component base="uni0331.cap" xOffset="603.5"/>
-	</outline>
-	<lib>
-		<dict>
-			<key>com.fontlab.autolayer</key>
-			<true/>
-			<key>com.fontlab.hintData</key>
-			<dict>
-				<key>hhints</key>
-				<array>
-					<dict>
-						<key>position</key>
-						<integer>-168</integer>
-						<key>width</key>
-						<integer>59</integer>
-					</dict>
-				</array>
-				<key>vhints</key>
-				<array>
-					<dict>
-						<key>position</key>
-						<integer>210</integer>
-						<key>width</key>
-						<integer>316</integer>
-					</dict>
-				</array>
-			</dict>
-			<key>com.fontlab.recipe</key>
-			<string>D+uni0331.cap</string>
-		</dict>
-	</lib>
+  <advance width="777"/>
+  <unicode hex="1E0E"/>
+  <outline>
+    <component base="D"/>
+    <component base="uni0331.cap" xOffset="603.5"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.autolayer</key>
+  <true/>
+  <key>com.fontlab.hintData</key>
+  <dict>
+    <key>hhints</key>
+    <array>
+      <dict>
+        <key>position</key>
+        <integer>-168</integer>
+        <key>width</key>
+        <integer>59</integer>
+      </dict>
+    </array>
+    <key>vhints</key>
+    <array>
+      <dict>
+        <key>position</key>
+        <integer>210</integer>
+        <key>width</key>
+        <integer>316</integer>
+      </dict>
+    </array>
+  </dict>
+  <key>com.fontlab.recipe</key>
+  <string>D+uni0331.cap</string>
+  </dict>
+  </lib>
 </glyph>

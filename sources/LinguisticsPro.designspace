@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='utf-8'?>
+<designspace format="4.0">
+ <axes>
+  <axis minimum="400" maximum="700" default="400" name="weight" tag="wght">
+   <labelname xml:lang="en">Weight</labelname>
+  </axis>
+ </axes>
+ <sources>
+  <source stylename="Bold" familyname="Linguistics Pro" name="Bold" filename="masters/LinguisticsPro-Bold.ufo">
+   <location>
+    <dimension name="weight" xvalue="700"/>
+   </location>
+  </source>
+  <source stylename="Regular" familyname="Linguistics Pro" name="Regular" filename="masters/LinguisticsPro-Regular.ufo">
+   <lib copy="1"/>
+   <groups copy="1"/>
+   <info copy="1"/>
+   <features copy="1"/>
+   <location>
+    <dimension name="weight" xvalue="400"/>
+   </location>
+  </source>
+ </sources>
+ <instances>
+  <instance stylename="Regular" familyname="Linguistics Pro" name="Regular" filename="instances/LinguisticsPro-Regular.ufo">
+   <location>
+    <dimension name="weight" xvalue="400"/>
+   </location>
+  </instance>
+  <instance stylename="Medium" familyname="Linguistics Pro" name="Medium" filename="instances/LinguisticsPro-Medium.ufo">
+   <location>
+    <dimension name="weight" xvalue="500"/>
+   </location>
+  </instance>
+  <instance stylename="SemiBold" familyname="Linguistics Pro" name="SemiBold" filename="instances/LinguisticsPro-SemiBold.ufo">
+   <location>
+    <dimension name="weight" xvalue="600"/>
+   </location>
+  </instance>
+  <instance stylename="Bold" familyname="Linguistics Pro" name="Bold" filename="instances/LinguisticsPro-Bold.ufo">
+   <location>
+    <dimension name="weight" xvalue="700"/>
+   </location>
+  </instance>
+ </instances>
+</designspace>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Ecircumflextilde" format="2">
+  <advance width="629"/>
+  <unicode hex="1EC4"/>
+  <anchor x="480" y="10" name="ogonek"/>
+  <anchor x="-2" y="702" name="tonos"/>
+  <anchor x="-2" y="692" name="greek.UC.tonos"/>
+  <anchor x="304.5" y="1160" name="top"/>
+  <outline>
+    <component base="Ecircumflex"/>
+    <component base="tildecomb" xOffset="529.5" yOffset="410"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.autolayer</key>
+  <true/>
+  <key>com.fontlab.recipe</key>
+  <string>Ecircumflex+tildecomb</string>
+  </dict>
+  </lib>
+</glyph>

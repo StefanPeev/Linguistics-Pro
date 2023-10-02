@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Idotaccent" format="2">
+	<unicode hex="0130"/>
+	<advance width="361"/>
+	<outline>
+		<component base="I"/>
+		<component base="uni0307" xOffset="420.333" yOffset="202"/>
+	</outline>
+	<anchor name="ogonek" x="196.667" y="10"/>
+	<anchor name="tonos" x="0" y="702"/>
+	<anchor name="top" x="179" y="948.667"/>
+	<lib>
+		<dict>
+			<key>com.fontlab.autolayer</key>
+			<true/>
+			<key>com.fontlab.hintData</key>
+			<dict>
+				<key>hhints</key>
+				<array>
+					<dict>
+						<key>position</key>
+						<integer>732</integer>
+						<key>width</key>
+						<integer>109</integer>
+					</dict>
+				</array>
+				<key>vhints</key>
+				<array>
+					<dict>
+						<key>position</key>
+						<integer>116</integer>
+						<key>width</key>
+						<integer>116</integer>
+					</dict>
+				</array>
+			</dict>
+			<key>com.fontlab.recipe</key>
+			<string>I+uni0307</string>
+		</dict>
+	</lib>
+</glyph>

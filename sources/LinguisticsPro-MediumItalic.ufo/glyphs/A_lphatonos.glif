@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Alphatonos" format="2">
+  <advance width="627"/>
+  <unicode hex="0386"/>
+  <anchor x="464.333" y="666.667" name="aring"/>
+  <anchor x="526.667" y="10" name="ogonek"/>
+  <outline>
+    <component base="Alpha"/>
+    <component base="tonos" xOffset="27" yOffset="-53"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.autolayer</key>
+  <true/>
+  <key>com.fontlab.recipe</key>
+  <string>Alpha+tonos</string>
+  <key>public.markColor</key>
+  <string>0.6,0.602,1,1</string>
+  </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Icircumflex" format="2">
+  <advance width="386"/>
+  <unicode hex="00CE"/>
+  <anchor x="155" y="707" name="tonos"/>
+  <anchor x="402" y="996" name="top"/>
+  <outline>
+    <component base="I"/>
+    <component base="uni0302" xOffset="447" yOffset="218"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.autolayer</key>
+  <true/>
+  <key>com.fontlab.recipe</key>
+  <string>I+uni0302</string>
+  <key>public.markColor</key>
+  <string>0.6,0.997,1,1</string>
+  </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="acute.cap" format="2">
+  <advance width="400"/>
+  <outline>
+    <contour>
+      <point x="291" y="764" type="line"/>
+      <point x="436" y="863" type="line" smooth="yes"/>
+      <point x="466" y="883"/>
+      <point x="480" y="891"/>
+      <point x="494" y="891" type="curve" smooth="yes"/>
+      <point x="519" y="891"/>
+      <point x="533" y="856"/>
+      <point x="533" y="841" type="curve" smooth="yes"/>
+      <point x="533" y="817"/>
+      <point x="511" y="810"/>
+      <point x="472" y="798" type="curve" smooth="yes"/>
+      <point x="302" y="742" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.postscript.hints</key>
+  <dict>
+    <key>formatVersion</key>
+    <string>1</string>
+    <key>id</key>
+    <string>w400m291,764l436,863c466,883 480,891 494,891c519,891 533,856 533,841c533,817 511,810 472,798l302,742</string>
+    <key>hintSetList</key>
+    <array>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem 742 149</string>
+          <string>vstem 291 242</string>
+        </array>
+      </dict>
+    </array>
+  </dict>
+  </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="space_uni0311.cap" format="2">
+  <advance width="400"/>
+  <outline>
+    <contour>
+      <point x="250" y="749" type="line"/>
+      <point x="263" y="805"/>
+      <point x="307" y="870"/>
+      <point x="425" y="870" type="curve" smooth="yes"/>
+      <point x="543" y="870"/>
+      <point x="557" y="805"/>
+      <point x="544" y="749" type="curve"/>
+      <point x="516" y="749" type="line"/>
+      <point x="519" y="768"/>
+      <point x="502" y="811"/>
+      <point x="411" y="811" type="curve" smooth="yes"/>
+      <point x="320" y="811"/>
+      <point x="285" y="768"/>
+      <point x="278" y="749" type="curve"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.postscript.hints</key>
+  <dict>
+    <key>formatVersion</key>
+    <string>1</string>
+    <key>id</key>
+    <string>w400m250,749c263,805 307,870 425,870c543,870 557,805 544,749l516,749c519,768 502,811 411,811c320,811 285,768 278,749</string>
+    <key>hintSetList</key>
+    <array>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem 770 -21</string>
+          <string>hstem 811 59</string>
+          <string>vstem 250 28</string>
+          <string>vstem 516 28</string>
+        </array>
+      </dict>
+    </array>
+  </dict>
+  </dict>
+  </lib>
+</glyph>

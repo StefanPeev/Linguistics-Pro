@@ -1,72 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="seven.pnum" format="1">
-  <advance width="558"/>
-  <outline>
-    <contour>
-      <point x="33" y="499" type="line"/>
-      <point x="76" y="668" type="line"/>
-      <point x="516" y="668" type="line"/>
-      <point x="529" y="656" type="line"/>
-      <point x="513" y="559"/>
-      <point x="474" y="492"/>
-      <point x="379" y="353" type="curve" smooth="yes"/>
-      <point x="332" y="285"/>
-      <point x="315" y="174"/>
-      <point x="312" y="51" type="curve" smooth="yes"/>
-      <point x="311" y="-4"/>
-      <point x="271" y="-12"/>
-      <point x="236" y="-12" type="curve" smooth="yes"/>
-      <point x="194" y="-12"/>
-      <point x="152" y="-4"/>
-      <point x="152" y="54" type="curve" smooth="yes"/>
-      <point x="152" y="138"/>
-      <point x="210" y="241"/>
-      <point x="292" y="340" type="curve" smooth="yes"/>
-      <point x="373" y="438"/>
-      <point x="397" y="514"/>
-      <point x="407" y="547" type="curve"/>
-      <point x="145" y="547" type="line" smooth="yes"/>
-      <point x="102" y="547"/>
-      <point x="90" y="531"/>
-      <point x="78" y="508" type="curve" smooth="yes"/>
-      <point x="68" y="489" type="line"/>
-    </contour>
-  </outline>
-  <lib>
-    <dict>
-      <key>com.fontlab.hintData</key>
-      <dict>
-        <key>hhints</key>
-        <array>
-          <dict>
-            <key>position</key>
-            <integer>-12</integer>
-            <key>width</key>
-            <integer>21</integer>
-          </dict>
-          <dict>
-            <key>position</key>
-            <integer>489</integer>
-            <key>width</key>
-            <integer>21</integer>
-          </dict>
-          <dict>
-            <key>position</key>
-            <integer>547</integer>
-            <key>width</key>
-            <integer>121</integer>
-          </dict>
-        </array>
-        <key>vhints</key>
-        <array>
-          <dict>
-            <key>position</key>
-            <integer>152</integer>
-            <key>width</key>
-            <integer>160</integer>
-          </dict>
-        </array>
-      </dict>
-    </dict>
-  </lib>
+<glyph name="seven.pnum" format="2">
+	<advance width="560"/>
+	<outline>
+		<component base="seven"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.fontlab.autolayer</key>
+			<true/>
+			<key>com.fontlab.hintData</key>
+			<dict>
+				<key>hhints</key>
+				<array>
+					<dict>
+						<key>position</key>
+						<integer>-12</integer>
+						<key>width</key>
+						<integer>21</integer>
+					</dict>
+					<dict>
+						<key>position</key>
+						<integer>592</integer>
+						<key>width</key>
+						<integer>76</integer>
+					</dict>
+					<dict>
+						<key>position</key>
+						<integer>657</integer>
+						<key>width</key>
+						<integer>11</integer>
+					</dict>
+				</array>
+				<key>vhints</key>
+				<array>
+					<dict>
+						<key>position</key>
+						<integer>45</integer>
+						<key>width</key>
+						<integer>456</integer>
+					</dict>
+				</array>
+			</dict>
+			<key>com.fontlab.recipe</key>
+			<string>seven</string>
+		</dict>
+	</lib>
 </glyph>

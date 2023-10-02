@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="iotaacute" format="2">
+  <advance width="343"/>
+  <unicode hex="1F77"/>
+  <outline>
+    <component base="iota"/>
+    <component base="acute-gr" xScale="1" xOffset="32.667" yOffset="-21"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.autolayer</key>
+  <true/>
+  <key>com.fontlab.recipe</key>
+  <string>iota+acute-gr</string>
+  <key>public.markColor</key>
+  <string>0.6,0.602,1,1</string>
+  </dict>
+  </lib>
+</glyph>

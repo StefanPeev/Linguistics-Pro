@@ -1,51 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="yacute" format="2">
-	<unicode hex="00FD"/>
-	<advance width="512"/>
-	<outline>
-		<component base="y"/>
-		<component base="acutecomb" xOffset="421"/>
-	</outline>
-	<anchor name="top" x="232.333" y="753.333"/>
-	<lib>
-		<dict>
-			<key>com.fontlab.autolayer</key>
-			<true/>
-			<key>com.fontlab.hintData</key>
-			<dict>
-				<key>hhints</key>
-				<array>
-					<dict>
-						<key>position</key>
-						<integer>-242</integer>
-						<key>width</key>
-						<integer>73</integer>
-					</dict>
-					<dict>
-						<key>position</key>
-						<integer>461</integer>
-						<key>width</key>
-						<integer>29</integer>
-					</dict>
-					<dict>
-						<key>position</key>
-						<integer>542</integer>
-						<key>width</key>
-						<integer>181</integer>
-					</dict>
-				</array>
-				<key>vhints</key>
-				<array>
-					<dict>
-						<key>position</key>
-						<integer>212</integer>
-						<key>width</key>
-						<integer>222</integer>
-					</dict>
-				</array>
-			</dict>
-			<key>com.fontlab.recipe</key>
-			<string>y+acutecomb</string>
-		</dict>
-	</lib>
+  <advance width="512"/>
+  <unicode hex="00FD"/>
+  <anchor x="232.333" y="753.333" name="top"/>
+  <outline>
+    <component base="y"/>
+    <component base="acutecomb" xOffset="421"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.autolayer</key>
+  <true/>
+  <key>com.fontlab.hintData</key>
+  <dict>
+    <key>hhints</key>
+    <array>
+      <dict>
+        <key>position</key>
+        <integer>-242</integer>
+        <key>width</key>
+        <integer>73</integer>
+      </dict>
+      <dict>
+        <key>position</key>
+        <integer>461</integer>
+        <key>width</key>
+        <integer>29</integer>
+      </dict>
+      <dict>
+        <key>position</key>
+        <integer>542</integer>
+        <key>width</key>
+        <integer>181</integer>
+      </dict>
+    </array>
+    <key>vhints</key>
+    <array>
+      <dict>
+        <key>position</key>
+        <integer>212</integer>
+        <key>width</key>
+        <integer>222</integer>
+      </dict>
+    </array>
+  </dict>
+  <key>com.fontlab.recipe</key>
+  <string>y+acutecomb</string>
+  </dict>
+  </lib>
 </glyph>

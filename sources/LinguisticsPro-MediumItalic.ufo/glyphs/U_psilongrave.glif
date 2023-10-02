@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Upsilongrave" format="2">
+  <advance width="601"/>
+  <unicode hex="1FEA"/>
+  <outline>
+    <component base="Upsilon"/>
+    <component base="grave-gr" xOffset="-149.333" yOffset="-53"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.autolayer</key>
+  <true/>
+  <key>com.fontlab.recipe</key>
+  <string>Upsilon+grave-gr</string>
+  <key>public.markColor</key>
+  <string>1,0.994,0.6,1</string>
+  </dict>
+  </lib>
+</glyph>

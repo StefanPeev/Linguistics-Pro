@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Abreveacute" format="2">
+  <advance width="644"/>
+  <unicode hex="1EAE"/>
+  <anchor x="496" y="10" name="ogonek"/>
+  <anchor x="320" y="660" name="aring"/>
+  <anchor x="156" y="707" name="tonos"/>
+  <anchor x="313.5" y="1109" name="top"/>
+  <outline>
+    <component base="Abreve"/>
+    <component base="acute.cap" xOffset="97.5" yOffset="159"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.autolayer</key>
+  <true/>
+  <key>com.fontlab.recipe</key>
+  <string>Abreve+acute.cap</string>
+  </dict>
+  </lib>
+</glyph>

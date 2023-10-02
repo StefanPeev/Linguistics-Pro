@@ -1,58 +1,59 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Ehookabove" format="2">
-	<unicode hex="1EBA"/>
-	<advance width="606"/>
-	<outline>
-		<component base="E"/>
-		<component base="hookabovecomb" xOffset="502.5" yOffset="202"/>
-	</outline>
-	<anchor name="ogonek" x="479" y="10"/>
-	<anchor name="tonos" x="0" y="707"/>
-	<lib>
-		<dict>
-			<key>com.fontlab.autolayer</key>
-			<true/>
-			<key>com.fontlab.hintData</key>
-			<dict>
-				<key>hhints</key>
-				<array>
-					<dict>
-						<key>position</key>
-						<integer>770</integer>
-						<key>width</key>
-						<integer>22</integer>
-					</dict>
-					<dict>
-						<key>position</key>
-						<integer>984</integer>
-						<key>width</key>
-						<integer>26</integer>
-					</dict>
-				</array>
-				<key>vhints</key>
-				<array>
-					<dict>
-						<key>position</key>
-						<integer>201</integer>
-						<key>width</key>
-						<integer>60</integer>
-					</dict>
-					<dict>
-						<key>position</key>
-						<integer>270</integer>
-						<key>width</key>
-						<integer>47</integer>
-					</dict>
-					<dict>
-						<key>position</key>
-						<integer>360</integer>
-						<key>width</key>
-						<integer>80</integer>
-					</dict>
-				</array>
-			</dict>
-			<key>com.fontlab.recipe</key>
-			<string>E+hookabovecomb</string>
-		</dict>
-	</lib>
+  <advance width="606"/>
+  <unicode hex="1EBA"/>
+  <anchor x="479" y="10" name="ogonek"/>
+  <anchor x="0" y="707" name="tonos"/>
+  <anchor x="0" y="692" name="greek.UC.tonos"/>
+  <outline>
+    <component base="E"/>
+    <component base="hookabovecomb" xOffset="502.5" yOffset="202"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.autolayer</key>
+  <true/>
+  <key>com.fontlab.hintData</key>
+  <dict>
+    <key>hhints</key>
+    <array>
+      <dict>
+        <key>position</key>
+        <integer>770</integer>
+        <key>width</key>
+        <integer>22</integer>
+      </dict>
+      <dict>
+        <key>position</key>
+        <integer>984</integer>
+        <key>width</key>
+        <integer>26</integer>
+      </dict>
+    </array>
+    <key>vhints</key>
+    <array>
+      <dict>
+        <key>position</key>
+        <integer>201</integer>
+        <key>width</key>
+        <integer>60</integer>
+      </dict>
+      <dict>
+        <key>position</key>
+        <integer>270</integer>
+        <key>width</key>
+        <integer>47</integer>
+      </dict>
+      <dict>
+        <key>position</key>
+        <integer>360</integer>
+        <key>width</key>
+        <integer>80</integer>
+      </dict>
+    </array>
+  </dict>
+  <key>com.fontlab.recipe</key>
+  <string>E+hookabovecomb</string>
+  </dict>
+  </lib>
 </glyph>

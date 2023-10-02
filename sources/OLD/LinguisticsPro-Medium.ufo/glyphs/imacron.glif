@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="imacron" format="2">
+	<unicode hex="012B"/>
+	<advance width="299"/>
+	<outline>
+		<component base="dotlessi"/>
+		<component base="uni0304" xOffset="429.667"/>
+	</outline>
+	<anchor name="top" x="149.333" y="714"/>
+	<lib>
+		<dict>
+			<key>com.fontlab.autolayer</key>
+			<true/>
+			<key>com.fontlab.hintData</key>
+			<dict>
+				<key>hhints</key>
+				<array>
+					<dict>
+						<key>position</key>
+						<integer>597</integer>
+						<key>width</key>
+						<integer>59</integer>
+					</dict>
+				</array>
+				<key>vhints</key>
+				<array>
+					<dict>
+						<key>position</key>
+						<integer>10</integer>
+						<key>width</key>
+						<integer>288</integer>
+					</dict>
+				</array>
+			</dict>
+			<key>com.fontlab.recipe</key>
+			<string>dotlessi+uni0304</string>
+		</dict>
+	</lib>
+</glyph>

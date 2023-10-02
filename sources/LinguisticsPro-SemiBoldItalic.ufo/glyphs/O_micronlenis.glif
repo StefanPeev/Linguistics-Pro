@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Omicronlenis" format="2">
+  <advance width="758"/>
+  <unicode hex="1F48"/>
+  <anchor x="398" y="10" name="ogonek"/>
+  <outline>
+    <component base="Omicron"/>
+    <component base="lenis" xyScale="1.94215e-18" xOffset="-157.333" yOffset="-54.667"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.autolayer</key>
+  <true/>
+  <key>com.fontlab.recipe</key>
+  <string>Omicron+lenis</string>
+  <key>public.markColor</key>
+  <string>0.6,0.602,1,1</string>
+  </dict>
+  </lib>
+</glyph>

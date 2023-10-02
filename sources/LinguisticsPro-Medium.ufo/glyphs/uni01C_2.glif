@@ -1,47 +1,69 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni01C2" format="2">
-	<unicode hex="01C2"/>
-	<advance width="400"/>
-	<outline>
-		<component base="uni01C0" xOffset="76.5362"/>
-		<component base="overscore" xOffset="-0.297133" yOffset="-183.363"/>
-		<component base="overscore" xOffset="-0.297133" yOffset="-333.363"/>
-	</outline>
-	<lib>
-		<dict>
-			<key>com.fontlab.hintData</key>
-			<dict>
-				<key>hhints</key>
-				<array>
-					<dict>
-						<key>position</key>
-						<integer>-250</integer>
-						<key>width</key>
-						<integer>1000</integer>
-					</dict>
-					<dict>
-						<key>position</key>
-						<integer>286</integer>
-						<key>width</key>
-						<integer>58</integer>
-					</dict>
-					<dict>
-						<key>position</key>
-						<integer>394</integer>
-						<key>width</key>
-						<integer>58</integer>
-					</dict>
-				</array>
-				<key>vhints</key>
-				<array>
-					<dict>
-						<key>position</key>
-						<integer>166</integer>
-						<key>width</key>
-						<integer>68</integer>
-					</dict>
-				</array>
-			</dict>
-		</dict>
-	</lib>
+  <advance width="400"/>
+  <unicode hex="01C2"/>
+  <outline>
+    <component base="uni01C0" xScale="1" xOffset="76.536"/>
+    <contour>
+      <point x="179.87" y="410.303" type="line"/>
+      <point x="32.036" y="410.303" type="line"/>
+      <point x="32.036" y="478.637" type="line"/>
+      <point x="179.87" y="478.637" type="line"/>
+    </contour>
+    <contour>
+      <point x="219.536" y="478.637" type="line"/>
+      <point x="367.703" y="478.637" type="line"/>
+      <point x="367.703" y="410.303" type="line"/>
+      <point x="219.536" y="410.303" type="line"/>
+    </contour>
+    <contour>
+      <point x="179.87" y="260.303" type="line"/>
+      <point x="32.036" y="260.303" type="line"/>
+      <point x="32.036" y="328.637" type="line"/>
+      <point x="179.87" y="328.637" type="line"/>
+    </contour>
+    <contour>
+      <point x="219.536" y="328.637" type="line"/>
+      <point x="367.703" y="328.637" type="line"/>
+      <point x="367.703" y="260.303" type="line"/>
+      <point x="219.536" y="260.303" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.hintData</key>
+  <dict>
+    <key>hhints</key>
+    <array>
+      <dict>
+        <key>position</key>
+        <integer>-250</integer>
+        <key>width</key>
+        <integer>1000</integer>
+      </dict>
+      <dict>
+        <key>position</key>
+        <integer>286</integer>
+        <key>width</key>
+        <integer>58</integer>
+      </dict>
+      <dict>
+        <key>position</key>
+        <integer>394</integer>
+        <key>width</key>
+        <integer>58</integer>
+      </dict>
+    </array>
+    <key>vhints</key>
+    <array>
+      <dict>
+        <key>position</key>
+        <integer>166</integer>
+        <key>width</key>
+        <integer>68</integer>
+      </dict>
+    </array>
+  </dict>
+  </dict>
+  </lib>
 </glyph>

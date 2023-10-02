@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="lhookretroflex" format="2">
+  <advance width="306"/>
+  <unicode hex="026D"/>
+  <outline>
+    <contour>
+      <point x="133" y="150" type="line"/>
+      <point x="253" y="639" type="line" smooth="yes"/>
+      <point x="256" y="651"/>
+      <point x="258" y="660"/>
+      <point x="258" y="667" type="curve" smooth="yes"/>
+      <point x="258" y="682"/>
+      <point x="250" y="686"/>
+      <point x="233" y="688" type="curve" smooth="yes"/>
+      <point x="176" y="695" type="line"/>
+      <point x="182" y="718" type="line"/>
+      <point x="361" y="742" type="line"/>
+      <point x="366" y="737" type="line"/>
+      <point x="219" y="150" type="line"/>
+    </contour>
+    <contour>
+      <point x="88.5671" y="-25" type="curve" smooth="yes"/>
+      <point x="133.217" y="150" type="line"/>
+      <point x="219" y="150.002" type="line"/>
+      <point x="188.305" y="26.0024" type="line" smooth="yes"/>
+      <point x="166.583" y="-61.7488"/>
+      <point x="139.567" y="-99.4642"/>
+      <point x="139.567" y="-170.919" type="curve" smooth="yes"/>
+      <point x="139.567" y="-190.672"/>
+      <point x="152.567" y="-207"/>
+      <point x="171.484" y="-207" type="curve" smooth="yes"/>
+      <point x="211.906" y="-207"/>
+      <point x="227.125" y="-127"/>
+      <point x="266.567" y="-127" type="curve" smooth="yes"/>
+      <point x="293.021" y="-127"/>
+      <point x="310.567" y="-146.298"/>
+      <point x="310.567" y="-175.395" type="curve" smooth="yes"/>
+      <point x="310.567" y="-211.118"/>
+      <point x="250.567" y="-242"/>
+      <point x="186.814" y="-242" type="curve" smooth="yes"/>
+      <point x="107.01" y="-242"/>
+      <point x="72.938" y="-193.61"/>
+      <point x="72.938" y="-125.179" type="curve" smooth="yes"/>
+      <point x="72.938" y="-94.7814"/>
+      <point x="80.0483" y="-58.3881"/>
+    </contour>
+  </outline>
+  <guideline angle="76.1115" x="95" y="0"/>
+  <guideline angle="255.909" x="366" y="737"/>
+  <lib>
+  <dict>
+  <key>com.fontlab.recipe</key>
+  <string>l</string>
+  <key>public.markColor</key>
+  <string>0.6,0.602,1,1</string>
+  <key>public.postscript.hints</key>
+  <dict>
+    <key>formatVersion</key>
+    <string>1</string>
+    <key>id</key>
+    <string>f795f551ae755a745fa5f99b7b0663280ff29b8319ee12f9db3ed85b4092050fd3cd4a1bb9a881313decd4a7778c977ce36ebc96fd94670f5334183c1d786b3c</string>
+    <key>hintSetList</key>
+    <array>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem -12 52</string>
+          <string>hstem 695 47</string>
+        </array>
+      </dict>
+    </array>
+  </dict>
+  </dict>
+  </lib>
+</glyph>

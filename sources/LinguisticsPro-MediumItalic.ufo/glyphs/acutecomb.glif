@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="acutecomb" format="2">
+  <unicode hex="0301"/>
+  <anchor x="-53" y="535.333" name="_top"/>
+  <anchor x="-29.667" y="753.333" name="top"/>
+  <outline>
+    <contour>
+      <point x="-160.333" y="555" type="line"/>
+      <point x="-32.666" y="684.667" type="line" smooth="yes"/>
+      <point x="-0.333" y="718"/>
+      <point x="16.667" y="728.667"/>
+      <point x="34.667" y="728.667" type="curve" smooth="yes"/>
+      <point x="52.667" y="728.667"/>
+      <point x="78.334" y="701.667"/>
+      <point x="78.334" y="680" type="curve" smooth="yes"/>
+      <point x="78.334" y="657.334"/>
+      <point x="50.334" y="639.334"/>
+      <point x="18.334" y="622" type="curve" smooth="yes"/>
+      <point x="-143.333" y="531.667" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.postscript.hints</key>
+  <dict>
+    <key>formatVersion</key>
+    <string>1</string>
+    <key>id</key>
+    <string>02b940ca4725c5db12a6c483f99aacd4964d91022aab9088414d3650527016024ba5b7616ff74e492ecdfd10be8b57c4b9f87c2c4f084d4683c38bddfdb3bf40</string>
+    <key>hintSetList</key>
+    <array>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem 531.67 197</string>
+          <string>vstem -160.33 238.67</string>
+        </array>
+      </dict>
+    </array>
+  </dict>
+  </dict>
+  </lib>
+</glyph>

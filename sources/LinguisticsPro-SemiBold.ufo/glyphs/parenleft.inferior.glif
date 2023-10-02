@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="parenleft.inferior" format="2">
+  <advance width="271"/>
+  <unicode hex="208D"/>
+  <outline>
+    <component base="parenleft.superior" xScale="1" xyScale="2.273e-17" xOffset="0.372" yOffset="-399.87"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.hintData</key>
+  <dict>
+    <key>hhints</key>
+    <array>
+      <dict>
+        <key>position</key>
+        <integer>-195</integer>
+        <key>width</key>
+        <integer>21</integer>
+      </dict>
+      <dict>
+        <key>position</key>
+        <integer>339</integer>
+        <key>width</key>
+        <integer>21</integer>
+      </dict>
+    </array>
+    <key>vhints</key>
+    <array>
+      <dict>
+        <key>position</key>
+        <integer>37</integer>
+        <key>width</key>
+        <integer>78</integer>
+      </dict>
+    </array>
+  </dict>
+  <key>com.fontlab.metricsLeft</key>
+  <string>=uni207D</string>
+  <key>com.fontlab.metricsRight</key>
+  <string>=uni207D</string>
+  </dict>
+  </lib>
+</glyph>

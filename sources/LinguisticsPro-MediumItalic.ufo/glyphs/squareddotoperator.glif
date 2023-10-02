@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="squareddotoperator" format="2">
+  <advance width="691"/>
+  <unicode hex="22A1"/>
+  <outline>
+    <contour>
+      <point x="136.667" y="0" type="line"/>
+      <point x="136.667" y="530" type="line"/>
+      <point x="666.667" y="530" type="line"/>
+      <point x="666.667" y="0" type="line"/>
+    </contour>
+    <contour>
+      <point x="198.202" y="61.536" type="line"/>
+      <point x="605.131" y="61.536" type="line"/>
+      <point x="605.131" y="468.464" type="line"/>
+      <point x="198.202" y="468.464" type="line"/>
+    </contour>
+    <contour>
+      <point x="353.41" y="259.851" type="curve" smooth="yes"/>
+      <point x="353.41" y="288.099"/>
+      <point x="373.419" y="308.108"/>
+      <point x="401.667" y="308.108" type="curve" smooth="yes"/>
+      <point x="431.092" y="308.108"/>
+      <point x="449.924" y="288.099"/>
+      <point x="449.924" y="259.851" type="curve" smooth="yes"/>
+      <point x="449.924" y="230.426"/>
+      <point x="431.092" y="211.594"/>
+      <point x="401.667" y="211.594" type="curve" smooth="yes"/>
+      <point x="373.419" y="211.594"/>
+      <point x="353.41" y="230.426"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>1,0.994,0.6,1</string>
+  </dict>
+  </lib>
+</glyph>

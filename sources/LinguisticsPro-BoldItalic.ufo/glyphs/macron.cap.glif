@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="macron.cap" format="2">
+  <advance width="400"/>
+  <anchor x="396" y="770" name="_top"/>
+  <outline>
+    <contour>
+      <point x="203" y="770" type="line"/>
+      <point x="221" y="847" type="line"/>
+      <point x="571" y="847" type="line"/>
+      <point x="553" y="770" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.postscript.hints</key>
+  <dict>
+    <key>formatVersion</key>
+    <string>1</string>
+    <key>id</key>
+    <string>w400m203,770l221,847l571,847l553,770</string>
+    <key>hintSetList</key>
+    <array>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem 770 77</string>
+          <string>vstem 203 368</string>
+        </array>
+      </dict>
+    </array>
+  </dict>
+  </dict>
+  </lib>
+</glyph>

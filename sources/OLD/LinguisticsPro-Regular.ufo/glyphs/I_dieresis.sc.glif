@@ -1,105 +1,62 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="Idieresis.sc" format="1">
-  <advance width="331"/>
-  <outline>
-    <contour>
-      <point x="2" y="639" type="curve" smooth="yes"/>
-      <point x="2" y="668"/>
-      <point x="23" y="695"/>
-      <point x="62" y="695" type="curve" smooth="yes"/>
-      <point x="101" y="695"/>
-      <point x="122" y="668"/>
-      <point x="122" y="639" type="curve" smooth="yes"/>
-      <point x="122" y="610"/>
-      <point x="101" y="582"/>
-      <point x="62" y="582" type="curve" smooth="yes"/>
-      <point x="23" y="582"/>
-      <point x="2" y="610"/>
-    </contour>
-    <contour>
-      <point x="38" y="0" type="line"/>
-      <point x="38" y="29" type="line"/>
-      <point x="113" y="34"/>
-      <point x="118" y="35"/>
-      <point x="118" y="89" type="curve" smooth="yes"/>
-      <point x="118" y="423" type="line" smooth="yes"/>
-      <point x="118" y="477"/>
-      <point x="113" y="478"/>
-      <point x="38" y="483" type="curve"/>
-      <point x="38" y="512" type="line"/>
-      <point x="293" y="512" type="line"/>
-      <point x="293" y="483" type="line"/>
-      <point x="218" y="478"/>
-      <point x="213" y="477"/>
-      <point x="213" y="423" type="curve" smooth="yes"/>
-      <point x="213" y="89" type="line" smooth="yes"/>
-      <point x="213" y="35"/>
-      <point x="218" y="34"/>
-      <point x="293" y="29" type="curve"/>
-      <point x="293" y="0" type="line"/>
-    </contour>
-    <contour>
-      <point x="210" y="639" type="curve" smooth="yes"/>
-      <point x="210" y="668"/>
-      <point x="231" y="695"/>
-      <point x="270" y="695" type="curve" smooth="yes"/>
-      <point x="309" y="695"/>
-      <point x="330" y="668"/>
-      <point x="330" y="639" type="curve" smooth="yes"/>
-      <point x="330" y="610"/>
-      <point x="309" y="582"/>
-      <point x="270" y="582" type="curve" smooth="yes"/>
-      <point x="231" y="582"/>
-      <point x="210" y="610"/>
-    </contour>
-  </outline>
-  <lib>
-    <dict>
-      <key>com.fontlab.hintData</key>
-      <dict>
-        <key>hhints</key>
-        <array>
-          <dict>
-            <key>position</key>
-            <integer>0</integer>
-            <key>width</key>
-            <integer>29</integer>
-          </dict>
-          <dict>
-            <key>position</key>
-            <integer>483</integer>
-            <key>width</key>
-            <integer>29</integer>
-          </dict>
-          <dict>
-            <key>position</key>
-            <integer>582</integer>
-            <key>width</key>
-            <integer>113</integer>
-          </dict>
-        </array>
-        <key>vhints</key>
-        <array>
-          <dict>
-            <key>position</key>
-            <integer>2</integer>
-            <key>width</key>
-            <integer>120</integer>
-          </dict>
-          <dict>
-            <key>position</key>
-            <integer>118</integer>
-            <key>width</key>
-            <integer>95</integer>
-          </dict>
-          <dict>
-            <key>position</key>
-            <integer>210</integer>
-            <key>width</key>
-            <integer>120</integer>
-          </dict>
-        </array>
-      </dict>
-    </dict>
-  </lib>
+<glyph name="Idieresis.sc" format="2">
+	<advance width="331"/>
+	<outline>
+		<component base="I.sc"/>
+		<component base="uni0308" xOffset="381.5"/>
+	</outline>
+	<anchor name="top" x="167.5" y="720"/>
+	<lib>
+		<dict>
+			<key>com.fontlab.autolayer</key>
+			<true/>
+			<key>com.fontlab.hintData</key>
+			<dict>
+				<key>hhints</key>
+				<array>
+					<dict>
+						<key>position</key>
+						<integer>0</integer>
+						<key>width</key>
+						<integer>29</integer>
+					</dict>
+					<dict>
+						<key>position</key>
+						<integer>483</integer>
+						<key>width</key>
+						<integer>29</integer>
+					</dict>
+					<dict>
+						<key>position</key>
+						<integer>582</integer>
+						<key>width</key>
+						<integer>113</integer>
+					</dict>
+				</array>
+				<key>vhints</key>
+				<array>
+					<dict>
+						<key>position</key>
+						<integer>2</integer>
+						<key>width</key>
+						<integer>120</integer>
+					</dict>
+					<dict>
+						<key>position</key>
+						<integer>118</integer>
+						<key>width</key>
+						<integer>95</integer>
+					</dict>
+					<dict>
+						<key>position</key>
+						<integer>210</integer>
+						<key>width</key>
+						<integer>120</integer>
+					</dict>
+				</array>
+			</dict>
+			<key>com.fontlab.recipe</key>
+			<string>I.sc+uni0308</string>
+		</dict>
+	</lib>
 </glyph>

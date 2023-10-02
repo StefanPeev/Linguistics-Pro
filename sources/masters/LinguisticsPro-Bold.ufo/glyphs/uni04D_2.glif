@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni04D2" format="2">
+  <advance width="644"/>
+  <unicode hex="04D2"/>
+  <anchor x="496" y="10" name="ogonek"/>
+  <anchor x="320" y="660" name="aring"/>
+  <anchor x="156" y="707" name="tonos"/>
+  <anchor x="315" y="910" name="top"/>
+  <outline>
+    <component base="uni0410"/>
+    <component base="uni0308" xOffset="530" yOffset="170"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.autolayer</key>
+  <true/>
+  <key>com.fontlab.hintData</key>
+  <dict>
+    <key>hhints</key>
+    <array>
+      <dict>
+        <key>position</key>
+        <integer>0</integer>
+        <key>width</key>
+        <integer>38</integer>
+      </dict>
+      <dict>
+        <key>position</key>
+        <integer>246</integer>
+        <key>width</key>
+        <integer>48</integer>
+      </dict>
+      <dict>
+        <key>position</key>
+        <integer>672</integer>
+        <key>width</key>
+        <integer>20</integer>
+      </dict>
+      <dict>
+        <key>position</key>
+        <integer>731</integer>
+        <key>width</key>
+        <integer>150</integer>
+      </dict>
+    </array>
+    <key>vhints</key>
+    <array>
+      <dict>
+        <key>position</key>
+        <integer>117</integer>
+        <key>width</key>
+        <integer>158</integer>
+      </dict>
+      <dict>
+        <key>position</key>
+        <integer>369</integer>
+        <key>width</key>
+        <integer>158</integer>
+      </dict>
+    </array>
+  </dict>
+  <key>com.fontlab.recipe</key>
+  <string>uni0410+uni0308</string>
+  </dict>
+  </lib>
+</glyph>

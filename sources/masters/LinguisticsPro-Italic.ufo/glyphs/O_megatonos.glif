@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Omegatonos" format="2">
+  <advance width="770"/>
+  <unicode hex="038F"/>
+  <anchor x="337" y="-50" name="bottom.jota"/>
+  <outline>
+    <component base="uni03A9"/>
+    <component base="tonos" xOffset="-105" yOffset="-48"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.autolayer</key>
+  <true/>
+  <key>com.fontlab.recipe</key>
+  <string>uni03A9+tonos</string>
+  <key>public.markColor</key>
+  <string>0.6,0.602,1,1</string>
+  </dict>
+  </lib>
+</glyph>

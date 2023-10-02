@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="acircumflextilde" format="2">
+  <advance width="544"/>
+  <unicode hex="1EAB"/>
+  <anchor x="273" y="540" name="aring"/>
+  <anchor x="437" y="10" name="ogonek"/>
+  <anchor x="262" y="958" name="top"/>
+  <outline>
+    <component base="acircumflex"/>
+    <component base="tildecomb" xOffset="487" yOffset="208"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.autolayer</key>
+  <true/>
+  <key>com.fontlab.recipe</key>
+  <string>acircumflex+tildecomb</string>
+  </dict>
+  </lib>
+</glyph>

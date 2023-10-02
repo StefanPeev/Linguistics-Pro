@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Ecircumflexdotbelow" format="2">
+  <advance width="629"/>
+  <unicode hex="1EC6"/>
+  <anchor x="480" y="10" name="ogonek"/>
+  <anchor x="-2" y="702" name="tonos"/>
+  <anchor x="-2" y="692" name="greek.UC.tonos"/>
+  <anchor x="313.5" y="932" name="top"/>
+  <outline>
+    <component base="Edotbelow"/>
+    <component base="uni0302" xOffset="613.5" yOffset="202"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.autolayer</key>
+  <true/>
+  <key>com.fontlab.recipe</key>
+  <string>Edotbelow+uni0302</string>
+  </dict>
+  </lib>
+</glyph>

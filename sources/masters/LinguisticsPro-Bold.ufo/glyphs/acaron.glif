@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="acaron" format="2">
+  <advance width="544"/>
+  <unicode hex="01CE"/>
+  <anchor x="273" y="540" name="aring"/>
+  <anchor x="437" y="10" name="ogonek"/>
+  <outline>
+    <component base="a"/>
+    <component base="caron" xOffset="57"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.autolayer</key>
+  <true/>
+  <key>com.fontlab.recipe</key>
+  <string>a+caron</string>
+  </dict>
+  </lib>
+</glyph>

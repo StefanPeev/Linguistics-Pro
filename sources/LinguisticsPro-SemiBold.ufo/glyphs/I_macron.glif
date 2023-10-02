@@ -1,41 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Imacron" format="2">
-	<unicode hex="012A"/>
-	<advance width="372"/>
-	<outline>
-		<component base="I"/>
-		<component base="macron.cap" xOffset="-13.8333"/>
-	</outline>
-	<anchor name="ogonek" x="203.333" y="10"/>
-	<anchor name="tonos" x="0" y="702"/>
-	<anchor name="top" x="186.167" y="890"/>
-	<lib>
-		<dict>
-			<key>com.fontlab.autolayer</key>
-			<true/>
-			<key>com.fontlab.hintData</key>
-			<dict>
-				<key>hhints</key>
-				<array>
-					<dict>
-						<key>position</key>
-						<integer>759</integer>
-						<key>width</key>
-						<integer>59</integer>
-					</dict>
-				</array>
-				<key>vhints</key>
-				<array>
-					<dict>
-						<key>position</key>
-						<integer>16</integer>
-						<key>width</key>
-						<integer>316</integer>
-					</dict>
-				</array>
-			</dict>
-			<key>com.fontlab.recipe</key>
-			<string>I+macron.cap</string>
-		</dict>
-	</lib>
+  <advance width="372"/>
+  <unicode hex="012A"/>
+  <anchor x="203.333" y="10" name="ogonek"/>
+  <anchor x="0" y="702" name="tonos"/>
+  <anchor x="186.333" y="-62.667" name="bottom"/>
+  <anchor x="186.167" y="890" name="top"/>
+  <outline>
+    <component base="I"/>
+    <component base="macron.cap" xOffset="-13.833"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.autolayer</key>
+  <true/>
+  <key>com.fontlab.hintData</key>
+  <dict>
+    <key>hhints</key>
+    <array>
+      <dict>
+        <key>position</key>
+        <integer>759</integer>
+        <key>width</key>
+        <integer>59</integer>
+      </dict>
+    </array>
+    <key>vhints</key>
+    <array>
+      <dict>
+        <key>position</key>
+        <integer>16</integer>
+        <key>width</key>
+        <integer>316</integer>
+      </dict>
+    </array>
+  </dict>
+  <key>com.fontlab.recipe</key>
+  <string>I+macron.cap</string>
+  </dict>
+  </lib>
 </glyph>

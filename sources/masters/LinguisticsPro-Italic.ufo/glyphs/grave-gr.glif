@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="grave-gr" format="2">
+  <advance width="146"/>
+  <unicode hex="1FEF"/>
+  <anchor x="215" y="572" name="_top"/>
+  <anchor x="255" y="750" name="_tonos"/>
+  <outline>
+    <contour>
+      <point x="210.006" y="749.793" type="curve" smooth="yes"/>
+      <point x="234.415" y="749.993"/>
+      <point x="255.166" y="735.922"/>
+      <point x="255.17" y="722.051" type="curve" smooth="yes"/>
+      <point x="255.221" y="577.354" type="line"/>
+      <point x="231.791" y="570.461" type="line"/>
+      <point x="184.046" y="676.269" type="line" smooth="yes"/>
+      <point x="177.484" y="690.81"/>
+      <point x="170.222" y="708.919"/>
+      <point x="170.133" y="720.904" type="curve" smooth="yes"/>
+      <point x="170.007" y="737.837"/>
+      <point x="187.95" y="749.612"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.recipe</key>
+  <string>grave</string>
+  <key>public.markColor</key>
+  <string>1,0.994,0.6,1</string>
+  <key>public.postscript.hints</key>
+  <dict>
+    <key>formatVersion</key>
+    <string>1</string>
+    <key>id</key>
+    <string>edc58c7ecd3a5e3656401758519015016d1f200e626068a492888b74d76a64c555a1a16e639dfbd9410a7b805bc3068a5966836739aa6b0874535d55c4632183</string>
+    <key>hintSetList</key>
+    <array>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem 542 181</string>
+          <string>vstem 74 222</string>
+        </array>
+      </dict>
+    </array>
+  </dict>
+  </dict>
+  </lib>
+</glyph>

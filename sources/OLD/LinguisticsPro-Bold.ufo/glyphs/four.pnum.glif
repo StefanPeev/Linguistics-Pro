@@ -1,76 +1,54 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="four.pnum" format="1">
-  <advance width="576"/>
-  <outline>
-    <contour>
-      <point x="26" y="203" type="line"/>
-      <point x="115" y="355"/>
-      <point x="213" y="512"/>
-      <point x="320" y="668" type="curve"/>
-      <point x="440" y="668" type="line"/>
-      <point x="440" y="242" type="line"/>
-      <point x="540" y="242" type="line"/>
-      <point x="540" y="173" type="line"/>
-      <point x="440" y="173" type="line"/>
-      <point x="440" y="75" type="line" smooth="yes"/>
-      <point x="440" y="52"/>
-      <point x="450" y="44"/>
-      <point x="466" y="42" type="curve" smooth="yes"/>
-      <point x="513" y="38" type="line"/>
-      <point x="513" y="0" type="line"/>
-      <point x="206" y="0" type="line"/>
-      <point x="206" y="38" type="line"/>
-      <point x="273" y="43" type="line" smooth="yes"/>
-      <point x="288" y="44"/>
-      <point x="299" y="52"/>
-      <point x="299" y="75" type="curve" smooth="yes"/>
-      <point x="299" y="173" type="line"/>
-      <point x="45" y="173" type="line"/>
-    </contour>
-    <contour>
-      <point x="130" y="242" type="curve"/>
-      <point x="299" y="242" type="line"/>
-      <point x="299" y="539" type="line"/>
-      <point x="297" y="539" type="line"/>
-      <point x="234" y="435"/>
-      <point x="177" y="335"/>
-    </contour>
-  </outline>
-  <lib>
-    <dict>
-      <key>com.fontlab.hintData</key>
-      <dict>
-        <key>hhints</key>
-        <array>
-          <dict>
-            <key>position</key>
-            <integer>0</integer>
-            <key>width</key>
-            <integer>38</integer>
-          </dict>
-          <dict>
-            <key>position</key>
-            <integer>173</integer>
-            <key>width</key>
-            <integer>69</integer>
-          </dict>
-          <dict>
-            <key>position</key>
-            <integer>648</integer>
-            <key>width</key>
-            <integer>20</integer>
-          </dict>
-        </array>
-        <key>vhints</key>
-        <array>
-          <dict>
-            <key>position</key>
-            <integer>299</integer>
-            <key>width</key>
-            <integer>141</integer>
-          </dict>
-        </array>
-      </dict>
-    </dict>
-  </lib>
+<glyph name="four.pnum" format="2">
+	<advance width="560"/>
+	<outline>
+		<component base="four"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.fontlab.autolayer</key>
+			<true/>
+			<key>com.fontlab.hintData</key>
+			<dict>
+				<key>hhints</key>
+				<array>
+					<dict>
+						<key>position</key>
+						<integer>0</integer>
+						<key>width</key>
+						<integer>32</integer>
+					</dict>
+					<dict>
+						<key>position</key>
+						<integer>179</integer>
+						<key>width</key>
+						<integer>47</integer>
+					</dict>
+					<dict>
+						<key>position</key>
+						<integer>571</integer>
+						<key>width</key>
+						<integer>21</integer>
+					</dict>
+					<dict>
+						<key>position</key>
+						<integer>648</integer>
+						<key>width</key>
+						<integer>20</integer>
+					</dict>
+				</array>
+				<key>vhints</key>
+				<array>
+					<dict>
+						<key>position</key>
+						<integer>309</integer>
+						<key>width</key>
+						<integer>90</integer>
+					</dict>
+				</array>
+			</dict>
+			<key>com.fontlab.recipe</key>
+			<string>four</string>
+		</dict>
+	</lib>
 </glyph>

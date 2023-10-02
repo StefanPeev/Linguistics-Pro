@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ecircumflexacute" format="2">
+  <advance width="519"/>
+  <unicode hex="1EBF"/>
+  <anchor x="326" y="0" name="ogonek"/>
+  <anchor x="316.5" y="968" name="top"/>
+  <outline>
+    <component base="ecircumflex"/>
+    <component base="acutecomb" xOffset="520.5" yOffset="208"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.autolayer</key>
+  <true/>
+  <key>com.fontlab.recipe</key>
+  <string>ecircumflex+acutecomb</string>
+  </dict>
+  </lib>
+</glyph>

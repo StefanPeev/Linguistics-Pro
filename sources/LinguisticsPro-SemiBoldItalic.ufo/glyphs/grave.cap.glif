@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="grave.cap" format="2">
+  <advance width="400"/>
+  <outline>
+    <contour>
+      <point x="186" y="840.334" type="curve" smooth="yes"/>
+      <point x="186" y="858.667"/>
+      <point x="205.333" y="899.667"/>
+      <point x="235" y="899.667" type="curve" smooth="yes"/>
+      <point x="251.667" y="899.667"/>
+      <point x="266.333" y="892.334"/>
+      <point x="297" y="870.334" type="curve" smooth="yes"/>
+      <point x="460" y="755.334" type="line"/>
+      <point x="447" y="726.667" type="line"/>
+      <point x="255" y="788" type="line" smooth="yes"/>
+      <point x="206.667" y="803.334"/>
+      <point x="186" y="813"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.postscript.hints</key>
+  <dict>
+    <key>formatVersion</key>
+    <string>1</string>
+    <key>id</key>
+    <string>f2d3d48b9a5320286c0ce7f3af04b05de4fa567ea57c3d5fa5f9b0b0cc274d5cac0c1f0c5c14534e8961f2d270dc185fc3c01543eb90c7eb9e24c9ed1eb1305c</string>
+    <key>hintSetList</key>
+    <array>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem 726.67 173</string>
+          <string>vstem 186 274</string>
+        </array>
+      </dict>
+    </array>
+  </dict>
+  </dict>
+  </lib>
+</glyph>

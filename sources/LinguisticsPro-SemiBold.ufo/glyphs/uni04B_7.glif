@@ -1,66 +1,66 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni04B7" format="2">
-	<unicode hex="04B7"/>
-	<advance width="621"/>
-	<outline>
-		<component base="uni0447"/>
-		<contour>
-			<point x="402.667" y="35" type="line"/>
-			<point x="595.333" y="35" type="line"/>
-			<point x="609.667" y="-168" type="line"/>
-			<point x="575" y="-168" type="line"/>
-			<point x="551.606" y="-23.349"/>
-			<point x="507.498" y="0.0600764"/>
-			<point x="402.725" y="-0.261724" type="curve"/>
-		</contour>
-	</outline>
-	<lib>
-		<dict>
-			<key>com.fontlab.hintData</key>
-			<dict>
-				<key>hhints</key>
-				<array>
-					<dict>
-						<key>position</key>
-						<integer>0</integer>
-						<key>width</key>
-						<integer>29</integer>
-					</dict>
-					<dict>
-						<key>position</key>
-						<integer>192</integer>
-						<key>width</key>
-						<integer>54</integer>
-					</dict>
-					<dict>
-						<key>position</key>
-						<integer>461</integer>
-						<key>width</key>
-						<integer>29</integer>
-					</dict>
-				</array>
-				<key>vhints</key>
-				<array>
-					<dict>
-						<key>position</key>
-						<integer>97</integer>
-						<key>width</key>
-						<integer>94</integer>
-					</dict>
-					<dict>
-						<key>position</key>
-						<integer>381</integer>
-						<key>width</key>
-						<integer>94</integer>
-					</dict>
-					<dict>
-						<key>position</key>
-						<integer>537</integer>
-						<key>width</key>
-						<integer>28</integer>
-					</dict>
-				</array>
-			</dict>
-		</dict>
-	</lib>
+  <advance width="621"/>
+  <unicode hex="04B7"/>
+  <outline>
+    <component base="uni0447"/>
+    <contour>
+      <point x="402.667" y="35" type="line"/>
+      <point x="595.333" y="35" type="line"/>
+      <point x="609.667" y="-168" type="line"/>
+      <point x="575" y="-168" type="line"/>
+      <point x="551.606" y="-23.349"/>
+      <point x="507.498" y="0.06"/>
+      <point x="402.725" y="-0.262" type="curve"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.hintData</key>
+  <dict>
+    <key>hhints</key>
+    <array>
+      <dict>
+        <key>position</key>
+        <integer>0</integer>
+        <key>width</key>
+        <integer>29</integer>
+      </dict>
+      <dict>
+        <key>position</key>
+        <integer>192</integer>
+        <key>width</key>
+        <integer>54</integer>
+      </dict>
+      <dict>
+        <key>position</key>
+        <integer>461</integer>
+        <key>width</key>
+        <integer>29</integer>
+      </dict>
+    </array>
+    <key>vhints</key>
+    <array>
+      <dict>
+        <key>position</key>
+        <integer>97</integer>
+        <key>width</key>
+        <integer>94</integer>
+      </dict>
+      <dict>
+        <key>position</key>
+        <integer>381</integer>
+        <key>width</key>
+        <integer>94</integer>
+      </dict>
+      <dict>
+        <key>position</key>
+        <integer>537</integer>
+        <key>width</key>
+        <integer>28</integer>
+      </dict>
+    </array>
+  </dict>
+  </dict>
+  </lib>
 </glyph>

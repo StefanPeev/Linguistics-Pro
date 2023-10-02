@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="epsilonasperacute" format="2">
+  <advance width="464"/>
+  <unicode hex="1F15"/>
+  <anchor x="373.117" y="753.667" name="top"/>
+  <outline>
+    <component base="epsilon"/>
+    <component base="asperacute" xScale="1" xOffset="133.333" yOffset="-3"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.autolayer</key>
+  <true/>
+  <key>com.fontlab.recipe</key>
+  <string>epsilon+asperacute</string>
+  <key>public.markColor</key>
+  <string>0.6,0.602,1,1</string>
+  </dict>
+  </lib>
+</glyph>

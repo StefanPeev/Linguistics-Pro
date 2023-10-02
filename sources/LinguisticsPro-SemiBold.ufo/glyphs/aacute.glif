@@ -1,53 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="aacute" format="2">
-	<unicode hex="00E1"/>
-	<advance width="537"/>
-	<outline>
-		<component base="a"/>
-		<component base="acutecomb" xOffset="438.5"/>
-	</outline>
-	<anchor name="aring" x="270.667" y="540"/>
-	<anchor name="ogonek" x="437" y="10"/>
-	<anchor name="top" x="242.167" y="756.667"/>
-	<lib>
-		<dict>
-			<key>com.fontlab.autolayer</key>
-			<true/>
-			<key>com.fontlab.hintData</key>
-			<dict>
-				<key>hhints</key>
-				<array>
-					<dict>
-						<key>position</key>
-						<integer>-12</integer>
-						<key>width</key>
-						<integer>53</integer>
-					</dict>
-					<dict>
-						<key>position</key>
-						<integer>467</integer>
-						<key>width</key>
-						<integer>35</integer>
-					</dict>
-				</array>
-				<key>vhints</key>
-				<array>
-					<dict>
-						<key>position</key>
-						<integer>49</integer>
-						<key>width</key>
-						<integer>101</integer>
-					</dict>
-					<dict>
-						<key>position</key>
-						<integer>343</integer>
-						<key>width</key>
-						<integer>90</integer>
-					</dict>
-				</array>
-			</dict>
-			<key>com.fontlab.recipe</key>
-			<string>a+acutecomb</string>
-		</dict>
-	</lib>
+  <advance width="537"/>
+  <unicode hex="00E1"/>
+  <anchor x="270.667" y="540" name="aring"/>
+  <anchor x="437" y="10" name="ogonek"/>
+  <anchor x="242.167" y="756.667" name="top"/>
+  <outline>
+    <component base="a"/>
+    <component base="acutecomb" xOffset="438.5"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.autolayer</key>
+  <true/>
+  <key>com.fontlab.hintData</key>
+  <dict>
+    <key>hhints</key>
+    <array>
+      <dict>
+        <key>position</key>
+        <integer>-12</integer>
+        <key>width</key>
+        <integer>53</integer>
+      </dict>
+      <dict>
+        <key>position</key>
+        <integer>467</integer>
+        <key>width</key>
+        <integer>35</integer>
+      </dict>
+    </array>
+    <key>vhints</key>
+    <array>
+      <dict>
+        <key>position</key>
+        <integer>49</integer>
+        <key>width</key>
+        <integer>101</integer>
+      </dict>
+      <dict>
+        <key>position</key>
+        <integer>343</integer>
+        <key>width</key>
+        <integer>90</integer>
+      </dict>
+    </array>
+  </dict>
+  <key>com.fontlab.recipe</key>
+  <string>a+acutecomb</string>
+  </dict>
+  </lib>
 </glyph>

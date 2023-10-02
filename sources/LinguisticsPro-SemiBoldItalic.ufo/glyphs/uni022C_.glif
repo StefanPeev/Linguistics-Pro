@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni022C" format="2">
+  <advance width="758"/>
+  <unicode hex="022C"/>
+  <anchor x="398" y="10" name="ogonek"/>
+  <anchor x="153" y="705.333" name="tonos"/>
+  <outline>
+    <component base="O"/>
+    <component base="tildemacron" xScale="1" xyScale="-5.69382e-18" yScale="1" xOffset="639.667" yOffset="200.333"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.autolayer</key>
+  <true/>
+  <key>com.fontlab.recipe</key>
+  <string>O+tildemacron</string>
+  <key>public.markColor</key>
+  <string>1,0.6,0.6,1</string>
+  </dict>
+  </lib>
+</glyph>

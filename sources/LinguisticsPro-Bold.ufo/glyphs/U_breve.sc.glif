@@ -1,44 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Ubreve.sc" format="2">
-	<advance width="601"/>
-	<outline>
-		<component base="U.sc"/>
-		<component base="uni0306" xOffset="597"/>
-	</outline>
-	<anchor name="top" x="300" y="720"/>
-	<lib>
-		<dict>
-			<key>com.fontlab.autolayer</key>
-			<true/>
-			<key>com.fontlab.hintData</key>
-			<dict>
-				<key>hhints</key>
-				<array>
-					<dict>
-						<key>position</key>
-						<integer>582</integer>
-						<key>width</key>
-						<integer>64</integer>
-					</dict>
-				</array>
-				<key>vhints</key>
-				<array>
-					<dict>
-						<key>position</key>
-						<integer>196</integer>
-						<key>width</key>
-						<integer>26</integer>
-					</dict>
-					<dict>
-						<key>position</key>
-						<integer>454</integer>
-						<key>width</key>
-						<integer>26</integer>
-					</dict>
-				</array>
-			</dict>
-			<key>com.fontlab.recipe</key>
-			<string>U.sc+uni0306</string>
-		</dict>
-	</lib>
+  <advance width="601"/>
+  <anchor x="300" y="720" name="top"/>
+  <outline>
+    <component base="U.sc"/>
+    <component base="uni0306" xOffset="597"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.autolayer</key>
+  <true/>
+  <key>com.fontlab.hintData</key>
+  <dict>
+    <key>hhints</key>
+    <array>
+      <dict>
+        <key>position</key>
+        <integer>582</integer>
+        <key>width</key>
+        <integer>64</integer>
+      </dict>
+    </array>
+    <key>vhints</key>
+    <array>
+      <dict>
+        <key>position</key>
+        <integer>196</integer>
+        <key>width</key>
+        <integer>26</integer>
+      </dict>
+      <dict>
+        <key>position</key>
+        <integer>454</integer>
+        <key>width</key>
+        <integer>26</integer>
+      </dict>
+    </array>
+  </dict>
+  <key>com.fontlab.recipe</key>
+  <string>U.sc+uni0306</string>
+  </dict>
+  </lib>
 </glyph>

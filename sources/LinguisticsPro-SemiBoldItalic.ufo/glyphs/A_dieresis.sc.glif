@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Adieresis.sc" format="2">
+  <advance width="631"/>
+  <anchor x="462.667" y="733.333" name="top"/>
+  <anchor x="299" y="705.333" name="tonos"/>
+  <anchor x="466.667" y="663.333" name="aring"/>
+  <anchor x="523.333" y="10" name="ogonek"/>
+  <outline>
+    <component base="A"/>
+    <component base="dieresis.cap" xScale="1" xOffset="100.637"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.recipe</key>
+  <string>Adieresis</string>
+  <key>public.markColor</key>
+  <string>1,0.994,0.6,1</string>
+  </dict>
+  </lib>
+</glyph>

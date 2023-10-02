@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni1E51" format="2">
+  <advance width="585"/>
+  <unicode hex="1E51"/>
+  <outline>
+    <component base="omacron"/>
+    <component base="gravecomb" xOffset="484" yOffset="162"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.autolayer</key>
+  <true/>
+  <key>com.fontlab.hintData</key>
+  <dict>
+    <key>hhints</key>
+    <array>
+      <dict>
+        <key>position</key>
+        <integer>-12</integer>
+        <key>width</key>
+        <integer>46</integer>
+      </dict>
+      <dict>
+        <key>position</key>
+        <integer>456</integer>
+        <key>width</key>
+        <integer>46</integer>
+      </dict>
+      <dict>
+        <key>position</key>
+        <integer>587</integer>
+        <key>width</key>
+        <integer>87</integer>
+      </dict>
+      <dict>
+        <key>position</key>
+        <integer>663</integer>
+        <key>width</key>
+        <integer>229</integer>
+      </dict>
+    </array>
+    <key>vhints</key>
+    <array>
+      <dict>
+        <key>position</key>
+        <integer>34</integer>
+        <key>width</key>
+        <integer>159</integer>
+      </dict>
+      <dict>
+        <key>position</key>
+        <integer>108</integer>
+        <key>width</key>
+        <integer>272</integer>
+      </dict>
+      <dict>
+        <key>position</key>
+        <integer>137</integer>
+        <key>width</key>
+        <integer>311</integer>
+      </dict>
+      <dict>
+        <key>position</key>
+        <integer>393</integer>
+        <key>width</key>
+        <integer>159</integer>
+      </dict>
+    </array>
+  </dict>
+  <key>com.fontlab.recipe</key>
+  <string>omacron+gravecomb</string>
+  </dict>
+  </lib>
+</glyph>

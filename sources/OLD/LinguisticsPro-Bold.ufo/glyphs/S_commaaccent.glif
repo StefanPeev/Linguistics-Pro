@@ -1,134 +1,63 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="Scommaaccent" format="1">
-  <advance width="561"/>
-  <unicode hex="0218"/>
-  <outline>
-    <contour>
-      <point x="42" y="226" type="line"/>
-      <point x="79" y="226" type="line"/>
-      <point x="117" y="101"/>
-      <point x="193" y="31"/>
-      <point x="269" y="31" type="curve" smooth="yes"/>
-      <point x="334" y="31"/>
-      <point x="382" y="66"/>
-      <point x="383" y="140" type="curve" smooth="yes"/>
-      <point x="383" y="204"/>
-      <point x="341" y="249"/>
-      <point x="250" y="287" type="curve" smooth="yes"/>
-      <point x="162" y="324"/>
-      <point x="51" y="378"/>
-      <point x="51" y="502" type="curve" smooth="yes"/>
-      <point x="51" y="620"/>
-      <point x="132" y="707"/>
-      <point x="300" y="707" type="curve" smooth="yes"/>
-      <point x="361" y="707"/>
-      <point x="435" y="695"/>
-      <point x="487" y="663" type="curve"/>
-      <point x="487" y="499" type="line"/>
-      <point x="451" y="499" type="line"/>
-      <point x="423" y="616"/>
-      <point x="363" y="661"/>
-      <point x="299" y="661" type="curve" smooth="yes"/>
-      <point x="239" y="661"/>
-      <point x="195" y="621"/>
-      <point x="195" y="559" type="curve" smooth="yes"/>
-      <point x="195" y="483"/>
-      <point x="278" y="447"/>
-      <point x="344" y="420" type="curve" smooth="yes"/>
-      <point x="435" y="382"/>
-      <point x="533" y="331"/>
-      <point x="533" y="199" type="curve" smooth="yes"/>
-      <point x="533" y="95"/>
-      <point x="473" y="-13"/>
-      <point x="273" y="-15" type="curve" smooth="yes"/>
-      <point x="207" y="-15"/>
-      <point x="108" y="0"/>
-      <point x="57" y="47" type="curve"/>
-    </contour>
-    <contour>
-      <point x="213" y="-276" type="line"/>
-      <point x="241" y="-245"/>
-      <point x="258" y="-222"/>
-      <point x="258" y="-184" type="curve" smooth="yes"/>
-      <point x="258" y="-155"/>
-      <point x="223" y="-134"/>
-      <point x="223" y="-100" type="curve" smooth="yes"/>
-      <point x="223" y="-70"/>
-      <point x="246" y="-42"/>
-      <point x="282" y="-42" type="curve" smooth="yes"/>
-      <point x="325" y="-42"/>
-      <point x="358" y="-73"/>
-      <point x="358" y="-127" type="curve" smooth="yes"/>
-      <point x="358" y="-199"/>
-      <point x="290" y="-254"/>
-      <point x="234" y="-297" type="curve"/>
-    </contour>
-  </outline>
-  <lib>
-    <dict>
-      <key>com.fontlab.hintData</key>
-      <dict>
-        <key>hhints</key>
-        <array>
-          <dict>
-            <key>position</key>
-            <integer>-297</integer>
-            <key>width</key>
-            <integer>255</integer>
-          </dict>
-          <dict>
-            <key>position</key>
-            <integer>-15</integer>
-            <key>width</key>
-            <integer>46</integer>
-          </dict>
-          <dict>
-            <key>position</key>
-            <integer>499</integer>
-            <key>width</key>
-            <integer>21</integer>
-          </dict>
-          <dict>
-            <key>position</key>
-            <integer>661</integer>
-            <key>width</key>
-            <integer>46</integer>
-          </dict>
-        </array>
-        <key>vhints</key>
-        <array>
-          <dict>
-            <key>position</key>
-            <integer>42</integer>
-            <key>width</key>
-            <integer>37</integer>
-          </dict>
-          <dict>
-            <key>position</key>
-            <integer>51</integer>
-            <key>width</key>
-            <integer>144</integer>
-          </dict>
-          <dict>
-            <key>position</key>
-            <integer>258</integer>
-            <key>width</key>
-            <integer>100</integer>
-          </dict>
-          <dict>
-            <key>position</key>
-            <integer>383</integer>
-            <key>width</key>
-            <integer>150</integer>
-          </dict>
-          <dict>
-            <key>position</key>
-            <integer>451</integer>
-            <key>width</key>
-            <integer>36</integer>
-          </dict>
-        </array>
-      </dict>
-    </dict>
-  </lib>
+<glyph name="Scommaaccent" format="2">
+	<unicode hex="0218"/>
+	<advance width="561"/>
+	<outline>
+		<component base="S"/>
+		<component base="uni0326" xOffset="488"/>
+	</outline>
+	<anchor name="cedilla" x="286" y="10"/>
+	<lib>
+		<dict>
+			<key>com.fontlab.autolayer</key>
+			<true/>
+			<key>com.fontlab.hintData</key>
+			<dict>
+				<key>hhints</key>
+				<array>
+					<dict>
+						<key>position</key>
+						<integer>-15</integer>
+						<key>width</key>
+						<integer>35</integer>
+					</dict>
+					<dict>
+						<key>position</key>
+						<integer>672</integer>
+						<key>width</key>
+						<integer>35</integer>
+					</dict>
+				</array>
+				<key>vhints</key>
+				<array>
+					<dict>
+						<key>position</key>
+						<integer>50</integer>
+						<key>width</key>
+						<integer>32</integer>
+					</dict>
+					<dict>
+						<key>position</key>
+						<integer>61</integer>
+						<key>width</key>
+						<integer>91</integer>
+					</dict>
+					<dict>
+						<key>position</key>
+						<integer>407</integer>
+						<key>width</key>
+						<integer>97</integer>
+					</dict>
+					<dict>
+						<key>position</key>
+						<integer>430</integer>
+						<key>width</key>
+						<integer>31</integer>
+					</dict>
+				</array>
+			</dict>
+			<key>com.fontlab.recipe</key>
+			<string>S+uni0326</string>
+		</dict>
+	</lib>
 </glyph>

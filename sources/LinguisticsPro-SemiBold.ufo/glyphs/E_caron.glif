@@ -1,40 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Ecaron" format="2">
-	<unicode hex="011A"/>
-	<advance width="621"/>
-	<outline>
-		<component base="E"/>
-		<component base="caron.cap" xOffset="110"/>
-	</outline>
-	<anchor name="ogonek" x="479.667" y="10"/>
-	<anchor name="tonos" x="-1.33333" y="703.667"/>
-	<lib>
-		<dict>
-			<key>com.fontlab.autolayer</key>
-			<true/>
-			<key>com.fontlab.hintData</key>
-			<dict>
-				<key>hhints</key>
-				<array>
-					<dict>
-						<key>position</key>
-						<integer>723</integer>
-						<key>width</key>
-						<integer>84</integer>
-					</dict>
-				</array>
-				<key>vhints</key>
-				<array>
-					<dict>
-						<key>position</key>
-						<integer>153</integer>
-						<key>width</key>
-						<integer>306</integer>
-					</dict>
-				</array>
-			</dict>
-			<key>com.fontlab.recipe</key>
-			<string>E+caron.cap</string>
-		</dict>
-	</lib>
+  <advance width="621"/>
+  <unicode hex="011A"/>
+  <anchor x="479.667" y="10" name="ogonek"/>
+  <anchor x="-1.333" y="703.667" name="tonos"/>
+  <anchor x="-1.333" y="692" name="greek.UC.tonos"/>
+  <outline>
+    <component base="E"/>
+    <component base="caron.cap" xOffset="110"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.autolayer</key>
+  <true/>
+  <key>com.fontlab.hintData</key>
+  <dict>
+    <key>hhints</key>
+    <array>
+      <dict>
+        <key>position</key>
+        <integer>723</integer>
+        <key>width</key>
+        <integer>84</integer>
+      </dict>
+    </array>
+    <key>vhints</key>
+    <array>
+      <dict>
+        <key>position</key>
+        <integer>153</integer>
+        <key>width</key>
+        <integer>306</integer>
+      </dict>
+    </array>
+  </dict>
+  <key>com.fontlab.recipe</key>
+  <string>E+caron.cap</string>
+  </dict>
+  </lib>
 </glyph>

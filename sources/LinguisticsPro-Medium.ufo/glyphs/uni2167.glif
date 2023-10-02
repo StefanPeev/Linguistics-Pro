@@ -1,60 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni2167" format="2">
-	<unicode hex="2167"/>
-	<advance width="1720"/>
-	<outline>
-		<component base="V"/>
-		<component base="I" xOffset="637.667"/>
-		<component base="I" xOffset="998.333"/>
-		<component base="I" xOffset="1359"/>
-	</outline>
-	<anchor name="ogonek" x="1555.67" y="10"/>
-	<anchor name="tonos" x="1359" y="702"/>
-	<lib>
-		<dict>
-			<key>com.fontlab.autolayer</key>
-			<true/>
-			<key>com.fontlab.hintData</key>
-			<dict>
-				<key>hhints</key>
-				<array>
-					<dict>
-						<key>position</key>
-						<integer>0</integer>
-						<key>width</key>
-						<integer>29</integer>
-					</dict>
-					<dict>
-						<key>position</key>
-						<integer>663</integer>
-						<key>width</key>
-						<integer>29</integer>
-					</dict>
-				</array>
-				<key>vhints</key>
-				<array>
-					<dict>
-						<key>position</key>
-						<integer>789</integer>
-						<key>width</key>
-						<integer>99</integer>
-					</dict>
-					<dict>
-						<key>position</key>
-						<integer>1138</integer>
-						<key>width</key>
-						<integer>99</integer>
-					</dict>
-					<dict>
-						<key>position</key>
-						<integer>1487</integer>
-						<key>width</key>
-						<integer>99</integer>
-					</dict>
-				</array>
-			</dict>
-			<key>com.fontlab.recipe</key>
-			<string>V_I_I_I</string>
-		</dict>
-	</lib>
+  <advance width="1720"/>
+  <unicode hex="2167"/>
+  <anchor x="1555.67" y="10" name="ogonek"/>
+  <anchor x="1359" y="702" name="tonos"/>
+  <anchor x="1539.67" y="-65.333" name="bottom"/>
+  <outline>
+    <component base="V"/>
+    <component base="I" xScale="1" xOffset="637.667"/>
+    <component base="I" xScale="1" xOffset="998.333"/>
+    <component base="I" xOffset="1359"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.autolayer</key>
+  <true/>
+  <key>com.fontlab.hintData</key>
+  <dict>
+    <key>hhints</key>
+    <array>
+      <dict>
+        <key>position</key>
+        <integer>0</integer>
+        <key>width</key>
+        <integer>29</integer>
+      </dict>
+      <dict>
+        <key>position</key>
+        <integer>663</integer>
+        <key>width</key>
+        <integer>29</integer>
+      </dict>
+    </array>
+    <key>vhints</key>
+    <array>
+      <dict>
+        <key>position</key>
+        <integer>789</integer>
+        <key>width</key>
+        <integer>99</integer>
+      </dict>
+      <dict>
+        <key>position</key>
+        <integer>1138</integer>
+        <key>width</key>
+        <integer>99</integer>
+      </dict>
+      <dict>
+        <key>position</key>
+        <integer>1487</integer>
+        <key>width</key>
+        <integer>99</integer>
+      </dict>
+    </array>
+  </dict>
+  <key>com.fontlab.recipe</key>
+  <string>V_I_I_I</string>
+  </dict>
+  </lib>
 </glyph>

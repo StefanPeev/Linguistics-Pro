@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="upsilonaspertilde" format="2">
+  <advance width="583"/>
+  <unicode hex="1F57"/>
+  <outline>
+    <component base="upsilon"/>
+    <component base="aspertilde" xScale="1" xyScale="1.62241e-18" yScale="1" xOffset="178.333" yOffset="45.667"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.autolayer</key>
+  <true/>
+  <key>com.fontlab.recipe</key>
+  <string>upsilon+aspertilde</string>
+  <key>public.markColor</key>
+  <string>0.6,0.602,1,1</string>
+  </dict>
+  </lib>
+</glyph>

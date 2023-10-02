@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="lmiddletilde" format="2">
+  <advance width="370"/>
+  <unicode hex="026B"/>
+  <outline>
+    <component base="l" xScale="1" xOffset="33.333"/>
+    <contour>
+      <point x="55.789" y="323.573" type="line"/>
+      <point x="96.943" y="403.728"/>
+      <point x="125.13" y="429.239"/>
+      <point x="170.025" y="429.239" type="curve" smooth="yes"/>
+      <point x="197.456" y="429.239"/>
+      <point x="227.123" y="419.906"/>
+      <point x="256.123" y="409.239" type="curve"/>
+      <point x="236.553" y="341.417" type="line"/>
+      <point x="204.789" y="352.573"/>
+      <point x="177.411" y="361.239"/>
+      <point x="149.915" y="361.239" type="curve" smooth="yes"/>
+      <point x="119.082" y="361.239"/>
+      <point x="97.171" y="343.511"/>
+      <point x="75.789" y="308.906" type="curve"/>
+    </contour>
+    <contour>
+      <point x="276.553" y="331.417" type="curve"/>
+      <point x="296.123" y="399.239" type="line"/>
+      <point x="325.789" y="388.573"/>
+      <point x="354.789" y="379.906"/>
+      <point x="377.456" y="379.906" type="curve" smooth="yes"/>
+      <point x="403.123" y="379.906"/>
+      <point x="417.123" y="390.573"/>
+      <point x="447.789" y="427.573" type="curve"/>
+      <point x="468.456" y="415.906" type="line"/>
+      <point x="429.123" y="338.239"/>
+      <point x="401.123" y="311.906"/>
+      <point x="359.123" y="311.906" type="curve" smooth="yes"/>
+      <point x="333.789" y="311.906"/>
+      <point x="305.37" y="321.993"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.recipe</key>
+  <string>l</string>
+  <key>public.markColor</key>
+  <string>0.6,0.602,1,1</string>
+  </dict>
+  </lib>
+</glyph>

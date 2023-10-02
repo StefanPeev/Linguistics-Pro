@@ -1,38 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="overscore" format="1">
-  <advance width="376"/>
-  <unicode hex="02C9"/>
-  <outline>
-    <contour>
-      <point x="56" y="597" type="line"/>
-      <point x="56" y="656" type="line"/>
-      <point x="344" y="656" type="line"/>
-      <point x="344" y="597" type="line"/>
-    </contour>
-  </outline>
-  <lib>
-    <dict>
-      <key>com.fontlab.hintData</key>
-      <dict>
-        <key>hhints</key>
-        <array>
-          <dict>
-            <key>position</key>
-            <integer>597</integer>
-            <key>width</key>
-            <integer>59</integer>
-          </dict>
-        </array>
-        <key>vhints</key>
-        <array>
-          <dict>
-            <key>position</key>
-            <integer>56</integer>
-            <key>width</key>
-            <integer>288</integer>
-          </dict>
-        </array>
-      </dict>
-    </dict>
-  </lib>
+<glyph name="overscore" format="2">
+	<advance width="376"/>
+	<outline>
+		<contour>
+			<point x="36" y="597" type="line"/>
+			<point x="36" y="656" type="line"/>
+			<point x="364" y="656" type="line"/>
+			<point x="364" y="597" type="line"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.fontlab.hintData</key>
+			<dict>
+				<key>hhints</key>
+				<array>
+					<dict>
+						<key>position</key>
+						<integer>597</integer>
+						<key>width</key>
+						<integer>59</integer>
+					</dict>
+				</array>
+				<key>vhints</key>
+				<array>
+					<dict>
+						<key>position</key>
+						<integer>56</integer>
+						<key>width</key>
+						<integer>288</integer>
+					</dict>
+				</array>
+			</dict>
+		</dict>
+	</lib>
 </glyph>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni1E64" format="2">
+  <advance width="561"/>
+  <unicode hex="1E64"/>
+  <anchor x="286" y="10" name="cedilla"/>
+  <anchor x="252.5" y="1150" name="top"/>
+  <outline>
+    <component base="Sacute"/>
+    <component base="uni0307" xOffset="490.5" yOffset="390"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.autolayer</key>
+  <true/>
+  <key>com.fontlab.recipe</key>
+  <string>Sacute+uni0307</string>
+  </dict>
+  </lib>
+</glyph>

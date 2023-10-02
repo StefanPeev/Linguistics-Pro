@@ -1,37 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Otilde" format="2">
-	<unicode hex="00D5"/>
-	<advance width="768"/>
-	<outline>
-		<component base="O"/>
-		<component base="tildecomb" xOffset="599.941" yOffset="202"/>
-	</outline>
-	<anchor name="tonos" x="38" y="702"/>
-	<anchor name="top" x="374.941" y="952"/>
-	<lib>
-		<dict>
-			<key>com.fontlab.autolayer</key>
-			<true/>
-			<key>com.fontlab.hintData</key>
-			<dict>
-				<key>hhints</key>
-				<array>
-					<dict>
-						<key>position</key>
-						<integer>736</integer>
-						<key>width</key>
-						<integer>60</integer>
-					</dict>
-					<dict>
-						<key>position</key>
-						<integer>774</integer>
-						<key>width</key>
-						<integer>60</integer>
-					</dict>
-				</array>
-			</dict>
-			<key>com.fontlab.recipe</key>
-			<string>O+tildecomb</string>
-		</dict>
-	</lib>
+  <advance width="768"/>
+  <unicode hex="00D5"/>
+  <anchor x="38" y="702" name="tonos"/>
+  <anchor x="374.941" y="952" name="top"/>
+  <outline>
+    <component base="O"/>
+    <component base="tildecomb" xOffset="599.941" yOffset="202"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.autolayer</key>
+  <true/>
+  <key>com.fontlab.hintData</key>
+  <dict>
+    <key>hhints</key>
+    <array>
+      <dict>
+        <key>position</key>
+        <integer>736</integer>
+        <key>width</key>
+        <integer>60</integer>
+      </dict>
+      <dict>
+        <key>position</key>
+        <integer>774</integer>
+        <key>width</key>
+        <integer>60</integer>
+      </dict>
+    </array>
+  </dict>
+  <key>com.fontlab.recipe</key>
+  <string>O+tildecomb</string>
+  </dict>
+  </lib>
 </glyph>

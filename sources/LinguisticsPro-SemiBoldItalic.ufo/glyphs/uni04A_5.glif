@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni04A5" format="2">
+  <advance width="770"/>
+  <unicode hex="04A5"/>
+  <outline>
+    <contour>
+      <point x="92.666" y="-12" type="line"/>
+      <point x="187" y="392.333" type="line" smooth="yes"/>
+      <point x="194.666" y="424.667"/>
+      <point x="193.666" y="437.334"/>
+      <point x="171" y="439.667" type="curve" smooth="yes"/>
+      <point x="112.666" y="445.667" type="line"/>
+      <point x="120" y="475.333" type="line"/>
+      <point x="333.333" y="502" type="line"/>
+      <point x="338.333" y="497" type="line"/>
+      <point x="284.333" y="274.666" type="line"/>
+      <point x="450.666" y="274.666" type="line"/>
+      <point x="507.666" y="490" type="line"/>
+      <point x="855.667" y="490" type="line"/>
+      <point x="818" y="327" type="line"/>
+      <point x="782.333" y="327" type="line"/>
+      <point x="785.333" y="413.333"/>
+      <point x="771.333" y="447.667"/>
+      <point x="678" y="447.667" type="curve" smooth="yes"/>
+      <point x="628.333" y="447.667"/>
+      <point x="615.666" y="441.667"/>
+      <point x="606.333" y="402" type="curve"/>
+      <point x="529" y="108.333" type="line" smooth="yes"/>
+      <point x="521.666" y="80.334"/>
+      <point x="521" y="58.667"/>
+      <point x="540.333" y="58.667" type="curve" smooth="yes"/>
+      <point x="565" y="58.667"/>
+      <point x="604.333" y="117.667"/>
+      <point x="627.666" y="159.333" type="curve"/>
+      <point x="655" y="142.667" type="line"/>
+      <point x="616.333" y="62"/>
+      <point x="557" y="-12"/>
+      <point x="468.333" y="-12" type="curve" smooth="yes"/>
+      <point x="404.333" y="-12"/>
+      <point x="387.333" y="30.334"/>
+      <point x="405" y="100" type="curve" smooth="yes"/>
+      <point x="439.666" y="232.333" type="line"/>
+      <point x="274" y="232.333" type="line"/>
+      <point x="218" y="0" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.postscript.hints</key>
+  <dict>
+    <key>formatVersion</key>
+    <string>1</string>
+    <key>id</key>
+    <string>876aaac179846d647da1a2be9a15f25066b6d40dfdc72b011b20372df0322facdc1ca2fb9f9626d4b02e77c653321d4e47d5472044eb73eada45b69aa640a4ee</string>
+    <key>hintSetList</key>
+    <array>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem -12 70.67</string>
+          <string>hstem 232.33 42.33</string>
+          <string>hstem 445.67 56.33</string>
+          <string>hstem 447.67 42.33</string>
+          <string>vstem 782.33 35.67</string>
+        </array>
+      </dict>
+    </array>
+  </dict>
+  </dict>
+  </lib>
+</glyph>

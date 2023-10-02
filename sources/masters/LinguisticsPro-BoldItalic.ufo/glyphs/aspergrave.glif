@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="aspergrave" format="2">
+  <advance width="371"/>
+  <unicode hex="1FDD"/>
+  <anchor x="338" y="518" name="_top"/>
+  <anchor x="477" y="750" name="_tonos"/>
+  <outline>
+    <component base="grave-gr" xOffset="168.361" yOffset="1.14696"/>
+    <component base="asper" xOffset="-3.65471"/>
+  </outline>
+  <guideline angle="0" x="0" y="770"/>
+  <lib>
+  <dict>
+  <key>com.fontlab.recipe</key>
+  <string>uni1FFE+gravecomb</string>
+  <key>public.markColor</key>
+  <string>1,0.994,0.6,1</string>
+  <key>public.postscript.hints</key>
+  <dict>
+    <key>formatVersion</key>
+    <string>1</string>
+    <key>id</key>
+    <string>w371</string>
+    <key>hintSetList</key>
+    <array>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem 511 229</string>
+          <string>vstem 101.95 272</string>
+        </array>
+      </dict>
+    </array>
+  </dict>
+  </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="epsilongrave" format="2">
+  <advance width="464"/>
+  <unicode hex="1F72"/>
+  <outline>
+    <component base="epsilon"/>
+    <component base="grave-gr" xOffset="112" yOffset="-3"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.autolayer</key>
+  <true/>
+  <key>com.fontlab.recipe</key>
+  <string>epsilon+grave-gr</string>
+  <key>public.markColor</key>
+  <string>0.6,0.602,1,1</string>
+  </dict>
+  </lib>
+</glyph>

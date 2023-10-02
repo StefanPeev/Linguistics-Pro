@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="iota" format="2">
+  <advance width="343"/>
+  <unicode hex="03B9"/>
+  <anchor x="228.333" y="533" name="top"/>
+  <outline>
+    <contour>
+      <point x="192.667" y="114" type="line" smooth="yes"/>
+      <point x="190" y="100.667"/>
+      <point x="187" y="87.667"/>
+      <point x="187" y="76.667" type="curve" smooth="yes"/>
+      <point x="187" y="61"/>
+      <point x="192.667" y="52.333"/>
+      <point x="204" y="52.333" type="curve" smooth="yes"/>
+      <point x="226.333" y="52.333"/>
+      <point x="264.667" y="102"/>
+      <point x="292" y="149.333" type="curve"/>
+      <point x="317.333" y="133.333" type="line"/>
+      <point x="280.333" y="70.667" type="line" smooth="yes"/>
+      <point x="252.333" y="22.667"/>
+      <point x="199.667" y="-12"/>
+      <point x="148" y="-12" type="curve" smooth="yes"/>
+      <point x="106.333" y="-12"/>
+      <point x="80" y="12.333"/>
+      <point x="80" y="56.333" type="curve" smooth="yes"/>
+      <point x="80" y="75.667"/>
+      <point x="84.333" y="104.667"/>
+      <point x="89.333" y="126.667" type="curve" smooth="yes"/>
+      <point x="164" y="490" type="line"/>
+      <point x="275.667" y="502" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.postscript.hints</key>
+  <dict>
+    <key>formatVersion</key>
+    <string>1</string>
+    <key>id</key>
+    <string>9d5d5c88fb7d8fd274ea3c906334b5fc2c59f2f3f694385834eb0da26010316b7faa4ed87370ed23140037e87d5fab890c9329ef46d42181f53d22f72bbbc0a8</string>
+    <key>hintSetList</key>
+    <array>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem 9 -21</string>
+        </array>
+      </dict>
+    </array>
+  </dict>
+  </dict>
+  </lib>
+</glyph>

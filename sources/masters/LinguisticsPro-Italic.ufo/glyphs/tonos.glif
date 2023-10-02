@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="tonos" format="2">
+  <advance width="116"/>
+  <unicode hex="0384"/>
+  <anchor x="291" y="533" name="_top"/>
+  <anchor x="256" y="750" name="_tonos"/>
+  <outline>
+    <contour>
+      <point x="222.016" y="750.032" type="curve" smooth="yes"/>
+      <point x="244.361" y="749.849"/>
+      <point x="256.216" y="737.792"/>
+      <point x="256.216" y="716.783" type="curve" smooth="yes"/>
+      <point x="256.216" y="704.055"/>
+      <point x="251.571" y="689.516"/>
+      <point x="242.335" y="676.508" type="curve" smooth="yes"/>
+      <point x="167.212" y="570.701" type="line"/>
+      <point x="143.783" y="577.593" type="line"/>
+      <point x="171.211" y="722.291" type="line" smooth="yes"/>
+      <point x="173.794" y="735.919"/>
+      <point x="197.608" y="750.232"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.recipe</key>
+  <string>acute%</string>
+  <key>public.markColor</key>
+  <string>0.6,0.602,1,1</string>
+  <key>public.postscript.hints</key>
+  <dict>
+    <key>formatVersion</key>
+    <string>1</string>
+    <key>id</key>
+    <string>39c90dc2d67cc2b10e745d4dce3bd603c18491de10ae92d62bd4d504ab6ca051fbbdb14ee1cd3a53427345079d75e7533aca74d8f640a61c0a56b8b0cd02cad6</string>
+    <key>hintSetList</key>
+    <array>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem 542 181</string>
+          <string>vstem 249 222</string>
+        </array>
+      </dict>
+    </array>
+  </dict>
+  </dict>
+  </lib>
+</glyph>

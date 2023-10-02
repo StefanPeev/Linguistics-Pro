@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Ecedillabreve" format="2">
+  <advance width="613"/>
+  <unicode hex="1E1C"/>
+  <anchor x="148.667" y="703.667" name="tonos"/>
+  <anchor x="148.667" y="692" name="greek.UC.tonos"/>
+  <anchor x="479.667" y="10" name="ogonek"/>
+  <anchor x="458.333" y="733.333" name="top"/>
+  <outline>
+    <component base="uni0228"/>
+    <component base="breve.cap" xScale="1" xOffset="78.333"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.recipe</key>
+  <string>uni0228+~breve.case</string>
+  <key>public.markColor</key>
+  <string>0.6,0.602,1,1</string>
+  </dict>
+  </lib>
+</glyph>

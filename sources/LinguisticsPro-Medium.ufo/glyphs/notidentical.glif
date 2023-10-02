@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="notidentical" format="2">
+  <advance width="580"/>
+  <unicode hex="2262"/>
+  <outline>
+    <contour>
+      <point x="532" y="86.6112" type="line"/>
+      <point x="532" y="20.6112" type="line"/>
+      <point x="48" y="20.6112" type="line"/>
+      <point x="48" y="86.6112" type="line"/>
+    </contour>
+    <contour>
+      <point x="532" y="281.181" type="line"/>
+      <point x="532" y="215.181" type="line"/>
+      <point x="48" y="215.181" type="line"/>
+      <point x="48" y="281.181" type="line"/>
+    </contour>
+    <contour>
+      <point x="532" y="479.724" type="line"/>
+      <point x="532" y="413.724" type="line"/>
+      <point x="48" y="413.724" type="line"/>
+      <point x="48" y="479.724" type="line"/>
+    </contour>
+    <contour>
+      <point x="409.528" y="559.845" type="line"/>
+      <point x="461.588" y="529.082" type="line"/>
+      <point x="151.135" y="-62.453" type="line"/>
+      <point x="101.075" y="-30.691" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.metricsLeft</key>
+  <string>=equal</string>
+  <key>com.fontlab.metricsRight</key>
+  <string>=equal</string>
+  <key>com.fontlab.recipe</key>
+  <string>equivalence+uni0338</string>
+  <key>public.markColor</key>
+  <string>0.6,0.602,1,1</string>
+  </dict>
+  </lib>
+</glyph>

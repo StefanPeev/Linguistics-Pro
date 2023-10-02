@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="dieresisgrave" format="2">
+  <advance width="437"/>
+  <unicode hex="1FED"/>
+  <anchor x="346.954" y="522" name="_top"/>
+  <outline>
+    <component base="dieresis" xOffset="18"/>
+    <component base="grave-gr" xOffset="83.321" yOffset="95.01"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.recipe</key>
+  <string>dieresis+gravecomb</string>
+  <key>public.markColor</key>
+  <string>1,0.994,0.6,1</string>
+  </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="tilde.cap" format="2">
+  <advance width="400"/>
+  <outline>
+    <contour>
+      <point x="182.333" y="739.333" type="line"/>
+      <point x="201" y="781.334"/>
+      <point x="233.667" y="853.334"/>
+      <point x="309.667" y="853.334" type="curve" smooth="yes"/>
+      <point x="336.333" y="853.334"/>
+      <point x="367" y="843.667"/>
+      <point x="397.333" y="833.001" type="curve"/>
+      <point x="428.667" y="823.334"/>
+      <point x="459" y="812.667"/>
+      <point x="483.333" y="812.667" type="curve" smooth="yes"/>
+      <point x="517.333" y="812.667"/>
+      <point x="532" y="827"/>
+      <point x="556" y="864.667" type="curve"/>
+      <point x="584" y="849.001" type="line"/>
+      <point x="562.333" y="801.334"/>
+      <point x="530.333" y="736"/>
+      <point x="459.333" y="736" type="curve" smooth="yes"/>
+      <point x="435.333" y="736"/>
+      <point x="405" y="746.667"/>
+      <point x="374" y="756.334" type="curve"/>
+      <point x="343" y="767"/>
+      <point x="311.333" y="776.667"/>
+      <point x="284" y="776.667" type="curve" smooth="yes"/>
+      <point x="248.333" y="776.667"/>
+      <point x="232" y="760.667"/>
+      <point x="210" y="723" type="curve"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.postscript.hints</key>
+  <dict>
+    <key>formatVersion</key>
+    <string>1</string>
+    <key>id</key>
+    <string>38e381b66cf061c7b2b2131761e1cc6322169ec727ad6e73e4dc7c59b4c645f75c06a459595d4b628a505cb2e28542293d1dba669c54a3fb58e23628ffcd4f4a</string>
+    <key>hintSetList</key>
+    <array>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem 736 76.67</string>
+          <string>hstem 776.67 76.67</string>
+        </array>
+      </dict>
+    </array>
+  </dict>
+  </dict>
+  </lib>
+</glyph>

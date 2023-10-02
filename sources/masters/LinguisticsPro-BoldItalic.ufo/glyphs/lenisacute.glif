@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="lenisacute" format="2">
+  <advance width="370"/>
+  <unicode hex="1FCE"/>
+  <anchor x="496" y="770" name="_tonos"/>
+  <anchor x="295" y="518" name="_top"/>
+  <outline>
+    <contour>
+      <point x="161.2" y="542.227" type="line"/>
+      <point x="194.2" y="574.383"/>
+      <point x="214.117" y="597.603"/>
+      <point x="213.2" y="617.258" type="curve" smooth="yes"/>
+      <point x="212.117" y="640.478"/>
+      <point x="208.116" y="650.249"/>
+      <point x="196.2" y="667.279" type="curve" smooth="yes"/>
+      <point x="188.116" y="678.833"/>
+      <point x="180.2" y="692.289"/>
+      <point x="180.2" y="711.047" type="curve" smooth="yes"/>
+      <point x="180.2" y="742.31"/>
+      <point x="203.2" y="770"/>
+      <point x="250.2" y="770" type="curve" smooth="yes"/>
+      <point x="302.2" y="770"/>
+      <point x="333.2" y="735.164"/>
+      <point x="333.2" y="685.144" type="curve" smooth="yes"/>
+      <point x="333.2" y="629.764"/>
+      <point x="293.2" y="581.529"/>
+      <point x="189.2" y="518.11" type="curve"/>
+    </contour>
+    <contour>
+      <point x="421.041" y="770.037" type="curve" smooth="yes"/>
+      <point x="471.841" y="770.037"/>
+      <point x="495.86" y="743.72"/>
+      <point x="495.86" y="705.429" type="curve" smooth="yes"/>
+      <point x="495.86" y="685.982"/>
+      <point x="469.828" y="646.134"/>
+      <point x="456.101" y="622.03" type="curve" smooth="yes"/>
+      <point x="398.614" y="521.09" type="line"/>
+      <point x="356.589" y="532.292" type="line"/>
+      <point x="356.591" y="703.733" type="line" smooth="yes"/>
+      <point x="356.591" y="722.725"/>
+      <point x="375.005" y="770.037"/>
+    </contour>
+  </outline>
+  <guideline angle="0" x="0" y="770"/>
+  <guideline angle="90" x="496" y="0"/>
+  <lib>
+  <dict>
+  <key>com.fontlab.recipe</key>
+  <string>uni1FBF+acutecomb</string>
+  <key>public.markColor</key>
+  <string>1,0.994,0.6,1</string>
+  <key>public.postscript.hints</key>
+  <dict>
+    <key>formatVersion</key>
+    <string>1</string>
+    <key>id</key>
+    <string>51fd631008b55f265b5c1d0d58f5ea2ca5177f126ede0ec8a38a2d69c262c991e52ae3027ce9665ef16afb464625dc64bf6a366f6456de628e88fe6c87d8163b</string>
+    <key>hintSetList</key>
+    <array>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem 511 229</string>
+          <string>vstem 101.95 272</string>
+        </array>
+      </dict>
+    </array>
+  </dict>
+  </dict>
+  </lib>
+</glyph>

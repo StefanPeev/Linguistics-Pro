@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="tonos" format="2">
+  <advance width="210"/>
+  <unicode hex="0384"/>
+  <anchor x="320" y="540" name="_top"/>
+  <anchor x="337" y="770" name="_tonos"/>
+  <outline>
+    <contour>
+      <point x="271.686" y="770.037" type="curve" smooth="yes"/>
+      <point x="312.995" y="770.037"/>
+      <point x="337.014" y="743.72"/>
+      <point x="337.014" y="705.429" type="curve" smooth="yes"/>
+      <point x="337.014" y="685.982"/>
+      <point x="303.722" y="643.262"/>
+      <point x="285.872" y="622.03" type="curve" smooth="yes"/>
+      <point x="201.012" y="521.09" type="line"/>
+      <point x="158.987" y="532.292" type="line"/>
+      <point x="186.362" y="703.733" type="line" smooth="yes"/>
+      <point x="189.356" y="722.487"/>
+      <point x="216.159" y="770.037"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.recipe</key>
+  <string>acute%</string>
+  <key>public.markColor</key>
+  <string>0.6,0.602,1,1</string>
+  </dict>
+  </lib>
+</glyph>

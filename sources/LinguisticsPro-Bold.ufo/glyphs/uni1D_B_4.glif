@@ -1,41 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni1DB4" format="2">
-	<unicode hex="1DB4"/>
-	<advance width="250"/>
-	<outline>
-		<component base="uni0283" xScale="0.6009" yScale="0.6009" xOffset="8.87934" yOffset="408.114"/>
-	</outline>
-	<guideline x="0" y="772" angle="0"/>
-	<guideline x="0" y="182" angle="0"/>
-	<lib>
-		<dict>
-			<key>com.fontlab.hintData</key>
-			<dict>
-				<key>hhints</key>
-				<array>
-					<dict>
-						<key>position</key>
-						<integer>182</integer>
-						<key>width</key>
-						<integer>21</integer>
-					</dict>
-					<dict>
-						<key>position</key>
-						<integer>751</integer>
-						<key>width</key>
-						<integer>21</integer>
-					</dict>
-				</array>
-				<key>vhints</key>
-				<array>
-					<dict>
-						<key>position</key>
-						<integer>89</integer>
-						<key>width</key>
-						<integer>56</integer>
-					</dict>
-				</array>
-			</dict>
-		</dict>
-	</lib>
+  <advance width="250"/>
+  <unicode hex="1DB4"/>
+  <outline>
+    <component base="uni0283" xScale="0.6009" yScale="0.6009" xOffset="8.879" yOffset="408.114"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.hintData</key>
+  <dict>
+    <key>hhints</key>
+    <array>
+      <dict>
+        <key>position</key>
+        <integer>182</integer>
+        <key>width</key>
+        <integer>21</integer>
+      </dict>
+      <dict>
+        <key>position</key>
+        <integer>751</integer>
+        <key>width</key>
+        <integer>21</integer>
+      </dict>
+    </array>
+    <key>vhints</key>
+    <array>
+      <dict>
+        <key>position</key>
+        <integer>89</integer>
+        <key>width</key>
+        <integer>56</integer>
+      </dict>
+    </array>
+  </dict>
+  </dict>
+  </lib>
 </glyph>

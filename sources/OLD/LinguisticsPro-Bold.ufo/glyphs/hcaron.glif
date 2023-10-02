@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="hcaron" format="2">
+	<unicode hex="021F"/>
+	<advance width="631"/>
+	<outline>
+		<component base="h"/>
+		<component base="uni030C" xOffset="614" yOffset="259"/>
+	</outline>
+	<anchor name="cedilla" x="160" y="0"/>
+	<anchor name="top" x="321" y="989"/>
+	<lib>
+		<dict>
+			<key>com.fontlab.autolayer</key>
+			<true/>
+			<key>com.fontlab.hintData</key>
+			<dict>
+				<key>hhints</key>
+				<array>
+					<dict>
+						<key>position</key>
+						<integer>781</integer>
+						<key>width</key>
+						<integer>87</integer>
+					</dict>
+					<dict>
+						<key>position</key>
+						<integer>919</integer>
+						<key>width</key>
+						<integer>20</integer>
+					</dict>
+					<dict>
+						<key>position</key>
+						<integer>940</integer>
+						<key>width</key>
+						<integer>20</integer>
+					</dict>
+				</array>
+				<key>vhints</key>
+				<array>
+					<dict>
+						<key>position</key>
+						<integer>153</integer>
+						<key>width</key>
+						<integer>306</integer>
+					</dict>
+				</array>
+			</dict>
+			<key>com.fontlab.recipe</key>
+			<string>h+uni030C</string>
+			<key>public.markColor</key>
+			<string>1,0.6,0.6,1</string>
+		</dict>
+	</lib>
+</glyph>

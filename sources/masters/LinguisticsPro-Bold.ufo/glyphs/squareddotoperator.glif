@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="squareddotoperator" format="2">
+  <advance width="690"/>
+  <unicode hex="22A1"/>
+  <outline>
+    <contour>
+      <point x="80" y="0" type="line"/>
+      <point x="80" y="530" type="line"/>
+      <point x="610" y="530" type="line"/>
+      <point x="610" y="0" type="line"/>
+    </contour>
+    <contour>
+      <point x="146.869" y="66.8692" type="line"/>
+      <point x="543.131" y="66.8692" type="line"/>
+      <point x="543.131" y="463.131" type="line"/>
+      <point x="146.869" y="463.131" type="line"/>
+    </contour>
+    <contour>
+      <point x="290.429" y="260.264" type="curve" smooth="yes"/>
+      <point x="290.429" y="292.208"/>
+      <point x="313.056" y="314.835"/>
+      <point x="345" y="314.835" type="curve" smooth="yes"/>
+      <point x="378.275" y="314.835"/>
+      <point x="399.571" y="292.208"/>
+      <point x="399.571" y="260.264" type="curve" smooth="yes"/>
+      <point x="399.571" y="226.989"/>
+      <point x="378.275" y="205.693"/>
+      <point x="345" y="205.693" type="curve" smooth="yes"/>
+      <point x="313.056" y="205.693"/>
+      <point x="290.429" y="226.989"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.metricsLeft</key>
+  <string>=squaredtimes</string>
+  <key>com.fontlab.metricsRight</key>
+  <string>=squaredtimes</string>
+  <key>public.markColor</key>
+  <string>0.6,0.602,1,1</string>
+  </dict>
+  </lib>
+</glyph>

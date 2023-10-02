@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Dcaron.sc" format="2">
+  <advance width="591"/>
+  <anchor x="295.5" y="730" name="top"/>
+  <outline>
+    <component base="D.sc"/>
+    <component base="uni030C" xOffset="588.5"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.autolayer</key>
+  <true/>
+  <key>com.fontlab.recipe</key>
+  <string>D.sc+uni030C</string>
+  </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni1E78" format="2">
+	<unicode hex="1E78"/>
+	<advance width="788"/>
+	<outline>
+		<component base="Utilde"/>
+		<component base="acute.cap" xyScale="0" xOffset="165.564" yOffset="189.333"/>
+	</outline>
+	<anchor name="ogonek" x="424.333" y="0"/>
+	<anchor name="top" x="386.231" y="1129.33"/>
+	<lib>
+		<dict>
+			<key>com.fontlab.autolayer</key>
+			<true/>
+			<key>com.fontlab.hintData</key>
+			<dict>
+				<key>hhints</key>
+				<array>
+					<dict>
+						<key>position</key>
+						<integer>736</integer>
+						<key>width</key>
+						<integer>60</integer>
+					</dict>
+					<dict>
+						<key>position</key>
+						<integer>774</integer>
+						<key>width</key>
+						<integer>60</integer>
+					</dict>
+					<dict>
+						<key>position</key>
+						<integer>874</integer>
+						<key>width</key>
+						<integer>181</integer>
+					</dict>
+				</array>
+				<key>vhints</key>
+				<array>
+					<dict>
+						<key>position</key>
+						<integer>284</integer>
+						<key>width</key>
+						<integer>222</integer>
+					</dict>
+				</array>
+			</dict>
+			<key>com.fontlab.recipe</key>
+			<string>Utilde+acute.cap</string>
+		</dict>
+	</lib>
+</glyph>

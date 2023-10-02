@@ -1,29 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="fraction" format="2">
-	<unicode hex="2044"/>
-	<advance width="133"/>
-	<outline>
-		<contour>
-			<point x="-157" y="1.33333" type="line"/>
-			<point x="247.333" y="695" type="line"/>
-			<point x="290.333" y="669.667" type="line"/>
-			<point x="-115.667" y="-27" type="line"/>
-		</contour>
-	</outline>
-	<lib>
-		<dict>
-			<key>com.fontlab.hintData</key>
-			<dict>
-				<key>hhints</key>
-				<array>
-					<dict>
-						<key>position</key>
-						<integer>675</integer>
-						<key>width</key>
-						<integer>20</integer>
-					</dict>
-				</array>
-			</dict>
-		</dict>
-	</lib>
+  <advance width="133"/>
+  <unicode hex="2044"/>
+  <outline>
+    <contour>
+      <point x="-157" y="1.333" type="line"/>
+      <point x="247.333" y="695" type="line"/>
+      <point x="290.333" y="669.667" type="line"/>
+      <point x="-115.667" y="-27" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.hintData</key>
+  <dict>
+    <key>hhints</key>
+    <array>
+      <dict>
+        <key>position</key>
+        <integer>675</integer>
+        <key>width</key>
+        <integer>20</integer>
+      </dict>
+    </array>
+  </dict>
+  </dict>
+  </lib>
 </glyph>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="lhookretroflex" format="2">
+  <advance width="327"/>
+  <unicode hex="026D"/>
+  <outline>
+    <contour>
+      <point x="112" y="150" type="line"/>
+      <point x="229" y="633" type="line" smooth="yes"/>
+      <point x="231.171" y="641.96"/>
+      <point x="232" y="649"/>
+      <point x="232" y="655" type="curve" smooth="yes"/>
+      <point x="232" y="669"/>
+      <point x="225.944" y="674.438"/>
+      <point x="213" y="676" type="curve" smooth="yes"/>
+      <point x="155" y="683" type="line"/>
+      <point x="162" y="715" type="line"/>
+      <point x="389" y="742" type="line"/>
+      <point x="395" y="737" type="line"/>
+      <point x="252" y="150" type="line"/>
+    </contour>
+    <contour>
+      <point x="73.769" y="-9.229" type="curve" smooth="yes"/>
+      <point x="112" y="150.276" type="line"/>
+      <point x="252" y="150.273" type="line"/>
+      <point x="219.84" y="15.81" type="line" smooth="yes"/>
+      <point x="209.121" y="-29.008"/>
+      <point x="152.391" y="-112.907"/>
+      <point x="152.391" y="-165.546" type="curve" smooth="yes"/>
+      <point x="152.391" y="-184"/>
+      <point x="159.363" y="-191"/>
+      <point x="169.343" y="-191" type="curve" smooth="yes"/>
+      <point x="204.529" y="-191"/>
+      <point x="226.58" y="-104"/>
+      <point x="275.216" y="-104" type="curve" smooth="yes"/>
+      <point x="303.955" y="-104"/>
+      <point x="328.391" y="-133.056"/>
+      <point x="328.391" y="-167.228" type="curve" smooth="yes"/>
+      <point x="328.391" y="-216.794"/>
+      <point x="279.173" y="-242"/>
+      <point x="182.391" y="-242" type="curve" smooth="yes"/>
+      <point x="100.695" y="-242"/>
+      <point x="58.281" y="-175.002"/>
+      <point x="58.281" y="-103.585" type="curve" smooth="yes"/>
+      <point x="58.281" y="-72.304"/>
+      <point x="66.418" y="-39.899"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.recipe</key>
+  <string>l</string>
+  <key>public.markColor</key>
+  <string>0.6,0.602,1,1</string>
+  <key>public.postscript.hints</key>
+  <dict>
+    <key>formatVersion</key>
+    <string>1</string>
+    <key>id</key>
+    <string>74793ca1e964d50c59602d64646d3cfb72324ee71ff71ca76b1ef353f6fe819419229b45c0a66e59d0b45e4b357887545bee821eb57fb7147e632b788a00d165</string>
+    <key>hintSetList</key>
+    <array>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem 683 59</string>
+        </array>
+      </dict>
+    </array>
+  </dict>
+  </dict>
+  </lib>
+</glyph>

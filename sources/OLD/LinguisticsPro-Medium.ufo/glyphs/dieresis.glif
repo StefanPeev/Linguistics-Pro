@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="dieresis" format="2">
+	<unicode hex="00A8"/>
+	<advance width="410"/>
+	<outline>
+		<contour>
+			<point x="29.3333" y="629.667" type="curve" smooth="yes"/>
+			<point x="29.3333" y="661.667"/>
+			<point x="52.6667" y="692"/>
+			<point x="95.6667" y="692" type="curve" smooth="yes"/>
+			<point x="138.667" y="692"/>
+			<point x="162" y="661.667"/>
+			<point x="162" y="629.667" type="curve" smooth="yes"/>
+			<point x="162" y="597.667"/>
+			<point x="138.667" y="566.667"/>
+			<point x="95.6667" y="566.667" type="curve" smooth="yes"/>
+			<point x="52.6667" y="566.667"/>
+			<point x="29.3333" y="597.667"/>
+		</contour>
+		<contour>
+			<point x="248" y="629.667" type="curve" smooth="yes"/>
+			<point x="248" y="661.667"/>
+			<point x="271.333" y="692"/>
+			<point x="314.333" y="692" type="curve" smooth="yes"/>
+			<point x="357.333" y="692"/>
+			<point x="380.667" y="661.667"/>
+			<point x="380.667" y="629.667" type="curve" smooth="yes"/>
+			<point x="380.667" y="597.667"/>
+			<point x="357.333" y="566.667"/>
+			<point x="314.333" y="566.667" type="curve" smooth="yes"/>
+			<point x="271.333" y="566.667"/>
+			<point x="248" y="597.667"/>
+		</contour>
+	</outline>
+	<anchor name="top" x="206" y="726.667"/>
+	<lib>
+		<dict>
+			<key>com.fontlab.hintData</key>
+			<dict>
+				<key>hhints</key>
+				<array>
+					<dict>
+						<key>position</key>
+						<integer>570</integer>
+						<key>width</key>
+						<integer>113</integer>
+					</dict>
+				</array>
+				<key>vhints</key>
+				<array>
+					<dict>
+						<key>position</key>
+						<integer>36</integer>
+						<key>width</key>
+						<integer>120</integer>
+					</dict>
+					<dict>
+						<key>position</key>
+						<integer>244</integer>
+						<key>width</key>
+						<integer>120</integer>
+					</dict>
+				</array>
+			</dict>
+		</dict>
+	</lib>
+</glyph>

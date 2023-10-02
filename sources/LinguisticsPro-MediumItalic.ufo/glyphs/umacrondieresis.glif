@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="umacrondieresis" format="2">
+  <advance width="623"/>
+  <unicode hex="1E7B"/>
+  <anchor x="438.209" y="726.667" name="top"/>
+  <outline>
+    <component base="umacron"/>
+    <component base="uni0308" xOffset="489.333"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.recipe</key>
+  <string>umacron+uni0308</string>
+  <key>public.markColor</key>
+  <string>0.6,0.602,1,1</string>
+  </dict>
+  </lib>
+</glyph>

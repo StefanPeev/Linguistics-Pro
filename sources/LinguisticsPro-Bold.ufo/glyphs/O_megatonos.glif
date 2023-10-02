@@ -1,63 +1,62 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Omegatonos" format="2">
-	<unicode hex="038F"/>
-	<advance width="883"/>
-	<outline>
-		<component base="uni03A9"/>
-		<component base="tonos" xOffset="-315" yOffset="-52"/>
-	</outline>
-	<anchor name="tonos" x="68" y="702"/>
-	<lib>
-		<dict>
-			<key>com.fontlab.autolayer</key>
-			<true/>
-			<key>com.fontlab.hintData</key>
-			<dict>
-				<key>hhints</key>
-				<array>
-					<dict>
-						<key>position</key>
-						<integer>0</integer>
-						<key>width</key>
-						<integer>88</integer>
-					</dict>
-					<dict>
-						<key>position</key>
-						<integer>666</integer>
-						<key>width</key>
-						<integer>38</integer>
-					</dict>
-					<dict>
-						<key>position</key>
-						<integer>744</integer>
-						<key>width</key>
-						<integer>181</integer>
-					</dict>
-				</array>
-				<key>vhints</key>
-				<array>
-					<dict>
-						<key>position</key>
-						<integer>68</integer>
-						<key>width</key>
-						<integer>107</integer>
-					</dict>
-					<dict>
-						<key>position</key>
-						<integer>272</integer>
-						<key>width</key>
-						<integer>222</integer>
-					</dict>
-					<dict>
-						<key>position</key>
-						<integer>625</integer>
-						<key>width</key>
-						<integer>107</integer>
-					</dict>
-				</array>
-			</dict>
-			<key>com.fontlab.recipe</key>
-			<string>uni03A9+tonos</string>
-		</dict>
-	</lib>
+  <advance width="883"/>
+  <unicode hex="038F"/>
+  <outline>
+    <component base="uni03A9"/>
+    <component base="tonos" xOffset="-315" yOffset="-52"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.autolayer</key>
+  <true/>
+  <key>com.fontlab.hintData</key>
+  <dict>
+    <key>hhints</key>
+    <array>
+      <dict>
+        <key>position</key>
+        <integer>0</integer>
+        <key>width</key>
+        <integer>88</integer>
+      </dict>
+      <dict>
+        <key>position</key>
+        <integer>666</integer>
+        <key>width</key>
+        <integer>38</integer>
+      </dict>
+      <dict>
+        <key>position</key>
+        <integer>744</integer>
+        <key>width</key>
+        <integer>181</integer>
+      </dict>
+    </array>
+    <key>vhints</key>
+    <array>
+      <dict>
+        <key>position</key>
+        <integer>68</integer>
+        <key>width</key>
+        <integer>107</integer>
+      </dict>
+      <dict>
+        <key>position</key>
+        <integer>272</integer>
+        <key>width</key>
+        <integer>222</integer>
+      </dict>
+      <dict>
+        <key>position</key>
+        <integer>625</integer>
+        <key>width</key>
+        <integer>107</integer>
+      </dict>
+    </array>
+  </dict>
+  <key>com.fontlab.recipe</key>
+  <string>uni03A9+tonos</string>
+  </dict>
+  </lib>
 </glyph>

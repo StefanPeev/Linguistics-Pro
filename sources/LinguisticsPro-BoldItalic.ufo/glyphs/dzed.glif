@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="dzed" format="2">
+  <advance width="924"/>
+  <unicode hex="02A3"/>
+  <outline>
+    <component base="d"/>
+    <contour>
+      <point x="476" y="19" type="curve" smooth="yes"/>
+      <point x="476" y="39"/>
+      <point x="488.781" y="64.223"/>
+      <point x="503" y="78" type="curve" smooth="yes"/>
+      <point x="829.28" y="394.137" type="line"/>
+      <point x="828" y="396" type="line"/>
+      <point x="683" y="396" type="line" smooth="yes"/>
+      <point x="627" y="396"/>
+      <point x="608" y="365"/>
+      <point x="576" y="306" type="curve"/>
+      <point x="551" y="318" type="line"/>
+      <point x="573" y="404"/>
+      <point x="605" y="465"/>
+      <point x="628" y="490" type="curve"/>
+      <point x="991" y="490" type="line"/>
+      <point x="1005" y="474" type="line"/>
+      <point x="671" y="156" type="line" smooth="yes"/>
+      <point x="657.506" y="143.152"/>
+      <point x="527.351" y="0.001"/>
+      <point x="514" y="0.001" type="curve" smooth="yes"/>
+      <point x="483" y="0.001"/>
+      <point x="476" y="4"/>
+    </contour>
+    <contour>
+      <point x="571.061" y="67.402" type="curve"/>
+      <point x="650.076" y="151.654" type="line"/>
+      <point x="715.199" y="147.268"/>
+      <point x="771.903" y="105"/>
+      <point x="838" y="105" type="curve" smooth="yes"/>
+      <point x="883" y="105"/>
+      <point x="915" y="150"/>
+      <point x="944" y="211" type="curve"/>
+      <point x="973" y="201" type="line"/>
+      <point x="946" y="87"/>
+      <point x="915" y="-12"/>
+      <point x="840" y="-12" type="curve" smooth="yes"/>
+      <point x="756" y="-12"/>
+      <point x="613" y="68"/>
+      <point x="587" y="68" type="curve" smooth="yes"/>
+      <point x="585.901" y="68"/>
+      <point x="572.062" y="67.853"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.metricsLeft</key>
+  <string>=d</string>
+  <key>com.fontlab.metricsRight</key>
+  <string>=z</string>
+  <key>com.fontlab.recipe</key>
+  <string>d_z</string>
+  <key>public.markColor</key>
+  <string>0.6,0.602,1,1</string>
+  <key>public.postscript.hints</key>
+  <dict>
+    <key>formatVersion</key>
+    <string>1</string>
+    <key>id</key>
+    <string>815117edf081b0887780d4eaf270d802c24f49ad749976bbd6aa161713e47656b19207073ff8147951a8a08cf65edf5082e262afab69b3b6275efb1395873df9</string>
+    <key>hintSetList</key>
+    <array>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem -12 117</string>
+          <string>hstem 396 94</string>
+          <string>hstem 474 16</string>
+        </array>
+      </dict>
+    </array>
+  </dict>
+  </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Ebreve.sc" format="2">
+  <advance width="622"/>
+  <anchor x="148" y="702" name="tonos"/>
+  <anchor x="148" y="692" name="greek.UC.tonos"/>
+  <anchor x="480" y="10" name="ogonek"/>
+  <anchor x="456" y="730" name="top"/>
+  <outline>
+    <component base="E"/>
+    <component base="breve.cap" xOffset="82.029"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.recipe</key>
+  <string>Ebreve</string>
+  <key>public.markColor</key>
+  <string>1,0.994,0.6,1</string>
+  </dict>
+  </lib>
+</glyph>

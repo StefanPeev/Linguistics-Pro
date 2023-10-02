@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Aacute.sc" format="2">
+  <advance width="627"/>
+  <anchor x="484.333" y="736.667" name="top"/>
+  <anchor x="310" y="703.667" name="tonos"/>
+  <anchor x="464.333" y="666.667" name="aring"/>
+  <anchor x="526.667" y="10" name="ogonek"/>
+  <outline>
+    <component base="A"/>
+    <component base="acute.cap" xScale="1" xOffset="69.532"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.recipe</key>
+  <string>Aacute</string>
+  <key>public.markColor</key>
+  <string>1,0.994,0.6,1</string>
+  </dict>
+  </lib>
+</glyph>

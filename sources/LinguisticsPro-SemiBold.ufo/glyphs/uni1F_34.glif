@@ -1,68 +1,69 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni1F34" format="2">
-	<unicode hex="1F34"/>
-	<advance width="357"/>
-	<outline>
-		<component base="iota"/>
-		<component base="uni1FCE" xOffset="-11.2287"/>
-	</outline>
-	<lib>
-		<dict>
-			<key>com.fontlab.autolayer</key>
-			<true/>
-			<key>com.fontlab.hintData</key>
-			<dict>
-				<key>hhints</key>
-				<array>
-					<dict>
-						<key>position</key>
-						<integer>-12</integer>
-						<key>width</key>
-						<integer>54</integer>
-					</dict>
-					<dict>
-						<key>position</key>
-						<integer>482</integer>
-						<key>width</key>
-						<integer>20</integer>
-					</dict>
-					<dict>
-						<key>position</key>
-						<integer>542</integer>
-						<key>width</key>
-						<integer>181</integer>
-					</dict>
-					<dict>
-						<key>position</key>
-						<integer>731</integer>
-						<key>width</key>
-						<integer>20</integer>
-					</dict>
-				</array>
-				<key>vhints</key>
-				<array>
-					<dict>
-						<key>position</key>
-						<integer>83</integer>
-						<key>width</key>
-						<integer>67</integer>
-					</dict>
-					<dict>
-						<key>position</key>
-						<integer>101</integer>
-						<key>width</key>
-						<integer>94</integer>
-					</dict>
-					<dict>
-						<key>position</key>
-						<integer>139</integer>
-						<key>width</key>
-						<integer>222</integer>
-					</dict>
-				</array>
-			</dict>
-			<key>com.fontlab.recipe</key>
-			<string>iota+uni1FCE</string>
-		</dict>
-	</lib>
+  <advance width="357"/>
+  <unicode hex="1F34"/>
+  <anchor x="125.667" y="533" name="top"/>
+  <outline>
+    <component base="iota"/>
+    <component base="uni1FCE" xOffset="-11.229"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.autolayer</key>
+  <true/>
+  <key>com.fontlab.hintData</key>
+  <dict>
+    <key>hhints</key>
+    <array>
+      <dict>
+        <key>position</key>
+        <integer>-12</integer>
+        <key>width</key>
+        <integer>54</integer>
+      </dict>
+      <dict>
+        <key>position</key>
+        <integer>482</integer>
+        <key>width</key>
+        <integer>20</integer>
+      </dict>
+      <dict>
+        <key>position</key>
+        <integer>542</integer>
+        <key>width</key>
+        <integer>181</integer>
+      </dict>
+      <dict>
+        <key>position</key>
+        <integer>731</integer>
+        <key>width</key>
+        <integer>20</integer>
+      </dict>
+    </array>
+    <key>vhints</key>
+    <array>
+      <dict>
+        <key>position</key>
+        <integer>83</integer>
+        <key>width</key>
+        <integer>67</integer>
+      </dict>
+      <dict>
+        <key>position</key>
+        <integer>101</integer>
+        <key>width</key>
+        <integer>94</integer>
+      </dict>
+      <dict>
+        <key>position</key>
+        <integer>139</integer>
+        <key>width</key>
+        <integer>222</integer>
+      </dict>
+    </array>
+  </dict>
+  <key>com.fontlab.recipe</key>
+  <string>iota+uni1FCE</string>
+  </dict>
+  </lib>
 </glyph>

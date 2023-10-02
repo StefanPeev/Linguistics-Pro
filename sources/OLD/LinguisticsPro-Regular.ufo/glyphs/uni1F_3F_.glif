@@ -1,121 +1,58 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="uni1F3F" format="1">
-  <advance width="349"/>
-  <unicode hex="1F3F"/>
-  <outline>
-    <contour>
-      <point x="27" y="981" type="line"/>
-      <point x="47" y="1021"/>
-      <point x="65" y="1079"/>
-      <point x="129" y="1079" type="curve" smooth="yes"/>
-      <point x="153" y="1079"/>
-      <point x="162" y="1072"/>
-      <point x="188" y="1061" type="curve" smooth="yes"/>
-      <point x="216" y="1049"/>
-      <point x="228" y="1041"/>
-      <point x="244" y="1041" type="curve" smooth="yes"/>
-      <point x="272" y="1041"/>
-      <point x="276" y="1052"/>
-      <point x="302" y="1087" type="curve"/>
-      <point x="322" y="1076" type="line"/>
-      <point x="308" y="1048"/>
-      <point x="294" y="1024"/>
-      <point x="278" y="1007" type="curve" smooth="yes"/>
-      <point x="261" y="991"/>
-      <point x="248" y="981"/>
-      <point x="228" y="981" type="curve" smooth="yes"/>
-      <point x="206" y="981"/>
-      <point x="196" y="986"/>
-      <point x="168" y="1000" type="curve" smooth="yes"/>
-      <point x="150" y="1009"/>
-      <point x="125" y="1019"/>
-      <point x="108" y="1019" type="curve" smooth="yes"/>
-      <point x="75" y="1019"/>
-      <point x="69" y="1003"/>
-      <point x="46" y="968" type="curve"/>
-    </contour>
-    <contour>
-      <point x="35" y="0" type="line"/>
-      <point x="35" y="29" type="line"/>
-      <point x="123" y="35"/>
-      <point x="125" y="37"/>
-      <point x="125" y="93" type="curve" smooth="yes"/>
-      <point x="125" y="599" type="line" smooth="yes"/>
-      <point x="125" y="655"/>
-      <point x="123" y="657"/>
-      <point x="35" y="663" type="curve"/>
-      <point x="35" y="692" type="line"/>
-      <point x="314" y="692" type="line"/>
-      <point x="314" y="663" type="line"/>
-      <point x="227" y="657"/>
-      <point x="224" y="655"/>
-      <point x="224" y="599" type="curve" smooth="yes"/>
-      <point x="224" y="93" type="line" smooth="yes"/>
-      <point x="224" y="37"/>
-      <point x="227" y="35"/>
-      <point x="314" y="29" type="curve"/>
-      <point x="314" y="0" type="line"/>
-    </contour>
-    <contour>
-      <point x="118" y="881" type="curve" smooth="yes"/>
-      <point x="118" y="923"/>
-      <point x="141" y="953"/>
-      <point x="175" y="953" type="curve" smooth="yes"/>
-      <point x="198" y="953"/>
-      <point x="216" y="934"/>
-      <point x="216" y="910" type="curve" smooth="yes"/>
-      <point x="216" y="881"/>
-      <point x="185" y="866"/>
-      <point x="185" y="835" type="curve" smooth="yes"/>
-      <point x="185" y="803"/>
-      <point x="201" y="781"/>
-      <point x="230" y="751" type="curve"/>
-      <point x="214" y="736" type="line"/>
-      <point x="168" y="776"/>
-      <point x="118" y="819"/>
-    </contour>
-  </outline>
-  <lib>
-    <dict>
-      <key>com.fontlab.hintData</key>
-      <dict>
-        <key>hhints</key>
-        <array>
-          <dict>
-            <key>position</key>
-            <integer>0</integer>
-            <key>width</key>
-            <integer>29</integer>
-          </dict>
-          <dict>
-            <key>position</key>
-            <integer>663</integer>
-            <key>width</key>
-            <integer>29</integer>
-          </dict>
-          <dict>
-            <key>position</key>
-            <integer>933</integer>
-            <key>width</key>
-            <integer>20</integer>
-          </dict>
-        </array>
-        <key>vhints</key>
-        <array>
-          <dict>
-            <key>position</key>
-            <integer>118</integer>
-            <key>width</key>
-            <integer>67</integer>
-          </dict>
-          <dict>
-            <key>position</key>
-            <integer>125</integer>
-            <key>width</key>
-            <integer>99</integer>
-          </dict>
-        </array>
-      </dict>
-    </dict>
-  </lib>
+<glyph name="uni1F3F" format="2">
+	<unicode hex="1F3F"/>
+	<advance width="349"/>
+	<outline>
+		<component base="Iota"/>
+		<component base="uni1FDF" xOffset="-295" yOffset="-38"/>
+	</outline>
+	<anchor name="ogonek" x="190" y="10"/>
+	<anchor name="tonos" x="0" y="702"/>
+	<lib>
+		<dict>
+			<key>com.fontlab.autolayer</key>
+			<true/>
+			<key>com.fontlab.hintData</key>
+			<dict>
+				<key>hhints</key>
+				<array>
+					<dict>
+						<key>position</key>
+						<integer>0</integer>
+						<key>width</key>
+						<integer>29</integer>
+					</dict>
+					<dict>
+						<key>position</key>
+						<integer>663</integer>
+						<key>width</key>
+						<integer>29</integer>
+					</dict>
+					<dict>
+						<key>position</key>
+						<integer>933</integer>
+						<key>width</key>
+						<integer>20</integer>
+					</dict>
+				</array>
+				<key>vhints</key>
+				<array>
+					<dict>
+						<key>position</key>
+						<integer>118</integer>
+						<key>width</key>
+						<integer>67</integer>
+					</dict>
+					<dict>
+						<key>position</key>
+						<integer>125</integer>
+						<key>width</key>
+						<integer>99</integer>
+					</dict>
+				</array>
+			</dict>
+			<key>com.fontlab.recipe</key>
+			<string>Iota+uni1FDF</string>
+		</dict>
+	</lib>
 </glyph>

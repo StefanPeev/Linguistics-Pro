@@ -1,90 +1,58 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="uni1F38" format="1">
-  <advance width="460"/>
-  <unicode hex="1F38"/>
-  <outline>
-    <contour>
-      <point x="7" y="501" type="line"/>
-      <point x="36" y="531"/>
-      <point x="52" y="553"/>
-      <point x="52" y="585" type="curve" smooth="yes"/>
-      <point x="52" y="616"/>
-      <point x="21" y="631"/>
-      <point x="21" y="660" type="curve" smooth="yes"/>
-      <point x="21" y="684"/>
-      <point x="39" y="703"/>
-      <point x="62" y="703" type="curve" smooth="yes"/>
-      <point x="96" y="703"/>
-      <point x="119" y="673"/>
-      <point x="119" y="631" type="curve" smooth="yes"/>
-      <point x="119" y="569"/>
-      <point x="69" y="526"/>
-      <point x="23" y="486" type="curve"/>
-    </contour>
-    <contour>
-      <point x="148" y="0" type="line"/>
-      <point x="148" y="29" type="line"/>
-      <point x="236" y="35"/>
-      <point x="238" y="37"/>
-      <point x="238" y="93" type="curve" smooth="yes"/>
-      <point x="238" y="599" type="line" smooth="yes"/>
-      <point x="238" y="655"/>
-      <point x="236" y="657"/>
-      <point x="148" y="663" type="curve"/>
-      <point x="148" y="692" type="line"/>
-      <point x="427" y="692" type="line"/>
-      <point x="427" y="663" type="line"/>
-      <point x="340" y="657"/>
-      <point x="337" y="655"/>
-      <point x="337" y="599" type="curve" smooth="yes"/>
-      <point x="337" y="93" type="line" smooth="yes"/>
-      <point x="337" y="37"/>
-      <point x="340" y="35"/>
-      <point x="427" y="29" type="curve"/>
-      <point x="427" y="0" type="line"/>
-    </contour>
-  </outline>
-  <lib>
-    <dict>
-      <key>com.fontlab.hintData</key>
-      <dict>
-        <key>hhints</key>
-        <array>
-          <dict>
-            <key>position</key>
-            <integer>0</integer>
-            <key>width</key>
-            <integer>29</integer>
-          </dict>
-          <dict>
-            <key>position</key>
-            <integer>663</integer>
-            <key>width</key>
-            <integer>29</integer>
-          </dict>
-          <dict>
-            <key>position</key>
-            <integer>683</integer>
-            <key>width</key>
-            <integer>20</integer>
-          </dict>
-        </array>
-        <key>vhints</key>
-        <array>
-          <dict>
-            <key>position</key>
-            <integer>52</integer>
-            <key>width</key>
-            <integer>67</integer>
-          </dict>
-          <dict>
-            <key>position</key>
-            <integer>238</integer>
-            <key>width</key>
-            <integer>99</integer>
-          </dict>
-        </array>
-      </dict>
-    </dict>
-  </lib>
+<glyph name="uni1F38" format="2">
+	<unicode hex="1F38"/>
+	<advance width="349"/>
+	<outline>
+		<component base="Iota"/>
+		<component base="uni0313" xOffset="122" yOffset="-48"/>
+	</outline>
+	<anchor name="ogonek" x="190" y="10"/>
+	<anchor name="tonos" x="0" y="702"/>
+	<lib>
+		<dict>
+			<key>com.fontlab.autolayer</key>
+			<true/>
+			<key>com.fontlab.hintData</key>
+			<dict>
+				<key>hhints</key>
+				<array>
+					<dict>
+						<key>position</key>
+						<integer>0</integer>
+						<key>width</key>
+						<integer>29</integer>
+					</dict>
+					<dict>
+						<key>position</key>
+						<integer>663</integer>
+						<key>width</key>
+						<integer>29</integer>
+					</dict>
+					<dict>
+						<key>position</key>
+						<integer>683</integer>
+						<key>width</key>
+						<integer>20</integer>
+					</dict>
+				</array>
+				<key>vhints</key>
+				<array>
+					<dict>
+						<key>position</key>
+						<integer>52</integer>
+						<key>width</key>
+						<integer>67</integer>
+					</dict>
+					<dict>
+						<key>position</key>
+						<integer>238</integer>
+						<key>width</key>
+						<integer>99</integer>
+					</dict>
+				</array>
+			</dict>
+			<key>com.fontlab.recipe</key>
+			<string>Iota+uni0313</string>
+		</dict>
+	</lib>
 </glyph>

@@ -1,79 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="uni1E2C" format="1">
-  <advance width="349"/>
-  <unicode hex="1E2C"/>
-  <outline>
-    <contour>
-      <point x="-3" y="-170" type="line"/>
-      <point x="17" y="-130"/>
-      <point x="45" y="-72"/>
-      <point x="109" y="-72" type="curve" smooth="yes"/>
-      <point x="133" y="-72"/>
-      <point x="161" y="-81"/>
-      <point x="188" y="-91" type="curve" smooth="yes"/>
-      <point x="216" y="-100"/>
-      <point x="243" y="-110"/>
-      <point x="264" y="-110" type="curve" smooth="yes"/>
-      <point x="292" y="-110"/>
-      <point x="304" y="-99"/>
-      <point x="332" y="-64" type="curve"/>
-      <point x="352" y="-75" type="line"/>
-      <point x="323" y="-132"/>
-      <point x="297" y="-170"/>
-      <point x="248" y="-170" type="curve" smooth="yes"/>
-      <point x="226" y="-170"/>
-      <point x="197" y="-160"/>
-      <point x="168" y="-151" type="curve" smooth="yes"/>
-      <point x="139" y="-141"/>
-      <point x="110" y="-132"/>
-      <point x="88" y="-132" type="curve" smooth="yes"/>
-      <point x="55" y="-132"/>
-      <point x="38" y="-148"/>
-      <point x="16" y="-183" type="curve"/>
-    </contour>
-    <contour>
-      <point x="35" y="0" type="line"/>
-      <point x="35" y="29" type="line"/>
-      <point x="123" y="35"/>
-      <point x="125" y="37"/>
-      <point x="125" y="93" type="curve" smooth="yes"/>
-      <point x="125" y="599" type="line" smooth="yes"/>
-      <point x="125" y="655"/>
-      <point x="123" y="657"/>
-      <point x="35" y="663" type="curve"/>
-      <point x="35" y="692" type="line"/>
-      <point x="314" y="692" type="line"/>
-      <point x="314" y="663" type="line"/>
-      <point x="227" y="657"/>
-      <point x="224" y="655"/>
-      <point x="224" y="599" type="curve" smooth="yes"/>
-      <point x="224" y="93" type="line" smooth="yes"/>
-      <point x="224" y="37"/>
-      <point x="227" y="35"/>
-      <point x="314" y="29" type="curve"/>
-      <point x="314" y="0" type="line"/>
-    </contour>
-  </outline>
-  <lib>
-    <dict>
-      <key>com.fontlab.hintData</key>
-      <dict>
-        <key>hhints</key>
-        <array>
-          <dict>
-            <key>position</key>
-            <integer>-170</integer>
-            <key>width</key>
-            <integer>60</integer>
-          </dict>
-          <dict>
-            <key>position</key>
-            <integer>-132</integer>
-            <key>width</key>
-            <integer>60</integer>
-          </dict>
-        </array>
-      </dict>
-    </dict>
-  </lib>
+<glyph name="uni1E2C" format="2">
+	<unicode hex="1E2C"/>
+	<advance width="349"/>
+	<outline>
+		<component base="I"/>
+		<component base="uni0330.cap" xOffset="374"/>
+	</outline>
+	<anchor name="ogonek" x="190" y="10"/>
+	<anchor name="tonos" x="0" y="702"/>
+	<lib>
+		<dict>
+			<key>com.fontlab.autolayer</key>
+			<true/>
+			<key>com.fontlab.hintData</key>
+			<dict>
+				<key>hhints</key>
+				<array>
+					<dict>
+						<key>position</key>
+						<integer>-170</integer>
+						<key>width</key>
+						<integer>60</integer>
+					</dict>
+					<dict>
+						<key>position</key>
+						<integer>-132</integer>
+						<key>width</key>
+						<integer>60</integer>
+					</dict>
+				</array>
+			</dict>
+			<key>com.fontlab.recipe</key>
+			<string>I+uni0330.cap</string>
+		</dict>
+	</lib>
 </glyph>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Hcaron" format="2">
+  <advance width="807"/>
+  <unicode hex="021E"/>
+  <anchor x="0" y="702" name="tonos"/>
+  <anchor x="198" y="0" name="cedilla"/>
+  <anchor x="403.5" y="910" name="top"/>
+  <outline>
+    <component base="H"/>
+    <component base="uni030C.cap" xOffset="618.5"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.autolayer</key>
+  <true/>
+  <key>com.fontlab.recipe</key>
+  <string>H+uni030C.cap</string>
+  </dict>
+  </lib>
+</glyph>

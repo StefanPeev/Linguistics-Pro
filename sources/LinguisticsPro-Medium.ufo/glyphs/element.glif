@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="element" format="2">
+  <advance width="580"/>
+  <unicode hex="2208"/>
+  <outline>
+    <contour>
+      <point x="48" y="281.17" type="line" smooth="yes"/>
+      <point x="48" y="405.118"/>
+      <point x="120.142" y="479.72"/>
+      <point x="240" y="479.72" type="curve" smooth="yes"/>
+      <point x="532" y="479.72" type="line"/>
+      <point x="532" y="413.72" type="line"/>
+      <point x="240" y="413.72" type="line" smooth="yes"/>
+      <point x="158.408" y="413.72"/>
+      <point x="116.576" y="368.624"/>
+      <point x="116.576" y="281.17" type="curve"/>
+      <point x="117.116" y="215.177" type="line"/>
+      <point x="117.116" y="131.06"/>
+      <point x="159.735" y="86.603"/>
+      <point x="240" y="86.603" type="curve" smooth="yes"/>
+      <point x="532" y="86.603" type="line"/>
+      <point x="532" y="20.603" type="line"/>
+      <point x="240" y="20.603" type="line" smooth="yes"/>
+      <point x="123.677" y="20.603"/>
+      <point x="48" y="97.292"/>
+      <point x="48" y="215.177" type="curve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="101.576" y="281.17" type="line"/>
+      <point x="532" y="281.17" type="line"/>
+      <point x="532" y="215.177" type="line"/>
+      <point x="102.116" y="215.177" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.metricsLeft</key>
+  <string>=equal</string>
+  <key>com.fontlab.metricsRight</key>
+  <string>=equal</string>
+  <key>com.fontlab.recipe</key>
+  <string>equivalence</string>
+  <key>public.markColor</key>
+  <string>0.6,0.602,1,1</string>
+  </dict>
+  </lib>
+</glyph>

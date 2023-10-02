@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Alphalenisgrave" format="2">
+  <advance width="732"/>
+  <unicode hex="1F0A"/>
+  <anchor x="563.667" y="733.333" name="top"/>
+  <anchor x="567.667" y="663.333" name="aring"/>
+  <anchor x="624.333" y="10" name="ogonek"/>
+  <outline>
+    <component base="Alpha" xOffset="101"/>
+    <component base="lenisgrave" xyScale="1.94215e-18" xOffset="-46.667" yOffset="-54.667"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.recipe</key>
+  <string>Alpha+lenisgrave</string>
+  <key>public.markColor</key>
+  <string>0.6,0.602,1,1</string>
+  </dict>
+  </lib>
+</glyph>

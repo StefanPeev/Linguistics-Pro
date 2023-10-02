@@ -1,33 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="acutebelowcomb" format="2">
-	<unicode hex="0317"/>
-	<outline>
-		<component base="acutecomb" xOffset="25.3725" yOffset="-850.406"/>
-	</outline>
-	<guideline x="0" y="-130" angle="0"/>
-	<lib>
-		<dict>
-			<key>com.fontlab.hintData</key>
-			<dict>
-				<key>hhints</key>
-				<array>
-					<dict>
-						<key>position</key>
-						<integer>-326</integer>
-						<key>width</key>
-						<integer>181</integer>
-					</dict>
-				</array>
-				<key>vhints</key>
-				<array>
-					<dict>
-						<key>position</key>
-						<integer>-271</integer>
-						<key>width</key>
-						<integer>222</integer>
-					</dict>
-				</array>
-			</dict>
-		</dict>
-	</lib>
+  <unicode hex="0317"/>
+  <outline>
+    <component base="acutecomb" xOffset="25.373" yOffset="-850.406"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.hintData</key>
+  <dict>
+    <key>hhints</key>
+    <array>
+      <dict>
+        <key>position</key>
+        <integer>-326</integer>
+        <key>width</key>
+        <integer>181</integer>
+      </dict>
+    </array>
+    <key>vhints</key>
+    <array>
+      <dict>
+        <key>position</key>
+        <integer>-271</integer>
+        <key>width</key>
+        <integer>222</integer>
+      </dict>
+    </array>
+  </dict>
+  </dict>
+  </lib>
 </glyph>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="abrevegrave" format="2">
+  <advance width="544"/>
+  <unicode hex="1EB1"/>
+  <anchor x="273" y="540" name="aring"/>
+  <anchor x="437" y="10" name="ogonek"/>
+  <outline>
+    <component base="abreve"/>
+    <component base="gravecomb" xOffset="462.5" yOffset="198"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.autolayer</key>
+  <true/>
+  <key>com.fontlab.recipe</key>
+  <string>abreve+gravecomb</string>
+  </dict>
+  </lib>
+</glyph>

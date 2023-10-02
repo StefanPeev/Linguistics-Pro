@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="aring" format="2">
+	<unicode hex="00E5"/>
+	<advance width="537"/>
+	<outline>
+		<component base="a"/>
+		<component base="uni030A" xyScale="0" xOffset="563" yOffset="-2.66667"/>
+	</outline>
+	<anchor name="aring" x="270.667" y="540"/>
+	<anchor name="ogonek" x="437" y="10"/>
+	<anchor name="top" x="269" y="784"/>
+	<lib>
+		<dict>
+			<key>com.fontlab.autolayer</key>
+			<true/>
+			<key>com.fontlab.hintData</key>
+			<dict>
+				<key>hhints</key>
+				<array>
+					<dict>
+						<key>position</key>
+						<integer>550</integer>
+						<key>width</key>
+						<integer>33</integer>
+					</dict>
+					<dict>
+						<key>position</key>
+						<integer>719</integer>
+						<key>width</key>
+						<integer>33</integer>
+					</dict>
+				</array>
+				<key>vhints</key>
+				<array>
+					<dict>
+						<key>position</key>
+						<integer>154</integer>
+						<key>width</key>
+						<integer>58</integer>
+					</dict>
+					<dict>
+						<key>position</key>
+						<integer>312</integer>
+						<key>width</key>
+						<integer>58</integer>
+					</dict>
+				</array>
+			</dict>
+			<key>com.fontlab.recipe</key>
+			<string>a+uni030A</string>
+		</dict>
+	</lib>
+</glyph>

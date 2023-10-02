@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="checkboxchecked" format="2">
+  <advance width="729"/>
+  <unicode hex="2611"/>
+  <outline>
+    <contour>
+      <point x="119" y="-16" type="line"/>
+      <point x="119" y="490" type="line"/>
+      <point x="216" y="570" type="line"/>
+      <point x="725" y="570" type="line"/>
+      <point x="725" y="59" type="line"/>
+      <point x="624" y="-16" type="line"/>
+    </contour>
+    <contour>
+      <point x="160" y="26" type="line"/>
+      <point x="599" y="26" type="line"/>
+      <point x="599" y="476" type="line"/>
+      <point x="160" y="476" type="line"/>
+    </contour>
+    <contour>
+      <point x="191" y="243" type="curve"/>
+      <point x="197" y="256"/>
+      <point x="234" y="285"/>
+      <point x="249" y="288" type="curve"/>
+      <point x="257" y="252"/>
+      <point x="300" y="155"/>
+      <point x="317" y="122" type="curve"/>
+      <point x="342" y="178"/>
+      <point x="422" y="357"/>
+      <point x="476" y="423" type="curve"/>
+      <point x="488" y="439"/>
+      <point x="542" y="456"/>
+      <point x="572" y="458" type="curve"/>
+      <point x="575" y="455" type="line"/>
+      <point x="482" y="361"/>
+      <point x="394" y="191"/>
+      <point x="315" y="53" type="curve"/>
+      <point x="308" y="53" type="line"/>
+      <point x="283" y="71"/>
+      <point x="191" y="219"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>1,0.994,0.6,1</string>
+  </dict>
+  </lib>
+</glyph>

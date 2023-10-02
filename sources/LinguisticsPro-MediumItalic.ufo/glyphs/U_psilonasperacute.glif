@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Upsilonasperacute" format="2">
+  <advance width="601"/>
+  <unicode hex="1F5D"/>
+  <anchor x="-69.387" y="713.667" name="top"/>
+  <outline>
+    <component base="Upsilon"/>
+    <component base="asperacute" xyScale="1.40924e-18" xOffset="-293" yOffset="-39.667"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.autolayer</key>
+  <true/>
+  <key>com.fontlab.recipe</key>
+  <string>Upsilon+asperacute</string>
+  <key>public.markColor</key>
+  <string>0.6,0.602,1,1</string>
+  </dict>
+  </lib>
+</glyph>

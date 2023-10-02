@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="greaterequal" format="2">
+  <advance width="685"/>
+  <unicode hex="2265"/>
+  <outline>
+    <component base="greater" xOffset="46" yOffset="91"/>
+    <component base="minus" xOffset="49" yOffset="-232"/>
+  </outline>
+  <guideline angle="90" x="167" y="0"/>
+  <guideline angle="90" x="645" y="0"/>
+  <guideline angle="0" x="0" y="58"/>
+  <guideline angle="0" x="0" y="96"/>
+  <lib>
+  <dict>
+  <key>com.fontlab.recipe</key>
+  <string>space+^greater+minus%</string>
+  <key>public.markColor</key>
+  <string>1,0.994,0.6,1</string>
+  </dict>
+  </lib>
+</glyph>

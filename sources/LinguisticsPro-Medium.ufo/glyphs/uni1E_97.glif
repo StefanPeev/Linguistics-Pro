@@ -1,47 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni1E97" format="2">
-	<unicode hex="1E97"/>
-	<advance width="353"/>
-	<outline>
-		<component base="t"/>
-		<component base="uni0308" xyScale="0" xOffset="385.667" yOffset="116.667"/>
-	</outline>
-	<anchor name="top" x="171.333" y="843.333"/>
-	<lib>
-		<dict>
-			<key>com.fontlab.autolayer</key>
-			<true/>
-			<key>com.fontlab.hintData</key>
-			<dict>
-				<key>hhints</key>
-				<array>
-					<dict>
-						<key>position</key>
-						<integer>684</integer>
-						<key>width</key>
-						<integer>113</integer>
-					</dict>
-				</array>
-				<key>vhints</key>
-				<array>
-					<dict>
-						<key>position</key>
-						<integer>-14</integer>
-						<key>width</key>
-						<integer>120</integer>
-					</dict>
-					<dict>
-						<key>position</key>
-						<integer>194</integer>
-						<key>width</key>
-						<integer>120</integer>
-					</dict>
-				</array>
-			</dict>
-			<key>com.fontlab.recipe</key>
-			<string>t+uni0308</string>
-			<key>public.markColor</key>
-			<string>1,0.6,0.6,1</string>
-		</dict>
-	</lib>
+  <advance width="353"/>
+  <unicode hex="1E97"/>
+  <anchor x="171.333" y="843.333" name="top"/>
+  <outline>
+    <component base="t"/>
+    <component base="uni0308" xScale="1" xyScale="4.9738e-18" yScale="1" xOffset="385.667" yOffset="116.667"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.autolayer</key>
+  <true/>
+  <key>com.fontlab.hintData</key>
+  <dict>
+    <key>hhints</key>
+    <array>
+      <dict>
+        <key>position</key>
+        <integer>684</integer>
+        <key>width</key>
+        <integer>113</integer>
+      </dict>
+    </array>
+    <key>vhints</key>
+    <array>
+      <dict>
+        <key>position</key>
+        <integer>-14</integer>
+        <key>width</key>
+        <integer>120</integer>
+      </dict>
+      <dict>
+        <key>position</key>
+        <integer>194</integer>
+        <key>width</key>
+        <integer>120</integer>
+      </dict>
+    </array>
+  </dict>
+  <key>com.fontlab.recipe</key>
+  <string>t+uni0308</string>
+  </dict>
+  </lib>
 </glyph>

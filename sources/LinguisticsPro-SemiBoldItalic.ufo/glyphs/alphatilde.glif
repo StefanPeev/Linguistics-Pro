@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="alphatilde" format="2">
+  <advance width="671"/>
+  <unicode hex="1FB6"/>
+  <anchor x="205.333" y="-56.667" name="bottom.jota"/>
+  <anchor x="354.333" y="709" name="top"/>
+  <outline>
+    <component base="alpha"/>
+    <component base="perispomenicomb" xOffset="412.333" yOffset="-3"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.autolayer</key>
+  <true/>
+  <key>com.fontlab.recipe</key>
+  <string>alpha+uni0342</string>
+  <key>public.markColor</key>
+  <string>1,0.994,0.6,1</string>
+  </dict>
+  </lib>
+</glyph>

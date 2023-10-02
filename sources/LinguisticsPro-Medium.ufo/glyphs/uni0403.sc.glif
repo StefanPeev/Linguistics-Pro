@@ -1,38 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni0403.sc" format="2">
-	<advance width="486"/>
-	<outline>
-		<component base="uni0413.sc"/>
-		<component base="uni0301.cap" xyScale="0" xOffset="400" yOffset="-155.333"/>
-	</outline>
-	<anchor name="top" x="251.667" y="580"/>
-	<lib>
-		<dict>
-			<key>com.fontlab.autolayer</key>
-			<true/>
-			<key>com.fontlab.hintData</key>
-			<dict>
-				<key>hhints</key>
-				<array>
-					<dict>
-						<key>position</key>
-						<integer>563</integer>
-						<key>width</key>
-						<integer>168</integer>
-					</dict>
-				</array>
-				<key>vhints</key>
-				<array>
-					<dict>
-						<key>position</key>
-						<integer>172</integer>
-						<key>width</key>
-						<integer>234</integer>
-					</dict>
-				</array>
-			</dict>
-			<key>com.fontlab.recipe</key>
-			<string>uni0413.sc+uni0301.cap</string>
-		</dict>
-	</lib>
+  <advance width="486"/>
+  <outline>
+    <component base="uni0413.sc"/>
+    <component base="uni0301.cap" xyScale="-4.41484e-18" xOffset="400" yOffset="-155.333"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.autolayer</key>
+  <true/>
+  <key>com.fontlab.hintData</key>
+  <dict>
+    <key>hhints</key>
+    <array>
+      <dict>
+        <key>position</key>
+        <integer>563</integer>
+        <key>width</key>
+        <integer>168</integer>
+      </dict>
+    </array>
+    <key>vhints</key>
+    <array>
+      <dict>
+        <key>position</key>
+        <integer>172</integer>
+        <key>width</key>
+        <integer>234</integer>
+      </dict>
+    </array>
+  </dict>
+  <key>com.fontlab.recipe</key>
+  <string>uni0413.sc+uni0301.cap</string>
+  </dict>
+  </lib>
 </glyph>

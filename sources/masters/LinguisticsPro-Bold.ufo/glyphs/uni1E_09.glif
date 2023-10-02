@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni1E09" format="2">
+  <advance width="494"/>
+  <unicode hex="1E09"/>
+  <anchor x="218" y="760" name="top"/>
+  <outline>
+    <component base="ccedilla"/>
+    <component base="acutecomb" xOffset="422"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.autolayer</key>
+  <true/>
+  <key>com.fontlab.hintData</key>
+  <dict>
+    <key>hhints</key>
+    <array>
+      <dict>
+        <key>position</key>
+        <integer>-246</integer>
+        <key>width</key>
+        <integer>35</integer>
+      </dict>
+      <dict>
+        <key>position</key>
+        <integer>456</integer>
+        <key>width</key>
+        <integer>46</integer>
+      </dict>
+      <dict>
+        <key>position</key>
+        <integer>511</integer>
+        <key>width</key>
+        <integer>229</integer>
+      </dict>
+    </array>
+    <key>vhints</key>
+    <array>
+      <dict>
+        <key>position</key>
+        <integer>34</integer>
+        <key>width</key>
+        <integer>159</integer>
+      </dict>
+      <dict>
+        <key>position</key>
+        <integer>196</integer>
+        <key>width</key>
+        <integer>272</integer>
+      </dict>
+      <dict>
+        <key>position</key>
+        <integer>263</integer>
+        <key>width</key>
+        <integer>105</integer>
+      </dict>
+      <dict>
+        <key>position</key>
+        <integer>347</integer>
+        <key>width</key>
+        <integer>131</integer>
+      </dict>
+      <dict>
+        <key>position</key>
+        <integer>449</integer>
+        <key>width</key>
+        <integer>35</integer>
+      </dict>
+    </array>
+  </dict>
+  <key>com.fontlab.recipe</key>
+  <string>ccedilla+acutecomb</string>
+  </dict>
+  </lib>
+</glyph>

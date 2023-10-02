@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Etaiotasub" format="2">
+  <advance width="770"/>
+  <unicode hex="1FCC"/>
+  <anchor x="151" y="702" name="tonos"/>
+  <outline>
+    <component base="Eta"/>
+    <component base="iotasubcomb" xScale="1" xOffset="529.677"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.autolayer</key>
+  <true/>
+  <key>com.fontlab.recipe</key>
+  <string>Eta+uni0345</string>
+  <key>public.markColor</key>
+  <string>0.6,0.602,1,1</string>
+  </dict>
+  </lib>
+</glyph>

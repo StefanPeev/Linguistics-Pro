@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="grave-gr" format="2">
+  <advance width="185"/>
+  <unicode hex="1FEF"/>
+  <anchor x="237" y="536" name="_top"/>
+  <anchor x="291" y="763.333" name="_tonos"/>
+  <outline>
+    <contour>
+      <point x="226.684" y="762.996" type="curve" smooth="yes"/>
+      <point x="271.797" y="763.063"/>
+      <point x="290.99" y="726.831"/>
+      <point x="290.992" y="709.546" type="curve" smooth="yes"/>
+      <point x="291.01" y="547.02" type="line"/>
+      <point x="255.183" y="537.254" type="line"/>
+      <point x="200.943" y="639.817" type="line" smooth="yes"/>
+      <point x="189.605" y="660.733"/>
+      <point x="169.83" y="693.335"/>
+      <point x="169.8" y="710.295" type="curve" smooth="yes"/>
+      <point x="169.758" y="741.466"/>
+      <point x="191.752" y="762.936"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.recipe</key>
+  <string>grave</string>
+  <key>public.markColor</key>
+  <string>1,0.994,0.6,1</string>
+  </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="bar.alt" format="2">
+  <advance width="270"/>
+  <outline>
+    <contour>
+      <point x="165" y="-128" type="line"/>
+      <point x="165" y="692" type="line"/>
+      <point x="233" y="692" type="line"/>
+      <point x="233" y="-128" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.postscript.hints</key>
+  <dict>
+    <key>formatVersion</key>
+    <string>1</string>
+    <key>id</key>
+    <string>w270m165,-128l165,692l233,692l233,-128</string>
+    <key>hintSetList</key>
+    <array>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>vstem 165 68</string>
+        </array>
+      </dict>
+    </array>
+  </dict>
+  </dict>
+  </lib>
+</glyph>

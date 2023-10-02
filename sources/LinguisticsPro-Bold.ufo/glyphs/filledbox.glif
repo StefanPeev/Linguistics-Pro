@@ -1,38 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="filledbox" format="2">
-	<unicode hex="25A0"/>
-	<advance width="465"/>
-	<outline>
-		<contour>
-			<point x="69" y="94" type="line"/>
-			<point x="69" y="429" type="line"/>
-			<point x="395" y="429" type="line"/>
-			<point x="395" y="94" type="line"/>
-		</contour>
-	</outline>
-	<lib>
-		<dict>
-			<key>com.fontlab.hintData</key>
-			<dict>
-				<key>hhints</key>
-				<array>
-					<dict>
-						<key>position</key>
-						<integer>94</integer>
-						<key>width</key>
-						<integer>335</integer>
-					</dict>
-				</array>
-				<key>vhints</key>
-				<array>
-					<dict>
-						<key>position</key>
-						<integer>69</integer>
-						<key>width</key>
-						<integer>326</integer>
-					</dict>
-				</array>
-			</dict>
-		</dict>
-	</lib>
+  <advance width="488"/>
+  <unicode hex="25A0"/>
+  <outline>
+    <contour>
+      <point x="40.25" y="52.125" type="line"/>
+      <point x="40.25" y="470.875" type="line"/>
+      <point x="447.75" y="470.875" type="line"/>
+      <point x="447.75" y="52.125" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.hintData</key>
+  <dict>
+    <key>hhints</key>
+    <array>
+      <dict>
+        <key>position</key>
+        <integer>94</integer>
+        <key>width</key>
+        <integer>335</integer>
+      </dict>
+    </array>
+    <key>vhints</key>
+    <array>
+      <dict>
+        <key>position</key>
+        <integer>69</integer>
+        <key>width</key>
+        <integer>326</integer>
+      </dict>
+    </array>
+  </dict>
+  </dict>
+  </lib>
 </glyph>

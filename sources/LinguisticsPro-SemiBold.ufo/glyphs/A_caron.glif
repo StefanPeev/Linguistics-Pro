@@ -1,60 +1,60 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Acaron" format="2">
-	<unicode hex="01CD"/>
-	<advance width="641"/>
-	<outline>
-		<component base="A"/>
-		<component base="caron.cap" xOffset="119.833"/>
-	</outline>
-	<anchor name="aring" x="316" y="663.333"/>
-	<anchor name="ogonek" x="507.333" y="10"/>
-	<anchor name="tonos" x="160.667" y="705.333"/>
-	<anchor name="top" x="315.667" y="733.333"/>
-	<lib>
-		<dict>
-			<key>com.fontlab.autolayer</key>
-			<true/>
-			<key>com.fontlab.hintData</key>
-			<dict>
-				<key>hhints</key>
-				<array>
-					<dict>
-						<key>position</key>
-						<integer>0</integer>
-						<key>width</key>
-						<integer>29</integer>
-					</dict>
-					<dict>
-						<key>position</key>
-						<integer>267</integer>
-						<key>width</key>
-						<integer>38</integer>
-					</dict>
-					<dict>
-						<key>position</key>
-						<integer>672</integer>
-						<key>width</key>
-						<integer>20</integer>
-					</dict>
-					<dict>
-						<key>position</key>
-						<integer>723</integer>
-						<key>width</key>
-						<integer>84</integer>
-					</dict>
-				</array>
-				<key>vhints</key>
-				<array>
-					<dict>
-						<key>position</key>
-						<integer>161</integer>
-						<key>width</key>
-						<integer>306</integer>
-					</dict>
-				</array>
-			</dict>
-			<key>com.fontlab.recipe</key>
-			<string>A+caron.cap</string>
-		</dict>
-	</lib>
+  <advance width="641"/>
+  <unicode hex="01CD"/>
+  <anchor x="315.667" y="733.333" name="top"/>
+  <anchor x="507.333" y="10" name="ogonek"/>
+  <anchor x="316" y="663.333" name="aring"/>
+  <anchor x="160.667" y="705.333" name="tonos"/>
+  <outline>
+    <component base="A"/>
+    <component base="caron.cap" xScale="1" xOffset="119.833"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.autolayer</key>
+  <true/>
+  <key>com.fontlab.hintData</key>
+  <dict>
+    <key>hhints</key>
+    <array>
+      <dict>
+        <key>position</key>
+        <integer>0</integer>
+        <key>width</key>
+        <integer>29</integer>
+      </dict>
+      <dict>
+        <key>position</key>
+        <integer>267</integer>
+        <key>width</key>
+        <integer>38</integer>
+      </dict>
+      <dict>
+        <key>position</key>
+        <integer>672</integer>
+        <key>width</key>
+        <integer>20</integer>
+      </dict>
+      <dict>
+        <key>position</key>
+        <integer>723</integer>
+        <key>width</key>
+        <integer>84</integer>
+      </dict>
+    </array>
+    <key>vhints</key>
+    <array>
+      <dict>
+        <key>position</key>
+        <integer>161</integer>
+        <key>width</key>
+        <integer>306</integer>
+      </dict>
+    </array>
+  </dict>
+  <key>com.fontlab.recipe</key>
+  <string>A+caron.cap</string>
+  </dict>
+  </lib>
 </glyph>

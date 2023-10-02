@@ -1,47 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Iacute" format="2">
-	<unicode hex="00CD"/>
-	<advance width="361"/>
-	<outline>
-		<component base="I"/>
-		<component base="acute.cap" xOffset="-61.6667"/>
-	</outline>
-	<anchor name="ogonek" x="196.667" y="10"/>
-	<anchor name="tonos" x="0" y="702"/>
-	<anchor name="top" x="163.667" y="930"/>
-	<lib>
-		<dict>
-			<key>com.fontlab.autolayer</key>
-			<true/>
-			<key>com.fontlab.hintData</key>
-			<dict>
-				<key>hhints</key>
-				<array>
-					<dict>
-						<key>position</key>
-						<integer>0</integer>
-						<key>width</key>
-						<integer>29</integer>
-					</dict>
-					<dict>
-						<key>position</key>
-						<integer>663</integer>
-						<key>width</key>
-						<integer>29</integer>
-					</dict>
-				</array>
-				<key>vhints</key>
-				<array>
-					<dict>
-						<key>position</key>
-						<integer>125</integer>
-						<key>width</key>
-						<integer>99</integer>
-					</dict>
-				</array>
-			</dict>
-			<key>com.fontlab.recipe</key>
-			<string>I+acute.cap</string>
-		</dict>
-	</lib>
+  <advance width="361"/>
+  <unicode hex="00CD"/>
+  <anchor x="196.667" y="10" name="ogonek"/>
+  <anchor x="0" y="702" name="tonos"/>
+  <anchor x="180.667" y="-65.333" name="bottom"/>
+  <anchor x="163.667" y="930" name="top"/>
+  <outline>
+    <component base="I"/>
+    <component base="acute.cap" xOffset="-61.667"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.autolayer</key>
+  <true/>
+  <key>com.fontlab.hintData</key>
+  <dict>
+    <key>hhints</key>
+    <array>
+      <dict>
+        <key>position</key>
+        <integer>0</integer>
+        <key>width</key>
+        <integer>29</integer>
+      </dict>
+      <dict>
+        <key>position</key>
+        <integer>663</integer>
+        <key>width</key>
+        <integer>29</integer>
+      </dict>
+    </array>
+    <key>vhints</key>
+    <array>
+      <dict>
+        <key>position</key>
+        <integer>125</integer>
+        <key>width</key>
+        <integer>99</integer>
+      </dict>
+    </array>
+  </dict>
+  <key>com.fontlab.recipe</key>
+  <string>I+acute.cap</string>
+  </dict>
+  </lib>
 </glyph>

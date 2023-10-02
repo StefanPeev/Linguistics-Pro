@@ -1,39 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni1E6B" format="2">
-	<unicode hex="1E6B"/>
-	<advance width="370"/>
-	<outline>
-		<component base="t"/>
-		<component base="uni0307" xOffset="423" yOffset="130"/>
-	</outline>
-	<anchor name="top" x="185" y="890"/>
-	<lib>
-		<dict>
-			<key>com.fontlab.autolayer</key>
-			<true/>
-			<key>com.fontlab.hintData</key>
-			<dict>
-				<key>hhints</key>
-				<array>
-					<dict>
-						<key>position</key>
-						<integer>684</integer>
-						<key>width</key>
-						<integer>113</integer>
-					</dict>
-				</array>
-				<key>vhints</key>
-				<array>
-					<dict>
-						<key>position</key>
-						<integer>90</integer>
-						<key>width</key>
-						<integer>120</integer>
-					</dict>
-				</array>
-			</dict>
-			<key>com.fontlab.recipe</key>
-			<string>t+uni0307</string>
-		</dict>
-	</lib>
+  <advance width="370"/>
+  <unicode hex="1E6B"/>
+  <anchor x="185" y="890" name="top"/>
+  <outline>
+    <component base="t"/>
+    <component base="uni0307" xOffset="423" yOffset="130"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.autolayer</key>
+  <true/>
+  <key>com.fontlab.hintData</key>
+  <dict>
+    <key>hhints</key>
+    <array>
+      <dict>
+        <key>position</key>
+        <integer>684</integer>
+        <key>width</key>
+        <integer>113</integer>
+      </dict>
+    </array>
+    <key>vhints</key>
+    <array>
+      <dict>
+        <key>position</key>
+        <integer>90</integer>
+        <key>width</key>
+        <integer>120</integer>
+      </dict>
+    </array>
+  </dict>
+  <key>com.fontlab.recipe</key>
+  <string>t+uni0307</string>
+  </dict>
+  </lib>
 </glyph>

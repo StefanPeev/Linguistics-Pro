@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni0426.sc" format="2">
+	<advance width="678"/>
+	<outline>
+		<contour>
+			<point x="38" y="0" type="line"/>
+			<point x="38" y="29" type="line"/>
+			<point x="113" y="34"/>
+			<point x="118" y="35"/>
+			<point x="118" y="89" type="curve" smooth="yes"/>
+			<point x="118" y="423" type="line" smooth="yes"/>
+			<point x="118" y="477"/>
+			<point x="113" y="478"/>
+			<point x="38" y="483" type="curve"/>
+			<point x="38" y="512" type="line"/>
+			<point x="292.635" y="512" type="line"/>
+			<point x="292.635" y="483" type="line"/>
+			<point x="217.04" y="478"/>
+			<point x="212" y="477"/>
+			<point x="212" y="423" type="curve" smooth="yes"/>
+			<point x="212" y="92" type="line" smooth="yes"/>
+			<point x="212" y="35"/>
+			<point x="217.04" y="35"/>
+			<point x="292.635" y="35" type="curve" smooth="yes"/>
+			<point x="385.365" y="35" type="line" smooth="yes"/>
+			<point x="460.96" y="35"/>
+			<point x="466" y="35"/>
+			<point x="466" y="92" type="curve" smooth="yes"/>
+			<point x="466" y="423" type="line" smooth="yes"/>
+			<point x="466" y="477"/>
+			<point x="460.96" y="478"/>
+			<point x="385.365" y="483" type="curve"/>
+			<point x="385.365" y="512" type="line"/>
+			<point x="640" y="512" type="line"/>
+			<point x="640" y="483" type="line"/>
+			<point x="565" y="478"/>
+			<point x="559.964" y="477"/>
+			<point x="560" y="423" type="curve" smooth="yes"/>
+			<point x="560.221" y="92.3404" type="line" smooth="yes"/>
+			<point x="560.252" y="47.1352"/>
+			<point x="570.781" y="35"/>
+			<point x="620.282" y="35" type="curve"/>
+			<point x="620.231" y="0" type="line"/>
+		</contour>
+		<contour>
+			<point x="438" y="35" type="line"/>
+			<point x="648" y="35" type="line"/>
+			<point x="662" y="-174" type="line"/>
+			<point x="634" y="-174" type="line"/>
+			<point x="612" y="-57"/>
+			<point x="591" y="0"/>
+			<point x="437.778" y="0" type="curve"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.fontlab.hintData</key>
+			<dict>
+				<key>hhints</key>
+				<array>
+					<dict>
+						<key>position</key>
+						<integer>0</integer>
+						<key>width</key>
+						<integer>35</integer>
+					</dict>
+					<dict>
+						<key>position</key>
+						<integer>483</integer>
+						<key>width</key>
+						<integer>29</integer>
+					</dict>
+				</array>
+				<key>vhints</key>
+				<array>
+					<dict>
+						<key>position</key>
+						<integer>118</integer>
+						<key>width</key>
+						<integer>95</integer>
+					</dict>
+					<dict>
+						<key>position</key>
+						<integer>465</integer>
+						<key>width</key>
+						<integer>95</integer>
+					</dict>
+					<dict>
+						<key>position</key>
+						<integer>634</integer>
+						<key>width</key>
+						<integer>28</integer>
+					</dict>
+				</array>
+			</dict>
+		</dict>
+	</lib>
+</glyph>

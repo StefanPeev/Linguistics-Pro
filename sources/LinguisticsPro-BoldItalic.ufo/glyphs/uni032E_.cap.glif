@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni032E.cap" format="2">
+  <outline>
+    <contour>
+      <point x="-386" y="-89" type="curve"/>
+      <point x="-345" y="-89" type="line"/>
+      <point x="-349" y="-113"/>
+      <point x="-332" y="-158"/>
+      <point x="-237" y="-158" type="curve" smooth="yes"/>
+      <point x="-142" y="-158"/>
+      <point x="-105" y="-113"/>
+      <point x="-97" y="-89" type="curve"/>
+      <point x="-56" y="-89" type="line"/>
+      <point x="-73" y="-163"/>
+      <point x="-120" y="-235"/>
+      <point x="-255" y="-235" type="curve" smooth="yes"/>
+      <point x="-390" y="-235"/>
+      <point x="-403" y="-163"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.postscript.hints</key>
+  <dict>
+    <key>formatVersion</key>
+    <string>1</string>
+    <key>id</key>
+    <string>8150f5b7ec7fc786e1d42aa1385c1ccf5a7ce069456d548a2c79a3b499f745546f79b596d642dd60e6e47e39e9f7d2cc7471c816a98127ebe816b4aa308123f6</string>
+    <key>hintSetList</key>
+    <array>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem -235 77</string>
+          <string>vstem -386 41</string>
+          <string>vstem -97 41</string>
+        </array>
+      </dict>
+    </array>
+  </dict>
+  </dict>
+  </lib>
+</glyph>

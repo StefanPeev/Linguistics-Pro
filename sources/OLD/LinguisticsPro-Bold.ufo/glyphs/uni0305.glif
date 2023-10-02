@@ -1,38 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="uni0305" format="1">
-  <advance width="0"/>
-  <unicode hex="0305"/>
-  <outline>
-    <contour>
-      <point x="-500" y="624" type="line"/>
-      <point x="-500" y="674" type="line"/>
-      <point x="0" y="674" type="line"/>
-      <point x="0" y="624" type="line"/>
-    </contour>
-  </outline>
-  <lib>
-    <dict>
-      <key>com.fontlab.hintData</key>
-      <dict>
-        <key>hhints</key>
-        <array>
-          <dict>
-            <key>position</key>
-            <integer>624</integer>
-            <key>width</key>
-            <integer>50</integer>
-          </dict>
-        </array>
-        <key>vhints</key>
-        <array>
-          <dict>
-            <key>position</key>
-            <integer>-500</integer>
-            <key>width</key>
-            <integer>500</integer>
-          </dict>
-        </array>
-      </dict>
-    </dict>
-  </lib>
+<glyph name="uni0305" format="2">
+	<outline>
+		<contour>
+			<point x="-500" y="624" type="line"/>
+			<point x="-500" y="674" type="line"/>
+			<point x="0" y="674" type="line"/>
+			<point x="0" y="624" type="line"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>public.markColor</key>
+			<string>1,0.6,0.6,1</string>
+		</dict>
+	</lib>
 </glyph>

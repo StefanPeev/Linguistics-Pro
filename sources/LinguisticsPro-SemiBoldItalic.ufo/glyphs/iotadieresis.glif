@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="iotadieresis" format="2">
+  <advance width="365"/>
+  <unicode hex="03CA"/>
+  <anchor x="244.667" y="703" name="top"/>
+  <outline>
+    <component base="iota"/>
+    <component base="uni0308" xyScale="-1.07766e-18" xOffset="302.667" yOffset="-30.333"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.autolayer</key>
+  <true/>
+  <key>com.fontlab.recipe</key>
+  <string>iota+uni0308</string>
+  <key>public.markColor</key>
+  <string>0.6,0.602,1,1</string>
+  </dict>
+  </lib>
+</glyph>

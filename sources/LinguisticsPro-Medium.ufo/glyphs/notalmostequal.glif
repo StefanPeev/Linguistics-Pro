@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="notalmostequal" format="2">
+  <advance width="569"/>
+  <unicode hex="2249"/>
+  <outline>
+    <component base="approxequal"/>
+    <contour>
+      <point x="101.075" y="-30.691" type="line"/>
+      <point x="151.135" y="-62.453" type="line"/>
+      <point x="461.588" y="529.082" type="line"/>
+      <point x="409.528" y="559.845" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.recipe</key>
+  <string>approxequal+uni0338</string>
+  <key>public.markColor</key>
+  <string>0.6,0.602,1,1</string>
+  </dict>
+  </lib>
+</glyph>

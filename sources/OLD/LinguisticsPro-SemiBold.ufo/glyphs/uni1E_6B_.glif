@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni1E6B" format="2">
+	<unicode hex="1E6B"/>
+	<advance width="361"/>
+	<outline>
+		<component base="t"/>
+		<component base="uni0307" xyScale="0" xOffset="417.667" yOffset="126.667"/>
+	</outline>
+	<anchor name="top" x="178" y="880"/>
+	<lib>
+		<dict>
+			<key>com.fontlab.autolayer</key>
+			<true/>
+			<key>com.fontlab.hintData</key>
+			<dict>
+				<key>hhints</key>
+				<array>
+					<dict>
+						<key>position</key>
+						<integer>684</integer>
+						<key>width</key>
+						<integer>113</integer>
+					</dict>
+				</array>
+				<key>vhints</key>
+				<array>
+					<dict>
+						<key>position</key>
+						<integer>90</integer>
+						<key>width</key>
+						<integer>120</integer>
+					</dict>
+				</array>
+			</dict>
+			<key>com.fontlab.recipe</key>
+			<string>t+uni0307</string>
+		</dict>
+	</lib>
+</glyph>

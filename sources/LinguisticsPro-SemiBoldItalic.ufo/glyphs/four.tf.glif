@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="four.tf" format="2">
+  <advance width="550"/>
+  <outline>
+    <contour>
+      <point x="64.333" y="205.333" type="line"/>
+      <point x="191.333" y="367"/>
+      <point x="324.333" y="522"/>
+      <point x="472.333" y="668" type="curve"/>
+      <point x="573.666" y="668" type="line"/>
+      <point x="479.999" y="237" type="line"/>
+      <point x="574.666" y="237" type="line"/>
+      <point x="561.333" y="178.333" type="line"/>
+      <point x="467.333" y="178.333" type="line"/>
+      <point x="443.666" y="70.334" type="line" smooth="yes"/>
+      <point x="438.666" y="48.334"/>
+      <point x="445.666" y="39.667"/>
+      <point x="462.999" y="38.667" type="curve" smooth="yes"/>
+      <point x="511.666" y="35" type="line"/>
+      <point x="503.333" y="0" type="line"/>
+      <point x="211.333" y="0" type="line"/>
+      <point x="220" y="35" type="line"/>
+      <point x="288" y="40" type="line" smooth="yes"/>
+      <point x="304.666" y="41"/>
+      <point x="316.333" y="48"/>
+      <point x="321.333" y="70.334" type="curve" smooth="yes"/>
+      <point x="344.333" y="178.333" type="line"/>
+      <point x="76.666" y="178.333" type="line"/>
+    </contour>
+    <contour>
+      <point x="167" y="237" type="curve"/>
+      <point x="356.999" y="237" type="line"/>
+      <point x="428.666" y="553" type="line"/>
+      <point x="426.666" y="553.667" type="line"/>
+      <point x="334.999" y="453"/>
+      <point x="247.666" y="345"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.postscript.hints</key>
+  <dict>
+    <key>formatVersion</key>
+    <string>1</string>
+    <key>id</key>
+    <string>c4769a58dffc0815b42361a74c7701990141eacc682fd40d5f25156587e672b1fbe795aec0edf957b1189d067740d58f3d9fb0b1cc5a011f5e11df0a28f0aabb</string>
+    <key>hintSetList</key>
+    <array>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem 0 38.67</string>
+          <string>hstem 178.33 58.67</string>
+          <string>vstem 64.33 510.33</string>
+        </array>
+      </dict>
+    </array>
+  </dict>
+  </dict>
+  </lib>
+</glyph>

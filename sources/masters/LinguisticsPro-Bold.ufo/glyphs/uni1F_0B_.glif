@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni1F0B" format="2">
+  <advance width="644"/>
+  <unicode hex="1F0B"/>
+  <anchor x="318" y="730" name="top"/>
+  <anchor x="496" y="10" name="ogonek"/>
+  <anchor x="320" y="660" name="aring"/>
+  <outline>
+    <component base="Alpha"/>
+    <component base="uni1FDD" xOffset="-236" yOffset="-63"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.autolayer</key>
+  <true/>
+  <key>com.fontlab.recipe</key>
+  <string>Alpha+uni1FDD</string>
+  </dict>
+  </lib>
+</glyph>

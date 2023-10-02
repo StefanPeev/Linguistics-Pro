@@ -1,50 +1,50 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni04F3" format="2">
-	<unicode hex="04F3"/>
-	<advance width="518"/>
-	<outline>
-		<component base="uni0443"/>
-		<component base="uni030B" xOffset="497.833"/>
-	</outline>
-	<lib>
-		<dict>
-			<key>com.fontlab.autolayer</key>
-			<true/>
-			<key>com.fontlab.hintData</key>
-			<dict>
-				<key>hhints</key>
-				<array>
-					<dict>
-						<key>position</key>
-						<integer>-242</integer>
-						<key>width</key>
-						<integer>73</integer>
-					</dict>
-					<dict>
-						<key>position</key>
-						<integer>461</integer>
-						<key>width</key>
-						<integer>29</integer>
-					</dict>
-					<dict>
-						<key>position</key>
-						<integer>546</integer>
-						<key>width</key>
-						<integer>204</integer>
-					</dict>
-				</array>
-				<key>vhints</key>
-				<array>
-					<dict>
-						<key>position</key>
-						<integer>159</integer>
-						<key>width</key>
-						<integer>279</integer>
-					</dict>
-				</array>
-			</dict>
-			<key>com.fontlab.recipe</key>
-			<string>uni0443+uni030B</string>
-		</dict>
-	</lib>
+  <advance width="518"/>
+  <unicode hex="04F3"/>
+  <outline>
+    <component base="uni0443"/>
+    <component base="uni030B" xOffset="497.833"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.autolayer</key>
+  <true/>
+  <key>com.fontlab.hintData</key>
+  <dict>
+    <key>hhints</key>
+    <array>
+      <dict>
+        <key>position</key>
+        <integer>-242</integer>
+        <key>width</key>
+        <integer>73</integer>
+      </dict>
+      <dict>
+        <key>position</key>
+        <integer>461</integer>
+        <key>width</key>
+        <integer>29</integer>
+      </dict>
+      <dict>
+        <key>position</key>
+        <integer>546</integer>
+        <key>width</key>
+        <integer>204</integer>
+      </dict>
+    </array>
+    <key>vhints</key>
+    <array>
+      <dict>
+        <key>position</key>
+        <integer>159</integer>
+        <key>width</key>
+        <integer>279</integer>
+      </dict>
+    </array>
+  </dict>
+  <key>com.fontlab.recipe</key>
+  <string>uni0443+uni030B</string>
+  </dict>
+  </lib>
 </glyph>

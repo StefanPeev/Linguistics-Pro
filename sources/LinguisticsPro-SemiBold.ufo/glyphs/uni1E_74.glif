@@ -1,36 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni1E74" format="2">
-	<unicode hex="1E74"/>
-	<advance width="788"/>
-	<outline>
-		<component base="U"/>
-		<component base="uni0330.cap" xOffset="604"/>
-	</outline>
-	<anchor name="ogonek" x="424.333" y="0"/>
-	<lib>
-		<dict>
-			<key>com.fontlab.autolayer</key>
-			<true/>
-			<key>com.fontlab.hintData</key>
-			<dict>
-				<key>hhints</key>
-				<array>
-					<dict>
-						<key>position</key>
-						<integer>-170</integer>
-						<key>width</key>
-						<integer>60</integer>
-					</dict>
-					<dict>
-						<key>position</key>
-						<integer>-132</integer>
-						<key>width</key>
-						<integer>60</integer>
-					</dict>
-				</array>
-			</dict>
-			<key>com.fontlab.recipe</key>
-			<string>U+uni0330.cap</string>
-		</dict>
-	</lib>
+  <advance width="788"/>
+  <unicode hex="1E74"/>
+  <anchor x="424.333" y="0" name="ogonek"/>
+  <outline>
+    <component base="U"/>
+    <component base="uni0330.cap" xOffset="604"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.autolayer</key>
+  <true/>
+  <key>com.fontlab.hintData</key>
+  <dict>
+    <key>hhints</key>
+    <array>
+      <dict>
+        <key>position</key>
+        <integer>-170</integer>
+        <key>width</key>
+        <integer>60</integer>
+      </dict>
+      <dict>
+        <key>position</key>
+        <integer>-132</integer>
+        <key>width</key>
+        <integer>60</integer>
+      </dict>
+    </array>
+  </dict>
+  <key>com.fontlab.recipe</key>
+  <string>U+uni0330.cap</string>
+  </dict>
+  </lib>
 </glyph>

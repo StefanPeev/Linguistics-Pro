@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni1F90" format="2">
+  <advance width="631"/>
+  <unicode hex="1F90"/>
+  <anchor x="312" y="580" name="top"/>
+  <anchor x="106" y="-70" name="bottom.jota"/>
+  <outline>
+    <component base="uni1F20"/>
+    <component base="uni0345" xOffset="323" yOffset="-10"/>
+  </outline>
+  <guideline angle="0" x="0" y="-242"/>
+  <lib>
+  <dict>
+  <key>com.fontlab.recipe</key>
+  <string>uni1F20+uni0345</string>
+  </dict>
+  </lib>
+</glyph>

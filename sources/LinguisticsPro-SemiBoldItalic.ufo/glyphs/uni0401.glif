@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni0401" format="2">
+  <advance width="613"/>
+  <unicode hex="0401"/>
+  <anchor x="148.667" y="703.667" name="tonos"/>
+  <anchor x="148.667" y="692" name="greek.UC.tonos"/>
+  <anchor x="479.667" y="10" name="ogonek"/>
+  <anchor x="476.333" y="903.333" name="top"/>
+  <outline>
+    <component base="uni0415"/>
+    <component base="uni0308" xScale="1" xOffset="534.333" yOffset="170"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.autolayer</key>
+  <true/>
+  <key>com.fontlab.recipe</key>
+  <string>uni0415+uni0308</string>
+  <key>public.markColor</key>
+  <string>0.6,0.997,1,1</string>
+  </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="upsilondieresisgrave" format="2">
+  <advance width="583"/>
+  <unicode hex="1FE2"/>
+  <outline>
+    <component base="upsilondieresis"/>
+    <component base="gravecomb" xScale="1" xyScale="4.48116e-18" yScale="1" xOffset="513.667" yOffset="157.667"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.autolayer</key>
+  <true/>
+  <key>com.fontlab.recipe</key>
+  <string>upsilondieresis+gravecomb</string>
+  <key>public.markColor</key>
+  <string>1,0.994,0.6,1</string>
+  </dict>
+  </lib>
+</glyph>

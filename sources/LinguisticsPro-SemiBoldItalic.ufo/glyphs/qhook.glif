@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="qhook" format="2">
+  <advance width="576"/>
+  <unicode hex="02A0"/>
+  <outline>
+    <component base="q"/>
+    <contour>
+      <point x="611.048" y="451.874" type="line"/>
+      <point x="489.382" y="451.874" type="line"/>
+      <point x="508" y="530.333" type="line" smooth="yes"/>
+      <point x="537.614" y="655.188"/>
+      <point x="607.333" y="742"/>
+      <point x="719.667" y="742" type="curve" smooth="yes"/>
+      <point x="809" y="742"/>
+      <point x="840" y="702.667"/>
+      <point x="840" y="667" type="curve" smooth="yes"/>
+      <point x="840" y="632"/>
+      <point x="811" y="604.667"/>
+      <point x="776.333" y="604.667" type="curve" smooth="yes"/>
+      <point x="741" y="604.667"/>
+      <point x="727.939" y="631.979"/>
+      <point x="721.333" y="659.333" type="curve" smooth="yes"/>
+      <point x="716.272" y="679.648"/>
+      <point x="707.667" y="699.667"/>
+      <point x="682.333" y="699.667" type="curve" smooth="yes"/>
+      <point x="644.333" y="699.667"/>
+      <point x="633.898" y="655.889"/>
+      <point x="631.848" y="573.56" type="curve" smooth="yes"/>
+      <point x="631.564" y="561.556"/>
+      <point x="627.985" y="521.005"/>
+      <point x="623.667" y="503.333" type="curve" smooth="yes"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.recipe</key>
+  <string>q</string>
+  <key>public.markColor</key>
+  <string>0.6,0.602,1,1</string>
+  </dict>
+  </lib>
+</glyph>

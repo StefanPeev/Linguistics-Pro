@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Ocircumflexdotbelow" format="2">
+  <advance width="768"/>
+  <unicode hex="1ED8"/>
+  <anchor x="38" y="702" name="tonos"/>
+  <anchor x="383" y="932" name="top"/>
+  <outline>
+    <component base="Odotbelow"/>
+    <component base="uni0302" xOffset="683" yOffset="202"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.autolayer</key>
+  <true/>
+  <key>com.fontlab.recipe</key>
+  <string>Odotbelow+uni0302</string>
+  </dict>
+  </lib>
+</glyph>

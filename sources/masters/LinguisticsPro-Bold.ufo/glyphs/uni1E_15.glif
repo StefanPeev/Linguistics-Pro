@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni1E15" format="2">
+  <advance width="519"/>
+  <unicode hex="1E15"/>
+  <anchor x="326" y="0" name="ogonek"/>
+  <outline>
+    <component base="emacron"/>
+    <component base="gravecomb" xOffset="449.5" yOffset="202"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.autolayer</key>
+  <true/>
+  <key>com.fontlab.hintData</key>
+  <dict>
+    <key>hhints</key>
+    <array>
+      <dict>
+        <key>position</key>
+        <integer>-12</integer>
+        <key>width</key>
+        <integer>77</integer>
+      </dict>
+      <dict>
+        <key>position</key>
+        <integer>252</integer>
+        <key>width</key>
+        <integer>48</integer>
+      </dict>
+      <dict>
+        <key>position</key>
+        <integer>456</integer>
+        <key>width</key>
+        <integer>46</integer>
+      </dict>
+      <dict>
+        <key>position</key>
+        <integer>587</integer>
+        <key>width</key>
+        <integer>87</integer>
+      </dict>
+      <dict>
+        <key>position</key>
+        <integer>663</integer>
+        <key>width</key>
+        <integer>229</integer>
+      </dict>
+    </array>
+    <key>vhints</key>
+    <array>
+      <dict>
+        <key>position</key>
+        <integer>34</integer>
+        <key>width</key>
+        <integer>159</integer>
+      </dict>
+      <dict>
+        <key>position</key>
+        <integer>95</integer>
+        <key>width</key>
+        <integer>272</integer>
+      </dict>
+      <dict>
+        <key>position</key>
+        <integer>124</integer>
+        <key>width</key>
+        <integer>311</integer>
+      </dict>
+      <dict>
+        <key>position</key>
+        <integer>348</integer>
+        <key>width</key>
+        <integer>157</integer>
+      </dict>
+    </array>
+  </dict>
+  <key>com.fontlab.recipe</key>
+  <string>emacron+gravecomb</string>
+  </dict>
+  </lib>
+</glyph>

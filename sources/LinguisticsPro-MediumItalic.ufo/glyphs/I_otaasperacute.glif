@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Iotaasperacute" format="2">
+  <advance width="356"/>
+  <unicode hex="1F3D"/>
+  <anchor x="-40.054" y="713.667" name="top"/>
+  <outline>
+    <component base="Iota"/>
+    <component base="asperacute" xyScale="1.40924e-18" xOffset="-263.667" yOffset="-39.667"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.autolayer</key>
+  <true/>
+  <key>com.fontlab.recipe</key>
+  <string>Iota+asperacute</string>
+  <key>public.markColor</key>
+  <string>0.6,0.602,1,1</string>
+  </dict>
+  </lib>
+</glyph>

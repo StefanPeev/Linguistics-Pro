@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="space_uni0311.cap" format="2">
+  <advance width="400"/>
+  <outline>
+    <contour>
+      <point x="245" y="748" type="line"/>
+      <point x="259.333" y="810"/>
+      <point x="304.333" y="877.333"/>
+      <point x="428" y="877.333" type="curve" smooth="yes"/>
+      <point x="551.667" y="877.333"/>
+      <point x="565.333" y="810"/>
+      <point x="551" y="748" type="curve"/>
+      <point x="518.667" y="748" type="line"/>
+      <point x="522" y="768.666"/>
+      <point x="505" y="812.333"/>
+      <point x="412.667" y="812.333" type="curve" smooth="yes"/>
+      <point x="320.333" y="812.333"/>
+      <point x="284.666" y="768.666"/>
+      <point x="277.333" y="748" type="curve"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.postscript.hints</key>
+  <dict>
+    <key>formatVersion</key>
+    <string>1</string>
+    <key>id</key>
+    <string>678735b605a587f083a2cdac48ff6ad3b64f463908ed4d2199394a641100470a381f5ea6b1ac70d61354ab9c7f9ac8eb1cf43dc5157f29b333c97791ec11ffe2</string>
+    <key>hintSetList</key>
+    <array>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem 769 -21</string>
+          <string>hstem 812.33 65</string>
+          <string>vstem 245 32.33</string>
+          <string>vstem 518.67 32.33</string>
+        </array>
+      </dict>
+    </array>
+  </dict>
+  </dict>
+  </lib>
+</glyph>

@@ -1,38 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Imacron.sc" format="2">
-	<advance width="321"/>
-	<outline>
-		<component base="I.sc"/>
-		<component base="uni0304" xOffset="440.5"/>
-	</outline>
-	<anchor name="top" x="160.167" y="714"/>
-	<lib>
-		<dict>
-			<key>com.fontlab.autolayer</key>
-			<true/>
-			<key>com.fontlab.hintData</key>
-			<dict>
-				<key>hhints</key>
-				<array>
-					<dict>
-						<key>position</key>
-						<integer>611</integer>
-						<key>width</key>
-						<integer>59</integer>
-					</dict>
-				</array>
-				<key>vhints</key>
-				<array>
-					<dict>
-						<key>position</key>
-						<integer>15</integer>
-						<key>width</key>
-						<integer>300</integer>
-					</dict>
-				</array>
-			</dict>
-			<key>com.fontlab.recipe</key>
-			<string>I.sc+uni0304</string>
-		</dict>
-	</lib>
+  <advance width="321"/>
+  <anchor x="160.167" y="714" name="top"/>
+  <outline>
+    <component base="I.sc"/>
+    <component base="uni0304" xOffset="440.5"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.autolayer</key>
+  <true/>
+  <key>com.fontlab.hintData</key>
+  <dict>
+    <key>hhints</key>
+    <array>
+      <dict>
+        <key>position</key>
+        <integer>611</integer>
+        <key>width</key>
+        <integer>59</integer>
+      </dict>
+    </array>
+    <key>vhints</key>
+    <array>
+      <dict>
+        <key>position</key>
+        <integer>15</integer>
+        <key>width</key>
+        <integer>300</integer>
+      </dict>
+    </array>
+  </dict>
+  <key>com.fontlab.recipe</key>
+  <string>I.sc+uni0304</string>
+  </dict>
+  </lib>
 </glyph>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="dzed" format="2">
+  <advance width="878"/>
+  <unicode hex="02A3"/>
+  <outline>
+    <component base="d"/>
+    <contour>
+      <point x="476.696" y="19.885" type="curve" smooth="yes"/>
+      <point x="476.696" y="37.218"/>
+      <point x="487.216" y="55.042"/>
+      <point x="501.696" y="71.153" type="curve" smooth="yes"/>
+      <point x="811.942" y="414.787" type="line"/>
+      <point x="810" y="416.667" type="line"/>
+      <point x="644.334" y="416" type="line"/>
+      <point x="598.334" y="416"/>
+      <point x="578" y="389"/>
+      <point x="545.334" y="326.667" type="curve"/>
+      <point x="520.334" y="338" type="line"/>
+      <point x="542.334" y="412.667"/>
+      <point x="573.667" y="469.666"/>
+      <point x="590.667" y="490" type="curve"/>
+      <point x="928.334" y="490" type="line"/>
+      <point x="938.334" y="475.333" type="line"/>
+      <point x="630.363" y="131.82" type="line"/>
+      <point x="575.919" y="67.208"/>
+      <point x="516.321" y="2.007"/>
+      <point x="502.667" y="2.007" type="curve" smooth="yes"/>
+      <point x="481" y="2.007"/>
+      <point x="476.696" y="9.401"/>
+    </contour>
+    <contour>
+      <point x="536.828" y="65.732" type="curve"/>
+      <point x="594.448" y="128.16" type="line"/>
+      <point x="664.439" y="126.698"/>
+      <point x="718.765" y="79"/>
+      <point x="790" y="79" type="curve" smooth="yes"/>
+      <point x="835" y="79"/>
+      <point x="861.667" y="134"/>
+      <point x="888" y="195.667" type="curve"/>
+      <point x="916.334" y="187.667" type="line"/>
+      <point x="889.334" y="79.667"/>
+      <point x="859" y="-12"/>
+      <point x="790.667" y="-12" type="curve" smooth="yes"/>
+      <point x="702.667" y="-12"/>
+      <point x="576.205" y="67.729"/>
+      <point x="549.538" y="67.729" type="curve" smooth="yes"/>
+      <point x="547.559" y="67.729"/>
+      <point x="539.586" y="67.012"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.metricsLeft</key>
+  <string>=d</string>
+  <key>com.fontlab.metricsRight</key>
+  <string>=z</string>
+  <key>com.fontlab.recipe</key>
+  <string>d_z</string>
+  <key>public.markColor</key>
+  <string>0.6,0.602,1,1</string>
+  <key>public.postscript.hints</key>
+  <dict>
+    <key>formatVersion</key>
+    <string>1</string>
+    <key>id</key>
+    <string>3ce33e2a15ddcfd35791adc33627f0d35f171d411792544445fd20e28cde38984b720f4ae69f3a6780cf248c2e1955474b41ff9196241de86feb8c07579c8b6a</string>
+    <key>hintSetList</key>
+    <array>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem -12 91</string>
+          <string>hstem 416 74</string>
+          <string>hstem 475.33 14.67</string>
+        </array>
+      </dict>
+    </array>
+  </dict>
+  </dict>
+  </lib>
+</glyph>

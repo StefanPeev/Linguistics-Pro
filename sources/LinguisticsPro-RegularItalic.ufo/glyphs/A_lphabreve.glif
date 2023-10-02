@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Alphabreve" format="2">
+  <advance width="624"/>
+  <unicode hex="1FB8"/>
+  <anchor x="321" y="702" name="tonos"/>
+  <anchor x="462" y="670" name="aring"/>
+  <anchor x="530" y="10" name="ogonek"/>
+  <outline>
+    <component base="Alpha"/>
+    <component base="breve.cap" xScale="1" xOffset="85.043"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.autolayer</key>
+  <true/>
+  <key>com.fontlab.recipe</key>
+  <string>Alpha+~breve.case</string>
+  <key>public.markColor</key>
+  <string>1,0.994,0.6,1</string>
+  </dict>
+  </lib>
+</glyph>

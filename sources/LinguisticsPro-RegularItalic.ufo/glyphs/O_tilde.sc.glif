@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Otilde.sc" format="2">
+  <advance width="753"/>
+  <anchor x="532" y="740" name="top"/>
+  <anchor x="400" y="10" name="ogonek"/>
+  <outline>
+    <component base="O"/>
+    <component base="tilde.cap" xOffset="162.326"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.recipe</key>
+  <string>Otilde</string>
+  <key>public.markColor</key>
+  <string>1,0.994,0.6,1</string>
+  </dict>
+  </lib>
+</glyph>

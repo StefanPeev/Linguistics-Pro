@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="circleverticalfill" format="2">
+  <advance width="810"/>
+  <unicode hex="25CD"/>
+  <outline>
+    <component base="circle"/>
+    <contour>
+      <point x="252" y="74" type="line"/>
+      <point x="311" y="74" type="line"/>
+      <point x="311" y="625.253" type="line"/>
+      <point x="252" y="625.253" type="line"/>
+    </contour>
+    <contour>
+      <point x="352" y="20" type="line"/>
+      <point x="411" y="20" type="line"/>
+      <point x="411" y="665.253" type="line"/>
+      <point x="352" y="665.253" type="line"/>
+    </contour>
+    <contour>
+      <point x="452" y="0" type="line"/>
+      <point x="511" y="0" type="line"/>
+      <point x="511" y="685.253" type="line"/>
+      <point x="452" y="685.253" type="line"/>
+    </contour>
+    <contour>
+      <point x="552" y="20" type="line"/>
+      <point x="611" y="20" type="line"/>
+      <point x="611" y="665.253" type="line"/>
+      <point x="552" y="665.253" type="line"/>
+    </contour>
+    <contour>
+      <point x="652" y="84" type="line"/>
+      <point x="711" y="84" type="line"/>
+      <point x="711" y="605.253" type="line"/>
+      <point x="652" y="605.253" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.recipe</key>
+  <string>circle</string>
+  <key>public.markColor</key>
+  <string>1,0.994,0.6,1</string>
+  </dict>
+  </lib>
+</glyph>

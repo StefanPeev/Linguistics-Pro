@@ -1,39 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ohungarumlaut" format="2">
-	<unicode hex="0151"/>
-	<advance width="585"/>
-	<outline>
-		<component base="o"/>
-		<component base="uni030B" xOffset="578" yOffset="20"/>
-	</outline>
-	<anchor name="top" x="293" y="540"/>
-	<lib>
-		<dict>
-			<key>com.fontlab.autolayer</key>
-			<true/>
-			<key>com.fontlab.hintData</key>
-			<dict>
-				<key>hhints</key>
-				<array>
-					<dict>
-						<key>position</key>
-						<integer>546</integer>
-						<key>width</key>
-						<integer>204</integer>
-					</dict>
-				</array>
-				<key>vhints</key>
-				<array>
-					<dict>
-						<key>position</key>
-						<integer>187</integer>
-						<key>width</key>
-						<integer>279</integer>
-					</dict>
-				</array>
-			</dict>
-			<key>com.fontlab.recipe</key>
-			<string>o+uni030B</string>
-		</dict>
-	</lib>
+  <advance width="585"/>
+  <unicode hex="0151"/>
+  <outline>
+    <component base="o"/>
+    <component base="uni030B" xOffset="578" yOffset="20"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.autolayer</key>
+  <true/>
+  <key>com.fontlab.hintData</key>
+  <dict>
+    <key>hhints</key>
+    <array>
+      <dict>
+        <key>position</key>
+        <integer>546</integer>
+        <key>width</key>
+        <integer>204</integer>
+      </dict>
+    </array>
+    <key>vhints</key>
+    <array>
+      <dict>
+        <key>position</key>
+        <integer>187</integer>
+        <key>width</key>
+        <integer>279</integer>
+      </dict>
+    </array>
+  </dict>
+  <key>com.fontlab.recipe</key>
+  <string>o+uni030B</string>
+  </dict>
+  </lib>
 </glyph>

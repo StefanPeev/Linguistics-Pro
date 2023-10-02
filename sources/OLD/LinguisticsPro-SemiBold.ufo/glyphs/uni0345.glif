@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni0345" format="2">
+	<unicode hex="0345"/>
+	<outline>
+		<contour>
+			<point x="-217" y="-60" type="line"/>
+			<point x="-85" y="-60" type="line"/>
+			<point x="-85" y="-133.86" type="line" smooth="yes"/>
+			<point x="-85" y="-157.063"/>
+			<point x="-80.9364" y="-171"/>
+			<point x="-60.6066" y="-171" type="curve" smooth="yes"/>
+			<point x="-51.3333" y="-171"/>
+			<point x="-41.3333" y="-168"/>
+			<point x="-37.3333" y="-166" type="curve"/>
+			<point x="-10.1806" y="-199.333" type="line"/>
+			<point x="-34.5298" y="-221.931"/>
+			<point x="-82.3526" y="-242"/>
+			<point x="-138.133" y="-242" type="curve" smooth="yes"/>
+			<point x="-187.631" y="-242"/>
+			<point x="-217" y="-212.068"/>
+			<point x="-217" y="-157" type="curve" smooth="yes"/>
+		</contour>
+	</outline>
+	<anchor name="_bottom.jota" x="-217" y="-60"/>
+	<lib>
+		<dict>
+			<key>com.fontlab.hintData</key>
+			<dict>
+				<key>hhints</key>
+				<array>
+					<dict>
+						<key>position</key>
+						<integer>-146</integer>
+						<key>width</key>
+						<integer>10</integer>
+					</dict>
+					<dict>
+						<key>position</key>
+						<integer>-57</integer>
+						<key>width</key>
+						<integer>4</integer>
+					</dict>
+					<dict>
+						<key>position</key>
+						<integer>-55</integer>
+						<key>width</key>
+						<integer>4</integer>
+					</dict>
+				</array>
+				<key>vhints</key>
+				<array>
+					<dict>
+						<key>position</key>
+						<integer>-217</integer>
+						<key>width</key>
+						<integer>17</integer>
+					</dict>
+				</array>
+			</dict>
+		</dict>
+	</lib>
+</glyph>

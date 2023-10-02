@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Epsilonlenisgrave" format="2">
+  <advance width="838"/>
+  <unicode hex="1F1A"/>
+  <anchor x="373" y="692" name="greek.UC.tonos"/>
+  <anchor x="704" y="10" name="ogonek"/>
+  <anchor x="682.667" y="733.333" name="top"/>
+  <outline>
+    <component base="Epsilon" xOffset="224.333"/>
+    <component base="lenisgrave" xyScale="-2.40163e-18" xOffset="-73.667" yOffset="-56.333"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.recipe</key>
+  <string>Epsilon+uni1FCD</string>
+  <key>public.markColor</key>
+  <string>0.6,0.602,1,1</string>
+  </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Ghooksmall" format="2">
+  <advance width="574"/>
+  <unicode hex="029B"/>
+  <outline>
+    <component base="Gsmall"/>
+    <contour>
+      <point x="603.299" y="409.007" type="line"/>
+      <point x="564.299" y="403.007" type="line"/>
+      <point x="582.966" y="485.673" type="line" smooth="yes"/>
+      <point x="605.213" y="584.359"/>
+      <point x="671.966" y="642.673"/>
+      <point x="747.633" y="642.673" type="curve" smooth="yes"/>
+      <point x="795.633" y="642.673"/>
+      <point x="821.633" y="619.34"/>
+      <point x="821.633" y="580.673" type="curve" smooth="yes"/>
+      <point x="821.633" y="542.34"/>
+      <point x="797.299" y="515.007"/>
+      <point x="764.966" y="515.007" type="curve" smooth="yes"/>
+      <point x="721.966" y="515.007"/>
+      <point x="717.633" y="566.007"/>
+      <point x="682.966" y="566.007" type="curve" smooth="yes"/>
+      <point x="657.299" y="566.007"/>
+      <point x="632.949" y="538.421"/>
+      <point x="621.633" y="489.007" type="curve" smooth="yes"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.recipe</key>
+  <string>Gsmall</string>
+  <key>public.markColor</key>
+  <string>0.6,0.602,1,1</string>
+  </dict>
+  </lib>
+</glyph>

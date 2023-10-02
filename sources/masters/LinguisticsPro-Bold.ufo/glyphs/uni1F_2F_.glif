@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni1F2F" format="2">
+  <advance width="807"/>
+  <unicode hex="1F2F"/>
+  <anchor x="198" y="0" name="cedilla"/>
+  <outline>
+    <component base="Eta"/>
+    <component base="uni1FDF" xOffset="-339" yOffset="-68"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.autolayer</key>
+  <true/>
+  <key>com.fontlab.recipe</key>
+  <string>Eta+uni1FDF</string>
+  </dict>
+  </lib>
+</glyph>

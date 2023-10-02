@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Acircumflexdotbelow" format="2">
+  <advance width="644"/>
+  <unicode hex="1EAC"/>
+  <anchor x="496" y="10" name="ogonek"/>
+  <anchor x="320" y="660" name="aring"/>
+  <anchor x="156" y="707" name="tonos"/>
+  <anchor x="317" y="938" name="top"/>
+  <outline>
+    <component base="Adotbelow"/>
+    <component base="uni0302" xOffset="617" yOffset="208"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.autolayer</key>
+  <true/>
+  <key>com.fontlab.recipe</key>
+  <string>Adotbelow+uni0302</string>
+  </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Alphaacute" format="2">
+  <advance width="631"/>
+  <unicode hex="1FBB"/>
+  <anchor x="466.667" y="663.333" name="aring"/>
+  <anchor x="523.333" y="10" name="ogonek"/>
+  <outline>
+    <component base="Alpha"/>
+    <component base="acute-gr" xOffset="-11" yOffset="-58"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.autolayer</key>
+  <true/>
+  <key>com.fontlab.recipe</key>
+  <string>Alpha+acute-gr</string>
+  <key>public.markColor</key>
+  <string>1,0.994,0.6,1</string>
+  </dict>
+  </lib>
+</glyph>

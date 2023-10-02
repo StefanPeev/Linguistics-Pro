@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni1FE9" format="2">
+	<unicode hex="1FE9"/>
+	<advance width="607"/>
+	<outline>
+		<component base="Upsilon"/>
+		<component base="macron.cap" xOffset="103.667"/>
+	</outline>
+	<anchor name="tonos" x="-36.6667" y="702"/>
+	<anchor name="top" x="303.667" y="890"/>
+	<lib>
+		<dict>
+			<key>com.fontlab.autolayer</key>
+			<true/>
+			<key>com.fontlab.hintData</key>
+			<dict>
+				<key>hhints</key>
+				<array>
+					<dict>
+						<key>position</key>
+						<integer>0</integer>
+						<key>width</key>
+						<integer>29</integer>
+					</dict>
+					<dict>
+						<key>position</key>
+						<integer>663</integer>
+						<key>width</key>
+						<integer>29</integer>
+					</dict>
+					<dict>
+						<key>position</key>
+						<integer>799</integer>
+						<key>width</key>
+						<integer>59</integer>
+					</dict>
+				</array>
+				<key>vhints</key>
+				<array>
+					<dict>
+						<key>position</key>
+						<integer>-12</integer>
+						<key>width</key>
+						<integer>185</integer>
+					</dict>
+					<dict>
+						<key>position</key>
+						<integer>150</integer>
+						<key>width</key>
+						<integer>288</integer>
+					</dict>
+					<dict>
+						<key>position</key>
+						<integer>256</integer>
+						<key>width</key>
+						<integer>99</integer>
+					</dict>
+					<dict>
+						<key>position</key>
+						<integer>483</integer>
+						<key>width</key>
+						<integer>149</integer>
+					</dict>
+				</array>
+			</dict>
+			<key>com.fontlab.recipe</key>
+			<string>Upsilon+macron.cap</string>
+		</dict>
+	</lib>
+</glyph>

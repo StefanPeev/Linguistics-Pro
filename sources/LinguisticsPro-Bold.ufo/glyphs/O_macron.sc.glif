@@ -1,62 +1,62 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Omacron.sc" format="2">
-	<advance width="590"/>
-	<outline>
-		<component base="O.sc"/>
-		<component base="uni0304" xOffset="575"/>
-	</outline>
-	<anchor name="top" x="294" y="724"/>
-	<lib>
-		<dict>
-			<key>com.fontlab.autolayer</key>
-			<true/>
-			<key>com.fontlab.hintData</key>
-			<dict>
-				<key>hhints</key>
-				<array>
-					<dict>
-						<key>position</key>
-						<integer>-13</integer>
-						<key>width</key>
-						<integer>35</integer>
-					</dict>
-					<dict>
-						<key>position</key>
-						<integer>490</integer>
-						<key>width</key>
-						<integer>35</integer>
-					</dict>
-					<dict>
-						<key>position</key>
-						<integer>611</integer>
-						<key>width</key>
-						<integer>59</integer>
-					</dict>
-				</array>
-				<key>vhints</key>
-				<array>
-					<dict>
-						<key>position</key>
-						<integer>48</integer>
-						<key>width</key>
-						<integer>106</integer>
-					</dict>
-					<dict>
-						<key>position</key>
-						<integer>167</integer>
-						<key>width</key>
-						<integer>300</integer>
-					</dict>
-					<dict>
-						<key>position</key>
-						<integer>479</integer>
-						<key>width</key>
-						<integer>106</integer>
-					</dict>
-				</array>
-			</dict>
-			<key>com.fontlab.recipe</key>
-			<string>O.sc+uni0304</string>
-		</dict>
-	</lib>
+  <advance width="590"/>
+  <anchor x="294" y="724" name="top"/>
+  <outline>
+    <component base="O.sc"/>
+    <component base="uni0304" xOffset="575"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.autolayer</key>
+  <true/>
+  <key>com.fontlab.hintData</key>
+  <dict>
+    <key>hhints</key>
+    <array>
+      <dict>
+        <key>position</key>
+        <integer>-13</integer>
+        <key>width</key>
+        <integer>35</integer>
+      </dict>
+      <dict>
+        <key>position</key>
+        <integer>490</integer>
+        <key>width</key>
+        <integer>35</integer>
+      </dict>
+      <dict>
+        <key>position</key>
+        <integer>611</integer>
+        <key>width</key>
+        <integer>59</integer>
+      </dict>
+    </array>
+    <key>vhints</key>
+    <array>
+      <dict>
+        <key>position</key>
+        <integer>48</integer>
+        <key>width</key>
+        <integer>106</integer>
+      </dict>
+      <dict>
+        <key>position</key>
+        <integer>167</integer>
+        <key>width</key>
+        <integer>300</integer>
+      </dict>
+      <dict>
+        <key>position</key>
+        <integer>479</integer>
+        <key>width</key>
+        <integer>106</integer>
+      </dict>
+    </array>
+  </dict>
+  <key>com.fontlab.recipe</key>
+  <string>O.sc+uni0304</string>
+  </dict>
+  </lib>
 </glyph>

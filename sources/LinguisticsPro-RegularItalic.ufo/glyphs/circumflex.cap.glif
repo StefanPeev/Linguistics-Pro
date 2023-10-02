@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="circumflex.cap" format="2">
+  <advance width="400"/>
+  <outline>
+    <contour>
+      <point x="218" y="742" type="line"/>
+      <point x="358" y="853" type="line" smooth="yes"/>
+      <point x="376" y="868"/>
+      <point x="387" y="876"/>
+      <point x="400" y="876" type="curve" smooth="yes"/>
+      <point x="412" y="876"/>
+      <point x="422" y="865"/>
+      <point x="433" y="851" type="curve" smooth="yes"/>
+      <point x="524" y="741" type="line"/>
+      <point x="506" y="722" type="line"/>
+      <point x="416" y="781" type="line"/>
+      <point x="404" y="790"/>
+      <point x="393" y="797"/>
+      <point x="384" y="797" type="curve" smooth="yes"/>
+      <point x="376" y="797"/>
+      <point x="361" y="790"/>
+      <point x="348" y="783" type="curve" smooth="yes"/>
+      <point x="231" y="722" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.postscript.hints</key>
+  <dict>
+    <key>formatVersion</key>
+    <string>1</string>
+    <key>id</key>
+    <string>1aae031f930ee566ff3c5c73a1a1ed4594a1ed665fcc79b1745f57462ec4ed207dbc9793fd7bd76c32e105fa8bd5ca0469aff9e214bb10bd8d846f13ef88a179</string>
+    <key>hintSetList</key>
+    <array>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem 797 79</string>
+          <string>vstem 218 306</string>
+        </array>
+      </dict>
+    </array>
+  </dict>
+  </dict>
+  </lib>
+</glyph>

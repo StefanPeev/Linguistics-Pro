@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni1E7A" format="2">
+  <advance width="786"/>
+  <unicode hex="1E7A"/>
+  <anchor x="423" y="0" name="ogonek"/>
+  <anchor x="393" y="1110" name="top"/>
+  <outline>
+    <component base="Umacron"/>
+    <component base="dieresis.cap" xOffset="176" yOffset="170"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.autolayer</key>
+  <true/>
+  <key>com.fontlab.recipe</key>
+  <string>Umacron+dieresis.cap</string>
+  </dict>
+  </lib>
+</glyph>

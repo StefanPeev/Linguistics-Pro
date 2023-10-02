@@ -1,66 +1,66 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Adieresis" format="2">
-	<unicode hex="00C4"/>
-	<advance width="641"/>
-	<outline>
-		<component base="A"/>
-		<component base="dieresis.cap" xyScale="0" xOffset="104.333" yOffset="1.33333"/>
-	</outline>
-	<anchor name="aring" x="316" y="663.333"/>
-	<anchor name="ogonek" x="507.333" y="10"/>
-	<anchor name="tonos" x="160.667" y="705.333"/>
-	<anchor name="top" x="315.667" y="928"/>
-	<lib>
-		<dict>
-			<key>com.fontlab.autolayer</key>
-			<true/>
-			<key>com.fontlab.hintData</key>
-			<dict>
-				<key>hhints</key>
-				<array>
-					<dict>
-						<key>position</key>
-						<integer>0</integer>
-						<key>width</key>
-						<integer>29</integer>
-					</dict>
-					<dict>
-						<key>position</key>
-						<integer>267</integer>
-						<key>width</key>
-						<integer>38</integer>
-					</dict>
-					<dict>
-						<key>position</key>
-						<integer>672</integer>
-						<key>width</key>
-						<integer>20</integer>
-					</dict>
-					<dict>
-						<key>position</key>
-						<integer>732</integer>
-						<key>width</key>
-						<integer>109</integer>
-					</dict>
-				</array>
-				<key>vhints</key>
-				<array>
-					<dict>
-						<key>position</key>
-						<integer>156</integer>
-						<key>width</key>
-						<integer>116</integer>
-					</dict>
-					<dict>
-						<key>position</key>
-						<integer>364</integer>
-						<key>width</key>
-						<integer>116</integer>
-					</dict>
-				</array>
-			</dict>
-			<key>com.fontlab.recipe</key>
-			<string>A+dieresis.cap</string>
-		</dict>
-	</lib>
+  <advance width="641"/>
+  <unicode hex="00C4"/>
+  <anchor x="507.333" y="10" name="ogonek"/>
+  <anchor x="316" y="663.333" name="aring"/>
+  <anchor x="160.667" y="705.333" name="tonos"/>
+  <anchor x="315.667" y="928" name="top"/>
+  <outline>
+    <component base="A"/>
+    <component base="dieresis.cap" xScale="1" xyScale="-4.9738e-20" xOffset="104.333" yOffset="1.333"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.autolayer</key>
+  <true/>
+  <key>com.fontlab.hintData</key>
+  <dict>
+    <key>hhints</key>
+    <array>
+      <dict>
+        <key>position</key>
+        <integer>0</integer>
+        <key>width</key>
+        <integer>29</integer>
+      </dict>
+      <dict>
+        <key>position</key>
+        <integer>267</integer>
+        <key>width</key>
+        <integer>38</integer>
+      </dict>
+      <dict>
+        <key>position</key>
+        <integer>672</integer>
+        <key>width</key>
+        <integer>20</integer>
+      </dict>
+      <dict>
+        <key>position</key>
+        <integer>732</integer>
+        <key>width</key>
+        <integer>109</integer>
+      </dict>
+    </array>
+    <key>vhints</key>
+    <array>
+      <dict>
+        <key>position</key>
+        <integer>156</integer>
+        <key>width</key>
+        <integer>116</integer>
+      </dict>
+      <dict>
+        <key>position</key>
+        <integer>364</integer>
+        <key>width</key>
+        <integer>116</integer>
+      </dict>
+    </array>
+  </dict>
+  <key>com.fontlab.recipe</key>
+  <string>A+dieresis.cap</string>
+  </dict>
+  </lib>
 </glyph>

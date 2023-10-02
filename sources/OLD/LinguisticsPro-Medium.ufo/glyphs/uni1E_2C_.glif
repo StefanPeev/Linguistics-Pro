@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni1E2C" format="2">
+	<unicode hex="1E2C"/>
+	<advance width="361"/>
+	<outline>
+		<component base="I"/>
+		<component base="uni0330.cap" xOffset="385.167"/>
+	</outline>
+	<anchor name="ogonek" x="196.667" y="10"/>
+	<anchor name="tonos" x="0" y="702"/>
+	<lib>
+		<dict>
+			<key>com.fontlab.autolayer</key>
+			<true/>
+			<key>com.fontlab.hintData</key>
+			<dict>
+				<key>hhints</key>
+				<array>
+					<dict>
+						<key>position</key>
+						<integer>-170</integer>
+						<key>width</key>
+						<integer>60</integer>
+					</dict>
+					<dict>
+						<key>position</key>
+						<integer>-132</integer>
+						<key>width</key>
+						<integer>60</integer>
+					</dict>
+				</array>
+			</dict>
+			<key>com.fontlab.recipe</key>
+			<string>I+uni0330.cap</string>
+		</dict>
+	</lib>
+</glyph>

@@ -1,62 +1,62 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni0345" format="2">
-	<unicode hex="0345"/>
-	<outline>
-		<contour>
-			<point x="-217" y="-60" type="line"/>
-			<point x="-66" y="-60" type="line"/>
-			<point x="-66" y="-132.791" type="line" smooth="yes"/>
-			<point x="-66" y="-149.094"/>
-			<point x="-62.4045" y="-161"/>
-			<point x="-46.8221" y="-161" type="curve" smooth="yes"/>
-			<point x="-39" y="-161"/>
-			<point x="-29" y="-158"/>
-			<point x="-25" y="-156" type="curve"/>
-			<point x="7.72917" y="-196" type="line"/>
-			<point x="-23.2947" y="-224.896"/>
-			<point x="-77.5289" y="-242"/>
-			<point x="-138.133" y="-242" type="curve" smooth="yes"/>
-			<point x="-187.631" y="-242"/>
-			<point x="-217" y="-212.068"/>
-			<point x="-217" y="-157" type="curve" smooth="yes"/>
-		</contour>
-	</outline>
-	<anchor name="_bottom.jota" x="-217" y="-60"/>
-	<lib>
-		<dict>
-			<key>com.fontlab.hintData</key>
-			<dict>
-				<key>hhints</key>
-				<array>
-					<dict>
-						<key>position</key>
-						<integer>-146</integer>
-						<key>width</key>
-						<integer>10</integer>
-					</dict>
-					<dict>
-						<key>position</key>
-						<integer>-57</integer>
-						<key>width</key>
-						<integer>4</integer>
-					</dict>
-					<dict>
-						<key>position</key>
-						<integer>-55</integer>
-						<key>width</key>
-						<integer>4</integer>
-					</dict>
-				</array>
-				<key>vhints</key>
-				<array>
-					<dict>
-						<key>position</key>
-						<integer>-217</integer>
-						<key>width</key>
-						<integer>17</integer>
-					</dict>
-				</array>
-			</dict>
-		</dict>
-	</lib>
+  <unicode hex="0345"/>
+  <anchor x="-217" y="-60" name="_bottom.jota"/>
+  <outline>
+    <contour>
+      <point x="-217" y="-60" type="line"/>
+      <point x="-66" y="-60" type="line"/>
+      <point x="-66" y="-132.791" type="line" smooth="yes"/>
+      <point x="-66" y="-149.094"/>
+      <point x="-62.405" y="-161"/>
+      <point x="-46.822" y="-161" type="curve" smooth="yes"/>
+      <point x="-39" y="-161"/>
+      <point x="-29" y="-158"/>
+      <point x="-25" y="-156" type="curve"/>
+      <point x="7.729" y="-196" type="line"/>
+      <point x="-23.295" y="-224.896"/>
+      <point x="-77.529" y="-242"/>
+      <point x="-138.133" y="-242" type="curve" smooth="yes"/>
+      <point x="-187.631" y="-242"/>
+      <point x="-217" y="-212.068"/>
+      <point x="-217" y="-157" type="curve" smooth="yes"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.hintData</key>
+  <dict>
+    <key>hhints</key>
+    <array>
+      <dict>
+        <key>position</key>
+        <integer>-146</integer>
+        <key>width</key>
+        <integer>10</integer>
+      </dict>
+      <dict>
+        <key>position</key>
+        <integer>-57</integer>
+        <key>width</key>
+        <integer>4</integer>
+      </dict>
+      <dict>
+        <key>position</key>
+        <integer>-55</integer>
+        <key>width</key>
+        <integer>4</integer>
+      </dict>
+    </array>
+    <key>vhints</key>
+    <array>
+      <dict>
+        <key>position</key>
+        <integer>-217</integer>
+        <key>width</key>
+        <integer>17</integer>
+      </dict>
+    </array>
+  </dict>
+  </dict>
+  </lib>
 </glyph>

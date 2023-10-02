@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="dieresistilde" format="2">
+  <advance width="387"/>
+  <unicode hex="1FC1"/>
+  <anchor x="308.333" y="432.667" name="_top"/>
+  <outline>
+    <component base="dieresis" xOffset="-51.464" yOffset="-135.791"/>
+    <component base="tildecomb" xOffset="381.333"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.recipe</key>
+  <string>dieresis+uni0342</string>
+  <key>public.markColor</key>
+  <string>1,0.994,0.6,1</string>
+  </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Epsilonasperacute" format="2">
+  <advance width="605"/>
+  <unicode hex="1F1D"/>
+  <anchor x="149.333" y="692" name="greek.UC.tonos"/>
+  <anchor x="479.333" y="10" name="ogonek"/>
+  <anchor x="-43.721" y="715.333" name="top"/>
+  <outline>
+    <component base="Epsilon"/>
+    <component base="asperacute" xOffset="-267.333" yOffset="-38"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.autolayer</key>
+  <true/>
+  <key>com.fontlab.recipe</key>
+  <string>Epsilon+asperacute</string>
+  <key>public.markColor</key>
+  <string>0.6,0.602,1,1</string>
+  </dict>
+  </lib>
+</glyph>

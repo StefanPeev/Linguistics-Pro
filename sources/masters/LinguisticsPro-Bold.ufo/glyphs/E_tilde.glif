@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Etilde" format="2">
+  <advance width="629"/>
+  <unicode hex="1EBC"/>
+  <anchor x="480" y="10" name="ogonek"/>
+  <anchor x="-2" y="702" name="tonos"/>
+  <anchor x="-2" y="692" name="greek.UC.tonos"/>
+  <anchor x="305.441" y="952" name="top"/>
+  <outline>
+    <component base="E"/>
+    <component base="tildecomb" xOffset="530.441" yOffset="202"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.autolayer</key>
+  <true/>
+  <key>com.fontlab.recipe</key>
+  <string>E+tildecomb</string>
+  </dict>
+  </lib>
+</glyph>

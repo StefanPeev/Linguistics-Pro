@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni028C" format="2">
+  <advance width="570"/>
+  <unicode hex="028C"/>
+  <outline>
+    <contour>
+      <point x="17" y="43" type="curve" smooth="yes"/>
+      <point x="17" y="71"/>
+      <point x="36" y="96"/>
+      <point x="65" y="96" type="curve" smooth="yes"/>
+      <point x="99" y="96"/>
+      <point x="99" y="62"/>
+      <point x="125" y="62" type="curve" smooth="yes"/>
+      <point x="149" y="62"/>
+      <point x="192" y="144"/>
+      <point x="216" y="202" type="curve" smooth="yes"/>
+      <point x="335" y="490" type="line"/>
+      <point x="409" y="490" type="line"/>
+      <point x="439" y="152" type="line" smooth="yes"/>
+      <point x="446" y="68"/>
+      <point x="457" y="40"/>
+      <point x="479" y="40" type="curve" smooth="yes"/>
+      <point x="504" y="40"/>
+      <point x="534" y="85"/>
+      <point x="559" y="138" type="curve"/>
+      <point x="586" y="126" type="line"/>
+      <point x="552" y="55"/>
+      <point x="521" y="-12"/>
+      <point x="448" y="-12" type="curve" smooth="yes"/>
+      <point x="390" y="-12"/>
+      <point x="363" y="31"/>
+      <point x="356" y="135" type="curve" smooth="yes"/>
+      <point x="338" y="400" type="line"/>
+      <point x="336" y="400" type="line"/>
+      <point x="234" y="138" type="line" smooth="yes"/>
+      <point x="206" y="65"/>
+      <point x="154" y="-12"/>
+      <point x="86" y="-12" type="curve" smooth="yes"/>
+      <point x="46" y="-12"/>
+      <point x="17" y="14"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.postscript.hints</key>
+  <dict>
+    <key>formatVersion</key>
+    <string>1</string>
+    <key>id</key>
+    <string>55593ea62958f3b1803b605edb576aed832d31d9f88989710ba9e2769f35e35bc4e4f27b3fde732c9aa4f02c73fb15ebd63d08b4325b2b115c3bbb848a04678f</string>
+    <key>hintSetList</key>
+    <array>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem -12 52</string>
+          <string>hstem -12 74</string>
+          <string>hstem 470 20</string>
+        </array>
+      </dict>
+    </array>
+  </dict>
+  </dict>
+  </lib>
+</glyph>

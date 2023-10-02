@@ -1,29 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="uniF6D0" format="1">
-  <advance width="430"/>
-  <unicode hex="F6D0"/>
-  <outline>
-    <contour>
-      <point x="40" y="765" type="line"/>
-      <point x="40" y="852" type="line"/>
-      <point x="390" y="852" type="line"/>
-      <point x="390" y="765" type="line"/>
-    </contour>
-  </outline>
-  <lib>
-    <dict>
-      <key>com.fontlab.hintData</key>
-      <dict>
-        <key>hhints</key>
-        <array>
-          <dict>
-            <key>position</key>
-            <integer>765</integer>
-            <key>width</key>
-            <integer>87</integer>
-          </dict>
-        </array>
-      </dict>
-    </dict>
-  </lib>
+<glyph name="uniF6D0" format="2">
+	<unicode hex="F6D0"/>
+	<advance width="430"/>
+	<outline>
+		<contour>
+			<point x="40" y="765" type="line"/>
+			<point x="40" y="852" type="line"/>
+			<point x="390" y="852" type="line"/>
+			<point x="390" y="765" type="line"/>
+		</contour>
+	</outline>
 </glyph>

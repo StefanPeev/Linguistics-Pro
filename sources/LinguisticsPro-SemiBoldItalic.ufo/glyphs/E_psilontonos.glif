@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Epsilontonos" format="2">
+  <advance width="613"/>
+  <unicode hex="0388"/>
+  <anchor x="148.667" y="692" name="greek.UC.tonos"/>
+  <anchor x="479.667" y="10" name="ogonek"/>
+  <outline>
+    <component base="Epsilon"/>
+    <component base="tonos" xyScale="2.11979e-18" xOffset="-161.333" yOffset="-59.667"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.autolayer</key>
+  <true/>
+  <key>com.fontlab.recipe</key>
+  <string>Epsilon+tonos</string>
+  <key>public.markColor</key>
+  <string>0.6,0.602,1,1</string>
+  </dict>
+  </lib>
+</glyph>

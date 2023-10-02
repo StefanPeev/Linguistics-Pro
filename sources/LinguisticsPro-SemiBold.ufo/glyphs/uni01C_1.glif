@@ -1,40 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni01C1" format="2">
-	<unicode hex="01C1"/>
-	<advance width="423"/>
-	<outline>
-		<component base="uni01C0" xOffset="160.583"/>
-		<component base="uni01C0"/>
-	</outline>
-	<lib>
-		<dict>
-			<key>com.fontlab.hintData</key>
-			<dict>
-				<key>hhints</key>
-				<array>
-					<dict>
-						<key>position</key>
-						<integer>-250</integer>
-						<key>width</key>
-						<integer>1000</integer>
-					</dict>
-				</array>
-				<key>vhints</key>
-				<array>
-					<dict>
-						<key>position</key>
-						<integer>80</integer>
-						<key>width</key>
-						<integer>68</integer>
-					</dict>
-					<dict>
-						<key>position</key>
-						<integer>214</integer>
-						<key>width</key>
-						<integer>68</integer>
-					</dict>
-				</array>
-			</dict>
-		</dict>
-	</lib>
+  <advance width="423"/>
+  <unicode hex="01C1"/>
+  <outline>
+    <component base="uni01C0" xScale="1" xOffset="160.583"/>
+    <component base="uni01C0"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.hintData</key>
+  <dict>
+    <key>hhints</key>
+    <array>
+      <dict>
+        <key>position</key>
+        <integer>-250</integer>
+        <key>width</key>
+        <integer>1000</integer>
+      </dict>
+    </array>
+    <key>vhints</key>
+    <array>
+      <dict>
+        <key>position</key>
+        <integer>80</integer>
+        <key>width</key>
+        <integer>68</integer>
+      </dict>
+      <dict>
+        <key>position</key>
+        <integer>214</integer>
+        <key>width</key>
+        <integer>68</integer>
+      </dict>
+    </array>
+  </dict>
+  </dict>
+  </lib>
 </glyph>

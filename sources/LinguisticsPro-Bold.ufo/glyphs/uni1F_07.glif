@@ -1,63 +1,64 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni1F07" format="2">
-	<unicode hex="1F07"/>
-	<advance width="662"/>
-	<outline>
-		<component base="alpha"/>
-		<component base="uni1FDF" xOffset="167.528"/>
-	</outline>
-	<anchor name="bottom.jota" x="201" y="-60"/>
-	<lib>
-		<dict>
-			<key>com.fontlab.autolayer</key>
-			<true/>
-			<key>com.fontlab.hintData</key>
-			<dict>
-				<key>hhints</key>
-				<array>
-					<dict>
-						<key>position</key>
-						<integer>-12</integer>
-						<key>width</key>
-						<integer>54</integer>
-					</dict>
-					<dict>
-						<key>position</key>
-						<integer>467</integer>
-						<key>width</key>
-						<integer>35</integer>
-					</dict>
-					<dict>
-						<key>position</key>
-						<integer>470</integer>
-						<key>width</key>
-						<integer>20</integer>
-					</dict>
-					<dict>
-						<key>position</key>
-						<integer>731</integer>
-						<key>width</key>
-						<integer>20</integer>
-					</dict>
-				</array>
-				<key>vhints</key>
-				<array>
-					<dict>
-						<key>position</key>
-						<integer>38</integer>
-						<key>width</key>
-						<integer>102</integer>
-					</dict>
-					<dict>
-						<key>position</key>
-						<integer>253</integer>
-						<key>width</key>
-						<integer>67</integer>
-					</dict>
-				</array>
-			</dict>
-			<key>com.fontlab.recipe</key>
-			<string>alpha+uni1FDF</string>
-		</dict>
-	</lib>
+  <advance width="662"/>
+  <unicode hex="1F07"/>
+  <anchor x="201" y="-60" name="bottom.jota"/>
+  <anchor x="282" y="533" name="top"/>
+  <outline>
+    <component base="alpha"/>
+    <component base="uni1FDF" xOffset="167.528"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.autolayer</key>
+  <true/>
+  <key>com.fontlab.hintData</key>
+  <dict>
+    <key>hhints</key>
+    <array>
+      <dict>
+        <key>position</key>
+        <integer>-12</integer>
+        <key>width</key>
+        <integer>54</integer>
+      </dict>
+      <dict>
+        <key>position</key>
+        <integer>467</integer>
+        <key>width</key>
+        <integer>35</integer>
+      </dict>
+      <dict>
+        <key>position</key>
+        <integer>470</integer>
+        <key>width</key>
+        <integer>20</integer>
+      </dict>
+      <dict>
+        <key>position</key>
+        <integer>731</integer>
+        <key>width</key>
+        <integer>20</integer>
+      </dict>
+    </array>
+    <key>vhints</key>
+    <array>
+      <dict>
+        <key>position</key>
+        <integer>38</integer>
+        <key>width</key>
+        <integer>102</integer>
+      </dict>
+      <dict>
+        <key>position</key>
+        <integer>253</integer>
+        <key>width</key>
+        <integer>67</integer>
+      </dict>
+    </array>
+  </dict>
+  <key>com.fontlab.recipe</key>
+  <string>alpha+uni1FDF</string>
+  </dict>
+  </lib>
 </glyph>

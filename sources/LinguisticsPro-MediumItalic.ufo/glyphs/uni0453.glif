@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni0453" format="2">
+  <advance width="471"/>
+  <unicode hex="0453"/>
+  <outline>
+    <contour>
+      <point x="100.667" y="-12" type="line"/>
+      <point x="204" y="420.666" type="line" smooth="yes"/>
+      <point x="210.333" y="445.666"/>
+      <point x="195.667" y="454"/>
+      <point x="181.667" y="456.333" type="curve" smooth="yes"/>
+      <point x="124.333" y="467" type="line"/>
+      <point x="130" y="490" type="line"/>
+      <point x="558.999" y="490" type="line"/>
+      <point x="522.666" y="332" type="line"/>
+      <point x="490.333" y="332" type="line"/>
+      <point x="497.333" y="418.666"/>
+      <point x="482.333" y="451.333"/>
+      <point x="384.667" y="451.333" type="curve" smooth="yes"/>
+      <point x="330.333" y="451.333"/>
+      <point x="316" y="447.333"/>
+      <point x="305.333" y="402" type="curve" smooth="yes"/>
+      <point x="209.333" y="0" type="line"/>
+    </contour>
+    <contour>
+      <point x="283" y="555" type="line"/>
+      <point x="410.666" y="684.667" type="line" smooth="yes"/>
+      <point x="443" y="718"/>
+      <point x="460" y="728.667"/>
+      <point x="478" y="728.667" type="curve" smooth="yes"/>
+      <point x="494.333" y="728.667"/>
+      <point x="518" y="706"/>
+      <point x="520.667" y="685.334" type="curve"/>
+      <point x="521.333" y="681.334"/>
+      <point x="521" y="677"/>
+      <point x="520.334" y="673.334" type="curve"/>
+      <point x="515.667" y="653.334"/>
+      <point x="490.333" y="637.334"/>
+      <point x="461.666" y="622" type="curve" smooth="yes"/>
+      <point x="300" y="531.667" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.postscript.hints</key>
+  <dict>
+    <key>formatVersion</key>
+    <string>1</string>
+    <key>id</key>
+    <string>817b9a110154f50ec671eb31d21e6d22d496a50ddda28d0aef12856e77f71a2488c10483b493111b45998805bff47e5c0fdd6805d9ba1384a6d841d89cb5d5b3</string>
+    <key>hintSetList</key>
+    <array>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem 9 -21</string>
+          <string>hstem 451.33 38.67</string>
+          <string>hstem 531.67 197</string>
+          <string>vstem 283 237.67</string>
+          <string>vstem 490.33 32.33</string>
+        </array>
+      </dict>
+    </array>
+  </dict>
+  </dict>
+  </lib>
+</glyph>

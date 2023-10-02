@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Aemod" format="2">
+  <advance width="1252"/>
+  <unicode hex="1D2D"/>
+  <anchor x="313.333" y="736.667" name="top"/>
+  <anchor x="1117.33" y="10" name="ogonek"/>
+  <anchor x="312" y="666.667" name="aring"/>
+  <anchor x="637.333" y="705.333" name="tonos"/>
+  <anchor x="637.333" y="692" name="greek.UC.tonos"/>
+  <outline>
+    <component base="A"/>
+    <component base="E" xOffset="638"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.recipe</key>
+  <string>AE</string>
+  <key>public.markColor</key>
+  <string>0.6,0.602,1,1</string>
+  </dict>
+  </lib>
+</glyph>

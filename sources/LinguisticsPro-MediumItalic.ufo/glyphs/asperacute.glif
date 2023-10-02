@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="asperacute" format="2">
+  <advance width="276"/>
+  <unicode hex="1FDE"/>
+  <anchor x="204.333" y="554" name="_top"/>
+  <anchor x="416.667" y="743.333" name="_tonos"/>
+  <anchor x="223.613" y="753.333" name="top"/>
+  <outline>
+    <component base="tonos" xScale="1" xOffset="133.927" yOffset="-0.266"/>
+    <component base="asper"/>
+    <contour>
+      <point x="265.368" y="565.13" type="curve"/>
+      <point x="242.09" y="554.058" type="line"/>
+      <point x="185.232" y="610.988"/>
+      <point x="163.314" y="644.803"/>
+      <point x="163.326" y="681.758" type="curve" smooth="yes"/>
+      <point x="163.337" y="720.242"/>
+      <point x="187.768" y="756.518"/>
+      <point x="232.599" y="756.435" type="curve" smooth="yes"/>
+      <point x="263.179" y="756.376"/>
+      <point x="285.993" y="739.386"/>
+      <point x="285.991" y="711.161" type="curve" smooth="yes"/>
+      <point x="285.99" y="693.547"/>
+      <point x="276.407" y="680.035"/>
+      <point x="262.653" y="671.005" type="curve" smooth="yes"/>
+      <point x="245.123" y="659.474"/>
+      <point x="234.562" y="643.301"/>
+      <point x="234.562" y="625.272" type="curve" smooth="yes"/>
+      <point x="234.562" y="607.532"/>
+      <point x="244.904" y="592.789"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.recipe</key>
+  <string>uni1FFE+acutecomb</string>
+  <key>public.markColor</key>
+  <string>1,0.994,0.6,1</string>
+  </dict>
+  </lib>
+</glyph>

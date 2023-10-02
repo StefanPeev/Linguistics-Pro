@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Scircumflex.sc" format="2">
+  <advance width="435"/>
+  <anchor x="216.5" y="730" name="top"/>
+  <outline>
+    <component base="S.sc"/>
+    <component base="uni0302" xOffset="516.5"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.autolayer</key>
+  <true/>
+  <key>com.fontlab.recipe</key>
+  <string>S.sc+circumflexcomb</string>
+  </dict>
+  </lib>
+</glyph>

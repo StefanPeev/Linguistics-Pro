@@ -1,51 +1,50 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni1E51" format="2">
-	<unicode hex="1E51"/>
-	<advance width="580"/>
-	<outline>
-		<component base="omacron"/>
-		<component base="gravecomb" xyScale="0" xOffset="477.333" yOffset="145.333"/>
-	</outline>
-	<anchor name="top" x="289.667" y="680.667"/>
-	<lib>
-		<dict>
-			<key>com.fontlab.autolayer</key>
-			<true/>
-			<key>com.fontlab.hintData</key>
-			<dict>
-				<key>hhints</key>
-				<array>
-					<dict>
-						<key>position</key>
-						<integer>597</integer>
-						<key>width</key>
-						<integer>59</integer>
-					</dict>
-					<dict>
-						<key>position</key>
-						<integer>676</integer>
-						<key>width</key>
-						<integer>181</integer>
-					</dict>
-				</array>
-				<key>vhints</key>
-				<array>
-					<dict>
-						<key>position</key>
-						<integer>128</integer>
-						<key>width</key>
-						<integer>222</integer>
-					</dict>
-					<dict>
-						<key>position</key>
-						<integer>145</integer>
-						<key>width</key>
-						<integer>288</integer>
-					</dict>
-				</array>
-			</dict>
-			<key>com.fontlab.recipe</key>
-			<string>omacron+gravecomb</string>
-		</dict>
-	</lib>
+  <advance width="580"/>
+  <unicode hex="1E51"/>
+  <outline>
+    <component base="omacron"/>
+    <component base="gravecomb" xyScale="-4.13062e-18" yScale="1" xOffset="477.333" yOffset="145.333"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.autolayer</key>
+  <true/>
+  <key>com.fontlab.hintData</key>
+  <dict>
+    <key>hhints</key>
+    <array>
+      <dict>
+        <key>position</key>
+        <integer>597</integer>
+        <key>width</key>
+        <integer>59</integer>
+      </dict>
+      <dict>
+        <key>position</key>
+        <integer>676</integer>
+        <key>width</key>
+        <integer>181</integer>
+      </dict>
+    </array>
+    <key>vhints</key>
+    <array>
+      <dict>
+        <key>position</key>
+        <integer>128</integer>
+        <key>width</key>
+        <integer>222</integer>
+      </dict>
+      <dict>
+        <key>position</key>
+        <integer>145</integer>
+        <key>width</key>
+        <integer>288</integer>
+      </dict>
+    </array>
+  </dict>
+  <key>com.fontlab.recipe</key>
+  <string>omacron+gravecomb</string>
+  </dict>
+  </lib>
 </glyph>

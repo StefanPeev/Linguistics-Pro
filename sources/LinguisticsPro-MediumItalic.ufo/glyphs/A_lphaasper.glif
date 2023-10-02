@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Alphaasper" format="2">
+  <advance width="627"/>
+  <unicode hex="1F09"/>
+  <anchor x="464.333" y="666.667" name="aring"/>
+  <anchor x="526.667" y="10" name="ogonek"/>
+  <outline>
+    <component base="Alpha"/>
+    <component base="asper" xyScale="1.40924e-18" xOffset="23.667" yOffset="-39.667"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.autolayer</key>
+  <true/>
+  <key>com.fontlab.recipe</key>
+  <string>Alpha+asper</string>
+  <key>public.markColor</key>
+  <string>0.6,0.602,1,1</string>
+  </dict>
+  </lib>
+</glyph>

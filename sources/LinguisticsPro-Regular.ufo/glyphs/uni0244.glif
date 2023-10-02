@@ -1,52 +1,63 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni0244" format="2">
-	<unicode hex="0244"/>
-	<advance width="809"/>
-	<outline>
-		<component base="U" xOffset="10"/>
-		<component base="overscore" xScale="2.2652" xOffset="-48.546" yOffset="-264.811"/>
-	</outline>
-	<lib>
-		<dict>
-			<key>com.fontlab.hintData</key>
-			<dict>
-				<key>hhints</key>
-				<array>
-					<dict>
-						<key>position</key>
-						<integer>-15</integer>
-						<key>width</key>
-						<integer>35</integer>
-					</dict>
-					<dict>
-						<key>position</key>
-						<integer>341</integer>
-						<key>width</key>
-						<integer>38</integer>
-					</dict>
-					<dict>
-						<key>position</key>
-						<integer>663</integer>
-						<key>width</key>
-						<integer>29</integer>
-					</dict>
-				</array>
-				<key>vhints</key>
-				<array>
-					<dict>
-						<key>position</key>
-						<integer>128</integer>
-						<key>width</key>
-						<integer>99</integer>
-					</dict>
-					<dict>
-						<key>position</key>
-						<integer>582</integer>
-						<key>width</key>
-						<integer>99</integer>
-					</dict>
-				</array>
-			</dict>
-		</dict>
-	</lib>
+  <advance width="809"/>
+  <unicode hex="0244"/>
+  <outline>
+    <component base="U" xOffset="10"/>
+    <contour>
+      <point x="177.001" y="332.189" type="line"/>
+      <point x="33.001" y="332.189" type="line"/>
+      <point x="33.001" y="391.189" type="line"/>
+      <point x="177.001" y="391.189" type="line"/>
+    </contour>
+    <contour>
+      <point x="194.864" y="391.189" type="line"/>
+      <point x="775.987" y="391.189" type="line"/>
+      <point x="775.987" y="332.189" type="line"/>
+      <point x="194.864" y="332.189" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.hintData</key>
+  <dict>
+    <key>hhints</key>
+    <array>
+      <dict>
+        <key>position</key>
+        <integer>-15</integer>
+        <key>width</key>
+        <integer>35</integer>
+      </dict>
+      <dict>
+        <key>position</key>
+        <integer>341</integer>
+        <key>width</key>
+        <integer>38</integer>
+      </dict>
+      <dict>
+        <key>position</key>
+        <integer>663</integer>
+        <key>width</key>
+        <integer>29</integer>
+      </dict>
+    </array>
+    <key>vhints</key>
+    <array>
+      <dict>
+        <key>position</key>
+        <integer>128</integer>
+        <key>width</key>
+        <integer>99</integer>
+      </dict>
+      <dict>
+        <key>position</key>
+        <integer>582</integer>
+        <key>width</key>
+        <integer>99</integer>
+      </dict>
+    </array>
+  </dict>
+  </dict>
+  </lib>
 </glyph>

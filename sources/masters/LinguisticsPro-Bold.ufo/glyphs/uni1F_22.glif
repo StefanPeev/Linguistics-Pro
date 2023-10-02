@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni1F22" format="2">
+  <advance width="631"/>
+  <unicode hex="1F22"/>
+  <anchor x="312" y="533" name="top"/>
+  <anchor x="106" y="-60" name="bottom.jota"/>
+  <outline>
+    <component base="eta"/>
+    <component base="uni1FCD" xOffset="97.0289"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.autolayer</key>
+  <true/>
+  <key>com.fontlab.recipe</key>
+  <string>eta+uni1FCD</string>
+  </dict>
+  </lib>
+</glyph>

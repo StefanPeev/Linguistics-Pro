@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="slash.alt" format="2">
+  <advance width="307"/>
+  <outline>
+    <contour>
+      <point x="35" y="-128" type="line"/>
+      <point x="342" y="692" type="line"/>
+      <point x="413" y="692" type="line"/>
+      <point x="106" y="-128" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.postscript.hints</key>
+  <dict>
+    <key>formatVersion</key>
+    <string>1</string>
+    <key>id</key>
+    <string>w307m35,-128l342,692l413,692l106,-128</string>
+    <key>hintSetList</key>
+    <array>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem 672 20</string>
+        </array>
+      </dict>
+    </array>
+  </dict>
+  </dict>
+  </lib>
+</glyph>

@@ -1,62 +1,62 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Nacute.sc" format="2">
-	<advance width="560"/>
-	<outline>
-		<component base="N.sc"/>
-		<component base="acutecomb" xOffset="455"/>
-	</outline>
-	<anchor name="top" x="251" y="760"/>
-	<lib>
-		<dict>
-			<key>com.fontlab.autolayer</key>
-			<true/>
-			<key>com.fontlab.hintData</key>
-			<dict>
-				<key>hhints</key>
-				<array>
-					<dict>
-						<key>position</key>
-						<integer>0</integer>
-						<key>width</key>
-						<integer>29</integer>
-					</dict>
-					<dict>
-						<key>position</key>
-						<integer>483</integer>
-						<key>width</key>
-						<integer>29</integer>
-					</dict>
-					<dict>
-						<key>position</key>
-						<integer>563</integer>
-						<key>width</key>
-						<integer>168</integer>
-					</dict>
-				</array>
-				<key>vhints</key>
-				<array>
-					<dict>
-						<key>position</key>
-						<integer>117</integer>
-						<key>width</key>
-						<integer>41</integer>
-					</dict>
-					<dict>
-						<key>position</key>
-						<integer>233</integer>
-						<key>width</key>
-						<integer>234</integer>
-					</dict>
-					<dict>
-						<key>position</key>
-						<integer>520</integer>
-						<key>width</key>
-						<integer>41</integer>
-					</dict>
-				</array>
-			</dict>
-			<key>com.fontlab.recipe</key>
-			<string>N.sc+acutecomb</string>
-		</dict>
-	</lib>
+  <advance width="560"/>
+  <anchor x="251" y="760" name="top"/>
+  <outline>
+    <component base="N.sc"/>
+    <component base="acutecomb" xOffset="455"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.autolayer</key>
+  <true/>
+  <key>com.fontlab.hintData</key>
+  <dict>
+    <key>hhints</key>
+    <array>
+      <dict>
+        <key>position</key>
+        <integer>0</integer>
+        <key>width</key>
+        <integer>29</integer>
+      </dict>
+      <dict>
+        <key>position</key>
+        <integer>483</integer>
+        <key>width</key>
+        <integer>29</integer>
+      </dict>
+      <dict>
+        <key>position</key>
+        <integer>563</integer>
+        <key>width</key>
+        <integer>168</integer>
+      </dict>
+    </array>
+    <key>vhints</key>
+    <array>
+      <dict>
+        <key>position</key>
+        <integer>117</integer>
+        <key>width</key>
+        <integer>41</integer>
+      </dict>
+      <dict>
+        <key>position</key>
+        <integer>233</integer>
+        <key>width</key>
+        <integer>234</integer>
+      </dict>
+      <dict>
+        <key>position</key>
+        <integer>520</integer>
+        <key>width</key>
+        <integer>41</integer>
+      </dict>
+    </array>
+  </dict>
+  <key>com.fontlab.recipe</key>
+  <string>N.sc+acutecomb</string>
+  </dict>
+  </lib>
 </glyph>

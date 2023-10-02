@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ls" format="2">
+  <advance width="654"/>
+  <unicode hex="02AA"/>
+  <outline>
+    <component base="s" xOffset="237"/>
+    <contour>
+      <point x="112" y="149.133" type="line"/>
+      <point x="229" y="633.929" type="line" smooth="yes"/>
+      <point x="231" y="642.944"/>
+      <point x="232" y="649.956"/>
+      <point x="232" y="655.965" type="curve" smooth="yes"/>
+      <point x="232" y="669.988"/>
+      <point x="226" y="675.998"/>
+      <point x="213" y="677" type="curve"/>
+      <point x="155" y="683.821" type="line"/>
+      <point x="162" y="715" type="line"/>
+      <point x="389" y="742" type="line"/>
+      <point x="395" y="737" type="line"/>
+      <point x="252" y="149.133" type="line"/>
+    </contour>
+    <contour>
+      <point x="102" y="107.064" type="curve" smooth="yes"/>
+      <point x="112" y="149.133" type="line"/>
+      <point x="252" y="149.133" type="line"/>
+      <point x="245" y="115.077" type="line" smooth="yes"/>
+      <point x="242.951" y="104.402"/>
+      <point x="241.237" y="94.569"/>
+      <point x="241.237" y="86.681" type="curve" smooth="yes"/>
+      <point x="241.237" y="75.325"/>
+      <point x="244.788" y="68"/>
+      <point x="254.054" y="68" type="curve" smooth="yes"/>
+      <point x="279" y="68"/>
+      <point x="312.951" y="108.001"/>
+      <point x="337.951" y="153.075" type="curve"/>
+      <point x="367.951" y="136.047" type="line"/>
+      <point x="325.951" y="51.914"/>
+      <point x="269" y="-12"/>
+      <point x="173.865" y="-12" type="curve" smooth="yes"/>
+      <point x="120.353" y="-12"/>
+      <point x="95.445" y="12.363"/>
+      <point x="95.445" y="59.286" type="curve" smooth="yes"/>
+      <point x="95.445" y="73.234"/>
+      <point x="97.646" y="89.176"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.metricsLeft</key>
+  <string>=l</string>
+  <key>com.fontlab.metricsRight</key>
+  <string>=s</string>
+  <key>com.fontlab.recipe</key>
+  <string>l_s</string>
+  <key>public.markColor</key>
+  <string>0.6,0.602,1,1</string>
+  <key>public.postscript.hints</key>
+  <dict>
+    <key>formatVersion</key>
+    <string>1</string>
+    <key>id</key>
+    <string>24dec817ff92ed91e486a819d084a16fddc98638f0e623e773e0d82a8d1350b7718d1b3a4a2b6d9e897854e66ce597d287764380ca5bf2e59e80265712e976b7</string>
+    <key>hintSetList</key>
+    <array>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem -12 80</string>
+        </array>
+      </dict>
+    </array>
+  </dict>
+  </dict>
+  </lib>
+</glyph>

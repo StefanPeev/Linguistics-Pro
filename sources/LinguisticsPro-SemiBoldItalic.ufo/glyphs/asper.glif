@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="asper" format="2">
+  <advance width="183"/>
+  <unicode hex="1FFE"/>
+  <anchor x="215.667" y="536" name="_top"/>
+  <anchor x="307.667" y="746.667" name="_tonos"/>
+  <outline>
+    <contour>
+      <point x="287.189" y="550.289" type="curve"/>
+      <point x="259.259" y="536.029" type="line"/>
+      <point x="193.236" y="600.649"/>
+      <point x="166.453" y="638.446"/>
+      <point x="166.488" y="680.704" type="curve" smooth="yes"/>
+      <point x="166.523" y="723.544"/>
+      <point x="195.587" y="763.409"/>
+      <point x="245.022" y="763.245" type="curve" smooth="yes"/>
+      <point x="279.88" y="763.126"/>
+      <point x="307.327" y="743.123"/>
+      <point x="307.325" y="708.971" type="curve"/>
+      <point x="307.325" y="690.08"/>
+      <point x="297.92" y="673.228"/>
+      <point x="281.753" y="662.691" type="curve" smooth="yes"/>
+      <point x="263.252" y="650.614"/>
+      <point x="254.039" y="633.031"/>
+      <point x="254.039" y="615.55" type="curve" smooth="yes"/>
+      <point x="254.039" y="597.681"/>
+      <point x="264.028" y="579.995"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.recipe</key>
+  <string>space+commareversedabovecomb</string>
+  <key>public.markColor</key>
+  <string>1,0.994,0.6,1</string>
+  </dict>
+  </lib>
+</glyph>

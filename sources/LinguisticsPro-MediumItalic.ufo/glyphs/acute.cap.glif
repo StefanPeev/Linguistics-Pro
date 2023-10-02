@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="acute.cap" format="2">
+  <advance width="400"/>
+  <outline>
+    <contour>
+      <point x="288.333" y="759.666" type="line"/>
+      <point x="442.333" y="866.666" type="line" smooth="yes"/>
+      <point x="472.666" y="887.666"/>
+      <point x="487" y="895.333"/>
+      <point x="502.333" y="895.333" type="curve" smooth="yes"/>
+      <point x="529.666" y="895.333"/>
+      <point x="546.333" y="857.333"/>
+      <point x="546.333" y="840.666" type="curve" smooth="yes"/>
+      <point x="546.333" y="815"/>
+      <point x="525" y="806.666"/>
+      <point x="481.333" y="793" type="curve" smooth="yes"/>
+      <point x="300.333" y="734.333" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.postscript.hints</key>
+  <dict>
+    <key>formatVersion</key>
+    <string>1</string>
+    <key>id</key>
+    <string>c9ce0e1805ab5b53f029de00a40efc60e9d5b224aef537efc05790afa03bcba2f3385c6e02445bd97fd0735d5a5b2c47528d4200b7c2edc8d2b17311073a0863</string>
+    <key>hintSetList</key>
+    <array>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem 734.33 161</string>
+          <string>vstem 288.33 258</string>
+        </array>
+      </dict>
+    </array>
+  </dict>
+  </dict>
+  </lib>
+</glyph>

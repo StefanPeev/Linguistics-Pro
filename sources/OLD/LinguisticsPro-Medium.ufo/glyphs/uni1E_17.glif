@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni1E17" format="2">
+	<unicode hex="1E17"/>
+	<advance width="516"/>
+	<outline>
+		<component base="emacron"/>
+		<component base="acutecomb" xyScale="0" xOffset="498.167" yOffset="178.667"/>
+	</outline>
+	<anchor name="ogonek" x="329.333" y="0"/>
+	<anchor name="top" x="309.5" y="932"/>
+	<lib>
+		<dict>
+			<key>com.fontlab.autolayer</key>
+			<true/>
+			<key>com.fontlab.hintData</key>
+			<dict>
+				<key>hhints</key>
+				<array>
+					<dict>
+						<key>position</key>
+						<integer>597</integer>
+						<key>width</key>
+						<integer>59</integer>
+					</dict>
+					<dict>
+						<key>position</key>
+						<integer>676</integer>
+						<key>width</key>
+						<integer>181</integer>
+					</dict>
+				</array>
+				<key>vhints</key>
+				<array>
+					<dict>
+						<key>position</key>
+						<integer>134</integer>
+						<key>width</key>
+						<integer>288</integer>
+					</dict>
+					<dict>
+						<key>position</key>
+						<integer>197</integer>
+						<key>width</key>
+						<integer>222</integer>
+					</dict>
+				</array>
+			</dict>
+			<key>com.fontlab.recipe</key>
+			<string>emacron+acutecomb</string>
+		</dict>
+	</lib>
+</glyph>

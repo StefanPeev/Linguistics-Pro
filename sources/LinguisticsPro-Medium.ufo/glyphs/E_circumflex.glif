@@ -1,41 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Ecircumflex" format="2">
-	<unicode hex="00CA"/>
-	<advance width="614"/>
-	<outline>
-		<component base="E"/>
-		<component base="uni0302" xOffset="605.833" yOffset="202"/>
-	</outline>
-	<anchor name="ogonek" x="479.333" y="10"/>
-	<anchor name="tonos" x="-0.666667" y="705.333"/>
-	<anchor name="top" x="306.5" y="938.667"/>
-	<lib>
-		<dict>
-			<key>com.fontlab.autolayer</key>
-			<true/>
-			<key>com.fontlab.hintData</key>
-			<dict>
-				<key>hhints</key>
-				<array>
-					<dict>
-						<key>position</key>
-						<integer>792</integer>
-						<key>width</key>
-						<integer>84</integer>
-					</dict>
-				</array>
-				<key>vhints</key>
-				<array>
-					<dict>
-						<key>position</key>
-						<integer>150</integer>
-						<key>width</key>
-						<integer>306</integer>
-					</dict>
-				</array>
-			</dict>
-			<key>com.fontlab.recipe</key>
-			<string>E+uni0302</string>
-		</dict>
-	</lib>
+  <advance width="614"/>
+  <unicode hex="00CA"/>
+  <anchor x="479.333" y="10" name="ogonek"/>
+  <anchor x="-0.667" y="705.333" name="tonos"/>
+  <anchor x="-0.667" y="692" name="greek.UC.tonos"/>
+  <anchor x="306.5" y="938.667" name="top"/>
+  <outline>
+    <component base="E"/>
+    <component base="uni0302" xScale="1" xOffset="605.833" yOffset="202"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.autolayer</key>
+  <true/>
+  <key>com.fontlab.hintData</key>
+  <dict>
+    <key>hhints</key>
+    <array>
+      <dict>
+        <key>position</key>
+        <integer>792</integer>
+        <key>width</key>
+        <integer>84</integer>
+      </dict>
+    </array>
+    <key>vhints</key>
+    <array>
+      <dict>
+        <key>position</key>
+        <integer>150</integer>
+        <key>width</key>
+        <integer>306</integer>
+      </dict>
+    </array>
+  </dict>
+  <key>com.fontlab.recipe</key>
+  <string>E+uni0302</string>
+  </dict>
+  </lib>
 </glyph>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Racute.sc" format="2">
+	<advance width="532"/>
+	<outline>
+		<component base="R.sc"/>
+		<component base="acutecomb" xOffset="441"/>
+	</outline>
+	<anchor name="top" x="237" y="760"/>
+	<lib>
+		<dict>
+			<key>com.fontlab.autolayer</key>
+			<true/>
+			<key>com.fontlab.hintData</key>
+			<dict>
+				<key>hhints</key>
+				<array>
+					<dict>
+						<key>position</key>
+						<integer>563</integer>
+						<key>width</key>
+						<integer>168</integer>
+					</dict>
+				</array>
+				<key>vhints</key>
+				<array>
+					<dict>
+						<key>position</key>
+						<integer>170</integer>
+						<key>width</key>
+						<integer>234</integer>
+					</dict>
+				</array>
+			</dict>
+			<key>com.fontlab.recipe</key>
+			<string>R.sc+acutecomb</string>
+		</dict>
+	</lib>
+</glyph>

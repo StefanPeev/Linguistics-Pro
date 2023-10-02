@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="hungarumlaut.cap" format="2">
+	<advance width="460"/>
+	<outline>
+		<contour>
+			<point x="38.6667" y="774" type="line"/>
+			<point x="132" y="880.333" type="line" smooth="yes"/>
+			<point x="147.667" y="898"/>
+			<point x="164" y="916"/>
+			<point x="182.333" y="916" type="curve" smooth="yes"/>
+			<point x="208.333" y="916"/>
+			<point x="237" y="877"/>
+			<point x="237" y="853" type="curve" smooth="yes"/>
+			<point x="237" y="837.333"/>
+			<point x="224" y="826.333"/>
+			<point x="189.333" y="807.333" type="curve" smooth="yes"/>
+			<point x="64.3333" y="740.667" type="line"/>
+		</contour>
+		<contour>
+			<point x="234" y="774" type="line"/>
+			<point x="327.333" y="880.333" type="line" smooth="yes"/>
+			<point x="343" y="898"/>
+			<point x="359.333" y="916"/>
+			<point x="377.667" y="916" type="curve" smooth="yes"/>
+			<point x="403.667" y="916"/>
+			<point x="432.333" y="877"/>
+			<point x="432.333" y="853" type="curve" smooth="yes"/>
+			<point x="432.333" y="837.333"/>
+			<point x="419.333" y="826.333"/>
+			<point x="384.667" y="807.333" type="curve" smooth="yes"/>
+			<point x="259.667" y="740.667" type="line"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.fontlab.hintData</key>
+			<dict>
+				<key>hhints</key>
+				<array>
+					<dict>
+						<key>position</key>
+						<integer>744</integer>
+						<key>width</key>
+						<integer>150</integer>
+					</dict>
+				</array>
+				<key>vhints</key>
+				<array>
+					<dict>
+						<key>position</key>
+						<integer>54</integer>
+						<key>width</key>
+						<integer>167</integer>
+					</dict>
+					<dict>
+						<key>position</key>
+						<integer>224</integer>
+						<key>width</key>
+						<integer>167</integer>
+					</dict>
+				</array>
+			</dict>
+		</dict>
+	</lib>
+</glyph>

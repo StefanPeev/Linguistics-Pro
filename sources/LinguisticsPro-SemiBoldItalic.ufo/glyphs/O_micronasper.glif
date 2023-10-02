@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Omicronasper" format="2">
+  <advance width="758"/>
+  <unicode hex="1F49"/>
+  <anchor x="398" y="10" name="ogonek"/>
+  <outline>
+    <component base="Omicron"/>
+    <component base="asper" xyScale="-1.46845e-18" xOffset="-154.667" yOffset="-41.333"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.autolayer</key>
+  <true/>
+  <key>com.fontlab.recipe</key>
+  <string>Omicron+asper</string>
+  <key>public.markColor</key>
+  <string>0.6,0.602,1,1</string>
+  </dict>
+  </lib>
+</glyph>

@@ -1,96 +1,56 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="uni0420" format="1">
-  <advance width="600"/>
-  <unicode hex="0420"/>
-  <outline>
-    <contour>
-      <point x="35" y="0" type="line"/>
-      <point x="35" y="29" type="line"/>
-      <point x="123" y="35"/>
-      <point x="125" y="37"/>
-      <point x="125" y="93" type="curve" smooth="yes"/>
-      <point x="125" y="599" type="line" smooth="yes"/>
-      <point x="125" y="655"/>
-      <point x="123" y="657"/>
-      <point x="35" y="663" type="curve"/>
-      <point x="35" y="692" type="line"/>
-      <point x="314" y="692" type="line" smooth="yes"/>
-      <point x="384" y="692"/>
-      <point x="448" y="682"/>
-      <point x="496" y="652" type="curve" smooth="yes"/>
-      <point x="541" y="624"/>
-      <point x="574" y="572"/>
-      <point x="574" y="496" type="curve" smooth="yes"/>
-      <point x="574" y="371"/>
-      <point x="486" y="317"/>
-      <point x="409" y="297" type="curve" smooth="yes"/>
-      <point x="372" y="288"/>
-      <point x="327" y="284"/>
-      <point x="281" y="284" type="curve" smooth="yes"/>
-      <point x="224" y="284" type="line"/>
-      <point x="224" y="93" type="line" smooth="yes"/>
-      <point x="224" y="37"/>
-      <point x="227" y="35"/>
-      <point x="330" y="29" type="curve"/>
-      <point x="330" y="0" type="line"/>
-    </contour>
-    <contour>
-      <point x="224" y="358" type="line" smooth="yes"/>
-      <point x="224" y="321"/>
-      <point x="239" y="319"/>
-      <point x="298" y="319" type="curve" smooth="yes"/>
-      <point x="384" y="319"/>
-      <point x="466" y="364"/>
-      <point x="466" y="489" type="curve" smooth="yes"/>
-      <point x="466" y="598"/>
-      <point x="403" y="657"/>
-      <point x="300" y="657" type="curve" smooth="yes"/>
-      <point x="235" y="657"/>
-      <point x="224" y="648"/>
-      <point x="224" y="620" type="curve" smooth="yes"/>
-    </contour>
-  </outline>
-  <lib>
-    <dict>
-      <key>com.fontlab.hintData</key>
-      <dict>
-        <key>hhints</key>
-        <array>
-          <dict>
-            <key>position</key>
-            <integer>0</integer>
-            <key>width</key>
-            <integer>29</integer>
-          </dict>
-          <dict>
-            <key>position</key>
-            <integer>284</integer>
-            <key>width</key>
-            <integer>35</integer>
-          </dict>
-          <dict>
-            <key>position</key>
-            <integer>657</integer>
-            <key>width</key>
-            <integer>35</integer>
-          </dict>
-        </array>
-        <key>vhints</key>
-        <array>
-          <dict>
-            <key>position</key>
-            <integer>125</integer>
-            <key>width</key>
-            <integer>99</integer>
-          </dict>
-          <dict>
-            <key>position</key>
-            <integer>466</integer>
-            <key>width</key>
-            <integer>108</integer>
-          </dict>
-        </array>
-      </dict>
-    </dict>
-  </lib>
+<glyph name="uni0420" format="2">
+	<unicode hex="0420"/>
+	<advance width="600"/>
+	<outline>
+		<component base="P"/>
+	</outline>
+	<anchor name="tonos" x="-4" y="702"/>
+	<lib>
+		<dict>
+			<key>com.fontlab.autolayer</key>
+			<true/>
+			<key>com.fontlab.hintData</key>
+			<dict>
+				<key>hhints</key>
+				<array>
+					<dict>
+						<key>position</key>
+						<integer>0</integer>
+						<key>width</key>
+						<integer>29</integer>
+					</dict>
+					<dict>
+						<key>position</key>
+						<integer>284</integer>
+						<key>width</key>
+						<integer>35</integer>
+					</dict>
+					<dict>
+						<key>position</key>
+						<integer>657</integer>
+						<key>width</key>
+						<integer>35</integer>
+					</dict>
+				</array>
+				<key>vhints</key>
+				<array>
+					<dict>
+						<key>position</key>
+						<integer>125</integer>
+						<key>width</key>
+						<integer>99</integer>
+					</dict>
+					<dict>
+						<key>position</key>
+						<integer>466</integer>
+						<key>width</key>
+						<integer>108</integer>
+					</dict>
+				</array>
+			</dict>
+			<key>com.fontlab.recipe</key>
+			<string>P</string>
+		</dict>
+	</lib>
 </glyph>

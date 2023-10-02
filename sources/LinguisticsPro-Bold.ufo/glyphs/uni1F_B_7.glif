@@ -1,69 +1,68 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni1FB7" format="2">
-	<unicode hex="1FB7"/>
-	<advance width="662"/>
-	<outline>
-		<component base="uni1FB6"/>
-		<component base="uni0345" xOffset="418"/>
-	</outline>
-	<anchor name="bottom.jota" x="201" y="-60"/>
-	<lib>
-		<dict>
-			<key>com.fontlab.autolayer</key>
-			<true/>
-			<key>com.fontlab.hintData</key>
-			<dict>
-				<key>hhints</key>
-				<array>
-					<dict>
-						<key>position</key>
-						<integer>-146</integer>
-						<key>width</key>
-						<integer>10</integer>
-					</dict>
-					<dict>
-						<key>position</key>
-						<integer>-55</integer>
-						<key>width</key>
-						<integer>4</integer>
-					</dict>
-					<dict>
-						<key>position</key>
-						<integer>-12</integer>
-						<key>width</key>
-						<integer>54</integer>
-					</dict>
-					<dict>
-						<key>position</key>
-						<integer>467</integer>
-						<key>width</key>
-						<integer>35</integer>
-					</dict>
-					<dict>
-						<key>position</key>
-						<integer>470</integer>
-						<key>width</key>
-						<integer>20</integer>
-					</dict>
-				</array>
-				<key>vhints</key>
-				<array>
-					<dict>
-						<key>position</key>
-						<integer>38</integer>
-						<key>width</key>
-						<integer>102</integer>
-					</dict>
-					<dict>
-						<key>position</key>
-						<integer>223</integer>
-						<key>width</key>
-						<integer>17</integer>
-					</dict>
-				</array>
-			</dict>
-			<key>com.fontlab.recipe</key>
-			<string>uni1FB6+uni0345</string>
-		</dict>
-	</lib>
+  <advance width="662"/>
+  <unicode hex="1FB7"/>
+  <outline>
+    <component base="uni1FB6"/>
+    <component base="uni0345" xOffset="418"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.autolayer</key>
+  <true/>
+  <key>com.fontlab.hintData</key>
+  <dict>
+    <key>hhints</key>
+    <array>
+      <dict>
+        <key>position</key>
+        <integer>-146</integer>
+        <key>width</key>
+        <integer>10</integer>
+      </dict>
+      <dict>
+        <key>position</key>
+        <integer>-55</integer>
+        <key>width</key>
+        <integer>4</integer>
+      </dict>
+      <dict>
+        <key>position</key>
+        <integer>-12</integer>
+        <key>width</key>
+        <integer>54</integer>
+      </dict>
+      <dict>
+        <key>position</key>
+        <integer>467</integer>
+        <key>width</key>
+        <integer>35</integer>
+      </dict>
+      <dict>
+        <key>position</key>
+        <integer>470</integer>
+        <key>width</key>
+        <integer>20</integer>
+      </dict>
+    </array>
+    <key>vhints</key>
+    <array>
+      <dict>
+        <key>position</key>
+        <integer>38</integer>
+        <key>width</key>
+        <integer>102</integer>
+      </dict>
+      <dict>
+        <key>position</key>
+        <integer>223</integer>
+        <key>width</key>
+        <integer>17</integer>
+      </dict>
+    </array>
+  </dict>
+  <key>com.fontlab.recipe</key>
+  <string>uni1FB6+uni0345</string>
+  </dict>
+  </lib>
 </glyph>

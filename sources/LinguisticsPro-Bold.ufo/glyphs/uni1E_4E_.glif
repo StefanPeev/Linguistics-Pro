@@ -1,58 +1,58 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni1E4E" format="2">
-	<unicode hex="1E4E"/>
-	<advance width="768"/>
-	<outline>
-		<component base="Otilde"/>
-		<component base="dieresis.cap" xOffset="157.941" yOffset="220"/>
-	</outline>
-	<anchor name="tonos" x="38" y="702"/>
-	<anchor name="top" x="374.941" y="1160"/>
-	<lib>
-		<dict>
-			<key>com.fontlab.autolayer</key>
-			<true/>
-			<key>com.fontlab.hintData</key>
-			<dict>
-				<key>hhints</key>
-				<array>
-					<dict>
-						<key>position</key>
-						<integer>736</integer>
-						<key>width</key>
-						<integer>60</integer>
-					</dict>
-					<dict>
-						<key>position</key>
-						<integer>774</integer>
-						<key>width</key>
-						<integer>60</integer>
-					</dict>
-					<dict>
-						<key>position</key>
-						<integer>847</integer>
-						<key>width</key>
-						<integer>109</integer>
-					</dict>
-				</array>
-				<key>vhints</key>
-				<array>
-					<dict>
-						<key>position</key>
-						<integer>219</integer>
-						<key>width</key>
-						<integer>116</integer>
-					</dict>
-					<dict>
-						<key>position</key>
-						<integer>427</integer>
-						<key>width</key>
-						<integer>116</integer>
-					</dict>
-				</array>
-			</dict>
-			<key>com.fontlab.recipe</key>
-			<string>Otilde+dieresis.cap</string>
-		</dict>
-	</lib>
+  <advance width="768"/>
+  <unicode hex="1E4E"/>
+  <anchor x="38" y="702" name="tonos"/>
+  <anchor x="374.941" y="1160" name="top"/>
+  <outline>
+    <component base="Otilde"/>
+    <component base="dieresis.cap" xOffset="157.941" yOffset="220"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.autolayer</key>
+  <true/>
+  <key>com.fontlab.hintData</key>
+  <dict>
+    <key>hhints</key>
+    <array>
+      <dict>
+        <key>position</key>
+        <integer>736</integer>
+        <key>width</key>
+        <integer>60</integer>
+      </dict>
+      <dict>
+        <key>position</key>
+        <integer>774</integer>
+        <key>width</key>
+        <integer>60</integer>
+      </dict>
+      <dict>
+        <key>position</key>
+        <integer>847</integer>
+        <key>width</key>
+        <integer>109</integer>
+      </dict>
+    </array>
+    <key>vhints</key>
+    <array>
+      <dict>
+        <key>position</key>
+        <integer>219</integer>
+        <key>width</key>
+        <integer>116</integer>
+      </dict>
+      <dict>
+        <key>position</key>
+        <integer>427</integer>
+        <key>width</key>
+        <integer>116</integer>
+      </dict>
+    </array>
+  </dict>
+  <key>com.fontlab.recipe</key>
+  <string>Otilde+dieresis.cap</string>
+  </dict>
+  </lib>
 </glyph>

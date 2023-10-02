@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni1E52" format="2">
+	<unicode hex="1E52"/>
+	<advance width="766"/>
+	<outline>
+		<component base="Omacron"/>
+		<component base="acute.cap" xOffset="158.333" yOffset="134"/>
+	</outline>
+	<anchor name="tonos" x="47.3333" y="702"/>
+	<anchor name="top" x="379" y="1074"/>
+	<lib>
+		<dict>
+			<key>com.fontlab.autolayer</key>
+			<true/>
+			<key>com.fontlab.hintData</key>
+			<dict>
+				<key>hhints</key>
+				<array>
+					<dict>
+						<key>position</key>
+						<integer>833</integer>
+						<key>width</key>
+						<integer>21</integer>
+					</dict>
+					<dict>
+						<key>position</key>
+						<integer>889</integer>
+						<key>width</key>
+						<integer>92</integer>
+					</dict>
+				</array>
+				<key>vhints</key>
+				<array>
+					<dict>
+						<key>position</key>
+						<integer>282</integer>
+						<key>width</key>
+						<integer>242</integer>
+					</dict>
+				</array>
+			</dict>
+			<key>com.fontlab.recipe</key>
+			<string>Omacron+acute.cap</string>
+		</dict>
+	</lib>
+</glyph>

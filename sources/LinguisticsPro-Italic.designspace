@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='utf-8'?>
+<designspace format="4.0">
+ <axes>
+  <axis minimum="400" maximum="700" default="400" name="weight" tag="wght">
+   <labelname xml:lang="en">Weight</labelname>
+  </axis>
+ </axes>
+ <sources>
+  <source stylename="Bold Italic" familyname="Linguistics Pro" name="BoldItalic" filename="masters/LinguisticsPro-BoldItalic.ufo">
+   <location>
+    <dimension name="weight" xvalue="700"/>
+   </location>
+  </source>
+  <source stylename="Italic" familyname="Linguistics Pro" name="Italic" filename="masters/LinguisticsPro-Italic.ufo">
+   <lib copy="1"/>
+   <groups copy="1"/>
+   <info copy="1"/>
+   <features copy="1"/>
+   <location>
+    <dimension name="weight" xvalue="400"/>
+   </location>
+  </source>
+ </sources>
+ <instances>
+  <instance stylename="Regular Italic" familyname="Linguistics Pro" name="RegularItalic" filename="instances/LinguisticsPro-RegularItalic.ufo">
+   <location>
+    <dimension name="weight" xvalue="400"/>
+   </location>
+  </instance>
+  <instance stylename="Medium Italic" familyname="Linguistics Pro" name="MediumItalic" filename="instances/LinguisticsPro-MediumItalic.ufo">
+   <location>
+    <dimension name="weight" xvalue="500"/>
+   </location>
+  </instance>
+  <instance stylename="SemiBold Italic" familyname="Linguistics Pro" name="SemiBoldItalic" filename="instances/LinguisticsPro-SemiBoldItalic.ufo">
+   <location>
+    <dimension name="weight" xvalue="600"/>
+   </location>
+  </instance>
+  <instance stylename="Bold Italic" familyname="Linguistics Pro" name="BoldItalic" filename="instances/LinguisticsPro-BoldItalic.ufo">
+   <location>
+    <dimension name="weight" xvalue="700"/>
+   </location>
+  </instance>
+ </instances>
+</designspace>

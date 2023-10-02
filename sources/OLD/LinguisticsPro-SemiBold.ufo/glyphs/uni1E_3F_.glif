@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni1E3F" format="2">
+	<unicode hex="1E3F"/>
+	<advance width="940"/>
+	<outline>
+		<component base="m"/>
+		<component base="acutecomb" xOffset="639.833"/>
+	</outline>
+	<anchor name="top" x="443.5" y="756.667"/>
+	<lib>
+		<dict>
+			<key>com.fontlab.autolayer</key>
+			<true/>
+			<key>com.fontlab.hintData</key>
+			<dict>
+				<key>hhints</key>
+				<array>
+					<dict>
+						<key>position</key>
+						<integer>542</integer>
+						<key>width</key>
+						<integer>181</integer>
+					</dict>
+				</array>
+				<key>vhints</key>
+				<array>
+					<dict>
+						<key>position</key>
+						<integer>389</integer>
+						<key>width</key>
+						<integer>222</integer>
+					</dict>
+				</array>
+			</dict>
+			<key>com.fontlab.recipe</key>
+			<string>m+acutecomb</string>
+		</dict>
+	</lib>
+</glyph>

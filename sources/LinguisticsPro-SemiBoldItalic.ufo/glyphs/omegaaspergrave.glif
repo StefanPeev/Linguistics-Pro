@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="omegaaspergrave" format="2">
+  <advance width="770"/>
+  <unicode hex="1F63"/>
+  <outline>
+    <component base="omega"/>
+    <component base="aspergrave" xScale="1" xOffset="150.333" yOffset="-3"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.autolayer</key>
+  <true/>
+  <key>com.fontlab.recipe</key>
+  <string>omega+aspergrave</string>
+  <key>public.markColor</key>
+  <string>0.6,0.602,1,1</string>
+  </dict>
+  </lib>
+</glyph>

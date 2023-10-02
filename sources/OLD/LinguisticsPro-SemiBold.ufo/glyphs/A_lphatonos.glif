@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Alphatonos" format="2">
+	<unicode hex="0386"/>
+	<advance width="641"/>
+	<outline>
+		<component base="Alpha"/>
+		<component base="tonos" xyScale="0" xOffset="-211.333" yOffset="-38.3333"/>
+	</outline>
+	<anchor name="aring" x="316" y="663.333"/>
+	<anchor name="ogonek" x="507.333" y="10"/>
+	<anchor name="tonos" x="160.667" y="705.333"/>
+	<anchor name="top" x="315.667" y="733.333"/>
+	<lib>
+		<dict>
+			<key>com.fontlab.autolayer</key>
+			<true/>
+			<key>com.fontlab.hintData</key>
+			<dict>
+				<key>hhints</key>
+				<array>
+					<dict>
+						<key>position</key>
+						<integer>0</integer>
+						<key>width</key>
+						<integer>29</integer>
+					</dict>
+					<dict>
+						<key>position</key>
+						<integer>267</integer>
+						<key>width</key>
+						<integer>38</integer>
+					</dict>
+					<dict>
+						<key>position</key>
+						<integer>591</integer>
+						<key>width</key>
+						<integer>101</integer>
+					</dict>
+					<dict>
+						<key>position</key>
+						<integer>672</integer>
+						<key>width</key>
+						<integer>20</integer>
+					</dict>
+					<dict>
+						<key>position</key>
+						<integer>744</integer>
+						<key>width</key>
+						<integer>181</integer>
+					</dict>
+				</array>
+				<key>vhints</key>
+				<array>
+					<dict>
+						<key>position</key>
+						<integer>-29</integer>
+						<key>width</key>
+						<integer>139</integer>
+					</dict>
+					<dict>
+						<key>position</key>
+						<integer>-29</integer>
+						<key>width</key>
+						<integer>679</integer>
+					</dict>
+					<dict>
+						<key>position</key>
+						<integer>206</integer>
+						<key>width</key>
+						<integer>222</integer>
+					</dict>
+					<dict>
+						<key>position</key>
+						<integer>471</integer>
+						<key>width</key>
+						<integer>179</integer>
+					</dict>
+				</array>
+			</dict>
+			<key>com.fontlab.recipe</key>
+			<string>Alpha+tonos</string>
+		</dict>
+	</lib>
+</glyph>

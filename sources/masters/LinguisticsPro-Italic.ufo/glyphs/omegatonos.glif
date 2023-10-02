@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="omegatonos" format="2">
+  <advance width="717"/>
+  <unicode hex="03CE"/>
+  <anchor x="500.942" y="750" name="top"/>
+  <outline>
+    <component base="omega"/>
+    <component base="acutecomb" xOffset="533"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.recipe</key>
+  <string>omega+acutecomb</string>
+  <key>public.markColor</key>
+  <string>0.6,0.602,1,1</string>
+  </dict>
+  </lib>
+</glyph>

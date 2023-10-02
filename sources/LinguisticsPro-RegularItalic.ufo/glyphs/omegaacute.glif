@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="omegaacute" format="2">
+  <advance width="717"/>
+  <unicode hex="1F7D"/>
+  <outline>
+    <component base="omega"/>
+    <component base="acute-gr" xOffset="316" yOffset="-39"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.autolayer</key>
+  <true/>
+  <key>com.fontlab.recipe</key>
+  <string>omega+acute-gr</string>
+  <key>public.markColor</key>
+  <string>0.6,0.602,1,1</string>
+  </dict>
+  </lib>
+</glyph>

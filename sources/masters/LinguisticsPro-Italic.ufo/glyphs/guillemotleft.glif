@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="guillemotleft" format="2">
+  <advance width="462"/>
+  <unicode hex="00AB"/>
+  <outline>
+    <contour>
+      <point x="312" y="223" type="line" smooth="yes"/>
+      <point x="306" y="232"/>
+      <point x="308" y="246"/>
+      <point x="316" y="254" type="curve"/>
+      <point x="485" y="435" type="line"/>
+      <point x="505" y="418" type="line"/>
+      <point x="403" y="255" type="line" smooth="yes"/>
+      <point x="396" y="244"/>
+      <point x="395" y="233"/>
+      <point x="399" y="221" type="curve" smooth="yes"/>
+      <point x="454" y="56" type="line"/>
+      <point x="431" y="41" type="line"/>
+    </contour>
+    <contour>
+      <point x="117" y="223" type="line" smooth="yes"/>
+      <point x="111" y="232"/>
+      <point x="113" y="246"/>
+      <point x="121" y="254" type="curve"/>
+      <point x="290" y="435" type="line"/>
+      <point x="310" y="418" type="line"/>
+      <point x="208" y="255" type="line" smooth="yes"/>
+      <point x="201" y="244"/>
+      <point x="200" y="233"/>
+      <point x="204" y="221" type="curve" smooth="yes"/>
+      <point x="259" y="56" type="line"/>
+      <point x="236" y="41" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.postscript.hints</key>
+  <dict>
+    <key>formatVersion</key>
+    <string>1</string>
+    <key>id</key>
+    <string>0d1a063ab98071bbb22b8447b1dfce8723ccdd4eb834721ea4b7cfe921f31d34aa388ae33638121ab5603240c2c0634fc2eed1bcce8ff5424a32821383e8eba7</string>
+    <key>hintSetList</key>
+    <array>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>vstem 117 193</string>
+          <string>vstem 312 193</string>
+        </array>
+      </dict>
+    </array>
+  </dict>
+  </dict>
+  </lib>
+</glyph>

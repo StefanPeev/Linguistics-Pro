@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Omicronlenisgrave" format="2">
+  <advance width="1002"/>
+  <unicode hex="1F4A"/>
+  <anchor x="764.667" y="733.333" name="top"/>
+  <anchor x="642" y="10" name="ogonek"/>
+  <outline>
+    <component base="Omicron" xOffset="244"/>
+    <component base="lenisgrave" xyScale="1.94215e-18" xOffset="-49.667" yOffset="-54.667"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.recipe</key>
+  <string>Omicron+uni1FCD</string>
+  <key>public.markColor</key>
+  <string>0.6,0.602,1,1</string>
+  </dict>
+  </lib>
+</glyph>

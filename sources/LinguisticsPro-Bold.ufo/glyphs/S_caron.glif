@@ -1,76 +1,76 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Scaron" format="2">
-	<unicode hex="0160"/>
-	<advance width="561"/>
-	<outline>
-		<component base="S"/>
-		<component base="uni030C.cap" xOffset="495.5"/>
-	</outline>
-	<anchor name="cedilla" x="286" y="10"/>
-	<anchor name="top" x="280.5" y="910"/>
-	<lib>
-		<dict>
-			<key>com.fontlab.autolayer</key>
-			<true/>
-			<key>com.fontlab.hintData</key>
-			<dict>
-				<key>hhints</key>
-				<array>
-					<dict>
-						<key>position</key>
-						<integer>-15</integer>
-						<key>width</key>
-						<integer>35</integer>
-					</dict>
-					<dict>
-						<key>position</key>
-						<integer>672</integer>
-						<key>width</key>
-						<integer>35</integer>
-					</dict>
-					<dict>
-						<key>position</key>
-						<integer>723</integer>
-						<key>width</key>
-						<integer>84</integer>
-					</dict>
-				</array>
-				<key>vhints</key>
-				<array>
-					<dict>
-						<key>position</key>
-						<integer>50</integer>
-						<key>width</key>
-						<integer>32</integer>
-					</dict>
-					<dict>
-						<key>position</key>
-						<integer>61</integer>
-						<key>width</key>
-						<integer>91</integer>
-					</dict>
-					<dict>
-						<key>position</key>
-						<integer>118</integer>
-						<key>width</key>
-						<integer>306</integer>
-					</dict>
-					<dict>
-						<key>position</key>
-						<integer>407</integer>
-						<key>width</key>
-						<integer>97</integer>
-					</dict>
-					<dict>
-						<key>position</key>
-						<integer>430</integer>
-						<key>width</key>
-						<integer>31</integer>
-					</dict>
-				</array>
-			</dict>
-			<key>com.fontlab.recipe</key>
-			<string>S+uni030C.cap</string>
-		</dict>
-	</lib>
+  <advance width="561"/>
+  <unicode hex="0160"/>
+  <anchor x="286" y="10" name="cedilla"/>
+  <anchor x="280.5" y="910" name="top"/>
+  <outline>
+    <component base="S"/>
+    <component base="uni030C.cap" xOffset="495.5"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.autolayer</key>
+  <true/>
+  <key>com.fontlab.hintData</key>
+  <dict>
+    <key>hhints</key>
+    <array>
+      <dict>
+        <key>position</key>
+        <integer>-15</integer>
+        <key>width</key>
+        <integer>35</integer>
+      </dict>
+      <dict>
+        <key>position</key>
+        <integer>672</integer>
+        <key>width</key>
+        <integer>35</integer>
+      </dict>
+      <dict>
+        <key>position</key>
+        <integer>723</integer>
+        <key>width</key>
+        <integer>84</integer>
+      </dict>
+    </array>
+    <key>vhints</key>
+    <array>
+      <dict>
+        <key>position</key>
+        <integer>50</integer>
+        <key>width</key>
+        <integer>32</integer>
+      </dict>
+      <dict>
+        <key>position</key>
+        <integer>61</integer>
+        <key>width</key>
+        <integer>91</integer>
+      </dict>
+      <dict>
+        <key>position</key>
+        <integer>118</integer>
+        <key>width</key>
+        <integer>306</integer>
+      </dict>
+      <dict>
+        <key>position</key>
+        <integer>407</integer>
+        <key>width</key>
+        <integer>97</integer>
+      </dict>
+      <dict>
+        <key>position</key>
+        <integer>430</integer>
+        <key>width</key>
+        <integer>31</integer>
+      </dict>
+    </array>
+  </dict>
+  <key>com.fontlab.recipe</key>
+  <string>S+uni030C.cap</string>
+  </dict>
+  </lib>
 </glyph>

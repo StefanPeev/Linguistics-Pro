@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="arrowupdnbse" format="2">
+  <advance width="691"/>
+  <unicode hex="21A8"/>
+  <outline>
+    <component base="arrowup" xyScale="4.39589e-18" yScale="1" xOffset="10" yOffset="154.667"/>
+    <component base="arrowright" xScale="0" xyScale="-1" yxScale="1" yScale="0" xOffset="151.5" yOffset="628.167"/>
+    <contour>
+      <point x="102.342" y="-222.75" type="line"/>
+      <point x="102.342" y="-150.083" type="line"/>
+      <point x="725.351" y="-150.083" type="line"/>
+      <point x="725.351" y="-222.75" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.recipe</key>
+  <string>arrowup</string>
+  <key>public.markColor</key>
+  <string>0.6,0.602,1,1</string>
+  </dict>
+  </lib>
+</glyph>

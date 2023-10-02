@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Upsilonadieresishooksymbol" format="2">
+  <advance width="678"/>
+  <unicode hex="03D4"/>
+  <anchor x="135.667" y="705.333" name="tonos"/>
+  <anchor x="508.076" y="924.333" name="top"/>
+  <outline>
+    <component base="Upsilonhooksymbol"/>
+    <component base="uni0308" xOffset="566.076" yOffset="191"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.recipe</key>
+  <string>Upsilonhooksymbol+uni0308</string>
+  <key>public.markColor</key>
+  <string>0.6,0.602,1,1</string>
+  </dict>
+  </lib>
+</glyph>

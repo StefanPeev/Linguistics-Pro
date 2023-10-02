@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="koronis" format="2">
+  <advance width="161"/>
+  <unicode hex="1FBD"/>
+  <anchor x="287.667" y="750" name="_tonos"/>
+  <anchor x="207" y="554" name="_top"/>
+  <outline>
+    <contour>
+      <point x="156.112" y="570.406" type="line"/>
+      <point x="189.039" y="591.709"/>
+      <point x="203.192" y="614.381"/>
+      <point x="203.192" y="640.938" type="curve" smooth="yes"/>
+      <point x="203.192" y="657.012"/>
+      <point x="197.707" y="668.558"/>
+      <point x="187.286" y="679.248" type="curve" smooth="yes"/>
+      <point x="177.431" y="689.315"/>
+      <point x="171.779" y="700.657"/>
+      <point x="171.779" y="714.185" type="curve" smooth="yes"/>
+      <point x="171.779" y="737.662"/>
+      <point x="191.445" y="757.333"/>
+      <point x="224.445" y="757.333" type="curve" smooth="yes"/>
+      <point x="263.779" y="757.333"/>
+      <point x="287.445" y="729.236"/>
+      <point x="287.445" y="686.543" type="curve" smooth="yes"/>
+      <point x="287.445" y="629.572"/>
+      <point x="244.903" y="587.628"/>
+      <point x="176.112" y="554.124" type="curve"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.recipe</key>
+  <string>space+commaabovecomb</string>
+  <key>public.markColor</key>
+  <string>1,0.994,0.6,1</string>
+  </dict>
+  </lib>
+</glyph>

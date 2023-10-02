@@ -1,53 +1,52 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="uni0306.cap" format="1">
-  <advance width="0"/>
-  <outline>
-    <contour>
-      <point x="-380" y="896" type="curve"/>
-      <point x="-339" y="896" type="line"/>
-      <point x="-337" y="872"/>
-      <point x="-314" y="827"/>
-      <point x="-215" y="827" type="curve" smooth="yes"/>
-      <point x="-116" y="827"/>
-      <point x="-93" y="872"/>
-      <point x="-91" y="896" type="curve"/>
-      <point x="-50" y="896" type="line"/>
-      <point x="-50" y="822"/>
-      <point x="-76" y="746"/>
-      <point x="-215" y="746" type="curve" smooth="yes"/>
-      <point x="-354" y="746"/>
-      <point x="-380" y="822"/>
-    </contour>
-  </outline>
-  <lib>
-    <dict>
-      <key>com.fontlab.hintData</key>
-      <dict>
-        <key>hhints</key>
-        <array>
-          <dict>
-            <key>position</key>
-            <integer>746</integer>
-            <key>width</key>
-            <integer>81</integer>
-          </dict>
-        </array>
-        <key>vhints</key>
-        <array>
-          <dict>
-            <key>position</key>
-            <integer>-380</integer>
-            <key>width</key>
-            <integer>41</integer>
-          </dict>
-          <dict>
-            <key>position</key>
-            <integer>-91</integer>
-            <key>width</key>
-            <integer>41</integer>
-          </dict>
-        </array>
-      </dict>
-    </dict>
-  </lib>
+<glyph name="uni0306.cap" format="2">
+	<outline>
+		<contour>
+			<point x="-380" y="896" type="curve"/>
+			<point x="-339" y="896" type="line"/>
+			<point x="-337" y="872"/>
+			<point x="-314" y="827"/>
+			<point x="-215" y="827" type="curve" smooth="yes"/>
+			<point x="-116" y="827"/>
+			<point x="-93" y="872"/>
+			<point x="-91" y="896" type="curve"/>
+			<point x="-50" y="896" type="line"/>
+			<point x="-50" y="822"/>
+			<point x="-76" y="746"/>
+			<point x="-215" y="746" type="curve" smooth="yes"/>
+			<point x="-354" y="746"/>
+			<point x="-380" y="822"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.fontlab.hintData</key>
+			<dict>
+				<key>hhints</key>
+				<array>
+					<dict>
+						<key>position</key>
+						<integer>749</integer>
+						<key>width</key>
+						<integer>62</integer>
+					</dict>
+				</array>
+				<key>vhints</key>
+				<array>
+					<dict>
+						<key>position</key>
+						<integer>-350</integer>
+						<key>width</key>
+						<integer>28</integer>
+					</dict>
+					<dict>
+						<key>position</key>
+						<integer>-78</integer>
+						<key>width</key>
+						<integer>28</integer>
+					</dict>
+				</array>
+			</dict>
+		</dict>
+	</lib>
 </glyph>

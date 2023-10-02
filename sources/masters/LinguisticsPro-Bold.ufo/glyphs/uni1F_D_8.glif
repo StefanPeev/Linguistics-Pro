@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni1FD8" format="2">
+  <advance width="384"/>
+  <unicode hex="1FD8"/>
+  <anchor x="210" y="10" name="ogonek"/>
+  <anchor x="0" y="702" name="tonos"/>
+  <anchor x="192" y="-60" name="bottom"/>
+  <anchor x="191.5" y="922" name="top"/>
+  <outline>
+    <component base="Iota"/>
+    <component base="uni0306" xOffset="488.5" yOffset="202"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.autolayer</key>
+  <true/>
+  <key>com.fontlab.recipe</key>
+  <string>Iota+uni0306</string>
+  </dict>
+  </lib>
+</glyph>

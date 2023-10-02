@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="greaterequal" format="2">
+  <advance width="629"/>
+  <unicode hex="2265"/>
+  <outline>
+    <component base="greater" xOffset="81.025" yOffset="95"/>
+    <component base="minus" xOffset="74.025" yOffset="-221"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.recipe</key>
+  <string>space+^greater+minus%</string>
+  <key>public.markColor</key>
+  <string>1,0.994,0.6,1</string>
+  </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="minusplus" format="2">
+  <advance width="580"/>
+  <unicode hex="2213"/>
+  <outline>
+    <contour>
+      <point x="128" y="168.554" type="line"/>
+      <point x="128" y="248.554" type="line"/>
+      <point x="323" y="248.554" type="line"/>
+      <point x="323" y="419.554" type="line"/>
+      <point x="419" y="419.554" type="line"/>
+      <point x="419" y="248.554" type="line"/>
+      <point x="612" y="248.554" type="line"/>
+      <point x="612" y="168.554" type="line"/>
+      <point x="419" y="168.554" type="line"/>
+      <point x="419" y="-0.446426" type="line"/>
+      <point x="323" y="-0.446426" type="line"/>
+      <point x="323" y="168.554" type="line"/>
+    </contour>
+    <contour>
+      <point x="128" y="469" type="line"/>
+      <point x="128" y="549" type="line"/>
+      <point x="612" y="549" type="line"/>
+      <point x="612" y="469" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.recipe</key>
+  <string>plusminus</string>
+  <key>public.markColor</key>
+  <string>0.6,0.602,1,1</string>
+  </dict>
+  </lib>
+</glyph>

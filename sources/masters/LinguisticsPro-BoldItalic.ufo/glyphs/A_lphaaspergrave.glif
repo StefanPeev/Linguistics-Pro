@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Alphaaspergrave" format="2">
+  <advance width="634"/>
+  <unicode hex="1F0B"/>
+  <anchor x="469" y="660" name="aring"/>
+  <anchor x="520" y="10" name="ogonek"/>
+  <outline>
+    <component base="Alpha"/>
+    <component base="aspergrave" xOffset="-189" yOffset="-43"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.autolayer</key>
+  <true/>
+  <key>com.fontlab.recipe</key>
+  <string>Alpha+aspergrave</string>
+  <key>public.markColor</key>
+  <string>0.6,0.602,1,1</string>
+  </dict>
+  </lib>
+</glyph>

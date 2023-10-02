@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="etatonos" format="2">
+  <advance width="630"/>
+  <unicode hex="03AE"/>
+  <anchor x="159" y="-53.333" name="bottom.jota"/>
+  <outline>
+    <component base="eta"/>
+    <component base="acute-gr" xOffset="262.333" yOffset="-21"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.autolayer</key>
+  <true/>
+  <key>com.fontlab.recipe</key>
+  <string>eta+acute-gr</string>
+  <key>public.markColor</key>
+  <string>0.6,0.602,1,1</string>
+  </dict>
+  </lib>
+</glyph>

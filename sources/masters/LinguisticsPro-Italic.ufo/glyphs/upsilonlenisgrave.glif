@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="upsilonlenisgrave" format="2">
+  <advance width="562"/>
+  <unicode hex="1F52"/>
+  <outline>
+    <component base="upsilon"/>
+    <component base="lenisgrave" xOffset="164" yOffset="-39"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.autolayer</key>
+  <true/>
+  <key>com.fontlab.recipe</key>
+  <string>upsilon+lenisgrave</string>
+  <key>public.markColor</key>
+  <string>0.6,0.602,1,1</string>
+  </dict>
+  </lib>
+</glyph>

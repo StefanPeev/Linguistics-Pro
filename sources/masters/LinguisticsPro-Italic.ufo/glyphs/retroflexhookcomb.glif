@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="retroflexhookcomb" format="2">
+  <unicode hex="0322"/>
+  <outline>
+    <contour>
+      <point x="-52.4221" y="-25" type="curve" smooth="yes"/>
+      <point x="-15.964" y="100" type="line"/>
+      <point x="73.5942" y="100" type="line"/>
+      <point x="50.3161" y="26.0024" type="line" smooth="yes"/>
+      <point x="32.8298" y="-29.5839"/>
+      <point x="-5.1735" y="-87.8706"/>
+      <point x="-5.1735" y="-150.401" type="curve" smooth="yes"/>
+      <point x="-5.1735" y="-193.137"/>
+      <point x="12.5779" y="-207"/>
+      <point x="30.0192" y="-207" type="curve" smooth="yes"/>
+      <point x="71.9168" y="-207"/>
+      <point x="87.1358" y="-127"/>
+      <point x="131.327" y="-127" type="curve" smooth="yes"/>
+      <point x="153.032" y="-127"/>
+      <point x="170.578" y="-146.298"/>
+      <point x="170.578" y="-169.048" type="curve" smooth="yes"/>
+      <point x="170.578" y="-211.118"/>
+      <point x="110.578" y="-242"/>
+      <point x="46.8246" y="-242" type="curve" smooth="yes"/>
+      <point x="-32.9793" y="-242"/>
+      <point x="-67.0511" y="-193.61"/>
+      <point x="-67.0511" y="-122.117" type="curve" smooth="yes"/>
+      <point x="-67.0511" y="-94.7814"/>
+      <point x="-62.0702" y="-58.0794"/>
+    </contour>
+  </outline>
+  <guideline angle="0" x="0" y="100"/>
+  <guideline angle="73.9183" x="-52" y="-25"/>
+  <guideline angle="252.316" x="72" y="95"/>
+  <lib>
+  <dict>
+  <key>com.fontlab.recipe</key>
+  <string>nhookretroflex</string>
+  <key>public.markColor</key>
+  <string>0.6,0.602,1,1</string>
+  </dict>
+  </lib>
+</glyph>

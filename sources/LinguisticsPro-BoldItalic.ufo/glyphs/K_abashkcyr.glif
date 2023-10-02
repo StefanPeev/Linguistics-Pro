@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Kabashkcyr" format="2">
+  <advance width="931"/>
+  <unicode hex="04A0"/>
+  <outline>
+    <component base="uni041A" xOffset="132"/>
+    <contour>
+      <point x="441.854" y="692" type="line"/>
+      <point x="422.92" y="609" type="line"/>
+      <point x="383.92" y="609" type="line"/>
+      <point x="390.764" y="639"/>
+      <point x="385.361" y="646"/>
+      <point x="357.361" y="646" type="curve" smooth="yes"/>
+      <point x="346.361" y="646" type="line" smooth="yes"/>
+      <point x="248.361" y="646"/>
+      <point x="207.183" y="597"/>
+      <point x="158.372" y="497" type="curve"/>
+      <point x="121.372" y="497" type="line"/>
+      <point x="165.854" y="692" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.recipe</key>
+  <string>uni041A</string>
+  <key>public.markColor</key>
+  <string>0.6,0.602,1,1</string>
+  </dict>
+  </lib>
+</glyph>

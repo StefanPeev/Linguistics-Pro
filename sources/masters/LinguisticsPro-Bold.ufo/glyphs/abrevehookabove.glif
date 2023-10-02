@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="abrevehookabove" format="2">
+  <advance width="544"/>
+  <unicode hex="1EB3"/>
+  <anchor x="273" y="540" name="aring"/>
+  <anchor x="437" y="10" name="ogonek"/>
+  <outline>
+    <component base="abreve"/>
+    <component base="hookabovecomb" xOffset="488.5" yOffset="140"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.autolayer</key>
+  <true/>
+  <key>com.fontlab.recipe</key>
+  <string>abreve+hookabovecomb</string>
+  </dict>
+  </lib>
+</glyph>

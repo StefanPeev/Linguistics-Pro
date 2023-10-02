@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="iotadieresistilde" format="2">
+  <advance width="322"/>
+  <unicode hex="1FD7"/>
+  <anchor x="249" y="833" name="top"/>
+  <outline>
+    <component base="iotadieresis"/>
+    <component base="perispomenicomb" xOffset="257" yOffset="141"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.autolayer</key>
+  <true/>
+  <key>com.fontlab.recipe</key>
+  <string>iotadieresis+uni0342</string>
+  <key>public.markColor</key>
+  <string>1,0.994,0.6,1</string>
+  </dict>
+  </lib>
+</glyph>

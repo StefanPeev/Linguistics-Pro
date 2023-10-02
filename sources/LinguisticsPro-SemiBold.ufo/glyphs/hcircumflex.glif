@@ -1,46 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="hcircumflex" format="2">
-	<unicode hex="0125"/>
-	<advance width="623"/>
-	<outline>
-		<component base="h"/>
-		<component base="uni0302" xyScale="0" xOffset="615.667" yOffset="261.333"/>
-	</outline>
-	<anchor name="cedilla" x="154" y="0"/>
-	<anchor name="top" x="316" y="994.667"/>
-	<lib>
-		<dict>
-			<key>com.fontlab.autolayer</key>
-			<true/>
-			<key>com.fontlab.hintData</key>
-			<dict>
-				<key>hhints</key>
-				<array>
-					<dict>
-						<key>position</key>
-						<integer>781</integer>
-						<key>width</key>
-						<integer>20</integer>
-					</dict>
-					<dict>
-						<key>position</key>
-						<integer>873</integer>
-						<key>width</key>
-						<integer>87</integer>
-					</dict>
-				</array>
-				<key>vhints</key>
-				<array>
-					<dict>
-						<key>position</key>
-						<integer>153</integer>
-						<key>width</key>
-						<integer>306</integer>
-					</dict>
-				</array>
-			</dict>
-			<key>com.fontlab.recipe</key>
-			<string>h+uni0302</string>
-		</dict>
-	</lib>
+  <advance width="623"/>
+  <unicode hex="0125"/>
+  <anchor x="154" y="0" name="cedilla"/>
+  <anchor x="316" y="994.667" name="top"/>
+  <outline>
+    <component base="h"/>
+    <component base="uni0302" xScale="1" xyScale="1.48551e-17" xOffset="615.667" yOffset="261.333"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.autolayer</key>
+  <true/>
+  <key>com.fontlab.hintData</key>
+  <dict>
+    <key>hhints</key>
+    <array>
+      <dict>
+        <key>position</key>
+        <integer>781</integer>
+        <key>width</key>
+        <integer>20</integer>
+      </dict>
+      <dict>
+        <key>position</key>
+        <integer>873</integer>
+        <key>width</key>
+        <integer>87</integer>
+      </dict>
+    </array>
+    <key>vhints</key>
+    <array>
+      <dict>
+        <key>position</key>
+        <integer>153</integer>
+        <key>width</key>
+        <integer>306</integer>
+      </dict>
+    </array>
+  </dict>
+  <key>com.fontlab.recipe</key>
+  <string>h+uni0302</string>
+  </dict>
+  </lib>
 </glyph>

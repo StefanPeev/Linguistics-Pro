@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Upsilonwithmacron" format="2">
+  <advance width="591"/>
+  <unicode hex="1FE9"/>
+  <anchor x="125" y="702" name="tonos"/>
+  <outline>
+    <component base="Upsilon"/>
+    <component base="macron.cap" xOffset="81.1008"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.autolayer</key>
+  <true/>
+  <key>com.fontlab.recipe</key>
+  <string>Upsilon+~macron.case</string>
+  <key>public.markColor</key>
+  <string>1,0.994,0.6,1</string>
+  </dict>
+  </lib>
+</glyph>

@@ -1,46 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="anoteleia" format="1">
-  <advance width="265"/>
-  <unicode hex="0387"/>
-  <outline>
-    <contour>
-      <point x="70" y="251" type="curve" smooth="yes"/>
-      <point x="70" y="288"/>
-      <point x="95" y="316"/>
-      <point x="133" y="316" type="curve" smooth="yes"/>
-      <point x="172" y="316"/>
-      <point x="196" y="288"/>
-      <point x="196" y="251" type="curve" smooth="yes"/>
-      <point x="195" y="215"/>
-      <point x="172" y="188"/>
-      <point x="133" y="188" type="curve" smooth="yes"/>
-      <point x="95" y="188"/>
-      <point x="70" y="215"/>
-    </contour>
-  </outline>
-  <lib>
-    <dict>
-      <key>com.fontlab.hintData</key>
-      <dict>
-        <key>hhints</key>
-        <array>
-          <dict>
-            <key>position</key>
-            <integer>188</integer>
-            <key>width</key>
-            <integer>128</integer>
-          </dict>
-        </array>
-        <key>vhints</key>
-        <array>
-          <dict>
-            <key>position</key>
-            <integer>70</integer>
-            <key>width</key>
-            <integer>126</integer>
-          </dict>
-        </array>
-      </dict>
-    </dict>
-  </lib>
+<glyph name="anoteleia" format="2">
+	<unicode hex="0387"/>
+	<advance width="265"/>
+	<outline>
+		<contour>
+			<point x="70" y="251.5" type="curve" smooth="yes"/>
+			<point x="70" y="289.303"/>
+			<point x="96.2829" y="316"/>
+			<point x="133.5" y="316" type="curve" smooth="yes"/>
+			<point x="170.434" y="316"/>
+			<point x="196" y="289.616"/>
+			<point x="196" y="251.5" type="curve" smooth="yes"/>
+			<point x="196" y="213.692"/>
+			<point x="170.713" y="188"/>
+			<point x="133.5" y="188" type="curve" smooth="yes"/>
+			<point x="96" y="188"/>
+			<point x="70" y="214"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.fontlab.hintData</key>
+			<dict>
+				<key>hhints</key>
+				<array>
+					<dict>
+						<key>position</key>
+						<integer>188</integer>
+						<key>width</key>
+						<integer>128</integer>
+					</dict>
+				</array>
+				<key>vhints</key>
+				<array>
+					<dict>
+						<key>position</key>
+						<integer>70</integer>
+						<key>width</key>
+						<integer>126</integer>
+					</dict>
+				</array>
+			</dict>
+		</dict>
+	</lib>
 </glyph>

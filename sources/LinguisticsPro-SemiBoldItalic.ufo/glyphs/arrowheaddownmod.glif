@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="arrowheaddownmod" format="2">
+  <advance width="346"/>
+  <unicode hex="02C5"/>
+  <outline>
+    <contour>
+      <point x="317.947" y="505.956" type="line"/>
+      <point x="238.69" y="505.956" type="line"/>
+      <point x="187.281" y="761.301" type="line"/>
+      <point x="264.214" y="761.301" type="line"/>
+      <point x="297.858" y="579.424" type="line"/>
+      <point x="291.768" y="579.415" type="line"/>
+      <point x="408.142" y="761.301" type="line"/>
+      <point x="485.389" y="761.301" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.metricsLeft</key>
+  <string>=|arrowheadupmod</string>
+  <key>com.fontlab.metricsRight</key>
+  <string>=|arrowheadupmod</string>
+  <key>public.markColor</key>
+  <string>0.6,0.602,1,1</string>
+  </dict>
+  </lib>
+</glyph>

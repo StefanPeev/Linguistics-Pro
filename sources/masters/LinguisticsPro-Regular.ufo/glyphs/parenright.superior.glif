@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="parenright.superior" format="2">
+  <advance width="257"/>
+  <unicode hex="207E"/>
+  <outline>
+    <component base="parenleft.superior" xScale="-1" xOffset="257"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.hintData</key>
+  <dict>
+    <key>hhints</key>
+    <array>
+      <dict>
+        <key>position</key>
+        <integer>737</integer>
+        <key>width</key>
+        <integer>23</integer>
+      </dict>
+    </array>
+    <key>vhints</key>
+    <array>
+      <dict>
+        <key>position</key>
+        <integer>131</integer>
+        <key>width</key>
+        <integer>78</integer>
+      </dict>
+    </array>
+  </dict>
+  <key>com.fontlab.recipe</key>
+  <string>parenleft.superior</string>
+  </dict>
+  </lib>
+</glyph>

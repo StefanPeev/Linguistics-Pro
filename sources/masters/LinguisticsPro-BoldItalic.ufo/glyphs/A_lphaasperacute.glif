@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Alphaasperacute" format="2">
+  <advance width="634"/>
+  <unicode hex="1F0D"/>
+  <anchor x="469" y="660" name="aring"/>
+  <anchor x="520" y="10" name="ogonek"/>
+  <anchor x="43.9541" y="717" name="top"/>
+  <outline>
+    <component base="Alpha"/>
+    <component base="asperacute" xOffset="-212" yOffset="-43"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.autolayer</key>
+  <true/>
+  <key>com.fontlab.recipe</key>
+  <string>Alpha+asperacute</string>
+  <key>public.markColor</key>
+  <string>0.6,0.602,1,1</string>
+  </dict>
+  </lib>
+</glyph>

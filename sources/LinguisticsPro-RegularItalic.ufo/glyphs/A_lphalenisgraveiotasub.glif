@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Alphalenisgraveiotasub" format="2">
+  <advance width="663"/>
+  <unicode hex="1F8A"/>
+  <anchor x="545" y="740" name="top"/>
+  <anchor x="501" y="670" name="aring"/>
+  <anchor x="569" y="10" name="ogonek"/>
+  <outline>
+    <component base="Alphalenisgrave"/>
+    <component base="iotasubcomb" xScale="1" xOffset="476.177"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.autolayer</key>
+  <true/>
+  <key>com.fontlab.recipe</key>
+  <string>uni1F0A+uni0345</string>
+  <key>public.markColor</key>
+  <string>0.6,0.602,1,1</string>
+  </dict>
+  </lib>
+</glyph>

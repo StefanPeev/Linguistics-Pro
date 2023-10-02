@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Omicronasperacute" format="2">
+  <advance width="761"/>
+  <unicode hex="1F4D"/>
+  <anchor x="397" y="10" name="ogonek"/>
+  <anchor x="-90.0459" y="717" name="top"/>
+  <outline>
+    <component base="Omicron"/>
+    <component base="asperacute" xOffset="-346" yOffset="-43"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.autolayer</key>
+  <true/>
+  <key>com.fontlab.recipe</key>
+  <string>Omicron+asperacute</string>
+  <key>public.markColor</key>
+  <string>0.6,0.602,1,1</string>
+  </dict>
+  </lib>
+</glyph>

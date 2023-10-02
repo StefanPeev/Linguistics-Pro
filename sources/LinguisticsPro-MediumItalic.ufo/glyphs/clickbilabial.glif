@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="clickbilabial" format="2">
+  <advance width="750"/>
+  <unicode hex="0298"/>
+  <anchor x="521" y="736.667" name="top"/>
+  <anchor x="393.667" y="10" name="ogonek"/>
+  <outline>
+    <component base="O" xOffset="-5.333"/>
+    <contour>
+      <point x="392.426" y="328.543" type="curve" smooth="yes"/>
+      <point x="392.426" y="363.877"/>
+      <point x="419.093" y="392.877"/>
+      <point x="457.426" y="392.877" type="curve" smooth="yes"/>
+      <point x="495.426" y="392.877"/>
+      <point x="516.426" y="364.543"/>
+      <point x="516.426" y="333.21" type="curve" smooth="yes"/>
+      <point x="516.426" y="299.877"/>
+      <point x="492.093" y="269.877"/>
+      <point x="452.093" y="269.877" type="curve" smooth="yes"/>
+      <point x="415.759" y="269.877"/>
+      <point x="392.426" y="295.21"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.recipe</key>
+  <string>O</string>
+  <key>public.markColor</key>
+  <string>0.6,0.602,1,1</string>
+  </dict>
+  </lib>
+</glyph>

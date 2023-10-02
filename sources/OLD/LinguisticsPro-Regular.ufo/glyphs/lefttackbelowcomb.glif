@@ -1,42 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="lefttackbelowcomb" format="1">
-  <advance width="0"/>
-  <unicode hex="0318"/>
-  <outline>
-    <contour>
-      <point x="-489" y="-206" type="line"/>
-      <point x="-320" y="-206" type="line"/>
-      <point x="-320" y="-79" type="line"/>
-      <point x="-280" y="-79" type="line"/>
-      <point x="-280" y="-368" type="line"/>
-      <point x="-320" y="-368" type="line"/>
-      <point x="-320" y="-241" type="line"/>
-      <point x="-489" y="-241" type="line"/>
-    </contour>
-  </outline>
-  <lib>
-    <dict>
-      <key>com.fontlab.hintData</key>
-      <dict>
-        <key>hhints</key>
-        <array>
-          <dict>
-            <key>position</key>
-            <integer>-241</integer>
-            <key>width</key>
-            <integer>35</integer>
-          </dict>
-        </array>
-        <key>vhints</key>
-        <array>
-          <dict>
-            <key>position</key>
-            <integer>-130</integer>
-            <key>width</key>
-            <integer>40</integer>
-          </dict>
-        </array>
-      </dict>
-    </dict>
-  </lib>
+<glyph name="lefttackbelowcomb" format="2">
+	<unicode hex="0318"/>
+	<outline>
+		<component base="uni02D4" xScale="0" xyScale="1" yxScale="-1" yScale="0" xOffset="-139" yOffset="-424"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.fontlab.hintData</key>
+			<dict>
+				<key>hhints</key>
+				<array>
+					<dict>
+						<key>position</key>
+						<integer>-241</integer>
+						<key>width</key>
+						<integer>35</integer>
+					</dict>
+				</array>
+				<key>vhints</key>
+				<array>
+					<dict>
+						<key>position</key>
+						<integer>-130</integer>
+						<key>width</key>
+						<integer>40</integer>
+					</dict>
+				</array>
+			</dict>
+		</dict>
+	</lib>
 </glyph>

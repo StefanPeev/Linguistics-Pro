@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni2168" format="2">
+  <advance width="1018"/>
+  <unicode hex="2168"/>
+  <anchor x="210" y="10" name="ogonek"/>
+  <anchor x="0" y="702" name="tonos"/>
+  <anchor x="192" y="-60" name="bottom"/>
+  <outline>
+    <component base="I"/>
+    <component base="X" xOffset="384"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.autolayer</key>
+  <true/>
+  <key>com.fontlab.recipe</key>
+  <string>I_X</string>
+  </dict>
+  </lib>
+</glyph>

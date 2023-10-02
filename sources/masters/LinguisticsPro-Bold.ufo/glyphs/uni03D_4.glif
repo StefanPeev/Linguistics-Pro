@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni03D4" format="2">
+  <advance width="731"/>
+  <unicode hex="03D4"/>
+  <anchor x="-1" y="702" name="tonos"/>
+  <anchor x="365.5" y="942" name="top"/>
+  <outline>
+    <component base="Upsilonhooksymbol"/>
+    <component base="uni0308" xOffset="580.5" yOffset="202"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.autolayer</key>
+  <true/>
+  <key>com.fontlab.recipe</key>
+  <string>uni03D2+uni0308</string>
+  </dict>
+  </lib>
+</glyph>

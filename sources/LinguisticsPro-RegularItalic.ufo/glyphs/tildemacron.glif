@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="tildemacron" format="2">
+  <anchor x="-113" y="533" name="_top"/>
+  <outline>
+    <component base="tilde" xOffset="-430"/>
+    <contour>
+      <point x="-284" y="750" type="line"/>
+      <point x="-266" y="809" type="line"/>
+      <point x="98" y="809" type="line"/>
+      <point x="80" y="750" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.6,0.602,1,1</string>
+  </dict>
+  </lib>
+</glyph>

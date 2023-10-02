@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni1E3C" format="2">
+	<unicode hex="1E3C"/>
+	<advance width="579"/>
+	<outline>
+		<component base="L"/>
+		<component base="uni032D.cap" xOffset="499.667"/>
+	</outline>
+	<anchor name="dot" x="377.333" y="387"/>
+	<anchor name="quote" x="525" y="742"/>
+	<lib>
+		<dict>
+			<key>com.fontlab.autolayer</key>
+			<true/>
+			<key>com.fontlab.hintData</key>
+			<dict>
+				<key>hhints</key>
+				<array>
+					<dict>
+						<key>position</key>
+						<integer>-148</integer>
+						<key>width</key>
+						<integer>84</integer>
+					</dict>
+				</array>
+				<key>vhints</key>
+				<array>
+					<dict>
+						<key>position</key>
+						<integer>147</integer>
+						<key>width</key>
+						<integer>306</integer>
+					</dict>
+				</array>
+			</dict>
+			<key>com.fontlab.recipe</key>
+			<string>L+uni032D.cap</string>
+		</dict>
+	</lib>
+</glyph>

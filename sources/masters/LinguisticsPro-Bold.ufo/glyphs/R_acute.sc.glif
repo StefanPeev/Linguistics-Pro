@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Racute.sc" format="2">
+  <advance width="532"/>
+  <anchor x="237" y="760" name="top"/>
+  <outline>
+    <component base="R.sc"/>
+    <component base="acutecomb" xOffset="441"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.autolayer</key>
+  <true/>
+  <key>com.fontlab.recipe</key>
+  <string>R.sc+acutecomb</string>
+  </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Ocaron" format="2">
+  <advance width="768"/>
+  <unicode hex="01D1"/>
+  <anchor x="38" y="702" name="tonos"/>
+  <outline>
+    <component base="O"/>
+    <component base="caron.cap" xOffset="183"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.autolayer</key>
+  <true/>
+  <key>com.fontlab.recipe</key>
+  <string>O+caron.cap</string>
+  </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni0433.loclSRB" format="2">
+  <advance width="317"/>
+  <outline>
+    <contour>
+      <point x="148" y="597" type="line"/>
+      <point x="166" y="656" type="line"/>
+      <point x="398" y="656" type="line"/>
+      <point x="380" y="597" type="line"/>
+    </contour>
+    <contour>
+      <point x="120" y="86" type="curve" smooth="yes"/>
+      <point x="204" y="399" type="line" smooth="yes"/>
+      <point x="213" y="434"/>
+      <point x="210" y="443"/>
+      <point x="183" y="445" type="curve" smooth="yes"/>
+      <point x="126" y="450" type="line"/>
+      <point x="132" y="474" type="line"/>
+      <point x="314" y="502" type="line"/>
+      <point x="319" y="497" type="line"/>
+      <point x="210" y="95" type="line" smooth="yes"/>
+      <point x="201" y="63"/>
+      <point x="200" y="40"/>
+      <point x="220" y="40" type="curve" smooth="yes"/>
+      <point x="248" y="40"/>
+      <point x="292" y="111"/>
+      <point x="310" y="146" type="curve"/>
+      <point x="334" y="132" type="line"/>
+      <point x="300" y="56"/>
+      <point x="244" y="-12"/>
+      <point x="172" y="-12" type="curve" smooth="yes"/>
+      <point x="118" y="-12"/>
+      <point x="105" y="29"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.postscript.hints</key>
+  <dict>
+    <key>formatVersion</key>
+    <string>1</string>
+    <key>id</key>
+    <string>1c6a9f1802be1e4b9591c5d9870cef39b42a3fb8f49b957c87db97ee8b6a8cadeb97c4c6d0519001f99cc35fc1e2abc9abd402b8d1154f1f24ccdc925634500e</string>
+    <key>hintSetList</key>
+    <array>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem -12 52</string>
+          <string>hstem 450 24</string>
+          <string>hstem 482 20</string>
+        </array>
+      </dict>
+    </array>
+  </dict>
+  </dict>
+  </lib>
+</glyph>

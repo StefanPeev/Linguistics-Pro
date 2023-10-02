@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Acircumflexgrave" format="2">
+  <advance width="644"/>
+  <unicode hex="1EA6"/>
+  <anchor x="496" y="10" name="ogonek"/>
+  <anchor x="320" y="660" name="aring"/>
+  <anchor x="156" y="707" name="tonos"/>
+  <outline>
+    <component base="Acircumflex"/>
+    <component base="grave.cap" xOffset="162" yOffset="178"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.autolayer</key>
+  <true/>
+  <key>com.fontlab.recipe</key>
+  <string>Acircumflex+grave.cap</string>
+  </dict>
+  </lib>
+</glyph>

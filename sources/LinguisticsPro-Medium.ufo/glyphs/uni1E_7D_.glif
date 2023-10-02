@@ -1,36 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni1E7D" format="2">
-	<unicode hex="1E7D"/>
-	<advance width="509"/>
-	<outline>
-		<component base="v"/>
-		<component base="tildecomb" xOffset="461.522"/>
-	</outline>
-	<anchor name="top" x="256.522" y="736.667"/>
-	<lib>
-		<dict>
-			<key>com.fontlab.autolayer</key>
-			<true/>
-			<key>com.fontlab.hintData</key>
-			<dict>
-				<key>hhints</key>
-				<array>
-					<dict>
-						<key>position</key>
-						<integer>576</integer>
-						<key>width</key>
-						<integer>60</integer>
-					</dict>
-					<dict>
-						<key>position</key>
-						<integer>614</integer>
-						<key>width</key>
-						<integer>60</integer>
-					</dict>
-				</array>
-			</dict>
-			<key>com.fontlab.recipe</key>
-			<string>v+tildecomb</string>
-		</dict>
-	</lib>
+  <advance width="509"/>
+  <unicode hex="1E7D"/>
+  <anchor x="256.522" y="736.667" name="top"/>
+  <outline>
+    <component base="v"/>
+    <component base="tildecomb" xOffset="461.522"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.autolayer</key>
+  <true/>
+  <key>com.fontlab.hintData</key>
+  <dict>
+    <key>hhints</key>
+    <array>
+      <dict>
+        <key>position</key>
+        <integer>576</integer>
+        <key>width</key>
+        <integer>60</integer>
+      </dict>
+      <dict>
+        <key>position</key>
+        <integer>614</integer>
+        <key>width</key>
+        <integer>60</integer>
+      </dict>
+    </array>
+  </dict>
+  <key>com.fontlab.recipe</key>
+  <string>v+tildecomb</string>
+  </dict>
+  </lib>
 </glyph>

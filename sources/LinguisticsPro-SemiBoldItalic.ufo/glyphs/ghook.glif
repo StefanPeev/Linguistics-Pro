@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ghook" format="2">
+  <advance width="647"/>
+  <unicode hex="0260"/>
+  <outline>
+    <component base="uni0261"/>
+    <contour>
+      <point x="609.667" y="448" type="line"/>
+      <point x="488" y="448" type="line"/>
+      <point x="507.333" y="530.333" type="line" smooth="yes"/>
+      <point x="536.648" y="655.26"/>
+      <point x="606.667" y="742"/>
+      <point x="719" y="742" type="curve" smooth="yes"/>
+      <point x="808.333" y="742"/>
+      <point x="839.333" y="702.667"/>
+      <point x="839.333" y="667" type="curve" smooth="yes"/>
+      <point x="839.333" y="632"/>
+      <point x="810.333" y="604.667"/>
+      <point x="775.667" y="604.667" type="curve" smooth="yes"/>
+      <point x="740.333" y="604.667"/>
+      <point x="727.273" y="631.979"/>
+      <point x="720.667" y="659.333" type="curve" smooth="yes"/>
+      <point x="715.606" y="679.648"/>
+      <point x="707" y="699.667"/>
+      <point x="681.667" y="699.667" type="curve" smooth="yes"/>
+      <point x="643.667" y="699.667"/>
+      <point x="633.231" y="655.889"/>
+      <point x="631.181" y="573.56" type="curve" smooth="yes"/>
+      <point x="630.898" y="561.556"/>
+      <point x="627.255" y="521.021"/>
+      <point x="623" y="503.333" type="curve" smooth="yes"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.recipe</key>
+  <string>uni0261</string>
+  <key>public.markColor</key>
+  <string>0.6,0.602,1,1</string>
+  </dict>
+  </lib>
+</glyph>

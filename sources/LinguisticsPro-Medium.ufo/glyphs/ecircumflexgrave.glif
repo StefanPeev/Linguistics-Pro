@@ -1,64 +1,63 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ecircumflexgrave" format="2">
-	<unicode hex="1EC1"/>
-	<advance width="516"/>
-	<outline>
-		<component base="ecircumflex"/>
-		<component base="gravecomb" xyScale="0" xOffset="445.167" yOffset="201.333"/>
-	</outline>
-	<anchor name="ogonek" x="329.333" y="0"/>
-	<anchor name="top" x="257.5" y="736.667"/>
-	<lib>
-		<dict>
-			<key>com.fontlab.autolayer</key>
-			<true/>
-			<key>com.fontlab.hintData</key>
-			<dict>
-				<key>hhints</key>
-				<array>
-					<dict>
-						<key>position</key>
-						<integer>-12</integer>
-						<key>width</key>
-						<integer>51</integer>
-					</dict>
-					<dict>
-						<key>position</key>
-						<integer>263</integer>
-						<key>width</key>
-						<integer>38</integer>
-					</dict>
-					<dict>
-						<key>position</key>
-						<integer>467</integer>
-						<key>width</key>
-						<integer>35</integer>
-					</dict>
-					<dict>
-						<key>position</key>
-						<integer>633</integer>
-						<key>width</key>
-						<integer>87</integer>
-					</dict>
-				</array>
-				<key>vhints</key>
-				<array>
-					<dict>
-						<key>position</key>
-						<integer>49</integer>
-						<key>width</key>
-						<integer>104</integer>
-					</dict>
-					<dict>
-						<key>position</key>
-						<integer>377</integer>
-						<key>width</key>
-						<integer>104</integer>
-					</dict>
-				</array>
-			</dict>
-			<key>com.fontlab.recipe</key>
-			<string>ecircumflex+gravecomb</string>
-		</dict>
-	</lib>
+  <advance width="516"/>
+  <unicode hex="1EC1"/>
+  <anchor x="329.333" y="0" name="ogonek"/>
+  <outline>
+    <component base="ecircumflex"/>
+    <component base="gravecomb" xyScale="-5.72224e-18" yScale="1" xOffset="445.167" yOffset="201.333"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.autolayer</key>
+  <true/>
+  <key>com.fontlab.hintData</key>
+  <dict>
+    <key>hhints</key>
+    <array>
+      <dict>
+        <key>position</key>
+        <integer>-12</integer>
+        <key>width</key>
+        <integer>51</integer>
+      </dict>
+      <dict>
+        <key>position</key>
+        <integer>263</integer>
+        <key>width</key>
+        <integer>38</integer>
+      </dict>
+      <dict>
+        <key>position</key>
+        <integer>467</integer>
+        <key>width</key>
+        <integer>35</integer>
+      </dict>
+      <dict>
+        <key>position</key>
+        <integer>633</integer>
+        <key>width</key>
+        <integer>87</integer>
+      </dict>
+    </array>
+    <key>vhints</key>
+    <array>
+      <dict>
+        <key>position</key>
+        <integer>49</integer>
+        <key>width</key>
+        <integer>104</integer>
+      </dict>
+      <dict>
+        <key>position</key>
+        <integer>377</integer>
+        <key>width</key>
+        <integer>104</integer>
+      </dict>
+    </array>
+  </dict>
+  <key>com.fontlab.recipe</key>
+  <string>ecircumflex+gravecomb</string>
+  </dict>
+  </lib>
 </glyph>

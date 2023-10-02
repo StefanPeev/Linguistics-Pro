@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Ocircumflex.sc" format="2">
+  <advance width="756"/>
+  <anchor x="526.333" y="736.667" name="top"/>
+  <anchor x="399" y="10" name="ogonek"/>
+  <outline>
+    <component base="O"/>
+    <component base="circumflex.cap" xScale="1" xOffset="176.633"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.recipe</key>
+  <string>Ocircumflex</string>
+  <key>public.markColor</key>
+  <string>1,0.994,0.6,1</string>
+  </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="etatilde" format="2">
+  <advance width="648"/>
+  <unicode hex="1FC6"/>
+  <anchor x="160" y="-56.667" name="bottom.jota"/>
+  <anchor x="460.333" y="709" name="top"/>
+  <outline>
+    <component base="eta"/>
+    <component base="perispomenicomb" xScale="1" xOffset="518.333" yOffset="-3"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.autolayer</key>
+  <true/>
+  <key>com.fontlab.recipe</key>
+  <string>eta+uni0342</string>
+  <key>public.markColor</key>
+  <string>1,0.994,0.6,1</string>
+  </dict>
+  </lib>
+</glyph>

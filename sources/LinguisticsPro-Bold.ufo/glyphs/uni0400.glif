@@ -1,44 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni0400" format="2">
-	<unicode hex="0400"/>
-	<advance width="629"/>
-	<outline>
-		<component base="uni0415"/>
-		<component base="gravecomb" xOffset="481.523" yOffset="219.397"/>
-	</outline>
-	<anchor name="ogonek" x="480" y="10"/>
-	<anchor name="tonos" x="-2" y="702"/>
-	<lib>
-		<dict>
-			<key>com.fontlab.hintData</key>
-			<dict>
-				<key>hhints</key>
-				<array>
-					<dict>
-						<key>position</key>
-						<integer>742</integer>
-						<key>width</key>
-						<integer>21</integer>
-					</dict>
-					<dict>
-						<key>position</key>
-						<integer>798</integer>
-						<key>width</key>
-						<integer>92</integer>
-					</dict>
-				</array>
-				<key>vhints</key>
-				<array>
-					<dict>
-						<key>position</key>
-						<integer>138</integer>
-						<key>width</key>
-						<integer>242</integer>
-					</dict>
-				</array>
-			</dict>
-			<key>com.fontlab.recipe</key>
-			<string>uni0415+gravecomb</string>
-		</dict>
-	</lib>
+  <advance width="629"/>
+  <unicode hex="0400"/>
+  <anchor x="480" y="10" name="ogonek"/>
+  <anchor x="-2" y="702" name="tonos"/>
+  <outline>
+    <component base="uni0415"/>
+    <component base="gravecomb" xOffset="481.523" yOffset="219.397"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.hintData</key>
+  <dict>
+    <key>hhints</key>
+    <array>
+      <dict>
+        <key>position</key>
+        <integer>742</integer>
+        <key>width</key>
+        <integer>21</integer>
+      </dict>
+      <dict>
+        <key>position</key>
+        <integer>798</integer>
+        <key>width</key>
+        <integer>92</integer>
+      </dict>
+    </array>
+    <key>vhints</key>
+    <array>
+      <dict>
+        <key>position</key>
+        <integer>138</integer>
+        <key>width</key>
+        <integer>242</integer>
+      </dict>
+    </array>
+  </dict>
+  <key>com.fontlab.recipe</key>
+  <string>uni0415+gravecomb</string>
+  </dict>
+  </lib>
 </glyph>

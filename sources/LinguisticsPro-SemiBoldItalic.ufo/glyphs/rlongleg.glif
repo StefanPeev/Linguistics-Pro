@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="rlongleg" format="2">
+  <advance width="427"/>
+  <unicode hex="027C"/>
+  <outline>
+    <contour>
+      <point x="40.159" y="-242.007" type="line"/>
+      <point x="184.667" y="393" type="line" smooth="yes"/>
+      <point x="191.176" y="421.627"/>
+      <point x="190.333" y="435.667"/>
+      <point x="169.667" y="437.667" type="curve" smooth="yes"/>
+      <point x="109.667" y="443.334" type="line"/>
+      <point x="116.333" y="473.333" type="line"/>
+      <point x="315.667" y="502" type="line"/>
+      <point x="320.667" y="497" type="line"/>
+      <point x="281" y="345" type="line"/>
+      <point x="285" y="345" type="line"/>
+      <point x="336.333" y="441.667"/>
+      <point x="400" y="502"/>
+      <point x="459.333" y="502" type="curve" smooth="yes"/>
+      <point x="494.667" y="502"/>
+      <point x="515.667" y="484.333"/>
+      <point x="515.667" y="448" type="curve" smooth="yes"/>
+      <point x="515.667" y="412.334"/>
+      <point x="489.667" y="370"/>
+      <point x="454.667" y="370" type="curve" smooth="yes"/>
+      <point x="419.333" y="370"/>
+      <point x="403.667" y="401.667"/>
+      <point x="374" y="401.667" type="curve" smooth="yes"/>
+      <point x="340" y="401.667"/>
+      <point x="300.667" y="326.333"/>
+      <point x="268" y="210" type="curve" smooth="yes"/>
+      <point x="250" y="146"/>
+      <point x="179.159" y="-158.341"/>
+      <point x="162.159" y="-230.007" type="curve"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.recipe</key>
+  <string>r</string>
+  <key>public.markColor</key>
+  <string>0.6,0.602,1,1</string>
+  <key>public.postscript.hints</key>
+  <dict>
+    <key>formatVersion</key>
+    <string>1</string>
+    <key>id</key>
+    <string>661770c43c7ff6edb03c8ce776c1d2cf46d4b19c19d81d1b4d0b8714ed5b6710d293e1b25aa0c6fe29a959abf6e59dbc08e3d14d8209d2cedaea63f5726f471f</string>
+    <key>hintSetList</key>
+    <array>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem 370 132</string>
+          <string>hstem 401.67 100.33</string>
+        </array>
+      </dict>
+    </array>
+  </dict>
+  </dict>
+  </lib>
+</glyph>

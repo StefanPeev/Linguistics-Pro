@@ -1,103 +1,64 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="Lcedilla" format="1">
-  <advance width="568"/>
-  <unicode hex="013B"/>
-  <outline>
-    <contour>
-      <point x="35" y="0" type="line"/>
-      <point x="35" y="29" type="line"/>
-      <point x="123" y="35"/>
-      <point x="125" y="37"/>
-      <point x="125" y="93" type="curve" smooth="yes"/>
-      <point x="125" y="599" type="line" smooth="yes"/>
-      <point x="125" y="655"/>
-      <point x="123" y="657"/>
-      <point x="35" y="663" type="curve"/>
-      <point x="35" y="692" type="line"/>
-      <point x="320" y="692" type="line"/>
-      <point x="320" y="663" type="line"/>
-      <point x="227" y="657"/>
-      <point x="224" y="655"/>
-      <point x="224" y="599" type="curve" smooth="yes"/>
-      <point x="224" y="120" type="line" smooth="yes"/>
-      <point x="224" y="71"/>
-      <point x="228" y="54"/>
-      <point x="249" y="45" type="curve" smooth="yes"/>
-      <point x="270" y="37"/>
-      <point x="306" y="35"/>
-      <point x="356" y="35" type="curve" smooth="yes"/>
-      <point x="461" y="35"/>
-      <point x="516" y="48"/>
-      <point x="536" y="179" type="curve"/>
-      <point x="566" y="179" type="line"/>
-      <point x="554" y="0" type="line"/>
-    </contour>
-    <contour>
-      <point x="228" y="-246" type="line"/>
-      <point x="257" y="-216"/>
-      <point x="273" y="-194"/>
-      <point x="273" y="-162" type="curve" smooth="yes"/>
-      <point x="273" y="-131"/>
-      <point x="242" y="-116"/>
-      <point x="242" y="-87" type="curve" smooth="yes"/>
-      <point x="242" y="-63"/>
-      <point x="260" y="-44"/>
-      <point x="283" y="-44" type="curve" smooth="yes"/>
-      <point x="317" y="-44"/>
-      <point x="340" y="-74"/>
-      <point x="340" y="-116" type="curve" smooth="yes"/>
-      <point x="340" y="-178"/>
-      <point x="290" y="-221"/>
-      <point x="244" y="-261" type="curve"/>
-    </contour>
-  </outline>
-  <lib>
-    <dict>
-      <key>com.fontlab.hintData</key>
-      <dict>
-        <key>hhints</key>
-        <array>
-          <dict>
-            <key>position</key>
-            <integer>-261</integer>
-            <key>width</key>
-            <integer>217</integer>
-          </dict>
-          <dict>
-            <key>position</key>
-            <integer>0</integer>
-            <key>width</key>
-            <integer>35</integer>
-          </dict>
-          <dict>
-            <key>position</key>
-            <integer>663</integer>
-            <key>width</key>
-            <integer>29</integer>
-          </dict>
-        </array>
-        <key>vhints</key>
-        <array>
-          <dict>
-            <key>position</key>
-            <integer>125</integer>
-            <key>width</key>
-            <integer>99</integer>
-          </dict>
-          <dict>
-            <key>position</key>
-            <integer>273</integer>
-            <key>width</key>
-            <integer>67</integer>
-          </dict>
-          <dict>
-            <key>position</key>
-            <integer>536</integer>
-            <key>width</key>
-            <integer>30</integer>
-          </dict>
-        </array>
-      </dict>
-    </dict>
-  </lib>
+<glyph name="Lcedilla" format="2">
+	<unicode hex="013B"/>
+	<advance width="568"/>
+	<outline>
+		<component base="L"/>
+		<component base="uni0326" xOffset="481"/>
+	</outline>
+	<anchor name="dot" x="382" y="379"/>
+	<anchor name="quote" x="497" y="742"/>
+	<lib>
+		<dict>
+			<key>com.fontlab.autolayer</key>
+			<true/>
+			<key>com.fontlab.hintData</key>
+			<dict>
+				<key>hhints</key>
+				<array>
+					<dict>
+						<key>position</key>
+						<integer>-261</integer>
+						<key>width</key>
+						<integer>217</integer>
+					</dict>
+					<dict>
+						<key>position</key>
+						<integer>0</integer>
+						<key>width</key>
+						<integer>35</integer>
+					</dict>
+					<dict>
+						<key>position</key>
+						<integer>663</integer>
+						<key>width</key>
+						<integer>29</integer>
+					</dict>
+				</array>
+				<key>vhints</key>
+				<array>
+					<dict>
+						<key>position</key>
+						<integer>125</integer>
+						<key>width</key>
+						<integer>99</integer>
+					</dict>
+					<dict>
+						<key>position</key>
+						<integer>273</integer>
+						<key>width</key>
+						<integer>67</integer>
+					</dict>
+					<dict>
+						<key>position</key>
+						<integer>536</integer>
+						<key>width</key>
+						<integer>30</integer>
+					</dict>
+				</array>
+			</dict>
+			<key>com.fontlab.recipe</key>
+			<string>L+uni0326</string>
+		</dict>
+	</lib>
 </glyph>

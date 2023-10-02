@@ -1,41 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Emacron" format="2">
-	<unicode hex="0112"/>
-	<advance width="606"/>
-	<outline>
-		<component base="E"/>
-		<component base="macron.cap" xOffset="103"/>
-	</outline>
-	<anchor name="ogonek" x="479" y="10"/>
-	<anchor name="tonos" x="0" y="707"/>
-	<anchor name="top" x="303" y="866"/>
-	<lib>
-		<dict>
-			<key>com.fontlab.autolayer</key>
-			<true/>
-			<key>com.fontlab.hintData</key>
-			<dict>
-				<key>hhints</key>
-				<array>
-					<dict>
-						<key>position</key>
-						<integer>759</integer>
-						<key>width</key>
-						<integer>59</integer>
-					</dict>
-				</array>
-				<key>vhints</key>
-				<array>
-					<dict>
-						<key>position</key>
-						<integer>148</integer>
-						<key>width</key>
-						<integer>316</integer>
-					</dict>
-				</array>
-			</dict>
-			<key>com.fontlab.recipe</key>
-			<string>E+macron.cap</string>
-		</dict>
-	</lib>
+  <advance width="606"/>
+  <unicode hex="0112"/>
+  <anchor x="479" y="10" name="ogonek"/>
+  <anchor x="0" y="707" name="tonos"/>
+  <anchor x="0" y="692" name="greek.UC.tonos"/>
+  <anchor x="303" y="866" name="top"/>
+  <outline>
+    <component base="E"/>
+    <component base="macron.cap" xOffset="103"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.autolayer</key>
+  <true/>
+  <key>com.fontlab.hintData</key>
+  <dict>
+    <key>hhints</key>
+    <array>
+      <dict>
+        <key>position</key>
+        <integer>759</integer>
+        <key>width</key>
+        <integer>59</integer>
+      </dict>
+    </array>
+    <key>vhints</key>
+    <array>
+      <dict>
+        <key>position</key>
+        <integer>148</integer>
+        <key>width</key>
+        <integer>316</integer>
+      </dict>
+    </array>
+  </dict>
+  <key>com.fontlab.recipe</key>
+  <string>E+macron.cap</string>
+  </dict>
+  </lib>
 </glyph>

@@ -1,63 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="uni0330" format="1">
-  <advance width="0"/>
-  <unicode hex="0330"/>
-  <outline>
-    <contour>
-      <point x="-428" y="-276" type="line"/>
-      <point x="-410" y="-233"/>
-      <point x="-375" y="-154"/>
-      <point x="-293" y="-154" type="curve" smooth="yes"/>
-      <point x="-265" y="-154"/>
-      <point x="-233" y="-164"/>
-      <point x="-201" y="-175" type="curve" smooth="yes"/>
-      <point x="-168" y="-185"/>
-      <point x="-136" y="-196"/>
-      <point x="-110" y="-196" type="curve" smooth="yes"/>
-      <point x="-73" y="-196"/>
-      <point x="-57" y="-180"/>
-      <point x="-35" y="-141" type="curve"/>
-      <point x="-3" y="-159" type="line"/>
-      <point x="-21" y="-202"/>
-      <point x="-56" y="-281"/>
-      <point x="-138" y="-281" type="curve" smooth="yes"/>
-      <point x="-163" y="-281"/>
-      <point x="-194" y="-270"/>
-      <point x="-226" y="-260" type="curve" smooth="yes"/>
-      <point x="-258" y="-249"/>
-      <point x="-291" y="-239"/>
-      <point x="-321" y="-239" type="curve" smooth="yes"/>
-      <point x="-358" y="-239"/>
-      <point x="-374" y="-255"/>
-      <point x="-396" y="-294" type="curve"/>
-    </contour>
-  </outline>
-  <lib>
-    <dict>
-      <key>com.fontlab.hintData</key>
-      <dict>
-        <key>hhints</key>
-        <array>
-          <dict>
-            <key>position</key>
-            <integer>-281</integer>
-            <key>width</key>
-            <integer>85</integer>
-          </dict>
-          <dict>
-            <key>position</key>
-            <integer>-239</integer>
-            <key>width</key>
-            <integer>85</integer>
-          </dict>
-          <dict>
-            <key>position</key>
-            <integer>-161</integer>
-            <key>width</key>
-            <integer>20</integer>
-          </dict>
-        </array>
-      </dict>
-    </dict>
-  </lib>
+<glyph name="uni0330" format="2">
+	<unicode hex="0330"/>
+	<outline>
+		<component base="tildecomb" xOffset="-39.4918" yOffset="-745"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.fontlab.hintData</key>
+			<dict>
+				<key>hhints</key>
+				<array>
+					<dict>
+						<key>position</key>
+						<integer>-242</integer>
+						<key>width</key>
+						<integer>60</integer>
+					</dict>
+					<dict>
+						<key>position</key>
+						<integer>-204</integer>
+						<key>width</key>
+						<integer>60</integer>
+					</dict>
+				</array>
+			</dict>
+		</dict>
+	</lib>
 </glyph>

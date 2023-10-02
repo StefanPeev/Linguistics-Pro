@@ -1,109 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="uni1E50" format="1">
-  <advance width="768"/>
-  <unicode hex="1E50"/>
-  <outline>
-    <contour>
-      <point x="42" y="346" type="curve" smooth="yes"/>
-      <point x="42" y="572"/>
-      <point x="154" y="707"/>
-      <point x="384" y="707" type="curve" smooth="yes"/>
-      <point x="614" y="707"/>
-      <point x="726" y="572"/>
-      <point x="726" y="346" type="curve" smooth="yes"/>
-      <point x="726" y="120"/>
-      <point x="614" y="-15"/>
-      <point x="384" y="-15" type="curve" smooth="yes"/>
-      <point x="154" y="-15"/>
-      <point x="42" y="120"/>
-    </contour>
-    <contour>
-      <point x="198" y="965" type="curve" smooth="yes"/>
-      <point x="198" y="985"/>
-      <point x="220" y="1029"/>
-      <point x="252" y="1029" type="curve" smooth="yes"/>
-      <point x="270" y="1029"/>
-      <point x="285" y="1022"/>
-      <point x="316" y="999" type="curve" smooth="yes"/>
-      <point x="488" y="876" type="line"/>
-      <point x="478" y="852" type="line"/>
-      <point x="559" y="852" type="line"/>
-      <point x="559" y="765" type="line"/>
-      <point x="209" y="765" type="line"/>
-      <point x="208" y="852" type="line"/>
-      <point x="449" y="852" type="line"/>
-      <point x="271" y="908" type="line" smooth="yes"/>
-      <point x="218" y="925"/>
-      <point x="198" y="936"/>
-    </contour>
-    <contour>
-      <point x="219" y="346" type="curve" smooth="yes"/>
-      <point x="219" y="225"/>
-      <point x="239" y="31"/>
-      <point x="384" y="31" type="curve" smooth="yes"/>
-      <point x="531" y="31"/>
-      <point x="549" y="225"/>
-      <point x="549" y="346" type="curve" smooth="yes"/>
-      <point x="549" y="467"/>
-      <point x="531" y="661"/>
-      <point x="384" y="661" type="curve" smooth="yes"/>
-      <point x="237" y="661"/>
-      <point x="219" y="467"/>
-    </contour>
-  </outline>
-  <lib>
-    <dict>
-      <key>com.fontlab.hintData</key>
-      <dict>
-        <key>hhints</key>
-        <array>
-          <dict>
-            <key>position</key>
-            <integer>-15</integer>
-            <key>width</key>
-            <integer>46</integer>
-          </dict>
-          <dict>
-            <key>position</key>
-            <integer>661</integer>
-            <key>width</key>
-            <integer>46</integer>
-          </dict>
-          <dict>
-            <key>position</key>
-            <integer>765</integer>
-            <key>width</key>
-            <integer>87</integer>
-          </dict>
-          <dict>
-            <key>position</key>
-            <integer>908</integer>
-            <key>width</key>
-            <integer>121</integer>
-          </dict>
-        </array>
-        <key>vhints</key>
-        <array>
-          <dict>
-            <key>position</key>
-            <integer>42</integer>
-            <key>width</key>
-            <integer>177</integer>
-          </dict>
-          <dict>
-            <key>position</key>
-            <integer>199</integer>
-            <key>width</key>
-            <integer>290</integer>
-          </dict>
-          <dict>
-            <key>position</key>
-            <integer>549</integer>
-            <key>width</key>
-            <integer>177</integer>
-          </dict>
-        </array>
-      </dict>
-    </dict>
-  </lib>
+<glyph name="uni1E50" format="2">
+	<unicode hex="1E50"/>
+	<advance width="768"/>
+	<outline>
+		<component base="Omacron"/>
+		<component base="grave.cap" xOffset="229" yOffset="142"/>
+	</outline>
+	<anchor name="tonos" x="38" y="702"/>
+	<anchor name="top" x="384" y="902"/>
+	<lib>
+		<dict>
+			<key>com.fontlab.autolayer</key>
+			<true/>
+			<key>com.fontlab.hintData</key>
+			<dict>
+				<key>hhints</key>
+				<array>
+					<dict>
+						<key>position</key>
+						<integer>833</integer>
+						<key>width</key>
+						<integer>21</integer>
+					</dict>
+					<dict>
+						<key>position</key>
+						<integer>889</integer>
+						<key>width</key>
+						<integer>92</integer>
+					</dict>
+				</array>
+				<key>vhints</key>
+				<array>
+					<dict>
+						<key>position</key>
+						<integer>213</integer>
+						<key>width</key>
+						<integer>242</integer>
+					</dict>
+				</array>
+			</dict>
+			<key>com.fontlab.recipe</key>
+			<string>Omacron+grave.cap</string>
+		</dict>
+	</lib>
 </glyph>

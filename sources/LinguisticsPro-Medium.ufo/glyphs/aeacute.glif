@@ -1,39 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="aeacute" format="2">
-	<unicode hex="01FD"/>
-	<advance width="800"/>
-	<outline>
-		<component base="ae"/>
-		<component base="acutecomb" xOffset="565"/>
-	</outline>
-	<anchor name="top" x="376.333" y="753.333"/>
-	<lib>
-		<dict>
-			<key>com.fontlab.autolayer</key>
-			<true/>
-			<key>com.fontlab.hintData</key>
-			<dict>
-				<key>hhints</key>
-				<array>
-					<dict>
-						<key>position</key>
-						<integer>542</integer>
-						<key>width</key>
-						<integer>181</integer>
-					</dict>
-				</array>
-				<key>vhints</key>
-				<array>
-					<dict>
-						<key>position</key>
-						<integer>331</integer>
-						<key>width</key>
-						<integer>222</integer>
-					</dict>
-				</array>
-			</dict>
-			<key>com.fontlab.recipe</key>
-			<string>ae+acutecomb</string>
-		</dict>
-	</lib>
+  <advance width="800"/>
+  <unicode hex="01FD"/>
+  <anchor x="376.333" y="753.333" name="top"/>
+  <outline>
+    <component base="ae"/>
+    <component base="acutecomb" xOffset="565"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.autolayer</key>
+  <true/>
+  <key>com.fontlab.hintData</key>
+  <dict>
+    <key>hhints</key>
+    <array>
+      <dict>
+        <key>position</key>
+        <integer>542</integer>
+        <key>width</key>
+        <integer>181</integer>
+      </dict>
+    </array>
+    <key>vhints</key>
+    <array>
+      <dict>
+        <key>position</key>
+        <integer>331</integer>
+        <key>width</key>
+        <integer>222</integer>
+      </dict>
+    </array>
+  </dict>
+  <key>com.fontlab.recipe</key>
+  <string>ae+acutecomb</string>
+  </dict>
+  </lib>
 </glyph>

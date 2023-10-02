@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="iotasubcomb" format="2">
+  <unicode hex="0345"/>
+  <anchor x="-231" y="-50" name="_bottom.jota"/>
+  <outline>
+    <contour>
+      <point x="-230.687" y="-49.8349" type="line"/>
+      <point x="-136.687" y="-49.8349" type="line"/>
+      <point x="-154.023" y="-125.835" type="line" smooth="yes"/>
+      <point x="-162.463" y="-162.835"/>
+      <point x="-161.569" y="-180.835"/>
+      <point x="-131.745" y="-180.835" type="curve" smooth="yes"/>
+      <point x="-119.569" y="-180.835"/>
+      <point x="-108.885" y="-177.835"/>
+      <point x="-104.429" y="-175.835" type="curve"/>
+      <point x="-92.9911" y="-195.835" type="line"/>
+      <point x="-106.272" y="-205.835"/>
+      <point x="-147.203" y="-231.835"/>
+      <point x="-193.336" y="-231.835" type="curve" smooth="yes"/>
+      <point x="-242.834" y="-231.835"/>
+      <point x="-265.375" y="-201.903"/>
+      <point x="-252.814" y="-146.835" type="curve" smooth="yes"/>
+    </contour>
+  </outline>
+  <guideline angle="0" x="0" y="-50"/>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.6,0.602,1,1</string>
+  </dict>
+  </lib>
+</glyph>

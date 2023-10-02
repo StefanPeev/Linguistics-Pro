@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Iogonek" format="2">
+  <advance width="345"/>
+  <unicode hex="012E"/>
+  <outline>
+    <contour>
+      <point x="40" y="0" type="line"/>
+      <point x="47" y="29" type="line"/>
+      <point x="102" y="35" type="line" smooth="yes"/>
+      <point x="126" y="37"/>
+      <point x="137" y="51"/>
+      <point x="144" y="83" type="curve" smooth="yes"/>
+      <point x="264" y="609" type="line" smooth="yes"/>
+      <point x="271" y="639"/>
+      <point x="265" y="657"/>
+      <point x="242" y="659" type="curve" smooth="yes"/>
+      <point x="183" y="663" type="line"/>
+      <point x="190" y="692" type="line"/>
+      <point x="464" y="692" type="line"/>
+      <point x="457" y="663" type="line"/>
+      <point x="402" y="658" type="line" smooth="yes"/>
+      <point x="377" y="656"/>
+      <point x="367" y="640"/>
+      <point x="360" y="609" type="curve" smooth="yes"/>
+      <point x="240" y="83" type="line" smooth="yes"/>
+      <point x="233" y="52"/>
+      <point x="238" y="35"/>
+      <point x="262" y="33" type="curve" smooth="yes"/>
+      <point x="321" y="29" type="line"/>
+      <point x="315" y="0" type="line"/>
+      <point x="146" y="0" type="line"/>
+      <point x="103" y="-36"/>
+      <point x="76" y="-74"/>
+      <point x="76" y="-119" type="curve" smooth="yes"/>
+      <point x="76" y="-155"/>
+      <point x="103" y="-170"/>
+      <point x="132" y="-170" type="curve" smooth="yes"/>
+      <point x="152" y="-170"/>
+      <point x="164" y="-167"/>
+      <point x="183" y="-159" type="curve"/>
+      <point x="190" y="-175" type="line"/>
+      <point x="160" y="-204"/>
+      <point x="126" y="-212"/>
+      <point x="97" y="-212" type="curve" smooth="yes"/>
+      <point x="16" y="-212"/>
+      <point x="10" y="-157"/>
+      <point x="10" y="-133" type="curve" smooth="yes"/>
+      <point x="10" y="-83"/>
+      <point x="48" y="-31"/>
+      <point x="100" y="0" type="curve"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.postscript.hints</key>
+  <dict>
+    <key>formatVersion</key>
+    <string>1</string>
+    <key>id</key>
+    <string>b7408ce012cfff3b412190b243ba2d6f1bff2cdeadcfe45e0a1758d60efbc2463293a264697ed931e6093f09fe9a33e56a1816359e560d260facd7082908c762</string>
+    <key>hintSetList</key>
+    <array>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem -212 42</string>
+          <string>hstem 0 29</string>
+          <string>hstem 663 29</string>
+          <string>vstem 9 66</string>
+        </array>
+      </dict>
+    </array>
+  </dict>
+  </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="minusplus" format="2">
+  <advance width="570"/>
+  <unicode hex="2213"/>
+  <outline>
+    <contour>
+      <point x="43" y="195.679" type="line"/>
+      <point x="43" y="254.679" type="line"/>
+      <point x="252" y="254.679" type="line"/>
+      <point x="252" y="441.679" type="line"/>
+      <point x="320" y="441.679" type="line"/>
+      <point x="320" y="254.679" type="line"/>
+      <point x="527" y="254.679" type="line"/>
+      <point x="527" y="195.679" type="line"/>
+      <point x="320" y="195.679" type="line"/>
+      <point x="320" y="0.236488" type="line"/>
+      <point x="252" y="0.236488" type="line"/>
+      <point x="252" y="195.679" type="line"/>
+    </contour>
+    <contour>
+      <point x="43" y="497" type="line"/>
+      <point x="43" y="556" type="line"/>
+      <point x="527" y="556" type="line"/>
+      <point x="527" y="497" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.metricsLeft</key>
+  <string>=equal</string>
+  <key>com.fontlab.metricsRight</key>
+  <string>=equal</string>
+  <key>com.fontlab.recipe</key>
+  <string>plusminus</string>
+  <key>public.markColor</key>
+  <string>0.6,0.602,1,1</string>
+  </dict>
+  </lib>
+</glyph>

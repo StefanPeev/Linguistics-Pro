@@ -1,38 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="endash" format="1">
-  <advance width="500"/>
-  <unicode hex="2013"/>
-  <outline>
-    <contour>
-      <point x="0" y="209" type="line"/>
-      <point x="0" y="292" type="line"/>
-      <point x="500" y="292" type="line"/>
-      <point x="500" y="209" type="line"/>
-    </contour>
-  </outline>
-  <lib>
-    <dict>
-      <key>com.fontlab.hintData</key>
-      <dict>
-        <key>hhints</key>
-        <array>
-          <dict>
-            <key>position</key>
-            <integer>209</integer>
-            <key>width</key>
-            <integer>83</integer>
-          </dict>
-        </array>
-        <key>vhints</key>
-        <array>
-          <dict>
-            <key>position</key>
-            <integer>0</integer>
-            <key>width</key>
-            <integer>500</integer>
-          </dict>
-        </array>
-      </dict>
-    </dict>
-  </lib>
+<glyph name="endash" format="2">
+	<unicode hex="2013"/>
+	<advance width="371"/>
+	<outline>
+		<contour>
+			<point x="0" y="209" type="line"/>
+			<point x="0" y="292" type="line"/>
+			<point x="371" y="292" type="line"/>
+			<point x="371" y="209" type="line"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.fontlab.hintData</key>
+			<dict>
+				<key>hhints</key>
+				<array>
+					<dict>
+						<key>position</key>
+						<integer>221</integer>
+						<key>width</key>
+						<integer>58</integer>
+					</dict>
+				</array>
+			</dict>
+		</dict>
+	</lib>
 </glyph>

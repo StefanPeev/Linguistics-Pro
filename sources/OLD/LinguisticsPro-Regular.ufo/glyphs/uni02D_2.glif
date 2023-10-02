@@ -1,54 +1,54 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="uni02D2" format="1">
-  <advance width="400"/>
-  <unicode hex="02D2"/>
-  <outline>
-    <contour>
-      <point x="124" y="115" type="curve"/>
-      <point x="124" y="150" type="line"/>
-      <point x="190" y="150"/>
-      <point x="236" y="188"/>
-      <point x="236" y="250" type="curve" smooth="yes"/>
-      <point x="236" y="312"/>
-      <point x="190" y="350"/>
-      <point x="124" y="350" type="curve"/>
-      <point x="124" y="385" type="line"/>
-      <point x="224" y="385"/>
-      <point x="276" y="320"/>
-      <point x="276" y="250" type="curve" smooth="yes"/>
-      <point x="276" y="180"/>
-      <point x="224" y="115"/>
-    </contour>
-  </outline>
-  <lib>
-    <dict>
-      <key>com.fontlab.hintData</key>
-      <dict>
-        <key>hhints</key>
-        <array>
-          <dict>
-            <key>position</key>
-            <integer>115</integer>
-            <key>width</key>
-            <integer>35</integer>
-          </dict>
-          <dict>
-            <key>position</key>
-            <integer>350</integer>
-            <key>width</key>
-            <integer>35</integer>
-          </dict>
-        </array>
-        <key>vhints</key>
-        <array>
-          <dict>
-            <key>position</key>
-            <integer>236</integer>
-            <key>width</key>
-            <integer>40</integer>
-          </dict>
-        </array>
-      </dict>
-    </dict>
-  </lib>
+<glyph name="uni02D2" format="2">
+	<unicode hex="02D2"/>
+	<advance width="400"/>
+	<outline>
+		<contour>
+			<point x="124" y="117" type="curve"/>
+			<point x="124" y="152" type="line"/>
+			<point x="190" y="152"/>
+			<point x="236" y="190"/>
+			<point x="236" y="252" type="curve" smooth="yes"/>
+			<point x="236" y="314"/>
+			<point x="190" y="352"/>
+			<point x="124" y="352" type="curve"/>
+			<point x="124" y="387" type="line"/>
+			<point x="224" y="387"/>
+			<point x="276" y="322"/>
+			<point x="276" y="252" type="curve" smooth="yes"/>
+			<point x="276" y="182"/>
+			<point x="224" y="117"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.fontlab.hintData</key>
+			<dict>
+				<key>hhints</key>
+				<array>
+					<dict>
+						<key>position</key>
+						<integer>115</integer>
+						<key>width</key>
+						<integer>35</integer>
+					</dict>
+					<dict>
+						<key>position</key>
+						<integer>350</integer>
+						<key>width</key>
+						<integer>35</integer>
+					</dict>
+				</array>
+				<key>vhints</key>
+				<array>
+					<dict>
+						<key>position</key>
+						<integer>236</integer>
+						<key>width</key>
+						<integer>40</integer>
+					</dict>
+				</array>
+			</dict>
+		</dict>
+	</lib>
 </glyph>

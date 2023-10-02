@@ -1,45 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni04F4" format="2">
-	<unicode hex="04F4"/>
-	<advance width="766"/>
-	<outline>
-		<component base="uni0427"/>
-		<component base="uni0308" xOffset="598" yOffset="202"/>
-	</outline>
-	<anchor name="top" x="383" y="942"/>
-	<lib>
-		<dict>
-			<key>com.fontlab.autolayer</key>
-			<true/>
-			<key>com.fontlab.hintData</key>
-			<dict>
-				<key>hhints</key>
-				<array>
-					<dict>
-						<key>position</key>
-						<integer>732</integer>
-						<key>width</key>
-						<integer>109</integer>
-					</dict>
-				</array>
-				<key>vhints</key>
-				<array>
-					<dict>
-						<key>position</key>
-						<integer>209</integer>
-						<key>width</key>
-						<integer>116</integer>
-					</dict>
-					<dict>
-						<key>position</key>
-						<integer>417</integer>
-						<key>width</key>
-						<integer>116</integer>
-					</dict>
-				</array>
-			</dict>
-			<key>com.fontlab.recipe</key>
-			<string>uni0427+uni0308</string>
-		</dict>
-	</lib>
+  <advance width="766"/>
+  <unicode hex="04F4"/>
+  <anchor x="383" y="942" name="top"/>
+  <outline>
+    <component base="uni0427"/>
+    <component base="uni0308" xOffset="598" yOffset="202"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.autolayer</key>
+  <true/>
+  <key>com.fontlab.hintData</key>
+  <dict>
+    <key>hhints</key>
+    <array>
+      <dict>
+        <key>position</key>
+        <integer>732</integer>
+        <key>width</key>
+        <integer>109</integer>
+      </dict>
+    </array>
+    <key>vhints</key>
+    <array>
+      <dict>
+        <key>position</key>
+        <integer>209</integer>
+        <key>width</key>
+        <integer>116</integer>
+      </dict>
+      <dict>
+        <key>position</key>
+        <integer>417</integer>
+        <key>width</key>
+        <integer>116</integer>
+      </dict>
+    </array>
+  </dict>
+  <key>com.fontlab.recipe</key>
+  <string>uni0427+uni0308</string>
+  </dict>
+  </lib>
 </glyph>

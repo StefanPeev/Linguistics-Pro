@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="omegalenisacute" format="2">
+  <advance width="770"/>
+  <unicode hex="1F64"/>
+  <outline>
+    <component base="omega"/>
+    <component base="lenisacute" xScale="1" xOffset="184.333" yOffset="-3"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.autolayer</key>
+  <true/>
+  <key>com.fontlab.recipe</key>
+  <string>omega+lenisacute</string>
+  <key>public.markColor</key>
+  <string>0.6,0.602,1,1</string>
+  </dict>
+  </lib>
+</glyph>

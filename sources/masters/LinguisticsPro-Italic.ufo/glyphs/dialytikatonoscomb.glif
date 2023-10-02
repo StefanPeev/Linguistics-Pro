@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="dialytikatonoscomb" format="2">
+  <unicode hex="0344"/>
+  <anchor x="-24" y="570" name="_top"/>
+  <anchor x="142.442" y="750" name="top"/>
+  <outline>
+    <component base="uni0308"/>
+    <contour>
+      <point x="-62.8086" y="620.407" type="line"/>
+      <point x="-27.0018" y="754.66" type="line" smooth="yes"/>
+      <point x="-22.6531" y="770.965"/>
+      <point x="-0.454076" y="777.972"/>
+      <point x="18.7192" y="777.972" type="curve" smooth="yes"/>
+      <point x="40.6656" y="777.972"/>
+      <point x="49.2738" y="768.791"/>
+      <point x="49.3123" y="753.04" type="curve" smooth="yes"/>
+      <point x="49.3481" y="738.385"/>
+      <point x="39.8499" y="723.233"/>
+      <point x="33.8564" y="715.208" type="curve" smooth="yes"/>
+      <point x="-43.6497" y="611.422" type="line"/>
+    </contour>
+  </outline>
+  <guideline angle="75.0333" x="-63" y="620"/>
+  <guideline angle="233.236" x="21" y="698"/>
+  <lib>
+  <dict>
+  <key>com.fontlab.recipe</key>
+  <string>uni0308+acutecomb</string>
+  <key>public.markColor</key>
+  <string>0.6,0.602,1,1</string>
+  </dict>
+  </lib>
+</glyph>

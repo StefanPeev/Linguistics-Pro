@@ -1,53 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni1DAF" format="2">
-	<unicode hex="1DAF"/>
-	<advance width="372"/>
-	<outline>
-		<component base="uni0273" xScale="0.5995" yScale="0.5995" xOffset="6.30776" yOffset="354.042"/>
-	</outline>
-	<guideline x="0" y="628" angle="0"/>
-	<guideline x="0" y="182" angle="0"/>
-	<lib>
-		<dict>
-			<key>com.fontlab.hintData</key>
-			<dict>
-				<key>hhints</key>
-				<array>
-					<dict>
-						<key>position</key>
-						<integer>182</integer>
-						<key>width</key>
-						<integer>21</integer>
-					</dict>
-					<dict>
-						<key>position</key>
-						<integer>327</integer>
-						<key>width</key>
-						<integer>17</integer>
-					</dict>
-					<dict>
-						<key>position</key>
-						<integer>596</integer>
-						<key>width</key>
-						<integer>32</integer>
-					</dict>
-				</array>
-				<key>vhints</key>
-				<array>
-					<dict>
-						<key>position</key>
-						<integer>64</integer>
-						<key>width</key>
-						<integer>56</integer>
-					</dict>
-					<dict>
-						<key>position</key>
-						<integer>261</integer>
-						<key>width</key>
-						<integer>56</integer>
-					</dict>
-				</array>
-			</dict>
-		</dict>
-	</lib>
+  <advance width="372"/>
+  <unicode hex="1DAF"/>
+  <outline>
+    <component base="uni0273" xScale="0.5995" yScale="0.5995" xOffset="6.308" yOffset="354.042"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.hintData</key>
+  <dict>
+    <key>hhints</key>
+    <array>
+      <dict>
+        <key>position</key>
+        <integer>182</integer>
+        <key>width</key>
+        <integer>21</integer>
+      </dict>
+      <dict>
+        <key>position</key>
+        <integer>327</integer>
+        <key>width</key>
+        <integer>17</integer>
+      </dict>
+      <dict>
+        <key>position</key>
+        <integer>596</integer>
+        <key>width</key>
+        <integer>32</integer>
+      </dict>
+    </array>
+    <key>vhints</key>
+    <array>
+      <dict>
+        <key>position</key>
+        <integer>64</integer>
+        <key>width</key>
+        <integer>56</integer>
+      </dict>
+      <dict>
+        <key>position</key>
+        <integer>261</integer>
+        <key>width</key>
+        <integer>56</integer>
+      </dict>
+    </array>
+  </dict>
+  </dict>
+  </lib>
 </glyph>

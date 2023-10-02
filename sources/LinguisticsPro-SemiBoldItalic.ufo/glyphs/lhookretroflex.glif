@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="lhookretroflex" format="2">
+  <advance width="320"/>
+  <unicode hex="026D"/>
+  <outline>
+    <contour>
+      <point x="119" y="150" type="line"/>
+      <point x="237" y="635" type="line" smooth="yes"/>
+      <point x="239.447" y="644.974"/>
+      <point x="240.667" y="652.667"/>
+      <point x="240.667" y="659" type="curve" smooth="yes"/>
+      <point x="240.667" y="673.333"/>
+      <point x="233.963" y="678.292"/>
+      <point x="219.667" y="680" type="curve" smooth="yes"/>
+      <point x="162" y="687" type="line"/>
+      <point x="168.667" y="716" type="line"/>
+      <point x="379.667" y="742" type="line"/>
+      <point x="385.333" y="737" type="line"/>
+      <point x="241" y="150" type="line"/>
+    </contour>
+    <contour>
+      <point x="78.702" y="-14.486" type="curve" smooth="yes"/>
+      <point x="119.072" y="150.184" type="line"/>
+      <point x="241" y="150.183" type="line"/>
+      <point x="209.328" y="19.207" type="line" smooth="yes"/>
+      <point x="194.942" y="-39.922"/>
+      <point x="148.116" y="-108.426"/>
+      <point x="148.116" y="-167.337" type="curve" smooth="yes"/>
+      <point x="148.116" y="-186.224"/>
+      <point x="157.097" y="-196.333"/>
+      <point x="170.057" y="-196.333" type="curve" smooth="yes"/>
+      <point x="206.988" y="-196.333"/>
+      <point x="226.762" y="-111.667"/>
+      <point x="272.333" y="-111.667" type="curve" smooth="yes"/>
+      <point x="300.311" y="-111.667"/>
+      <point x="322.45" y="-137.47"/>
+      <point x="322.45" y="-169.951" type="curve" smooth="yes"/>
+      <point x="322.45" y="-214.902"/>
+      <point x="269.638" y="-242"/>
+      <point x="183.865" y="-242" type="curve" smooth="yes"/>
+      <point x="102.8" y="-242"/>
+      <point x="63.167" y="-181.205"/>
+      <point x="63.167" y="-110.783" type="curve" smooth="yes"/>
+      <point x="63.167" y="-79.797"/>
+      <point x="70.962" y="-46.062"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.recipe</key>
+  <string>l</string>
+  <key>public.markColor</key>
+  <string>0.6,0.602,1,1</string>
+  <key>public.postscript.hints</key>
+  <dict>
+    <key>formatVersion</key>
+    <string>1</string>
+    <key>id</key>
+    <string>9e619274b4adc2e85406970c728282c1f5ca1f654434a262d1020ab18e5f529de4657a2cb4bb2c06eb9e4027a2e05a09ccaee194b8b56f2fcab825ec8d82b519</string>
+    <key>hintSetList</key>
+    <array>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem 687 55</string>
+        </array>
+      </dict>
+    </array>
+  </dict>
+  </dict>
+  </lib>
+</glyph>

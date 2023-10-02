@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni1FB8" format="2">
+  <advance width="644"/>
+  <unicode hex="1FB8"/>
+  <anchor x="321.5" y="922" name="top"/>
+  <anchor x="496" y="10" name="ogonek"/>
+  <anchor x="320" y="660" name="aring"/>
+  <anchor x="156" y="707" name="tonos"/>
+  <outline>
+    <component base="Alpha"/>
+    <component base="uni0306" xOffset="618.5" yOffset="202"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.autolayer</key>
+  <true/>
+  <key>com.fontlab.recipe</key>
+  <string>Alpha+uni0306</string>
+  </dict>
+  </lib>
+</glyph>

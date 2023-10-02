@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni0230" format="2">
+  <advance width="758"/>
+  <unicode hex="0230"/>
+  <anchor x="398" y="10" name="ogonek"/>
+  <anchor x="153" y="705.333" name="tonos"/>
+  <outline>
+    <component base="O"/>
+    <component base="dotaccentmacron" xScale="1" xyScale="-5.69382e-18" yScale="1" xOffset="680.333" yOffset="200.333"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.autolayer</key>
+  <true/>
+  <key>com.fontlab.recipe</key>
+  <string>O+dotaccentmacron</string>
+  </dict>
+  </lib>
+</glyph>

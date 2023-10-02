@@ -1,46 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni1E54" format="2">
-	<unicode hex="1E54"/>
-	<advance width="617"/>
-	<outline>
-		<component base="P"/>
-		<component base="acute.cap" xOffset="66.3333"/>
-	</outline>
-	<anchor name="tonos" x="-4" y="702"/>
-	<anchor name="top" x="291.667" y="930"/>
-	<lib>
-		<dict>
-			<key>com.fontlab.autolayer</key>
-			<true/>
-			<key>com.fontlab.hintData</key>
-			<dict>
-				<key>hhints</key>
-				<array>
-					<dict>
-						<key>position</key>
-						<integer>742</integer>
-						<key>width</key>
-						<integer>21</integer>
-					</dict>
-					<dict>
-						<key>position</key>
-						<integer>798</integer>
-						<key>width</key>
-						<integer>92</integer>
-					</dict>
-				</array>
-				<key>vhints</key>
-				<array>
-					<dict>
-						<key>position</key>
-						<integer>191</integer>
-						<key>width</key>
-						<integer>242</integer>
-					</dict>
-				</array>
-			</dict>
-			<key>com.fontlab.recipe</key>
-			<string>P+acute.cap</string>
-		</dict>
-	</lib>
+  <advance width="617"/>
+  <unicode hex="1E54"/>
+  <anchor x="-4" y="702" name="tonos"/>
+  <anchor x="291.667" y="930" name="top"/>
+  <outline>
+    <component base="P"/>
+    <component base="acute.cap" xScale="1" xOffset="66.333"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.autolayer</key>
+  <true/>
+  <key>com.fontlab.hintData</key>
+  <dict>
+    <key>hhints</key>
+    <array>
+      <dict>
+        <key>position</key>
+        <integer>742</integer>
+        <key>width</key>
+        <integer>21</integer>
+      </dict>
+      <dict>
+        <key>position</key>
+        <integer>798</integer>
+        <key>width</key>
+        <integer>92</integer>
+      </dict>
+    </array>
+    <key>vhints</key>
+    <array>
+      <dict>
+        <key>position</key>
+        <integer>191</integer>
+        <key>width</key>
+        <integer>242</integer>
+      </dict>
+    </array>
+  </dict>
+  <key>com.fontlab.recipe</key>
+  <string>P+acute.cap</string>
+  </dict>
+  </lib>
 </glyph>

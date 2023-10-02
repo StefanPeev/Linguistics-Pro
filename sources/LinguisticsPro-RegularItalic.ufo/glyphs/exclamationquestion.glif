@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="exclamationquestion" format="2">
+  <advance width="543"/>
+  <unicode hex="2049"/>
+  <outline>
+    <component base="exclam" xOffset="-50"/>
+    <component base="question" xOffset="145.863"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.recipe</key>
+  <string>exclam+question</string>
+  <key>public.markColor</key>
+  <string>1,0.994,0.6,1</string>
+  </dict>
+  </lib>
+</glyph>

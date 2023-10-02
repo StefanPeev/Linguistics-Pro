@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="jcaron" format="2">
+  <advance width="316"/>
+  <unicode hex="01F0"/>
+  <outline>
+    <component base="dotlessj"/>
+    <component base="caron" xOffset="-57"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.autolayer</key>
+  <true/>
+  <key>com.fontlab.recipe</key>
+  <string>dotlessj+caron</string>
+  </dict>
+  </lib>
+</glyph>

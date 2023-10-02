@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="omicronlenis" format="2">
+  <advance width="535"/>
+  <unicode hex="1F40"/>
+  <outline>
+    <component base="omicron"/>
+    <component base="lenis" xOffset="171" yOffset="-21"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.autolayer</key>
+  <true/>
+  <key>com.fontlab.recipe</key>
+  <string>omicron+lenis</string>
+  <key>public.markColor</key>
+  <string>0.6,0.602,1,1</string>
+  </dict>
+  </lib>
+</glyph>

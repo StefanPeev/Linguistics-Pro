@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="tonos" format="2">
+	<unicode hex="0384"/>
+	<advance width="400"/>
+	<outline>
+		<contour>
+			<point x="122.906" y="559.53" type="line"/>
+			<point x="250.572" y="689.197" type="line" smooth="yes"/>
+			<point x="282.906" y="722.53"/>
+			<point x="299.906" y="733.197"/>
+			<point x="313.906" y="733.197" type="curve" smooth="yes"/>
+			<point x="335.906" y="733.197"/>
+			<point x="361.572" y="706.197"/>
+			<point x="361.572" y="684.53" type="curve" smooth="yes"/>
+			<point x="361.572" y="661.864"/>
+			<point x="333.572" y="643.864"/>
+			<point x="301.572" y="626.53" type="curve" smooth="yes"/>
+			<point x="139.906" y="536.197" type="line"/>
+		</contour>
+	</outline>
+	<anchor name="_tonos" x="361" y="733.333"/>
+	<anchor name="_top" x="184.333" y="553.333"/>
+	<lib>
+		<dict>
+			<key>com.fontlab.hintData</key>
+			<dict>
+				<key>hhints</key>
+				<array>
+					<dict>
+						<key>position</key>
+						<integer>542</integer>
+						<key>width</key>
+						<integer>181</integer>
+					</dict>
+				</array>
+				<key>vhints</key>
+				<array>
+					<dict>
+						<key>position</key>
+						<integer>129</integer>
+						<key>width</key>
+						<integer>222</integer>
+					</dict>
+				</array>
+			</dict>
+		</dict>
+	</lib>
+</glyph>

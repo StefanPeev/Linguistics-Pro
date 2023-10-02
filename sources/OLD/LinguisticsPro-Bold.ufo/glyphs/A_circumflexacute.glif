@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Acircumflexacute" format="2">
+	<unicode hex="1EA4"/>
+	<advance width="644"/>
+	<outline>
+		<component base="Acircumflex"/>
+		<component base="acute.cap" xOffset="93" yOffset="175"/>
+	</outline>
+	<anchor name="aring" x="320" y="660"/>
+	<anchor name="ogonek" x="496" y="10"/>
+	<anchor name="tonos" x="156" y="707"/>
+	<anchor name="top" x="309" y="1125"/>
+	<lib>
+		<dict>
+			<key>com.fontlab.autolayer</key>
+			<true/>
+			<key>com.fontlab.hintData</key>
+			<dict>
+				<key>hhints</key>
+				<array>
+					<dict>
+						<key>position</key>
+						<integer>912</integer>
+						<key>width</key>
+						<integer>21</integer>
+					</dict>
+					<dict>
+						<key>position</key>
+						<integer>968</integer>
+						<key>width</key>
+						<integer>92</integer>
+					</dict>
+				</array>
+				<key>vhints</key>
+				<array>
+					<dict>
+						<key>position</key>
+						<integer>181</integer>
+						<key>width</key>
+						<integer>242</integer>
+					</dict>
+				</array>
+			</dict>
+			<key>com.fontlab.recipe</key>
+			<string>Acircumflex+acute.cap</string>
+		</dict>
+	</lib>
+</glyph>

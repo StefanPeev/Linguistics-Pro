@@ -1,46 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni1E52" format="2">
-	<unicode hex="1E52"/>
-	<advance width="768"/>
-	<outline>
-		<component base="Omacron"/>
-		<component base="acute.cap" xOffset="160" yOffset="139"/>
-	</outline>
-	<anchor name="tonos" x="38" y="702"/>
-	<anchor name="top" x="376" y="1089"/>
-	<lib>
-		<dict>
-			<key>com.fontlab.autolayer</key>
-			<true/>
-			<key>com.fontlab.hintData</key>
-			<dict>
-				<key>hhints</key>
-				<array>
-					<dict>
-						<key>position</key>
-						<integer>833</integer>
-						<key>width</key>
-						<integer>21</integer>
-					</dict>
-					<dict>
-						<key>position</key>
-						<integer>889</integer>
-						<key>width</key>
-						<integer>92</integer>
-					</dict>
-				</array>
-				<key>vhints</key>
-				<array>
-					<dict>
-						<key>position</key>
-						<integer>282</integer>
-						<key>width</key>
-						<integer>242</integer>
-					</dict>
-				</array>
-			</dict>
-			<key>com.fontlab.recipe</key>
-			<string>Omacron+acute.cap</string>
-		</dict>
-	</lib>
+  <advance width="768"/>
+  <unicode hex="1E52"/>
+  <anchor x="38" y="702" name="tonos"/>
+  <anchor x="376" y="1089" name="top"/>
+  <outline>
+    <component base="Omacron"/>
+    <component base="acute.cap" xOffset="160" yOffset="139"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.autolayer</key>
+  <true/>
+  <key>com.fontlab.hintData</key>
+  <dict>
+    <key>hhints</key>
+    <array>
+      <dict>
+        <key>position</key>
+        <integer>833</integer>
+        <key>width</key>
+        <integer>21</integer>
+      </dict>
+      <dict>
+        <key>position</key>
+        <integer>889</integer>
+        <key>width</key>
+        <integer>92</integer>
+      </dict>
+    </array>
+    <key>vhints</key>
+    <array>
+      <dict>
+        <key>position</key>
+        <integer>282</integer>
+        <key>width</key>
+        <integer>242</integer>
+      </dict>
+    </array>
+  </dict>
+  <key>com.fontlab.recipe</key>
+  <string>Omacron+acute.cap</string>
+  </dict>
+  </lib>
 </glyph>

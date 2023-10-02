@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="dieresisacute" format="2">
+  <advance width="376"/>
+  <unicode hex="1FEE"/>
+  <anchor x="314.279" y="753.333" name="top"/>
+  <anchor x="290.946" y="535.333" name="_top"/>
+  <outline>
+    <component base="dieresis" xOffset="-31"/>
+    <component base="tonos" xScale="1" xOffset="146.681" yOffset="47.129"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.recipe</key>
+  <string>dieresistonos</string>
+  <key>public.markColor</key>
+  <string>1,0.994,0.6,1</string>
+  </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="alphawithmacron" format="2">
+  <advance width="671"/>
+  <unicode hex="1FB1"/>
+  <anchor x="205.333" y="-56.667" name="bottom.jota"/>
+  <outline>
+    <component base="alpha"/>
+    <component base="uni0304" xOffset="423.667" yOffset="-6"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.autolayer</key>
+  <true/>
+  <key>com.fontlab.recipe</key>
+  <string>alpha+uni0304</string>
+  <key>public.markColor</key>
+  <string>1,0.994,0.6,1</string>
+  </dict>
+  </lib>
+</glyph>

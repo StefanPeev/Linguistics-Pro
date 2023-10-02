@@ -1,122 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="Acircumflexacute" format="1">
-  <advance width="635"/>
-  <unicode hex="1EA4"/>
-  <outline>
-    <contour>
-      <point x="-29" y="0" type="line"/>
-      <point x="-29" y="29" type="line"/>
-      <point x="34" y="32"/>
-      <point x="43" y="44"/>
-      <point x="64" y="98" type="curve" smooth="yes"/>
-      <point x="99" y="189"/>
-      <point x="141" y="309"/>
-      <point x="172" y="396" type="curve" smooth="yes"/>
-      <point x="277" y="692" type="line"/>
-      <point x="351" y="692" type="line"/>
-      <point x="563" y="89" type="line" smooth="yes"/>
-      <point x="581" y="37"/>
-      <point x="592" y="34"/>
-      <point x="650" y="29" type="curve"/>
-      <point x="650" y="0" type="line"/>
-      <point x="394" y="0" type="line"/>
-      <point x="394" y="29" type="line"/>
-      <point x="439" y="33" type="line" smooth="yes"/>
-      <point x="461" y="35"/>
-      <point x="471" y="41"/>
-      <point x="471" y="55" type="curve" smooth="yes"/>
-      <point x="471" y="60"/>
-      <point x="469" y="67"/>
-      <point x="466" y="76" type="curve" smooth="yes"/>
-      <point x="399" y="267" type="line"/>
-      <point x="175" y="267" type="line"/>
-      <point x="152" y="196"/>
-      <point x="131" y="134"/>
-      <point x="114" y="74" type="curve" smooth="yes"/>
-      <point x="112" y="66"/>
-      <point x="110" y="59"/>
-      <point x="110" y="54" type="curve" smooth="yes"/>
-      <point x="110" y="42"/>
-      <point x="118" y="36"/>
-      <point x="139" y="34" type="curve" smooth="yes"/>
-      <point x="191" y="29" type="line"/>
-      <point x="191" y="0" type="line"/>
-    </contour>
-    <contour>
-      <point x="165" y="738" type="line"/>
-      <point x="281" y="852" type="line" smooth="yes"/>
-      <point x="295" y="865"/>
-      <point x="306" y="876"/>
-      <point x="318" y="876" type="curve" smooth="yes"/>
-      <point x="330" y="876"/>
-      <point x="342" y="864"/>
-      <point x="355" y="852" type="curve" smooth="yes"/>
-      <point x="471" y="738" type="line"/>
-      <point x="458" y="717" type="line"/>
-      <point x="351" y="778" type="line" smooth="yes"/>
-      <point x="338" y="785"/>
-      <point x="327" y="792"/>
-      <point x="318" y="792" type="curve" smooth="yes"/>
-      <point x="310" y="792"/>
-      <point x="298" y="785"/>
-      <point x="285" y="778" type="curve" smooth="yes"/>
-      <point x="178" y="717" type="line"/>
-    </contour>
-    <contour>
-      <point x="181" y="934" type="line"/>
-      <point x="326" y="1033" type="line" smooth="yes"/>
-      <point x="356" y="1053"/>
-      <point x="370" y="1061"/>
-      <point x="384" y="1061" type="curve" smooth="yes"/>
-      <point x="386" y="1061"/>
-      <point x="389" y="1060"/>
-      <point x="391" y="1060" type="curve" smooth="yes"/>
-      <point x="405" y="1057"/>
-      <point x="423" y="1031"/>
-      <point x="423" y="1011" type="curve" smooth="yes"/>
-      <point x="423" y="989"/>
-      <point x="408" y="982"/>
-      <point x="362" y="968" type="curve" smooth="yes"/>
-      <point x="192" y="912" type="line"/>
-    </contour>
-    <contour>
-      <point x="188" y="305" type="curve"/>
-      <point x="387" y="305" type="line"/>
-      <point x="288" y="591" type="line"/>
-      <point x="285" y="591" type="line"/>
-      <point x="255" y="503"/>
-      <point x="220" y="405"/>
-    </contour>
-  </outline>
-  <lib>
-    <dict>
-      <key>com.fontlab.hintData</key>
-      <dict>
-        <key>hhints</key>
-        <array>
-          <dict>
-            <key>position</key>
-            <integer>912</integer>
-            <key>width</key>
-            <integer>21</integer>
-          </dict>
-          <dict>
-            <key>position</key>
-            <integer>968</integer>
-            <key>width</key>
-            <integer>92</integer>
-          </dict>
-        </array>
-        <key>vhints</key>
-        <array>
-          <dict>
-            <key>position</key>
-            <integer>181</integer>
-            <key>width</key>
-            <integer>242</integer>
-          </dict>
-        </array>
-      </dict>
-    </dict>
-  </lib>
+<glyph name="Acircumflexacute" format="2">
+	<unicode hex="1EA4"/>
+	<advance width="635"/>
+	<outline>
+		<component base="Acircumflex"/>
+		<component base="acute.cap" xOffset="86" yOffset="196"/>
+	</outline>
+	<anchor name="aring" x="308" y="670"/>
+	<anchor name="ogonek" x="530" y="10"/>
+	<anchor name="tonos" x="170" y="702"/>
+	<anchor name="top" x="316" y="1116"/>
+	<lib>
+		<dict>
+			<key>com.fontlab.autolayer</key>
+			<true/>
+			<key>com.fontlab.hintData</key>
+			<dict>
+				<key>hhints</key>
+				<array>
+					<dict>
+						<key>position</key>
+						<integer>912</integer>
+						<key>width</key>
+						<integer>21</integer>
+					</dict>
+					<dict>
+						<key>position</key>
+						<integer>968</integer>
+						<key>width</key>
+						<integer>92</integer>
+					</dict>
+				</array>
+				<key>vhints</key>
+				<array>
+					<dict>
+						<key>position</key>
+						<integer>181</integer>
+						<key>width</key>
+						<integer>242</integer>
+					</dict>
+				</array>
+			</dict>
+			<key>com.fontlab.recipe</key>
+			<string>Acircumflex+acute.cap</string>
+		</dict>
+	</lib>
 </glyph>

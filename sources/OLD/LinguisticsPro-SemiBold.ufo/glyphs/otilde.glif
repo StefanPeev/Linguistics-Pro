@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="otilde" format="2">
+	<unicode hex="00F5"/>
+	<advance width="582"/>
+	<outline>
+		<component base="o"/>
+		<component base="tildecomb" xyScale="0" xOffset="508" yOffset="14.6667"/>
+	</outline>
+	<anchor name="top" x="293" y="758"/>
+	<lib>
+		<dict>
+			<key>com.fontlab.autolayer</key>
+			<true/>
+			<key>com.fontlab.hintData</key>
+			<dict>
+				<key>hhints</key>
+				<array>
+					<dict>
+						<key>position</key>
+						<integer>576</integer>
+						<key>width</key>
+						<integer>60</integer>
+					</dict>
+					<dict>
+						<key>position</key>
+						<integer>614</integer>
+						<key>width</key>
+						<integer>60</integer>
+					</dict>
+				</array>
+			</dict>
+			<key>com.fontlab.recipe</key>
+			<string>o+tildecomb</string>
+		</dict>
+	</lib>
+</glyph>

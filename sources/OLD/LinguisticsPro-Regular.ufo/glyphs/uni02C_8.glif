@@ -1,38 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="uni02C8" format="1">
-  <advance width="260"/>
-  <unicode hex="02C8"/>
-  <outline>
-    <contour>
-      <point x="110" y="539" type="line"/>
-      <point x="110" y="754" type="line"/>
-      <point x="150" y="754" type="line"/>
-      <point x="150" y="539" type="line"/>
-    </contour>
-  </outline>
-  <lib>
-    <dict>
-      <key>com.fontlab.hintData</key>
-      <dict>
-        <key>hhints</key>
-        <array>
-          <dict>
-            <key>position</key>
-            <integer>539</integer>
-            <key>width</key>
-            <integer>215</integer>
-          </dict>
-        </array>
-        <key>vhints</key>
-        <array>
-          <dict>
-            <key>position</key>
-            <integer>110</integer>
-            <key>width</key>
-            <integer>40</integer>
-          </dict>
-        </array>
-      </dict>
-    </dict>
-  </lib>
+<glyph name="uni02C8" format="2">
+	<unicode hex="02C8"/>
+	<advance width="260"/>
+	<outline>
+		<contour>
+			<point x="110" y="539" type="line"/>
+			<point x="110" y="754" type="line"/>
+			<point x="150" y="754" type="line"/>
+			<point x="150" y="539" type="line"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.fontlab.hintData</key>
+			<dict>
+				<key>hhints</key>
+				<array>
+					<dict>
+						<key>position</key>
+						<integer>539</integer>
+						<key>width</key>
+						<integer>215</integer>
+					</dict>
+				</array>
+				<key>vhints</key>
+				<array>
+					<dict>
+						<key>position</key>
+						<integer>110</integer>
+						<key>width</key>
+						<integer>40</integer>
+					</dict>
+				</array>
+			</dict>
+		</dict>
+	</lib>
 </glyph>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni1E8E" format="2">
+	<unicode hex="1E8E"/>
+	<advance width="598"/>
+	<outline>
+		<component base="Y"/>
+		<component base="uni0307" xOffset="538.833" yOffset="202"/>
+	</outline>
+	<anchor name="tonos" x="-39.3333" y="702"/>
+	<anchor name="top" x="297.5" y="948.667"/>
+	<lib>
+		<dict>
+			<key>com.fontlab.autolayer</key>
+			<true/>
+			<key>com.fontlab.hintData</key>
+			<dict>
+				<key>hhints</key>
+				<array>
+					<dict>
+						<key>position</key>
+						<integer>732</integer>
+						<key>width</key>
+						<integer>109</integer>
+					</dict>
+				</array>
+				<key>vhints</key>
+				<array>
+					<dict>
+						<key>position</key>
+						<integer>244</integer>
+						<key>width</key>
+						<integer>116</integer>
+					</dict>
+				</array>
+			</dict>
+			<key>com.fontlab.recipe</key>
+			<string>Y+uni0307</string>
+		</dict>
+	</lib>
+</glyph>

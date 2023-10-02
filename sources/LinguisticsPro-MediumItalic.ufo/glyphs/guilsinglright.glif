@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="guilsinglright" format="2">
+  <advance width="305"/>
+  <unicode hex="203A"/>
+  <outline>
+    <contour>
+      <point x="83.667" y="58" type="line"/>
+      <point x="188.333" y="223.667" type="line" smooth="yes"/>
+      <point x="196" y="236"/>
+      <point x="197.667" y="247"/>
+      <point x="193.667" y="259.667" type="curve" smooth="yes"/>
+      <point x="141.334" y="429" type="line"/>
+      <point x="166" y="444.667" type="line"/>
+      <point x="291" y="258.667" type="line" smooth="yes"/>
+      <point x="298.667" y="247.667"/>
+      <point x="296.333" y="235"/>
+      <point x="286" y="225" type="curve"/>
+      <point x="105" y="39.667" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.postscript.hints</key>
+  <dict>
+    <key>formatVersion</key>
+    <string>1</string>
+    <key>id</key>
+    <string>cfe435662df8261b2a892bf2e192a7cbbfb946189435c8ad788e362f6399530edc23eb4dcb0bb9ebd98f53f3fc2f89d574cd80e21a60532f592faf9b50a715d1</string>
+    <key>hintSetList</key>
+    <array>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>vstem 83.67 207.33</string>
+        </array>
+      </dict>
+    </array>
+  </dict>
+  </dict>
+  </lib>
+</glyph>

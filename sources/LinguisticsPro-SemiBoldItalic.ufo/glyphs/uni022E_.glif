@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni022E" format="2">
+  <advance width="758"/>
+  <unicode hex="022E"/>
+  <anchor x="520.667" y="733.333" name="top"/>
+  <anchor x="398" y="10" name="ogonek"/>
+  <anchor x="153" y="705.333" name="tonos"/>
+  <outline>
+    <component base="O"/>
+    <component base="dotaccent.cap" xScale="1" xOffset="164.47"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.autolayer</key>
+  <true/>
+  <key>com.fontlab.recipe</key>
+  <string>O+~dotaccent.cap</string>
+  <key>public.markColor</key>
+  <string>1,0.6,0.6,1</string>
+  </dict>
+  </lib>
+</glyph>
