@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="arrowboth" format="2">
+  <advance width="924"/>
+  <unicode hex="2194"/>
+  <outline>
+    <component base="arrowleft" xOffset="-9"/>
+    <contour>
+      <point x="235" y="233" type="line"/>
+      <point x="773" y="233" type="line"/>
+      <point x="506" y="-5" type="line"/>
+      <point x="547" y="-57" type="line"/>
+      <point x="898" y="263" type="line"/>
+      <point x="547" y="585" type="line"/>
+      <point x="506" y="532" type="line"/>
+      <point x="773" y="294" type="line"/>
+      <point x="235" y="294" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.recipe</key>
+  <string>arrowleft</string>
+  <key>public.markColor</key>
+  <string>0.6,0.602,1,1</string>
+  </dict>
+  </lib>
+</glyph>

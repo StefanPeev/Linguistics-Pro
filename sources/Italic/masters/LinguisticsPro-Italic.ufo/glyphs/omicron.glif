@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="omicron" format="2">
+  <advance width="530"/>
+  <unicode hex="03BF"/>
+  <anchor x="387" y="533" name="top"/>
+  <outline>
+    <contour>
+      <point x="183" y="129" type="curve" smooth="yes"/>
+      <point x="183" y="228"/>
+      <point x="244" y="468"/>
+      <point x="377" y="468" type="curve" smooth="yes"/>
+      <point x="441" y="468"/>
+      <point x="462" y="422"/>
+      <point x="462" y="362" type="curve" smooth="yes"/>
+      <point x="462" y="259"/>
+      <point x="402" y="24"/>
+      <point x="267" y="24" type="curve" smooth="yes"/>
+      <point x="205" y="24"/>
+      <point x="183" y="73"/>
+    </contour>
+    <contour>
+      <point x="86" y="169" type="curve" smooth="yes"/>
+      <point x="86" y="62"/>
+      <point x="144" y="-12"/>
+      <point x="270" y="-12" type="curve" smooth="yes"/>
+      <point x="455" y="-12"/>
+      <point x="560" y="168"/>
+      <point x="560" y="334" type="curve" smooth="yes"/>
+      <point x="560" y="437"/>
+      <point x="487" y="502"/>
+      <point x="380" y="502" type="curve" smooth="yes"/>
+      <point x="200" y="502"/>
+      <point x="86" y="337"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.postscript.hints</key>
+  <dict>
+    <key>formatVersion</key>
+    <string>1</string>
+    <key>id</key>
+    <string>76ca1896b042d049abfbf02c36b08436245c76de1dc24068a25ecdeed442f0c93b0e0edb032e1b1e18516be3078ae9c675de34fa0c4bce9cf13b86c58af58255</string>
+    <key>hintSetList</key>
+    <array>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem -12 35</string>
+          <string>hstem 467 35</string>
+          <string>vstem 86 97</string>
+          <string>vstem 462 97</string>
+        </array>
+      </dict>
+    </array>
+  </dict>
+  </dict>
+  </lib>
+</glyph>

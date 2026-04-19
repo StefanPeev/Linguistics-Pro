@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni0294" format="2">
+  <advance width="475"/>
+  <unicode hex="0294"/>
+  <outline>
+    <contour>
+      <point x="85.0197" y="0" type="line"/>
+      <point x="412.228" y="0" type="line"/>
+      <point x="416.857" y="28.9592" type="line"/>
+      <point x="310.995" y="40.9961" type="line" smooth="yes"/>
+      <point x="301.037" y="42.1284"/>
+      <point x="295.927" y="47.775"/>
+      <point x="295.989" y="59.5731" type="curve" smooth="yes"/>
+      <point x="296.017" y="64.8066"/>
+      <point x="297.061" y="71.1772"/>
+      <point x="298.456" y="77.1984" type="curve" smooth="yes"/>
+      <point x="341" y="260.906" type="line" smooth="yes"/>
+      <point x="372.132" y="395.333"/>
+      <point x="551" y="483.665"/>
+      <point x="551" y="617.239" type="curve" smooth="yes"/>
+      <point x="551" y="692.967"/>
+      <point x="493.177" y="742"/>
+      <point x="377.363" y="742" type="curve" smooth="yes"/>
+      <point x="238" y="742"/>
+      <point x="181" y="671"/>
+      <point x="181" y="628.975" type="curve" smooth="yes"/>
+      <point x="181" y="599"/>
+      <point x="210" y="582"/>
+      <point x="229.777" y="582" type="curve" smooth="yes"/>
+      <point x="283.405" y="582"/>
+      <point x="265.128" y="707"/>
+      <point x="373.983" y="707" type="curve" smooth="yes"/>
+      <point x="428.541" y="707"/>
+      <point x="454" y="675.6"/>
+      <point x="454" y="596" type="curve" smooth="yes"/>
+      <point x="454" y="447.542"/>
+      <point x="285.958" y="407.184"/>
+      <point x="245" y="230.803" type="curve" smooth="yes"/>
+      <point x="211.105" y="84.8376" type="line" smooth="yes"/>
+      <point x="204.691" y="57.2186"/>
+      <point x="197.759" y="41.7678"/>
+      <point x="172.315" y="38.2042" type="curve" smooth="yes"/>
+      <point x="89.9589" y="28.562" type="line"/>
+    </contour>
+  </outline>
+  <guideline angle="76.8836" x="221" y="129"/>
+  <guideline angle="257.035" x="341" y="262"/>
+  <guideline angle="353.811" x="334" y="38"/>
+  <lib>
+  <dict>
+  <key>public.postscript.hints</key>
+  <dict>
+    <key>formatVersion</key>
+    <string>1</string>
+    <key>id</key>
+    <string>2b92de7c23ffbf69a16cd88c81c0476e42d09201d569fe7bb0d0e80923f2b41e166e32a83d1b6111ce394bf36bb5d8c06f1fe80989305185df6345fb4f2e1287</string>
+    <key>hintSetList</key>
+    <array>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem 9 -21</string>
+          <string>hstem 707 35</string>
+          <string>vstem 181 78</string>
+          <string>vstem 454 97</string>
+        </array>
+      </dict>
+    </array>
+  </dict>
+  </dict>
+  </lib>
+</glyph>

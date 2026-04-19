@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni0308" format="2">
+  <unicode hex="0308"/>
+  <anchor x="0" y="740" name="top"/>
+  <anchor x="0" y="560" name="_top"/>
+  <outline>
+    <component base="dieresis" xOffset="-360"/>
+  </outline>
+  <guideline angle="90" x="0" y="0"/>
+  <lib>
+  <dict>
+  <key>public.postscript.hints</key>
+  <dict>
+    <key>formatVersion</key>
+    <string>1</string>
+    <key>id</key>
+    <string>w0</string>
+    <key>hintSetList</key>
+    <array>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem 561 149</string>
+          <string>vstem -259 158</string>
+          <string>vstem -19 158</string>
+        </array>
+      </dict>
+    </array>
+  </dict>
+  </dict>
+  </lib>
+</glyph>

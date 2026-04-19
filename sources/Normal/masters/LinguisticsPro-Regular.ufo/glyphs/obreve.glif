@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="obreve" format="2">
+  <advance width="577"/>
+  <unicode hex="014F"/>
+  <anchor x="289" y="680" name="top"/>
+  <outline>
+    <component base="o"/>
+    <component base="uni0306" xOffset="289" yOffset="-30"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.autolayer</key>
+  <true/>
+  <key>com.fontlab.hintData</key>
+  <dict>
+    <key>hhints</key>
+    <array>
+      <dict>
+        <key>position</key>
+        <integer>568</integer>
+        <key>width</key>
+        <integer>65</integer>
+      </dict>
+      <dict>
+        <key>position</key>
+        <integer>684</integer>
+        <key>width</key>
+        <integer>20</integer>
+      </dict>
+    </array>
+    <key>vhints</key>
+    <array>
+      <dict>
+        <key>position</key>
+        <integer>152</integer>
+        <key>width</key>
+        <integer>24</integer>
+      </dict>
+      <dict>
+        <key>position</key>
+        <integer>402</integer>
+        <key>width</key>
+        <integer>24</integer>
+      </dict>
+    </array>
+  </dict>
+  <key>com.fontlab.recipe</key>
+  <string>o+uni0306</string>
+  <key>public.markColor</key>
+  <string>0.6,0.997,1,1</string>
+  </dict>
+  </lib>
+</glyph>

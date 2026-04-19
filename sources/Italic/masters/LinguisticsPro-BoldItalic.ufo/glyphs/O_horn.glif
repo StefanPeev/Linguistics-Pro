@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Ohorn" format="2">
+  <advance width="761"/>
+  <unicode hex="01A0"/>
+  <anchor x="515" y="730" name="top"/>
+  <outline>
+    <component base="O"/>
+    <contour>
+      <point x="744.981" y="586.27" type="line"/>
+      <point x="798.57" y="622.676"/>
+      <point x="867.492" y="686.656"/>
+      <point x="867.492" y="760.008" type="curve" smooth="yes"/>
+      <point x="867.492" y="806.715"/>
+      <point x="845.677" y="845"/>
+      <point x="793" y="845" type="curve" smooth="yes"/>
+      <point x="751" y="845"/>
+      <point x="717" y="821"/>
+      <point x="717" y="780" type="curve" smooth="yes"/>
+      <point x="717" y="722"/>
+      <point x="785" y="736"/>
+      <point x="785" y="682" type="curve" smooth="yes"/>
+      <point x="785" y="659.454"/>
+      <point x="752.614" y="635.5"/>
+      <point x="717.918" y="611.809" type="curve"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.postscript.hints</key>
+  <dict>
+    <key>formatVersion</key>
+    <string>1</string>
+    <key>id</key>
+    <string>5b587cfaefbd8a77d49a4100298e8454ccb7820e917b4c07632eef367d6510563c9fbbf3e42cd0866c3621bb958ae428f5592d5196eb2be5569b0593eec24266</string>
+    <key>hintSetList</key>
+    <array>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem -15 46</string>
+          <string>hstem 661 46</string>
+          <string>hstem 825 20</string>
+          <string>vstem 113 165</string>
+          <string>vstem 638 165</string>
+          <string>vstem 717 150</string>
+        </array>
+      </dict>
+    </array>
+  </dict>
+  </dict>
+  </lib>
+</glyph>

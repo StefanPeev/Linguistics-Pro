@@ -1,0 +1,2898 @@
+#/> classes
+#/> otclasses
+@c2sc = [A AE Aacute Acircumflex Adieresis Agrave Aring Atilde B C Ccaron Ccedilla D Dcaron E Eacute Ebreve Ecaron Ecircumflex Edieresis Egrave Emacron Eth F G H I Iacute Ibreve Icircumflex Idieresis Igrave Imacron Itilde J Jcircumflex K L Lacute Lcaron M N Nacute Ncaron Ntilde O Oacute Obreve Ocircumflex Odieresis Ograve Omacron Oslash Otilde P Q R Racute Rcaron S Sacute Scircumflex T Tcaron Thorn U Uacute Ubreve Ucircumflex Udieresis Ugrave Umacron Uring V W Wcircumflex X Y Yacute Ycircumflex Ydieresis Z Zacute Zcaron Zdotaccent a aacute abreve amacron uni0400 uni0401 uni0402 uni0403 uni0404 uni0405 uni0406 uni0407 uni0408 uni0409 uni040A uni040B uni040C uni040D uni040E uni040F uni0410 uni0411 uni0412 uni0413 uni0414 uni0415 uni0416 uni0417 uni0418 uni0419 uni041A uni041B uni041C uni041D uni041E uni041F uni0420 uni0421 uni0422 uni0423 uni0424 uni0425 uni0426 uni0427 uni0428 uni0429 uni042A uni042B uni042C uni042D uni042E uni042F];
+@c2sc2 = [A.sc AE.sc Aacute.sc Acircumflex.sc Adieresis.sc Agrave.sc Aring.sc Atilde.sc B.sc C.sc Ccaron.sc Ccedilla.sc D.sc Dcaron.sc E.sc Eacute.sc Ebreve.sc Ecaron.sc Ecircumflex.sc Edieresis.sc Egrave.sc Emacron.sc Eth.sc F.sc G.sc H.sc I.sc Iacute.sc Ibreve.sc Icircumflex.sc Idieresis.sc Igrave.sc Imacron.sc Itilde.sc J.sc Jcircumflex.sc K.sc L.sc Lacute.sc Lcaron.sc M.sc N.sc Nacute.sc Ncaron.sc Ntilde.sc O.sc Oacute.sc Obreve.sc Ocircumflex.sc Odieresis.sc Ograve.sc Omacron.sc Oslash.sc Otilde.sc P.sc Q.sc R.sc Racute.sc Rcaron.sc S.sc Sacute.sc Scircumflex.sc T.sc Tcaron.sc Thorn.sc U.sc Uacute.sc Ubreve.sc Ucircumflex.sc Udieresis.sc Ugrave.sc Umacron.sc Uring.sc V.sc W.sc Wcircumflex.sc X.sc Y.sc Yacute.sc Ycircumflex.sc Ydieresis.sc Z.sc Zacute.sc Zcaron.sc Zdotaccent.sc a.sc aacute.sc abreve.sc amacron.sc uni0400.sc uni0401.sc uni0402.sc uni0403.sc uni0404.sc uni0405.sc uni0406.sc uni0407.sc uni0408.sc uni0409.sc uni040A.sc uni040B.sc uni040C.sc uni040D.sc uni040E.sc uni040F.sc uni0410.sc uni0411.sc uni0412.sc uni0413.sc uni0414.sc uni0415.sc uni0416.sc uni0417.sc uni0418.sc uni0419.sc uni041A.sc uni041B.sc uni041C.sc uni041D.sc uni041E.sc uni041F.sc uni0420.sc uni0421.sc uni0422.sc uni0423.sc uni0424.sc uni0425.sc uni0426.sc uni0427.sc uni0428.sc uni0429.sc uni042A.sc uni042B.sc uni042C.sc uni042D.sc uni042E.sc uni042F.sc];
+@case = [acute caron dieresis grave hungarumlaut macron uni0307 uni0308 uni030B uni030F uni0311 uni0324 uni0325 uni032D uni032E uni0330 uni0331 brevecyr uni0306 uni030C uni0302 uni0304 uni030A];
+@case2 = [acute.cap caron.cap dieresis.cap grave.cap hungarumlaut.cap macron.cap uni0307.cap uni0308.cap uni030B.cap uni030F.cap uni0311.cap uni0324.cap uni0325.cap uni032D.cap uni032E.cap uni0330.cap uni0331.cap brevecyr.cap uni0306.cap uni030C.cap uni0302.cap uni0304.cap uni030A.cap];
+@locl = [uni0414 uni0416 uni041A uni041B uni0424 uni0432 uni0433 uni0434 uni0436 uni0437 uni0438 uni0439 uni043A uni043B uni043D uni043F uni0442 uni0444 uni0446 uni0447 uni0448 uni0449 uni044A uni044B uni044C uni044E uni045D];
+@locl2 = [uni0414.loclBGR uni0416.loclBGR uni041A.loclBGR uni041B.loclBGR uni0424.loclBGR uni0432.loclBGR uni0433.loclBGR uni0434.loclBGR uni0436.loclBGR uni0437.loclBGR uni0438.loclBGR uni0439.loclBGR uni043A.loclBGR uni043B.loclBGR uni043D.loclBGR uni043F.loclBGR uni0442.loclBGR uni0444.loclBGR uni0446.loclBGR uni0447.loclBGR uni0448.loclBGR uni0449.loclBGR uni044A.loclBGR uni044B.loclBGR uni044C.loclBGR uni044E.loclBGR uni045D.loclBGR];
+@numb = [zero one two three four five six seven eight nine];
+@sups = [uni2070 uni00B9 uni00B2 uni00B3 uni2074 uni2075 uni2076 uni2077 uni2078 uni2079];
+@subs = [uni2080 uni2081 uni2082 uni2083 uni2084 uni2085 uni2086 uni2087 uni2088 uni2089];
+@tf = [zero.tf one.tf two.tf three.tf four.tf five.tf six.tf seven.tf eight.tf nine.tf];
+@tosf = [zero.tosf one.tosf two.tosf three.tosf four.tosf five.tosf six.tosf seven.tosf eight.tosf nine.tosf];
+@osf = [zero.osf one.osf two.osf three.osf four.osf five.osf six.osf seven.osf eight.osf nine.osf];
+@sups.letters = [a b beta c chi d e eng eth f g gamma h j k l m n o p phi r s t u uni0250 uni0251 uni0252 uni0254 uni0259 uni025B uni025C uni0263 uni0265 uni0268 uni0269 uni026A uni026F uni0271 uni0275 uni0279 uni0283 uni0289 uni028B uni028C uni0292 uni0295 uni043D v w x y z uni0255 uni025F uni0261 uni0266 uni026D uni0270 uni0272 uni0273 uni0274 uni0278 uni027B uni0281 uni0282 uni028A uni0290 uni0291 uni029D uni029F];
+@sups.letters2 = [uni1D43 uni1D47 uni1D5D uni1D9C uni1D61 uni1D48 uni1D49 uni1D51 uni1D9E uni1DA0 uni1D4D uni1D5E uni02B0 uni02B2 uni1D4F uni02E1 uni1D50 uni207F uni1D52 uni1D56 uni1D60 uni02B3 uni02E2 uni1D57 uni1D58 uni1D44 uni1D45 uni1D9B uni1D53 uni1D4A uni1D4B uni1D9F uni02E0 uni1DA3 uni1DA4 uni1DA5 uni1DA6 uni1D5A uni1DAC uni1DB1 uni02B4 uni1DB4 uni1DB6 uni1DB9 uni1DBA uni1DBE uni02E4 uni1D78 uni1D5B uni02B7 uni02E3 uni02B8 uni1DBB uni1D9D uni1DA1 uni1DA2 uni02B1 uni1DA9 uni1DAD uni1DAE uni1DAF uni1DB0 uni1DB2 uni02B5 uni02B6 uni1DB3 uni1DB7 uni1DBC uni1DBD uni1DA8 uni1DAB];
+@sinf_subs = [zero one two three four five six seven eight nine parenleft parenright];
+@sinf_subs2 = [uni2080 uni2081 uni2082 uni2083 uni2084 uni2085 uni2086 uni2087 uni2088 uni2089 parenleft.inferior parenright.inferior];
+@smcp = [a aacute abreve acircumflex adieresis ae agrave amacron aring atilde b c ccaron ccedilla d dcaron dotlessi e eacute ebreve ecaron ecircumflex edieresis egrave emacron eth f g h i iacute ibreve icircumflex idieresis igrave imacron itilde j jcircumflex k l lacute lcaron m n nacute ncaron ntilde o oacute obreve ocircumflex odieresis ograve omacron oslash otilde p q r racute rcaron s sacute scircumflex t tcaron thorn u uacute ubreve ucircumflex udieresis ugrave umacron uni0430 uni0431 uni0432 uni0433 uni0434 uni0435 uni0436 uni0437 uni0438 uni0439 uni043A uni043B uni043C uni043D uni043E uni043F uni0440 uni0441 uni0442 uni0443 uni0444 uni0445 uni0446 uni0447 uni0448 uni0449 uni044A uni044B uni044C uni044D uni044E uni044F uni0450 uni0451 uni0452 uni0453 uni0454 uni0455 uni0456 uni0457 uni0458 uni0459 uni045A uni045B uni045C uni045D uni045E uni045F uni0463 uni0473 uni0475 uni04A5 uni04AF uni04B1 uni04C2 uni04D1 uni04D3 uni04D5 uni04D7 uni04DD uni04DF uni04E3 uni04E5 uni04E7 uni04E9 uni04EB uni04ED uni04EF uni04F1 uni04F5 uni04F9 uni0432.loclBGR uni0433.loclBGR uni0434.loclBGR uni0436.loclBGR uni0437.loclBGR uni0438.loclBGR uni0439.loclBGR uni043A.loclBGR uni043B.loclBGR uni043D.loclBGR uni043F.loclBGR uni0442.loclBGR uni0444.loclBGR uni0446.loclBGR uni0447.loclBGR uni0448.loclBGR uni0449.loclBGR uni044A.loclBGR uni044B.loclBGR uni044C.loclBGR uni044E.loclBGR uni045D.loclBGR uring v w wacute wcircumflex wdieresis wgrave x y yacute ycircumflex ydieresis z zacute zcaron zdotaccent];
+@smcp2 = [a.sc aacute.sc abreve.sc Acircumflex.sc Adieresis.sc AE.sc Agrave.sc amacron.sc Aring.sc Atilde.sc B.sc C.sc Ccaron.sc Ccedilla.sc D.sc Dcaron.sc dotlessi.small E.sc Eacute.sc Ebreve.sc Ecaron.sc Ecircumflex.sc Edieresis.sc Egrave.sc Emacron.sc Eth.sc F.sc G.sc H.sc I.sc Iacute.sc Ibreve.sc Icircumflex.sc Idieresis.sc Igrave.sc Imacron.sc Itilde.sc J.sc Jcircumflex.sc K.sc L.sc Lacute.sc Lcaron.sc M.sc N.sc Nacute.sc Ncaron.sc Ntilde.sc O.sc Oacute.sc Obreve.sc Ocircumflex.sc Odieresis.sc Ograve.sc Omacron.sc Oslash.sc Otilde.sc P.sc Q.sc R.sc Racute.sc Rcaron.sc S.sc Sacute.sc Scircumflex.sc T.sc Tcaron.sc Thorn.sc U.sc Uacute.sc Ubreve.sc Ucircumflex.sc Udieresis.sc Ugrave.sc Umacron.sc uni0410.sc uni0411.sc uni0412.sc uni0413.sc uni0414.sc uni0415.sc uni0416.sc uni0417.sc uni0418.sc uni0419.sc uni041A.sc uni041B.sc uni041C.sc uni041D.sc uni041E.sc uni041F.sc uni0420.sc uni0421.sc uni0422.sc uni0423.sc uni0424.sc uni0425.sc uni0426.sc uni0427.sc uni0428.sc uni0429.sc uni042A.sc uni042B.sc uni042C.sc uni042D.sc uni042E.sc uni042F.sc uni0400.sc uni0401.sc uni0402.sc uni0403.sc uni0404.sc uni0405.sc uni0406.sc uni0407.sc uni0408.sc uni0409.sc uni040A.sc uni040B.sc uni040C.sc uni045D.sc uni040E.sc uni040F.sc uni0463.sc uni0473.sc uni0475.sc uni04A5.sc uni04AF.sc uni04B1.sc uni04C2.sc uni04D1.sc uni04D3.sc uni04D5.sc uni04D7.sc uni04DD.sc uni04DF.sc uni04E3.sc uni04E5.sc uni04E7.sc uni04E9.sc uni04EB.sc uni04ED.sc uni04EF.sc uni04F1.sc uni04F5.sc uni04F9.sc uni0412.sc uni0413.sc uni0414.sc uni0416.sc uni0417.sc uni0418.sc uni0419.sc uni041A.sc uni041B.sc uni041D.sc uni041F.sc uni0422.sc uni0424.sc uni0426.sc uni0427.sc uni0428.sc uni0429.sc uni042A.sc uni042B.sc uni042C.sc uni042E.sc uni045D.sc Uring.sc V.sc W.sc wacute.sc Wcircumflex.sc wdieresis.sc wgrave.sc X.sc Y.sc Yacute.sc Ycircumflex.sc Ydieresis.sc Z.sc Zacute.sc Zcaron.sc Zdotaccent.sc];
+#/< otclasses
+#/< classes
+
+#/> classes
+#/> otclasses
+@c2sc = [A AE Aacute Acircumflex Adieresis Agrave Aring Atilde B C Ccaron Ccedilla D Dcaron E Eacute Ebreve Ecaron Ecircumflex Edieresis Egrave Emacron Eth F G H I Iacute Ibreve Icircumflex Idieresis Igrave Imacron Itilde J Jcircumflex K L Lacute Lcaron M N Nacute Ncaron Ntilde O Oacute Obreve Ocircumflex Odieresis Ograve Omacron Oslash Otilde P Q R Racute Rcaron S Sacute Scircumflex T Tcaron Thorn U Uacute Ubreve Ucircumflex Udieresis Ugrave Umacron Uring V W Wcircumflex X Y Yacute Ycircumflex Ydieresis Z Zacute Zcaron Zdotaccent a aacute abreve amacron uni0400 uni0401 uni0402 uni0403 uni0404 uni0405 uni0406 uni0407 uni0408 uni0409 uni040A uni040B uni040C uni040D uni040E uni040F uni0410 uni0411 uni0412 uni0413 uni0414 uni0415 uni0416 uni0417 uni0418 uni0419 uni041A uni041B uni041C uni041D uni041E uni041F uni0420 uni0421 uni0422 uni0423 uni0424 uni0425 uni0426 uni0427 uni0428 uni0429 uni042A uni042B uni042C uni042D uni042E uni042F];
+@c2sc2 = [A.sc AE.sc Aacute.sc Acircumflex.sc Adieresis.sc Agrave.sc Aring.sc Atilde.sc B.sc C.sc Ccaron.sc Ccedilla.sc D.sc Dcaron.sc E.sc Eacute.sc Ebreve.sc Ecaron.sc Ecircumflex.sc Edieresis.sc Egrave.sc Emacron.sc Eth.sc F.sc G.sc H.sc I.sc Iacute.sc Ibreve.sc Icircumflex.sc Idieresis.sc Igrave.sc Imacron.sc Itilde.sc J.sc Jcircumflex.sc K.sc L.sc Lacute.sc Lcaron.sc M.sc N.sc Nacute.sc Ncaron.sc Ntilde.sc O.sc Oacute.sc Obreve.sc Ocircumflex.sc Odieresis.sc Ograve.sc Omacron.sc Oslash.sc Otilde.sc P.sc Q.sc R.sc Racute.sc Rcaron.sc S.sc Sacute.sc Scircumflex.sc T.sc Tcaron.sc Thorn.sc U.sc Uacute.sc Ubreve.sc Ucircumflex.sc Udieresis.sc Ugrave.sc Umacron.sc Uring.sc V.sc W.sc Wcircumflex.sc X.sc Y.sc Yacute.sc Ycircumflex.sc Ydieresis.sc Z.sc Zacute.sc Zcaron.sc Zdotaccent.sc a.sc aacute.sc abreve.sc amacron.sc uni0400.sc uni0401.sc uni0402.sc uni0403.sc uni0404.sc uni0405.sc uni0406.sc uni0407.sc uni0408.sc uni0409.sc uni040A.sc uni040B.sc uni040C.sc uni040D.sc uni040E.sc uni040F.sc uni0410.sc uni0411.sc uni0412.sc uni0413.sc uni0414.sc uni0415.sc uni0416.sc uni0417.sc uni0418.sc uni0419.sc uni041A.sc uni041B.sc uni041C.sc uni041D.sc uni041E.sc uni041F.sc uni0420.sc uni0421.sc uni0422.sc uni0423.sc uni0424.sc uni0425.sc uni0426.sc uni0427.sc uni0428.sc uni0429.sc uni042A.sc uni042B.sc uni042C.sc uni042D.sc uni042E.sc uni042F.sc];
+@case = [acute caron dieresis grave hungarumlaut macron uni0307 uni0308 uni030B uni030F uni0311 uni0324 uni0325 uni032D uni032E uni0330 uni0331 brevecyr uni0306 uni030C uni0302 uni0304 uni030A];
+@case2 = [acute.cap caron.cap dieresis.cap grave.cap hungarumlaut.cap macron.cap uni0307.cap uni0308.cap uni030B.cap uni030F.cap uni0311.cap uni0324.cap uni0325.cap uni032D.cap uni032E.cap uni0330.cap uni0331.cap brevecyr.cap uni0306.cap uni030C.cap uni0302.cap uni0304.cap uni030A.cap];
+@locl = [uni0414 uni0416 uni041A uni041B uni0424 uni0432 uni0433 uni0434 uni0436 uni0437 uni0438 uni0439 uni043A uni043B uni043D uni043F uni0442 uni0444 uni0446 uni0447 uni0448 uni0449 uni044A uni044B uni044C uni044E uni045D];
+@locl2 = [uni0414.loclBGR uni0416.loclBGR uni041A.loclBGR uni041B.loclBGR uni0424.loclBGR uni0432.loclBGR uni0433.loclBGR uni0434.loclBGR uni0436.loclBGR uni0437.loclBGR uni0438.loclBGR uni0439.loclBGR uni043A.loclBGR uni043B.loclBGR uni043D.loclBGR uni043F.loclBGR uni0442.loclBGR uni0444.loclBGR uni0446.loclBGR uni0447.loclBGR uni0448.loclBGR uni0449.loclBGR uni044A.loclBGR uni044B.loclBGR uni044C.loclBGR uni044E.loclBGR uni045D.loclBGR];
+@numb = [zero one two three four five six seven eight nine];
+@sups = [uni2070 uni00B9 uni00B2 uni00B3 uni2074 uni2075 uni2076 uni2077 uni2078 uni2079];
+@subs = [uni2080 uni2081 uni2082 uni2083 uni2084 uni2085 uni2086 uni2087 uni2088 uni2089];
+@tf = [zero.tf one.tf two.tf three.tf four.tf five.tf six.tf seven.tf eight.tf nine.tf];
+@tosf = [zero.tosf one.tosf two.tosf three.tosf four.tosf five.tosf six.tosf seven.tosf eight.tosf nine.tosf];
+@osf = [zero.osf one.osf two.osf three.osf four.osf five.osf six.osf seven.osf eight.osf nine.osf];
+@sups.letters = [a b beta c chi d e eng eth f g gamma h j k l m n o p phi r s t u uni0250 uni0251 uni0252 uni0254 uni0259 uni025B uni025C uni0263 uni0265 uni0268 uni0269 uni026A uni026F uni0271 uni0275 uni0279 uni0283 uni0289 uni028B uni028C uni0292 uni0295 uni043D v w x y z uni0255 uni025F uni0261 uni0266 uni026D uni0270 uni0272 uni0273 uni0274 uni0278 uni027B uni0281 uni0282 uni028A uni0290 uni0291 uni029D uni029F];
+@sups.letters2 = [uni1D43 uni1D47 uni1D5D uni1D9C uni1D61 uni1D48 uni1D49 uni1D51 uni1D9E uni1DA0 uni1D4D uni1D5E uni02B0 uni02B2 uni1D4F uni02E1 uni1D50 uni207F uni1D52 uni1D56 uni1D60 uni02B3 uni02E2 uni1D57 uni1D58 uni1D44 uni1D45 uni1D9B uni1D53 uni1D4A uni1D4B uni1D9F uni02E0 uni1DA3 uni1DA4 uni1DA5 uni1DA6 uni1D5A uni1DAC uni1DB1 uni02B4 uni1DB4 uni1DB6 uni1DB9 uni1DBA uni1DBE uni02E4 uni1D78 uni1D5B uni02B7 uni02E3 uni02B8 uni1DBB uni1D9D uni1DA1 uni1DA2 uni02B1 uni1DA9 uni1DAD uni1DAE uni1DAF uni1DB0 uni1DB2 uni02B5 uni02B6 uni1DB3 uni1DB7 uni1DBC uni1DBD uni1DA8 uni1DAB];
+@sinf_subs = [zero one two three four five six seven eight nine parenleft parenright];
+@sinf_subs2 = [uni2080 uni2081 uni2082 uni2083 uni2084 uni2085 uni2086 uni2087 uni2088 uni2089 parenleft.inferior parenright.inferior];
+@smcp = [a aacute abreve acircumflex adieresis ae agrave amacron aring atilde b c ccaron ccedilla d dcaron dotlessi e eacute ebreve ecaron ecircumflex edieresis egrave emacron eth f g h i iacute ibreve icircumflex idieresis igrave imacron itilde j jcircumflex k l lacute lcaron m n nacute ncaron ntilde o oacute obreve ocircumflex odieresis ograve omacron oslash otilde p q r racute rcaron s sacute scircumflex t tcaron thorn u uacute ubreve ucircumflex udieresis ugrave umacron uni0430 uni0431 uni0432 uni0433 uni0434 uni0435 uni0436 uni0437 uni0438 uni0439 uni043A uni043B uni043C uni043D uni043E uni043F uni0440 uni0441 uni0442 uni0443 uni0444 uni0445 uni0446 uni0447 uni0448 uni0449 uni044A uni044B uni044C uni044D uni044E uni044F uni0450 uni0451 uni0452 uni0453 uni0454 uni0455 uni0456 uni0457 uni0458 uni0459 uni045A uni045B uni045C uni045D uni045E uni045F uni0463 uni0473 uni0475 uni04A5 uni04AF uni04B1 uni04C2 uni04D1 uni04D3 uni04D5 uni04D7 uni04DD uni04DF uni04E3 uni04E5 uni04E7 uni04E9 uni04EB uni04ED uni04EF uni04F1 uni04F5 uni04F9 uni0432.loclBGR uni0433.loclBGR uni0434.loclBGR uni0436.loclBGR uni0437.loclBGR uni0438.loclBGR uni0439.loclBGR uni043A.loclBGR uni043B.loclBGR uni043D.loclBGR uni043F.loclBGR uni0442.loclBGR uni0444.loclBGR uni0446.loclBGR uni0447.loclBGR uni0448.loclBGR uni0449.loclBGR uni044A.loclBGR uni044B.loclBGR uni044C.loclBGR uni044E.loclBGR uni045D.loclBGR uring v w wacute wcircumflex wdieresis wgrave x y yacute ycircumflex ydieresis z zacute zcaron zdotaccent];
+@smcp2 = [a.sc aacute.sc abreve.sc Acircumflex.sc Adieresis.sc AE.sc Agrave.sc amacron.sc Aring.sc Atilde.sc B.sc C.sc Ccaron.sc Ccedilla.sc D.sc Dcaron.sc dotlessi.small E.sc Eacute.sc Ebreve.sc Ecaron.sc Ecircumflex.sc Edieresis.sc Egrave.sc Emacron.sc Eth.sc F.sc G.sc H.sc I.sc Iacute.sc Ibreve.sc Icircumflex.sc Idieresis.sc Igrave.sc Imacron.sc Itilde.sc J.sc Jcircumflex.sc K.sc L.sc Lacute.sc Lcaron.sc M.sc N.sc Nacute.sc Ncaron.sc Ntilde.sc O.sc Oacute.sc Obreve.sc Ocircumflex.sc Odieresis.sc Ograve.sc Omacron.sc Oslash.sc Otilde.sc P.sc Q.sc R.sc Racute.sc Rcaron.sc S.sc Sacute.sc Scircumflex.sc T.sc Tcaron.sc Thorn.sc U.sc Uacute.sc Ubreve.sc Ucircumflex.sc Udieresis.sc Ugrave.sc Umacron.sc uni0410.sc uni0411.sc uni0412.sc uni0413.sc uni0414.sc uni0415.sc uni0416.sc uni0417.sc uni0418.sc uni0419.sc uni041A.sc uni041B.sc uni041C.sc uni041D.sc uni041E.sc uni041F.sc uni0420.sc uni0421.sc uni0422.sc uni0423.sc uni0424.sc uni0425.sc uni0426.sc uni0427.sc uni0428.sc uni0429.sc uni042A.sc uni042B.sc uni042C.sc uni042D.sc uni042E.sc uni042F.sc uni0400.sc uni0401.sc uni0402.sc uni0403.sc uni0404.sc uni0405.sc uni0406.sc uni0407.sc uni0408.sc uni0409.sc uni040A.sc uni040B.sc uni040C.sc uni045D.sc uni040E.sc uni040F.sc uni0463.sc uni0473.sc uni0475.sc uni04A5.sc uni04AF.sc uni04B1.sc uni04C2.sc uni04D1.sc uni04D3.sc uni04D5.sc uni04D7.sc uni04DD.sc uni04DF.sc uni04E3.sc uni04E5.sc uni04E7.sc uni04E9.sc uni04EB.sc uni04ED.sc uni04EF.sc uni04F1.sc uni04F5.sc uni04F9.sc uni0412.sc uni0413.sc uni0414.sc uni0416.sc uni0417.sc uni0418.sc uni0419.sc uni041A.sc uni041B.sc uni041D.sc uni041F.sc uni0422.sc uni0424.sc uni0426.sc uni0427.sc uni0428.sc uni0429.sc uni042A.sc uni042B.sc uni042C.sc uni042E.sc uni045D.sc Uring.sc V.sc W.sc wacute.sc Wcircumflex.sc wdieresis.sc wgrave.sc X.sc Y.sc Yacute.sc Ycircumflex.sc Ydieresis.sc Z.sc Zacute.sc Zcaron.sc Zdotaccent.sc];
+#/< otclasses
+#/< classes
+
+#/> classes
+#/> otclasses
+@c2sc = [A AE Aacute Acircumflex Adieresis Agrave Aring Atilde B C Ccaron Ccedilla D Dcaron E Eacute Ebreve Ecaron Ecircumflex Edieresis Egrave Emacron Eth F G H I Iacute Ibreve Icircumflex Idieresis Igrave Imacron Itilde J Jcircumflex K L Lacute Lcaron M N Nacute Ncaron Ntilde O Oacute Obreve Ocircumflex Odieresis Ograve Omacron Oslash Otilde P Q R Racute Rcaron S Sacute Scircumflex T Tcaron Thorn U Uacute Ubreve Ucircumflex Udieresis Ugrave Umacron Uring V W Wcircumflex X Y Yacute Ycircumflex Ydieresis Z Zacute Zcaron Zdotaccent a aacute abreve amacron uni0400 uni0401 uni0402 uni0403 uni0404 uni0405 uni0406 uni0407 uni0408 uni0409 uni040A uni040B uni040C uni040D uni040E uni040F uni0410 uni0411 uni0412 uni0413 uni0414 uni0415 uni0416 uni0417 uni0418 uni0419 uni041A uni041B uni041C uni041D uni041E uni041F uni0420 uni0421 uni0422 uni0423 uni0424 uni0425 uni0426 uni0427 uni0428 uni0429 uni042A uni042B uni042C uni042D uni042E uni042F];
+@c2sc2 = [A.sc AE.sc Aacute.sc Acircumflex.sc Adieresis.sc Agrave.sc Aring.sc Atilde.sc B.sc C.sc Ccaron.sc Ccedilla.sc D.sc Dcaron.sc E.sc Eacute.sc Ebreve.sc Ecaron.sc Ecircumflex.sc Edieresis.sc Egrave.sc Emacron.sc Eth.sc F.sc G.sc H.sc I.sc Iacute.sc Ibreve.sc Icircumflex.sc Idieresis.sc Igrave.sc Imacron.sc Itilde.sc J.sc Jcircumflex.sc K.sc L.sc Lacute.sc Lcaron.sc M.sc N.sc Nacute.sc Ncaron.sc Ntilde.sc O.sc Oacute.sc Obreve.sc Ocircumflex.sc Odieresis.sc Ograve.sc Omacron.sc Oslash.sc Otilde.sc P.sc Q.sc R.sc Racute.sc Rcaron.sc S.sc Sacute.sc Scircumflex.sc T.sc Tcaron.sc Thorn.sc U.sc Uacute.sc Ubreve.sc Ucircumflex.sc Udieresis.sc Ugrave.sc Umacron.sc Uring.sc V.sc W.sc Wcircumflex.sc X.sc Y.sc Yacute.sc Ycircumflex.sc Ydieresis.sc Z.sc Zacute.sc Zcaron.sc Zdotaccent.sc a.sc aacute.sc abreve.sc amacron.sc uni0400.sc uni0401.sc uni0402.sc uni0403.sc uni0404.sc uni0405.sc uni0406.sc uni0407.sc uni0408.sc uni0409.sc uni040A.sc uni040B.sc uni040C.sc uni040D.sc uni040E.sc uni040F.sc uni0410.sc uni0411.sc uni0412.sc uni0413.sc uni0414.sc uni0415.sc uni0416.sc uni0417.sc uni0418.sc uni0419.sc uni041A.sc uni041B.sc uni041C.sc uni041D.sc uni041E.sc uni041F.sc uni0420.sc uni0421.sc uni0422.sc uni0423.sc uni0424.sc uni0425.sc uni0426.sc uni0427.sc uni0428.sc uni0429.sc uni042A.sc uni042B.sc uni042C.sc uni042D.sc uni042E.sc uni042F.sc];
+@case = [acute caron dieresis grave hungarumlaut macron uni0307 uni0308 uni030B uni030F uni0311 uni0324 uni0325 uni032D uni032E uni0330 uni0331 brevecyr uni0306 uni030C uni0302 uni0304 uni030A];
+@case2 = [acute.cap caron.cap dieresis.cap grave.cap hungarumlaut.cap macron.cap uni0307.cap uni0308.cap uni030B.cap uni030F.cap uni0311.cap uni0324.cap uni0325.cap uni032D.cap uni032E.cap uni0330.cap uni0331.cap brevecyr.cap uni0306.cap uni030C.cap uni0302.cap uni0304.cap uni030A.cap];
+@locl = [uni0414 uni0416 uni041A uni041B uni0424 uni0432 uni0433 uni0434 uni0436 uni0437 uni0438 uni0439 uni043A uni043B uni043D uni043F uni0442 uni0444 uni0446 uni0447 uni0448 uni0449 uni044A uni044B uni044C uni044E uni045D];
+@locl2 = [uni0414.loclBGR uni0416.loclBGR uni041A.loclBGR uni041B.loclBGR uni0424.loclBGR uni0432.loclBGR uni0433.loclBGR uni0434.loclBGR uni0436.loclBGR uni0437.loclBGR uni0438.loclBGR uni0439.loclBGR uni043A.loclBGR uni043B.loclBGR uni043D.loclBGR uni043F.loclBGR uni0442.loclBGR uni0444.loclBGR uni0446.loclBGR uni0447.loclBGR uni0448.loclBGR uni0449.loclBGR uni044A.loclBGR uni044B.loclBGR uni044C.loclBGR uni044E.loclBGR uni045D.loclBGR];
+@numb = [zero one two three four five six seven eight nine];
+@sups = [uni2070 uni00B9 uni00B2 uni00B3 uni2074 uni2075 uni2076 uni2077 uni2078 uni2079];
+@subs = [uni2080 uni2081 uni2082 uni2083 uni2084 uni2085 uni2086 uni2087 uni2088 uni2089];
+@tf = [zero.tf one.tf two.tf three.tf four.tf five.tf six.tf seven.tf eight.tf nine.tf];
+@tosf = [zero.tosf one.tosf two.tosf three.tosf four.tosf five.tosf six.tosf seven.tosf eight.tosf nine.tosf];
+@osf = [zero.osf one.osf two.osf three.osf four.osf five.osf six.osf seven.osf eight.osf nine.osf];
+@sups.letters = [a b beta c chi d e eng eth f g gamma h j k l m n o p phi r s t u uni0250 uni0251 uni0252 uni0254 uni0259 uni025B uni025C uni0263 uni0265 uni0268 uni0269 uni026A uni026F uni0271 uni0275 uni0279 uni0283 uni0289 uni028B uni028C uni0292 uni0295 uni043D v w x y z uni0255 uni025F uni0261 uni0266 uni026D uni0270 uni0272 uni0273 uni0274 uni0278 uni027B uni0281 uni0282 uni028A uni0290 uni0291 uni029D uni029F];
+@sups.letters2 = [uni1D43 uni1D47 uni1D5D uni1D9C uni1D61 uni1D48 uni1D49 uni1D51 uni1D9E uni1DA0 uni1D4D uni1D5E uni02B0 uni02B2 uni1D4F uni02E1 uni1D50 uni207F uni1D52 uni1D56 uni1D60 uni02B3 uni02E2 uni1D57 uni1D58 uni1D44 uni1D45 uni1D9B uni1D53 uni1D4A uni1D4B uni1D9F uni02E0 uni1DA3 uni1DA4 uni1DA5 uni1DA6 uni1D5A uni1DAC uni1DB1 uni02B4 uni1DB4 uni1DB6 uni1DB9 uni1DBA uni1DBE uni02E4 uni1D78 uni1D5B uni02B7 uni02E3 uni02B8 uni1DBB uni1D9D uni1DA1 uni1DA2 uni02B1 uni1DA9 uni1DAD uni1DAE uni1DAF uni1DB0 uni1DB2 uni02B5 uni02B6 uni1DB3 uni1DB7 uni1DBC uni1DBD uni1DA8 uni1DAB];
+@sinf_subs = [zero one two three four five six seven eight nine parenleft parenright];
+@sinf_subs2 = [uni2080 uni2081 uni2082 uni2083 uni2084 uni2085 uni2086 uni2087 uni2088 uni2089 parenleft.inferior parenright.inferior];
+@smcp = [a aacute abreve acircumflex adieresis ae agrave amacron aring atilde b c ccaron ccedilla d dcaron dotlessi e eacute ebreve ecaron ecircumflex edieresis egrave emacron eth f g h i iacute ibreve icircumflex idieresis igrave imacron itilde j jcircumflex k l lacute lcaron m n nacute ncaron ntilde o oacute obreve ocircumflex odieresis ograve omacron oslash otilde p q r racute rcaron s sacute scircumflex t tcaron thorn u uacute ubreve ucircumflex udieresis ugrave umacron uni0430 uni0431 uni0432 uni0433 uni0434 uni0435 uni0436 uni0437 uni0438 uni0439 uni043A uni043B uni043C uni043D uni043E uni043F uni0440 uni0441 uni0442 uni0443 uni0444 uni0445 uni0446 uni0447 uni0448 uni0449 uni044A uni044B uni044C uni044D uni044E uni044F uni0450 uni0451 uni0452 uni0453 uni0454 uni0455 uni0456 uni0457 uni0458 uni0459 uni045A uni045B uni045C uni045D uni045E uni045F uni0463 uni0473 uni0475 uni04A5 uni04AF uni04B1 uni04C2 uni04D1 uni04D3 uni04D5 uni04D7 uni04DD uni04DF uni04E3 uni04E5 uni04E7 uni04E9 uni04EB uni04ED uni04EF uni04F1 uni04F5 uni04F9 uni0432.loclBGR uni0433.loclBGR uni0434.loclBGR uni0436.loclBGR uni0437.loclBGR uni0438.loclBGR uni0439.loclBGR uni043A.loclBGR uni043B.loclBGR uni043D.loclBGR uni043F.loclBGR uni0442.loclBGR uni0444.loclBGR uni0446.loclBGR uni0447.loclBGR uni0448.loclBGR uni0449.loclBGR uni044A.loclBGR uni044B.loclBGR uni044C.loclBGR uni044E.loclBGR uni045D.loclBGR uring v w wacute wcircumflex wdieresis wgrave x y yacute ycircumflex ydieresis z zacute zcaron zdotaccent];
+@smcp2 = [a.sc aacute.sc abreve.sc Acircumflex.sc Adieresis.sc AE.sc Agrave.sc amacron.sc Aring.sc Atilde.sc B.sc C.sc Ccaron.sc Ccedilla.sc D.sc Dcaron.sc dotlessi.small E.sc Eacute.sc Ebreve.sc Ecaron.sc Ecircumflex.sc Edieresis.sc Egrave.sc Emacron.sc Eth.sc F.sc G.sc H.sc I.sc Iacute.sc Ibreve.sc Icircumflex.sc Idieresis.sc Igrave.sc Imacron.sc Itilde.sc J.sc Jcircumflex.sc K.sc L.sc Lacute.sc Lcaron.sc M.sc N.sc Nacute.sc Ncaron.sc Ntilde.sc O.sc Oacute.sc Obreve.sc Ocircumflex.sc Odieresis.sc Ograve.sc Omacron.sc Oslash.sc Otilde.sc P.sc Q.sc R.sc Racute.sc Rcaron.sc S.sc Sacute.sc Scircumflex.sc T.sc Tcaron.sc Thorn.sc U.sc Uacute.sc Ubreve.sc Ucircumflex.sc Udieresis.sc Ugrave.sc Umacron.sc uni0410.sc uni0411.sc uni0412.sc uni0413.sc uni0414.sc uni0415.sc uni0416.sc uni0417.sc uni0418.sc uni0419.sc uni041A.sc uni041B.sc uni041C.sc uni041D.sc uni041E.sc uni041F.sc uni0420.sc uni0421.sc uni0422.sc uni0423.sc uni0424.sc uni0425.sc uni0426.sc uni0427.sc uni0428.sc uni0429.sc uni042A.sc uni042B.sc uni042C.sc uni042D.sc uni042E.sc uni042F.sc uni0400.sc uni0401.sc uni0402.sc uni0403.sc uni0404.sc uni0405.sc uni0406.sc uni0407.sc uni0408.sc uni0409.sc uni040A.sc uni040B.sc uni040C.sc uni045D.sc uni040E.sc uni040F.sc uni0463.sc uni0473.sc uni0475.sc uni04A5.sc uni04AF.sc uni04B1.sc uni04C2.sc uni04D1.sc uni04D3.sc uni04D5.sc uni04D7.sc uni04DD.sc uni04DF.sc uni04E3.sc uni04E5.sc uni04E7.sc uni04E9.sc uni04EB.sc uni04ED.sc uni04EF.sc uni04F1.sc uni04F5.sc uni04F9.sc uni0412.sc uni0413.sc uni0414.sc uni0416.sc uni0417.sc uni0418.sc uni0419.sc uni041A.sc uni041B.sc uni041D.sc uni041F.sc uni0422.sc uni0424.sc uni0426.sc uni0427.sc uni0428.sc uni0429.sc uni042A.sc uni042B.sc uni042C.sc uni042E.sc uni045D.sc Uring.sc V.sc W.sc wacute.sc Wcircumflex.sc wdieresis.sc wgrave.sc X.sc Y.sc Yacute.sc Ycircumflex.sc Ydieresis.sc Z.sc Zacute.sc Zcaron.sc Zdotaccent.sc];
+#/< otclasses
+#/< classes
+
+#/> classes
+#/> otclasses
+@c2sc = [A AE Aacute Acircumflex Adieresis Agrave Aring Atilde B C Ccaron Ccedilla D Dcaron E Eacute Ebreve Ecaron Ecircumflex Edieresis Egrave Emacron Eth F G H I Iacute Ibreve Icircumflex Idieresis Igrave Imacron Itilde J Jcircumflex K L Lacute Lcaron M N Nacute Ncaron Ntilde O Oacute Obreve Ocircumflex Odieresis Ograve Omacron Oslash Otilde P Q R Racute Rcaron S Sacute Scircumflex T Tcaron Thorn U Uacute Ubreve Ucircumflex Udieresis Ugrave Umacron Uring V W Wcircumflex X Y Yacute Ycircumflex Ydieresis Z Zacute Zcaron Zdotaccent a aacute abreve amacron uni0400 uni0401 uni0402 uni0403 uni0404 uni0405 uni0406 uni0407 uni0408 uni0409 uni040A uni040B uni040C uni040D uni040E uni040F uni0410 uni0411 uni0412 uni0413 uni0414 uni0415 uni0416 uni0417 uni0418 uni0419 uni041A uni041B uni041C uni041D uni041E uni041F uni0420 uni0421 uni0422 uni0423 uni0424 uni0425 uni0426 uni0427 uni0428 uni0429 uni042A uni042B uni042C uni042D uni042E uni042F];
+@c2sc2 = [A.sc AE.sc Aacute.sc Acircumflex.sc Adieresis.sc Agrave.sc Aring.sc Atilde.sc B.sc C.sc Ccaron.sc Ccedilla.sc D.sc Dcaron.sc E.sc Eacute.sc Ebreve.sc Ecaron.sc Ecircumflex.sc Edieresis.sc Egrave.sc Emacron.sc Eth.sc F.sc G.sc H.sc I.sc Iacute.sc Ibreve.sc Icircumflex.sc Idieresis.sc Igrave.sc Imacron.sc Itilde.sc J.sc Jcircumflex.sc K.sc L.sc Lacute.sc Lcaron.sc M.sc N.sc Nacute.sc Ncaron.sc Ntilde.sc O.sc Oacute.sc Obreve.sc Ocircumflex.sc Odieresis.sc Ograve.sc Omacron.sc Oslash.sc Otilde.sc P.sc Q.sc R.sc Racute.sc Rcaron.sc S.sc Sacute.sc Scircumflex.sc T.sc Tcaron.sc Thorn.sc U.sc Uacute.sc Ubreve.sc Ucircumflex.sc Udieresis.sc Ugrave.sc Umacron.sc Uring.sc V.sc W.sc Wcircumflex.sc X.sc Y.sc Yacute.sc Ycircumflex.sc Ydieresis.sc Z.sc Zacute.sc Zcaron.sc Zdotaccent.sc a.sc aacute.sc abreve.sc amacron.sc uni0400.sc uni0401.sc uni0402.sc uni0403.sc uni0404.sc uni0405.sc uni0406.sc uni0407.sc uni0408.sc uni0409.sc uni040A.sc uni040B.sc uni040C.sc uni040D.sc uni040E.sc uni040F.sc uni0410.sc uni0411.sc uni0412.sc uni0413.sc uni0414.sc uni0415.sc uni0416.sc uni0417.sc uni0418.sc uni0419.sc uni041A.sc uni041B.sc uni041C.sc uni041D.sc uni041E.sc uni041F.sc uni0420.sc uni0421.sc uni0422.sc uni0423.sc uni0424.sc uni0425.sc uni0426.sc uni0427.sc uni0428.sc uni0429.sc uni042A.sc uni042B.sc uni042C.sc uni042D.sc uni042E.sc uni042F.sc];
+@case = [acute caron dieresis grave hungarumlaut macron uni0307 uni0308 uni030B uni030F uni0311 uni0324 uni0325 uni032D uni032E uni0330 uni0331 brevecyr uni0306 uni030C uni0302 uni0304 uni030A];
+@case2 = [acute.cap caron.cap dieresis.cap grave.cap hungarumlaut.cap macron.cap uni0307.cap uni0308.cap uni030B.cap uni030F.cap uni0311.cap uni0324.cap uni0325.cap uni032D.cap uni032E.cap uni0330.cap uni0331.cap brevecyr.cap uni0306.cap uni030C.cap uni0302.cap uni0304.cap uni030A.cap];
+@locl = [uni0414 uni0416 uni041A uni041B uni0424 uni0432 uni0433 uni0434 uni0436 uni0437 uni0438 uni0439 uni043A uni043B uni043D uni043F uni0442 uni0444 uni0446 uni0447 uni0448 uni0449 uni044A uni044B uni044C uni044E uni045D];
+@locl2 = [uni0414.loclBGR uni0416.loclBGR uni041A.loclBGR uni041B.loclBGR uni0424.loclBGR uni0432.loclBGR uni0433.loclBGR uni0434.loclBGR uni0436.loclBGR uni0437.loclBGR uni0438.loclBGR uni0439.loclBGR uni043A.loclBGR uni043B.loclBGR uni043D.loclBGR uni043F.loclBGR uni0442.loclBGR uni0444.loclBGR uni0446.loclBGR uni0447.loclBGR uni0448.loclBGR uni0449.loclBGR uni044A.loclBGR uni044B.loclBGR uni044C.loclBGR uni044E.loclBGR uni045D.loclBGR];
+@numb = [zero one two three four five six seven eight nine];
+@sups = [uni2070 uni00B9 uni00B2 uni00B3 uni2074 uni2075 uni2076 uni2077 uni2078 uni2079];
+@subs = [uni2080 uni2081 uni2082 uni2083 uni2084 uni2085 uni2086 uni2087 uni2088 uni2089];
+@tf = [zero.tf one.tf two.tf three.tf four.tf five.tf six.tf seven.tf eight.tf nine.tf];
+@tosf = [zero.tosf one.tosf two.tosf three.tosf four.tosf five.tosf six.tosf seven.tosf eight.tosf nine.tosf];
+@osf = [zero.osf one.osf two.osf three.osf four.osf five.osf six.osf seven.osf eight.osf nine.osf];
+@sups.letters = [a b beta c chi d e eng eth f g gamma h j k l m n o p phi r s t u uni0250 uni0251 uni0252 uni0254 uni0259 uni025B uni025C uni0263 uni0265 uni0268 uni0269 uni026A uni026F uni0271 uni0275 uni0279 uni0283 uni0289 uni028B uni028C uni0292 uni0295 uni043D v w x y z uni0255 uni025F uni0261 uni0266 uni026D uni0270 uni0272 uni0273 uni0274 uni0278 uni027B uni0281 uni0282 uni028A uni0290 uni0291 uni029D uni029F];
+@sups.letters2 = [uni1D43 uni1D47 uni1D5D uni1D9C uni1D61 uni1D48 uni1D49 uni1D51 uni1D9E uni1DA0 uni1D4D uni1D5E uni02B0 uni02B2 uni1D4F uni02E1 uni1D50 uni207F uni1D52 uni1D56 uni1D60 uni02B3 uni02E2 uni1D57 uni1D58 uni1D44 uni1D45 uni1D9B uni1D53 uni1D4A uni1D4B uni1D9F uni02E0 uni1DA3 uni1DA4 uni1DA5 uni1DA6 uni1D5A uni1DAC uni1DB1 uni02B4 uni1DB4 uni1DB6 uni1DB9 uni1DBA uni1DBE uni02E4 uni1D78 uni1D5B uni02B7 uni02E3 uni02B8 uni1DBB uni1D9D uni1DA1 uni1DA2 uni02B1 uni1DA9 uni1DAD uni1DAE uni1DAF uni1DB0 uni1DB2 uni02B5 uni02B6 uni1DB3 uni1DB7 uni1DBC uni1DBD uni1DA8 uni1DAB];
+@sinf_subs = [zero one two three four five six seven eight nine parenleft parenright];
+@sinf_subs2 = [uni2080 uni2081 uni2082 uni2083 uni2084 uni2085 uni2086 uni2087 uni2088 uni2089 parenleft.inferior parenright.inferior];
+@smcp = [a aacute abreve acircumflex adieresis ae agrave amacron aring atilde b c ccaron ccedilla d dcaron dotlessi e eacute ebreve ecaron ecircumflex edieresis egrave emacron eth f g h i iacute ibreve icircumflex idieresis igrave imacron itilde j jcircumflex k l lacute lcaron m n nacute ncaron ntilde o oacute obreve ocircumflex odieresis ograve omacron oslash otilde p q r racute rcaron s sacute scircumflex t tcaron thorn u uacute ubreve ucircumflex udieresis ugrave umacron uni0430 uni0431 uni0432 uni0433 uni0434 uni0435 uni0436 uni0437 uni0438 uni0439 uni043A uni043B uni043C uni043D uni043E uni043F uni0440 uni0441 uni0442 uni0443 uni0444 uni0445 uni0446 uni0447 uni0448 uni0449 uni044A uni044B uni044C uni044D uni044E uni044F uni0450 uni0451 uni0452 uni0453 uni0454 uni0455 uni0456 uni0457 uni0458 uni0459 uni045A uni045B uni045C uni045D uni045E uni045F uni0463 uni0473 uni0475 uni04A5 uni04AF uni04B1 uni04C2 uni04D1 uni04D3 uni04D5 uni04D7 uni04DD uni04DF uni04E3 uni04E5 uni04E7 uni04E9 uni04EB uni04ED uni04EF uni04F1 uni04F5 uni04F9 uni0432.loclBGR uni0433.loclBGR uni0434.loclBGR uni0436.loclBGR uni0437.loclBGR uni0438.loclBGR uni0439.loclBGR uni043A.loclBGR uni043B.loclBGR uni043D.loclBGR uni043F.loclBGR uni0442.loclBGR uni0444.loclBGR uni0446.loclBGR uni0447.loclBGR uni0448.loclBGR uni0449.loclBGR uni044A.loclBGR uni044B.loclBGR uni044C.loclBGR uni044E.loclBGR uni045D.loclBGR uring v w wacute wcircumflex wdieresis wgrave x y yacute ycircumflex ydieresis z zacute zcaron zdotaccent];
+@smcp2 = [a.sc aacute.sc abreve.sc Acircumflex.sc Adieresis.sc AE.sc Agrave.sc amacron.sc Aring.sc Atilde.sc B.sc C.sc Ccaron.sc Ccedilla.sc D.sc Dcaron.sc dotlessi.small E.sc Eacute.sc Ebreve.sc Ecaron.sc Ecircumflex.sc Edieresis.sc Egrave.sc Emacron.sc Eth.sc F.sc G.sc H.sc I.sc Iacute.sc Ibreve.sc Icircumflex.sc Idieresis.sc Igrave.sc Imacron.sc Itilde.sc J.sc Jcircumflex.sc K.sc L.sc Lacute.sc Lcaron.sc M.sc N.sc Nacute.sc Ncaron.sc Ntilde.sc O.sc Oacute.sc Obreve.sc Ocircumflex.sc Odieresis.sc Ograve.sc Omacron.sc Oslash.sc Otilde.sc P.sc Q.sc R.sc Racute.sc Rcaron.sc S.sc Sacute.sc Scircumflex.sc T.sc Tcaron.sc Thorn.sc U.sc Uacute.sc Ubreve.sc Ucircumflex.sc Udieresis.sc Ugrave.sc Umacron.sc uni0410.sc uni0411.sc uni0412.sc uni0413.sc uni0414.sc uni0415.sc uni0416.sc uni0417.sc uni0418.sc uni0419.sc uni041A.sc uni041B.sc uni041C.sc uni041D.sc uni041E.sc uni041F.sc uni0420.sc uni0421.sc uni0422.sc uni0423.sc uni0424.sc uni0425.sc uni0426.sc uni0427.sc uni0428.sc uni0429.sc uni042A.sc uni042B.sc uni042C.sc uni042D.sc uni042E.sc uni042F.sc uni0400.sc uni0401.sc uni0402.sc uni0403.sc uni0404.sc uni0405.sc uni0406.sc uni0407.sc uni0408.sc uni0409.sc uni040A.sc uni040B.sc uni040C.sc uni045D.sc uni040E.sc uni040F.sc uni0463.sc uni0473.sc uni0475.sc uni04A5.sc uni04AF.sc uni04B1.sc uni04C2.sc uni04D1.sc uni04D3.sc uni04D5.sc uni04D7.sc uni04DD.sc uni04DF.sc uni04E3.sc uni04E5.sc uni04E7.sc uni04E9.sc uni04EB.sc uni04ED.sc uni04EF.sc uni04F1.sc uni04F5.sc uni04F9.sc uni0412.sc uni0413.sc uni0414.sc uni0416.sc uni0417.sc uni0418.sc uni0419.sc uni041A.sc uni041B.sc uni041D.sc uni041F.sc uni0422.sc uni0424.sc uni0426.sc uni0427.sc uni0428.sc uni0429.sc uni042A.sc uni042B.sc uni042C.sc uni042E.sc uni045D.sc Uring.sc V.sc W.sc wacute.sc Wcircumflex.sc wdieresis.sc wgrave.sc X.sc Y.sc Yacute.sc Ycircumflex.sc Ydieresis.sc Z.sc Zacute.sc Zcaron.sc Zdotaccent.sc];
+#/< otclasses
+#/< classes
+
+#/> classes
+#/> otclasses
+@c2sc = [A AE Aacute Acircumflex Adieresis Agrave Aring Atilde B C Ccaron Ccedilla D Dcaron E Eacute Ebreve Ecaron Ecircumflex Edieresis Egrave Emacron Eth F G H I Iacute Ibreve Icircumflex Idieresis Igrave Imacron Itilde J Jcircumflex K L Lacute Lcaron M N Nacute Ncaron Ntilde O Oacute Obreve Ocircumflex Odieresis Ograve Omacron Oslash Otilde P Q R Racute Rcaron S Sacute Scircumflex T Tcaron Thorn U Uacute Ubreve Ucircumflex Udieresis Ugrave Umacron Uring V W Wcircumflex X Y Yacute Ycircumflex Ydieresis Z Zacute Zcaron Zdotaccent a aacute abreve amacron uni0400 uni0401 uni0402 uni0403 uni0404 uni0405 uni0406 uni0407 uni0408 uni0409 uni040A uni040B uni040C uni040D uni040E uni040F uni0410 uni0411 uni0412 uni0413 uni0414 uni0415 uni0416 uni0417 uni0418 uni0419 uni041A uni041B uni041C uni041D uni041E uni041F uni0420 uni0421 uni0422 uni0423 uni0424 uni0425 uni0426 uni0427 uni0428 uni0429 uni042A uni042B uni042C uni042D uni042E uni042F];
+@c2sc2 = [A.sc AE.sc Aacute.sc Acircumflex.sc Adieresis.sc Agrave.sc Aring.sc Atilde.sc B.sc C.sc Ccaron.sc Ccedilla.sc D.sc Dcaron.sc E.sc Eacute.sc Ebreve.sc Ecaron.sc Ecircumflex.sc Edieresis.sc Egrave.sc Emacron.sc Eth.sc F.sc G.sc H.sc I.sc Iacute.sc Ibreve.sc Icircumflex.sc Idieresis.sc Igrave.sc Imacron.sc Itilde.sc J.sc Jcircumflex.sc K.sc L.sc Lacute.sc Lcaron.sc M.sc N.sc Nacute.sc Ncaron.sc Ntilde.sc O.sc Oacute.sc Obreve.sc Ocircumflex.sc Odieresis.sc Ograve.sc Omacron.sc Oslash.sc Otilde.sc P.sc Q.sc R.sc Racute.sc Rcaron.sc S.sc Sacute.sc Scircumflex.sc T.sc Tcaron.sc Thorn.sc U.sc Uacute.sc Ubreve.sc Ucircumflex.sc Udieresis.sc Ugrave.sc Umacron.sc Uring.sc V.sc W.sc Wcircumflex.sc X.sc Y.sc Yacute.sc Ycircumflex.sc Ydieresis.sc Z.sc Zacute.sc Zcaron.sc Zdotaccent.sc a.sc aacute.sc abreve.sc amacron.sc uni0400.sc uni0401.sc uni0402.sc uni0403.sc uni0404.sc uni0405.sc uni0406.sc uni0407.sc uni0408.sc uni0409.sc uni040A.sc uni040B.sc uni040C.sc uni040D.sc uni040E.sc uni040F.sc uni0410.sc uni0411.sc uni0412.sc uni0413.sc uni0414.sc uni0415.sc uni0416.sc uni0417.sc uni0418.sc uni0419.sc uni041A.sc uni041B.sc uni041C.sc uni041D.sc uni041E.sc uni041F.sc uni0420.sc uni0421.sc uni0422.sc uni0423.sc uni0424.sc uni0425.sc uni0426.sc uni0427.sc uni0428.sc uni0429.sc uni042A.sc uni042B.sc uni042C.sc uni042D.sc uni042E.sc uni042F.sc];
+@case = [acute caron dieresis grave hungarumlaut macron uni0307 uni0308 uni030B uni030F uni0311 uni0324 uni0325 uni032D uni032E uni0330 uni0331 brevecyr uni0306 uni030C uni0302 uni0304 uni030A];
+@case2 = [acute.cap caron.cap dieresis.cap grave.cap hungarumlaut.cap macron.cap uni0307.cap uni0308.cap uni030B.cap uni030F.cap uni0311.cap uni0324.cap uni0325.cap uni032D.cap uni032E.cap uni0330.cap uni0331.cap brevecyr.cap uni0306.cap uni030C.cap uni0302.cap uni0304.cap uni030A.cap];
+@locl = [uni0414 uni0416 uni041A uni041B uni0424 uni0432 uni0433 uni0434 uni0436 uni0437 uni0438 uni0439 uni043A uni043B uni043D uni043F uni0442 uni0444 uni0446 uni0447 uni0448 uni0449 uni044A uni044B uni044C uni044E uni045D];
+@locl2 = [uni0414.loclBGR uni0416.loclBGR uni041A.loclBGR uni041B.loclBGR uni0424.loclBGR uni0432.loclBGR uni0433.loclBGR uni0434.loclBGR uni0436.loclBGR uni0437.loclBGR uni0438.loclBGR uni0439.loclBGR uni043A.loclBGR uni043B.loclBGR uni043D.loclBGR uni043F.loclBGR uni0442.loclBGR uni0444.loclBGR uni0446.loclBGR uni0447.loclBGR uni0448.loclBGR uni0449.loclBGR uni044A.loclBGR uni044B.loclBGR uni044C.loclBGR uni044E.loclBGR uni045D.loclBGR];
+@numb = [zero one two three four five six seven eight nine];
+@sups = [uni2070 uni00B9 uni00B2 uni00B3 uni2074 uni2075 uni2076 uni2077 uni2078 uni2079];
+@subs = [uni2080 uni2081 uni2082 uni2083 uni2084 uni2085 uni2086 uni2087 uni2088 uni2089];
+@tf = [zero.tf one.tf two.tf three.tf four.tf five.tf six.tf seven.tf eight.tf nine.tf];
+@tosf = [zero.tosf one.tosf two.tosf three.tosf four.tosf five.tosf six.tosf seven.tosf eight.tosf nine.tosf];
+@osf = [zero.osf one.osf two.osf three.osf four.osf five.osf six.osf seven.osf eight.osf nine.osf];
+@sups.letters = [a b beta c chi d e eng eth f g gamma h j k l m n o p phi r s t u uni0250 uni0251 uni0252 uni0254 uni0259 uni025B uni025C uni0263 uni0265 uni0268 uni0269 uni026A uni026F uni0271 uni0275 uni0279 uni0283 uni0289 uni028B uni028C uni0292 uni0295 uni043D v w x y z uni0255 uni025F uni0261 uni0266 uni026D uni0270 uni0272 uni0273 uni0274 uni0278 uni027B uni0281 uni0282 uni028A uni0290 uni0291 uni029D uni029F];
+@sups.letters2 = [uni1D43 uni1D47 uni1D5D uni1D9C uni1D61 uni1D48 uni1D49 uni1D51 uni1D9E uni1DA0 uni1D4D uni1D5E uni02B0 uni02B2 uni1D4F uni02E1 uni1D50 uni207F uni1D52 uni1D56 uni1D60 uni02B3 uni02E2 uni1D57 uni1D58 uni1D44 uni1D45 uni1D9B uni1D53 uni1D4A uni1D4B uni1D9F uni02E0 uni1DA3 uni1DA4 uni1DA5 uni1DA6 uni1D5A uni1DAC uni1DB1 uni02B4 uni1DB4 uni1DB6 uni1DB9 uni1DBA uni1DBE uni02E4 uni1D78 uni1D5B uni02B7 uni02E3 uni02B8 uni1DBB uni1D9D uni1DA1 uni1DA2 uni02B1 uni1DA9 uni1DAD uni1DAE uni1DAF uni1DB0 uni1DB2 uni02B5 uni02B6 uni1DB3 uni1DB7 uni1DBC uni1DBD uni1DA8 uni1DAB];
+@sinf_subs = [zero one two three four five six seven eight nine parenleft parenright];
+@sinf_subs2 = [uni2080 uni2081 uni2082 uni2083 uni2084 uni2085 uni2086 uni2087 uni2088 uni2089 parenleft.inferior parenright.inferior];
+@smcp = [a aacute abreve acircumflex adieresis ae agrave amacron aring atilde b c ccaron ccedilla d dcaron dotlessi e eacute ebreve ecaron ecircumflex edieresis egrave emacron eth f g h i iacute ibreve icircumflex idieresis igrave imacron itilde j jcircumflex k l lacute lcaron m n nacute ncaron ntilde o oacute obreve ocircumflex odieresis ograve omacron oslash otilde p q r racute rcaron s sacute scircumflex t tcaron thorn u uacute ubreve ucircumflex udieresis ugrave umacron uni0430 uni0431 uni0432 uni0433 uni0434 uni0435 uni0436 uni0437 uni0438 uni0439 uni043A uni043B uni043C uni043D uni043E uni043F uni0440 uni0441 uni0442 uni0443 uni0444 uni0445 uni0446 uni0447 uni0448 uni0449 uni044A uni044B uni044C uni044D uni044E uni044F uni0450 uni0451 uni0452 uni0453 uni0454 uni0455 uni0456 uni0457 uni0458 uni0459 uni045A uni045B uni045C uni045D uni045E uni045F uni0463 uni0473 uni0475 uni04A5 uni04AF uni04B1 uni04C2 uni04D1 uni04D3 uni04D5 uni04D7 uni04DD uni04DF uni04E3 uni04E5 uni04E7 uni04E9 uni04EB uni04ED uni04EF uni04F1 uni04F5 uni04F9 uni0432.loclBGR uni0433.loclBGR uni0434.loclBGR uni0436.loclBGR uni0437.loclBGR uni0438.loclBGR uni0439.loclBGR uni043A.loclBGR uni043B.loclBGR uni043D.loclBGR uni043F.loclBGR uni0442.loclBGR uni0444.loclBGR uni0446.loclBGR uni0447.loclBGR uni0448.loclBGR uni0449.loclBGR uni044A.loclBGR uni044B.loclBGR uni044C.loclBGR uni044E.loclBGR uni045D.loclBGR uring v w wacute wcircumflex wdieresis wgrave x y yacute ycircumflex ydieresis z zacute zcaron zdotaccent];
+@smcp2 = [a.sc aacute.sc abreve.sc Acircumflex.sc Adieresis.sc AE.sc Agrave.sc amacron.sc Aring.sc Atilde.sc B.sc C.sc Ccaron.sc Ccedilla.sc D.sc Dcaron.sc dotlessi.small E.sc Eacute.sc Ebreve.sc Ecaron.sc Ecircumflex.sc Edieresis.sc Egrave.sc Emacron.sc Eth.sc F.sc G.sc H.sc I.sc Iacute.sc Ibreve.sc Icircumflex.sc Idieresis.sc Igrave.sc Imacron.sc Itilde.sc J.sc Jcircumflex.sc K.sc L.sc Lacute.sc Lcaron.sc M.sc N.sc Nacute.sc Ncaron.sc Ntilde.sc O.sc Oacute.sc Obreve.sc Ocircumflex.sc Odieresis.sc Ograve.sc Omacron.sc Oslash.sc Otilde.sc P.sc Q.sc R.sc Racute.sc Rcaron.sc S.sc Sacute.sc Scircumflex.sc T.sc Tcaron.sc Thorn.sc U.sc Uacute.sc Ubreve.sc Ucircumflex.sc Udieresis.sc Ugrave.sc Umacron.sc uni0410.sc uni0411.sc uni0412.sc uni0413.sc uni0414.sc uni0415.sc uni0416.sc uni0417.sc uni0418.sc uni0419.sc uni041A.sc uni041B.sc uni041C.sc uni041D.sc uni041E.sc uni041F.sc uni0420.sc uni0421.sc uni0422.sc uni0423.sc uni0424.sc uni0425.sc uni0426.sc uni0427.sc uni0428.sc uni0429.sc uni042A.sc uni042B.sc uni042C.sc uni042D.sc uni042E.sc uni042F.sc uni0400.sc uni0401.sc uni0402.sc uni0403.sc uni0404.sc uni0405.sc uni0406.sc uni0407.sc uni0408.sc uni0409.sc uni040A.sc uni040B.sc uni040C.sc uni045D.sc uni040E.sc uni040F.sc uni0463.sc uni0473.sc uni0475.sc uni04A5.sc uni04AF.sc uni04B1.sc uni04C2.sc uni04D1.sc uni04D3.sc uni04D5.sc uni04D7.sc uni04DD.sc uni04DF.sc uni04E3.sc uni04E5.sc uni04E7.sc uni04E9.sc uni04EB.sc uni04ED.sc uni04EF.sc uni04F1.sc uni04F5.sc uni04F9.sc uni0412.sc uni0413.sc uni0414.sc uni0416.sc uni0417.sc uni0418.sc uni0419.sc uni041A.sc uni041B.sc uni041D.sc uni041F.sc uni0422.sc uni0424.sc uni0426.sc uni0427.sc uni0428.sc uni0429.sc uni042A.sc uni042B.sc uni042C.sc uni042E.sc uni045D.sc Uring.sc V.sc W.sc wacute.sc Wcircumflex.sc wdieresis.sc wgrave.sc X.sc Y.sc Yacute.sc Ycircumflex.sc Ydieresis.sc Z.sc Zacute.sc Zcaron.sc Zdotaccent.sc];
+#/< otclasses
+#/< classes
+
+#/> classes
+#/> otclasses
+@c2sc = [A AE Aacute Acircumflex Adieresis Agrave Aring Atilde B C Ccaron Ccedilla D Dcaron E Eacute Ebreve Ecaron Ecircumflex Edieresis Egrave Emacron Eth F G H I Iacute Ibreve Icircumflex Idieresis Igrave Imacron Itilde J Jcircumflex K L Lacute Lcaron M N Nacute Ncaron Ntilde O Oacute Obreve Ocircumflex Odieresis Ograve Omacron Oslash Otilde P Q R Racute Rcaron S Sacute Scircumflex T Tcaron Thorn U Uacute Ubreve Ucircumflex Udieresis Ugrave Umacron Uring V W Wcircumflex X Y Yacute Ycircumflex Ydieresis Z Zacute Zcaron Zdotaccent a aacute abreve amacron uni0400 uni0401 uni0402 uni0403 uni0404 uni0405 uni0406 uni0407 uni0408 uni0409 uni040A uni040B uni040C uni040D uni040E uni040F uni0410 uni0411 uni0412 uni0413 uni0414 uni0415 uni0416 uni0417 uni0418 uni0419 uni041A uni041B uni041C uni041D uni041E uni041F uni0420 uni0421 uni0422 uni0423 uni0424 uni0425 uni0426 uni0427 uni0428 uni0429 uni042A uni042B uni042C uni042D uni042E uni042F];
+@c2sc2 = [A.sc AE.sc Aacute.sc Acircumflex.sc Adieresis.sc Agrave.sc Aring.sc Atilde.sc B.sc C.sc Ccaron.sc Ccedilla.sc D.sc Dcaron.sc E.sc Eacute.sc Ebreve.sc Ecaron.sc Ecircumflex.sc Edieresis.sc Egrave.sc Emacron.sc Eth.sc F.sc G.sc H.sc I.sc Iacute.sc Ibreve.sc Icircumflex.sc Idieresis.sc Igrave.sc Imacron.sc Itilde.sc J.sc Jcircumflex.sc K.sc L.sc Lacute.sc Lcaron.sc M.sc N.sc Nacute.sc Ncaron.sc Ntilde.sc O.sc Oacute.sc Obreve.sc Ocircumflex.sc Odieresis.sc Ograve.sc Omacron.sc Oslash.sc Otilde.sc P.sc Q.sc R.sc Racute.sc Rcaron.sc S.sc Sacute.sc Scircumflex.sc T.sc Tcaron.sc Thorn.sc U.sc Uacute.sc Ubreve.sc Ucircumflex.sc Udieresis.sc Ugrave.sc Umacron.sc Uring.sc V.sc W.sc Wcircumflex.sc X.sc Y.sc Yacute.sc Ycircumflex.sc Ydieresis.sc Z.sc Zacute.sc Zcaron.sc Zdotaccent.sc a.sc aacute.sc abreve.sc amacron.sc uni0400.sc uni0401.sc uni0402.sc uni0403.sc uni0404.sc uni0405.sc uni0406.sc uni0407.sc uni0408.sc uni0409.sc uni040A.sc uni040B.sc uni040C.sc uni040D.sc uni040E.sc uni040F.sc uni0410.sc uni0411.sc uni0412.sc uni0413.sc uni0414.sc uni0415.sc uni0416.sc uni0417.sc uni0418.sc uni0419.sc uni041A.sc uni041B.sc uni041C.sc uni041D.sc uni041E.sc uni041F.sc uni0420.sc uni0421.sc uni0422.sc uni0423.sc uni0424.sc uni0425.sc uni0426.sc uni0427.sc uni0428.sc uni0429.sc uni042A.sc uni042B.sc uni042C.sc uni042D.sc uni042E.sc uni042F.sc];
+@case = [acute caron dieresis grave hungarumlaut macron uni0307 uni0308 uni030B uni030F uni0311 uni0324 uni0325 uni032D uni032E uni0330 uni0331 brevecyr uni0306 uni030C uni0302 uni0304 uni030A];
+@case2 = [acute.cap caron.cap dieresis.cap grave.cap hungarumlaut.cap macron.cap uni0307.cap uni0308.cap uni030B.cap uni030F.cap uni0311.cap uni0324.cap uni0325.cap uni032D.cap uni032E.cap uni0330.cap uni0331.cap brevecyr.cap uni0306.cap uni030C.cap uni0302.cap uni0304.cap uni030A.cap];
+@locl = [uni0414 uni0416 uni041A uni041B uni0424 uni0432 uni0433 uni0434 uni0436 uni0437 uni0438 uni0439 uni043A uni043B uni043D uni043F uni0442 uni0444 uni0446 uni0447 uni0448 uni0449 uni044A uni044B uni044C uni044E uni045D];
+@locl2 = [uni0414.loclBGR uni0416.loclBGR uni041A.loclBGR uni041B.loclBGR uni0424.loclBGR uni0432.loclBGR uni0433.loclBGR uni0434.loclBGR uni0436.loclBGR uni0437.loclBGR uni0438.loclBGR uni0439.loclBGR uni043A.loclBGR uni043B.loclBGR uni043D.loclBGR uni043F.loclBGR uni0442.loclBGR uni0444.loclBGR uni0446.loclBGR uni0447.loclBGR uni0448.loclBGR uni0449.loclBGR uni044A.loclBGR uni044B.loclBGR uni044C.loclBGR uni044E.loclBGR uni045D.loclBGR];
+@numb = [zero one two three four five six seven eight nine];
+@sups = [uni2070 uni00B9 uni00B2 uni00B3 uni2074 uni2075 uni2076 uni2077 uni2078 uni2079];
+@subs = [uni2080 uni2081 uni2082 uni2083 uni2084 uni2085 uni2086 uni2087 uni2088 uni2089];
+@tf = [zero.tf one.tf two.tf three.tf four.tf five.tf six.tf seven.tf eight.tf nine.tf];
+@tosf = [zero.tosf one.tosf two.tosf three.tosf four.tosf five.tosf six.tosf seven.tosf eight.tosf nine.tosf];
+@osf = [zero.osf one.osf two.osf three.osf four.osf five.osf six.osf seven.osf eight.osf nine.osf];
+@sups.letters = [a b beta c chi d e eng eth f g gamma h j k l m n o p phi r s t u uni0250 uni0251 uni0252 uni0254 uni0259 uni025B uni025C uni0263 uni0265 uni0268 uni0269 uni026A uni026F uni0271 uni0275 uni0279 uni0283 uni0289 uni028B uni028C uni0292 uni0295 uni043D v w x y z uni0255 uni025F uni0261 uni0266 uni026D uni0270 uni0272 uni0273 uni0274 uni0278 uni027B uni0281 uni0282 uni028A uni0290 uni0291 uni029D uni029F];
+@sups.letters2 = [uni1D43 uni1D47 uni1D5D uni1D9C uni1D61 uni1D48 uni1D49 uni1D51 uni1D9E uni1DA0 uni1D4D uni1D5E uni02B0 uni02B2 uni1D4F uni02E1 uni1D50 uni207F uni1D52 uni1D56 uni1D60 uni02B3 uni02E2 uni1D57 uni1D58 uni1D44 uni1D45 uni1D9B uni1D53 uni1D4A uni1D4B uni1D9F uni02E0 uni1DA3 uni1DA4 uni1DA5 uni1DA6 uni1D5A uni1DAC uni1DB1 uni02B4 uni1DB4 uni1DB6 uni1DB9 uni1DBA uni1DBE uni02E4 uni1D78 uni1D5B uni02B7 uni02E3 uni02B8 uni1DBB uni1D9D uni1DA1 uni1DA2 uni02B1 uni1DA9 uni1DAD uni1DAE uni1DAF uni1DB0 uni1DB2 uni02B5 uni02B6 uni1DB3 uni1DB7 uni1DBC uni1DBD uni1DA8 uni1DAB];
+@sinf_subs = [zero one two three four five six seven eight nine parenleft parenright];
+@sinf_subs2 = [uni2080 uni2081 uni2082 uni2083 uni2084 uni2085 uni2086 uni2087 uni2088 uni2089 parenleft.inferior parenright.inferior];
+@smcp = [a aacute abreve acircumflex adieresis ae agrave amacron aring atilde b c ccaron ccedilla d dcaron dotlessi e eacute ebreve ecaron ecircumflex edieresis egrave emacron eth f g h i iacute ibreve icircumflex idieresis igrave imacron itilde j jcircumflex k l lacute lcaron m n nacute ncaron ntilde o oacute obreve ocircumflex odieresis ograve omacron oslash otilde p q r racute rcaron s sacute scircumflex t tcaron thorn u uacute ubreve ucircumflex udieresis ugrave umacron uni0430 uni0431 uni0432 uni0433 uni0434 uni0435 uni0436 uni0437 uni0438 uni0439 uni043A uni043B uni043C uni043D uni043E uni043F uni0440 uni0441 uni0442 uni0443 uni0444 uni0445 uni0446 uni0447 uni0448 uni0449 uni044A uni044B uni044C uni044D uni044E uni044F uni0450 uni0451 uni0452 uni0453 uni0454 uni0455 uni0456 uni0457 uni0458 uni0459 uni045A uni045B uni045C uni045D uni045E uni045F uni0463 uni0473 uni0475 uni04A5 uni04AF uni04B1 uni04C2 uni04D1 uni04D3 uni04D5 uni04D7 uni04DD uni04DF uni04E3 uni04E5 uni04E7 uni04E9 uni04EB uni04ED uni04EF uni04F1 uni04F5 uni04F9 uni0432.loclBGR uni0433.loclBGR uni0434.loclBGR uni0436.loclBGR uni0437.loclBGR uni0438.loclBGR uni0439.loclBGR uni043A.loclBGR uni043B.loclBGR uni043D.loclBGR uni043F.loclBGR uni0442.loclBGR uni0444.loclBGR uni0446.loclBGR uni0447.loclBGR uni0448.loclBGR uni0449.loclBGR uni044A.loclBGR uni044B.loclBGR uni044C.loclBGR uni044E.loclBGR uni045D.loclBGR uring v w wacute wcircumflex wdieresis wgrave x y yacute ycircumflex ydieresis z zacute zcaron zdotaccent];
+@smcp2 = [a.sc aacute.sc abreve.sc Acircumflex.sc Adieresis.sc AE.sc Agrave.sc amacron.sc Aring.sc Atilde.sc B.sc C.sc Ccaron.sc Ccedilla.sc D.sc Dcaron.sc dotlessi.small E.sc Eacute.sc Ebreve.sc Ecaron.sc Ecircumflex.sc Edieresis.sc Egrave.sc Emacron.sc Eth.sc F.sc G.sc H.sc I.sc Iacute.sc Ibreve.sc Icircumflex.sc Idieresis.sc Igrave.sc Imacron.sc Itilde.sc J.sc Jcircumflex.sc K.sc L.sc Lacute.sc Lcaron.sc M.sc N.sc Nacute.sc Ncaron.sc Ntilde.sc O.sc Oacute.sc Obreve.sc Ocircumflex.sc Odieresis.sc Ograve.sc Omacron.sc Oslash.sc Otilde.sc P.sc Q.sc R.sc Racute.sc Rcaron.sc S.sc Sacute.sc Scircumflex.sc T.sc Tcaron.sc Thorn.sc U.sc Uacute.sc Ubreve.sc Ucircumflex.sc Udieresis.sc Ugrave.sc Umacron.sc uni0410.sc uni0411.sc uni0412.sc uni0413.sc uni0414.sc uni0415.sc uni0416.sc uni0417.sc uni0418.sc uni0419.sc uni041A.sc uni041B.sc uni041C.sc uni041D.sc uni041E.sc uni041F.sc uni0420.sc uni0421.sc uni0422.sc uni0423.sc uni0424.sc uni0425.sc uni0426.sc uni0427.sc uni0428.sc uni0429.sc uni042A.sc uni042B.sc uni042C.sc uni042D.sc uni042E.sc uni042F.sc uni0400.sc uni0401.sc uni0402.sc uni0403.sc uni0404.sc uni0405.sc uni0406.sc uni0407.sc uni0408.sc uni0409.sc uni040A.sc uni040B.sc uni040C.sc uni045D.sc uni040E.sc uni040F.sc uni0463.sc uni0473.sc uni0475.sc uni04A5.sc uni04AF.sc uni04B1.sc uni04C2.sc uni04D1.sc uni04D3.sc uni04D5.sc uni04D7.sc uni04DD.sc uni04DF.sc uni04E3.sc uni04E5.sc uni04E7.sc uni04E9.sc uni04EB.sc uni04ED.sc uni04EF.sc uni04F1.sc uni04F5.sc uni04F9.sc uni0412.sc uni0413.sc uni0414.sc uni0416.sc uni0417.sc uni0418.sc uni0419.sc uni041A.sc uni041B.sc uni041D.sc uni041F.sc uni0422.sc uni0424.sc uni0426.sc uni0427.sc uni0428.sc uni0429.sc uni042A.sc uni042B.sc uni042C.sc uni042E.sc uni045D.sc Uring.sc V.sc W.sc wacute.sc Wcircumflex.sc wdieresis.sc wgrave.sc X.sc Y.sc Yacute.sc Ycircumflex.sc Ydieresis.sc Z.sc Zacute.sc Zcaron.sc Zdotaccent.sc];
+#/< otclasses
+#/< classes
+
+#/> classes
+#/> otclasses
+@c2sc = [A AE Aacute Acircumflex Adieresis Agrave Aring Atilde B C Ccaron Ccedilla D Dcaron E Eacute Ebreve Ecaron Ecircumflex Edieresis Egrave Emacron Eth F G H I Iacute Ibreve Icircumflex Idieresis Igrave Imacron Itilde J Jcircumflex K L Lacute Lcaron M N Nacute Ncaron Ntilde O Oacute Obreve Ocircumflex Odieresis Ograve Omacron Oslash Otilde P Q R Racute Rcaron S Sacute Scircumflex T Tcaron Thorn U Uacute Ubreve Ucircumflex Udieresis Ugrave Umacron Uring V W Wcircumflex X Y Yacute Ycircumflex Ydieresis Z Zacute Zcaron Zdotaccent a aacute abreve amacron uni0400 uni0401 uni0402 uni0403 uni0404 uni0405 uni0406 uni0407 uni0408 uni0409 uni040A uni040B uni040C uni040D uni040E uni040F uni0410 uni0411 uni0412 uni0413 uni0414 uni0415 uni0416 uni0417 uni0418 uni0419 uni041A uni041B uni041C uni041D uni041E uni041F uni0420 uni0421 uni0422 uni0423 uni0424 uni0425 uni0426 uni0427 uni0428 uni0429 uni042A uni042B uni042C uni042D uni042E uni042F];
+@c2sc2 = [A.sc AE.sc Aacute.sc Acircumflex.sc Adieresis.sc Agrave.sc Aring.sc Atilde.sc B.sc C.sc Ccaron.sc Ccedilla.sc D.sc Dcaron.sc E.sc Eacute.sc Ebreve.sc Ecaron.sc Ecircumflex.sc Edieresis.sc Egrave.sc Emacron.sc Eth.sc F.sc G.sc H.sc I.sc Iacute.sc Ibreve.sc Icircumflex.sc Idieresis.sc Igrave.sc Imacron.sc Itilde.sc J.sc Jcircumflex.sc K.sc L.sc Lacute.sc Lcaron.sc M.sc N.sc Nacute.sc Ncaron.sc Ntilde.sc O.sc Oacute.sc Obreve.sc Ocircumflex.sc Odieresis.sc Ograve.sc Omacron.sc Oslash.sc Otilde.sc P.sc Q.sc R.sc Racute.sc Rcaron.sc S.sc Sacute.sc Scircumflex.sc T.sc Tcaron.sc Thorn.sc U.sc Uacute.sc Ubreve.sc Ucircumflex.sc Udieresis.sc Ugrave.sc Umacron.sc Uring.sc V.sc W.sc Wcircumflex.sc X.sc Y.sc Yacute.sc Ycircumflex.sc Ydieresis.sc Z.sc Zacute.sc Zcaron.sc Zdotaccent.sc a.sc aacute.sc abreve.sc amacron.sc uni0400.sc uni0401.sc uni0402.sc uni0403.sc uni0404.sc uni0405.sc uni0406.sc uni0407.sc uni0408.sc uni0409.sc uni040A.sc uni040B.sc uni040C.sc uni040D.sc uni040E.sc uni040F.sc uni0410.sc uni0411.sc uni0412.sc uni0413.sc uni0414.sc uni0415.sc uni0416.sc uni0417.sc uni0418.sc uni0419.sc uni041A.sc uni041B.sc uni041C.sc uni041D.sc uni041E.sc uni041F.sc uni0420.sc uni0421.sc uni0422.sc uni0423.sc uni0424.sc uni0425.sc uni0426.sc uni0427.sc uni0428.sc uni0429.sc uni042A.sc uni042B.sc uni042C.sc uni042D.sc uni042E.sc uni042F.sc];
+@case = [acute caron dieresis grave hungarumlaut macron uni0307 uni0308 uni030B uni030F uni0311 uni0324 uni0325 uni032D uni032E uni0330 uni0331 brevecyr uni0306 uni030C uni0302 uni0304 uni030A];
+@case2 = [acute.cap caron.cap dieresis.cap grave.cap hungarumlaut.cap macron.cap uni0307.cap uni0308.cap uni030B.cap uni030F.cap uni0311.cap uni0324.cap uni0325.cap uni032D.cap uni032E.cap uni0330.cap uni0331.cap brevecyr.cap uni0306.cap uni030C.cap uni0302.cap uni0304.cap uni030A.cap];
+@locl = [uni0414 uni0416 uni041A uni041B uni0424 uni0432 uni0433 uni0434 uni0436 uni0437 uni0438 uni0439 uni043A uni043B uni043D uni043F uni0442 uni0444 uni0446 uni0447 uni0448 uni0449 uni044A uni044B uni044C uni044E uni045D];
+@locl2 = [uni0414.loclBGR uni0416.loclBGR uni041A.loclBGR uni041B.loclBGR uni0424.loclBGR uni0432.loclBGR uni0433.loclBGR uni0434.loclBGR uni0436.loclBGR uni0437.loclBGR uni0438.loclBGR uni0439.loclBGR uni043A.loclBGR uni043B.loclBGR uni043D.loclBGR uni043F.loclBGR uni0442.loclBGR uni0444.loclBGR uni0446.loclBGR uni0447.loclBGR uni0448.loclBGR uni0449.loclBGR uni044A.loclBGR uni044B.loclBGR uni044C.loclBGR uni044E.loclBGR uni045D.loclBGR];
+@numb = [zero one two three four five six seven eight nine];
+@sinf_subs = [zero one two three four five six seven eight nine parenleft parenright];
+@sinf_subs2 = [uni2080 uni2081 uni2082 uni2083 uni2084 uni2085 uni2086 uni2087 uni2088 uni2089 parenleft.inferior parenright.inferior];
+@smcp = [a aacute abreve acircumflex adieresis ae agrave amacron aring atilde b c ccaron ccedilla d dcaron dotlessi e eacute ebreve ecaron ecircumflex edieresis egrave emacron eth f g h i iacute ibreve icircumflex idieresis igrave imacron itilde j jcircumflex k l lacute lcaron m n nacute ncaron ntilde o oacute obreve ocircumflex odieresis ograve omacron oslash otilde p q r racute rcaron s sacute scircumflex t tcaron thorn u uacute ubreve ucircumflex udieresis ugrave umacron uni0430 uni0431 uni0432 uni0433 uni0434 uni0435 uni0436 uni0437 uni0438 uni0439 uni043A uni043B uni043C uni043D uni043E uni043F uni0440 uni0441 uni0442 uni0443 uni0444 uni0445 uni0446 uni0447 uni0448 uni0449 uni044A uni044B uni044C uni044D uni044E uni044F uni0450 uni0451 uni0452 uni0453 uni0454 uni0455 uni0456 uni0457 uni0458 uni0459 uni045A uni045B uni045C uni045D uni045E uni045F uni0463 uni0473 uni0475 uni04A5 uni04AF uni04B1 uni04C2 uni04D1 uni04D3 uni04D5 uni04D7 uni04DD uni04DF uni04E3 uni04E5 uni04E7 uni04E9 uni04EB uni04ED uni04EF uni04F1 uni04F5 uni04F9 uni0432.loclBGR uni0433.loclBGR uni0434.loclBGR uni0436.loclBGR uni0437.loclBGR uni0438.loclBGR uni0439.loclBGR uni043A.loclBGR uni043B.loclBGR uni043D.loclBGR uni043F.loclBGR uni0442.loclBGR uni0444.loclBGR uni0446.loclBGR uni0447.loclBGR uni0448.loclBGR uni0449.loclBGR uni044A.loclBGR uni044B.loclBGR uni044C.loclBGR uni044E.loclBGR uni045D.loclBGR uring v w wacute wcircumflex wdieresis wgrave x y yacute ycircumflex ydieresis z zacute zcaron zdotaccent];
+@smcp2 = [a.sc aacute.sc abreve.sc Acircumflex.sc Adieresis.sc AE.sc Agrave.sc amacron.sc Aring.sc Atilde.sc B.sc C.sc Ccaron.sc Ccedilla.sc D.sc Dcaron.sc dotlessi.small E.sc Eacute.sc Ebreve.sc Ecaron.sc Ecircumflex.sc Edieresis.sc Egrave.sc Emacron.sc Eth.sc F.sc G.sc H.sc I.sc Iacute.sc Ibreve.sc Icircumflex.sc Idieresis.sc Igrave.sc Imacron.sc Itilde.sc J.sc Jcircumflex.sc K.sc L.sc Lacute.sc Lcaron.sc M.sc N.sc Nacute.sc Ncaron.sc Ntilde.sc O.sc Oacute.sc Obreve.sc Ocircumflex.sc Odieresis.sc Ograve.sc Omacron.sc Oslash.sc Otilde.sc P.sc Q.sc R.sc Racute.sc Rcaron.sc S.sc Sacute.sc Scircumflex.sc T.sc Tcaron.sc Thorn.sc U.sc Uacute.sc Ubreve.sc Ucircumflex.sc Udieresis.sc Ugrave.sc Umacron.sc uni0410.sc uni0411.sc uni0412.sc uni0413.sc uni0414.sc uni0415.sc uni0416.sc uni0417.sc uni0418.sc uni0419.sc uni041A.sc uni041B.sc uni041C.sc uni041D.sc uni041E.sc uni041F.sc uni0420.sc uni0421.sc uni0422.sc uni0423.sc uni0424.sc uni0425.sc uni0426.sc uni0427.sc uni0428.sc uni0429.sc uni042A.sc uni042B.sc uni042C.sc uni042D.sc uni042E.sc uni042F.sc uni0400.sc uni0401.sc uni0402.sc uni0403.sc uni0404.sc uni0405.sc uni0406.sc uni0407.sc uni0408.sc uni0409.sc uni040A.sc uni040B.sc uni040C.sc uni045D.sc uni040E.sc uni040F.sc uni0463.sc uni0473.sc uni0475.sc uni04A5.sc uni04AF.sc uni04B1.sc uni04C2.sc uni04D1.sc uni04D3.sc uni04D5.sc uni04D7.sc uni04DD.sc uni04DF.sc uni04E3.sc uni04E5.sc uni04E7.sc uni04E9.sc uni04EB.sc uni04ED.sc uni04EF.sc uni04F1.sc uni04F5.sc uni04F9.sc uni0412.sc uni0413.sc uni0414.sc uni0416.sc uni0417.sc uni0418.sc uni0419.sc uni041A.sc uni041B.sc uni041D.sc uni041F.sc uni0422.sc uni0424.sc uni0426.sc uni0427.sc uni0428.sc uni0429.sc uni042A.sc uni042B.sc uni042C.sc uni042E.sc uni045D.sc Uring.sc V.sc W.sc wacute.sc Wcircumflex.sc wdieresis.sc wgrave.sc X.sc Y.sc Yacute.sc Ycircumflex.sc Ydieresis.sc Z.sc Zacute.sc Zcaron.sc Zdotaccent.sc];
+@sups.letters = [a b beta c chi d e eng eth f g gamma h j k l m n o p phi r s t u uni0250 uni0251 uni0252 uni0254 uni0259 uni025B uni025C uni0263 uni0265 uni0268 uni0269 uni026A uni026F uni0271 uni0275 uni0279 uni0283 uni0289 uni028B uni028C uni0292 uni0295 uni043D v w x y z uni0255 uni025F uni0261 uni0266 uni026D uni0270 uni0272 uni0273 uni0274 uni0278 uni027B uni0281 uni0282 uni028A uni0290 uni0291 uni029D uni029F];
+@sups.letters2 = [uni1D43 uni1D47 uni1D5D uni1D9C uni1D61 uni1D48 uni1D49 uni1D51 uni1D9E uni1DA0 uni1D4D uni1D5E uni02B0 uni02B2 uni1D4F uni02E1 uni1D50 uni207F uni1D52 uni1D56 uni1D60 uni02B3 uni02E2 uni1D57 uni1D58 uni1D44 uni1D45 uni1D9B uni1D53 uni1D4A uni1D4B uni1D9F uni02E0 uni1DA3 uni1DA4 uni1DA5 uni1DA6 uni1D5A uni1DAC uni1DB1 uni02B4 uni1DB4 uni1DB6 uni1DB9 uni1DBA uni1DBE uni02E4 uni1D78 uni1D5B uni02B7 uni02E3 uni02B8 uni1DBB uni1D9D uni1DA1 uni1DA2 uni02B1 uni1DA9 uni1DAD uni1DAE uni1DAF uni1DB0 uni1DB2 uni02B5 uni02B6 uni1DB3 uni1DB7 uni1DBC uni1DBD uni1DA8 uni1DAB];
+@tf = [zero.tf one.tf two.tf three.tf four.tf five.tf six.tf seven.tf eight.tf nine.tf];
+@sups = [uni2070 uni00B9 uni00B2 uni00B3 uni2074 uni2075 uni2076 uni2077 uni2078 uni2079];
+#/< otclasses
+#/< classes
+
+###
+# OpenType Layout feature definitions
+# Format: Adobe FDK for OpenType (AFDKO) version 2.5
+# Generated on: 2021-11-6 8:52
+# Generated by: FontLab 7.1.5
+# Font PostScript name: LinguisticsPro-Regular
+# Font copyright: Copyright (c) 2016 by Stefan Peev, Context Ltd. All rights reserved.
+#
+# Totals:
+# Languagesystems: 10
+# GSUB lookups: 28
+# GSUB features: 20 (aalt, c2sc, case, ccmp, dlig, frac, hist, liga, lnum, locl, onum, ordn, pnum, salt, sinf, smcp, subs, sups, swsh, tnum)
+# GPOS lookups: 6
+# GPOS features: 2 (mark, mkmk)
+
+#
+# Languagesystem definitions
+#
+
+languagesystem DFLT dflt; # Default default
+languagesystem latn dflt; # Latin default
+languagesystem latn MOL ; # Latin Moldavian
+languagesystem latn ROM ; # Latin Romanian
+languagesystem cyrl dflt; # Cyrillic default
+languagesystem cyrl BGR ; # Cyrillic Bulgarian
+languagesystem cyrl BSH ; # Cyrillic Bashkir
+languagesystem cyrl MKD ; # Cyrillic Macedonian
+languagesystem cyrl SRB ; # Cyrillic Serbian
+languagesystem grek dflt; # Greek default
+
+#
+# Lookup definitions
+#
+
+lookup ordn_2 {
+# GSUB lookup 28, type 11 (Single)
+  sub [A O a o] by [ordfeminine ordmasculine ordfeminine ordmasculine];
+} ordn_2;
+
+
+#
+# Feature definitions
+#
+feature ccmp {
+# GSUB feature: Glyph Composition / Decomposition
+# Lookups: 1
+
+  sub space uni030F by space_uni030F;
+
+} ccmp;
+feature locl {
+# GSUB feature: Localized Forms
+# Lookups: 6
+
+  script latn; # Latin
+    language MOL ; # Moldavian
+    sub [Scedilla scedilla uni0162 uni0163] by [Scommaaccent scommaaccent uni021A uni021B];
+
+    language ROM ; # Romanian
+    sub [Scedilla scedilla uni0162 uni0163] by [Scommaaccent scommaaccent uni021A uni021B];
+
+
+  script cyrl; # Cyrillic
+    language SRB ; # Serbian
+    sub uni0431 by uni0431.loclSRB;
+
+    language MKD ; # Macedonian
+    sub uni0431 by uni0431.loclSRB;
+
+    language BSH ; # Bashkir
+    sub [uni0492 uni0493 uni04AA uni04AB] by [uni0492.loclBSH uni0493.loclBSH uni04AA.loclBSH uni04AB.loclBSH];
+    sub [uni0498 uni0499] by [uni0498.loclBSH uni0499.loclBSH];
+
+    language BGR ; # Bulgarian
+    sub @locl by @locl2;
+
+
+} locl;
+feature sinf {
+# GSUB feature: Scientific Inferiors
+# Lookups: 1
+
+  sub @numb by @sups;
+
+} sinf;
+feature sups {
+# GSUB feature: Superscript
+# GSUB lookup type 1
+
+  sub @sups.letters by @sups.letters2;
+  sub @numb by @sups;
+
+} sups;
+feature subs {
+# GSUB feature: Subscript
+# Lookups: 1
+
+  sub @numb by @subs;
+
+} subs;
+feature tnum {
+# GSUB feature: Tabular Figures
+# Lookups: 1
+
+  sub @numb by @tf;
+  sub @osf by @tosf;
+
+} tnum;
+feature pnum {
+# GSUB feature: Proportional Figures
+# Lookups: 1
+
+  sub @tf by @numb;
+  sub @tosf by @osf;
+
+} pnum;
+feature onum {
+# GSUB feature: Oldstyle Figures
+# Lookups: 1
+
+  sub @numb by @osf;
+
+} onum;
+feature lnum {
+# GSUB feature: Lining Figures
+# Lookups: 1
+
+  sub @tosf by @numb;
+  sub @tf by @numb;
+  sub @sups by @numb;
+  sub @subs by @numb;
+
+} lnum;
+feature frac {
+# GSUB feature: Fractions
+# Lookups: 1
+
+  sub five fraction eight by fiveeighths;
+  sub five slash eight by fiveeighths;
+  sub one fraction eight by oneeighth;
+  sub one fraction four by onequarter;
+  sub one fraction three by onethird;
+  sub one fraction two by onehalf;
+  sub one slash eight by oneeighth;
+  sub one slash four by onequarter;
+  sub one slash three by onethird;
+  sub one slash two by onehalf;
+  sub seven fraction eight by seveneighths;
+  sub seven slash eight by seveneighths;
+  sub three fraction eight by threeeighths;
+  sub three fraction four by threequarters;
+  sub three slash eight by threeeighths;
+  sub three slash four by threequarters;
+  sub two fraction three by twothirds;
+  sub two slash three by twothirds;
+
+} frac;
+feature ordn {
+# GSUB feature: Ordinals
+# Lookups: 2
+
+  sub @numb [A a]' lookup ordn_2;
+  sub @numb [O o]' lookup ordn_2;
+  sub N o period by uni2116;
+
+} ordn;
+feature smcp {
+# GSUB feature: Small Capitals
+# Lookups: 1
+
+  sub @smcp by @smcp2;
+
+} smcp;
+feature c2sc {
+# GSUB feature: Small Capitals From Capitals
+# Lookups: 1
+
+  sub @c2sc by @c2sc2;
+
+} c2sc;
+feature salt {
+# GSUB feature: Stylistic Alternates
+# Lookups: 1
+
+  sub backslash from [backslash.alt];
+  sub bar from [bar.alt];
+  sub slash from [slash.alt];
+
+} salt;
+feature dlig {
+# GSUB feature: Discretionary Ligatures
+# Lookups: 1
+
+  sub f J by f_j;
+  sub s t by s_t;
+
+} dlig;
+feature hist {
+# GSUB feature: Historical Forms
+# Lookups: 1
+
+  sub s by longs;
+
+} hist;
+feature swsh {
+# GSUB feature: Swash
+# Lookups: 1
+
+  sub [uni0436 uni043A] by [uni0436.swsh uni043A.swsh];
+
+} swsh;
+feature case {
+# GSUB feature: Case-Sensitive Forms
+# Lookups: 1
+
+  sub @case by @case2;
+
+} case;
+feature liga {
+# GSUB feature: Standard Ligatures
+# Lookups: 1
+
+  sub f b by f_b;
+  sub f h by f_h;
+  sub f k by f_k;
+  sub longs longs i by longs_longs_i;
+  sub longs longs l by longs_longs_l;
+  sub longs b by longs_b;
+  sub longs h by longs_h;
+  sub longs i by longs_i;
+  sub longs k by longs_k;
+  sub longs l by longs_l;
+  sub longs longs by longs_longs;
+
+} liga;
+feature mark {
+# GPOS feature : Mark Positioning
+    markClass acutecomb <anchor -230 542> @top;
+    markClass dotaccent <anchor 200 580> @top;
+    markClass gravecomb <anchor -129 723> @tonos;
+    markClass gravecomb <anchor -186 542> @top;
+    markClass hookabovecomb <anchor -215 580> @top;
+    markClass periodcentered <anchor 70 251> @dot;
+    markClass quoteleft <anchor 139 478> @top;
+    markClass quoteright <anchor 142 742> @quote;
+    markClass tildecomb <anchor -217 542> @top;
+    markClass uni0300.cap <anchor -262 742> @top;
+    markClass uni0301.cap <anchor -138 742> @top;
+    markClass uni0307 <anchor 0 560> @top;
+    markClass uni0308 <anchor -214 570> @top;
+    markClass uni030A.cap <anchor -200 713> @aring;
+    markClass uni030B <anchor 0 520> @top;
+    markClass uni030C.cap <anchor -200 723> @top;
+    markClass uni030F <anchor 0 520> @top;
+    markClass uni0311 <anchor 0 580> @top;
+    markClass uni0327 <anchor -145 10> @cedilla;
+    markClass uni0328 <anchor 0 10> @ogonek;
+    markClass uni0330.cap <anchor -198 -177> @bottom;
+    markClass brevecyr.cap <anchor 402 748> @top;
+    markClass brevecyr <anchor 316 568> @top;
+    markClass acute.cap <anchor 226 742> @top;
+    markClass apostrophemod <anchor 142 742> @quote;
+    markClass uni0306 <anchor 0 580> @top;
+    markClass uni030C <anchor -293 541> @top;
+    markClass uni0302 <anchor -300 542> @top;
+    markClass dieresis.cap <anchor 200 732> @top;
+    markClass grave.cap <anchor 159 742> @top;
+    markClass macron.cap <anchor 200 760> @top;
+    markClass uni0304 <anchor 0 580> @top;
+    markClass uni030A <anchor 0 548> @aring;
+    markClass tonos <anchor 350 723> @tonos;
+    markClass tonos <anchor 183 533> @top;
+    markClass uni0313 <anchor 0 750> @tonos;
+    markClass uni0314 <anchor 105 750> @tonos;
+    markClass uni0342 <anchor -240 555> @top;
+    markClass uni0345 <anchor -217 -60> @bottom.jota;
+    markClass uni1FCD <anchor 339 740> @tonos;
+    markClass uni1FCE <anchor 335 740> @tonos;
+    markClass uni1FCF <anchor 295 740> @tonos;
+    markClass uni1FDD <anchor 348 740> @tonos;
+    markClass uni1FDE <anchor 327 740> @tonos;
+    markClass uni1FDF <anchor 295 740> @tonos;
+    markClass horncomb <anchor -122 750> @tonos;
+    markClass uni0328.bsh <anchor 0 10> @ogonek;
+
+  lookup markLTR1 {
+      pos base A
+          <anchor 308 670> mark @aring
+          <anchor 530 10> mark @ogonek
+          <anchor 170 702> mark @tonos;
+      pos base Aacute
+          <anchor 308 670> mark @aring
+          <anchor 530 10> mark @ogonek
+          <anchor 170 702> mark @tonos;
+      pos base Abreve
+          <anchor 308 670> mark @aring
+          <anchor 530 10> mark @ogonek
+          <anchor 170 702> mark @tonos;
+      pos base Acircumflex
+          <anchor 308 670> mark @aring
+          <anchor 530 10> mark @ogonek
+          <anchor 170 702> mark @tonos;
+      pos base Adieresis
+          <anchor 308 670> mark @aring
+          <anchor 530 10> mark @ogonek
+          <anchor 170 702> mark @tonos;
+      pos base Agrave
+          <anchor 308 670> mark @aring
+          <anchor 530 10> mark @ogonek
+          <anchor 170 702> mark @tonos;
+      pos base Alpha
+          <anchor 308 670> mark @aring
+          <anchor 530 10> mark @ogonek
+          <anchor 170 702> mark @tonos;
+      pos base Amacron
+          <anchor 308 670> mark @aring
+          <anchor 530 10> mark @ogonek
+          <anchor 170 702> mark @tonos;
+      pos base Aogonek
+          <anchor 308 670> mark @aring
+          <anchor 170 702> mark @tonos;
+      pos base Aring
+          <anchor 530 10> mark @ogonek
+          <anchor 170 702> mark @tonos;
+      pos base Aringacute
+          <anchor 530 10> mark @ogonek
+          <anchor 170 702> mark @tonos;
+      pos base Atilde
+          <anchor 308 670> mark @aring
+          <anchor 530 10> mark @ogonek
+          <anchor 170 702> mark @tonos;
+      pos base E
+          <anchor 479 10> mark @ogonek
+          <anchor 0 707> mark @tonos;
+      pos base Eacute
+          <anchor 479 10> mark @ogonek
+          <anchor 0 707> mark @tonos;
+      pos base Ebreve
+          <anchor 479 10> mark @ogonek
+          <anchor 0 707> mark @tonos;
+      pos base Ecaron
+          <anchor 479 10> mark @ogonek
+          <anchor 0 707> mark @tonos;
+      pos base Ecircumflex
+          <anchor 479 10> mark @ogonek
+          <anchor 0 707> mark @tonos;
+      pos base Edieresis
+          <anchor 479 10> mark @ogonek
+          <anchor 0 707> mark @tonos;
+      pos base Edotaccent
+          <anchor 479 10> mark @ogonek
+          <anchor 0 707> mark @tonos;
+      pos base Egrave
+          <anchor 479 10> mark @ogonek
+          <anchor 0 707> mark @tonos;
+      pos base Emacron
+          <anchor 479 10> mark @ogonek
+          <anchor 0 707> mark @tonos;
+      pos base Eogonek
+          <anchor 0 707> mark @tonos;
+      pos base Epsilon
+          <anchor 479 10> mark @ogonek
+          <anchor 0 707> mark @tonos;
+      pos base Eta
+          <anchor 6 702> mark @tonos;
+      pos base H
+          <anchor 6 702> mark @tonos;
+      pos base Hcircumflex
+          <anchor 6 702> mark @tonos;
+      pos base I
+          <anchor 190 10> mark @ogonek
+          <anchor 0 702> mark @tonos;
+      pos base Iacute
+          <anchor 190 10> mark @ogonek
+          <anchor 0 702> mark @tonos;
+      pos base Ibreve
+          <anchor 190 10> mark @ogonek
+          <anchor 0 702> mark @tonos;
+      pos base Icircumflex
+          <anchor 190 10> mark @ogonek
+          <anchor 0 702> mark @tonos;
+      pos base Idieresis
+          <anchor 190 10> mark @ogonek
+          <anchor 0 702> mark @tonos;
+      pos base Idotaccent
+          <anchor 190 10> mark @ogonek
+          <anchor 0 702> mark @tonos;
+      pos base Igrave
+          <anchor 190 10> mark @ogonek
+          <anchor 0 702> mark @tonos;
+      pos base Imacron
+          <anchor 190 10> mark @ogonek
+          <anchor 0 702> mark @tonos;
+      pos base Iogonek
+          <anchor 0 702> mark @tonos;
+      pos base Iota
+          <anchor 190 10> mark @ogonek
+          <anchor 0 702> mark @tonos;
+      pos base Itilde
+          <anchor 190 10> mark @ogonek
+          <anchor 0 702> mark @tonos;
+      pos base O
+          <anchor 66 702> mark @tonos;
+      pos base Oacute
+          <anchor 66 702> mark @tonos;
+      pos base Obreve
+          <anchor 66 702> mark @tonos;
+      pos base Ocircumflex
+          <anchor 66 702> mark @tonos;
+      pos base Odieresis
+          <anchor 66 702> mark @tonos;
+      pos base Ograve
+          <anchor 66 702> mark @tonos;
+      pos base Ohungarumlaut
+          <anchor 66 702> mark @tonos;
+      pos base Omacron
+          <anchor 66 702> mark @tonos;
+      pos base Omicron
+          <anchor 66 702> mark @tonos;
+      pos base Otilde
+          <anchor 66 702> mark @tonos;
+      pos base P
+          <anchor -4 702> mark @tonos;
+      pos base Rho
+          <anchor -4 702> mark @tonos;
+      pos base U
+          <anchor 427 0> mark @ogonek;
+      pos base Uacute
+          <anchor 427 0> mark @ogonek;
+      pos base Ubreve
+          <anchor 427 0> mark @ogonek;
+      pos base Ucircumflex
+          <anchor 427 0> mark @ogonek;
+      pos base Udieresis
+          <anchor 427 0> mark @ogonek;
+      pos base Ugrave
+          <anchor 427 0> mark @ogonek;
+      pos base Uhungarumlaut
+          <anchor 427 0> mark @ogonek;
+      pos base Umacron
+          <anchor 427 0> mark @ogonek;
+      pos base Upsilon
+          <anchor -42 702> mark @tonos;
+      pos base Uring
+          <anchor 427 0> mark @ogonek;
+      pos base Utilde
+          <anchor 427 0> mark @ogonek;
+      pos base Y
+          <anchor -42 702> mark @tonos;
+      pos base Yacute
+          <anchor -42 702> mark @tonos;
+      pos base Ycircumflex
+          <anchor -42 702> mark @tonos;
+      pos base Ydieresis
+          <anchor -42 702> mark @tonos;
+      pos base Ygrave
+          <anchor -42 702> mark @tonos;
+      pos base a
+          <anchor 266 540> mark @aring
+          <anchor 437 10> mark @ogonek;
+      pos base aacute
+          <anchor 266 540> mark @aring
+          <anchor 437 10> mark @ogonek;
+      pos base abreve
+          <anchor 266 540> mark @aring
+          <anchor 437 10> mark @ogonek;
+      pos base acircumflex
+          <anchor 266 540> mark @aring
+          <anchor 437 10> mark @ogonek;
+      pos base adieresis
+          <anchor 266 540> mark @aring
+          <anchor 437 10> mark @ogonek;
+      pos base agrave
+          <anchor 266 540> mark @aring
+          <anchor 437 10> mark @ogonek;
+      pos base amacron
+          <anchor 266 540> mark @aring
+          <anchor 437 10> mark @ogonek;
+      pos base aogonek
+          <anchor 266 540> mark @aring;
+      pos base aring
+          <anchor 437 10> mark @ogonek;
+      pos base aringacute
+          <anchor 437 10> mark @ogonek;
+      pos base atilde
+          <anchor 266 540> mark @aring
+          <anchor 437 10> mark @ogonek;
+      pos base e
+          <anchor 331 0> mark @ogonek;
+      pos base eacute
+          <anchor 331 0> mark @ogonek;
+      pos base ebreve
+          <anchor 331 0> mark @ogonek;
+      pos base ecaron
+          <anchor 331 0> mark @ogonek;
+      pos base ecircumflex
+          <anchor 331 0> mark @ogonek;
+      pos base edieresis
+          <anchor 331 0> mark @ogonek;
+      pos base edotaccent
+          <anchor 331 0> mark @ogonek;
+      pos base egrave
+          <anchor 331 0> mark @ogonek;
+      pos base emacron
+          <anchor 331 0> mark @ogonek;
+      pos base i
+          <anchor 170 10> mark @ogonek;
+      pos base u
+          <anchor 519 10> mark @ogonek;
+      pos base uacute
+          <anchor 519 10> mark @ogonek;
+      pos base ubreve
+          <anchor 519 10> mark @ogonek;
+      pos base ucircumflex
+          <anchor 519 10> mark @ogonek;
+      pos base udieresis
+          <anchor 519 10> mark @ogonek;
+      pos base ugrave
+          <anchor 519 10> mark @ogonek;
+      pos base uhungarumlaut
+          <anchor 519 10> mark @ogonek;
+      pos base umacron
+          <anchor 519 10> mark @ogonek;
+      pos base uni01D5
+          <anchor 427 0> mark @ogonek;
+      pos base uni01D6
+          <anchor 519 10> mark @ogonek;
+      pos base uni01D7
+          <anchor 427 0> mark @ogonek;
+      pos base uni01D8
+          <anchor 519 10> mark @ogonek;
+      pos base uni01D9
+          <anchor 427 0> mark @ogonek;
+      pos base uni01DA
+          <anchor 519 10> mark @ogonek;
+      pos base uni01DB
+          <anchor 427 0> mark @ogonek;
+      pos base uni01DC
+          <anchor 519 10> mark @ogonek;
+      pos base uni01DE
+          <anchor 308 670> mark @aring
+          <anchor 530 10> mark @ogonek
+          <anchor 170 702> mark @tonos;
+      pos base uni01DF
+          <anchor 266 540> mark @aring
+          <anchor 437 10> mark @ogonek;
+      pos base uni01E0
+          <anchor 308 670> mark @aring
+          <anchor 530 10> mark @ogonek
+          <anchor 170 702> mark @tonos;
+      pos base uni01E1
+          <anchor 266 540> mark @aring
+          <anchor 437 10> mark @ogonek;
+      pos base uni01EA
+          <anchor 66 702> mark @tonos;
+      pos base uni01EC
+          <anchor 66 702> mark @tonos;
+      pos base uni0200
+          <anchor 308 670> mark @aring
+          <anchor 530 10> mark @ogonek
+          <anchor 170 702> mark @tonos;
+      pos base uni0201
+          <anchor 266 540> mark @aring
+          <anchor 437 10> mark @ogonek;
+      pos base uni0202
+          <anchor 308 670> mark @aring
+          <anchor 530 10> mark @ogonek
+          <anchor 170 702> mark @tonos;
+      pos base uni0203
+          <anchor 266 540> mark @aring
+          <anchor 437 10> mark @ogonek;
+      pos base uni0204
+          <anchor 479 10> mark @ogonek
+          <anchor 0 707> mark @tonos;
+      pos base uni0205
+          <anchor 331 0> mark @ogonek;
+      pos base uni0206
+          <anchor 479 10> mark @ogonek
+          <anchor 0 707> mark @tonos;
+      pos base uni0207
+          <anchor 331 0> mark @ogonek;
+      pos base uni0208
+          <anchor 190 10> mark @ogonek
+          <anchor 0 702> mark @tonos;
+      pos base uni020A
+          <anchor 190 10> mark @ogonek
+          <anchor 0 702> mark @tonos;
+      pos base uni020C
+          <anchor 66 702> mark @tonos;
+      pos base uni020E
+          <anchor 66 702> mark @tonos;
+      pos base uni0214
+          <anchor 427 0> mark @ogonek;
+      pos base uni0215
+          <anchor 519 10> mark @ogonek;
+      pos base uni0216
+          <anchor 427 0> mark @ogonek;
+      pos base uni0217
+          <anchor 519 10> mark @ogonek;
+      pos base uni0226
+          <anchor 308 670> mark @aring
+          <anchor 530 10> mark @ogonek
+          <anchor 170 702> mark @tonos;
+      pos base uni0227
+          <anchor 266 540> mark @aring
+          <anchor 437 10> mark @ogonek;
+      pos base uni0228
+          <anchor 479 10> mark @ogonek
+          <anchor 0 707> mark @tonos;
+      pos base uni0229
+          <anchor 331 0> mark @ogonek;
+      pos base uni022A
+          <anchor 66 702> mark @tonos;
+      pos base uni022C
+          <anchor 66 702> mark @tonos;
+      pos base uni022E
+          <anchor 66 702> mark @tonos;
+      pos base uni0230
+          <anchor 66 702> mark @tonos;
+      pos base uni0232
+          <anchor -42 702> mark @tonos;
+      pos base uni03A9
+          <anchor 54 702> mark @tonos;
+      pos base uni0400
+          <anchor 479 10> mark @ogonek
+          <anchor 0 707> mark @tonos;
+      pos base uni0401
+          <anchor 479 10> mark @ogonek
+          <anchor 0 707> mark @tonos;
+      pos base uni0406
+          <anchor 190 10> mark @ogonek
+          <anchor 0 702> mark @tonos;
+      pos base uni0407
+          <anchor 190 10> mark @ogonek
+          <anchor 0 702> mark @tonos;
+      pos base uni0410
+          <anchor 308 670> mark @aring
+          <anchor 530 10> mark @ogonek
+          <anchor 170 702> mark @tonos;
+      pos base uni0415
+          <anchor 479 10> mark @ogonek
+          <anchor 0 707> mark @tonos;
+      pos base uni041D
+          <anchor 6 702> mark @tonos;
+      pos base uni041E
+          <anchor 66 702> mark @tonos;
+      pos base uni0420
+          <anchor -4 702> mark @tonos;
+      pos base uni042B
+          <anchor 828 10> mark @ogonek
+          <anchor 638 702> mark @tonos;
+      pos base uni0430
+          <anchor 266 540> mark @aring
+          <anchor 437 10> mark @ogonek;
+      pos base uni0435
+          <anchor 331 0> mark @ogonek;
+      pos base uni0450
+          <anchor 331 0> mark @ogonek;
+      pos base uni0451
+          <anchor 331 0> mark @ogonek;
+      pos base uni04AE
+          <anchor -42 702> mark @tonos;
+      pos base uni04C0
+          <anchor 190 10> mark @ogonek
+          <anchor 0 702> mark @tonos;
+      pos base uni04D0
+          <anchor 308 670> mark @aring
+          <anchor 530 10> mark @ogonek
+          <anchor 170 702> mark @tonos;
+      pos base uni04D1
+          <anchor 266 540> mark @aring
+          <anchor 437 10> mark @ogonek;
+      pos base uni04D2
+          <anchor 308 670> mark @aring
+          <anchor 530 10> mark @ogonek
+          <anchor 170 702> mark @tonos;
+      pos base uni04D3
+          <anchor 266 540> mark @aring
+          <anchor 437 10> mark @ogonek;
+      pos base uni04D6
+          <anchor 479 10> mark @ogonek
+          <anchor 0 707> mark @tonos;
+      pos base uni04D7
+          <anchor 331 0> mark @ogonek;
+      pos base uni04E6
+          <anchor 66 702> mark @tonos;
+      pos base uni04F8
+          <anchor 828 10> mark @ogonek
+          <anchor 638 702> mark @tonos;
+      pos base uni1E00
+          <anchor 308 670> mark @aring
+          <anchor 530 10> mark @ogonek
+          <anchor 170 702> mark @tonos;
+      pos base uni1E01
+          <anchor 266 540> mark @aring
+          <anchor 437 10> mark @ogonek;
+      pos base uni1E14
+          <anchor 479 10> mark @ogonek
+          <anchor 0 707> mark @tonos;
+      pos base uni1E15
+          <anchor 331 0> mark @ogonek;
+      pos base uni1E16
+          <anchor 479 10> mark @ogonek
+          <anchor 0 707> mark @tonos;
+      pos base uni1E17
+          <anchor 331 0> mark @ogonek;
+      pos base uni1E18
+          <anchor 479 10> mark @ogonek
+          <anchor 0 707> mark @tonos;
+      pos base uni1E19
+          <anchor 331 0> mark @ogonek;
+      pos base uni1E1A
+          <anchor 479 10> mark @ogonek
+          <anchor 0 707> mark @tonos;
+      pos base uni1E1B
+          <anchor 331 0> mark @ogonek;
+      pos base uni1E22
+          <anchor 6 702> mark @tonos;
+      pos base uni1E24
+          <anchor 6 702> mark @tonos;
+      pos base uni1E26
+          <anchor 6 702> mark @tonos;
+      pos base uni1E2A
+          <anchor 6 702> mark @tonos;
+      pos base uni1E2C
+          <anchor 190 10> mark @ogonek
+          <anchor 0 702> mark @tonos;
+      pos base uni1E2D
+          <anchor 170 10> mark @ogonek;
+      pos base uni1E4C
+          <anchor 66 702> mark @tonos;
+      pos base uni1E4E
+          <anchor 66 702> mark @tonos;
+      pos base uni1E50
+          <anchor 66 702> mark @tonos;
+      pos base uni1E52
+          <anchor 66 702> mark @tonos;
+      pos base uni1E54
+          <anchor -4 702> mark @tonos;
+      pos base uni1E56
+          <anchor -4 702> mark @tonos;
+      pos base uni1E72
+          <anchor 427 0> mark @ogonek;
+      pos base uni1E73
+          <anchor 519 10> mark @ogonek;
+      pos base uni1E74
+          <anchor 427 0> mark @ogonek;
+      pos base uni1E75
+          <anchor 519 10> mark @ogonek;
+      pos base uni1E76
+          <anchor 427 0> mark @ogonek;
+      pos base uni1E77
+          <anchor 519 10> mark @ogonek;
+      pos base uni1E8E
+          <anchor -42 702> mark @tonos;
+      pos base uni1EF8
+          <anchor -42 702> mark @tonos;
+      pos base uring
+          <anchor 519 10> mark @ogonek;
+      pos base utilde
+          <anchor 519 10> mark @ogonek;
+      pos base Abreveacute
+          <anchor 308 670> mark @aring
+          <anchor 530 10> mark @ogonek
+          <anchor 170 702> mark @tonos;
+      pos base Abrevedotbelow
+          <anchor 308 670> mark @aring
+          <anchor 530 10> mark @ogonek
+          <anchor 170 702> mark @tonos;
+      pos base Abrevegrave
+          <anchor 308 670> mark @aring
+          <anchor 530 10> mark @ogonek
+          <anchor 170 702> mark @tonos;
+      pos base Abrevehookabove
+          <anchor 308 670> mark @aring
+          <anchor 530 10> mark @ogonek
+          <anchor 170 702> mark @tonos;
+      pos base Abrevetilde
+          <anchor 308 670> mark @aring
+          <anchor 530 10> mark @ogonek
+          <anchor 170 702> mark @tonos;
+      pos base Acaron
+          <anchor 308 670> mark @aring
+          <anchor 530 10> mark @ogonek
+          <anchor 170 702> mark @tonos;
+      pos base Acircumflexacute
+          <anchor 308 670> mark @aring
+          <anchor 530 10> mark @ogonek
+          <anchor 170 702> mark @tonos;
+      pos base Acircumflexdotbelow
+          <anchor 308 670> mark @aring
+          <anchor 530 10> mark @ogonek
+          <anchor 170 702> mark @tonos;
+      pos base Acircumflexgrave
+          <anchor 308 670> mark @aring
+          <anchor 530 10> mark @ogonek
+          <anchor 170 702> mark @tonos;
+      pos base Acircumflexhookabove
+          <anchor 308 670> mark @aring
+          <anchor 530 10> mark @ogonek
+          <anchor 170 702> mark @tonos;
+      pos base Acircumflextilde
+          <anchor 308 670> mark @aring
+          <anchor 530 10> mark @ogonek
+          <anchor 170 702> mark @tonos;
+      pos base Adotbelow
+          <anchor 308 670> mark @aring
+          <anchor 530 10> mark @ogonek
+          <anchor 170 702> mark @tonos;
+      pos base Ahookabove
+          <anchor 308 670> mark @aring
+          <anchor 530 10> mark @ogonek
+          <anchor 170 702> mark @tonos;
+      pos base Alphatonos
+          <anchor 308 670> mark @aring
+          <anchor 530 10> mark @ogonek;
+      pos base Ecircumflexacute
+          <anchor 479 10> mark @ogonek
+          <anchor 0 707> mark @tonos;
+      pos base Ecircumflexdotbelow
+          <anchor 479 10> mark @ogonek
+          <anchor 0 707> mark @tonos;
+      pos base Ecircumflexgrave
+          <anchor 479 10> mark @ogonek
+          <anchor 0 707> mark @tonos;
+      pos base Ecircumflexhookabove
+          <anchor 479 10> mark @ogonek
+          <anchor 0 707> mark @tonos;
+      pos base Ecircumflextilde
+          <anchor 479 10> mark @ogonek
+          <anchor 0 707> mark @tonos;
+      pos base Edotbelow
+          <anchor 479 10> mark @ogonek
+          <anchor 0 707> mark @tonos;
+      pos base Ehookabove
+          <anchor 479 10> mark @ogonek
+          <anchor 0 707> mark @tonos;
+      pos base Epsilontonos
+          <anchor 479 10> mark @ogonek;
+      pos base Etilde
+          <anchor 479 10> mark @ogonek
+          <anchor 0 707> mark @tonos;
+      pos base Hcaron
+          <anchor 6 702> mark @tonos;
+      pos base Icaron
+          <anchor 190 10> mark @ogonek
+          <anchor 0 702> mark @tonos;
+      pos base Idotbelow
+          <anchor 190 10> mark @ogonek
+          <anchor 0 702> mark @tonos;
+      pos base Ihookabove
+          <anchor 190 10> mark @ogonek
+          <anchor 0 702> mark @tonos;
+      pos base Iotadieresis
+          <anchor 190 10> mark @ogonek
+          <anchor 0 702> mark @tonos;
+      pos base Iotatonos
+          <anchor 190 10> mark @ogonek;
+      pos base Ocaron
+          <anchor 66 702> mark @tonos;
+      pos base Ocircumflexacute
+          <anchor 66 702> mark @tonos;
+      pos base Ocircumflexdotbelow
+          <anchor 66 702> mark @tonos;
+      pos base Ocircumflexgrave
+          <anchor 66 702> mark @tonos;
+      pos base Ocircumflexhookabove
+          <anchor 66 702> mark @tonos;
+      pos base Ocircumflextilde
+          <anchor 66 702> mark @tonos;
+      pos base Odotbelow
+          <anchor 66 702> mark @tonos;
+      pos base Ohookabove
+          <anchor 66 702> mark @tonos;
+      pos base Ohm
+          <anchor 54 702> mark @tonos;
+      pos base Ucaron
+          <anchor 427 0> mark @ogonek;
+      pos base Udotbelow
+          <anchor 427 0> mark @ogonek;
+      pos base Uhookabove
+          <anchor 427 0> mark @ogonek;
+      pos base Upsilondieresis
+          <anchor -42 702> mark @tonos;
+      pos base Ydotbelow
+          <anchor -42 702> mark @tonos;
+      pos base Yhookabove
+          <anchor -42 702> mark @tonos;
+      pos base abreveacute
+          <anchor 266 540> mark @aring
+          <anchor 437 10> mark @ogonek;
+      pos base abrevedotbelow
+          <anchor 266 540> mark @aring
+          <anchor 437 10> mark @ogonek;
+      pos base abrevegrave
+          <anchor 266 540> mark @aring
+          <anchor 437 10> mark @ogonek;
+      pos base abrevehookabove
+          <anchor 266 540> mark @aring
+          <anchor 437 10> mark @ogonek;
+      pos base abrevetilde
+          <anchor 266 540> mark @aring
+          <anchor 437 10> mark @ogonek;
+      pos base acaron
+          <anchor 266 540> mark @aring
+          <anchor 437 10> mark @ogonek;
+      pos base acircumflexacute
+          <anchor 266 540> mark @aring
+          <anchor 437 10> mark @ogonek;
+      pos base acircumflexdotbelow
+          <anchor 266 540> mark @aring
+          <anchor 437 10> mark @ogonek;
+      pos base acircumflexgrave
+          <anchor 266 540> mark @aring
+          <anchor 437 10> mark @ogonek;
+      pos base acircumflexhookabove
+          <anchor 266 540> mark @aring
+          <anchor 437 10> mark @ogonek;
+      pos base acircumflextilde
+          <anchor 266 540> mark @aring
+          <anchor 437 10> mark @ogonek;
+      pos base adotbelow
+          <anchor 266 540> mark @aring
+          <anchor 437 10> mark @ogonek;
+      pos base ahookabove
+          <anchor 266 540> mark @aring
+          <anchor 437 10> mark @ogonek;
+      pos base ecircumflexacute
+          <anchor 331 0> mark @ogonek;
+      pos base ecircumflexdotbelow
+          <anchor 331 0> mark @ogonek;
+      pos base ecircumflexgrave
+          <anchor 331 0> mark @ogonek;
+      pos base ecircumflexhookabove
+          <anchor 331 0> mark @ogonek;
+      pos base ecircumflextilde
+          <anchor 331 0> mark @ogonek;
+      pos base edotbelow
+          <anchor 331 0> mark @ogonek;
+      pos base ehookabove
+          <anchor 331 0> mark @ogonek;
+      pos base etilde
+          <anchor 331 0> mark @ogonek;
+      pos base idotbelow
+          <anchor 170 10> mark @ogonek;
+      pos base ucaron
+          <anchor 519 10> mark @ogonek;
+      pos base udotbelow
+          <anchor 519 10> mark @ogonek;
+      pos base uhookabove
+          <anchor 519 10> mark @ogonek;
+      pos base uni03D4
+          <anchor 0 702> mark @tonos;
+      pos base uni0438.loclBGR
+          <anchor 519 10> mark @ogonek;
+      pos base uni0439.loclBGR
+          <anchor 519 10> mark @ogonek;
+      pos base uni045D.loclBGR
+          <anchor 519 10> mark @ogonek;
+      pos base uni1E1C
+          <anchor 479 10> mark @ogonek
+          <anchor 0 707> mark @tonos;
+      pos base uni1E1D
+          <anchor 331 0> mark @ogonek;
+      pos base uni1E28
+          <anchor 6 702> mark @tonos;
+      pos base uni1E2E
+          <anchor 190 10> mark @ogonek
+          <anchor 0 702> mark @tonos;
+      pos base uni1E78
+          <anchor 427 0> mark @ogonek;
+      pos base uni1E79
+          <anchor 519 10> mark @ogonek;
+      pos base uni1E7A
+          <anchor 427 0> mark @ogonek;
+      pos base uni1E7B
+          <anchor 519 10> mark @ogonek;
+      pos base uni1F08
+          <anchor 308 670> mark @aring
+          <anchor 530 10> mark @ogonek;
+      pos base uni1F09
+          <anchor 308 670> mark @aring
+          <anchor 530 10> mark @ogonek;
+      pos base uni1F0A
+          <anchor 308 670> mark @aring
+          <anchor 530 10> mark @ogonek;
+      pos base uni1F0B
+          <anchor 308 670> mark @aring
+          <anchor 530 10> mark @ogonek;
+      pos base uni1F0C
+          <anchor 308 670> mark @aring
+          <anchor 530 10> mark @ogonek;
+      pos base uni1F0D
+          <anchor 308 670> mark @aring
+          <anchor 530 10> mark @ogonek;
+      pos base uni1F0E
+          <anchor 308 670> mark @aring
+          <anchor 530 10> mark @ogonek;
+      pos base uni1F0F
+          <anchor 308 670> mark @aring
+          <anchor 530 10> mark @ogonek;
+      pos base uni1F18
+          <anchor 479 10> mark @ogonek;
+      pos base uni1F19
+          <anchor 479 10> mark @ogonek;
+      pos base uni1F1A
+          <anchor 479 10> mark @ogonek;
+      pos base uni1F1B
+          <anchor 479 10> mark @ogonek;
+      pos base uni1F1C
+          <anchor 479 10> mark @ogonek;
+      pos base uni1F1D
+          <anchor 479 10> mark @ogonek;
+      pos base uni1F38
+          <anchor 190 10> mark @ogonek;
+      pos base uni1F39
+          <anchor 190 10> mark @ogonek;
+      pos base uni1F3A
+          <anchor 190 10> mark @ogonek;
+      pos base uni1F3B
+          <anchor 190 10> mark @ogonek;
+      pos base uni1F3C
+          <anchor 190 10> mark @ogonek;
+      pos base uni1F3D
+          <anchor 190 10> mark @ogonek;
+      pos base uni1F3E
+          <anchor 190 10> mark @ogonek;
+      pos base uni1F3F
+          <anchor 190 10> mark @ogonek;
+      pos base uni1F88
+          <anchor 308 670> mark @aring
+          <anchor 530 10> mark @ogonek;
+      pos base uni1F89
+          <anchor 308 670> mark @aring
+          <anchor 530 10> mark @ogonek;
+      pos base uni1F8A
+          <anchor 308 670> mark @aring
+          <anchor 530 10> mark @ogonek;
+      pos base uni1F8B
+          <anchor 308 670> mark @aring
+          <anchor 530 10> mark @ogonek;
+      pos base uni1F8C
+          <anchor 308 670> mark @aring
+          <anchor 530 10> mark @ogonek;
+      pos base uni1F8D
+          <anchor 308 670> mark @aring
+          <anchor 530 10> mark @ogonek;
+      pos base uni1F8E
+          <anchor 308 670> mark @aring
+          <anchor 530 10> mark @ogonek;
+      pos base uni1F8F
+          <anchor 308 670> mark @aring
+          <anchor 530 10> mark @ogonek;
+      pos base uni1FB8
+          <anchor 308 670> mark @aring
+          <anchor 530 10> mark @ogonek
+          <anchor 170 702> mark @tonos;
+      pos base uni1FB9
+          <anchor 308 670> mark @aring
+          <anchor 530 10> mark @ogonek
+          <anchor 170 702> mark @tonos;
+      pos base uni1FBA
+          <anchor 308 670> mark @aring
+          <anchor 530 10> mark @ogonek
+          <anchor 170 702> mark @tonos;
+      pos base uni1FBB
+          <anchor 308 670> mark @aring
+          <anchor 530 10> mark @ogonek
+          <anchor 170 702> mark @tonos;
+      pos base uni1FBC
+          <anchor 308 670> mark @aring
+          <anchor 530 10> mark @ogonek
+          <anchor 170 702> mark @tonos;
+      pos base uni1FC8
+          <anchor 479 10> mark @ogonek
+          <anchor 0 707> mark @tonos;
+      pos base uni1FC9
+          <anchor 479 10> mark @ogonek;
+      pos base uni1FCC
+          <anchor 6 702> mark @tonos;
+      pos base uni1FD8
+          <anchor 190 10> mark @ogonek
+          <anchor 0 702> mark @tonos;
+      pos base uni1FD9
+          <anchor 190 10> mark @ogonek
+          <anchor 0 702> mark @tonos;
+      pos base uni1FDA
+          <anchor 190 10> mark @ogonek
+          <anchor 0 702> mark @tonos;
+      pos base uni1FDB
+          <anchor 190 10> mark @ogonek
+          <anchor 0 702> mark @tonos;
+      pos base uni1FE8
+          <anchor -42 702> mark @tonos;
+      pos base uni1FE9
+          <anchor -42 702> mark @tonos;
+      pos base uni1FFC
+          <anchor 54 702> mark @tonos;
+      pos base uni2160
+          <anchor 190 10> mark @ogonek
+          <anchor 0 702> mark @tonos;
+      pos base uni2161
+          <anchor 539 10> mark @ogonek
+          <anchor 349 702> mark @tonos;
+      pos base uni2162
+          <anchor 888 10> mark @ogonek
+          <anchor 698 702> mark @tonos;
+      pos base uni2163
+          <anchor 190 10> mark @ogonek
+          <anchor 0 702> mark @tonos;
+      pos base uni2165
+          <anchor 824 10> mark @ogonek
+          <anchor 634 702> mark @tonos;
+      pos base uni2166
+          <anchor 1173 10> mark @ogonek
+          <anchor 983 702> mark @tonos;
+      pos base uni2167
+          <anchor 1522 10> mark @ogonek
+          <anchor 1332 702> mark @tonos;
+      pos base uni2168
+          <anchor 190 10> mark @ogonek
+          <anchor 0 702> mark @tonos;
+      pos base uni216A
+          <anchor 814 10> mark @ogonek
+          <anchor 624 702> mark @tonos;
+      pos base uni216B
+          <anchor 1163 10> mark @ogonek
+          <anchor 973 702> mark @tonos;
+      pos base uni2170
+          <anchor 170 10> mark @ogonek;
+      pos base uni2171
+          <anchor 461 10> mark @ogonek;
+      pos base uni2172
+          <anchor 752 10> mark @ogonek;
+      pos base uni2173
+          <anchor 170 10> mark @ogonek;
+      pos base uni2175
+          <anchor 674 10> mark @ogonek;
+      pos base uni2176
+          <anchor 965 10> mark @ogonek;
+      pos base uni2177
+          <anchor 1256 10> mark @ogonek;
+      pos base uni2178
+          <anchor 170 10> mark @ogonek;
+      pos base uni217A
+          <anchor 698 10> mark @ogonek;
+      pos base uni217B
+          <anchor 989 10> mark @ogonek;
+      pos base Upsilonafrican
+          <anchor 34 702> mark @tonos;
+      pos base Upsilonhooksymbol
+          <anchor 0 702> mark @tonos;
+      pos base Aemod
+          <anchor 308 670> mark @aring
+          <anchor 1114 10> mark @ogonek
+          <anchor 635 707> mark @tonos;
+  } markLTR1;
+
+  lookup markLTR2 {
+      pos base A
+          <anchor 311 740> mark @top;
+      pos base AEacute
+          <anchor 428 920> mark @top;
+      pos base Aacute
+          <anchor 315 918> mark @top;
+      pos base Abreve
+          <anchor 311 870> mark @top;
+      pos base Acircumflex
+          <anchor 312 938> mark @top;
+      pos base Adieresis
+          <anchor 311 908> mark @top;
+      pos base Alpha
+          <anchor 311 740> mark @top;
+      pos base Amacron
+          <anchor 311 846> mark @top;
+      pos base Aogonek
+          <anchor 311 740> mark @top;
+      pos base Aring
+          <anchor 308 897> mark @top;
+      pos base Aringacute
+          <anchor 312 1075> mark @top;
+      pos base Atilde
+          <anchor 333 928> mark @top;
+      pos base Cacute
+          <anchor 332 920> mark @top;
+      pos base Ccircumflex
+          <anchor 342 942> mark @top;
+      pos base Cdotaccent
+          <anchor 342 942> mark @top;
+      pos base E
+          <anchor 311 740> mark @top;
+      pos base Eacute
+          <anchor 315 918> mark @top;
+      pos base Ebreve
+          <anchor 311 870> mark @top;
+      pos base Ecaron
+          <anchor 311 740> mark @top;
+      pos base Ecircumflex
+          <anchor 312 938> mark @top;
+      pos base Edieresis
+          <anchor 311 908> mark @top;
+      pos base Edotaccent
+          <anchor 311 920> mark @top;
+      pos base Emacron
+          <anchor 311 846> mark @top;
+      pos base Eogonek
+          <anchor 311 740> mark @top;
+      pos base Epsilon
+          <anchor 311 740> mark @top;
+      pos base Gbreve
+          <anchor 367 912> mark @top;
+      pos base Gcircumflex
+          <anchor 367 942> mark @top;
+      pos base Gdotaccent
+          <anchor 367 942> mark @top;
+      pos base Hcircumflex
+          <anchor 399 942> mark @top;
+      pos base Iacute
+          <anchor 164 920> mark @top;
+      pos base Ibreve
+          <anchor 174 912> mark @top;
+      pos base Icircumflex
+          <anchor 174 942> mark @top;
+      pos base Idieresis
+          <anchor 174 900> mark @top;
+      pos base Idotaccent
+          <anchor 174 942> mark @top;
+      pos base Imacron
+          <anchor 174 866> mark @top;
+      pos base Itilde
+          <anchor 181 932> mark @top;
+      pos base Jcircumflex
+          <anchor 175 942> mark @top;
+      pos base Lacute
+          <anchor 274 920> mark @top;
+      pos base Nacute
+          <anchor 380 920> mark @top;
+      pos base Ncaron
+          <anchor 390 860> mark @top;
+      pos base Ntilde
+          <anchor 397 932> mark @top;
+      pos base Oacute
+          <anchor 371 920> mark @top;
+      pos base Obreve
+          <anchor 381 912> mark @top;
+      pos base Ocircumflex
+          <anchor 381 942> mark @top;
+      pos base Odieresis
+          <anchor 381 900> mark @top;
+      pos base Omacron
+          <anchor 381 866> mark @top;
+      pos base Oslashacute
+          <anchor 371 920> mark @top;
+      pos base Otilde
+          <anchor 388 932> mark @top;
+      pos base Racute
+          <anchor 312 920> mark @top;
+      pos base Sacute
+          <anchor 260 920> mark @top;
+      pos base Scaron
+          <anchor 270 860> mark @top;
+      pos base Scircumflex
+          <anchor 270 942> mark @top;
+      pos base Uacute
+          <anchor 385 920> mark @top;
+      pos base Ubreve
+          <anchor 395 912> mark @top;
+      pos base Ucircumflex
+          <anchor 395 942> mark @top;
+      pos base Udieresis
+          <anchor 395 900> mark @top;
+      pos base Umacron
+          <anchor 395 866> mark @top;
+      pos base Uring
+          <anchor 395 940> mark @top;
+      pos base Utilde
+          <anchor 402 932> mark @top;
+      pos base Wacute
+          <anchor 460 920> mark @top;
+      pos base Wcircumflex
+          <anchor 470 942> mark @top;
+      pos base Wdieresis
+          <anchor 470 900> mark @top;
+      pos base Yacute
+          <anchor 284 920> mark @top;
+      pos base Ycircumflex
+          <anchor 294 942> mark @top;
+      pos base Ydieresis
+          <anchor 294 900> mark @top;
+      pos base Zacute
+          <anchor 295 920> mark @top;
+      pos base Zdotaccent
+          <anchor 305 942> mark @top;
+      pos base aacute
+          <anchor 240 750> mark @top;
+      pos base abreve
+          <anchor 261 710> mark @top;
+      pos base acircumflex
+          <anchor 261 740> mark @top;
+      pos base adieresis
+          <anchor 263 720> mark @top;
+      pos base aeacute
+          <anchor 377 750> mark @top;
+      pos base alpha
+          <anchor 262 533> mark @top;
+      pos base amacron
+          <anchor 261 709> mark @top;
+      pos base aring
+          <anchor 266 772> mark @top;
+      pos base aringacute
+          <anchor 315 980> mark @top;
+      pos base atilde
+          <anchor 268 730> mark @top;
+      pos base cacute
+          <anchor 227 750> mark @top;
+      pos base ccaron
+          <anchor 248 690> mark @top;
+      pos base ccircumflex
+          <anchor 248 740> mark @top;
+      pos base cdotaccent
+          <anchor 248 740> mark @top;
+      pos base eacute
+          <anchor 236 750> mark @top;
+      pos base ebreve
+          <anchor 257 710> mark @top;
+      pos base ecaron
+          <anchor 257 690> mark @top;
+      pos base ecircumflex
+          <anchor 257 740> mark @top;
+      pos base edieresis
+          <anchor 259 720> mark @top;
+      pos base edotaccent
+          <anchor 257 740> mark @top;
+      pos base emacron
+          <anchor 257 709> mark @top;
+      pos base epsilon
+          <anchor 240 533> mark @top;
+      pos base eta
+          <anchor 286 533> mark @top;
+      pos base f
+          <anchor 247 800> mark @top;
+      pos base g
+          <anchor 246 580> mark @top;
+      pos base gbreve
+          <anchor 246 710> mark @top;
+      pos base gcaron
+          <anchor 246 729> mark @top;
+      pos base gcircumflex
+          <anchor 247 778> mark @top;
+      pos base gdotaccent
+          <anchor 246 760> mark @top;
+      pos base h
+          <anchor 307 770> mark @top;
+      pos base hcircumflex
+          <anchor 308 968> mark @top;
+      pos base iacute
+          <anchor 124 750> mark @top;
+      pos base icircumflex
+          <anchor 145 740> mark @top;
+      pos base idieresis
+          <anchor 147 720> mark @top;
+      pos base imacron
+          <anchor 145 709> mark @top;
+      pos base iota
+          <anchor 121 533> mark @top;
+      pos base itilde
+          <anchor 152 730> mark @top;
+      pos base jcircumflex
+          <anchor 158 740> mark @top;
+      pos base l
+          <anchor 127 760> mark @top;
+      pos base lacute
+          <anchor 176 968> mark @top;
+      pos base longs
+          <anchor 221 800> mark @top;
+      pos base macron
+          <anchor 200 706> mark @top;
+      pos base nacute
+          <anchor 288 750> mark @top;
+      pos base ncaron
+          <anchor 309 690> mark @top;
+      pos base ntilde
+          <anchor 316 730> mark @top;
+      pos base o
+          <anchor 289 550> mark @top;
+      pos base oacute
+          <anchor 338 758> mark @top;
+      pos base obreve
+          <anchor 289 680> mark @top;
+      pos base ocircumflex
+          <anchor 290 748> mark @top;
+      pos base odieresis
+          <anchor 289 700> mark @top;
+      pos base omacron
+          <anchor 289 679> mark @top;
+      pos base omicron
+          <anchor 289 533> mark @top;
+      pos base oslashacute
+          <anchor 267 750> mark @top;
+      pos base otilde
+          <anchor 311 738> mark @top;
+      pos base racute
+          <anchor 173 750> mark @top;
+      pos base rcaron
+          <anchor 194 690> mark @top;
+      pos base ring
+          <anchor 200 780> mark @top;
+      pos base sacute
+          <anchor 197 750> mark @top;
+      pos base scaron
+          <anchor 218 690> mark @top;
+      pos base scircumflex
+          <anchor 218 740> mark @top;
+      pos base t
+          <anchor 167 680> mark @top;
+      pos base u
+          <anchor 310 542> mark @top;
+      pos base uacute
+          <anchor 359 750> mark @top;
+      pos base ubreve
+          <anchor 310 672> mark @top;
+      pos base ucircumflex
+          <anchor 311 740> mark @top;
+      pos base udieresis
+          <anchor 310 692> mark @top;
+      pos base umacron
+          <anchor 310 671> mark @top;
+      pos base uni01C5
+          <anchor 1019 690> mark @top;
+      pos base uni01C6
+          <anchor 838 690> mark @top;
+      pos base uni01C9
+          <anchor 127 760> mark @top;
+      pos base uni01D5
+          <anchor 395 1006> mark @top;
+      pos base uni01D6
+          <anchor 310 821> mark @top;
+      pos base uni01D7
+          <anchor 399 1078> mark @top;
+      pos base uni01D8
+          <anchor 359 900> mark @top;
+      pos base uni01D9
+          <anchor 395 1037> mark @top;
+      pos base uni01DA
+          <anchor 310 841> mark @top;
+      pos base uni01DE
+          <anchor 311 1014> mark @top;
+      pos base uni01DF
+          <anchor 263 849> mark @top;
+      pos base uni01E0
+          <anchor 311 1026> mark @top;
+      pos base uni01E1
+          <anchor 261 869> mark @top;
+      pos base uni01E2
+          <anchor 438 866> mark @top;
+      pos base uni01E3
+          <anchor 398 709> mark @top;
+      pos base uni01EB
+          <anchor 289 550> mark @top;
+      pos base uni01EC
+          <anchor 381 866> mark @top;
+      pos base uni01ED
+          <anchor 289 679> mark @top;
+      pos base uni01EE
+          <anchor 295 860> mark @top;
+      pos base uni01EF
+          <anchor 257 690> mark @top;
+      pos base uni0200
+          <anchor 311 740> mark @top;
+      pos base uni0202
+          <anchor 311 740> mark @top;
+      pos base uni0204
+          <anchor 311 740> mark @top;
+      pos base uni0206
+          <anchor 311 740> mark @top;
+      pos base uni021B
+          <anchor 167 680> mark @top;
+      pos base uni0226
+          <anchor 311 920> mark @top;
+      pos base uni0227
+          <anchor 261 740> mark @top;
+      pos base uni0228
+          <anchor 311 740> mark @top;
+      pos base uni022A
+          <anchor 381 1006> mark @top;
+      pos base uni022B
+          <anchor 289 829> mark @top;
+      pos base uni022C
+          <anchor 388 1038> mark @top;
+      pos base uni022D
+          <anchor 311 867> mark @top;
+      pos base uni022E
+          <anchor 381 942> mark @top;
+      pos base uni022F
+          <anchor 289 730> mark @top;
+      pos base uni0230
+          <anchor 381 1048> mark @top;
+      pos base uni0231
+          <anchor 289 859> mark @top;
+      pos base uni0232
+          <anchor 294 866> mark @top;
+      pos base uni0233
+          <anchor 253 709> mark @top;
+      pos base uni0401
+          <anchor 311 890> mark @top;
+      pos base uni0403
+          <anchor 256 952> mark @top;
+      pos base uni0407
+          <anchor 176 922> mark @top;
+      pos base uni040C
+          <anchor 345 952> mark @top;
+      pos base uni0410
+          <anchor 311 740> mark @top;
+      pos base uni0415
+          <anchor 311 740> mark @top;
+      pos base uni0416
+          <anchor 537 740> mark @top;
+      pos base uni0438
+          <anchor 316 542> mark @top;
+      pos base uni043E
+          <anchor 289 550> mark @top;
+      pos base uni0451
+          <anchor 259 720> mark @top;
+      pos base uni0453
+          <anchor 215 750> mark @top;
+      pos base uni045C
+          <anchor 276 750> mark @top;
+      pos base uni04BB
+          <anchor 307 770> mark @top;
+      pos base uni04D0
+          <anchor 311 870> mark @top;
+      pos base uni04D1
+          <anchor 261 710> mark @top;
+      pos base uni04D2
+          <anchor 311 890> mark @top;
+      pos base uni04D3
+          <anchor 263 720> mark @top;
+      pos base uni04D6
+          <anchor 311 870> mark @top;
+      pos base uni04DB
+          <anchor 259 720> mark @top;
+      pos base uni04DC
+          <anchor 537 890> mark @top;
+      pos base uni04DD
+          <anchor 427 720> mark @top;
+      pos base uni04DE
+          <anchor 310 922> mark @top;
+      pos base uni04DF
+          <anchor 258 720> mark @top;
+      pos base uni04E3
+          <anchor 316 671> mark @top;
+      pos base uni04E4
+          <anchor 404 922> mark @top;
+      pos base uni04E5
+          <anchor 316 692> mark @top;
+      pos base uni04E6
+          <anchor 383 922> mark @top;
+      pos base uni04E7
+          <anchor 289 700> mark @top;
+      pos base uni04EA
+          <anchor 381 900> mark @top;
+      pos base uni04EB
+          <anchor 290 720> mark @top;
+      pos base uni04EC
+          <anchor 322 922> mark @top;
+      pos base uni04ED
+          <anchor 249 720> mark @top;
+      pos base uni04EE
+          <anchor 381 911> mark @top;
+      pos base uni04EF
+          <anchor 253 709> mark @top;
+      pos base uni04F0
+          <anchor 383 922> mark @top;
+      pos base uni04F1
+          <anchor 255 720> mark @top;
+      pos base uni04F4
+          <anchor 376 922> mark @top;
+      pos base uni04F5
+          <anchor 293 720> mark @top;
+      pos base uni04F8
+          <anchor 495 922> mark @top;
+      pos base uni1E00
+          <anchor 311 740> mark @top;
+      pos base uni1E02
+          <anchor 323 942> mark @top;
+      pos base uni1E03
+          <anchor 296 740> mark @top;
+      pos base uni1E08
+          <anchor 332 920> mark @top;
+      pos base uni1E09
+          <anchor 227 750> mark @top;
+      pos base uni1E0A
+          <anchor 389 942> mark @top;
+      pos base uni1E0B
+          <anchor 296 740> mark @top;
+      pos base uni1E16
+          <anchor 315 1024> mark @top;
+      pos base uni1E17
+          <anchor 306 917> mark @top;
+      pos base uni1E18
+          <anchor 311 740> mark @top;
+      pos base uni1E1A
+          <anchor 311 740> mark @top;
+      pos base uni1E1E
+          <anchor 290 942> mark @top;
+      pos base uni1E1F
+          <anchor 244 980> mark @top;
+      pos base uni1E20
+          <anchor 367 866> mark @top;
+      pos base uni1E21
+          <anchor 246 709> mark @top;
+      pos base uni1E22
+          <anchor 399 942> mark @top;
+      pos base uni1E23
+          <anchor 307 950> mark @top;
+      pos base uni1E25
+          <anchor 307 770> mark @top;
+      pos base uni1E26
+          <anchor 399 900> mark @top;
+      pos base uni1E27
+          <anchor 307 920> mark @top;
+      pos base uni1E2B
+          <anchor 307 770> mark @top;
+      pos base uni1E30
+          <anchor 319 920> mark @top;
+      pos base uni1E31
+          <anchor 253 750> mark @top;
+      pos base uni1E37
+          <anchor 127 760> mark @top;
+      pos base uni1E38
+          <anchor 284 866> mark @top;
+      pos base uni1E39
+          <anchor 127 889> mark @top;
+      pos base uni1E3B
+          <anchor 127 760> mark @top;
+      pos base uni1E3D
+          <anchor 127 760> mark @top;
+      pos base uni1E3E
+          <anchor 462 920> mark @top;
+      pos base uni1E3F
+          <anchor 440 750> mark @top;
+      pos base uni1E40
+          <anchor 472 942> mark @top;
+      pos base uni1E41
+          <anchor 461 740> mark @top;
+      pos base uni1E44
+          <anchor 390 942> mark @top;
+      pos base uni1E45
+          <anchor 309 740> mark @top;
+      pos base uni1E4C
+          <anchor 392 1110> mark @top;
+      pos base uni1E4D
+          <anchor 360 946> mark @top;
+      pos base uni1E4E
+          <anchor 388 1100> mark @top;
+      pos base uni1E4F
+          <anchor 311 888> mark @top;
+      pos base uni1E52
+          <anchor 385 1044> mark @top;
+      pos base uni1E53
+          <anchor 338 887> mark @top;
+      pos base uni1E54
+          <anchor 290 920> mark @top;
+      pos base uni1E55
+          <anchor 283 750> mark @top;
+      pos base uni1E56
+          <anchor 300 942> mark @top;
+      pos base uni1E57
+          <anchor 304 740> mark @top;
+      pos base uni1E58
+          <anchor 322 942> mark @top;
+      pos base uni1E59
+          <anchor 194 740> mark @top;
+      pos base uni1E5C
+          <anchor 322 866> mark @top;
+      pos base uni1E5D
+          <anchor 194 709> mark @top;
+      pos base uni1E60
+          <anchor 270 942> mark @top;
+      pos base uni1E61
+          <anchor 218 740> mark @top;
+      pos base uni1E68
+          <anchor 270 942> mark @top;
+      pos base uni1E69
+          <anchor 218 740> mark @top;
+      pos base uni1E6A
+          <anchor 310 942> mark @top;
+      pos base uni1E6B
+          <anchor 167 860> mark @top;
+      pos base uni1E6D
+          <anchor 167 680> mark @top;
+      pos base uni1E6F
+          <anchor 167 680> mark @top;
+      pos base uni1E71
+          <anchor 167 680> mark @top;
+      pos base uni1E73
+          <anchor 310 542> mark @top;
+      pos base uni1E75
+          <anchor 310 542> mark @top;
+      pos base uni1E77
+          <anchor 310 542> mark @top;
+      pos base uni1E7C
+          <anchor 324 932> mark @top;
+      pos base uni1E7D
+          <anchor 259 730> mark @top;
+      pos base uni1E86
+          <anchor 470 942> mark @top;
+      pos base uni1E87
+          <anchor 384 740> mark @top;
+      pos base uni1E8A
+          <anchor 312 942> mark @top;
+      pos base uni1E8B
+          <anchor 264 740> mark @top;
+      pos base uni1E8C
+          <anchor 312 900> mark @top;
+      pos base uni1E8D
+          <anchor 266 720> mark @top;
+      pos base uni1E8E
+          <anchor 294 942> mark @top;
+      pos base uni1E8F
+          <anchor 253 740> mark @top;
+      pos base uni1E90
+          <anchor 305 942> mark @top;
+      pos base uni1E91
+          <anchor 240 740> mark @top;
+      pos base uni1E96
+          <anchor 307 770> mark @top;
+      pos base uni1E97
+          <anchor 167 830> mark @top;
+      pos base uni1E98
+          <anchor 384 780> mark @top;
+      pos base uni1E99
+          <anchor 253 780> mark @top;
+      pos base uni1E9B
+          <anchor 221 980> mark @top;
+      pos base uni1EF8
+          <anchor 301 932> mark @top;
+      pos base uni1EF9
+          <anchor 260 730> mark @top;
+      pos base uogonek
+          <anchor 310 542> mark @top;
+      pos base upsilon
+          <anchor 276 533> mark @top;
+      pos base uring
+          <anchor 303 780> mark @top;
+      pos base utilde
+          <anchor 332 730> mark @top;
+      pos base wacute
+          <anchor 363 750> mark @top;
+      pos base wcircumflex
+          <anchor 384 740> mark @top;
+      pos base wdieresis
+          <anchor 386 720> mark @top;
+      pos base yacute
+          <anchor 232 750> mark @top;
+      pos base ycircumflex
+          <anchor 253 740> mark @top;
+      pos base ydieresis
+          <anchor 255 720> mark @top;
+      pos base zacute
+          <anchor 219 750> mark @top;
+      pos base zcaron
+          <anchor 240 690> mark @top;
+      pos base zdotaccent
+          <anchor 240 740> mark @top;
+      pos base Aacute.sc
+          <anchor 331 788> mark @top;
+      pos base Abreveacute
+          <anchor 315 1048> mark @top;
+      pos base Abrevedotbelow
+          <anchor 311 870> mark @top;
+      pos base Abrevetilde
+          <anchor 333 1058> mark @top;
+      pos base Acaron
+          <anchor 311 740> mark @top;
+      pos base Acircumflex.sc
+          <anchor 283 778> mark @top;
+      pos base Acircumflexacute
+          <anchor 316 1116> mark @top;
+      pos base Acircumflexdotbelow
+          <anchor 312 938> mark @top;
+      pos base Acircumflextilde
+          <anchor 334 1126> mark @top;
+      pos base Adieresis.sc
+          <anchor 282 730> mark @top;
+      pos base Adotbelow
+          <anchor 311 740> mark @top;
+      pos base Alphatonos
+          <anchor 311 740> mark @top;
+      pos base Aring.sc
+          <anchor 284 780> mark @top;
+      pos base Atilde.sc
+          <anchor 304 768> mark @top;
+      pos base Eacute.sc
+          <anchor 249 750> mark @top;
+      pos base Ecircumflex.sc
+          <anchor 270 740> mark @top;
+      pos base Ecircumflexacute
+          <anchor 316 1116> mark @top;
+      pos base Ecircumflexdotbelow
+          <anchor 312 938> mark @top;
+      pos base Ecircumflextilde
+          <anchor 334 1126> mark @top;
+      pos base Edieresis.sc
+          <anchor 272 720> mark @top;
+      pos base Edotbelow
+          <anchor 311 740> mark @top;
+      pos base Epsilontonos
+          <anchor 311 740> mark @top;
+      pos base Etilde
+          <anchor 333 928> mark @top;
+      pos base Gacute
+          <anchor 357 920> mark @top;
+      pos base Hcaron
+          <anchor 399 860> mark @top;
+      pos base Iacute.sc
+          <anchor 144 750> mark @top;
+      pos base Icircumflex.sc
+          <anchor 165 740> mark @top;
+      pos base Idieresis.sc
+          <anchor 167 720> mark @top;
+      pos base Iotadieresis
+          <anchor 174 900> mark @top;
+      pos base Ntilde.sc
+          <anchor 346 730> mark @top;
+      pos base Oacute.sc
+          <anchor 295 750> mark @top;
+      pos base Obreve.sc
+          <anchor 316 710> mark @top;
+      pos base Ocircumflex.sc
+          <anchor 316 740> mark @top;
+      pos base Ocircumflexacute
+          <anchor 385 1120> mark @top;
+      pos base Ocircumflexdotbelow
+          <anchor 381 942> mark @top;
+      pos base Ocircumflextilde
+          <anchor 403 1130> mark @top;
+      pos base Odieresis.sc
+          <anchor 318 720> mark @top;
+      pos base Ohornacute
+          <anchor 371 920> mark @top;
+      pos base Ohorntilde
+          <anchor 388 932> mark @top;
+      pos base Omacron.sc
+          <anchor 316 709> mark @top;
+      pos base Otilde.sc
+          <anchor 323 730> mark @top;
+      pos base Racute.sc
+          <anchor 260 750> mark @top;
+      pos base Rcaron.sc
+          <anchor 281 690> mark @top;
+      pos base Sacute.sc
+          <anchor 210 750> mark @top;
+      pos base Scaron.sc
+          <anchor 231 690> mark @top;
+      pos base Scircumflex.sc
+          <anchor 231 740> mark @top;
+      pos base Tcaron.sc
+          <anchor 262 690> mark @top;
+      pos base Uacute.sc
+          <anchor 317 750> mark @top;
+      pos base Ubreve.sc
+          <anchor 338 710> mark @top;
+      pos base Ucircumflex.sc
+          <anchor 338 740> mark @top;
+      pos base Udieresis.sc
+          <anchor 340 720> mark @top;
+      pos base Uhornacute
+          <anchor 385 920> mark @top;
+      pos base Uhorntilde
+          <anchor 402 932> mark @top;
+      pos base Umacron.sc
+          <anchor 338 709> mark @top;
+      pos base Upsilondieresis
+          <anchor 294 900> mark @top;
+      pos base Uring.sc
+          <anchor 338 780> mark @top;
+      pos base Wcircumflex.sc
+          <anchor 412 740> mark @top;
+      pos base Yacute.sc
+          <anchor 237 750> mark @top;
+      pos base Ydieresis.sc
+          <anchor 260 720> mark @top;
+      pos base Zacute.sc
+          <anchor 246 750> mark @top;
+      pos base Zcaron.sc
+          <anchor 267 690> mark @top;
+      pos base Zdotaccent.sc
+          <anchor 267 740> mark @top;
+      pos base aacute.sc
+          <anchor 263 750> mark @top;
+      pos base abreve.sc
+          <anchor 282 710> mark @top;
+      pos base abreveacute
+          <anchor 310 918> mark @top;
+      pos base abrevedotbelow
+          <anchor 261 710> mark @top;
+      pos base abrevetilde
+          <anchor 283 898> mark @top;
+      pos base acircumflexacute
+          <anchor 310 948> mark @top;
+      pos base acircumflexdotbelow
+          <anchor 261 740> mark @top;
+      pos base acircumflextilde
+          <anchor 283 928> mark @top;
+      pos base amacron.sc
+          <anchor 282 709> mark @top;
+      pos base dieresistonos
+          <anchor 179 750> mark @top;
+      pos base ecircumflexacute
+          <anchor 306 948> mark @top;
+      pos base ecircumflexdotbelow
+          <anchor 257 740> mark @top;
+      pos base ecircumflextilde
+          <anchor 279 928> mark @top;
+      pos base etilde
+          <anchor 264 730> mark @top;
+      pos base gacute
+          <anchor 246 580> mark @top;
+      pos base hcaron
+          <anchor 307 919> mark @top;
+      pos base iotadieresis
+          <anchor 121 683> mark @top;
+      pos base ocaron
+          <anchor 289 550> mark @top;
+      pos base ocircumflexacute
+          <anchor 339 956> mark @top;
+      pos base ocircumflexdotbelow
+          <anchor 290 748> mark @top;
+      pos base ocircumflextilde
+          <anchor 312 936> mark @top;
+      pos base odotbelow
+          <anchor 289 550> mark @top;
+      pos base ohornacute
+          <anchor 267 750> mark @top;
+      pos base ohorntilde
+          <anchor 295 730> mark @top;
+      pos base ucaron
+          <anchor 310 542> mark @top;
+      pos base udotbelow
+          <anchor 310 542> mark @top;
+      pos base uhornacute
+          <anchor 282 750> mark @top;
+      pos base uhorntilde
+          <anchor 310 730> mark @top;
+      pos base uni03D4
+          <anchor 330 922> mark @top;
+      pos base uni0401.sc
+          <anchor 272 720> mark @top;
+      pos base uni0407.sc
+          <anchor 167 720> mark @top;
+      pos base uni0410.sc
+          <anchor 282 580> mark @top;
+      pos base uni0413.sc
+          <anchor 251 580> mark @top;
+      pos base uni0415.sc
+          <anchor 273 580> mark @top;
+      pos base uni0416.sc
+          <anchor 453 580> mark @top;
+      pos base uni0417.sc
+          <anchor 272 580> mark @top;
+      pos base uni0438.loclBGR
+          <anchor 310 542> mark @top;
+      pos base uni0418.sc
+          <anchor 348 580> mark @top;
+      pos base uni041A.sc
+          <anchor 321 580> mark @top;
+      pos base uni0423.sc
+          <anchor 339 580> mark @top;
+      pos base uni0427.sc
+          <anchor 326 580> mark @top;
+      pos base uni0473.sc
+          <anchor 317 580> mark @top;
+      pos base uni04D3.sc
+          <anchor 282 730> mark @top;
+      pos base uni04DD.sc
+          <anchor 453 730> mark @top;
+      pos base uni04DF.sc
+          <anchor 272 730> mark @top;
+      pos base uni04E3.sc
+          <anchor 348 709> mark @top;
+      pos base uni04E5.sc
+          <anchor 348 730> mark @top;
+      pos base uni04E7.sc
+          <anchor 318 720> mark @top;
+      pos base uni04E9.sc
+          <anchor 317 580> mark @top;
+      pos base uni04EB.sc
+          <anchor 317 730> mark @top;
+      pos base uni04ED.sc
+          <anchor 276 720> mark @top;
+      pos base uni04EF.sc
+          <anchor 339 709> mark @top;
+      pos base uni04F1.sc
+          <anchor 339 730> mark @top;
+      pos base uni04F5.sc
+          <anchor 326 730> mark @top;
+      pos base uni04F9.sc
+          <anchor 411 720> mark @top;
+      pos base uni1E1C
+          <anchor 311 870> mark @top;
+      pos base uni1E1D
+          <anchor 257 710> mark @top;
+      pos base uni1E29
+          <anchor 307 770> mark @top;
+      pos base uni1E64
+          <anchor 260 1100> mark @top;
+      pos base uni1E65
+          <anchor 197 930> mark @top;
+      pos base uni1E66
+          <anchor 270 1040> mark @top;
+      pos base uni1E67
+          <anchor 218 870> mark @top;
+      pos base uni1E78
+          <anchor 406 1110> mark @top;
+      pos base uni1E79
+          <anchor 381 938> mark @top;
+      pos base uni1E7A
+          <anchor 395 1034> mark @top;
+      pos base uni1E7B
+          <anchor 310 821> mark @top;
+      pos base uni1F00
+          <anchor 262 533> mark @top;
+      pos base uni1F01
+          <anchor 262 533> mark @top;
+      pos base uni1F02
+          <anchor 262 533> mark @top;
+      pos base uni1F03
+          <anchor 262 533> mark @top;
+      pos base uni1F04
+          <anchor 262 533> mark @top;
+      pos base uni1F05
+          <anchor 262 533> mark @top;
+      pos base uni1F06
+          <anchor 262 533> mark @top;
+      pos base uni1F07
+          <anchor 262 533> mark @top;
+      pos base uni1F08
+          <anchor 311 740> mark @top;
+      pos base uni1F09
+          <anchor 311 740> mark @top;
+      pos base uni1F0A
+          <anchor 311 740> mark @top;
+      pos base uni1F0B
+          <anchor 311 740> mark @top;
+      pos base uni1F0C
+          <anchor 311 740> mark @top;
+      pos base uni1F0D
+          <anchor 311 740> mark @top;
+      pos base uni1F0E
+          <anchor 311 740> mark @top;
+      pos base uni1F0F
+          <anchor 311 740> mark @top;
+      pos base uni1F10
+          <anchor 240 533> mark @top;
+      pos base uni1F11
+          <anchor 240 533> mark @top;
+      pos base uni1F12
+          <anchor 240 533> mark @top;
+      pos base uni1F13
+          <anchor 240 533> mark @top;
+      pos base uni1F14
+          <anchor 240 533> mark @top;
+      pos base uni1F15
+          <anchor 240 533> mark @top;
+      pos base uni1F18
+          <anchor 311 740> mark @top;
+      pos base uni1F19
+          <anchor 311 740> mark @top;
+      pos base uni1F1A
+          <anchor 311 740> mark @top;
+      pos base uni1F1B
+          <anchor 311 740> mark @top;
+      pos base uni1F1C
+          <anchor 311 740> mark @top;
+      pos base uni1F1D
+          <anchor 311 740> mark @top;
+      pos base uni1F20
+          <anchor 286 533> mark @top;
+      pos base uni1F21
+          <anchor 286 533> mark @top;
+      pos base uni1F22
+          <anchor 286 533> mark @top;
+      pos base uni1F23
+          <anchor 286 533> mark @top;
+      pos base uni1F24
+          <anchor 286 533> mark @top;
+      pos base uni1F25
+          <anchor 286 533> mark @top;
+      pos base uni1F26
+          <anchor 286 533> mark @top;
+      pos base uni1F27
+          <anchor 286 533> mark @top;
+      pos base uni1F30
+          <anchor 121 533> mark @top;
+      pos base uni1F31
+          <anchor 121 533> mark @top;
+      pos base uni1F32
+          <anchor 121 533> mark @top;
+      pos base uni1F33
+          <anchor 121 533> mark @top;
+      pos base uni1F34
+          <anchor 121 533> mark @top;
+      pos base uni1F35
+          <anchor 121 533> mark @top;
+      pos base uni1F36
+          <anchor 121 533> mark @top;
+      pos base uni1F37
+          <anchor 121 533> mark @top;
+      pos base uni1F40
+          <anchor 289 533> mark @top;
+      pos base uni1F41
+          <anchor 289 533> mark @top;
+      pos base uni1F42
+          <anchor 289 533> mark @top;
+      pos base uni1F43
+          <anchor 289 533> mark @top;
+      pos base uni1F44
+          <anchor 289 533> mark @top;
+      pos base uni1F45
+          <anchor 289 533> mark @top;
+      pos base uni1F50
+          <anchor 276 533> mark @top;
+      pos base uni1F51
+          <anchor 276 533> mark @top;
+      pos base uni1F52
+          <anchor 276 533> mark @top;
+      pos base uni1F53
+          <anchor 276 533> mark @top;
+      pos base uni1F54
+          <anchor 276 533> mark @top;
+      pos base uni1F55
+          <anchor 276 533> mark @top;
+      pos base uni1F56
+          <anchor 276 533> mark @top;
+      pos base uni1F57
+          <anchor 276 533> mark @top;
+      pos base uni1F71
+          <anchor 311 741> mark @top;
+      pos base uni1F7D
+          <anchor 361 750> mark @top;
+      pos base uni1F80
+          <anchor 262 533> mark @top;
+      pos base uni1F81
+          <anchor 262 533> mark @top;
+      pos base uni1F82
+          <anchor 262 533> mark @top;
+      pos base uni1F83
+          <anchor 262 533> mark @top;
+      pos base uni1F84
+          <anchor 262 533> mark @top;
+      pos base uni1F85
+          <anchor 262 533> mark @top;
+      pos base uni1F86
+          <anchor 262 533> mark @top;
+      pos base uni1F87
+          <anchor 262 533> mark @top;
+      pos base uni1F88
+          <anchor 311 740> mark @top;
+      pos base uni1F89
+          <anchor 311 740> mark @top;
+      pos base uni1F8A
+          <anchor 311 740> mark @top;
+      pos base uni1F8B
+          <anchor 311 740> mark @top;
+      pos base uni1F8C
+          <anchor 311 740> mark @top;
+      pos base uni1F8D
+          <anchor 311 740> mark @top;
+      pos base uni1F8E
+          <anchor 311 740> mark @top;
+      pos base uni1F8F
+          <anchor 311 740> mark @top;
+      pos base uni1F90
+          <anchor 286 580> mark @top;
+      pos base uni1F91
+          <anchor 286 533> mark @top;
+      pos base uni1F92
+          <anchor 286 533> mark @top;
+      pos base uni1F93
+          <anchor 286 533> mark @top;
+      pos base uni1F94
+          <anchor 286 533> mark @top;
+      pos base uni1F95
+          <anchor 286 533> mark @top;
+      pos base uni1F96
+          <anchor 286 533> mark @top;
+      pos base uni1F97
+          <anchor 286 533> mark @top;
+      pos base uni1FB0
+          <anchor 262 663> mark @top;
+      pos base uni1FB1
+          <anchor 262 662> mark @top;
+      pos base uni1FB8
+          <anchor 311 870> mark @top;
+      pos base uni1FB9
+          <anchor 311 846> mark @top;
+      pos base uni1FBB
+          <anchor 315 918> mark @top;
+      pos base uni1FBC
+          <anchor 311 740> mark @top;
+      pos base uni1FC3
+          <anchor 286 533> mark @top;
+      pos base uni1FC9
+          <anchor 311 740> mark @top;
+      pos base uni1FD0
+          <anchor 121 663> mark @top;
+      pos base uni1FD1
+          <anchor 121 662> mark @top;
+      pos base uni1FD2
+          <anchor 121 533> mark @top;
+      pos base uni1FD3
+          <anchor 121 533> mark @top;
+      pos base uni1FD8
+          <anchor 174 912> mark @top;
+      pos base uni1FD9
+          <anchor 174 866> mark @top;
+      pos base uni1FDB
+          <anchor 164 920> mark @top;
+      pos base uni1FE0
+          <anchor 276 663> mark @top;
+      pos base uni1FE1
+          <anchor 276 662> mark @top;
+      pos base uni1FE2
+          <anchor 276 533> mark @top;
+      pos base uni1FE3
+          <anchor 276 533> mark @top;
+      pos base uni1FE7
+          <anchor 276 533> mark @top;
+      pos base uni1FE8
+          <anchor 294 912> mark @top;
+      pos base uni1FE9
+          <anchor 294 866> mark @top;
+      pos base uni217C
+          <anchor 127 760> mark @top;
+      pos base Ccaron.sc
+          <anchor 284 690> mark @top;
+      pos base Dcaron.sc
+          <anchor 326 690> mark @top;
+      pos base Ebreve.sc
+          <anchor 270 710> mark @top;
+      pos base Ecaron.sc
+          <anchor 270 690> mark @top;
+      pos base Emacron.sc
+          <anchor 270 709> mark @top;
+      pos base Ibreve.sc
+          <anchor 165 710> mark @top;
+      pos base Imacron.sc
+          <anchor 165 709> mark @top;
+      pos base Itilde.sc
+          <anchor 172 730> mark @top;
+      pos base Jcircumflex.sc
+          <anchor 168 740> mark @top;
+      pos base Lacute.sc
+          <anchor 237 750> mark @top;
+      pos base Nacute.sc
+          <anchor 318 750> mark @top;
+      pos base Ncaron.sc
+          <anchor 339 690> mark @top;
+      pos base Ycircumflex.sc
+          <anchor 258 740> mark @top;
+      pos base A.sc
+          <anchor 282 580> mark @top;
+      pos base upsilondieresis
+          <anchor 276 683> mark @top;
+      pos base wacute.sc
+          <anchor 391 750> mark @top;
+      pos base wdieresis.sc
+          <anchor 414 720> mark @top;
+      pos base deltamod
+          <anchor 288 908> mark @top;
+      pos base thetamod
+          <anchor 265 706> mark @top;
+      pos base dotaccent.cap
+          <anchor 112 942> mark @top;
+      pos base ring.case
+          <anchor 112 982> mark @top;
+      pos base fl.cv01
+          <anchor 446 760> mark @top;
+      pos base Aemod
+          <anchor 311 740> mark @top;
+  } markLTR2;
+
+  lookup markLTR3 {
+      pos base C
+          <anchor 399 10> mark @cedilla;
+      pos base Cacute
+          <anchor 399 10> mark @cedilla;
+      pos base Ccaron
+          <anchor 399 10> mark @cedilla;
+      pos base Ccircumflex
+          <anchor 399 10> mark @cedilla;
+      pos base Cdotaccent
+          <anchor 399 10> mark @cedilla;
+      pos base Eta
+          <anchor 176 0> mark @cedilla;
+      pos base H
+          <anchor 176 0> mark @cedilla;
+      pos base Hcircumflex
+          <anchor 176 0> mark @cedilla;
+      pos base S
+          <anchor 261 0> mark @cedilla;
+      pos base Sacute
+          <anchor 261 0> mark @cedilla;
+      pos base Scaron
+          <anchor 261 0> mark @cedilla;
+      pos base Scircumflex
+          <anchor 261 0> mark @cedilla;
+      pos base Scommaaccent
+          <anchor 261 0> mark @cedilla;
+      pos base c
+          <anchor 281 0> mark @cedilla;
+      pos base cacute
+          <anchor 281 0> mark @cedilla;
+      pos base ccaron
+          <anchor 281 0> mark @cedilla;
+      pos base ccircumflex
+          <anchor 281 0> mark @cedilla;
+      pos base cdotaccent
+          <anchor 281 0> mark @cedilla;
+      pos base h
+          <anchor 142 0> mark @cedilla;
+      pos base hcircumflex
+          <anchor 142 0> mark @cedilla;
+      pos base s
+          <anchor 218 0> mark @cedilla;
+      pos base sacute
+          <anchor 218 0> mark @cedilla;
+      pos base scaron
+          <anchor 218 0> mark @cedilla;
+      pos base scircumflex
+          <anchor 218 0> mark @cedilla;
+      pos base scommaaccent
+          <anchor 218 0> mark @cedilla;
+      pos base uni0405
+          <anchor 261 0> mark @cedilla;
+      pos base uni041D
+          <anchor 176 0> mark @cedilla;
+      pos base uni0421
+          <anchor 399 10> mark @cedilla;
+      pos base uni0441
+          <anchor 281 0> mark @cedilla;
+      pos base uni04BB
+          <anchor 142 0> mark @cedilla;
+      pos base uni1E22
+          <anchor 176 0> mark @cedilla;
+      pos base uni1E23
+          <anchor 142 0> mark @cedilla;
+      pos base uni1E24
+          <anchor 176 0> mark @cedilla;
+      pos base uni1E25
+          <anchor 142 0> mark @cedilla;
+      pos base uni1E26
+          <anchor 176 0> mark @cedilla;
+      pos base uni1E27
+          <anchor 142 0> mark @cedilla;
+      pos base uni1E2A
+          <anchor 176 0> mark @cedilla;
+      pos base uni1E60
+          <anchor 261 0> mark @cedilla;
+      pos base uni1E61
+          <anchor 218 0> mark @cedilla;
+      pos base uni1E62
+          <anchor 261 0> mark @cedilla;
+      pos base uni1E63
+          <anchor 218 0> mark @cedilla;
+      pos base uni1E68
+          <anchor 261 0> mark @cedilla;
+      pos base uni1E69
+          <anchor 218 0> mark @cedilla;
+      pos base uni1E96
+          <anchor 142 0> mark @cedilla;
+      pos base Etatonos
+          <anchor 176 0> mark @cedilla;
+      pos base Hcaron
+          <anchor 176 0> mark @cedilla;
+      pos base hcaron
+          <anchor 142 0> mark @cedilla;
+      pos base uni1E64
+          <anchor 261 0> mark @cedilla;
+      pos base uni1E65
+          <anchor 218 0> mark @cedilla;
+      pos base uni1E66
+          <anchor 261 0> mark @cedilla;
+      pos base uni1E67
+          <anchor 218 0> mark @cedilla;
+      pos base uni1F28
+          <anchor 176 0> mark @cedilla;
+      pos base uni1F29
+          <anchor 176 0> mark @cedilla;
+      pos base uni1F2A
+          <anchor 176 0> mark @cedilla;
+      pos base uni1F2B
+          <anchor 176 0> mark @cedilla;
+      pos base uni1F2C
+          <anchor 176 0> mark @cedilla;
+      pos base uni1F2D
+          <anchor 176 0> mark @cedilla;
+      pos base uni1F2E
+          <anchor 176 0> mark @cedilla;
+      pos base uni1F2F
+          <anchor 176 0> mark @cedilla;
+      pos base uni1F98
+          <anchor 176 0> mark @cedilla;
+      pos base uni1F99
+          <anchor 176 0> mark @cedilla;
+      pos base uni1F9A
+          <anchor 176 0> mark @cedilla;
+      pos base uni1F9B
+          <anchor 176 0> mark @cedilla;
+      pos base uni1F9C
+          <anchor 176 0> mark @cedilla;
+      pos base uni1F9D
+          <anchor 176 0> mark @cedilla;
+      pos base uni1F9E
+          <anchor 176 0> mark @cedilla;
+      pos base uni1F9F
+          <anchor 176 0> mark @cedilla;
+      pos base uni1FCA
+          <anchor 176 0> mark @cedilla;
+      pos base uni1FCB
+          <anchor 176 0> mark @cedilla;
+      pos base uni1FCC
+          <anchor 176 0> mark @cedilla;
+      pos base uni216D
+          <anchor 399 10> mark @cedilla;
+      pos base uni217D
+          <anchor 281 0> mark @cedilla;
+      pos base uni2180
+          <anchor 399 10> mark @cedilla;
+      pos base uni2183
+          <anchor 285 10> mark @cedilla;
+      pos base uni04AA.loclBSH
+          <anchor 399 10> mark @cedilla;
+      pos base uni04AB.loclBSH
+          <anchor 281 0> mark @cedilla;
+      pos base creversed
+          <anchor 215 0> mark @cedilla;
+  } markLTR3;
+
+  lookup markLTR4 {
+      pos base I
+          <anchor 175 -68> mark @bottom;
+      pos base Iacute
+          <anchor 175 -68> mark @bottom;
+      pos base Ibreve
+          <anchor 175 -68> mark @bottom;
+      pos base Icircumflex
+          <anchor 175 -68> mark @bottom;
+      pos base Idieresis
+          <anchor 175 -68> mark @bottom;
+      pos base Idotaccent
+          <anchor 175 -68> mark @bottom;
+      pos base Igrave
+          <anchor 175 -68> mark @bottom;
+      pos base Imacron
+          <anchor 175 -68> mark @bottom;
+      pos base Iogonek
+          <anchor 175 -68> mark @bottom;
+      pos base Iota
+          <anchor 175 -68> mark @bottom;
+      pos base Itilde
+          <anchor 175 -68> mark @bottom;
+      pos base uni0208
+          <anchor 175 -68> mark @bottom;
+      pos base uni020A
+          <anchor 175 -68> mark @bottom;
+      pos base uni0406
+          <anchor 175 -68> mark @bottom;
+      pos base uni0407
+          <anchor 175 -68> mark @bottom;
+      pos base uni042B
+          <anchor 813 -68> mark @bottom;
+      pos base uni04C0
+          <anchor 175 -68> mark @bottom;
+      pos base uni04F8
+          <anchor 813 -68> mark @bottom;
+      pos base Icaron
+          <anchor 175 -68> mark @bottom;
+      pos base Idotbelow
+          <anchor 175 -68> mark @bottom;
+      pos base Ihookabove
+          <anchor 175 -68> mark @bottom;
+      pos base Iotadieresis
+          <anchor 175 -68> mark @bottom;
+      pos base Iotatonos
+          <anchor 175 -68> mark @bottom;
+      pos base uni1E2E
+          <anchor 175 -68> mark @bottom;
+      pos base uni1F38
+          <anchor 175 -68> mark @bottom;
+      pos base uni1F39
+          <anchor 175 -68> mark @bottom;
+      pos base uni1F3A
+          <anchor 175 -68> mark @bottom;
+      pos base uni1F3B
+          <anchor 175 -68> mark @bottom;
+      pos base uni1F3C
+          <anchor 175 -68> mark @bottom;
+      pos base uni1F3D
+          <anchor 175 -68> mark @bottom;
+      pos base uni1F3E
+          <anchor 175 -68> mark @bottom;
+      pos base uni1F3F
+          <anchor 175 -68> mark @bottom;
+      pos base uni1FD8
+          <anchor 175 -68> mark @bottom;
+      pos base uni1FD9
+          <anchor 175 -68> mark @bottom;
+      pos base uni1FDA
+          <anchor 175 -68> mark @bottom;
+      pos base uni1FDB
+          <anchor 175 -68> mark @bottom;
+      pos base uni2160
+          <anchor 175 -68> mark @bottom;
+      pos base uni2161
+          <anchor 524 -68> mark @bottom;
+      pos base uni2162
+          <anchor 873 -68> mark @bottom;
+      pos base uni2163
+          <anchor 175 -68> mark @bottom;
+      pos base uni2165
+          <anchor 809 -68> mark @bottom;
+      pos base uni2166
+          <anchor 1158 -68> mark @bottom;
+      pos base uni2167
+          <anchor 1507 -68> mark @bottom;
+      pos base uni2168
+          <anchor 175 -68> mark @bottom;
+      pos base uni216A
+          <anchor 799 -68> mark @bottom;
+      pos base uni216B
+          <anchor 1148 -68> mark @bottom;
+  } markLTR4;
+
+  lookup markLTR5 {
+      pos base L
+          <anchor 382 379> mark @dot;
+      pos base Lacute
+          <anchor 382 379> mark @dot;
+      pos base Lcaron
+          <anchor 382 379> mark @dot;
+      pos base uni01C7
+          <anchor 382 379> mark @dot;
+      pos base uni01C8
+          <anchor 382 379> mark @dot;
+      pos base uni1E36
+          <anchor 382 379> mark @dot;
+      pos base uni1E38
+          <anchor 382 379> mark @dot;
+      pos base uni1E3A
+          <anchor 382 379> mark @dot;
+      pos base uni1E3C
+          <anchor 382 379> mark @dot;
+      pos base Lcedilla
+          <anchor 382 379> mark @dot;
+      pos base uni216C
+          <anchor 382 379> mark @dot;
+  } markLTR5;
+
+  lookup markLTR6 {
+      pos base L
+          <anchor 497 742> mark @quote;
+      pos base Lacute
+          <anchor 497 742> mark @quote;
+      pos base Ldot
+          <anchor 497 742> mark @quote;
+      pos base d
+          <anchor 617 742> mark @quote;
+      pos base dcaron
+          <anchor 617 742> mark @quote;
+      pos base uni01C6
+          <anchor 617 742> mark @quote;
+      pos base uni01C7
+          <anchor 497 742> mark @quote;
+      pos base uni01C8
+          <anchor 497 742> mark @quote;
+      pos base uni01F3
+          <anchor 617 742> mark @quote;
+      pos base uni1E0B
+          <anchor 617 742> mark @quote;
+      pos base uni1E0D
+          <anchor 617 742> mark @quote;
+      pos base uni1E0F
+          <anchor 617 742> mark @quote;
+      pos base uni1E11
+          <anchor 617 742> mark @quote;
+      pos base uni1E13
+          <anchor 617 742> mark @quote;
+      pos base uni1E36
+          <anchor 497 742> mark @quote;
+      pos base uni1E38
+          <anchor 497 742> mark @quote;
+      pos base uni1E3A
+          <anchor 497 742> mark @quote;
+      pos base uni1E3C
+          <anchor 497 742> mark @quote;
+      pos base Lcedilla
+          <anchor 497 742> mark @quote;
+      pos base uni216C
+          <anchor 497 742> mark @quote;
+      pos base uni217E
+          <anchor 617 742> mark @quote;
+  } markLTR6;
+
+  lookup markLTR7 {
+      pos base alpha
+          <anchor 204 -60> mark @bottom.jota;
+      pos base eta
+          <anchor 118 -50> mark @bottom.jota;
+      pos base alphatonos
+          <anchor 204 -60> mark @bottom.jota;
+      pos base etatonos
+          <anchor 118 -50> mark @bottom.jota;
+      pos base uni1F00
+          <anchor 204 -60> mark @bottom.jota;
+      pos base uni1F01
+          <anchor 204 -60> mark @bottom.jota;
+      pos base uni1F02
+          <anchor 204 -60> mark @bottom.jota;
+      pos base uni1F03
+          <anchor 204 -60> mark @bottom.jota;
+      pos base uni1F04
+          <anchor 204 -60> mark @bottom.jota;
+      pos base uni1F05
+          <anchor 204 -60> mark @bottom.jota;
+      pos base uni1F06
+          <anchor 204 -60> mark @bottom.jota;
+      pos base uni1F07
+          <anchor 204 -60> mark @bottom.jota;
+      pos base uni1F20
+          <anchor 118 -50> mark @bottom.jota;
+      pos base uni1F21
+          <anchor 118 -50> mark @bottom.jota;
+      pos base uni1F22
+          <anchor 118 -50> mark @bottom.jota;
+      pos base uni1F23
+          <anchor 118 -50> mark @bottom.jota;
+      pos base uni1F24
+          <anchor 118 -50> mark @bottom.jota;
+      pos base uni1F25
+          <anchor 118 -50> mark @bottom.jota;
+      pos base uni1F26
+          <anchor 118 -50> mark @bottom.jota;
+      pos base uni1F27
+          <anchor 118 -50> mark @bottom.jota;
+      pos base uni1F70
+          <anchor 204 -60> mark @bottom.jota;
+      pos base uni1F71
+          <anchor 204 -60> mark @bottom.jota;
+      pos base uni1F74
+          <anchor 118 -50> mark @bottom.jota;
+      pos base uni1F75
+          <anchor 118 -50> mark @bottom.jota;
+      pos base uni1F90
+          <anchor 118 -50> mark @bottom.jota;
+      pos base uni1FB0
+          <anchor 204 -60> mark @bottom.jota;
+      pos base uni1FB1
+          <anchor 204 -60> mark @bottom.jota;
+      pos base uni1FB3
+          <anchor 204 -60> mark @bottom.jota;
+      pos base uni1FB6
+          <anchor 204 -60> mark @bottom.jota;
+      pos base uni1FC6
+          <anchor 118 -50> mark @bottom.jota;
+  } markLTR7;
+
+  lookup markLTR1;
+  lookup markLTR2;
+  lookup markLTR3;
+  lookup markLTR4;
+  lookup markLTR5;
+  lookup markLTR6;
+  lookup markLTR7;
+} mark;
+feature mkmk {
+# GPOS feature : Mark to Mark Positioning
+#    markClass acutecomb <anchor -230 542> @top;
+#    markClass dotaccent <anchor 200 580> @top;
+#    markClass gravecomb <anchor -186 542> @top;
+#    markClass hookabovecomb <anchor -215 580> @top;
+#    markClass quoteleft <anchor 139 478> @top;
+#    markClass tildecomb <anchor -217 542> @top;
+#    markClass uni0300.cap <anchor -262 742> @top;
+#    markClass uni0301.cap <anchor -138 742> @top;
+#    markClass uni0307 <anchor 0 560> @top;
+#    markClass uni0308 <anchor -214 570> @top;
+#    markClass uni030B <anchor 0 520> @top;
+#    markClass uni030C.cap <anchor -200 723> @top;
+#    markClass uni030F <anchor 0 520> @top;
+#    markClass uni0311 <anchor 0 580> @top;
+#    markClass brevecyr.cap <anchor 402 748> @top;
+#    markClass brevecyr <anchor 316 568> @top;
+#    markClass acute.cap <anchor 226 742> @top;
+#    markClass uni0306 <anchor 0 580> @top;
+#    markClass uni030C <anchor -293 541> @top;
+#    markClass uni0302 <anchor -300 542> @top;
+#    markClass dieresis.cap <anchor 200 732> @top;
+#    markClass grave.cap <anchor 159 742> @top;
+#    markClass macron.cap <anchor 200 760> @top;
+#    markClass uni0304 <anchor 0 580> @top;
+#    markClass tonos <anchor 183 533> @top;
+#    markClass uni0342 <anchor -240 555> @top;
+
+  lookup mkmkLTR {
+      pos mark acutecomb
+          <anchor -181 750> mark @top;
+      pos mark dotaccent
+          <anchor 200 740> mark @top;
+      pos mark tildecomb
+          <anchor -195 730> mark @top;
+      pos mark uni0307
+          <anchor 0 740> mark @top;
+      pos mark uni0308
+          <anchor -214 720> mark @top;
+      pos mark uni030A.cap
+          <anchor -200 940> mark @top;
+      pos mark uni030C.cap
+          <anchor -200 860> mark @top;
+      pos mark acute.cap
+          <anchor 230 920> mark @top;
+      pos mark uni0306
+          <anchor 0 710> mark @top;
+      pos mark uni030C
+          <anchor -293 690> mark @top;
+      pos mark uni0302
+          <anchor -299 740> mark @top;
+      pos mark dieresis.cap
+          <anchor 200 900> mark @top;
+      pos mark macron.cap
+          <anchor 200 866> mark @top;
+      pos mark uni0304
+          <anchor 0 709> mark @top;
+      pos mark uni030A
+          <anchor 0 780> mark @top;
+  } mkmkLTR;
+
+  lookup mkmkLTR;
+} mkmk;

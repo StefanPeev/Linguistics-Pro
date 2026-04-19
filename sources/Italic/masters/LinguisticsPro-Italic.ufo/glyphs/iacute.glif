@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="iacute" format="2">
+  <advance width="317"/>
+  <unicode hex="00ED"/>
+  <anchor x="253" y="748" name="top"/>
+  <anchor x="265" y="540" name="t.grave"/>
+  <outline>
+    <component base="dotlessi"/>
+    <component base="uni0301" xOffset="285" yOffset="-2"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.autolayer</key>
+  <true/>
+  <key>com.fontlab.recipe</key>
+  <string>dotlessi+uni0301</string>
+  <key>public.markColor</key>
+  <string>0.6,0.997,1,1</string>
+  </dict>
+  </lib>
+</glyph>

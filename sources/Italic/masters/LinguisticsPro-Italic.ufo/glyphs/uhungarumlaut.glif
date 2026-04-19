@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uhungarumlaut" format="2">
+  <advance width="618"/>
+  <unicode hex="0171"/>
+  <anchor x="365" y="540" name="t.grave"/>
+  <anchor x="475" y="540" name="t.acute"/>
+  <anchor x="505" y="0" name="ogonek"/>
+  <outline>
+    <component base="u"/>
+    <component base="uni030B" xOffset="484" yOffset="-2"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.autolayer</key>
+  <true/>
+  <key>com.fontlab.recipe</key>
+  <string>u+uni030B</string>
+  <key>public.markColor</key>
+  <string>0.6,0.997,1,1</string>
+  </dict>
+  </lib>
+</glyph>

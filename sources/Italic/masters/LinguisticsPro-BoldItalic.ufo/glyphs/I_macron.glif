@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Imacron" format="2">
+  <advance width="386"/>
+  <unicode hex="012A"/>
+  <outline>
+    <contour>
+      <point x="40" y="0" type="line"/>
+      <point x="352" y="0" type="line"/>
+      <point x="361" y="38" type="line"/>
+      <point x="311" y="42" type="line"/>
+      <point x="283" y="45"/>
+      <point x="284" y="62"/>
+      <point x="292" y="98" type="curve"/>
+      <point x="292" y="98" type="line"/>
+      <point x="403" y="594" type="line" smooth="yes"/>
+      <point x="411" y="630"/>
+      <point x="418" y="648"/>
+      <point x="447" y="650" type="curve" smooth="yes"/>
+      <point x="491" y="654" type="line"/>
+      <point x="501" y="692" type="line"/>
+      <point x="189" y="692" type="line"/>
+      <point x="179" y="654" type="line"/>
+      <point x="230" y="649" type="line"/>
+      <point x="258" y="647"/>
+      <point x="257" y="630"/>
+      <point x="249" y="594" type="curve"/>
+      <point x="249" y="594" type="line"/>
+      <point x="138" y="98" type="line" smooth="yes"/>
+      <point x="130" y="62"/>
+      <point x="123" y="44"/>
+      <point x="94" y="42" type="curve" smooth="yes"/>
+      <point x="49" y="38" type="line"/>
+    </contour>
+    <contour>
+      <point x="192" y="770" type="line"/>
+      <point x="542" y="770" type="line"/>
+      <point x="560" y="847" type="line"/>
+      <point x="210" y="847" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.postscript.hints</key>
+  <dict>
+    <key>formatVersion</key>
+    <string>1</string>
+    <key>id</key>
+    <string>dd73ef62cf308f8d0b8e85ca18dc5997d70447a703b538ddfdc9a1c4c4bbde3b4fec2f29bbf06ac91702ebe6397a79f3c26118ec6fb56e896d1dcf3bf48dbf81</string>
+    <key>hintSetList</key>
+    <array>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem 0 38</string>
+          <string>hstem 654 38</string>
+          <string>hstem 770 77</string>
+        </array>
+      </dict>
+    </array>
+  </dict>
+  </dict>
+  </lib>
+</glyph>

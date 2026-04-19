@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="dieresistonos" format="2">
+  <advance width="348"/>
+  <unicode hex="0385"/>
+  <anchor x="296" y="566" name="_top"/>
+  <outline>
+    <component base="dieresis" xOffset="-14"/>
+    <contour>
+      <point x="290.448" y="635.085" type="line"/>
+      <point x="313.877" y="628.193" type="line"/>
+      <point x="389" y="734" type="line" smooth="yes"/>
+      <point x="398.235" y="747.008"/>
+      <point x="402.881" y="761.547"/>
+      <point x="402.881" y="774.275" type="curve" smooth="yes"/>
+      <point x="402.881" y="795.284"/>
+      <point x="391.026" y="807.341"/>
+      <point x="368.681" y="807.524" type="curve" smooth="yes"/>
+      <point x="344.272" y="807.724"/>
+      <point x="320.459" y="793.411"/>
+      <point x="317.875" y="779.783" type="curve" smooth="yes"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.recipe</key>
+  <string>dieresis+uni0301</string>
+  <key>public.markColor</key>
+  <string>0.6,0.602,1,1</string>
+  </dict>
+  </lib>
+</glyph>

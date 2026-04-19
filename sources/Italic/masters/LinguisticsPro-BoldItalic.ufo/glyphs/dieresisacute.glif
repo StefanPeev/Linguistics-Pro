@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="dieresisacute" format="2">
+  <advance width="437"/>
+  <unicode hex="1FEE"/>
+  <anchor x="367.954" y="760" name="top"/>
+  <anchor x="350" y="522" name="_top"/>
+  <anchor x="310" y="798" name="_bottom"/>
+  <outline>
+    <component base="dieresis" xOffset="-3"/>
+    <contour>
+      <point x="322.451" y="650.262" type="line"/>
+      <point x="364.476" y="639.059" type="line"/>
+      <point x="449.336" y="740" type="line" smooth="yes"/>
+      <point x="467.185" y="761.232"/>
+      <point x="500.477" y="803.952"/>
+      <point x="500.477" y="823.399" type="curve" smooth="yes"/>
+      <point x="500.477" y="861.69"/>
+      <point x="476.458" y="888.007"/>
+      <point x="435.149" y="888.007" type="curve" smooth="yes"/>
+      <point x="379.623" y="888.007"/>
+      <point x="352.82" y="840.457"/>
+      <point x="349.825" y="821.702" type="curve" smooth="yes"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.recipe</key>
+  <string>dieresistonos</string>
+  <key>public.markColor</key>
+  <string>1,0.994,0.6,1</string>
+  <key>public.postscript.hints</key>
+  <dict>
+    <key>formatVersion</key>
+    <string>1</string>
+    <key>id</key>
+    <string>56629a03cab5e3ac61a9d59c55bcbdcfe6e1ce0034056b657c2e267b2482f074b3dd5bf0c4304b40bdcfd80a8f440a75decdbff45c24ca77719006a1fd0d0713</string>
+    <key>hintSetList</key>
+    <array>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem 511 229</string>
+          <string>vstem 213.95 272</string>
+        </array>
+      </dict>
+    </array>
+  </dict>
+  </dict>
+  </lib>
+</glyph>

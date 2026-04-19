@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni0301" format="2">
+  <unicode hex="0301"/>
+  <anchor x="0" y="522" name="_t.acute"/>
+  <anchor x="-25" y="760" name="top"/>
+  <outline>
+    <component base="acute" xOffset="-357"/>
+  </outline>
+  <guideline angle="90" x="0" y="0"/>
+  <guideline angle="0" x="0" y="522"/>
+  <lib>
+  <dict>
+  <key>public.postscript.hints</key>
+  <dict>
+    <key>formatVersion</key>
+    <string>1</string>
+    <key>id</key>
+    <string>w0</string>
+    <key>hintSetList</key>
+    <array>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem 511 229</string>
+          <string>vstem -179 272</string>
+        </array>
+      </dict>
+    </array>
+  </dict>
+  </dict>
+  </lib>
+</glyph>

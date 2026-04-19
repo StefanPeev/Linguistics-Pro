@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni0300" format="2">
+  <unicode hex="0300"/>
+  <anchor x="0" y="542" name="_t.grave"/>
+  <outline>
+    <component base="grave" xOffset="-292"/>
+  </outline>
+  <guideline angle="90" name="H_0" x="0" y="0"/>
+  <guideline angle="0" name="VG_542" x="0" y="542"/>
+  <lib>
+  <dict>
+  <key>public.postscript.hints</key>
+  <dict>
+    <key>formatVersion</key>
+    <string>1</string>
+    <key>id</key>
+    <string>w0</string>
+    <key>hintSetList</key>
+    <array>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem 542 181</string>
+          <string>vstem -219 222</string>
+        </array>
+      </dict>
+    </array>
+  </dict>
+  </dict>
+  </lib>
+</glyph>
