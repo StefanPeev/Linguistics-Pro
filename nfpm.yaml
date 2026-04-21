@@ -1,0 +1,27 @@
+name: linguistics-pro-fonts
+arch: all
+version: "${VERSION}"
+maintainer: Blagovest Petrov <blagovest@petrovs.info>
+description: |
+  Linguistics Pro font family, designed by Stefan Peev.
+  A Unicode font family with extensive language support for linguistics,
+  including IPA, extended Latin, Greek, and Cyrillic characters.
+  Published under the SIL Open Font License.
+homepage: https://localfonts.eu
+license: OFL-1.1
+
+contents:
+  - src: dist/fonts/*.ttf
+    dst: /usr/share/fonts/truetype/linguistics-pro/
+  - src: dist/fonts/*.otf
+    dst: /usr/share/fonts/truetype/linguistics-pro/
+  - src: dist/fonts/*.woff
+    dst: /usr/share/fonts/truetype/linguistics-pro/
+  - src: dist/fonts/*.woff2
+    dst: /usr/share/fonts/truetype/linguistics-pro/
+  - src: documentation/OFL.txt
+    dst: /usr/share/licenses/linguistics-pro-fonts/OFL.txt
+
+scripts:
+  postinstall: scripts/postinstall.sh
+  postremove: scripts/postremove.sh
