@@ -1,4 +1,4 @@
-![Sample Image](/images/LinguisticsPro_720x360_01.jpg)
+![Sample Image](/images/LinguisticsPro_950x475_01.jpg)
 
 # Linguistics Pro  
 
