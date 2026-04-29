@@ -1,45 +1,93 @@
 <?xml version='1.0' encoding='utf-8'?>
 <designspace format="4.0">
  <axes>
-  <axis tag="wght" default="400" maximum="700" name="weight" minimum="400">
+  <axis tag="wght" maximum="700" name="weight" minimum="400" default="400">
    <labelname xml:lang="en">Weight</labelname>
   </axis>
  </axes>
  <sources>
-  <source familyname="Linguistics Pro" filename="masters/LinguisticsPro-Bold.ufo" stylename="Bold" name="Bold">
+  <source stylename="Bold" familyname="Linguistics Pro" name="Bold" filename="masters/LinguisticsPro-Bold.ufo">
    <location>
-    <dimension xvalue="700" name="weight"/>
+    <dimension name="weight" xvalue="700"/>
    </location>
   </source>
-  <source familyname="Linguistics Pro" filename="masters/LinguisticsPro-Regular.ufo" stylename="Regular" name="Regular">
+  <source stylename="Regular" familyname="Linguistics Pro" name="Regular" filename="masters/LinguisticsPro-Regular.ufo">
    <lib copy="1"/>
    <groups copy="1"/>
    <info copy="1"/>
    <features copy="1"/>
    <location>
-    <dimension xvalue="400" name="weight"/>
+    <dimension name="weight" xvalue="400"/>
    </location>
   </source>
  </sources>
+ <lib>
+  <dict>
+   <key>public.skipExportGlyphs</key>
+   <array>
+    <string>uni0300.case</string>
+    <string>uni0301.case</string>
+    <string>uni0302.case</string>
+    <string>uni0303.case</string>
+    <string>uni0304.case</string>
+    <string>uni0306.case</string>
+    <string>uni0307.case</string>
+    <string>uni0308.case</string>
+    <string>uni030A.case</string>
+    <string>uni030B.case</string>
+    <string>uni030C.case</string>
+    <string>uni030F.case</string>
+    <string>uni0311.case</string>
+    <string>uni0323.case</string>
+    <string>uni0324.case</string>
+    <string>uni0325.case</string>
+    <string>uni032D.case</string>
+    <string>uni032E.case</string>
+    <string>uni0330.case</string>
+    <string>uni0331.case</string>
+    <string>quoteright.case</string>
+    <string>brevecyr.case</string>
+    <string>brevecyr</string>
+    <string>acute.case</string>
+    <string>caron.case</string>
+    <string>dieresis.case</string>
+    <string>grave.case</string>
+    <string>hungarumlaut.case</string>
+    <string>macron.case</string>
+    <string>dotaccent.case</string>
+    <string>pecyr.loclSRB</string>
+    <string>tecyr.loclSRB</string>
+    <string>ring.case</string>
+    <string>gecyr.loclSRB</string>
+    <string>breve.case</string>
+    <string>circumflex.case</string>
+    <string>gecyr.loclMKD</string>
+    <string>tilde.case</string>
+    <string>uni0328.bsh</string>
+    <string>uni03040300</string>
+    <string>uni03040301</string>
+   </array>
+  </dict>
+ </lib>
  <instances>
-  <instance familyname="Linguistics Pro" filename="instances/LinguisticsPro-Regular.ufo" stylename="Regular" name="Regular">
+  <instance stylename="Regular" familyname="Linguistics Pro" name="Regular" filename="instances/LinguisticsPro-Regular.ufo">
    <location>
-    <dimension xvalue="400" name="weight"/>
+    <dimension name="weight" xvalue="400"/>
    </location>
   </instance>
-  <instance familyname="Linguistics Pro" filename="instances/LinguisticsPro-Medium.ufo" stylename="Medium" name="Medium">
+  <instance stylename="Medium" familyname="Linguistics Pro" name="Medium" filename="instances/LinguisticsPro-Medium.ufo">
    <location>
-    <dimension xvalue="500" name="weight"/>
+    <dimension name="weight" xvalue="500"/>
    </location>
   </instance>
-  <instance familyname="Linguistics Pro" filename="instances/LinguisticsPro-SemiBold.ufo" stylename="SemiBold" name="SemiBold">
+  <instance stylename="SemiBold" familyname="Linguistics Pro" name="SemiBold" filename="instances/LinguisticsPro-SemiBold.ufo">
    <location>
-    <dimension xvalue="600" name="weight"/>
+    <dimension name="weight" xvalue="600"/>
    </location>
   </instance>
-  <instance familyname="Linguistics Pro" filename="instances/LinguisticsPro-Bold.ufo" stylename="Bold" name="Bold">
+  <instance stylename="Bold" familyname="Linguistics Pro" name="Bold" filename="instances/LinguisticsPro-Bold.ufo">
    <location>
-    <dimension xvalue="700" name="weight"/>
+    <dimension name="weight" xvalue="700"/>
    </location>
   </instance>
  </instances>

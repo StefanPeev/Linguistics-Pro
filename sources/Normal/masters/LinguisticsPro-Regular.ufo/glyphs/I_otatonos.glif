@@ -1,17 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Iotatonos" format="2">
-  <advance width="349"/>
+  <advance width="532"/>
   <unicode hex="038A"/>
-  <anchor x="190" y="10" name="ogonek"/>
-  <anchor x="175" y="-68" name="bottom"/>
   <outline>
-    <component base="Iota"/>
-    <component base="tonos" xOffset="-350" yOffset="-21"/>
+    <component base="tonos"/>
+    <component base="Iota" xOffset="183"/>
   </outline>
   <lib>
   <dict>
-  <key>com.fontlab.autolayer</key>
-  <true/>
   <key>com.fontlab.hintData</key>
   <dict>
     <key>hhints</key>
@@ -51,10 +47,12 @@
       </dict>
     </array>
   </dict>
+  <key>com.fontlab.metricsLeft</key>
+  <string>=tonos</string>
+  <key>com.fontlab.metricsRight</key>
+  <string>=Iota</string>
   <key>com.fontlab.recipe</key>
-  <string>Iota+tonos</string>
-  <key>public.markColor</key>
-  <string>0.6,0.997,1,1</string>
+  <string>tonos_Iota</string>
   </dict>
   </lib>
 </glyph>

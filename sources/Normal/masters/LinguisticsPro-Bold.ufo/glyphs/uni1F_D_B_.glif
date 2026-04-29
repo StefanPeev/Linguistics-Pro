@@ -5,17 +5,16 @@
   <anchor x="210" y="10" name="ogonek"/>
   <anchor x="0" y="702" name="tonos"/>
   <anchor x="192" y="-60" name="bottom"/>
-  <anchor x="162" y="950" name="top"/>
   <outline>
     <component base="Iota"/>
-    <component base="acute.cap" xOffset="-54"/>
+    <component base="acute.case" xOffset="-54"/>
   </outline>
   <lib>
   <dict>
   <key>com.fontlab.autolayer</key>
   <true/>
   <key>com.fontlab.recipe</key>
-  <string>Iota+acute.cap</string>
+  <string>Iota+acute.case</string>
   <key>public.markColor</key>
   <string>0.6,0.997,1,1</string>
   </dict>

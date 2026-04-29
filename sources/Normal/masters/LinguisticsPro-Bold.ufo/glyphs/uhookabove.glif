@@ -2,17 +2,17 @@
 <glyph name="uhookabove" format="2">
   <advance width="629"/>
   <unicode hex="1EE7"/>
-  <anchor x="545" y="18" name="ogonek"/>
+  <anchor x="592" y="0" name="ogonek"/>
   <outline>
     <component base="u"/>
-    <component base="hookabovecomb" xOffset="539" yOffset="-58"/>
+    <component base="uni0309" xOffset="539" yOffset="-58"/>
   </outline>
   <lib>
   <dict>
   <key>com.fontlab.autolayer</key>
   <true/>
   <key>com.fontlab.recipe</key>
-  <string>u+hookabovecomb</string>
+  <string>u+uni0309</string>
   <key>public.markColor</key>
   <string>0.6,0.997,1,1</string>
   </dict>

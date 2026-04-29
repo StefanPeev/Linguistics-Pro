@@ -1,3 +1,9 @@
+**2026-04-22:**  
+ Bump **Regular**, **Medium**, **SemiBold**, **Bold**, **Italic**, **Medium Italic**, **SemiBold Italic**, **Bold Italic** styles to v.1.083
+ Variable TTF version 1.083
+ Download LinguisticsPro-Normal_v.1.083.zip for upright styles.
+ Download LinguisticsPro-Italic_v.1.083.zip for italic styles.
+
 **2023-09-24:**  
  Bump **Regular**, **Bold**, **Italic**, **Bold Italic** styles to v.1.076  
  

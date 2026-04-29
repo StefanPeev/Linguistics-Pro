@@ -4,9 +4,10 @@
   <unicode hex="1EC0"/>
   <anchor x="479" y="10" name="ogonek"/>
   <anchor x="0" y="707" name="tonos"/>
+  <anchor x="312" y="938" name="top"/>
   <outline>
     <component base="Ecircumflex"/>
-    <component base="grave.cap" xOffset="153" yOffset="196"/>
+    <component base="grave.case" xOffset="143.5"/>
   </outline>
   <lib>
   <dict>
@@ -52,7 +53,7 @@
     </array>
   </dict>
   <key>com.fontlab.recipe</key>
-  <string>Ecircumflex+grave.cap</string>
+  <string>Ecircumflex+grave.case</string>
   <key>public.markColor</key>
   <string>0.6,0.997,1,1</string>
   </dict>

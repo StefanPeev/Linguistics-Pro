@@ -254,7 +254,7 @@
     <string>abreve</string>
     <string>acircumflex</string>
     <string>acute</string>
-    <string>acutecomb</string>
+    <string>uni0301</string>
     <string>adieresis</string>
     <string>ae</string>
     <string>aeacute</string>
@@ -309,8 +309,7 @@
     <string>divide</string>
     <string>dollar</string>
     <string>dotaccent</string>
-    <string>dotaccent.i</string>
-    <string>dotbelowcomb</string>
+    <string>uni0323</string>
     <string>dotlessi</string>
     <string>e</string>
     <string>eacute</string>
@@ -322,7 +321,7 @@
     <string>egrave</string>
     <string>eight</string>
     <string>eight.osf</string>
-    <string>ellipsis</string>
+    <string>uni2026</string>
     <string>emacron</string>
     <string>emdash</string>
     <string>endash</string>
@@ -330,9 +329,6 @@
     <string>eogonek</string>
     <string>epsilon</string>
     <string>equal</string>
-    <string>esh_i</string>
-    <string>esh_k</string>
-    <string>esh_l</string>
     <string>eta</string>
     <string>eth</string>
     <string>exclam</string>
@@ -341,7 +337,7 @@
     <string>uniFB04</string>
     <string>five</string>
     <string>five.osf</string>
-    <string>fiveeighths</string>
+    <string>uni215D</string>
     <string>florin</string>
     <string>four</string>
     <string>four.osf</string>
@@ -354,21 +350,20 @@
     <string>gdotaccent</string>
     <string>germandbls</string>
     <string>grave</string>
-    <string>gravecomb</string>
+    <string>uni0300</string>
     <string>greater</string>
     <string>guillemotleft</string>
     <string>guillemotright</string>
-    <string>guilsinglleft</string>
-    <string>guilsinglright</string>
+    <string>uni2039</string>
+    <string>uni203A</string>
     <string>h</string>
     <string>hbar</string>
     <string>hcircumflex</string>
-    <string>hookabovecomb</string>
+    <string>uni0309</string>
     <string>hungarumlaut</string>
     <string>hyphen</string>
     <string>i</string>
     <string>iacute</string>
-    <string>iacute.locl</string>
     <string>ibreve</string>
     <string>icircumflex</string>
     <string>idieresis</string>
@@ -393,8 +388,9 @@
     <string>lslash</string>
     <string>m</string>
     <string>macron</string>
-    <string>minus</string>
-    <string>minute</string>
+    <string>uni2212</string>
+    <string>uni2032</string>
+    <string>micro</string>
     <string>mu</string>
     <string>multiply</string>
     <string>n</string>
@@ -421,10 +417,10 @@
     <string>omicron</string>
     <string>one</string>
     <string>one.osf</string>
-    <string>oneeighth</string>
+    <string>uni215B</string>
     <string>onehalf</string>
     <string>onequarter</string>
-    <string>onethird</string>
+    <string>uni2153</string>
     <string>ordfeminine</string>
     <string>ordmasculine</string>
     <string>oslash</string>
@@ -437,7 +433,7 @@
     <string>percent</string>
     <string>period</string>
     <string>periodcentered</string>
-    <string>perthousand</string>
+    <string>uni2030</string>
     <string>phi</string>
     <string>phi1</string>
     <string>pi</string>
@@ -467,12 +463,12 @@
     <string>scedilla</string>
     <string>scircumflex</string>
     <string>scommaaccent</string>
-    <string>second</string>
+    <string>uni2033</string>
     <string>section</string>
     <string>semicolon</string>
     <string>seven</string>
     <string>seven.osf</string>
-    <string>seveneighths</string>
+    <string>uni215E</string>
     <string>sigma</string>
     <string>sigma1</string>
     <string>six</string>
@@ -481,7 +477,6 @@
     <string>slash.alt</string>
     <string>space_uni030F</string>
     <string>uni02F5</string>
-    <string>space_uni0311.cap</string>
     <string>sterling</string>
     <string>t</string>
     <string>tau</string>
@@ -491,14 +486,14 @@
     <string>thorn</string>
     <string>three</string>
     <string>three.osf</string>
-    <string>threeeighths</string>
+    <string>uni215C</string>
     <string>threequarters</string>
     <string>tilde</string>
-    <string>tildecomb</string>
+    <string>uni0303</string>
     <string>trademark</string>
     <string>two</string>
     <string>two.osf</string>
-    <string>twothirds</string>
+    <string>uni2154</string>
     <string>u</string>
     <string>uacute</string>
     <string>ubreve</string>
@@ -510,7 +505,6 @@
     <string>umacron</string>
     <string>underscore</string>
     <string>uni00A0</string>
-    <string>uni00AD</string>
     <string>uni0162</string>
     <string>uni0163</string>
     <string>uni0186</string>
@@ -519,7 +513,6 @@
     <string>uni018F</string>
     <string>uni0190</string>
     <string>uni0191</string>
-    <string>uni0192.alt</string>
     <string>uni0194</string>
     <string>uni0196</string>
     <string>uni0197</string>
@@ -660,49 +653,48 @@
     <string>uni02E3</string>
     <string>uni02E4</string>
     <string>uni02EE</string>
-    <string>uni0300.cap</string>
-    <string>uni0301.cap</string>
-    <string>uni0302.cap</string>
-    <string>uni0303.cap</string>
-    <string>uni0304.cap</string>
-    <string>uni0306.cap</string>
+    <string>uni0300.case</string>
+    <string>uni0301.case</string>
+    <string>uni0302.case</string>
+    <string>uni0303.case</string>
+    <string>uni0304.case</string>
+    <string>uni0306.case</string>
     <string>uni0307</string>
-    <string>uni0307.cap</string>
+    <string>uni0307.case</string>
     <string>uni0308</string>
-    <string>uni0308.cap</string>
-    <string>uni030A.cap</string>
+    <string>uni0308.case</string>
+    <string>uni030A.case</string>
     <string>uni030B</string>
-    <string>uni030B.cap</string>
-    <string>uni030C.cap</string>
+    <string>uni030B.case</string>
+    <string>uni030C.case</string>
     <string>uni030F</string>
-    <string>uni030F.cap</string>
+    <string>uni030F.case</string>
     <string>uni0311</string>
-    <string>uni0311.cap</string>
+    <string>uni0311.case</string>
     <string>uni0315</string>
-    <string>uni0323.cap</string>
+    <string>uni0323.case</string>
     <string>uni0324</string>
-    <string>uni0324.cap</string>
+    <string>uni0324.case</string>
     <string>uni0325</string>
-    <string>uni0325.cap</string>
+    <string>uni0325.case</string>
     <string>uni0326</string>
     <string>uni0327</string>
     <string>uni0328</string>
     <string>uni032C</string>
     <string>uni032D</string>
-    <string>uni032D.cap</string>
+    <string>uni032D.case</string>
     <string>uni032E</string>
-    <string>uni032E.cap</string>
+    <string>uni032E.case</string>
     <string>uni032F</string>
     <string>uni0330</string>
-    <string>uni0330.cap</string>
+    <string>uni0330.case</string>
     <string>uni0331</string>
-    <string>uni0331.cap</string>
+    <string>uni0331.case</string>
     <string>uni0332</string>
     <string>uni0334</string>
     <string>uni0338</string>
-    <string>uni0394</string>
-    <string>uni03A9</string>
-    <string>uni03BC</string>
+    <string>Delta</string>
+    <string>Omega</string>
     <string>uni0400</string>
     <string>uni0401</string>
     <string>uni0402</string>
@@ -1121,7 +1113,7 @@
     <string>uniA789</string>
     <string>uniA78A</string>
     <string>uniA78D</string>
-    <string>quoteright.cap</string>
+    <string>quoteright.case</string>
     <string>f_b</string>
     <string>f_h</string>
     <string>f_j</string>
@@ -1145,7 +1137,7 @@
     <string>eight.tosf</string>
     <string>nine.tosf</string>
     <string>uni02F6</string>
-    <string>brevecyr.cap</string>
+    <string>brevecyr.case</string>
     <string>brevecyr</string>
     <string>uniFB00</string>
     <string>uniFB02</string>
@@ -1196,7 +1188,7 @@
     <string>Aring.sc</string>
     <string>Atilde.sc</string>
     <string>Ccedilla.sc</string>
-    <string>increment</string>
+    <string>uni2206</string>
     <string>Eacute.sc</string>
     <string>Ecircumflex.sc</string>
     <string>Ecircumflexacute</string>
@@ -1300,23 +1292,23 @@
     <string>acircumflexgrave</string>
     <string>acircumflexhookabove</string>
     <string>acircumflextilde</string>
-    <string>acute.cap</string>
-    <string>acutebelowcomb</string>
+    <string>acute.case</string>
+    <string>uni0317</string>
     <string>adotbelow</string>
     <string>ahookabove</string>
     <string>alphatonos</string>
     <string>amacron.sc</string>
     <string>anoteleia</string>
     <string>apostrophemod</string>
-    <string>approxequal</string>
-    <string>arrowleft</string>
-    <string>arrowright</string>
+    <string>uni2248</string>
+    <string>uni2190</string>
+    <string>uni2192</string>
     <string>uni0306</string>
-    <string>caron.cap</string>
+    <string>caron.case</string>
     <string>uni030C</string>
     <string>uni0302</string>
-    <string>colonmonetary</string>
-    <string>dieresis.cap</string>
+    <string>uni20A1</string>
+    <string>dieresis.case</string>
     <string>dieresistonos</string>
     <string>dotlessi.small</string>
     <string>ecircumflexacute</string>
@@ -1333,19 +1325,19 @@
     <string>uniFB03</string>
     <string>uniFB01</string>
     <string>figuredash</string>
-    <string>filledbox</string>
+    <string>uni25A0</string>
     <string>gacute</string>
     <string>gcedilla</string>
-    <string>grave.cap</string>
-    <string>gravebelowcomb</string>
-    <string>greaterequal</string>
+    <string>grave.case</string>
+    <string>uni0316</string>
+    <string>uni2265</string>
     <string>hcaron</string>
-    <string>hungarumlaut.cap</string>
+    <string>hungarumlaut.case</string>
     <string>icaron</string>
     <string>idotbelow</string>
     <string>ihookabove</string>
-    <string>infinity</string>
-    <string>integral</string>
+    <string>uni221E</string>
+    <string>uni222B</string>
     <string>iogonek</string>
     <string>iotadieresis</string>
     <string>iotadieresistonos</string>
@@ -1354,13 +1346,13 @@
     <string>kcaron</string>
     <string>kcedilla</string>
     <string>lcedilla</string>
-    <string>lefttackbelowcomb</string>
-    <string>lessequal</string>
+    <string>uni0318</string>
+    <string>uni2264</string>
     <string>lozenge</string>
-    <string>macron.cap</string>
+    <string>macron.case</string>
     <string>uni0304</string>
     <string>napostrophe</string>
-    <string>notequal</string>
+    <string>uni2260</string>
     <string>ocaron</string>
     <string>ocircumflexacute</string>
     <string>ocircumflexdotbelow</string>
@@ -1376,22 +1368,22 @@
     <string>ohorntilde</string>
     <string>omegatonos</string>
     <string>omicrontonos</string>
-    <string>onedotenleader</string>
+    <string>uni2024</string>
     <string>uni00B9</string>
-    <string>overlinecomb</string>
-    <string>partialdiff</string>
-    <string>product</string>
-    <string>radical</string>
+    <string>uni0305</string>
+    <string>uni2202</string>
+    <string>uni220F</string>
+    <string>uni221A</string>
     <string>rcedilla</string>
-    <string>righttackbelowcomb</string>
+    <string>uni0319</string>
     <string>uni030A</string>
     <string>s_t</string>
-    <string>summation</string>
+    <string>uni2211</string>
     <string>tbar</string>
     <string>uni00B3</string>
     <string>tonos</string>
-    <string>turnedcommacomb</string>
-    <string>twodotenleader</string>
+    <string>uni0312</string>
+    <string>uni2025</string>
     <string>uni00B2</string>
     <string>ucaron</string>
     <string>udotbelow</string>
@@ -1913,10 +1905,10 @@
     <string>uni2047</string>
     <string>uni2048</string>
     <string>uni2049</string>
-    <string>parenleft.superior</string>
-    <string>parenright.superior</string>
-    <string>parenleft.inferior</string>
-    <string>parenright.inferior</string>
+    <string>uni207D</string>
+    <string>uni207E</string>
+    <string>uni208D</string>
+    <string>uni208E</string>
     <string>uni2160</string>
     <string>uni2161</string>
     <string>uni2162</string>
@@ -2039,103 +2031,90 @@
     <string>arrowheadleftmod</string>
     <string>arrowheadrightmod</string>
     <string>arrowheaddownmod</string>
-    <string>arrowup</string>
-    <string>arrowdown</string>
-    <string>arrowboth</string>
-    <string>arrowupdn</string>
-    <string>arrowNW</string>
-    <string>creversed</string>
-    <string>squaredtimes</string>
-    <string>squareddotoperator</string>
-    <string>squarewhite</string>
-    <string>normalsubgroup</string>
-    <string>containsasnormalsubgroup</string>
-    <string>squaresmallblack</string>
-    <string>squaresmallwhite</string>
-    <string>filledrect</string>
-    <string>rectanglewhite</string>
-    <string>rectangleverticalblack</string>
-    <string>rectangleverticalwhite</string>
-    <string>parallelogramblack</string>
-    <string>parallelogramwhite</string>
-    <string>triagup</string>
-    <string>triangleupwhite</string>
-    <string>triangleupsmallblack</string>
-    <string>triangleupsmallwhite</string>
-    <string>trianglerightsmallblack</string>
-    <string>trianglerightsmallwhite</string>
-    <string>triagrt</string>
-    <string>pointerrightwhite</string>
-    <string>triagdn</string>
-    <string>triangledownwhite</string>
-    <string>triangledownsmallblack</string>
-    <string>triangledownsmallwhite</string>
-    <string>triangleleftsmallblack</string>
-    <string>triangleleftsmallwhite</string>
-    <string>triaglf</string>
-    <string>pointerleftwhite</string>
-    <string>diamondwhite-gmtr</string>
-    <string>diamondwhitewithdiamondsmallblack</string>
-    <string>circle</string>
-    <string>circledotted</string>
-    <string>circleverticalfill</string>
-    <string>bullseye</string>
-    <string>circleblack</string>
-    <string>female</string>
-    <string>male</string>
-    <string>beta-lt</string>
-    <string>uni2070.pnum</string>
-    <string>uni00B9.pnum</string>
-    <string>uni00B2.pnum</string>
-    <string>uni00B3.pnum</string>
-    <string>uni2074.pnum</string>
-    <string>uni2075.pnum</string>
-    <string>uni2076.pnum</string>
-    <string>uni2077.pnum</string>
-    <string>uni2078.pnum</string>
-    <string>uni2079.pnum</string>
+    <string>uni2191</string>
+    <string>uni2193</string>
+    <string>uni2194</string>
+    <string>uni2195</string>
+    <string>uni2196</string>
+    <string>uni2184</string>
+    <string>uni22A0</string>
+    <string>uni22A1</string>
+    <string>uni25A1</string>
+    <string>uni22B2</string>
+    <string>uni22B3</string>
+    <string>uni25AA</string>
+    <string>uni25AB</string>
+    <string>uni25AC</string>
+    <string>uni25AD</string>
+    <string>uni25AE</string>
+    <string>uni25AF</string>
+    <string>uni25B0</string>
+    <string>uni25B1</string>
+    <string>uni25B2</string>
+    <string>uni25B3</string>
+    <string>uni25B4</string>
+    <string>uni25B5</string>
+    <string>uni25B8</string>
+    <string>uni25B9</string>
+    <string>uni25BA</string>
+    <string>uni25BB</string>
+    <string>uni25BC</string>
+    <string>uni25BD</string>
+    <string>uni25BE</string>
+    <string>uni25BF</string>
+    <string>uni25C2</string>
+    <string>uni25C3</string>
+    <string>uni25C4</string>
+    <string>uni25C5</string>
+    <string>uni25C7</string>
+    <string>uni25C8</string>
+    <string>uni25CB</string>
+    <string>uni25CC</string>
+    <string>uni25CD</string>
+    <string>uni25CE</string>
+    <string>uni25CF</string>
+    <string>uni2640</string>
+    <string>uni2642</string>
+    <string>uniA7B5</string>
     <string>commaturnedmod</string>
     <string>commareversedmod</string>
-    <string>horncomb</string>
-    <string>palatalhookcomb</string>
-    <string>retroflexhookcomb</string>
-    <string>iturnedmod</string>
-    <string>otophalfmod</string>
-    <string>obottomhalfmod</string>
-    <string>usidewaysmod</string>
-    <string>ainmod</string>
+    <string>uni031B</string>
+    <string>uni0321</string>
+    <string>uni0322</string>
+    <string>uni1D4E</string>
+    <string>uni1D54</string>
+    <string>uni1D55</string>
+    <string>uni1D59</string>
+    <string>uni1D5C</string>
     <string>deltamod</string>
     <string>Istrokesmallmod</string>
     <string>lpalatalhookmod</string>
     <string>tpalatalhookmod</string>
     <string>thetamod</string>
-    <string>hookabovecomb.cap</string>
-    <string>dotaccent.cap</string>
+    <string>dotaccent.case</string>
     <string>pecyr.loclSRB</string>
     <string>tecyr.loclSRB</string>
     <string>ring.case</string>
-    <string>fl.cv01</string>
     <string>gecyr.loclSRB</string>
-    <string>breve.cap</string>
-    <string>circumflex.cap</string>
-    <string>f.cv01</string>
+    <string>breve.case</string>
+    <string>circumflex.case</string>
     <string>gecyr.loclMKD</string>
-    <string>tilde.cap</string>
-    <string>arrowupdnbse</string>
-    <string>arrowNE</string>
-    <string>arrowSE</string>
-    <string>arrowSW</string>
-    <string>equivalence</string>
-    <string>notidentical</string>
-    <string>strictlyequivalent</string>
-    <string>logicaland</string>
-    <string>logicalor</string>
-    <string>notalmostequal</string>
-    <string>minusplus</string>
-    <string>element</string>
-    <string>notelement</string>
-    <string>propersubset</string>
-    <string>propersuperset</string>
+    <string>tilde.case</string>
+    <string>uni21A8</string>
+    <string>uni2197</string>
+    <string>uni2198</string>
+    <string>uni2199</string>
+    <string>uni2261</string>
+    <string>uni2262</string>
+    <string>uni2263</string>
+    <string>uni2227</string>
+    <string>uni2228</string>
+    <string>uni2249</string>
+    <string>uni2213</string>
+    <string>uni2208</string>
+    <string>uni2209</string>
+    <string>uni2282</string>
+    <string>uni2283</string>
     <string>Upsilonhooksymbol</string>
     <string>Upsilonacutehooksymbol</string>
     <string>Asmall</string>
@@ -2216,15 +2195,15 @@
     <string>vpalatalhook</string>
     <string>xpalatalhook</string>
     <string>zpalatalhook</string>
-    <string>aretroflexhook</string>
+    <string>uni1D8F</string>
     <string>alpharetroflexhook</string>
     <string>dhooktail</string>
-    <string>eretroflexhook</string>
-    <string>eopenretroflexhook</string>
-    <string>eopenreversedretroflexhook</string>
-    <string>schwaretroflexhook</string>
+    <string>uni1D92</string>
+    <string>uni1D93</string>
+    <string>uni1D94</string>
+    <string>uni1D95</string>
     <string>iretroflexhook</string>
-    <string>oopenretroflexhook</string>
+    <string>uni1D97</string>
     <string>eshretroflexhook</string>
     <string>uretroflexhook</string>
     <string>ezhretroflexhook</string>
@@ -2261,6 +2240,65 @@
     <string>phi-grinferior</string>
     <string>chi-grinferior</string>
     <string>uni0328.bsh</string>
+    <string>uni03040300</string>
+    <string>uni03040301</string>
+    <string>uni0243</string>
+    <string>Eiotifiedcyr</string>
+    <string>eiotifiedcyr</string>
+    <string>tonos.cv01</string>
+    <string>uni1FCD.cv01</string>
+    <string>uni0313.cv01</string>
+    <string>uni0314.cv01</string>
+    <string>uni1FDF.cv01</string>
+    <string>uni1FCF.cv01</string>
+    <string>uni1FDD.cv01</string>
+    <string>uni2028</string>
+    <string>uni2029</string>
+    <string>Germandbls</string>
+  </array>
+  <key>public.skipExportGlyphs</key>
+  <array>
+    <string>uni0300.case</string>
+    <string>uni0301.case</string>
+    <string>uni0302.case</string>
+    <string>uni0303.case</string>
+    <string>uni0304.case</string>
+    <string>uni0306.case</string>
+    <string>uni0307.case</string>
+    <string>uni0308.case</string>
+    <string>uni030A.case</string>
+    <string>uni030B.case</string>
+    <string>uni030C.case</string>
+    <string>uni030F.case</string>
+    <string>uni0311.case</string>
+    <string>uni0323.case</string>
+    <string>uni0324.case</string>
+    <string>uni0325.case</string>
+    <string>uni032D.case</string>
+    <string>uni032E.case</string>
+    <string>uni0330.case</string>
+    <string>uni0331.case</string>
+    <string>quoteright.case</string>
+    <string>brevecyr.case</string>
+    <string>brevecyr</string>
+    <string>acute.case</string>
+    <string>caron.case</string>
+    <string>dieresis.case</string>
+    <string>grave.case</string>
+    <string>hungarumlaut.case</string>
+    <string>macron.case</string>
+    <string>dotaccent.case</string>
+    <string>pecyr.loclSRB</string>
+    <string>tecyr.loclSRB</string>
+    <string>ring.case</string>
+    <string>gecyr.loclSRB</string>
+    <string>breve.case</string>
+    <string>circumflex.case</string>
+    <string>gecyr.loclMKD</string>
+    <string>tilde.case</string>
+    <string>uni0328.bsh</string>
+    <string>uni03040300</string>
+    <string>uni03040301</string>
   </array>
 </dict>
 </plist>

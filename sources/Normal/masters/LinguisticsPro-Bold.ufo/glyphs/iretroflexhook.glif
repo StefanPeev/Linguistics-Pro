@@ -1,11 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="iretroflexhook" format="2">
-  <advance width="258"/>
+  <advance width="333"/>
   <unicode hex="1D96"/>
-  <lib>
-  <dict>
-  <key>public.markColor</key>
-  <string>0.6,0.602,1,1</string>
-  </dict>
-  </lib>
+  <outline>
+    <component base="i"/>
+    <contour>
+      <point x="246" y="-105" type="line" smooth="yes"/>
+      <point x="246" y="-206.096"/>
+      <point x="282.376" y="-242"/>
+      <point x="345.805" y="-242" type="curve" smooth="yes"/>
+      <point x="422.722" y="-242"/>
+      <point x="474" y="-206.11"/>
+      <point x="474" y="-152.276" type="curve" smooth="yes"/>
+      <point x="474" y="-118.096"/>
+      <point x="453.696" y="-92"/>
+      <point x="425.97" y="-92" type="curve" smooth="yes"/>
+      <point x="402.069" y="-92"/>
+      <point x="384.468" y="-106.983"/>
+      <point x="375.055" y="-131.061" type="curve" smooth="yes"/>
+      <point x="361.645" y="-165.364"/>
+      <point x="353" y="-186.716"/>
+      <point x="335.462" y="-186.716" type="curve" smooth="yes"/>
+      <point x="320.905" y="-186.716"/>
+      <point x="300.73" y="-175.33"/>
+      <point x="300.73" y="-130.464" type="curve" smooth="yes"/>
+      <point x="300.73" y="-109.205"/>
+      <point x="301.341" y="-87.7393"/>
+      <point x="302.974" y="-66.6964" type="curve" smooth="yes"/>
+      <point x="304.537" y="-46.5481"/>
+      <point x="307" y="-21.4822"/>
+      <point x="307" y="0" type="curve" smooth="yes"/>
+      <point x="307" y="17.8823" type="line"/>
+      <point x="246" y="17.8823" type="line"/>
+    </contour>
+  </outline>
 </glyph>

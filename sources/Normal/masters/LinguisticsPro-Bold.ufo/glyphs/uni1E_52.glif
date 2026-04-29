@@ -3,10 +3,9 @@
   <advance width="768"/>
   <unicode hex="1E52"/>
   <anchor x="38" y="702" name="tonos"/>
-  <anchor x="376" y="1089" name="top"/>
   <outline>
-    <component base="Omacron"/>
-    <component base="acute.cap" xOffset="160" yOffset="139"/>
+    <component base="O"/>
+    <component base="uni03040301" xOffset="350.5" yOffset="202"/>
   </outline>
   <lib>
   <dict>
@@ -64,7 +63,7 @@
     </array>
   </dict>
   <key>com.fontlab.recipe</key>
-  <string>Omacron+acute.cap</string>
+  <string>O+uni03040301</string>
   <key>public.markColor</key>
   <string>0.6,0.997,1,1</string>
   </dict>

@@ -2,9 +2,10 @@
 <glyph name="upsilondieresistonos" format="2">
   <advance width="542"/>
   <unicode hex="03B0"/>
+  <anchor x="322" y="533" name="tonoscomb"/>
   <outline>
-    <component base="upsilondieresis"/>
-    <component base="tonos" xOffset="93" yOffset="150"/>
+    <component base="upsilon"/>
+    <component base="uni0344" xOffset="526" yOffset="-37"/>
   </outline>
   <lib>
   <dict>
@@ -86,7 +87,7 @@
     </array>
   </dict>
   <key>com.fontlab.recipe</key>
-  <string>upsilondieresis+tonos</string>
+  <string>upsilon+uni0344</string>
   <key>public.markColor</key>
   <string>0.6,0.997,1,1</string>
   </dict>

@@ -2,12 +2,12 @@
 <glyph name="Emacron" format="2">
   <advance width="606"/>
   <unicode hex="0112"/>
+  <anchor x="311" y="740" name="top"/>
   <anchor x="479" y="10" name="ogonek"/>
   <anchor x="0" y="707" name="tonos"/>
-  <anchor x="311" y="846" name="top"/>
   <outline>
     <component base="E"/>
-    <component base="macron.cap" xOffset="111" yOffset="-20"/>
+    <component base="macron.case" xOffset="103"/>
   </outline>
   <lib>
   <dict>
@@ -35,7 +35,7 @@
     </array>
   </dict>
   <key>com.fontlab.recipe</key>
-  <string>E+macron.cap</string>
+  <string>E+macron.case</string>
   <key>public.markColor</key>
   <string>0.6,0.997,1,1</string>
   </dict>

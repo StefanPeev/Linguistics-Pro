@@ -6,7 +6,7 @@
   <anchor x="331" y="1028" name="top"/>
   <outline>
     <component base="aring"/>
-    <component base="acutecomb" xOffset="535" yOffset="268"/>
+    <component base="uni0301" xOffset="535" yOffset="268"/>
   </outline>
   <lib>
   <dict>
@@ -82,7 +82,7 @@
     </array>
   </dict>
   <key>com.fontlab.recipe</key>
-  <string>aring+acutecomb</string>
+  <string>aring+uni0301</string>
   <key>public.markColor</key>
   <string>0.6,0.997,1,1</string>
   </dict>

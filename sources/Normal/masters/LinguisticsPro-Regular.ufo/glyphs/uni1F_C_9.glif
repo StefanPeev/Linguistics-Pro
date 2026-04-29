@@ -1,17 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni1FC9" format="2">
-  <advance width="606"/>
+  <advance width="769"/>
   <unicode hex="1FC9"/>
-  <anchor x="311" y="740" name="top"/>
-  <anchor x="479" y="10" name="ogonek"/>
   <outline>
-    <component base="Epsilon"/>
-    <component base="tonos" xOffset="-350" yOffset="-16"/>
+    <component base="tonos"/>
+    <component base="Epsilon" xOffset="163"/>
   </outline>
   <lib>
   <dict>
-  <key>com.fontlab.autolayer</key>
-  <true/>
   <key>com.fontlab.hintData</key>
   <dict>
     <key>hhints</key>
@@ -69,8 +65,12 @@
       </dict>
     </array>
   </dict>
+  <key>com.fontlab.metricsLeft</key>
+  <string>=tonos</string>
+  <key>com.fontlab.metricsRight</key>
+  <string>=Epsilon</string>
   <key>com.fontlab.recipe</key>
-  <string>Epsilon+tonos</string>
+  <string>tonos_Epsilon</string>
   <key>public.markColor</key>
   <string>0.6,0.997,1,1</string>
   </dict>

@@ -7,7 +7,7 @@
   <anchor x="310.5" y="948" name="top"/>
   <outline>
     <component base="acircumflex"/>
-    <component base="acutecomb" xOffset="491.5" yOffset="198"/>
+    <component base="uni0301" xOffset="491.5" yOffset="198"/>
   </outline>
   <lib>
   <dict>
@@ -53,7 +53,7 @@
     </array>
   </dict>
   <key>com.fontlab.recipe</key>
-  <string>acircumflex+acutecomb</string>
+  <string>acircumflex+uni0301</string>
   <key>public.markColor</key>
   <string>0.6,0.997,1,1</string>
   </dict>

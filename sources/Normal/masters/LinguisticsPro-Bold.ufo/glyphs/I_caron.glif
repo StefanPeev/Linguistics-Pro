@@ -7,14 +7,14 @@
   <anchor x="192" y="-60" name="bottom"/>
   <outline>
     <component base="I"/>
-    <component base="caron.cap" xOffset="-9"/>
+    <component base="caron.case" xOffset="-9"/>
   </outline>
   <lib>
   <dict>
   <key>com.fontlab.autolayer</key>
   <true/>
   <key>com.fontlab.recipe</key>
-  <string>I+caron.cap</string>
+  <string>I+caron.case</string>
   <key>public.markColor</key>
   <string>0.6,0.997,1,1</string>
   </dict>

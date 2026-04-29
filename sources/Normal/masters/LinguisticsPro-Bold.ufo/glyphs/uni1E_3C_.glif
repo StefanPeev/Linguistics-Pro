@@ -2,11 +2,9 @@
 <glyph name="uni1E3C" format="2">
   <advance width="585"/>
   <unicode hex="1E3C"/>
-  <anchor x="539" y="742" name="quote"/>
-  <anchor x="375" y="391" name="dot"/>
   <outline>
     <component base="L"/>
-    <component base="uni032D.cap" xOffset="507.5"/>
+    <component base="uni032D.case" xOffset="507.5"/>
   </outline>
   <lib>
   <dict>
@@ -64,7 +62,7 @@
     </array>
   </dict>
   <key>com.fontlab.recipe</key>
-  <string>L+uni032D.cap</string>
+  <string>L+uni032D.case</string>
   <key>public.markColor</key>
   <string>0.6,0.997,1,1</string>
   </dict>

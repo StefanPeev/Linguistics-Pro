@@ -3,9 +3,10 @@
   <advance width="618"/>
   <unicode hex="1F70"/>
   <anchor x="204" y="-60" name="bottom.jota"/>
+  <anchor x="292" y="533" name="tonoscomb"/>
   <outline>
     <component base="alpha"/>
-    <component base="gravecomb" xOffset="448" yOffset="-9"/>
+    <component base="uni0300" xOffset="448" yOffset="-9"/>
   </outline>
   <lib>
   <dict>
@@ -57,7 +58,7 @@
     </array>
   </dict>
   <key>com.fontlab.recipe</key>
-  <string>alpha+gravecomb</string>
+  <string>alpha+uni0300</string>
   <key>public.markColor</key>
   <string>0.6,0.997,1,1</string>
   </dict>

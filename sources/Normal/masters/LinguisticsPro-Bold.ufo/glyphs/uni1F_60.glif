@@ -2,16 +2,17 @@
 <glyph name="uni1F60" format="2">
   <advance width="815"/>
   <unicode hex="1F60"/>
+  <anchor x="422" y="533" name="tonoscomb"/>
   <outline>
     <component base="omega"/>
-    <component base="uni0313" xOffset="407.5"/>
+    <component base="uni0313.cv01" xOffset="405.094"/>
   </outline>
   <lib>
   <dict>
   <key>com.fontlab.autolayer</key>
   <true/>
   <key>com.fontlab.recipe</key>
-  <string>omega+uni0313</string>
+  <string>omega+uni0313.cv01</string>
   <key>public.markColor</key>
   <string>0.6,0.997,1,1</string>
   </dict>

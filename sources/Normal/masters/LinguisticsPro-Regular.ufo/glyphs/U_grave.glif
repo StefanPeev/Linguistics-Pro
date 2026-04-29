@@ -5,7 +5,7 @@
   <anchor x="427" y="0" name="ogonek"/>
   <outline>
     <component base="U"/>
-    <component base="grave.cap" xOffset="236"/>
+    <component base="grave.case" xOffset="236"/>
   </outline>
   <lib>
   <dict>
@@ -39,7 +39,7 @@
     </array>
   </dict>
   <key>com.fontlab.recipe</key>
-  <string>U+grave.cap</string>
+  <string>U+grave.case</string>
   <key>public.markColor</key>
   <string>0.6,0.997,1,1</string>
   </dict>

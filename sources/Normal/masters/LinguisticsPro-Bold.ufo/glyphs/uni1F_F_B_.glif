@@ -1,17 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni1FFB" format="2">
-  <advance width="883"/>
+  <advance width="948"/>
   <unicode hex="1FFB"/>
   <outline>
-    <component base="uni03A9"/>
-    <component base="tonos" xOffset="-315" yOffset="-52"/>
+    <component base="tonos"/>
+    <component base="Omega" xOffset="65"/>
   </outline>
   <lib>
   <dict>
-  <key>com.fontlab.autolayer</key>
-  <true/>
+  <key>com.fontlab.metricsLeft</key>
+  <string>=tonos</string>
+  <key>com.fontlab.metricsRight</key>
+  <string>=Omega</string>
   <key>com.fontlab.recipe</key>
-  <string>uni03A9+tonos</string>
+  <string>tonos_Omega</string>
   <key>public.markColor</key>
   <string>0.6,0.997,1,1</string>
   </dict>

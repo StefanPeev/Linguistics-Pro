@@ -2,12 +2,12 @@
 <glyph name="Eacute" format="2">
   <advance width="606"/>
   <unicode hex="00C9"/>
+  <anchor x="311" y="740" name="top"/>
   <anchor x="479" y="10" name="ogonek"/>
   <anchor x="0" y="707" name="tonos"/>
-  <anchor x="315" y="918" name="top"/>
   <outline>
     <component base="E"/>
-    <component base="acute.cap" xOffset="85" yOffset="-2"/>
+    <component base="acute.case" xOffset="63"/>
   </outline>
   <lib>
   <dict>
@@ -41,7 +41,7 @@
     </array>
   </dict>
   <key>com.fontlab.recipe</key>
-  <string>E+acute.cap</string>
+  <string>E+acute.case</string>
   <key>public.markColor</key>
   <string>0.6,0.997,1,1</string>
   </dict>

@@ -2,10 +2,10 @@
 <glyph name="Uhorntilde" format="2">
   <advance width="791"/>
   <unicode hex="1EEE"/>
-  <anchor x="402.812" y="932" name="top"/>
+  <anchor x="402.856" y="932" name="top"/>
   <outline>
     <component base="Uhorn"/>
-    <component base="tildecomb" xOffset="597.812" yOffset="202"/>
+    <component base="uni0303" xOffset="597.856" yOffset="202"/>
   </outline>
   <lib>
   <dict>
@@ -63,7 +63,7 @@
     </array>
   </dict>
   <key>com.fontlab.recipe</key>
-  <string>Uhorn+tildecomb</string>
+  <string>Uhorn+uni0303</string>
   <key>public.markColor</key>
   <string>0.6,0.997,1,1</string>
   </dict>

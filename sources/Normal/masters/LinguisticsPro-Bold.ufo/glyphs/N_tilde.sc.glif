@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Ntilde.sc" format="2">
   <advance width="560"/>
-  <anchor x="270.941" y="750" name="top"/>
+  <anchor x="270.881" y="750" name="top"/>
   <outline>
     <component base="N.sc"/>
-    <component base="tildecomb" xOffset="495.941"/>
+    <component base="uni0303" xOffset="495.881"/>
   </outline>
   <lib>
   <dict>
   <key>com.fontlab.autolayer</key>
   <true/>
   <key>com.fontlab.recipe</key>
-  <string>N.sc+tildecomb</string>
+  <string>N.sc+uni0303</string>
   <key>public.markColor</key>
   <string>0.6,0.997,1,1</string>
   </dict>

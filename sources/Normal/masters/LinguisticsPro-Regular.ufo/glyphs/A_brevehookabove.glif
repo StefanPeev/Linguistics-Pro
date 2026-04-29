@@ -7,7 +7,7 @@
   <anchor x="170" y="702" name="tonos"/>
   <outline>
     <component base="Abreve"/>
-    <component base="hookabovecomb" xOffset="526" yOffset="290"/>
+    <component base="uni0309" xOffset="526" yOffset="340"/>
   </outline>
   <lib>
   <dict>
@@ -89,7 +89,7 @@
     </array>
   </dict>
   <key>com.fontlab.recipe</key>
-  <string>Abreve+hookabovecomb</string>
+  <string>Abreve+uni0309</string>
   <key>public.markColor</key>
   <string>0.6,0.997,1,1</string>
   </dict>

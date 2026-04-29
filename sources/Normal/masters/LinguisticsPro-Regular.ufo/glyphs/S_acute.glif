@@ -3,10 +3,9 @@
   <advance width="541"/>
   <unicode hex="015A"/>
   <anchor x="261" y="0" name="cedilla"/>
-  <anchor x="260.5" y="920" name="top"/>
   <outline>
     <component base="S"/>
-    <component base="acute.cap" xOffset="30.5"/>
+    <component base="acute.case" xOffset="30.5"/>
   </outline>
   <lib>
   <dict>
@@ -76,7 +75,7 @@
     </array>
   </dict>
   <key>com.fontlab.recipe</key>
-  <string>S+acute.cap</string>
+  <string>S+acute.case</string>
   <key>public.markColor</key>
   <string>0.6,0.997,1,1</string>
   </dict>

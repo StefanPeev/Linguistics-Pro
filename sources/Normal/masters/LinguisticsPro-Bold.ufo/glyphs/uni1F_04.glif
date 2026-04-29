@@ -3,7 +3,8 @@
   <advance width="662"/>
   <unicode hex="1F04"/>
   <anchor x="201" y="-60" name="bottom.jota"/>
-  <anchor x="282" y="533" name="top"/>
+  <anchor x="302" y="533" name="top"/>
+  <anchor x="312" y="533" name="tonoscomb"/>
   <outline>
     <component base="alpha"/>
     <component base="uni1FCE" xOffset="129.101"/>
@@ -13,7 +14,7 @@
   <key>com.fontlab.autolayer</key>
   <true/>
   <key>com.fontlab.recipe</key>
-  <string>alpha+uni1FCE</string>
+  <string>alpha+uni1FCE.comb</string>
   <key>public.markColor</key>
   <string>0.6,0.997,1,1</string>
   </dict>

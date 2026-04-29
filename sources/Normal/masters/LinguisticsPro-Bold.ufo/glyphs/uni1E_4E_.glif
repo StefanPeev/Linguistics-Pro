@@ -3,10 +3,10 @@
   <advance width="768"/>
   <unicode hex="1E4E"/>
   <anchor x="38" y="702" name="tonos"/>
-  <anchor x="374.941" y="1160" name="top"/>
+  <anchor x="374.881" y="952" name="top"/>
   <outline>
     <component base="Otilde"/>
-    <component base="dieresis.cap" xOffset="157.941" yOffset="220"/>
+    <component base="dieresis.case" xOffset="167"/>
   </outline>
   <lib>
   <dict>
@@ -82,7 +82,7 @@
     </array>
   </dict>
   <key>com.fontlab.recipe</key>
-  <string>Otilde+dieresis.cap</string>
+  <string>Otilde+dieresis.case</string>
   <key>public.markColor</key>
   <string>0.6,0.997,1,1</string>
   </dict>

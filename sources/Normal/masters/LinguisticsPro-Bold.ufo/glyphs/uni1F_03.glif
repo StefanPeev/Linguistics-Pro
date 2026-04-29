@@ -3,17 +3,17 @@
   <advance width="662"/>
   <unicode hex="1F03"/>
   <anchor x="201" y="-60" name="bottom.jota"/>
-  <anchor x="282" y="533" name="top"/>
+  <anchor x="312" y="533" name="tonoscomb"/>
   <outline>
     <component base="alpha"/>
-    <component base="uni1FDD" xOffset="120.529"/>
+    <component base="uni1FDD.cv01" xOffset="302" yOffset="3"/>
   </outline>
   <lib>
   <dict>
   <key>com.fontlab.autolayer</key>
   <true/>
   <key>com.fontlab.recipe</key>
-  <string>alpha+uni1FDD</string>
+  <string>alpha+uni1FDD.cv01</string>
   <key>public.markColor</key>
   <string>0.6,0.997,1,1</string>
   </dict>

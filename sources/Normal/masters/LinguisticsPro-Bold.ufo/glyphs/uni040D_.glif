@@ -4,7 +4,7 @@
   <unicode hex="040D"/>
   <outline>
     <component base="uni0418"/>
-    <component base="gravecomb" xOffset="661" yOffset="202"/>
+    <component base="uni0300" xOffset="661" yOffset="202"/>
   </outline>
   <lib>
   <dict>
@@ -56,7 +56,7 @@
     </array>
   </dict>
   <key>com.fontlab.recipe</key>
-  <string>uni0418+gravecomb</string>
+  <string>uni0418+uni0300</string>
   <key>public.markColor</key>
   <string>0.6,0.997,1,1</string>
   </dict>

@@ -5,7 +5,7 @@
   <anchor x="282" y="750" name="top"/>
   <outline>
     <component base="uhorn"/>
-    <component base="acutecomb" xOffset="463"/>
+    <component base="uni0301" xOffset="463"/>
   </outline>
   <lib>
   <dict>
@@ -57,7 +57,7 @@
     </array>
   </dict>
   <key>com.fontlab.recipe</key>
-  <string>uhorn+acutecomb</string>
+  <string>uhorn+uni0301</string>
   <key>public.markColor</key>
   <string>0.6,0.997,1,1</string>
   </dict>

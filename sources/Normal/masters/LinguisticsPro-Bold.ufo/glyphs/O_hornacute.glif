@@ -2,17 +2,16 @@
 <glyph name="Ohornacute" format="2">
   <advance width="768"/>
   <unicode hex="1EDA"/>
-  <anchor x="354" y="950" name="top"/>
   <outline>
     <component base="Ohorn"/>
-    <component base="acute.cap" xOffset="138"/>
+    <component base="acute.case" xOffset="138"/>
   </outline>
   <lib>
   <dict>
   <key>com.fontlab.autolayer</key>
   <true/>
   <key>com.fontlab.recipe</key>
-  <string>Ohorn+acute.cap</string>
+  <string>Ohorn+acute.case</string>
   <key>public.markColor</key>
   <string>0.6,0.997,1,1</string>
   </dict>

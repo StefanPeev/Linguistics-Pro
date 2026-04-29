@@ -3,10 +3,9 @@
   <advance width="791"/>
   <unicode hex="016E"/>
   <anchor x="427" y="0" name="ogonek"/>
-  <anchor x="395.5" y="940" name="top"/>
   <outline>
     <component base="U"/>
-    <component base="uni030A.cap" xOffset="595.5"/>
+    <component base="uni030A.case" xOffset="595.5"/>
   </outline>
   <lib>
   <dict>
@@ -70,7 +69,7 @@
     </array>
   </dict>
   <key>com.fontlab.recipe</key>
-  <string>U+uni030A.cap</string>
+  <string>U+uni030A.case</string>
   <key>public.markColor</key>
   <string>0.6,0.997,1,1</string>
   </dict>

@@ -3,10 +3,9 @@
   <advance width="588"/>
   <unicode hex="00DD"/>
   <anchor x="-42" y="702" name="tonos"/>
-  <anchor x="284" y="920" name="top"/>
   <outline>
     <component base="Y"/>
-    <component base="acute.cap" xOffset="54"/>
+    <component base="acute.case" xOffset="54"/>
   </outline>
   <lib>
   <dict>
@@ -52,7 +51,7 @@
     </array>
   </dict>
   <key>com.fontlab.recipe</key>
-  <string>Y+acute.cap</string>
+  <string>Y+acute.case</string>
   <key>public.markColor</key>
   <string>0.6,0.997,1,1</string>
   </dict>

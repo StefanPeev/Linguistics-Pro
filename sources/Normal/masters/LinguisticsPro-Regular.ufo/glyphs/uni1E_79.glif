@@ -2,11 +2,11 @@
 <glyph name="uni1E79" format="2">
   <advance width="606"/>
   <unicode hex="1E79"/>
-  <anchor x="519" y="10" name="ogonek"/>
+  <anchor x="572" y="0" name="ogonek"/>
   <anchor x="381" y="938" name="top"/>
   <outline>
     <component base="utilde"/>
-    <component base="acutecomb" xOffset="562" yOffset="188"/>
+    <component base="uni0301" xOffset="562" yOffset="188"/>
   </outline>
   <lib>
   <dict>
@@ -82,7 +82,7 @@
     </array>
   </dict>
   <key>com.fontlab.recipe</key>
-  <string>utilde+acutecomb</string>
+  <string>utilde+uni0301</string>
   <key>public.markColor</key>
   <string>0.6,0.997,1,1</string>
   </dict>

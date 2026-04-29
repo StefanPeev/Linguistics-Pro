@@ -2,16 +2,17 @@
 <glyph name="uni1F6D" format="2">
   <advance width="883"/>
   <unicode hex="1F6D"/>
+  <anchor x="68" y="702" name="tonos"/>
   <outline>
-    <component base="uni03A9"/>
-    <component base="uni1FDE" xOffset="-365" yOffset="-68"/>
+    <component base="Omega"/>
+    <component base="uni1FDE" xOffset="223.101" yOffset="202"/>
   </outline>
   <lib>
   <dict>
   <key>com.fontlab.autolayer</key>
   <true/>
   <key>com.fontlab.recipe</key>
-  <string>uni03A9+uni1FDE</string>
+  <string>Omega+uni1FDE</string>
   <key>public.markColor</key>
   <string>0.6,0.997,1,1</string>
   </dict>

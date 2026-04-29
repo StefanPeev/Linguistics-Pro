@@ -2,9 +2,10 @@
 <glyph name="iotatonos" format="2">
   <advance width="296"/>
   <unicode hex="03AF"/>
+  <anchor x="121" y="533" name="top"/>
   <outline>
     <component base="iota"/>
-    <component base="tonos" xOffset="-62"/>
+    <component base="tonos.cv01" xOffset="152" yOffset="53"/>
   </outline>
   <lib>
   <dict>
@@ -50,7 +51,7 @@
     </array>
   </dict>
   <key>com.fontlab.recipe</key>
-  <string>iota+tonos</string>
+  <string>iota+tonos.cv01</string>
   <key>public.markColor</key>
   <string>0.6,0.997,1,1</string>
   </dict>

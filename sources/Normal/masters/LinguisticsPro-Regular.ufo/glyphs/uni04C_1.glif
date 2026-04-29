@@ -2,9 +2,10 @@
 <glyph name="uni04C1" format="2">
   <advance width="1075"/>
   <unicode hex="04C1"/>
+  <anchor x="537" y="740" name="top"/>
   <outline>
     <component base="uni0416"/>
-    <component base="brevecyr.cap" xOffset="135" yOffset="-8"/>
+    <component base="brevecyr.case" xOffset="135.5"/>
   </outline>
   <lib>
   <dict>
@@ -86,7 +87,7 @@
     </array>
   </dict>
   <key>com.fontlab.recipe</key>
-  <string>uni0416+brevecyr.cap</string>
+  <string>uni0416+brevecyr.case</string>
   <key>public.markColor</key>
   <string>0.6,0.997,1,1</string>
   </dict>

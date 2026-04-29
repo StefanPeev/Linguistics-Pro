@@ -66,6 +66,7 @@
     <string>S</string>
     <string>Sacute</string>
     <string>Scircumflex</string>
+    <string>Scaron</string>
     <string>T</string>
     <string>Tcaron</string>
     <string>Thorn</string>
@@ -206,6 +207,7 @@
     <string>S.sc</string>
     <string>Sacute.sc</string>
     <string>Scircumflex.sc</string>
+    <string>Scaron.sc</string>
     <string>T.sc</string>
     <string>Tcaron.sc</string>
     <string>Thorn.sc</string>
@@ -281,58 +283,6 @@
     <string>uni042D.sc</string>
     <string>uni042E.sc</string>
     <string>uni042F.sc</string>
-  </array>
-  <key>case</key>
-  <array>
-    <string>acute</string>
-    <string>caron</string>
-    <string>dieresis</string>
-    <string>grave</string>
-    <string>hungarumlaut</string>
-    <string>macron</string>
-    <string>uni0307</string>
-    <string>uni0308</string>
-    <string>uni030B</string>
-    <string>uni030F</string>
-    <string>uni0311</string>
-    <string>uni0324</string>
-    <string>uni0325</string>
-    <string>uni032D</string>
-    <string>uni032E</string>
-    <string>uni0330</string>
-    <string>uni0331</string>
-    <string>brevecyr</string>
-    <string>uni0306</string>
-    <string>uni030C</string>
-    <string>uni0302</string>
-    <string>uni0304</string>
-    <string>uni030A</string>
-  </array>
-  <key>case2</key>
-  <array>
-    <string>acute.cap</string>
-    <string>caron.cap</string>
-    <string>dieresis.cap</string>
-    <string>grave.cap</string>
-    <string>hungarumlaut.cap</string>
-    <string>macron.cap</string>
-    <string>uni0307.cap</string>
-    <string>uni0308.cap</string>
-    <string>uni030B.cap</string>
-    <string>uni030F.cap</string>
-    <string>uni0311.cap</string>
-    <string>uni0324.cap</string>
-    <string>uni0325.cap</string>
-    <string>uni032D.cap</string>
-    <string>uni032E.cap</string>
-    <string>uni0330.cap</string>
-    <string>uni0331.cap</string>
-    <string>brevecyr.cap</string>
-    <string>uni0306.cap</string>
-    <string>uni030C.cap</string>
-    <string>uni0302.cap</string>
-    <string>uni0304.cap</string>
-    <string>uni030A.cap</string>
   </array>
   <key>locl</key>
   <array>
@@ -447,8 +397,8 @@
     <string>uni2087</string>
     <string>uni2088</string>
     <string>uni2089</string>
-    <string>parenleft.inferior</string>
-    <string>parenright.inferior</string>
+    <string>uni208D</string>
+    <string>uni208E</string>
   </array>
   <key>smcp</key>
   <array>

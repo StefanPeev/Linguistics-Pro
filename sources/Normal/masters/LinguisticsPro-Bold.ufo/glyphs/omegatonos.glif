@@ -4,14 +4,14 @@
   <unicode hex="03CE"/>
   <outline>
     <component base="omega"/>
-    <component base="tonos" xOffset="160.783"/>
+    <component base="tonos.cv01" xOffset="422" yOffset="103"/>
   </outline>
   <lib>
   <dict>
   <key>com.fontlab.autolayer</key>
   <true/>
   <key>com.fontlab.recipe</key>
-  <string>omega+tonos</string>
+  <string>omega+tonos.cv01</string>
   <key>public.markColor</key>
   <string>0.6,0.997,1,1</string>
   </dict>

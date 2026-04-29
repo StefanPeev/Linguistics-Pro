@@ -5,7 +5,7 @@
   <anchor x="-42" y="702" name="tonos"/>
   <outline>
     <component base="Y"/>
-    <component base="grave.cap" xOffset="134.5"/>
+    <component base="grave.case" xOffset="134.5"/>
   </outline>
   <lib>
   <dict>
@@ -51,7 +51,7 @@
     </array>
   </dict>
   <key>com.fontlab.recipe</key>
-  <string>Y+grave.cap</string>
+  <string>Y+grave.case</string>
   <key>public.markColor</key>
   <string>0.6,0.997,1,1</string>
   </dict>

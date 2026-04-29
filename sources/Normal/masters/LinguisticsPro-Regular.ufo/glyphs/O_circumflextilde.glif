@@ -6,7 +6,7 @@
   <anchor x="403" y="1130" name="top"/>
   <outline>
     <component base="Ocircumflex"/>
-    <component base="tildecomb" xOffset="598" yOffset="400"/>
+    <component base="uni0303" xOffset="598" yOffset="400"/>
   </outline>
   <lib>
   <dict>
@@ -31,7 +31,7 @@
     </array>
   </dict>
   <key>com.fontlab.recipe</key>
-  <string>Ocircumflex+tildecomb</string>
+  <string>Ocircumflex+uni0303</string>
   <key>public.markColor</key>
   <string>0.6,0.997,1,1</string>
   </dict>

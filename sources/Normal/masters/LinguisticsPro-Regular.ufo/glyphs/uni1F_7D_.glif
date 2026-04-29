@@ -2,10 +2,11 @@
 <glyph name="uni1F7D" format="2">
   <advance width="764"/>
   <unicode hex="1F7D"/>
+  <anchor x="392" y="533" name="tonoscomb"/>
   <anchor x="361" y="750" name="top"/>
   <outline>
     <component base="omega"/>
-    <component base="acutecomb" xOffset="542"/>
+    <component base="uni0301" xOffset="542"/>
   </outline>
   <lib>
   <dict>
@@ -69,7 +70,7 @@
     </array>
   </dict>
   <key>com.fontlab.recipe</key>
-  <string>omega+acutecomb</string>
+  <string>omega+uni0301</string>
   <key>public.markColor</key>
   <string>0.6,0.997,1,1</string>
   </dict>

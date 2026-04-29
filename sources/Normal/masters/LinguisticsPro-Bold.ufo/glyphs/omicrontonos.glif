@@ -2,16 +2,17 @@
 <glyph name="omicrontonos" format="2">
   <advance width="585"/>
   <unicode hex="03CC"/>
+  <anchor x="293" y="533" name="top"/>
   <outline>
     <component base="omicron"/>
-    <component base="tonos" xOffset="106" yOffset="-7"/>
+    <component base="tonos.cv01" xOffset="312" yOffset="103"/>
   </outline>
   <lib>
   <dict>
   <key>com.fontlab.autolayer</key>
   <true/>
   <key>com.fontlab.recipe</key>
-  <string>omicron+tonos</string>
+  <string>omicron+tonos.cv01</string>
   <key>public.markColor</key>
   <string>0.6,0.997,1,1</string>
   </dict>

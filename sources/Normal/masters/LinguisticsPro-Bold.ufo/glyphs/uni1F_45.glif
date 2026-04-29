@@ -3,6 +3,7 @@
   <advance width="585"/>
   <unicode hex="1F45"/>
   <anchor x="293" y="533" name="top"/>
+  <anchor x="312" y="533" name="tonoscomb"/>
   <outline>
     <component base="omicron"/>
     <component base="uni1FDE" xOffset="74.101"/>
@@ -12,7 +13,7 @@
   <key>com.fontlab.autolayer</key>
   <true/>
   <key>com.fontlab.recipe</key>
-  <string>omicron+uni1FDE</string>
+  <string>omicron+uni1FDE.comb</string>
   <key>public.markColor</key>
   <string>0.6,0.997,1,1</string>
   </dict>

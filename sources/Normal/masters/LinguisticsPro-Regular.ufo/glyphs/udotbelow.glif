@@ -3,10 +3,10 @@
   <advance width="606"/>
   <unicode hex="1EE5"/>
   <anchor x="310" y="542" name="top"/>
-  <anchor x="519" y="10" name="ogonek"/>
+  <anchor x="572" y="0" name="ogonek"/>
   <outline>
     <component base="u"/>
-    <component base="dotbelowcomb" xOffset="503"/>
+    <component base="uni0323" xOffset="503"/>
   </outline>
   <lib>
   <dict>
@@ -58,7 +58,7 @@
     </array>
   </dict>
   <key>com.fontlab.recipe</key>
-  <string>u+dotbelowcomb</string>
+  <string>u+uni0323</string>
   <key>public.markColor</key>
   <string>0.6,0.997,1,1</string>
   </dict>

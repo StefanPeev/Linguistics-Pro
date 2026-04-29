@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni0403.sc" format="2">
   <advance width="486"/>
+  <anchor x="253" y="580" name="top"/>
   <outline>
     <component base="uni0413.sc"/>
-    <component base="uni0301.cap" xOffset="422" yOffset="-142"/>
+    <component base="uni0301.case" xOffset="418"/>
   </outline>
   <lib>
   <dict>
   <key>com.fontlab.autolayer</key>
   <true/>
   <key>com.fontlab.recipe</key>
-  <string>uni0413.sc+uni0301.cap</string>
+  <string>uni0413.sc+uni0301.case</string>
   <key>public.markColor</key>
   <string>0.6,0.997,1,1</string>
   </dict>

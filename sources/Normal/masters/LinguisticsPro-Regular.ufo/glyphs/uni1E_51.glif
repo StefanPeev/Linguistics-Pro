@@ -2,9 +2,10 @@
 <glyph name="uni1E51" format="2">
   <advance width="577"/>
   <unicode hex="1E51"/>
+  <anchor x="289" y="550" name="top"/>
   <outline>
-    <component base="omacron"/>
-    <component base="gravecomb" xOffset="475" yOffset="137"/>
+    <component base="o"/>
+    <component base="uni03040300" xOffset="299"/>
   </outline>
   <lib>
   <dict>
@@ -44,7 +45,7 @@
     </array>
   </dict>
   <key>com.fontlab.recipe</key>
-  <string>omacron+gravecomb</string>
+  <string>o+uni03040300</string>
   <key>public.markColor</key>
   <string>0.6,0.997,1,1</string>
   </dict>

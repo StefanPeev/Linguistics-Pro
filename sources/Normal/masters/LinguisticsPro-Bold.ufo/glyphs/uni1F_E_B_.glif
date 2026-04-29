@@ -1,17 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni1FEB" format="2">
-  <advance width="617"/>
+  <advance width="832"/>
   <unicode hex="1FEB"/>
   <outline>
-    <component base="Upsilon"/>
-    <component base="tonos" xOffset="-417" yOffset="-52"/>
+    <component base="tonos"/>
+    <component base="Upsilon" xOffset="215"/>
   </outline>
   <lib>
   <dict>
-  <key>com.fontlab.autolayer</key>
-  <true/>
+  <key>com.fontlab.metricsLeft</key>
+  <string>=tonos</string>
+  <key>com.fontlab.metricsRight</key>
+  <string>=Upsilon</string>
   <key>com.fontlab.recipe</key>
-  <string>Upsilon+tonos</string>
+  <string>tonos_Upsilon</string>
   <key>public.markColor</key>
   <string>0.6,0.997,1,1</string>
   </dict>

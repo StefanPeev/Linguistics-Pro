@@ -1,21 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Iotatonos" format="2">
-  <advance width="384"/>
+  <advance width="569"/>
   <unicode hex="038A"/>
-  <anchor x="210" y="10" name="ogonek"/>
-  <anchor x="192" y="-60" name="bottom"/>
   <outline>
-    <component base="Iota"/>
-    <component base="tonos" xOffset="-383" yOffset="-52"/>
+    <component base="tonos"/>
+    <component base="Iota" xOffset="185"/>
   </outline>
   <lib>
   <dict>
-  <key>com.fontlab.autolayer</key>
-  <true/>
+  <key>com.fontlab.metricsLeft</key>
+  <string>=tonos</string>
+  <key>com.fontlab.metricsRight</key>
+  <string>=Iota</string>
   <key>com.fontlab.recipe</key>
-  <string>Iota+tonos</string>
-  <key>public.markColor</key>
-  <string>0.6,0.997,1,1</string>
+  <string>tonos_Iota</string>
   </dict>
   </lib>
 </glyph>

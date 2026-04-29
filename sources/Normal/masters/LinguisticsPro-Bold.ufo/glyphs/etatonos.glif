@@ -2,17 +2,18 @@
 <glyph name="etatonos" format="2">
   <advance width="631"/>
   <unicode hex="03AE"/>
+  <anchor x="312" y="533" name="top"/>
   <anchor x="106" y="-60" name="bottom.jota"/>
   <outline>
     <component base="eta"/>
-    <component base="tonos" xOffset="125" yOffset="-7"/>
+    <component base="tonos.cv01" xOffset="332" yOffset="103"/>
   </outline>
   <lib>
   <dict>
   <key>com.fontlab.autolayer</key>
   <true/>
   <key>com.fontlab.recipe</key>
-  <string>eta+tonos</string>
+  <string>eta+tonos.cv01</string>
   <key>public.markColor</key>
   <string>0.6,0.997,1,1</string>
   </dict>

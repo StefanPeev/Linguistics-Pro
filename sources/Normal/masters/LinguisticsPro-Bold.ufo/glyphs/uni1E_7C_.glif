@@ -2,10 +2,10 @@
 <glyph name="uni1E7C" format="2">
   <advance width="645"/>
   <unicode hex="1E7C"/>
-  <anchor x="313.441" y="952" name="top"/>
+  <anchor x="313.381" y="952" name="top"/>
   <outline>
     <component base="V"/>
-    <component base="tildecomb" xOffset="538.441" yOffset="202"/>
+    <component base="uni0303" xOffset="538.381" yOffset="202"/>
   </outline>
   <lib>
   <dict>
@@ -69,7 +69,7 @@
     </array>
   </dict>
   <key>com.fontlab.recipe</key>
-  <string>V+tildecomb</string>
+  <string>V+uni0303</string>
   <key>public.markColor</key>
   <string>0.6,0.997,1,1</string>
   </dict>

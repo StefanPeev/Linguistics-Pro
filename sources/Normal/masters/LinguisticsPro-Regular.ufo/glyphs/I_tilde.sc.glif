@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Itilde.sc" format="2">
   <advance width="331"/>
-  <anchor x="172.812" y="730" name="top"/>
+  <anchor x="172.856" y="730" name="top"/>
   <outline>
     <component base="I.sc"/>
-    <component base="tildecomb" xOffset="367.812"/>
+    <component base="uni0303" xOffset="367.856"/>
   </outline>
   <lib>
   <dict>
@@ -29,7 +29,7 @@
     </array>
   </dict>
   <key>com.fontlab.recipe</key>
-  <string>I.sc+tildecomb</string>
+  <string>I.sc+uni0303</string>
   <key>public.markColor</key>
   <string>0.6,0.997,1,1</string>
   </dict>

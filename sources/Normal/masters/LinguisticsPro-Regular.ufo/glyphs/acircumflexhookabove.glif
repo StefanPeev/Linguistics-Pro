@@ -6,7 +6,7 @@
   <anchor x="266" y="540" name="aring"/>
   <outline>
     <component base="acircumflex"/>
-    <component base="hookabovecomb" xOffset="476.5" yOffset="160"/>
+    <component base="uni0309" xOffset="476.5" yOffset="160"/>
   </outline>
   <lib>
   <dict>
@@ -64,7 +64,7 @@
     </array>
   </dict>
   <key>com.fontlab.recipe</key>
-  <string>acircumflex+hookabovecomb</string>
+  <string>acircumflex+uni0309</string>
   <key>public.markColor</key>
   <string>0.6,0.997,1,1</string>
   </dict>

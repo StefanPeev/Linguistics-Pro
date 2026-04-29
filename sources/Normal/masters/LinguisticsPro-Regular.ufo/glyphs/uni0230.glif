@@ -3,10 +3,10 @@
   <advance width="762"/>
   <unicode hex="0230"/>
   <anchor x="66" y="702" name="tonos"/>
-  <anchor x="381" y="1048" name="top"/>
+  <anchor x="381" y="942" name="top"/>
   <outline>
     <component base="uni022E"/>
-    <component base="macron.cap" xOffset="181" yOffset="182"/>
+    <component base="macron.case" xOffset="181"/>
   </outline>
   <lib>
   <dict>
@@ -70,7 +70,7 @@
     </array>
   </dict>
   <key>com.fontlab.recipe</key>
-  <string>uni022E+macron.cap</string>
+  <string>uni022E+macron.case</string>
   <key>public.markColor</key>
   <string>0.6,0.997,1,1</string>
   </dict>

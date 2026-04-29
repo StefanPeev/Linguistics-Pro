@@ -3,10 +3,10 @@
   <advance width="791"/>
   <unicode hex="0168"/>
   <anchor x="427" y="0" name="ogonek"/>
-  <anchor x="402.812" y="932" name="top"/>
+  <anchor x="402.856" y="932" name="top"/>
   <outline>
     <component base="U"/>
-    <component base="tildecomb" xOffset="597.812" yOffset="202"/>
+    <component base="uni0303" xOffset="597.856" yOffset="202"/>
   </outline>
   <lib>
   <dict>
@@ -31,7 +31,7 @@
     </array>
   </dict>
   <key>com.fontlab.recipe</key>
-  <string>U+tildecomb</string>
+  <string>U+uni0303</string>
   <key>public.markColor</key>
   <string>0.6,0.997,1,1</string>
   </dict>

@@ -2,17 +2,17 @@
 <glyph name="uni1F43" format="2">
   <advance width="585"/>
   <unicode hex="1F43"/>
-  <anchor x="293" y="533" name="top"/>
+  <anchor x="312" y="533" name="tonoscomb"/>
   <outline>
     <component base="omicron"/>
-    <component base="uni1FDD" xOffset="82.0289"/>
+    <component base="uni1FDD.cv01" xOffset="293" yOffset="3"/>
   </outline>
   <lib>
   <dict>
   <key>com.fontlab.autolayer</key>
   <true/>
   <key>com.fontlab.recipe</key>
-  <string>omicron+uni1FDD</string>
+  <string>omicron+uni1FDD.cv01</string>
   <key>public.markColor</key>
   <string>0.6,0.997,1,1</string>
   </dict>

@@ -2,12 +2,9 @@
 <glyph name="uni1E38" format="2">
   <advance width="585"/>
   <unicode hex="1E38"/>
-  <anchor x="539" y="742" name="quote"/>
-  <anchor x="375" y="391" name="dot"/>
-  <anchor x="292.5" y="902" name="top"/>
   <outline>
     <component base="uni1E36"/>
-    <component base="macron.cap" xOffset="92.5"/>
+    <component base="macron.case" xOffset="92.5"/>
   </outline>
   <lib>
   <dict>
@@ -71,7 +68,7 @@
     </array>
   </dict>
   <key>com.fontlab.recipe</key>
-  <string>uni1E36+macron.cap</string>
+  <string>uni1E36+macron.case</string>
   <key>public.markColor</key>
   <string>0.6,0.997,1,1</string>
   </dict>

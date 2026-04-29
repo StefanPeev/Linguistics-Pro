@@ -4,16 +4,17 @@
   <unicode hex="1EC0"/>
   <anchor x="480" y="10" name="ogonek"/>
   <anchor x="-2" y="702" name="tonos"/>
+  <anchor x="317" y="938" name="top"/>
   <outline>
     <component base="Ecircumflex"/>
-    <component base="grave.cap" xOffset="162" yOffset="178"/>
+    <component base="grave.case" xOffset="160"/>
   </outline>
   <lib>
   <dict>
   <key>com.fontlab.autolayer</key>
   <true/>
   <key>com.fontlab.recipe</key>
-  <string>Ecircumflex+grave.cap</string>
+  <string>Ecircumflex+grave.case</string>
   <key>public.markColor</key>
   <string>0.6,0.997,1,1</string>
   </dict>

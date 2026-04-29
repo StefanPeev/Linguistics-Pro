@@ -2,9 +2,10 @@
 <glyph name="uni1F6E" format="2">
   <advance width="766"/>
   <unicode hex="1F6E"/>
+  <anchor x="54" y="702" name="tonos"/>
   <outline>
-    <component base="uni03A9"/>
-    <component base="uni1FCF" xOffset="-241" yOffset="-38"/>
+    <component base="Omega"/>
+    <component base="uni1FCF" xOffset="226.51" yOffset="202"/>
   </outline>
   <lib>
   <dict>
@@ -74,7 +75,7 @@
     </array>
   </dict>
   <key>com.fontlab.recipe</key>
-  <string>uni03A9+uni1FCF</string>
+  <string>Omega+uni1FCF</string>
   <key>public.markColor</key>
   <string>0.6,0.997,1,1</string>
   </dict>

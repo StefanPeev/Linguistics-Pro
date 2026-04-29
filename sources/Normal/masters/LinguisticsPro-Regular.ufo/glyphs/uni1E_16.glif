@@ -2,12 +2,12 @@
 <glyph name="uni1E16" format="2">
   <advance width="606"/>
   <unicode hex="1E16"/>
+  <anchor x="311" y="740" name="top"/>
   <anchor x="479" y="10" name="ogonek"/>
   <anchor x="0" y="707" name="tonos"/>
-  <anchor x="315" y="1024" name="top"/>
   <outline>
-    <component base="Emacron"/>
-    <component base="acute.cap" xOffset="85" yOffset="104"/>
+    <component base="E"/>
+    <component base="uni03040301" xOffset="284.5" yOffset="202"/>
   </outline>
   <lib>
   <dict>
@@ -53,7 +53,7 @@
     </array>
   </dict>
   <key>com.fontlab.recipe</key>
-  <string>Emacron+acute.cap</string>
+  <string>E+uni03040301</string>
   <key>public.markColor</key>
   <string>0.6,0.997,1,1</string>
   </dict>

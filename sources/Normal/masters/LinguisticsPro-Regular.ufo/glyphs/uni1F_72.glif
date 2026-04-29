@@ -2,9 +2,10 @@
 <glyph name="uni1F72" format="2">
   <advance width="485"/>
   <unicode hex="1F72"/>
+  <anchor x="262" y="533" name="tonoscomb"/>
   <outline>
     <component base="epsilon"/>
-    <component base="gravecomb" xOffset="426" yOffset="-9"/>
+    <component base="uni0300" xOffset="426" yOffset="-9"/>
   </outline>
   <lib>
   <dict>
@@ -62,7 +63,7 @@
     </array>
   </dict>
   <key>com.fontlab.recipe</key>
-  <string>epsilon+gravecomb</string>
+  <string>epsilon+uni0300</string>
   <key>public.markColor</key>
   <string>0.6,0.997,1,1</string>
   </dict>

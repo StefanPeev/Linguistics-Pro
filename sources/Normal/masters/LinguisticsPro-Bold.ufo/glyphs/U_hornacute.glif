@@ -2,17 +2,16 @@
 <glyph name="Uhornacute" format="2">
   <advance width="832"/>
   <unicode hex="1EE8"/>
-  <anchor x="386" y="950" name="top"/>
   <outline>
     <component base="Uhorn"/>
-    <component base="acute.cap" xOffset="170"/>
+    <component base="acute.case" xOffset="170"/>
   </outline>
   <lib>
   <dict>
   <key>com.fontlab.autolayer</key>
   <true/>
   <key>com.fontlab.recipe</key>
-  <string>Uhorn+acute.cap</string>
+  <string>Uhorn+acute.case</string>
   <key>public.markColor</key>
   <string>0.6,0.997,1,1</string>
   </dict>

@@ -4,9 +4,10 @@
   <unicode hex="1E2C"/>
   <anchor x="190" y="10" name="ogonek"/>
   <anchor x="0" y="702" name="tonos"/>
+  <anchor x="175" y="-60" name="bottom"/>
   <outline>
     <component base="I"/>
-    <component base="uni0330.cap" xOffset="373" yOffset="109"/>
+    <component base="uni0330.case" xOffset="374"/>
   </outline>
   <lib>
   <dict>
@@ -31,7 +32,7 @@
     </array>
   </dict>
   <key>com.fontlab.recipe</key>
-  <string>I+uni0330.cap</string>
+  <string>I+uni0330.case</string>
   <key>public.markColor</key>
   <string>0.6,0.997,1,1</string>
   </dict>

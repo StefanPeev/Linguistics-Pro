@@ -2,10 +2,10 @@
 <glyph name="uni1F53" format="2">
   <advance width="542"/>
   <unicode hex="1F53"/>
-  <anchor x="276" y="533" name="top"/>
+  <anchor x="322" y="533" name="tonoscomb"/>
   <outline>
     <component base="upsilon"/>
-    <component base="uni1FDD" xOffset="85.1118"/>
+    <component base="uni1FDD.cv01" xOffset="276" yOffset="3"/>
   </outline>
   <lib>
   <dict>
@@ -69,7 +69,7 @@
     </array>
   </dict>
   <key>com.fontlab.recipe</key>
-  <string>upsilon+uni1FDD</string>
+  <string>upsilon+uni1FDD.cv01</string>
   <key>public.markColor</key>
   <string>0.6,0.997,1,1</string>
   </dict>

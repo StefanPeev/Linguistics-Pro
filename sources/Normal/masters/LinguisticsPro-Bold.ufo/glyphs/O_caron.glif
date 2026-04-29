@@ -5,14 +5,14 @@
   <anchor x="38" y="702" name="tonos"/>
   <outline>
     <component base="O"/>
-    <component base="caron.cap" xOffset="183"/>
+    <component base="caron.case" xOffset="183"/>
   </outline>
   <lib>
   <dict>
   <key>com.fontlab.autolayer</key>
   <true/>
   <key>com.fontlab.recipe</key>
-  <string>O+caron.cap</string>
+  <string>O+caron.case</string>
   <key>public.markColor</key>
   <string>0.6,0.997,1,1</string>
   </dict>

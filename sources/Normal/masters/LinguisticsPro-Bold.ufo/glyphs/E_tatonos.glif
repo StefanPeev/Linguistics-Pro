@@ -1,20 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Etatonos" format="2">
-  <advance width="807"/>
+  <advance width="982"/>
   <unicode hex="0389"/>
-  <anchor x="198" y="0" name="cedilla"/>
   <outline>
-    <component base="Eta"/>
-    <component base="tonos" xOffset="-383" yOffset="-52"/>
+    <component base="tonos"/>
+    <component base="Eta" xOffset="175"/>
   </outline>
   <lib>
   <dict>
-  <key>com.fontlab.autolayer</key>
-  <true/>
+  <key>com.fontlab.metricsLeft</key>
+  <string>=tonos</string>
+  <key>com.fontlab.metricsRight</key>
+  <string>=Eta</string>
   <key>com.fontlab.recipe</key>
-  <string>Eta+tonos</string>
-  <key>public.markColor</key>
-  <string>0.6,0.997,1,1</string>
+  <string>tonos_Eta</string>
   </dict>
   </lib>
 </glyph>

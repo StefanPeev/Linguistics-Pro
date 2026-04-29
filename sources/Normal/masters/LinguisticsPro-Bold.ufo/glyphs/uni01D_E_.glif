@@ -2,13 +2,13 @@
 <glyph name="uni01DE" format="2">
   <advance width="644"/>
   <unicode hex="01DE"/>
+  <anchor x="318" y="730" name="top"/>
   <anchor x="496" y="10" name="ogonek"/>
   <anchor x="320" y="660" name="aring"/>
   <anchor x="156" y="707" name="tonos"/>
-  <anchor x="318" y="1075" name="top"/>
   <outline>
     <component base="Adieresis"/>
-    <component base="macron.cap" xOffset="118" yOffset="173"/>
+    <component base="macron.case" xOffset="122"/>
   </outline>
   <lib>
   <dict>
@@ -66,7 +66,7 @@
     </array>
   </dict>
   <key>com.fontlab.recipe</key>
-  <string>Adieresis+macron.cap</string>
+  <string>Adieresis+macron.case</string>
   <key>public.markColor</key>
   <string>0.6,0.997,1,1</string>
   </dict>

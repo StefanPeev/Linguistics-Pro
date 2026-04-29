@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni1F50" format="2">
-  <advance width="627"/>
+  <advance width="577"/>
   <unicode hex="1F50"/>
-  <anchor x="350" y="533" name="top"/>
+  <anchor x="332" y="533" name="tonoscomb"/>
   <outline>
     <component base="upsilon"/>
-    <component base="uni0313" xOffset="313.5"/>
+    <component base="uni0313.cv01" xOffset="300" yOffset="3"/>
   </outline>
   <lib>
   <dict>
   <key>com.fontlab.autolayer</key>
   <true/>
   <key>com.fontlab.recipe</key>
-  <string>upsilon+uni0313</string>
+  <string>upsilon+uni0313.cv01</string>
   <key>public.markColor</key>
   <string>0.6,0.997,1,1</string>
   </dict>

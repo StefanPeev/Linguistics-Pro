@@ -1,15 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Omicrontonos" format="2">
-  <advance width="762"/>
+  <advance width="835"/>
   <unicode hex="038C"/>
   <outline>
-    <component base="Omicron"/>
-    <component base="tonos" xOffset="-284" yOffset="-21"/>
+    <component base="tonos"/>
+    <component base="Omicron" xOffset="73"/>
   </outline>
   <lib>
   <dict>
-  <key>com.fontlab.autolayer</key>
-  <true/>
   <key>com.fontlab.hintData</key>
   <dict>
     <key>hhints</key>
@@ -55,10 +53,12 @@
       </dict>
     </array>
   </dict>
+  <key>com.fontlab.metricsLeft</key>
+  <string>=tonos</string>
+  <key>com.fontlab.metricsRight</key>
+  <string>=Omicron</string>
   <key>com.fontlab.recipe</key>
-  <string>Omicron+tonos</string>
-  <key>public.markColor</key>
-  <string>0.6,0.997,1,1</string>
+  <string>tonos_Omicron</string>
   </dict>
   </lib>
 </glyph>

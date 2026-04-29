@@ -2,17 +2,17 @@
 <glyph name="uhorntilde" format="2">
   <advance width="683"/>
   <unicode hex="1EEF"/>
-  <anchor x="332.441" y="750" name="top"/>
+  <anchor x="332.381" y="750" name="top"/>
   <outline>
     <component base="uhorn"/>
-    <component base="tildecomb" xOffset="557.441"/>
+    <component base="uni0303" xOffset="557.381"/>
   </outline>
   <lib>
   <dict>
   <key>com.fontlab.autolayer</key>
   <true/>
   <key>com.fontlab.recipe</key>
-  <string>uhorn+tildecomb</string>
+  <string>uhorn+uni0303</string>
   <key>public.markColor</key>
   <string>0.6,0.997,1,1</string>
   </dict>

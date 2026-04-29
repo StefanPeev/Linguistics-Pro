@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Ntilde.sc" format="2">
   <advance width="678"/>
-  <anchor x="346.312" y="730" name="top"/>
+  <anchor x="346.356" y="730" name="top"/>
   <outline>
     <component base="N.sc"/>
-    <component base="tildecomb" xOffset="541.312"/>
+    <component base="uni0303" xOffset="541.356"/>
   </outline>
   <lib>
   <dict>
@@ -68,7 +68,7 @@
     </array>
   </dict>
   <key>com.fontlab.recipe</key>
-  <string>N.sc+tildecomb</string>
+  <string>N.sc+uni0303</string>
   <key>public.markColor</key>
   <string>0.6,0.997,1,1</string>
   </dict>

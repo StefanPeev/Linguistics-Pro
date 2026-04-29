@@ -4,11 +4,10 @@
   <unicode hex="00CF"/>
   <anchor x="190" y="10" name="ogonek"/>
   <anchor x="0" y="702" name="tonos"/>
-  <anchor x="175" y="-68" name="bottom"/>
-  <anchor x="174.5" y="900" name="top"/>
+  <anchor x="175" y="-60" name="bottom"/>
   <outline>
     <component base="I"/>
-    <component base="dieresis.cap" xOffset="-25.5"/>
+    <component base="dieresis.case" xOffset="-25.5"/>
   </outline>
   <lib>
   <dict>
@@ -42,7 +41,7 @@
     </array>
   </dict>
   <key>com.fontlab.recipe</key>
-  <string>I+dieresis.cap</string>
+  <string>I+dieresis.case</string>
   <key>public.markColor</key>
   <string>0.6,0.997,1,1</string>
   </dict>

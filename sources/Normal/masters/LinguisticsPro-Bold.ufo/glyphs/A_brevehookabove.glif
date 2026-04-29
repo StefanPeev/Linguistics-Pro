@@ -7,14 +7,14 @@
   <anchor x="156" y="707" name="tonos"/>
   <outline>
     <component base="Abreve"/>
-    <component base="hookabovecomb" xOffset="535" yOffset="290"/>
+    <component base="uni0309" xOffset="535" yOffset="340"/>
   </outline>
   <lib>
   <dict>
   <key>com.fontlab.autolayer</key>
   <true/>
   <key>com.fontlab.recipe</key>
-  <string>Abreve+hookabovecomb</string>
+  <string>Abreve+uni0309</string>
   <key>public.markColor</key>
   <string>0.6,0.997,1,1</string>
   </dict>

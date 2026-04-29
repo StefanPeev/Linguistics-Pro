@@ -5,14 +5,14 @@
   <anchor x="38" y="702" name="tonos"/>
   <outline>
     <component base="Ocircumflex"/>
-    <component base="hookabovecomb" xOffset="600" yOffset="352"/>
+    <component base="uni0309" xOffset="600" yOffset="352"/>
   </outline>
   <lib>
   <dict>
   <key>com.fontlab.autolayer</key>
   <true/>
   <key>com.fontlab.recipe</key>
-  <string>Ocircumflex+hookabovecomb</string>
+  <string>Ocircumflex+uni0309</string>
   <key>public.markColor</key>
   <string>0.6,0.997,1,1</string>
   </dict>

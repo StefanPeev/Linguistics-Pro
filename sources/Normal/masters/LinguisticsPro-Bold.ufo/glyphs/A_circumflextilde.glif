@@ -8,14 +8,14 @@
   <anchor x="308" y="1166" name="top"/>
   <outline>
     <component base="Acircumflex"/>
-    <component base="tildecomb" xOffset="533" yOffset="416"/>
+    <component base="uni0303" xOffset="533" yOffset="416"/>
   </outline>
   <lib>
   <dict>
   <key>com.fontlab.autolayer</key>
   <true/>
   <key>com.fontlab.recipe</key>
-  <string>Acircumflex+tildecomb</string>
+  <string>Acircumflex+uni0303</string>
   <key>public.markColor</key>
   <string>0.6,0.997,1,1</string>
   </dict>
