@@ -1,11 +1,17 @@
  ### **2026-04-30:**  
   
- ## Version  
+ ## Source file version  
+ * **LinguisticsPro.vfc** - v.1.088
+ * **LinguisticsPro-Italic.vfc** - v.1.083
+ * **LinguisticsPro.designspace** - v.1.088
+ * **LinguisticsPro-Italic.designspace** - v.1.083
+ 
+ ## Styles
  * **Regular**, **Medium**, **SemiBold**, **Bold** - v.1.088  
  * **Italic**, **Medium Italic**, **SemiBold Italic**, **Bold Italic** - v.1.083  
  
  ## Additional glyphs  
- * **Phonetic Extensions Supplement:** /mpalatalhook /npalatalhook /uni1D8F /alpharetroflexhook /uni1D92 /uni1D93 /uni1D94 /uni1D95 /iretroflexhook /uni1D97  
+ * **Phonetic Extensions Supplement:** /bpalatalhook /dpalatalhook /fpalatalhook /gpalatalhook /kpalatalhook /lpalatalhook /mpalatalhook /npalatalhook /uni1D8F /alpharetroflexhook /uni1D92 /uni1D93 /uni1D94 /uni1D95 /iretroflexhook /uni1D97  
  
  ## Corrections in the glyphs  
  * **Greek and Coptic:** /Alphatonos /Epsilontonos /Etatonos /Iotatonos /Omicrontonos /Upsilontonos /Omegatonos /iotadieresistonos /alphatonos /epsilontonos /etatonos /iotatonos /upsilondieresistonos /iotadieresis /upsilondieresis /omicrontonos /upsilontonos /omegatonos /Upsilonacutehooksymbol /uni03D4 ἀἐἠἰὀὐὠἁἑἡἱὁὑὡἂἒἢἲὂὒὢἃἓἣἳὃὓὣἄἔἤἴὄὔὤἅἕἥἵὅὕὥἆἦἶὖὦἇἧἷὗὧ  
