@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni2103" format="2">
+  <advance width="1055"/>
+  <unicode hex="2103"/>
+  <anchor x="795" y="10" name="cedilla"/>
+  <outline>
+    <component base="degree"/>
+    <component base="C" xOffset="366"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.metricsLeft</key>
+  <string>=degree</string>
+  <key>com.fontlab.metricsRight</key>
+  <string>=C</string>
+  <key>com.fontlab.recipe</key>
+  <string>degree_C%</string>
+  </dict>
+  </lib>
+</glyph>

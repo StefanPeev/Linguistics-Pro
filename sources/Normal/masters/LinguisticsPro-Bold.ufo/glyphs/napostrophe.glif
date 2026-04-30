@@ -1,9 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="napostrophe" format="2">
-  <advance width="771"/>
+  <advance width="828"/>
   <unicode hex="0149"/>
   <outline>
-    <component base="n" xOffset="120"/>
-    <component base="apostrophemod" xOffset="10.5826"/>
+    <component base="n" xOffset="190"/>
+    <component base="apostrophemod" xOffset="0.582585"/>
   </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.metricsLeft</key>
+  <string>=apostrophemod</string>
+  <key>com.fontlab.metricsRight</key>
+  <string>=n</string>
+  </dict>
+  </lib>
 </glyph>

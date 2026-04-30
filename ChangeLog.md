@@ -14,6 +14,8 @@
  * **Phonetic Extensions Supplement:** ᶀᶁᶂᶃᶄᶅᶆᶇᶈᶉᶊᶋᶌᶍᶎᶏᶐᶑᶒᶖᶓᶔᶕᶗᶘᶙᶚ  
  * **Currency Symbols:** ₮₸  
  * **Letterlike Symbols:** ℃℉  
+ * **Latin Extended-B:**  Ƚ Ƞ ƹ ɂ 
+ * **Latin Extended-D:**  Ƛ Ɤ Ɦ 
  
  ### Corrections in the glyphs  
  * **Greek and Coptic:** /Alphatonos /Epsilontonos /Etatonos /Iotatonos /Omicrontonos /Upsilontonos /Omegatonos /iotadieresistonos /alphatonos /epsilontonos /etatonos /iotatonos /upsilondieresistonos /iotadieresis /upsilondieresis /omicrontonos /upsilontonos /omegatonos /Upsilonacutehooksymbol /uni03D4 ἀἐἠἰὀὐὠἁἑἡἱὁὑὡἂἒἢἲὂὒὢἃἓἣἳὃὓὣἄἔἤἴὄὔὤἅἕἥἵὅὕὥἆἦἶὖὦἇἧἷὗὧ  

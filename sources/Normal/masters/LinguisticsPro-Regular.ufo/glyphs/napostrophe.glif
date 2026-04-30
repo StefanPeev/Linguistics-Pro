@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="napostrophe" format="2">
-  <advance width="685"/>
+  <advance width="737"/>
   <unicode hex="0149"/>
   <outline>
-    <component base="n" xOffset="45"/>
-    <component base="apostrophemod" xOffset="-4.5"/>
+    <component base="n" xOffset="118"/>
+    <component base="apostrophemod" xOffset="0.5"/>
   </outline>
   <lib>
   <dict>
@@ -41,6 +41,10 @@
       </dict>
     </array>
   </dict>
+  <key>com.fontlab.metricsLeft</key>
+  <string>=apostrophemod</string>
+  <key>com.fontlab.metricsRight</key>
+  <string>=n</string>
   </dict>
   </lib>
 </glyph>

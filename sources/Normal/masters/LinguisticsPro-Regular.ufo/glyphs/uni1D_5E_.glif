@@ -1,14 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni1D5E" format="2">
-  <advance width="382"/>
+  <advance width="294"/>
   <unicode hex="1D5E"/>
   <outline>
-    <component base="gamma"/>
+    <contour>
+      <point x="96.0286" y="187.788" type="curve" smooth="yes"/>
+      <point x="96.0286" y="184.822"/>
+      <point x="99.5883" y="182.448"/>
+      <point x="111.454" y="182.448" type="curve" smooth="yes"/>
+      <point x="130.439" y="182.448"/>
+      <point x="160.103" y="197.874"/>
+      <point x="160.103" y="206.18" type="curve" smooth="yes"/>
+      <point x="160.103" y="233.47"/>
+      <point x="149.424" y="335.455"/>
+      <point x="148.237" y="346.786" type="curve"/>
+      <point x="159.509" y="396.028"/>
+      <point x="193.41" y="508.695"/>
+      <point x="212.904" y="537.822" type="curve" smooth="yes"/>
+      <point x="243.839" y="584.041"/>
+      <point x="281.131" y="568.672"/>
+      <point x="281.131" y="607.235" type="curve" smooth="yes"/>
+      <point x="281.131" y="619.101"/>
+      <point x="272.825" y="628"/>
+      <point x="246.128" y="628" type="curve" smooth="yes"/>
+      <point x="195.699" y="628"/>
+      <point x="155.95" y="476.714"/>
+      <point x="138.745" y="401.368" type="curve"/>
+      <point x="132.812" y="447.05"/>
+      <point x="124.595" y="508.188"/>
+      <point x="109.674" y="552.654" type="curve" smooth="yes"/>
+      <point x="94.9315" y="596.586"/>
+      <point x="67.5513" y="626.813"/>
+      <point x="25.4286" y="626.813" type="curve" smooth="yes"/>
+      <point x="-1.26894" y="626.813"/>
+      <point x="-19.0673" y="610.795"/>
+      <point x="-25" y="603.676" type="curve"/>
+      <point x="-17.2874" y="590.624" type="line"/>
+      <point x="-12.5412" y="593.59"/>
+      <point x="-6.60834" y="594.75"/>
+      <point x="1.10422" y="594.777" type="curve" smooth="yes"/>
+      <point x="57.5273" y="594.973"/>
+      <point x="105.175" y="384.407"/>
+      <point x="113.234" y="337.294" type="curve"/>
+      <point x="103.741" y="291.018"/>
+      <point x="96.0286" y="214.486"/>
+    </contour>
   </outline>
   <lib>
   <dict>
-  <key>com.fontlab.autolayer</key>
-  <true/>
   <key>com.fontlab.hintData</key>
   <dict>
     <key>hhints</key>
@@ -36,8 +75,6 @@
       </dict>
     </array>
   </dict>
-  <key>com.fontlab.recipe</key>
-  <string>gamma</string>
   </dict>
   </lib>
 </glyph>
