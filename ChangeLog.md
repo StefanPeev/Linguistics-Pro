@@ -1,5 +1,5 @@
  ### **2026-04-30:**  
- **Regular**, **Medium**, **SemiBold**, **Bold**, **Italic** styles to v.1.088
+ **Regular**, **Medium**, **SemiBold**, **Bold** styles to v.1.088
  
  ## Additional glyphs  
  * **Phonetic Extensions Supplement:** /mpalatalhook /npalatalhook /uni1D8F /alpharetroflexhook /uni1D92 /uni1D93 /uni1D94 /uni1D95 /iretroflexhook /uni1D97  
@@ -8,7 +8,7 @@
  * **Greek and Coptic:** /Alphatonos /Epsilontonos /Etatonos /Iotatonos /Omicrontonos /Upsilontonos /Omegatonos /iotadieresistonos /alphatonos /epsilontonos /etatonos /iotatonos /upsilondieresistonos /iotadieresis /upsilondieresis /omicrontonos /upsilontonos /omegatonos /Upsilonacutehooksymbol /uni03D4 ἀἐἠἰὀὐὠἁἑἡἱὁὑὡἂἒἢἲὂὒὢἃἓἣἳὃὓὣἄἔἤἴὄὔὤἅἕἥἵὅὕὥἆἦἶὖὦἇἧἷὗὧ  
  * **Latin Extended Additional:** /uni1E18 /uni1E19 /uni1E1A /uni1E1B  
   
- **Medium Italic**, **SemiBold Italic**, **Bold Italic** - there are no changes in styles v.1.083
+ **Italic**, **Medium Italic**, **SemiBold Italic**, **Bold Italic** - there are no changes in styles v.1.083
 
  ### **2026-04-22:**  
  Bump **Regular**, **Medium**, **SemiBold**, **Bold**, **Italic**, **Medium Italic**, **SemiBold Italic**, **Bold Italic** styles to v.1.083
