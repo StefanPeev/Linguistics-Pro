@@ -26,6 +26,6 @@
 **Geometric Shapes** (U+25A0 - U+25FF) 40/96  
 **Miscellaneous Symbols** (U+2600 - U+26FF) 4/256  
 **Latin Extended-C** (U+2C60 - U+2C7F) 2/32  
-**Latin Extended-D** (U+A720 - U+A7FF) 5/204  
+**Latin Extended-D** (U+A720 - U+A7FF) 10/204  
 **Alphabetic Presentation Forms** (U+FB00 - U+FB4F) 6/58  
   

@@ -1,44 +1,23 @@
-#/> classes
+#> classes
 #/> otclasses
-@c2sc = [A AE Aacute Acircumflex Adieresis Agrave Aring Atilde B C Ccaron Ccedilla D Dcaron E Eacute Ebreve Ecaron Ecircumflex Edieresis Egrave Emacron Eth F G H I Iacute Ibreve Icircumflex Idieresis Igrave Imacron Itilde J Jcircumflex K L Lacute Lcaron M N Nacute Ncaron Ntilde O Oacute Obreve Ocircumflex Odieresis Ograve Omacron Oslash Otilde P Q R Racute Rcaron S Sacute Scircumflex Scaron T Tcaron Thorn U Uacute Ubreve Ucircumflex Udieresis Ugrave Umacron Uring V W Wcircumflex X Y Yacute Ycircumflex Ydieresis Z Zacute Zcaron Zdotaccent a aacute abreve amacron uni0400 uni0401 uni0402 uni0403 uni0404 uni0405 uni0406 uni0407 uni0408 uni0409 uni040A uni040B uni040C uni040D uni040E uni040F uni0410 uni0411 uni0412 uni0413 uni0414 uni0415 uni0416 uni0417 uni0418 uni0419 uni041A uni041B uni041C uni041D uni041E uni041F uni0420 uni0421 uni0422 uni0423 uni0424 uni0425 uni0426 uni0427 uni0428 uni0429 uni042A uni042B uni042C uni042D uni042E uni042F];
-@c2sc2 = [A.sc AE.sc Aacute.sc Acircumflex.sc Adieresis.sc Agrave.sc Aring.sc Atilde.sc B.sc C.sc Ccaron.sc Ccedilla.sc D.sc Dcaron.sc E.sc Eacute.sc Ebreve.sc Ecaron.sc Ecircumflex.sc Edieresis.sc Egrave.sc Emacron.sc Eth.sc F.sc G.sc H.sc I.sc Iacute.sc Ibreve.sc Icircumflex.sc Idieresis.sc Igrave.sc Imacron.sc Itilde.sc J.sc Jcircumflex.sc K.sc L.sc Lacute.sc Lcaron.sc M.sc N.sc Nacute.sc Ncaron.sc Ntilde.sc O.sc Oacute.sc Obreve.sc Ocircumflex.sc Odieresis.sc Ograve.sc Omacron.sc Oslash.sc Otilde.sc P.sc Q.sc R.sc Racute.sc Rcaron.sc S.sc Sacute.sc Scircumflex.sc Scaron.sc T.sc Tcaron.sc Thorn.sc U.sc Uacute.sc Ubreve.sc Ucircumflex.sc Udieresis.sc Ugrave.sc Umacron.sc Uring.sc V.sc W.sc Wcircumflex.sc X.sc Y.sc Yacute.sc Ycircumflex.sc Ydieresis.sc Z.sc Zacute.sc Zcaron.sc Zdotaccent.sc a.sc aacute.sc abreve.sc amacron.sc uni0400.sc uni0401.sc uni0402.sc uni0403.sc uni0404.sc uni0405.sc uni0406.sc uni0407.sc uni0408.sc uni0409.sc uni040A.sc uni040B.sc uni040C.sc uni040D.sc uni040E.sc uni040F.sc uni0410.sc uni0411.sc uni0412.sc uni0413.sc uni0414.sc uni0415.sc uni0416.sc uni0417.sc uni0418.sc uni0419.sc uni041A.sc uni041B.sc uni041C.sc uni041D.sc uni041E.sc uni041F.sc uni0420.sc uni0421.sc uni0422.sc uni0423.sc uni0424.sc uni0425.sc uni0426.sc uni0427.sc uni0428.sc uni0429.sc uni042A.sc uni042B.sc uni042C.sc uni042D.sc uni042E.sc uni042F.sc];
+@c2sc = [A AE Aacute Acircumflex Adieresis Agrave Aring Atilde B C Ccaron Ccedilla D Dcaron E Eacute Ebreve Ecaron Ecircumflex Edieresis Egrave Emacron Eth F G H I Iacute Ibreve Icircumflex Idieresis Igrave Imacron Itilde J Jcircumflex K L Lacute Lcaron M N Nacute Ncaron Ntilde O Oacute Obreve Ocircumflex Odieresis Ograve Omacron Oslash Oslashacute Otilde P Q R Racute Rcaron S Sacute Scaron Scircumflex T Tcaron Thorn U Uacute Ubreve Ucircumflex Udieresis Ugrave Umacron Uring V W Wcircumflex X Y Yacute Ycircumflex Ydieresis Z Zacute Zcaron Zdotaccent uni0400 uni0401 uni0402 uni0403 uni0404 uni0405 uni0406 uni0407 uni0408 uni0409 uni040A uni040B uni040C uni040D uni040E uni040F uni0410 uni0411 uni0412 uni0413 uni0414 uni0415 uni0416 uni0417 uni0418 uni0419 uni041A uni041B uni041C uni041D uni041E uni041F uni0420 uni0421 uni0422 uni0423 uni0424 uni0425 uni0426 uni0427 uni0428 uni0429 uni042A uni042B uni042C uni042D uni042E uni042F];
+@c2sc2 = [A.sc AE.sc Aacute.sc Acircumflex.sc Adieresis.sc Agrave.sc Aring.sc Atilde.sc B.sc C.sc Ccaron.sc Ccedilla.sc D.sc Dcaron.sc E.sc Eacute.sc Ebreve.sc Ecaron.sc Ecircumflex.sc Edieresis.sc Egrave.sc Emacron.sc Eth.sc F.sc G.sc H.sc I.sc Iacute.sc Ibreve.sc Icircumflex.sc Idieresis.sc Igrave.sc Imacron.sc Itilde.sc J.sc Jcircumflex.sc K.sc L.sc Lacute.sc Lcaron.sc M.sc N.sc Nacute.sc Ncaron.sc Ntilde.sc O.sc Oacute.sc Obreve.sc Ocircumflex.sc Odieresis.sc Ograve.sc Omacron.sc Oslash.sc Oslashacute.sc Otilde.sc P.sc Q.sc R.sc Racute.sc Rcaron.sc S.sc Sacute.sc Scaron.sc Scircumflex.sc T.sc Tcaron.sc Thorn.sc U.sc Uacute.sc Ubreve.sc Ucircumflex.sc Udieresis.sc Ugrave.sc Umacron.sc Uring.sc V.sc W.sc Wcircumflex.sc X.sc Y.sc Yacute.sc Ycircumflex.sc Ydieresis.sc Z.sc Zacute.sc Zcaron.sc Zdotaccent.sc uni0400.sc uni0401.sc uni0402.sc uni0403.sc uni0404.sc uni0405.sc uni0406.sc uni0407.sc uni0408.sc uni0409.sc uni040A.sc uni040B.sc uni040C.sc uni040D.sc uni040E.sc uni040F.sc uni0410.sc uni0411.sc uni0412.sc uni0413.sc uni0414.sc uni0415.sc uni0416.sc uni0417.sc uni0418.sc uni0419.sc uni041A.sc uni041B.sc uni041C.sc uni041D.sc uni041E.sc uni041F.sc uni0420.sc uni0421.sc uni0422.sc uni0423.sc uni0424.sc uni0425.sc uni0426.sc uni0427.sc uni0428.sc uni0429.sc uni042A.sc uni042B.sc uni042C.sc uni042D.sc uni042E.sc uni042F.sc];
 @locl = [uni0414 uni0416 uni041A uni041B uni0424 uni0432 uni0433 uni0434 uni0436 uni0437 uni0438 uni0439 uni043A uni043B uni043D uni043F uni0442 uni0444 uni0446 uni0447 uni0448 uni0449 uni044A uni044B uni044C uni044E uni045D];
 @locl2 = [uni0414.loclBGR uni0416.loclBGR uni041A.loclBGR uni041B.loclBGR uni0424.loclBGR uni0432.loclBGR uni0433.loclBGR uni0434.loclBGR uni0436.loclBGR uni0437.loclBGR uni0438.loclBGR uni0439.loclBGR uni043A.loclBGR uni043B.loclBGR uni043D.loclBGR uni043F.loclBGR uni0442.loclBGR uni0444.loclBGR uni0446.loclBGR uni0447.loclBGR uni0448.loclBGR uni0449.loclBGR uni044A.loclBGR uni044B.loclBGR uni044C.loclBGR uni044E.loclBGR uni045D.loclBGR];
 @numb = [zero one two three four five six seven eight nine];
-@sups = [uni2070 uni00B9 uni00B2 uni00B3 uni2074 uni2075 uni2076 uni2077 uni2078 uni2079];
-@subs = [uni2080 uni2081 uni2082 uni2083 uni2084 uni2085 uni2086 uni2087 uni2088 uni2089];
-@tf = [zero.tf one.tf two.tf three.tf four.tf five.tf six.tf seven.tf eight.tf nine.tf];
-@tosf = [zero.tosf one.tosf two.tosf three.tosf four.tosf five.tosf six.tosf seven.tosf eight.tosf nine.tosf];
 @osf = [zero.osf one.osf two.osf three.osf four.osf five.osf six.osf seven.osf eight.osf nine.osf];
-@sups.letters = [a b beta c chi d e eng eth f g gamma h j k l m n o p phi r s t u uni0250 uni0251 uni0252 uni0254 uni0259 uni025B uni025C uni0263 uni0265 uni0268 uni0269 uni026A uni026F uni0271 uni0275 uni0279 uni0283 uni0289 uni028B uni028C uni0292 uni0295 uni043D v w x y z uni0255 uni025F uni0261 uni0266 uni026D uni0270 uni0272 uni0273 uni0274 uni0278 uni027B uni0281 uni0282 uni028A uni0290 uni0291 uni029D uni029F];
-@sups.letters2 = [uni1D43 uni1D47 uni1D5D uni1D9C uni1D61 uni1D48 uni1D49 uni1D51 uni1D9E uni1DA0 uni1D4D uni1D5E uni02B0 uni02B2 uni1D4F uni02E1 uni1D50 uni207F uni1D52 uni1D56 uni1D60 uni02B3 uni02E2 uni1D57 uni1D58 uni1D44 uni1D45 uni1D9B uni1D53 uni1D4A uni1D4B uni1D9F uni02E0 uni1DA3 uni1DA4 uni1DA5 uni1DA6 uni1D5A uni1DAC uni1DB1 uni02B4 uni1DB4 uni1DB6 uni1DB9 uni1DBA uni1DBE uni02E4 uni1D78 uni1D5B uni02B7 uni02E3 uni02B8 uni1DBB uni1D9D uni1DA1 uni1DA2 uni02B1 uni1DA9 uni1DAD uni1DAE uni1DAF uni1DB0 uni1DB2 uni02B5 uni02B6 uni1DB3 uni1DB7 uni1DBC uni1DBD uni1DA8 uni1DAB];
 @sinf_subs = [zero one two three four five six seven eight nine parenleft parenright];
 @sinf_subs2 = [uni2080 uni2081 uni2082 uni2083 uni2084 uni2085 uni2086 uni2087 uni2088 uni2089 uni208D uni208E];
 @smcp = [a aacute abreve acircumflex adieresis ae agrave amacron aring atilde b c ccaron ccedilla d dcaron dotlessi e eacute ebreve ecaron ecircumflex edieresis egrave emacron eth f g h i iacute ibreve icircumflex idieresis igrave imacron itilde j jcircumflex k l lacute lcaron m n nacute ncaron ntilde o oacute obreve ocircumflex odieresis ograve omacron oslash otilde p q r racute rcaron s sacute scircumflex t tcaron thorn u uacute ubreve ucircumflex udieresis ugrave umacron uni0430 uni0431 uni0432 uni0433 uni0434 uni0435 uni0436 uni0437 uni0438 uni0439 uni043A uni043B uni043C uni043D uni043E uni043F uni0440 uni0441 uni0442 uni0443 uni0444 uni0445 uni0446 uni0447 uni0448 uni0449 uni044A uni044B uni044C uni044D uni044E uni044F uni0450 uni0451 uni0452 uni0453 uni0454 uni0455 uni0456 uni0457 uni0458 uni0459 uni045A uni045B uni045C uni045D uni045E uni045F uni0463 uni0473 uni0475 uni04A5 uni04AF uni04B1 uni04C2 uni04D1 uni04D3 uni04D5 uni04D7 uni04DD uni04DF uni04E3 uni04E5 uni04E7 uni04E9 uni04EB uni04ED uni04EF uni04F1 uni04F5 uni04F9 uni0432.loclBGR uni0433.loclBGR uni0434.loclBGR uni0436.loclBGR uni0437.loclBGR uni0438.loclBGR uni0439.loclBGR uni043A.loclBGR uni043B.loclBGR uni043D.loclBGR uni043F.loclBGR uni0442.loclBGR uni0444.loclBGR uni0446.loclBGR uni0447.loclBGR uni0448.loclBGR uni0449.loclBGR uni044A.loclBGR uni044B.loclBGR uni044C.loclBGR uni044E.loclBGR uni045D.loclBGR uring v w wacute wcircumflex wdieresis wgrave x y yacute ycircumflex ydieresis z zacute zcaron zdotaccent];
 @smcp2 = [a.sc aacute.sc abreve.sc Acircumflex.sc Adieresis.sc AE.sc Agrave.sc amacron.sc Aring.sc Atilde.sc B.sc C.sc Ccaron.sc Ccedilla.sc D.sc Dcaron.sc dotlessi.small E.sc Eacute.sc Ebreve.sc Ecaron.sc Ecircumflex.sc Edieresis.sc Egrave.sc Emacron.sc Eth.sc F.sc G.sc H.sc I.sc Iacute.sc Ibreve.sc Icircumflex.sc Idieresis.sc Igrave.sc Imacron.sc Itilde.sc J.sc Jcircumflex.sc K.sc L.sc Lacute.sc Lcaron.sc M.sc N.sc Nacute.sc Ncaron.sc Ntilde.sc O.sc Oacute.sc Obreve.sc Ocircumflex.sc Odieresis.sc Ograve.sc Omacron.sc Oslash.sc Otilde.sc P.sc Q.sc R.sc Racute.sc Rcaron.sc S.sc Sacute.sc Scircumflex.sc T.sc Tcaron.sc Thorn.sc U.sc Uacute.sc Ubreve.sc Ucircumflex.sc Udieresis.sc Ugrave.sc Umacron.sc uni0410.sc uni0411.sc uni0412.sc uni0413.sc uni0414.sc uni0415.sc uni0416.sc uni0417.sc uni0418.sc uni0419.sc uni041A.sc uni041B.sc uni041C.sc uni041D.sc uni041E.sc uni041F.sc uni0420.sc uni0421.sc uni0422.sc uni0423.sc uni0424.sc uni0425.sc uni0426.sc uni0427.sc uni0428.sc uni0429.sc uni042A.sc uni042B.sc uni042C.sc uni042D.sc uni042E.sc uni042F.sc uni0400.sc uni0401.sc uni0402.sc uni0403.sc uni0404.sc uni0405.sc uni0406.sc uni0407.sc uni0408.sc uni0409.sc uni040A.sc uni040B.sc uni040C.sc uni045D.sc uni040E.sc uni040F.sc uni0463.sc uni0473.sc uni0475.sc uni04A5.sc uni04AF.sc uni04B1.sc uni04C2.sc uni04D1.sc uni04D3.sc uni04D5.sc uni04D7.sc uni04DD.sc uni04DF.sc uni04E3.sc uni04E5.sc uni04E7.sc uni04E9.sc uni04EB.sc uni04ED.sc uni04EF.sc uni04F1.sc uni04F5.sc uni04F9.sc uni0412.sc uni0413.sc uni0414.sc uni0416.sc uni0417.sc uni0418.sc uni0419.sc uni041A.sc uni041B.sc uni041D.sc uni041F.sc uni0422.sc uni0424.sc uni0426.sc uni0427.sc uni0428.sc uni0429.sc uni042A.sc uni042B.sc uni042C.sc uni042E.sc uni045D.sc Uring.sc V.sc W.sc wacute.sc Wcircumflex.sc wdieresis.sc wgrave.sc X.sc Y.sc Yacute.sc Ycircumflex.sc Ydieresis.sc Z.sc Zacute.sc Zcaron.sc Zdotaccent.sc];
-#/< otclasses
-#/< classes
-
-#/> classes
-#/> otclasses
-@c2sc = [A AE Aacute Acircumflex Adieresis Agrave Aring Atilde B C Ccaron Ccedilla D Dcaron E Eacute Ebreve Ecaron Ecircumflex Edieresis Egrave Emacron Eth F G H I Iacute Ibreve Icircumflex Idieresis Igrave Imacron Itilde J Jcircumflex K L Lacute Lcaron M N Nacute Ncaron Ntilde O Oacute Obreve Ocircumflex Odieresis Ograve Omacron Oslash Otilde P Q R Racute Rcaron S Sacute Scircumflex Scaron T Tcaron Thorn U Uacute Ubreve Ucircumflex Udieresis Ugrave Umacron Uring V W Wcircumflex X Y Yacute Ycircumflex Ydieresis Z Zacute Zcaron Zdotaccent a aacute abreve amacron uni0400 uni0401 uni0402 uni0403 uni0404 uni0405 uni0406 uni0407 uni0408 uni0409 uni040A uni040B uni040C uni040D uni040E uni040F uni0410 uni0411 uni0412 uni0413 uni0414 uni0415 uni0416 uni0417 uni0418 uni0419 uni041A uni041B uni041C uni041D uni041E uni041F uni0420 uni0421 uni0422 uni0423 uni0424 uni0425 uni0426 uni0427 uni0428 uni0429 uni042A uni042B uni042C uni042D uni042E uni042F];
-@c2sc2 = [A.sc AE.sc Aacute.sc Acircumflex.sc Adieresis.sc Agrave.sc Aring.sc Atilde.sc B.sc C.sc Ccaron.sc Ccedilla.sc D.sc Dcaron.sc E.sc Eacute.sc Ebreve.sc Ecaron.sc Ecircumflex.sc Edieresis.sc Egrave.sc Emacron.sc Eth.sc F.sc G.sc H.sc I.sc Iacute.sc Ibreve.sc Icircumflex.sc Idieresis.sc Igrave.sc Imacron.sc Itilde.sc J.sc Jcircumflex.sc K.sc L.sc Lacute.sc Lcaron.sc M.sc N.sc Nacute.sc Ncaron.sc Ntilde.sc O.sc Oacute.sc Obreve.sc Ocircumflex.sc Odieresis.sc Ograve.sc Omacron.sc Oslash.sc Otilde.sc P.sc Q.sc R.sc Racute.sc Rcaron.sc S.sc Sacute.sc Scircumflex.sc Scaron.sc T.sc Tcaron.sc Thorn.sc U.sc Uacute.sc Ubreve.sc Ucircumflex.sc Udieresis.sc Ugrave.sc Umacron.sc Uring.sc V.sc W.sc Wcircumflex.sc X.sc Y.sc Yacute.sc Ycircumflex.sc Ydieresis.sc Z.sc Zacute.sc Zcaron.sc Zdotaccent.sc a.sc aacute.sc abreve.sc amacron.sc uni0400.sc uni0401.sc uni0402.sc uni0403.sc uni0404.sc uni0405.sc uni0406.sc uni0407.sc uni0408.sc uni0409.sc uni040A.sc uni040B.sc uni040C.sc uni040D.sc uni040E.sc uni040F.sc uni0410.sc uni0411.sc uni0412.sc uni0413.sc uni0414.sc uni0415.sc uni0416.sc uni0417.sc uni0418.sc uni0419.sc uni041A.sc uni041B.sc uni041C.sc uni041D.sc uni041E.sc uni041F.sc uni0420.sc uni0421.sc uni0422.sc uni0423.sc uni0424.sc uni0425.sc uni0426.sc uni0427.sc uni0428.sc uni0429.sc uni042A.sc uni042B.sc uni042C.sc uni042D.sc uni042E.sc uni042F.sc];
-@locl = [uni0414 uni0416 uni041A uni041B uni0424 uni0432 uni0433 uni0434 uni0436 uni0437 uni0438 uni0439 uni043A uni043B uni043D uni043F uni0442 uni0444 uni0446 uni0447 uni0448 uni0449 uni044A uni044B uni044C uni044E uni045D];
-@locl2 = [uni0414.loclBGR uni0416.loclBGR uni041A.loclBGR uni041B.loclBGR uni0424.loclBGR uni0432.loclBGR uni0433.loclBGR uni0434.loclBGR uni0436.loclBGR uni0437.loclBGR uni0438.loclBGR uni0439.loclBGR uni043A.loclBGR uni043B.loclBGR uni043D.loclBGR uni043F.loclBGR uni0442.loclBGR uni0444.loclBGR uni0446.loclBGR uni0447.loclBGR uni0448.loclBGR uni0449.loclBGR uni044A.loclBGR uni044B.loclBGR uni044C.loclBGR uni044E.loclBGR uni045D.loclBGR];
-@numb = [zero one two three four five six seven eight nine];
-@sups = [uni2070 uni00B9 uni00B2 uni00B3 uni2074 uni2075 uni2076 uni2077 uni2078 uni2079];
 @subs = [uni2080 uni2081 uni2082 uni2083 uni2084 uni2085 uni2086 uni2087 uni2088 uni2089];
-@tf = [zero.tf one.tf two.tf three.tf four.tf five.tf six.tf seven.tf eight.tf nine.tf];
-@tosf = [zero.tosf one.tosf two.tosf three.tosf four.tosf five.tosf six.tosf seven.tosf eight.tosf nine.tosf];
-@osf = [zero.osf one.osf two.osf three.osf four.osf five.osf six.osf seven.osf eight.osf nine.osf];
+@sups = [uni2070 uni00B9 uni00B2 uni00B3 uni2074 uni2075 uni2076 uni2077 uni2078 uni2079];
 @sups.letters = [a b beta c chi d e eng eth f g gamma h j k l m n o p phi r s t u uni0250 uni0251 uni0252 uni0254 uni0259 uni025B uni025C uni0263 uni0265 uni0268 uni0269 uni026A uni026F uni0271 uni0275 uni0279 uni0283 uni0289 uni028B uni028C uni0292 uni0295 uni043D v w x y z uni0255 uni025F uni0261 uni0266 uni026D uni0270 uni0272 uni0273 uni0274 uni0278 uni027B uni0281 uni0282 uni028A uni0290 uni0291 uni029D uni029F];
 @sups.letters2 = [uni1D43 uni1D47 uni1D5D uni1D9C uni1D61 uni1D48 uni1D49 uni1D51 uni1D9E uni1DA0 uni1D4D uni1D5E uni02B0 uni02B2 uni1D4F uni02E1 uni1D50 uni207F uni1D52 uni1D56 uni1D60 uni02B3 uni02E2 uni1D57 uni1D58 uni1D44 uni1D45 uni1D9B uni1D53 uni1D4A uni1D4B uni1D9F uni02E0 uni1DA3 uni1DA4 uni1DA5 uni1DA6 uni1D5A uni1DAC uni1DB1 uni02B4 uni1DB4 uni1DB6 uni1DB9 uni1DBA uni1DBE uni02E4 uni1D78 uni1D5B uni02B7 uni02E3 uni02B8 uni1DBB uni1D9D uni1DA1 uni1DA2 uni02B1 uni1DA9 uni1DAD uni1DAE uni1DAF uni1DB0 uni1DB2 uni02B5 uni02B6 uni1DB3 uni1DB7 uni1DBC uni1DBD uni1DA8 uni1DAB];
-@sinf_subs = [zero one two three four five six seven eight nine parenleft parenright];
-@sinf_subs2 = [uni2080 uni2081 uni2082 uni2083 uni2084 uni2085 uni2086 uni2087 uni2088 uni2089 uni208D uni208E];
-@smcp = [a aacute abreve acircumflex adieresis ae agrave amacron aring atilde b c ccaron ccedilla d dcaron dotlessi e eacute ebreve ecaron ecircumflex edieresis egrave emacron eth f g h i iacute ibreve icircumflex idieresis igrave imacron itilde j jcircumflex k l lacute lcaron m n nacute ncaron ntilde o oacute obreve ocircumflex odieresis ograve omacron oslash otilde p q r racute rcaron s sacute scircumflex t tcaron thorn u uacute ubreve ucircumflex udieresis ugrave umacron uni0430 uni0431 uni0432 uni0433 uni0434 uni0435 uni0436 uni0437 uni0438 uni0439 uni043A uni043B uni043C uni043D uni043E uni043F uni0440 uni0441 uni0442 uni0443 uni0444 uni0445 uni0446 uni0447 uni0448 uni0449 uni044A uni044B uni044C uni044D uni044E uni044F uni0450 uni0451 uni0452 uni0453 uni0454 uni0455 uni0456 uni0457 uni0458 uni0459 uni045A uni045B uni045C uni045D uni045E uni045F uni0463 uni0473 uni0475 uni04A5 uni04AF uni04B1 uni04C2 uni04D1 uni04D3 uni04D5 uni04D7 uni04DD uni04DF uni04E3 uni04E5 uni04E7 uni04E9 uni04EB uni04ED uni04EF uni04F1 uni04F5 uni04F9 uni0432.loclBGR uni0433.loclBGR uni0434.loclBGR uni0436.loclBGR uni0437.loclBGR uni0438.loclBGR uni0439.loclBGR uni043A.loclBGR uni043B.loclBGR uni043D.loclBGR uni043F.loclBGR uni0442.loclBGR uni0444.loclBGR uni0446.loclBGR uni0447.loclBGR uni0448.loclBGR uni0449.loclBGR uni044A.loclBGR uni044B.loclBGR uni044C.loclBGR uni044E.loclBGR uni045D.loclBGR uring v w wacute wcircumflex wdieresis wgrave x y yacute ycircumflex ydieresis z zacute zcaron zdotaccent];
-@smcp2 = [a.sc aacute.sc abreve.sc Acircumflex.sc Adieresis.sc AE.sc Agrave.sc amacron.sc Aring.sc Atilde.sc B.sc C.sc Ccaron.sc Ccedilla.sc D.sc Dcaron.sc dotlessi.small E.sc Eacute.sc Ebreve.sc Ecaron.sc Ecircumflex.sc Edieresis.sc Egrave.sc Emacron.sc Eth.sc F.sc G.sc H.sc I.sc Iacute.sc Ibreve.sc Icircumflex.sc Idieresis.sc Igrave.sc Imacron.sc Itilde.sc J.sc Jcircumflex.sc K.sc L.sc Lacute.sc Lcaron.sc M.sc N.sc Nacute.sc Ncaron.sc Ntilde.sc O.sc Oacute.sc Obreve.sc Ocircumflex.sc Odieresis.sc Ograve.sc Omacron.sc Oslash.sc Otilde.sc P.sc Q.sc R.sc Racute.sc Rcaron.sc S.sc Sacute.sc Scircumflex.sc T.sc Tcaron.sc Thorn.sc U.sc Uacute.sc Ubreve.sc Ucircumflex.sc Udieresis.sc Ugrave.sc Umacron.sc uni0410.sc uni0411.sc uni0412.sc uni0413.sc uni0414.sc uni0415.sc uni0416.sc uni0417.sc uni0418.sc uni0419.sc uni041A.sc uni041B.sc uni041C.sc uni041D.sc uni041E.sc uni041F.sc uni0420.sc uni0421.sc uni0422.sc uni0423.sc uni0424.sc uni0425.sc uni0426.sc uni0427.sc uni0428.sc uni0429.sc uni042A.sc uni042B.sc uni042C.sc uni042D.sc uni042E.sc uni042F.sc uni0400.sc uni0401.sc uni0402.sc uni0403.sc uni0404.sc uni0405.sc uni0406.sc uni0407.sc uni0408.sc uni0409.sc uni040A.sc uni040B.sc uni040C.sc uni045D.sc uni040E.sc uni040F.sc uni0463.sc uni0473.sc uni0475.sc uni04A5.sc uni04AF.sc uni04B1.sc uni04C2.sc uni04D1.sc uni04D3.sc uni04D5.sc uni04D7.sc uni04DD.sc uni04DF.sc uni04E3.sc uni04E5.sc uni04E7.sc uni04E9.sc uni04EB.sc uni04ED.sc uni04EF.sc uni04F1.sc uni04F5.sc uni04F9.sc uni0412.sc uni0413.sc uni0414.sc uni0416.sc uni0417.sc uni0418.sc uni0419.sc uni041A.sc uni041B.sc uni041D.sc uni041F.sc uni0422.sc uni0424.sc uni0426.sc uni0427.sc uni0428.sc uni0429.sc uni042A.sc uni042B.sc uni042C.sc uni042E.sc uni045D.sc Uring.sc V.sc W.sc wacute.sc Wcircumflex.sc wdieresis.sc wgrave.sc X.sc Y.sc Yacute.sc Ycircumflex.sc Ydieresis.sc Z.sc Zacute.sc Zcaron.sc Zdotaccent.sc];
+@tf = [zero.tf one.tf two.tf three.tf four.tf five.tf six.tf seven.tf eight.tf nine.tf];
+@tosf = [zero.tosf one.tosf two.tosf three.tosf four.tosf five.tosf six.tosf seven.tosf eight.tosf nine.tosf];
 #/< otclasses
-#/< classes
+#< classes
 
 #/> classes
 #/> otclasses
@@ -84,7 +63,9 @@ lookup ordn_2 {
   sub [A O a o] by [ordfeminine ordmasculine ordfeminine ordmasculine];
 } ordn_2;
 
-
+lookup locl_locl2_ss01 {
+  sub @locl by @locl2;;
+} locl_locl2_ss01;
 #
 # Feature definitions
 #
@@ -100,6 +81,9 @@ feature locl {
 # Lookups: 6
 
   script latn; # Latin
+    language TRK ; # Turkish
+    sub i by i.loclTRK;
+
     language MOL ; # Moldavian
     sub [Scedilla scedilla uni0162 uni0163] by [Scommaaccent scommaaccent uni021A uni021B];
 
@@ -120,7 +104,6 @@ feature locl {
 
     language BGR ; # Bulgarian
     sub @locl by @locl2;
-
 
 } locl;
 feature sinf {
@@ -286,6 +269,36 @@ feature cv01 {
   sub uni1FDF by uni1FDF.cv01;
 #< feature
 } cv01;
+feature ss01 {
+# Stylistic Set 01–20
+
+#> feature
+  featureNames {
+    name "Bulgarian Cyrillic";
+  };
+  lookup locl_locl2_ss01;
+#< feature
+} ss01;
+feature ss02 {
+# Stylistic Set 01–20
+
+#> feature
+  featureNames {
+    name "Serbian Cyrillic";
+  };
+  sub uni0431 by uni0431.loclSRB;
+#< feature
+} ss02;
+feature ss03 {
+# Stylistic Set 01–20
+
+#> feature
+  featureNames {
+    name "Macedonian Cyrillic";
+  };
+  sub uni0431 by uni0431.loclSRB;
+#< feature
+} ss03;
 feature mark {
 # GPOS feature : Mark Positioning
     markClass uni0301 <anchor -230 542> @top;
@@ -306,10 +319,10 @@ feature mark {
     markClass uni0327 <anchor -145 10> @cedilla;
     markClass uni0328 <anchor 30 0> @ogonek;
     markClass uni032C <anchor -200 -60> @bottom;
-    markClass uni032D <anchor -200 -60> @bottom;
+    markClass uni032D <anchor 0 -60> @bottom;
     markClass uni032E <anchor -200 -60> @bottom;
     markClass uni032F <anchor -200 -60> @bottom;
-    markClass uni0330 <anchor -200 -60> @bottom;
+    markClass uni0330 <anchor 0 -60> @bottom;
     markClass uni0331 <anchor -200 -60> @bottom;
     markClass uni0332 <anchor -200 -60> @bottom;
     markClass uni0334 <anchor -217 285> @middle;
@@ -1307,6 +1320,8 @@ feature mark {
           <anchor 308 670> mark @aring
           <anchor 1114 10> mark @ogonek
           <anchor 635 707> mark @tonos;
+      pos base i.loclTRK
+          <anchor 170 10> mark @ogonek;
   } markLTR1;
 
   lookup markLTR2 {
@@ -2310,12 +2325,12 @@ feature mark {
           <anchor 414 720> mark @top;
       pos base uni25CC
           <anchor 311 550> mark @top;
-      pos base uni1D5F
-          <anchor 288 908> mark @top;
       pos base uni1DBF
           <anchor 265 706> mark @top;
       pos base uni1D2D
           <anchor 311 740> mark @top;
+      pos base Oslashacute.sc
+          <anchor 295 750> mark @top;
   } markLTR2;
 
   lookup markLTR3 {
@@ -2469,9 +2484,33 @@ feature mark {
           <anchor 281 0> mark @cedilla;
       pos base uni2184
           <anchor 215 0> mark @cedilla;
+      pos base uni2103
+          <anchor 749 10> mark @cedilla;
   } markLTR3;
 
   lookup markLTR4 {
+      pos base E
+          <anchor 316 -60> mark @bottom;
+      pos base Eacute
+          <anchor 316 -60> mark @bottom;
+      pos base Ebreve
+          <anchor 316 -60> mark @bottom;
+      pos base Ecaron
+          <anchor 316 -60> mark @bottom;
+      pos base Ecircumflex
+          <anchor 316 -60> mark @bottom;
+      pos base Edieresis
+          <anchor 316 -60> mark @bottom;
+      pos base Edotaccent
+          <anchor 316 -60> mark @bottom;
+      pos base Egrave
+          <anchor 316 -60> mark @bottom;
+      pos base Emacron
+          <anchor 316 -60> mark @bottom;
+      pos base Eogonek
+          <anchor 316 -60> mark @bottom;
+      pos base Epsilon
+          <anchor 316 -60> mark @bottom;
       pos base I
           <anchor 175 -60> mark @bottom;
       pos base Iacute
@@ -2494,22 +2533,90 @@ feature mark {
           <anchor 175 -60> mark @bottom;
       pos base Itilde
           <anchor 175 -60> mark @bottom;
+      pos base e
+          <anchor 275 -60> mark @bottom;
+      pos base eacute
+          <anchor 275 -60> mark @bottom;
+      pos base ebreve
+          <anchor 275 -60> mark @bottom;
+      pos base ecaron
+          <anchor 275 -60> mark @bottom;
+      pos base ecircumflex
+          <anchor 275 -60> mark @bottom;
+      pos base edieresis
+          <anchor 275 -60> mark @bottom;
+      pos base edotaccent
+          <anchor 275 -60> mark @bottom;
+      pos base egrave
+          <anchor 275 -60> mark @bottom;
+      pos base emacron
+          <anchor 275 -60> mark @bottom;
+      pos base eogonek
+          <anchor 275 -60> mark @bottom;
+      pos base uni0204
+          <anchor 316 -60> mark @bottom;
+      pos base uni0205
+          <anchor 275 -60> mark @bottom;
+      pos base uni0206
+          <anchor 316 -60> mark @bottom;
+      pos base uni0207
+          <anchor 275 -60> mark @bottom;
       pos base uni0208
           <anchor 175 -60> mark @bottom;
       pos base uni020A
           <anchor 175 -60> mark @bottom;
+      pos base uni0228
+          <anchor 316 -60> mark @bottom;
+      pos base uni0229
+          <anchor 275 -60> mark @bottom;
+      pos base uni0400
+          <anchor 316 -60> mark @bottom;
+      pos base uni0401
+          <anchor 316 -60> mark @bottom;
       pos base uni0406
           <anchor 175 -60> mark @bottom;
       pos base uni0407
           <anchor 175 -60> mark @bottom;
+      pos base uni0415
+          <anchor 316 -60> mark @bottom;
       pos base uni042B
           <anchor 813 -60> mark @bottom;
+      pos base uni0435
+          <anchor 275 -60> mark @bottom;
+      pos base uni0450
+          <anchor 275 -60> mark @bottom;
+      pos base uni0451
+          <anchor 275 -60> mark @bottom;
       pos base uni04C0
           <anchor 175 -60> mark @bottom;
+      pos base uni04D6
+          <anchor 316 -60> mark @bottom;
       pos base uni04F8
           <anchor 813 -60> mark @bottom;
-      pos base uni1E2C
-          <anchor 175 -60> mark @bottom;
+      pos base uni1E14
+          <anchor 316 -60> mark @bottom;
+      pos base uni1E15
+          <anchor 275 -60> mark @bottom;
+      pos base uni1E16
+          <anchor 316 -60> mark @bottom;
+      pos base uni1E17
+          <anchor 275 -60> mark @bottom;
+      pos base uni1EBE
+          <anchor 316 -60> mark @bottom;
+      pos base uni1EC6
+          <anchor 316 -60> mark @bottom;
+      pos base uni1EC0
+          <anchor 316 -60> mark @bottom;
+      pos base uni1EC2
+          <anchor 316 -60> mark @bottom;
+      pos base uni1EC4
+          <anchor 316 -60> mark @bottom;
+      pos base uni1EB8
+          <anchor 316 -60> mark @bottom;
+      pos base uni1EBA
+          <anchor 316 -60> mark @bottom;
+      pos base uni1EBC
+          <anchor 316 -60> mark @bottom;
       pos base Icaron
           <anchor 175 -60> mark @bottom;
       pos base uni1ECA
@@ -2518,8 +2625,36 @@ feature mark {
           <anchor 175 -60> mark @bottom;
       pos base Iotadieresis
           <anchor 175 -60> mark @bottom;
+      pos base uni1EBF
+          <anchor 275 -60> mark @bottom;
+      pos base uni1EC1
+          <anchor 275 -60> mark @bottom;
+      pos base uni1EC3
+          <anchor 275 -60> mark @bottom;
+      pos base uni1EC5
+          <anchor 275 -60> mark @bottom;
+      pos base uni1EBB
+          <anchor 275 -60> mark @bottom;
+      pos base uni1EBD
+          <anchor 275 -60> mark @bottom;
+      pos base uni1E1C
+          <anchor 316 -60> mark @bottom;
+      pos base uni1E1D
+          <anchor 275 -60> mark @bottom;
       pos base uni1E2E
           <anchor 175 -60> mark @bottom;
+      pos base uni1F18
+          <anchor 316 -60> mark @bottom;
+      pos base uni1F19
+          <anchor 316 -60> mark @bottom;
+      pos base uni1F1A
+          <anchor 316 -60> mark @bottom;
+      pos base uni1F1B
+          <anchor 316 -60> mark @bottom;
+      pos base uni1F1C
+          <anchor 316 -60> mark @bottom;
+      pos base uni1F1D
+          <anchor 316 -60> mark @bottom;
       pos base uni1F38
           <anchor 175 -60> mark @bottom;
       pos base uni1F39
@@ -2536,6 +2671,8 @@ feature mark {
           <anchor 175 -60> mark @bottom;
       pos base uni1F3F
           <anchor 175 -60> mark @bottom;
+      pos base uni1FC8
+          <anchor 316 -60> mark @bottom;
       pos base uni1FD8
           <anchor 175 -60> mark @bottom;
       pos base uni1FD9
