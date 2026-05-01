@@ -1,16 +1,16 @@
  ## **Upcoming tasks for all future versions**
- [x] Check font contains no unreachable glyphs.
- [ ] Achieving full Cyrillic support in Unicode.
- [ ] Consider adding the Glagolitic script in accordance with Unicode encoding requirements.
- [ ] Ensure the font supports case swapping for all its glyphs.
- [ ] Letters in font have glyphs that are not empty?
- [ ] Check math signs have the same width.
- [ ] Ensure small caps glyphs are available.
- [ ] Ensure indic fonts have the Indian Rupee Sign glyph.
- [ ] Font contains all required tables?
- [ ] Checking OS/2 fsSelection value.
- [ ] Checking OS/2 usWinAscent & usWinDescent.
- [ ] Does GPOS table have kerning information?   
+ - [x] Check font contains no unreachable glyphs.  
+ - [ ] Achieving full Cyrillic support in Unicode.  
+ - [ ] Consider adding the Glagolitic script in accordance with Unicode encoding requirements.  
+ - [ ] Ensure the font supports case swapping for all its glyphs.  
+ - [ ] Letters in font have glyphs that are not empty?  
+ - [ ] Check math signs have the same width.  
+ - [ ] Ensure small caps glyphs are available.  
+ - [ ] Ensure indic fonts have the Indian Rupee Sign glyph.  
+ - [ ] Font contains all required tables?  
+ - [ ] Checking OS/2 fsSelection value.  
+ - [ ] Checking OS/2 usWinAscent & usWinDescent.  
+ - [ ] Does GPOS table have kerning information?   
  
  ## **2026-04-30**  
   
@@ -25,7 +25,7 @@
  * **Italic**, **Medium Italic**, **SemiBold Italic**, **Bold Italic** - v.1.083  
  
  ### Tasks  
- [x] Check font contains no unreachable glyphs.
+ - [x] Check font contains no unreachable glyphs.
  
  ### Added glyphs  
  * **Phonetic Extensions:** ᵹ  
