@@ -1,11 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni1D7F" format="2">
-  <advance width="605"/>
+  <advance width="542"/>
   <unicode hex="1D7F"/>
+  <outline>
+    <component base="upsilon"/>
+    <contour>
+      <point x="10" y="234" type="line"/>
+      <point x="599" y="234" type="line"/>
+      <point x="599" y="269" type="line"/>
+      <point x="10" y="269" type="line"/>
+    </contour>
+  </outline>
   <lib>
   <dict>
-  <key>public.markColor</key>
-  <string>0.6,0.602,1,1</string>
+  <key>com.fontlab.metricsLeft</key>
+  <string>=upsilon</string>
+  <key>com.fontlab.metricsRight</key>
+  <string>=upsilon</string>
   </dict>
   </lib>
 </glyph>

@@ -1,17 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni1D67" format="2">
-  <advance width="504"/>
+  <advance width="294"/>
   <unicode hex="1D67"/>
   <outline>
-    <component base="v"/>
-    <component base="dotlessi" xOffset="98"/>
+    <contour>
+      <point x="96.0286" y="-297.212" type="curve" smooth="yes"/>
+      <point x="96.0286" y="-300.178"/>
+      <point x="99.5883" y="-302.552"/>
+      <point x="111.454" y="-302.552" type="curve" smooth="yes"/>
+      <point x="130.439" y="-302.552"/>
+      <point x="160.103" y="-287.126"/>
+      <point x="160.103" y="-278.82" type="curve" smooth="yes"/>
+      <point x="160.103" y="-251.53"/>
+      <point x="149.424" y="-149.545"/>
+      <point x="148.237" y="-138.214" type="curve"/>
+      <point x="159.509" y="-88.9716"/>
+      <point x="193.41" y="23.6949"/>
+      <point x="212.904" y="52.8218" type="curve" smooth="yes"/>
+      <point x="243.839" y="99.0414"/>
+      <point x="281.131" y="83.6722"/>
+      <point x="281.131" y="122.235" type="curve" smooth="yes"/>
+      <point x="281.131" y="134.101"/>
+      <point x="272.825" y="143"/>
+      <point x="246.128" y="143" type="curve" smooth="yes"/>
+      <point x="195.699" y="143"/>
+      <point x="155.95" y="-8.28581"/>
+      <point x="138.745" y="-83.6321" type="curve"/>
+      <point x="132.812" y="-37.9497"/>
+      <point x="124.595" y="23.1878"/>
+      <point x="109.674" y="67.6537" type="curve" smooth="yes"/>
+      <point x="94.9315" y="111.586"/>
+      <point x="67.5513" y="141.813"/>
+      <point x="25.4286" y="141.813" type="curve" smooth="yes"/>
+      <point x="-1.26894" y="141.813"/>
+      <point x="-19.0673" y="125.795"/>
+      <point x="-25" y="118.676" type="curve"/>
+      <point x="-17.2874" y="105.624" type="line"/>
+      <point x="-12.5412" y="108.59"/>
+      <point x="-6.60834" y="109.75"/>
+      <point x="1.10422" y="109.777" type="curve" smooth="yes"/>
+      <point x="57.5273" y="109.973"/>
+      <point x="105.175" y="-100.593"/>
+      <point x="113.234" y="-147.706" type="curve"/>
+      <point x="103.741" y="-193.982"/>
+      <point x="96.0286" y="-270.514"/>
+    </contour>
   </outline>
-  <lib>
-  <dict>
-  <key>com.fontlab.recipe</key>
-  <string>gamma</string>
-  <key>public.markColor</key>
-  <string>0.6,0.602,1,1</string>
-  </dict>
-  </lib>
 </glyph>

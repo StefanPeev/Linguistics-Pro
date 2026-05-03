@@ -1,16 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni1D68" format="2">
-  <advance width="615"/>
+  <advance width="441"/>
   <unicode hex="1D68"/>
   <outline>
-    <component base="p"/>
+    <contour>
+      <point x="52" y="-219.745" type="line"/>
+      <point x="163.291" y="-243" type="line"/>
+      <point x="149.953" y="-56.255" type="line"/>
+      <point x="173.709" y="-73.1678"/>
+      <point x="209.467" y="-80.2148"/>
+      <point x="241.447" y="-80.2148" type="curve" smooth="yes"/>
+      <point x="341.56" y="-80.2148"/>
+      <point x="400.121" y="-11.1544"/>
+      <point x="400.121" y="107.235" type="curve" smooth="yes"/>
+      <point x="400.121" y="201.664"/>
+      <point x="336.561" y="282"/>
+      <point x="214.831" y="282" type="curve" smooth="yes"/>
+      <point x="75.9597" y="282"/>
+      <point x="52" y="177"/>
+      <point x="52" y="62.8389" type="curve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="158.409" y="106.239" type="curve" smooth="yes"/>
+      <point x="158.409" y="134.013"/>
+      <point x="163.989" y="247.47"/>
+      <point x="223.49" y="247.47" type="curve" smooth="yes"/>
+      <point x="279.763" y="247.47"/>
+      <point x="293.711" y="145.993"/>
+      <point x="293.711" y="91.7491" type="curve" smooth="yes"/>
+      <point x="293.711" y="40.2886"/>
+      <point x="281.158" y="-47.094"/>
+      <point x="232.127" y="-47.094" type="curve" smooth="yes"/>
+      <point x="180.03" y="-47.094"/>
+      <point x="158.409" y="51.5638"/>
+    </contour>
   </outline>
-  <lib>
-  <dict>
-  <key>com.fontlab.recipe</key>
-  <string>rho</string>
-  <key>public.markColor</key>
-  <string>0.6,0.602,1,1</string>
-  </dict>
-  </lib>
+  <guideline angle="0" x="0" y="282"/>
 </glyph>

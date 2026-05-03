@@ -1,11 +1,58 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni1D7E" format="2">
-  <advance width="596"/>
+  <advance width="676"/>
   <unicode hex="1D7E"/>
+  <outline>
+    <contour>
+      <point x="111" y="183" type="line" smooth="yes"/>
+      <point x="111" y="33"/>
+      <point x="207.015" y="-13"/>
+      <point x="338" y="-13" type="curve" smooth="yes"/>
+      <point x="468.985" y="-13"/>
+      <point x="565" y="33"/>
+      <point x="565" y="183" type="curve" smooth="yes"/>
+      <point x="565" y="401" type="line" smooth="yes"/>
+      <point x="565" y="455"/>
+      <point x="570" y="456"/>
+      <point x="645" y="461" type="curve"/>
+      <point x="645" y="490" type="line"/>
+      <point x="390.394" y="490" type="line"/>
+      <point x="390.394" y="461" type="line"/>
+      <point x="465.962" y="456"/>
+      <point x="471" y="455"/>
+      <point x="471" y="401" type="curve" smooth="yes"/>
+      <point x="471" y="204" type="line" smooth="yes"/>
+      <point x="471" y="94"/>
+      <point x="438.758" y="22"/>
+      <point x="338" y="22" type="curve" smooth="yes"/>
+      <point x="237.242" y="22"/>
+      <point x="205" y="94"/>
+      <point x="205" y="204" type="curve" smooth="yes"/>
+      <point x="205" y="401" type="line" smooth="yes"/>
+      <point x="205" y="455"/>
+      <point x="210.038" y="456"/>
+      <point x="285.606" y="461" type="curve"/>
+      <point x="285.606" y="490" type="line"/>
+      <point x="31" y="490" type="line"/>
+      <point x="31" y="461" type="line"/>
+      <point x="106" y="456"/>
+      <point x="111" y="455"/>
+      <point x="111" y="401" type="curve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="30" y="234" type="line"/>
+      <point x="619" y="234" type="line"/>
+      <point x="619" y="269" type="line"/>
+      <point x="30" y="269" type="line"/>
+    </contour>
+  </outline>
+  <guideline angle="0" x="0" y="512"/>
   <lib>
   <dict>
-  <key>public.markColor</key>
-  <string>0.6,0.602,1,1</string>
+  <key>com.fontlab.metricsLeft</key>
+  <string>=U.sc</string>
+  <key>com.fontlab.metricsRight</key>
+  <string>=U.sc</string>
   </dict>
   </lib>
 </glyph>

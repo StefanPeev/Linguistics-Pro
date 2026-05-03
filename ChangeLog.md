@@ -1,9 +1,38 @@
+ ## **Unicode Blocks in Linguistics Pro and their coverage**
+ **Basic Latin** (U+0000 - U+007F) 97/128  
+ **Latin-1 Supplement** (U+0080 - U+00FF) 95/128  
+ **Latin Extended-A** (U+0100 - U+017F) 128/128  
+ **Latin Extended-B** (U+0180 - U+024F) 161/208  
+ **IPA Extensions** (U+0250 - U+02AF) 96/96  
+ **Spacing Modifier Letters** (U+02B0 - U+02FF) 59/80  
+ **Combining Diacritical Marks** (U+0300 - U+036F) 62/112  
+ **Greek and Coptic** (U+0370 - U+03FF) 77/135  
+ **Cyrillic** (U+0400 - U+04FF) 200/256  
+ **Cyrillic Supplement** (U+0500 - U+052F) 4/48  
+ **Phonetic Extensions** (U+1D00 - U+1D7F) 128/128  
+ **Phonetic Extensions Supplement** (U+1D80 - U+1DBF) 64/64
+ **Latin Extended Additional** (U+1E00 - U+1EFF) 247/256  
+ **Greek Extended** (U+1F00 - U+1FFF) 233/233  
+ **General Punctuation** (U+2000 - U+206F) 34/111  
+ **Superscripts and Subscripts** (U+2070 - U+209F) 22/42  
+ **Currency Symbols** (U+20A0 - U+20CF) 3/34  
+ **Letterlike Symbols** (U+2100 - U+214F) 6/80  
+ **Number Forms** (U+2150 - U+218F) 53/60  
+ **Arrows** (U+2190 - U+21FF) 11/112  
+ **Mathematical Operators** (U+2200 - U+22FF) 29/256  
+ **Control Pictures** (U+2400 - U+243F) 1/42  
+ **Geometric Shapes** (U+25A0 - U+25FF) 40/96  
+ **Miscellaneous Symbols** (U+2600 - U+26FF) 4/256  
+ **Latin Extended-C** (U+2C60 - U+2C7F) 4/32  
+ **Latin Extended-D** (U+A720 - U+A7FF) 14/204  
+ **Alphabetic Presentation Forms** (U+FB00 - U+FB4F) 6/58  
+  
  ## **Upcoming tasks for all future versions**
  - [x] Check font contains no unreachable glyphs.  
  - [ ] Achieving full Cyrillic support in Unicode.  
  - [ ] Consider adding the Glagolitic script in accordance with Unicode encoding requirements.  
  - [ ] Ensure the font supports case swapping for all its glyphs.  
- - [ ] Letters in font have glyphs that are not empty?  
+ - [x] Letters in font have glyphs that are not empty?  
  - [x] Check math signs have the same width.  
  - [ ] Ensure small caps glyphs are available.  
  - [ ] Ensure indic fonts have the Indian Rupee Sign glyph.  
@@ -12,7 +41,7 @@
  - [ ] Checking OS/2 usWinAscent & usWinDescent.  
  - [ ] Does GPOS table have kerning information?   
  
- ## **2026-04-30**  
+ ## **2026-05-03**  
   
  ### Source file version  
  * **LinguisticsPro.vfc** - v.1.088
@@ -25,18 +54,19 @@
  * **Italic**, **Medium Italic**, **SemiBold Italic**, **Bold Italic** - v.1.083  
  
  ### Tasks  
- - [x] Check font contains no unreachable glyphs.
- - [x] Check math signs have the same width.
+ - [x] Check font contains no unreachable glyphs.  
+ - [x] Letters in font have glyphs that are not empty.  
+ - [x] Check math signs have the same width.  
  
  ### Added glyphs  
- * **Phonetic Extensions:** ᵹ ᵽ ᴀ ᴁ ᴂ ᴃ ᴅ ᴇ ᴈ ᴉ ᴊ ᴋ ᴌ ᴍ ᴎ ᴏ ᴐ ᴑ ᴒ ᴓ ᴔ ᴕ ᴖ ᴗ ᴘ ᴙ ᴚ ᴛ ᴜ ᴝ ᴞ ᴟ ᴠ ᴡ ᴢ ᴣ ᴤ ᴥ ᴦ ᴧ ᴨ ᴩ ᴪ ᴫ ᴬ ᴭ ᴮ ᴯ ᴰ ᴱ ᴲ ᴳ ᴴ ᴵ ᴶ ᴷ ᴸ ᴹ ᴺ ᴻ ᴼ ᴽ ᴾ ᴿ ᵀ ᵁ ᵂ 
- * **Phonetic Extensions Supplement:** ᶀ ᶁ ᶂ ᶃ ᶄ ᶅ ᶆ ᶇ ᶈ ᶉ ᶊ ᶋ ᶌ ᶍ ᶎ ᶏ ᶐ ᶑ ᶒ ᶖ ᶓ ᶔ ᶕ ᶗ ᶘ ᶙ ᶚ  
- * **Currency Symbols:** ₮ ₸ ₹ ₴ ₺ ₼  
- * **Letterlike Symbols:** ℃ ℉  
- * **Latin Extended-B:**  Ƚ Ƞ ƹ ɂ Ʀ Ʈ 
- * **Latin Extended-C:**  Ɽ Ᵽ 
- * **Latin Extended-D:**  Ƛ Ɤ Ɦ Ɪ Ɬ Ʝ Ᵹ Ᶎ 
- * **Small Caps:**  /uni0462.sc 
+ * **Phonetic Extensions. Range: 1D00-1D7F. Glyphs: 128/128** ᴀ ᴁ ᴂ ᴃ ᴄ ᴅ ᴆ ᴇ ᴈ ᴉ ᴊ ᴋ ᴌ ᴍ ᴎ ᴏ ᴐ ᴑ ᴒ ᴓ ᴔ ᴕ ᴖ ᴗ ᴘ ᴙ ᴚ ᴛ ᴜ ᴝ ᴞ ᴟ ᴠ ᴡ ᴢ ᴣ ᴤ ᴥ ᴦ ᴧ ᴨ ᴩ ᴪ ᴫ ᴬ ᴭ ᴮ ᴯ ᴰ ᴱ ᴲ ᴳ ᴴ ᴵ ᴶ ᴷ ᴸ ᴹ ᴺ ᴻ ᴼ ᴽ ᴾ ᴿ ᵀ ᵁ ᵂ ᵃ ᵄ ᵅ ᵆ ᵇ ᵈ ᵉ ᵊ ᵋ ᵌ ᵍ ᵎ ᵏ ᵐ ᵑ ᵒ ᵓ ᵔ ᵕ ᵖ ᵗ ᵘ ᵙ ᵚ ᵛ ᵜ ᵝ ᵞ ᵟ ᵠ ᵡ ᵢ ᵣ ᵤ ᵥ ᵦ ᵧ ᵨ ᵩ ᵪ ᵫ ᵬ ᵭ ᵮ ᵯ ᵰ ᵱ ᵲ ᵳ ᵴ ᵵ ᵶ ᵷ ᵸ ᵹ ᵺ ᵻ ᵼ ᵽ ᵾ ᵿ 
+ * **Phonetic Extensions Supplement. Range: 1D80–1DBF. Glyphs: 64/64** ᶀ ᶁ ᶂ ᶃ ᶄ ᶅ ᶆ ᶇ ᶈ ᶉ ᶊ ᶋ ᶌ ᶍ ᶎ ᶏ ᶐ ᶑ ᶒ ᶓ ᶔ ᶕ ᶖ ᶗ ᶘ ᶙ ᶚ ᶛ ᶜ ᶝ ᶞ ᶟ ᶠ ᶡ ᶢ ᶣ ᶤ ᶥ ᶦ ᶧ ᶨ ᶩ ᶪ ᶫ ᶬ ᶭ ᶮ ᶯ ᶰ ᶱ ᶲ ᶳ ᶴ ᶵ ᶶ ᶷ ᶸ ᶹ ᶺ ᶻ ᶼ ᶽ ᶾ ᶿ  
+ * **Currency Symbols. Range: 20A0–20CF. Glyphs: 9/48** ₡ € ₮ ₴ ₸ ₹ ₺ ₼ ₽  
+ * **Letterlike Symbols. Range: 2100–214F. Glyphs: 8/80** ℃ ℉ № ℟ ™ ℣ Ω ℮  
+ * **Latin Extended-B. Range: 0180–024F. Glyphs: 161/208. Recently added:**  Ƚ Ƞ ƹ ɂ Ʀ Ʈ 
+ * **Latin Extended-C. Range: 2C60–2C7F. Glyphs: 4/32. Recently added:**  Ɽ Ᵽ Ɱ  
+ * **Latin Extended-D. Range: A720–A7FF. Glyphs: 14/224. Recently added:**  Ƛ Ɤ Ɦ Ɪ Ɬ Ʝ Ᵹ Ᶎ 
+ * **Small Caps. Recently added:**  /uni0462.sc 
  
  ### Glyph corrections  
  * **Greek and Coptic:** Ά Έ Ή Ί Ό Ύ Ώ ΐ ά έ ή ί ΰ ό ύ ώ ϓ ϔ ἐ ἠ ἰ ὀ ὐ ὠ ἁ ἑ ἡ ἱ ὁ ὑ ὡ ἂ ἒ ἢ ἲ ὂ ὒ ὢ ἃ ἓ ἣ ἳ ὃ ὓ ὣ ἄ ἔ ἤ ἴ ὄ ὔ ὤ ἅ ἕ ἥ ἵ ὅ ὕ ὥ ἆ ἦ ἶ ὖ ὦ ἇ ἧ ἷ ὗ ὧ  

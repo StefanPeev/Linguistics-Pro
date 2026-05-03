@@ -1,11 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni1DA7" format="2">
-  <advance width="208"/>
+  <advance width="202"/>
   <unicode hex="1DA7"/>
+  <outline>
+    <component base="uni1DA6" xOffset="6"/>
+    <contour>
+      <point x="19" y="465" type="line"/>
+      <point x="184" y="465" type="line"/>
+      <point x="184" y="489" type="line"/>
+      <point x="19" y="489" type="line"/>
+    </contour>
+  </outline>
   <lib>
   <dict>
-  <key>public.markColor</key>
-  <string>0.6,0.602,1,1</string>
+  <key>com.fontlab.metricsLeft</key>
+  <string>=uni1DA6</string>
+  <key>com.fontlab.metricsRight</key>
+  <string>=uni1DA6</string>
   </dict>
   </lib>
 </glyph>
