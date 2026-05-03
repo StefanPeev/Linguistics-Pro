@@ -2,10 +2,10 @@
 <glyph name="uni022B" format="2">
   <advance width="585"/>
   <unicode hex="022B"/>
-  <anchor x="290" y="914" name="top"/>
+  <anchor x="293" y="914" name="top"/>
   <outline>
-    <component base="odieresis"/>
-    <component base="uni0304" xOffset="290" yOffset="190"/>
+    <component base="o"/>
+    <component base="uni03080304" xOffset="293" yOffset="-20"/>
   </outline>
   <lib>
   <dict>
@@ -69,7 +69,7 @@
     </array>
   </dict>
   <key>com.fontlab.recipe</key>
-  <string>odieresis+uni0304</string>
+  <string>o+uni03080304</string>
   <key>public.markColor</key>
   <string>0.6,0.997,1,1</string>
   </dict>

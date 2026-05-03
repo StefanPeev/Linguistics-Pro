@@ -4,17 +4,17 @@
   <unicode hex="1EBF"/>
   <anchor x="326" y="0" name="ogonek"/>
   <anchor x="273" y="-60" name="bottom"/>
-  <anchor x="330" y="986" name="top"/>
+  <anchor x="273" y="986" name="top"/>
   <outline>
-    <component base="ecircumflex"/>
-    <component base="uni0301" xOffset="534" yOffset="226"/>
+    <component base="e"/>
+    <component base="uni03020301" xOffset="273" yOffset="18"/>
   </outline>
   <lib>
   <dict>
   <key>com.fontlab.autolayer</key>
   <true/>
   <key>com.fontlab.recipe</key>
-  <string>ecircumflex+uni0301</string>
+  <string>e+uni03020301</string>
   <key>public.markColor</key>
   <string>0.6,0.997,1,1</string>
   </dict>

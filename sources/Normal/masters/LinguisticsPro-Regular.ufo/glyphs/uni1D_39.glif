@@ -1,11 +1,59 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni1D39" format="2">
-  <advance width="590"/>
+  <advance width="687"/>
   <unicode hex="1D39"/>
+  <outline>
+    <contour>
+      <point x="38" y="270" type="line"/>
+      <point x="212" y="270" type="line"/>
+      <point x="212" y="295" type="line"/>
+      <point x="147" y="299"/>
+      <point x="142" y="304.268"/>
+      <point x="142" y="373" type="curve" smooth="yes"/>
+      <point x="142" y="631" type="line"/>
+      <point x="145" y="631" type="line"/>
+      <point x="303" y="280" type="line"/>
+      <point x="330" y="280" type="line"/>
+      <point x="496" y="631" type="line"/>
+      <point x="499" y="631" type="line"/>
+      <point x="499" y="347" type="line" smooth="yes"/>
+      <point x="499" y="300"/>
+      <point x="495.238" y="298.965"/>
+      <point x="430" y="295" type="curve"/>
+      <point x="430" y="270" type="line"/>
+      <point x="649" y="270" type="line"/>
+      <point x="649" y="295" type="line"/>
+      <point x="584" y="299"/>
+      <point x="580" y="300.168"/>
+      <point x="580" y="347" type="curve" smooth="yes"/>
+      <point x="580" y="635" type="line" smooth="yes"/>
+      <point x="580" y="682"/>
+      <point x="583.797" y="683.035"/>
+      <point x="649" y="687" type="curve"/>
+      <point x="649" y="712" type="line"/>
+      <point x="493" y="712" type="line"/>
+      <point x="343" y="394" type="line"/>
+      <point x="341" y="394" type="line"/>
+      <point x="194" y="712" type="line"/>
+      <point x="38" y="712" type="line"/>
+      <point x="38" y="687" type="line"/>
+      <point x="103" y="683"/>
+      <point x="107" y="681.832"/>
+      <point x="107" y="635" type="curve" smooth="yes"/>
+      <point x="107" y="373" type="line" smooth="yes"/>
+      <point x="107" y="304"/>
+      <point x="103" y="298.965"/>
+      <point x="38" y="295" type="curve"/>
+    </contour>
+  </outline>
+  <guideline angle="0" x="0" y="512"/>
+  <guideline angle="0" x="0" y="270"/>
   <lib>
   <dict>
-  <key>public.markColor</key>
-  <string>0.6,0.602,1,1</string>
+  <key>com.fontlab.metricsLeft</key>
+  <string>=M.sc</string>
+  <key>com.fontlab.metricsRight</key>
+  <string>=M.sc</string>
   </dict>
   </lib>
 </glyph>

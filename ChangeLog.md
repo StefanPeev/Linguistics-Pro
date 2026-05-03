@@ -4,7 +4,7 @@
  - [ ] Consider adding the Glagolitic script in accordance with Unicode encoding requirements.  
  - [ ] Ensure the font supports case swapping for all its glyphs.  
  - [ ] Letters in font have glyphs that are not empty?  
- - [ ] Check math signs have the same width.  
+ - [x] Check math signs have the same width.  
  - [ ] Ensure small caps glyphs are available.  
  - [ ] Ensure indic fonts have the Indian Rupee Sign glyph.  
  - [ ] Font contains all required tables?  
@@ -26,18 +26,20 @@
  
  ### Tasks  
  - [x] Check font contains no unreachable glyphs.
+ - [x] Check math signs have the same width.
  
  ### Added glyphs  
- * **Phonetic Extensions:** ᵹ  
+ * **Phonetic Extensions:** ᵹ ᵽ ᴀ ᴁ ᴂ ᴃ ᴅ ᴇ ᴈ ᴉ ᴊ ᴋ ᴌ ᴍ ᴎ ᴏ ᴐ ᴑ ᴒ ᴓ ᴔ ᴕ ᴖ ᴗ ᴘ ᴙ ᴚ ᴛ ᴜ ᴝ ᴞ ᴟ ᴠ ᴡ ᴢ ᴣ ᴤ ᴥ ᴦ ᴧ ᴨ ᴩ ᴪ ᴫ ᴬ ᴭ ᴮ ᴯ ᴰ ᴱ ᴲ ᴳ ᴴ ᴵ ᴶ ᴷ ᴸ ᴹ ᴺ ᴻ ᴼ ᴽ ᴾ ᴿ ᵀ ᵁ ᵂ 
  * **Phonetic Extensions Supplement:** ᶀ ᶁ ᶂ ᶃ ᶄ ᶅ ᶆ ᶇ ᶈ ᶉ ᶊ ᶋ ᶌ ᶍ ᶎ ᶏ ᶐ ᶑ ᶒ ᶖ ᶓ ᶔ ᶕ ᶗ ᶘ ᶙ ᶚ  
- * **Currency Symbols:** ₮ ₸  
+ * **Currency Symbols:** ₮ ₸ ₹ ₴ ₺ ₼  
  * **Letterlike Symbols:** ℃ ℉  
  * **Latin Extended-B:**  Ƚ Ƞ ƹ ɂ Ʀ Ʈ 
- * **Latin Extended-C:**  Ɽ 
+ * **Latin Extended-C:**  Ɽ Ᵽ 
  * **Latin Extended-D:**  Ƛ Ɤ Ɦ Ɪ Ɬ Ʝ Ᵹ Ᶎ 
+ * **Small Caps:**  /uni0462.sc 
  
  ### Glyph corrections  
- * **Greek and Coptic:** /Alphatonos /Epsilontonos /Etatonos /Iotatonos /Omicrontonos /Upsilontonos /Omegatonos /iotadieresistonos /alphatonos /epsilontonos /etatonos /iotatonos /upsilondieresistonos /iotadieresis /upsilondieresis /omicrontonos /upsilontonos /omegatonos /Upsilonacutehooksymbol /uni03D4 ἀ ἐ ἠ ἰ ὀ ὐ ὠ ἁ ἑ ἡ ἱ ὁ ὑ ὡ ἂ ἒ ἢ ἲ ὂ ὒ ὢ ἃ ἓ ἣ ἳ ὃ ὓ ὣ ἄ ἔ ἤ ἴ ὄ ὔ ὤ ἅ ἕ ἥ ἵ ὅ ὕ ὥ ἆ ἦ ἶ ὖ ὦ ἇ ἧ ἷ ὗ ὧ  
+ * **Greek and Coptic:** Ά Έ Ή Ί Ό Ύ Ώ ΐ ά έ ή ί ΰ ό ύ ώ ϓ ϔ ἐ ἠ ἰ ὀ ὐ ὠ ἁ ἑ ἡ ἱ ὁ ὑ ὡ ἂ ἒ ἢ ἲ ὂ ὒ ὢ ἃ ἓ ἣ ἳ ὃ ὓ ὣ ἄ ἔ ἤ ἴ ὄ ὔ ὤ ἅ ἕ ἥ ἵ ὅ ὕ ὥ ἆ ἦ ἶ ὖ ὦ ἇ ἧ ἷ ὗ ὧ  
  * **Latin Extended Additional:** Ḙ ḙ Ḛ ḛ  
  
  ## **2026-04-22**  

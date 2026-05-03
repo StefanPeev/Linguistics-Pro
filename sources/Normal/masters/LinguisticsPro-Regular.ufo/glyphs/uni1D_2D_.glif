@@ -1,21 +1,88 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni1D2D" format="2">
-  <advance width="1241"/>
+  <advance width="689"/>
   <unicode hex="1D2D"/>
-  <anchor x="311" y="740" name="top"/>
-  <anchor x="1114" y="10" name="ogonek"/>
-  <anchor x="308" y="670" name="aring"/>
-  <anchor x="635" y="707" name="tonos"/>
   <outline>
-    <component base="A"/>
-    <component base="E" xOffset="635"/>
+    <contour>
+      <point x="25" y="270" type="line"/>
+      <point x="181.179" y="270" type="line"/>
+      <point x="181.179" y="288.523" type="line"/>
+      <point x="139.023" y="292.994" type="line" smooth="yes"/>
+      <point x="131.374" y="293.805"/>
+      <point x="127.526" y="296.827"/>
+      <point x="127.526" y="302.575" type="curve" smooth="yes"/>
+      <point x="127.526" y="305.13"/>
+      <point x="128.165" y="307.685"/>
+      <point x="129.442" y="310.879" type="curve"/>
+      <point x="217.586" y="484.353" type="line"/>
+      <point x="327.448" y="484.353" type="line"/>
+      <point x="327.448" y="330.679" type="line" smooth="yes"/>
+      <point x="327.448" y="293.633"/>
+      <point x="325.531" y="292.355"/>
+      <point x="269.962" y="288.523" type="curve"/>
+      <point x="269.962" y="270" type="line"/>
+      <point x="648.199" y="270" type="line"/>
+      <point x="661.906" y="394.312" type="line"/>
+      <point x="634.975" y="394.312" type="line"/>
+      <point x="619.168" y="324.349"/>
+      <point x="573.243" y="292.356"/>
+      <point x="488.617" y="292.356" type="curve" smooth="yes"/>
+      <point x="436.241" y="292.356"/>
+      <point x="406.221" y="292.995"/>
+      <point x="406.221" y="349.841" type="curve" smooth="yes"/>
+      <point x="406.221" y="484.353" type="line"/>
+      <point x="501.686" y="484.353" type="line" smooth="yes"/>
+      <point x="550.798" y="484.353"/>
+      <point x="555.079" y="465.571"/>
+      <point x="560.828" y="425.331" type="curve"/>
+      <point x="588.622" y="425.331" type="line"/>
+      <point x="588.622" y="573.915" type="line"/>
+      <point x="560.828" y="573.915" type="line"/>
+      <point x="555.079" y="534.314"/>
+      <point x="550.798" y="514.668"/>
+      <point x="501.686" y="514.668" type="curve" smooth="yes"/>
+      <point x="406.221" y="514.668" type="line"/>
+      <point x="406.221" y="658.881" type="line" smooth="yes"/>
+      <point x="406.221" y="678.043"/>
+      <point x="409.414" y="681.875"/>
+      <point x="429.854" y="681.875" type="curve" smooth="yes"/>
+      <point x="511.441" y="681.875" type="line" smooth="yes"/>
+      <point x="567.954" y="681.875"/>
+      <point x="599.842" y="652.349"/>
+      <point x="607.889" y="592.573" type="curve"/>
+      <point x="635.684" y="592.573" type="line"/>
+      <point x="635.684" y="712" type="line"/>
+      <point x="217.896" y="712" type="line"/>
+      <point x="217.896" y="693.476" type="line"/>
+      <point x="265.8" y="689.644" type="line" smooth="yes"/>
+      <point x="274.102" y="688.98"/>
+      <point x="277.936" y="687.089"/>
+      <point x="277.936" y="681.341" type="curve" smooth="yes"/>
+      <point x="277.936" y="678.147"/>
+      <point x="276.616" y="673.7"/>
+      <point x="273.465" y="667.927" type="curve" smooth="yes"/>
+      <point x="83.1242" y="319.182" type="line" smooth="yes"/>
+      <point x="69.1551" y="293.588"/>
+      <point x="59.4913" y="291.717"/>
+      <point x="25" y="288.523" type="curve"/>
+    </contour>
+    <contour>
+      <point x="229.722" y="514.667" type="line"/>
+      <point x="323.615" y="686.45" type="line"/>
+      <point x="327.447" y="686.45" type="line"/>
+      <point x="327.447" y="514.667" type="line"/>
+    </contour>
   </outline>
+  <guideline angle="0" x="0" y="512"/>
+  <guideline angle="0" x="0" y="270"/>
   <lib>
   <dict>
+  <key>com.fontlab.metricsLeft</key>
+  <string>=AE.sc</string>
+  <key>com.fontlab.metricsRight</key>
+  <string>=AE.sc</string>
   <key>com.fontlab.recipe</key>
-  <string>AE</string>
-  <key>public.markColor</key>
-  <string>0.6,0.602,1,1</string>
+  <string>AE.sc</string>
   </dict>
   </lib>
 </glyph>

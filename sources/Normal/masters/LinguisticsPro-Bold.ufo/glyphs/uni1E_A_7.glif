@@ -5,15 +5,15 @@
   <anchor x="273" y="540" name="aring"/>
   <anchor x="437" y="10" name="ogonek"/>
   <outline>
-    <component base="acircumflex"/>
-    <component base="uni0300" xOffset="462" yOffset="208"/>
+    <component base="a"/>
+    <component base="uni03020300" xOffset="295.5"/>
   </outline>
   <lib>
   <dict>
   <key>com.fontlab.autolayer</key>
   <true/>
   <key>com.fontlab.recipe</key>
-  <string>acircumflex+uni0300</string>
+  <string>a+uni03020300</string>
   <key>public.markColor</key>
   <string>0.6,0.997,1,1</string>
   </dict>

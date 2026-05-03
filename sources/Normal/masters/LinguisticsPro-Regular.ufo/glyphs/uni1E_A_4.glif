@@ -5,10 +5,10 @@
   <anchor x="530" y="10" name="ogonek"/>
   <anchor x="308" y="670" name="aring"/>
   <anchor x="170" y="702" name="tonos"/>
-  <anchor x="312" y="938" name="top"/>
+  <anchor x="311" y="1146" name="top"/>
   <outline>
-    <component base="Acircumflex"/>
-    <component base="acute.case" xOffset="77.5"/>
+    <component base="A"/>
+    <component base="uni03020301" xOffset="311" yOffset="198"/>
   </outline>
   <lib>
   <dict>
@@ -42,9 +42,9 @@
     </array>
   </dict>
   <key>com.fontlab.recipe</key>
-  <string>Acircumflex+acute.case</string>
+  <string>A+uni03020301</string>
   <key>public.markColor</key>
-  <string>1,0.6,0.6,1</string>
+  <string>0.6,0.997,1,1</string>
   </dict>
   </lib>
 </glyph>

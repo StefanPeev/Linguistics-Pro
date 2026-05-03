@@ -2,10 +2,21 @@
 <glyph name="uni1D7D" format="2">
   <advance width="615"/>
   <unicode hex="1D7D"/>
+  <outline>
+    <component base="p"/>
+    <contour>
+      <point x="22" y="240" type="line"/>
+      <point x="633" y="240" type="line"/>
+      <point x="633" y="285" type="line"/>
+      <point x="22" y="285" type="line"/>
+    </contour>
+  </outline>
   <lib>
   <dict>
-  <key>public.markColor</key>
-  <string>0.6,0.602,1,1</string>
+  <key>com.fontlab.metricsLeft</key>
+  <string>=p</string>
+  <key>com.fontlab.metricsRight</key>
+  <string>=p</string>
   </dict>
   </lib>
 </glyph>

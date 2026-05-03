@@ -1,11 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni1D1B" format="2">
-  <advance width="465"/>
+  <advance width="525"/>
   <unicode hex="1D1B"/>
+  <outline>
+    <contour>
+      <point x="118" y="0" type="line"/>
+      <point x="408" y="0" type="line"/>
+      <point x="408" y="29" type="line"/>
+      <point x="323" y="34"/>
+      <point x="310" y="39"/>
+      <point x="310" y="89" type="curve" smooth="yes"/>
+      <point x="310" y="455" type="line"/>
+      <point x="353" y="455" type="line" smooth="yes"/>
+      <point x="433" y="455"/>
+      <point x="454" y="418"/>
+      <point x="463" y="340" type="curve"/>
+      <point x="495" y="340" type="line"/>
+      <point x="495" y="490" type="line"/>
+      <point x="31" y="490" type="line"/>
+      <point x="31" y="340" type="line"/>
+      <point x="63" y="340" type="line"/>
+      <point x="72" y="418"/>
+      <point x="93" y="455"/>
+      <point x="173" y="455" type="curve" smooth="yes"/>
+      <point x="216" y="455" type="line"/>
+      <point x="216" y="89" type="line" smooth="yes"/>
+      <point x="216" y="39"/>
+      <point x="203" y="34"/>
+      <point x="118" y="29" type="curve"/>
+    </contour>
+  </outline>
   <lib>
   <dict>
-  <key>public.markColor</key>
-  <string>0.6,0.602,1,1</string>
+  <key>com.fontlab.metricsLeft</key>
+  <string>=T.sc</string>
+  <key>com.fontlab.metricsRight</key>
+  <string>=T.sc</string>
   </dict>
   </lib>
 </glyph>

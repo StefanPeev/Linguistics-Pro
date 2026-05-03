@@ -5,8 +5,8 @@
   <anchor x="218" y="0" name="cedilla"/>
   <anchor x="218" y="870" name="top"/>
   <outline>
-    <component base="scaron"/>
-    <component base="uni0307" xOffset="218" yOffset="130"/>
+    <component base="s"/>
+    <component base="uni030C0307" xOffset="218"/>
   </outline>
   <lib>
   <dict>
@@ -94,7 +94,7 @@
     </array>
   </dict>
   <key>com.fontlab.recipe</key>
-  <string>scaron+uni0307</string>
+  <string>s+uni030C0307</string>
   <key>public.markColor</key>
   <string>0.6,0.997,1,1</string>
   </dict>

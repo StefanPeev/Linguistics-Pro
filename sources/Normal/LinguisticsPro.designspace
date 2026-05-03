@@ -1,17 +1,17 @@
 <?xml version='1.0' encoding='utf-8'?>
 <designspace format="4.0">
  <axes>
-  <axis name="weight" minimum="400" tag="wght" default="400" maximum="700">
+  <axis maximum="700" default="400" tag="wght" minimum="400" name="weight">
    <labelname xml:lang="en">Weight</labelname>
   </axis>
  </axes>
  <sources>
-  <source name="Bold" familyname="Linguistics Pro" filename="masters/LinguisticsPro-Bold.ufo" stylename="Bold">
+  <source stylename="Bold" filename="masters/LinguisticsPro-Bold.ufo" familyname="Linguistics Pro" name="Bold">
    <location>
     <dimension name="weight" xvalue="700"/>
    </location>
   </source>
-  <source name="Regular" familyname="Linguistics Pro" filename="masters/LinguisticsPro-Regular.ufo" stylename="Regular">
+  <source stylename="Regular" filename="masters/LinguisticsPro-Regular.ufo" familyname="Linguistics Pro" name="Regular">
    <lib copy="1"/>
    <groups copy="1"/>
    <info copy="1"/>
@@ -63,28 +63,26 @@
     <string>gecyr.loclMKD</string>
     <string>tilde.case</string>
     <string>uni0328.bsh</string>
-    <string>uni03040300</string>
-    <string>uni03040301</string>
    </array>
   </dict>
  </lib>
  <instances>
-  <instance name="Regular" familyname="Linguistics Pro" filename="instances/LinguisticsPro-Regular.ufo" stylename="Regular">
+  <instance stylename="Regular" filename="instances/LinguisticsPro-Regular.ufo" familyname="Linguistics Pro" name="Regular">
    <location>
     <dimension name="weight" xvalue="400"/>
    </location>
   </instance>
-  <instance name="Medium" familyname="Linguistics Pro" filename="instances/LinguisticsPro-Medium.ufo" stylename="Medium">
+  <instance stylename="Medium" filename="instances/LinguisticsPro-Medium.ufo" familyname="Linguistics Pro" name="Medium">
    <location>
     <dimension name="weight" xvalue="500"/>
    </location>
   </instance>
-  <instance name="SemiBold" familyname="Linguistics Pro" filename="instances/LinguisticsPro-SemiBold.ufo" stylename="SemiBold">
+  <instance stylename="SemiBold" filename="instances/LinguisticsPro-SemiBold.ufo" familyname="Linguistics Pro" name="SemiBold">
    <location>
     <dimension name="weight" xvalue="600"/>
    </location>
   </instance>
-  <instance name="Bold" familyname="Linguistics Pro" filename="instances/LinguisticsPro-Bold.ufo" stylename="Bold">
+  <instance stylename="Bold" filename="instances/LinguisticsPro-Bold.ufo" familyname="Linguistics Pro" name="Bold">
    <location>
     <dimension name="weight" xvalue="700"/>
    </location>

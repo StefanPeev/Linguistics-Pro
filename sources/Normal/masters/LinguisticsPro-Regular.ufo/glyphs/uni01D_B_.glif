@@ -4,8 +4,8 @@
   <unicode hex="01DB"/>
   <anchor x="427" y="0" name="ogonek"/>
   <outline>
-    <component base="Udieresis"/>
-    <component base="grave.case" xOffset="236"/>
+    <component base="U"/>
+    <component base="uni03080300" xOffset="395.5" yOffset="202"/>
   </outline>
   <lib>
   <dict>
@@ -81,9 +81,9 @@
     </array>
   </dict>
   <key>com.fontlab.recipe</key>
-  <string>Udieresis+grave.case</string>
+  <string>U+uni03080300</string>
   <key>public.markColor</key>
-  <string>1,0.6,0.6,1</string>
+  <string>0.6,0.997,1,1</string>
   </dict>
   </lib>
 </glyph>

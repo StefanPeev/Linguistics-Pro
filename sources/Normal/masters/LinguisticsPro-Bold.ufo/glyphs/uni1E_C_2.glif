@@ -6,15 +6,15 @@
   <anchor x="-2" y="702" name="tonos"/>
   <anchor x="329" y="-60" name="bottom"/>
   <outline>
-    <component base="Ecircumflex"/>
-    <component base="uni0309" xOffset="534" yOffset="358"/>
+    <component base="E"/>
+    <component base="uni03020309" xOffset="318" yOffset="208"/>
   </outline>
   <lib>
   <dict>
   <key>com.fontlab.autolayer</key>
   <true/>
   <key>com.fontlab.recipe</key>
-  <string>Ecircumflex+uni0309</string>
+  <string>E+uni03020309</string>
   <key>public.markColor</key>
   <string>0.6,0.997,1,1</string>
   </dict>

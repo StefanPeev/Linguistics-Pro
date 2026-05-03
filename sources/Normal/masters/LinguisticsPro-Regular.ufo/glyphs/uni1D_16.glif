@@ -1,11 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni1D16" format="2">
-  <advance width="634"/>
+  <advance width="560"/>
   <unicode hex="1D16"/>
+  <outline>
+    <contour>
+      <point x="40" y="245" type="curve"/>
+      <point x="144" y="245" type="line"/>
+      <point x="144" y="383"/>
+      <point x="188" y="467"/>
+      <point x="280" y="467" type="curve" smooth="yes"/>
+      <point x="372" y="467"/>
+      <point x="416" y="383"/>
+      <point x="416" y="245" type="curve"/>
+      <point x="520" y="245" type="line"/>
+      <point x="520" y="407"/>
+      <point x="441" y="502"/>
+      <point x="280" y="502" type="curve" smooth="yes"/>
+      <point x="119" y="502"/>
+      <point x="40" y="407"/>
+    </contour>
+  </outline>
   <lib>
   <dict>
-  <key>public.markColor</key>
-  <string>0.6,0.602,1,1</string>
+  <key>com.fontlab.metricsLeft</key>
+  <string>=o</string>
+  <key>com.fontlab.metricsRight</key>
+  <string>=o</string>
   </dict>
   </lib>
 </glyph>

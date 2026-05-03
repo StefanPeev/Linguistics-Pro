@@ -1,21 +1,88 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni1D2D" format="2">
-  <advance width="1273"/>
+  <advance width="688"/>
   <unicode hex="1D2D"/>
-  <anchor x="318" y="730" name="top"/>
-  <anchor x="1124" y="10" name="ogonek"/>
-  <anchor x="320" y="660" name="aring"/>
-  <anchor x="642" y="702" name="tonos"/>
   <outline>
-    <component base="A"/>
-    <component base="E" xOffset="644"/>
+    <contour>
+      <point x="20" y="270" type="line"/>
+      <point x="194" y="270" type="line"/>
+      <point x="194" y="294" type="line"/>
+      <point x="154" y="298" type="line" smooth="yes"/>
+      <point x="144" y="299"/>
+      <point x="139.116" y="302.754"/>
+      <point x="139" y="310" type="curve" smooth="yes"/>
+      <point x="138.952" y="313"/>
+      <point x="139.651" y="318.121"/>
+      <point x="142" y="323" type="curve" smooth="yes"/>
+      <point x="220" y="485" type="line"/>
+      <point x="320" y="485" type="line"/>
+      <point x="320" y="332" type="line" smooth="yes"/>
+      <point x="320" y="299"/>
+      <point x="315.21" y="295.725"/>
+      <point x="270" y="294" type="curve"/>
+      <point x="270" y="270" type="line"/>
+      <point x="650" y="270" type="line"/>
+      <point x="666" y="404" type="line"/>
+      <point x="633" y="404" type="line"/>
+      <point x="610" y="336"/>
+      <point x="597.799" y="299.858"/>
+      <point x="519" y="300" type="curve" smooth="yes"/>
+      <point x="460" y="300.106"/>
+      <point x="422" y="306.116"/>
+      <point x="422" y="347" type="curve" smooth="yes"/>
+      <point x="422" y="485" type="line"/>
+      <point x="514" y="485" type="line" smooth="yes"/>
+      <point x="546" y="485"/>
+      <point x="553.599" y="474.216"/>
+      <point x="564" y="428" type="curve"/>
+      <point x="597" y="428" type="line"/>
+      <point x="597" y="576" type="line"/>
+      <point x="564" y="576" type="line"/>
+      <point x="554" y="529"/>
+      <point x="545.74" y="518"/>
+      <point x="514" y="518" type="curve" smooth="yes"/>
+      <point x="422" y="518" type="line"/>
+      <point x="422" y="659" type="line" smooth="yes"/>
+      <point x="422" y="678"/>
+      <point x="427.142" y="682"/>
+      <point x="445" y="682" type="curve" smooth="yes"/>
+      <point x="524" y="682" type="line" smooth="yes"/>
+      <point x="574" y="682"/>
+      <point x="599.689" y="653.99"/>
+      <point x="612" y="593" type="curve"/>
+      <point x="645" y="593" type="line"/>
+      <point x="645" y="712" type="line"/>
+      <point x="196" y="712" type="line"/>
+      <point x="196" y="688" type="line"/>
+      <point x="237" y="683" type="line" smooth="yes"/>
+      <point x="245.003" y="682.024"/>
+      <point x="247.97" y="679.277"/>
+      <point x="248" y="674" type="curve" smooth="yes"/>
+      <point x="248.023" y="670"/>
+      <point x="246.238" y="662.437"/>
+      <point x="243" y="656" type="curve" smooth="yes"/>
+      <point x="79" y="330" type="line" smooth="yes"/>
+      <point x="65.3319" y="302.83"/>
+      <point x="57" y="295.725"/>
+      <point x="20" y="294" type="curve"/>
+    </contour>
+    <contour>
+      <point x="236" y="518" type="line"/>
+      <point x="314" y="679" type="line"/>
+      <point x="320" y="679" type="line"/>
+      <point x="320" y="518" type="line"/>
+    </contour>
   </outline>
+  <guideline angle="0" x="0" y="512"/>
+  <guideline angle="0" x="0" y="270"/>
   <lib>
   <dict>
+  <key>com.fontlab.metricsLeft</key>
+  <string>=AE.sc</string>
+  <key>com.fontlab.metricsRight</key>
+  <string>=AE.sc</string>
   <key>com.fontlab.recipe</key>
-  <string>AE</string>
-  <key>public.markColor</key>
-  <string>0.6,0.602,1,1</string>
+  <string>AE.sc</string>
   </dict>
   </lib>
 </glyph>

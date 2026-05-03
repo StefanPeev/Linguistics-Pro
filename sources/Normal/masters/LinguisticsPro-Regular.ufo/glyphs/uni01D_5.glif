@@ -3,9 +3,10 @@
   <advance width="791"/>
   <unicode hex="01D5"/>
   <anchor x="427" y="0" name="ogonek"/>
+  <anchor x="395.5" y="1101" name="top"/>
   <outline>
-    <component base="Udieresis"/>
-    <component base="macron.case" xOffset="195.5"/>
+    <component base="U"/>
+    <component base="uni03080304" xOffset="395.5" yOffset="202"/>
   </outline>
   <lib>
   <dict>
@@ -75,9 +76,9 @@
     </array>
   </dict>
   <key>com.fontlab.recipe</key>
-  <string>Udieresis+macron.case</string>
+  <string>U+uni03080304</string>
   <key>public.markColor</key>
-  <string>1,0.6,0.6,1</string>
+  <string>0.6,0.997,1,1</string>
   </dict>
   </lib>
 </glyph>

@@ -1,11 +1,56 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni1D18" format="2">
-  <advance width="502"/>
+  <advance width="536"/>
   <unicode hex="1D18"/>
+  <outline>
+    <contour>
+      <point x="38" y="0" type="line"/>
+      <point x="307.503" y="0" type="line"/>
+      <point x="307.503" y="29" type="line"/>
+      <point x="222.053" y="34"/>
+      <point x="212" y="39"/>
+      <point x="212" y="89" type="curve" smooth="yes"/>
+      <point x="212" y="194" type="line"/>
+      <point x="270.307" y="194" type="line" smooth="yes"/>
+      <point x="385.915" y="194"/>
+      <point x="506" y="218.183"/>
+      <point x="506" y="344.902" type="curve" smooth="yes"/>
+      <point x="506" y="459.046"/>
+      <point x="411" y="490"/>
+      <point x="292.423" y="490" type="curve" smooth="yes"/>
+      <point x="38" y="490" type="line"/>
+      <point x="38" y="461" type="line"/>
+      <point x="113" y="456"/>
+      <point x="118" y="455"/>
+      <point x="118" y="401" type="curve" smooth="yes"/>
+      <point x="118" y="87.4293" type="line" smooth="yes"/>
+      <point x="118" y="34.8429"/>
+      <point x="113" y="33.8691"/>
+      <point x="38" y="29" type="curve"/>
+    </contour>
+    <contour>
+      <point x="212" y="264.103" type="curve" smooth="yes"/>
+      <point x="212" y="414" type="line" smooth="yes"/>
+      <point x="212" y="444"/>
+      <point x="225.069" y="455"/>
+      <point x="267.948" y="455" type="curve" smooth="yes"/>
+      <point x="350.73" y="455"/>
+      <point x="402" y="415.737"/>
+      <point x="402" y="341.498" type="curve" smooth="yes"/>
+      <point x="402" y="259.644"/>
+      <point x="339.672" y="229"/>
+      <point x="271.312" y="229" type="curve" smooth="yes"/>
+      <point x="228.085" y="229"/>
+      <point x="212" y="232.795"/>
+    </contour>
+  </outline>
+  <guideline angle="0" x="0" y="512"/>
   <lib>
   <dict>
-  <key>public.markColor</key>
-  <string>0.6,0.602,1,1</string>
+  <key>com.fontlab.metricsLeft</key>
+  <string>=P.sc</string>
+  <key>com.fontlab.metricsRight</key>
+  <string>=P.sc</string>
   </dict>
   </lib>
 </glyph>

@@ -2,10 +2,10 @@
 <glyph name="uni022D" format="2">
   <advance width="560"/>
   <unicode hex="022D"/>
-  <anchor x="302" y="917" name="top"/>
+  <anchor x="280" y="817" name="top"/>
   <outline>
-    <component base="otilde"/>
-    <component base="uni0304" xOffset="302" yOffset="208"/>
+    <component base="o"/>
+    <component base="uni03030304" xOffset="280" yOffset="8"/>
   </outline>
   <lib>
   <dict>
@@ -45,7 +45,7 @@
     </array>
   </dict>
   <key>com.fontlab.recipe</key>
-  <string>otilde+uni0304</string>
+  <string>o+uni03030304</string>
   <key>public.markColor</key>
   <string>0.6,0.997,1,1</string>
   </dict>

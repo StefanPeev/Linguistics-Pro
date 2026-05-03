@@ -2,10 +2,13 @@
 <glyph name="uni1D03" format="2">
   <advance width="576"/>
   <unicode hex="1D03"/>
-  <lib>
-  <dict>
-  <key>public.markColor</key>
-  <string>0.6,0.602,1,1</string>
-  </dict>
-  </lib>
+  <outline>
+    <component base="uni0432"/>
+    <contour>
+      <point x="32" y="237" type="line"/>
+      <point x="488" y="237" type="line"/>
+      <point x="488" y="272" type="line"/>
+      <point x="32" y="272" type="line"/>
+    </contour>
+  </outline>
 </glyph>

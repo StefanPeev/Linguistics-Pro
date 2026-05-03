@@ -4,7 +4,12 @@
   <unicode hex="019A"/>
   <outline>
     <component base="l"/>
-    <component base="uni0304" xOffset="144" yOffset="-267.081"/>
+    <contour>
+      <point x="0" y="344" type="line"/>
+      <point x="288" y="344" type="line"/>
+      <point x="288" y="379" type="line"/>
+      <point x="0" y="379" type="line"/>
+    </contour>
   </outline>
   <lib>
   <dict>

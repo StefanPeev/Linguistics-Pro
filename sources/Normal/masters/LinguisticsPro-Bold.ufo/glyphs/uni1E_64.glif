@@ -3,19 +3,19 @@
   <advance width="561"/>
   <unicode hex="1E64"/>
   <anchor x="286" y="10" name="cedilla"/>
-  <anchor x="280.5" y="962" name="top"/>
+  <anchor x="280.5" y="1162" name="top"/>
   <outline>
-    <component base="Sacute"/>
-    <component base="uni0307" xOffset="280.5" yOffset="202"/>
+    <component base="S"/>
+    <component base="uni03010307" xOffset="280.5" yOffset="202"/>
   </outline>
   <lib>
   <dict>
   <key>com.fontlab.autolayer</key>
   <true/>
   <key>com.fontlab.recipe</key>
-  <string>Sacute+uni0307</string>
+  <string>S+uni03010307</string>
   <key>public.markColor</key>
-  <string>1,0.6,0.6,1</string>
+  <string>0.6,0.997,1,1</string>
   </dict>
   </lib>
 </glyph>

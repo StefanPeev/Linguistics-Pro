@@ -134,6 +134,16 @@
     <key>y</key>
     <integer>750</integer>
   </dict>
+  <dict>
+    <key>angle</key>
+    <integer>0</integer>
+    <key>name</key>
+    <string>t5</string>
+    <key>x</key>
+    <integer>0</integer>
+    <key>y</key>
+    <integer>2461</integer>
+  </dict>
   </array>
   <key>italicAngle</key>
   <integer>0</integer>
@@ -187,6 +197,45 @@ This Font Software is licensed under the SIL Open Font License, Version 1.1. Thi
   <string>Linguistics Pro</string>
   <key>openTypeNamePreferredSubfamilyName</key>
   <string>Regular</string>
+  <key>openTypeNameRecords</key>
+  <array>
+  <dict>
+    <key>nameID</key>
+    <integer>256</integer>
+    <key>platformID</key>
+    <integer>3</integer>
+    <key>encodingID</key>
+    <integer>1</integer>
+    <key>languageID</key>
+    <integer>1033</integer>
+    <key>string</key>
+    <string>Bulgarian Cyrillic</string>
+  </dict>
+  <dict>
+    <key>nameID</key>
+    <integer>257</integer>
+    <key>platformID</key>
+    <integer>3</integer>
+    <key>encodingID</key>
+    <integer>1</integer>
+    <key>languageID</key>
+    <integer>1033</integer>
+    <key>string</key>
+    <string>Serbian Cyrillic</string>
+  </dict>
+  <dict>
+    <key>nameID</key>
+    <integer>258</integer>
+    <key>platformID</key>
+    <integer>3</integer>
+    <key>encodingID</key>
+    <integer>1</integer>
+    <key>languageID</key>
+    <integer>1033</integer>
+    <key>string</key>
+    <string>Macedonian Cyrillic</string>
+  </dict>
+  </array>
   <key>openTypeNameVersion</key>
   <string>Version 1.088</string>
   <key>openTypeOS2CodePageRanges</key>
@@ -274,7 +323,7 @@ This Font Software is licensed under the SIL Open Font License, Version 1.1. Thi
   <key>openTypeOS2WidthClass</key>
   <integer>5</integer>
   <key>openTypeOS2WinAscent</key>
-  <integer>954</integer>
+  <integer>1180</integer>
   <key>openTypeOS2WinDescent</key>
   <integer>448</integer>
   <key>postscriptBlueFuzz</key>

@@ -3,17 +3,17 @@
   <advance width="768"/>
   <unicode hex="1ED6"/>
   <anchor x="38" y="702" name="tonos"/>
-  <anchor x="374" y="1160" name="top"/>
+  <anchor x="384.881" y="1160" name="top"/>
   <outline>
-    <component base="Ocircumflex"/>
-    <component base="uni0303" xOffset="599" yOffset="410"/>
+    <component base="O"/>
+    <component base="uni03020303" xOffset="384.881" yOffset="202"/>
   </outline>
   <lib>
   <dict>
   <key>com.fontlab.autolayer</key>
   <true/>
   <key>com.fontlab.recipe</key>
-  <string>Ocircumflex+uni0303</string>
+  <string>O+uni03020303</string>
   <key>public.markColor</key>
   <string>0.6,0.997,1,1</string>
   </dict>
