@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni1FF9" format="2">
+  <advance width="753"/>
+  <unicode hex="1FF9"/>
+  <anchor x="400" y="10" name="ogonek"/>
+  <anchor x="151" y="702" name="tonos"/>
+  <outline>
+    <component base="Omicron"/>
+    <component base="uni1FFD" xOffset="360.547" yOffset="203"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.autolayer</key>
+  <true/>
+  <key>com.fontlab.recipe</key>
+  <string>Omicron+uni1FFD</string>
+  <key>public.markColor</key>
+  <string>0.6,0.997,1,1</string>
+  </dict>
+  </lib>
+</glyph>

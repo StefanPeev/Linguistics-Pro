@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni1F6C" format="2">
+  <advance width="770"/>
+  <unicode hex="1F6C"/>
+  <anchor x="151" y="702" name="tonos"/>
+  <anchor x="337" y="-50" name="bottom.jota"/>
+  <outline>
+    <component base="uni03A9"/>
+    <component base="uni1FCE" xOffset="310.786" yOffset="203"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.autolayer</key>
+  <true/>
+  <key>com.fontlab.recipe</key>
+  <string>uni03A9+uni1FCE</string>
+  <key>public.markColor</key>
+  <string>0.6,0.997,1,1</string>
+  </dict>
+  </lib>
+</glyph>

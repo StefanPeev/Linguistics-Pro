@@ -5,10 +5,9 @@
   <anchor x="150" y="707" name="tonos"/>
   <anchor x="479" y="10" name="ogonek"/>
   <anchor x="463" y="740" name="top"/>
-  <anchor x="306" y="-50" name="bottom"/>
   <outline>
     <component base="E"/>
-    <component base="uni0330" xOffset="495.945"/>
+    <component base="uni0330" xOffset="319" yOffset="10"/>
   </outline>
   <lib>
   <dict>
@@ -16,6 +15,8 @@
   <true/>
   <key>com.fontlab.recipe</key>
   <string>E+uni0330</string>
+  <key>public.markColor</key>
+  <string>0.6,0.997,1,1</string>
   </dict>
   </lib>
 </glyph>

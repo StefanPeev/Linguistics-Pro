@@ -4,15 +4,13 @@
   <anchor x="372" y="740" name="top"/>
   <outline>
     <component base="I" xOffset="89"/>
-    <component base="macron.cap" xOffset="-41.8992"/>
+    <component base="macron.case" xOffset="-41.8992"/>
   </outline>
   <guideline angle="77.1487" x="139" y="83"/>
   <lib>
   <dict>
   <key>com.fontlab.recipe</key>
   <string>Imacron</string>
-  <key>public.markColor</key>
-  <string>1,0.994,0.6,1</string>
   </dict>
   </lib>
 </glyph>

@@ -2,10 +2,10 @@
 <glyph name="uni04ED" format="2">
   <advance width="484"/>
   <unicode hex="04ED"/>
-  <anchor x="364" y="700" name="top"/>
+  <anchor x="402" y="700" name="top"/>
   <outline>
     <component base="uni044D"/>
-    <component base="uni0308" xOffset="364" yOffset="-40"/>
+    <component base="uni0308" xOffset="241" yOffset="-40"/>
   </outline>
   <lib>
   <dict>
@@ -13,6 +13,8 @@
   <true/>
   <key>com.fontlab.recipe</key>
   <string>uni044D+uni0308</string>
+  <key>public.markColor</key>
+  <string>0.6,0.997,1,1</string>
   </dict>
   </lib>
 </glyph>

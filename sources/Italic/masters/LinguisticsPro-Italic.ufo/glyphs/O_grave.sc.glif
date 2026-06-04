@@ -5,14 +5,12 @@
   <anchor x="400" y="10" name="ogonek"/>
   <outline>
     <component base="O"/>
-    <component base="grave.cap" xOffset="217.052"/>
+    <component base="grave.case" xOffset="377.052"/>
   </outline>
   <lib>
   <dict>
   <key>com.fontlab.recipe</key>
   <string>Ograve</string>
-  <key>public.markColor</key>
-  <string>1,0.994,0.6,1</string>
   </dict>
   </lib>
 </glyph>

@@ -19,20 +19,8 @@
       <point x="290" y="34"/>
       <point x="266" y="72"/>
       <point x="266" y="141" type="curve" smooth="yes"/>
-      <point x="266" y="174"/>
-      <point x="269" y="222"/>
-      <point x="278" y="274" type="curve"/>
-      <point x="460" y="274" type="line"/>
-      <point x="481" y="320" type="line"/>
-      <point x="287" y="320" type="line"/>
-      <point x="291" y="338"/>
-      <point x="295" y="357"/>
-      <point x="300" y="375" type="curve"/>
-      <point x="506" y="375" type="line"/>
-      <point x="526" y="421" type="line"/>
-      <point x="313" y="421" type="line"/>
-      <point x="350" y="535"/>
-      <point x="411" y="635"/>
+      <point x="266" y="274.285"/>
+      <point x="327.69" y="635"/>
       <point x="504" y="635" type="curve" smooth="yes"/>
       <point x="588" y="635"/>
       <point x="591" y="591"/>
@@ -42,22 +30,25 @@
       <point x="608" y="674"/>
       <point x="567" y="681"/>
       <point x="515" y="681" type="curve" smooth="yes"/>
-      <point x="308" y="681"/>
-      <point x="207" y="553"/>
-      <point x="161" y="421" type="curve"/>
-      <point x="111" y="421" type="line"/>
-      <point x="91" y="375" type="line"/>
-      <point x="147" y="375" type="line"/>
-      <point x="142" y="356"/>
-      <point x="138" y="338"/>
-      <point x="135" y="320" type="curve"/>
+      <point x="247.136" y="681"/>
+      <point x="126" y="454.184"/>
+    </contour>
+    <contour>
+      <point x="90.3623" y="372" type="line"/>
+      <point x="505.362" y="372" type="line"/>
+      <point x="525.787" y="420" type="line"/>
+      <point x="110.787" y="420" type="line"/>
+    </contour>
+    <contour>
+      <point x="66.5749" y="272" type="line"/>
+      <point x="459.575" y="272" type="line"/>
+      <point x="481" y="320" type="line"/>
       <point x="88" y="320" type="line"/>
-      <point x="67" y="274" type="line"/>
-      <point x="129" y="274" type="line"/>
-      <point x="127" y="252"/>
-      <point x="126" y="231"/>
     </contour>
   </outline>
+  <guideline angle="246.501" x="111" y="421"/>
+  <guideline angle="65.4623" x="460" y="274"/>
+  <guideline angle="0" x="0" y="681"/>
   <lib>
   <dict>
   <key>public.postscript.hints</key>
@@ -65,7 +56,7 @@
     <key>formatVersion</key>
     <string>1</string>
     <key>id</key>
-    <string>2de10c70c88ae0c4b747e22245e7c739570eaf74ea36d75897dad84de21a373cd69ee7f623b05492a6f43d00b9c3ffce9accd5b1708b0c05e3c2ceeea2ce4f86</string>
+    <string>97513f036267019ee1b0ea0bbff996b77fbc0c5d1847e6e286f32fa34c511c83548d204dcb7f9c2f92099fc3438f08a31cc3340ed08d414dae150d7eda90fed9</string>
     <key>hintSetList</key>
     <array>
       <dict>

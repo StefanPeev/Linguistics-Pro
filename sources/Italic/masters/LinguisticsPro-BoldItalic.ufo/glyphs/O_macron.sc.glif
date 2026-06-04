@@ -5,14 +5,12 @@
   <anchor x="397" y="10" name="ogonek"/>
   <outline>
     <component base="O"/>
-    <component base="macron.cap" xOffset="165.352"/>
+    <component base="macron.case" xOffset="165.352"/>
   </outline>
   <lib>
   <dict>
   <key>com.fontlab.recipe</key>
   <string>Omacron</string>
-  <key>public.markColor</key>
-  <string>1,0.994,0.6,1</string>
   </dict>
   </lib>
 </glyph>

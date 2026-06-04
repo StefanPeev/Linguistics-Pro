@@ -5,14 +5,12 @@
   <anchor x="397" y="10" name="ogonek"/>
   <outline>
     <component base="O"/>
-    <component base="dieresis.cap" xOffset="165.927"/>
+    <component base="dieresis.case" xOffset="165.927"/>
   </outline>
   <lib>
   <dict>
   <key>com.fontlab.recipe</key>
   <string>Odieresis</string>
-  <key>public.markColor</key>
-  <string>1,0.994,0.6,1</string>
   </dict>
   </lib>
 </glyph>

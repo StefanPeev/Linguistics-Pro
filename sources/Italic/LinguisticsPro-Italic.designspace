@@ -1,45 +1,85 @@
 <?xml version='1.0' encoding='utf-8'?>
 <designspace format="4.0">
  <axes>
-  <axis tag="wght" default="400" maximum="700" name="weight" minimum="400">
+  <axis default="400" name="weight" maximum="700" tag="wght" minimum="400">
    <labelname xml:lang="en">Weight</labelname>
   </axis>
  </axes>
  <sources>
-  <source familyname="Linguistics Pro" filename="masters/LinguisticsPro-BoldItalic.ufo" stylename="Bold Italic" name="BoldItalic">
+  <source filename="masters/LinguisticsPro-BoldItalic.ufo" familyname="Linguistics Pro" name="BoldItalic" stylename="Bold Italic">
    <location>
-    <dimension xvalue="700" name="weight"/>
+    <dimension name="weight" xvalue="700"/>
    </location>
   </source>
-  <source familyname="Linguistics Pro" filename="masters/LinguisticsPro-Italic.ufo" stylename="Italic" name="Italic">
+  <source filename="masters/LinguisticsPro-Italic.ufo" familyname="Linguistics Pro" name="Italic" stylename="Italic">
    <lib copy="1"/>
    <groups copy="1"/>
    <info copy="1"/>
    <features copy="1"/>
    <location>
-    <dimension xvalue="400" name="weight"/>
+    <dimension name="weight" xvalue="400"/>
    </location>
   </source>
  </sources>
+ <lib>
+  <dict>
+   <key>public.skipExportGlyphs</key>
+   <array>
+    <string>quoteright.case</string>
+    <string>dotaccent.case</string>
+    <string>breve.case</string>
+    <string>ring.case</string>
+    <string>tilde.case</string>
+    <string>circumflex.case</string>
+    <string>acute.case</string>
+    <string>caron.case</string>
+    <string>dieresis.case</string>
+    <string>grave.case</string>
+    <string>macron.case</string>
+    <string>uni0309.case</string>
+    <string>uni0300.case</string>
+    <string>uni0301.case</string>
+    <string>uni0302.case</string>
+    <string>uni0304.case</string>
+    <string>uni0306.case</string>
+    <string>uni0307.case</string>
+    <string>uni0308.case</string>
+    <string>uni030A.case</string>
+    <string>uni030B.case</string>
+    <string>uni030C.case</string>
+    <string>uni030F.case</string>
+    <string>uni0311.case</string>
+    <string>uni0323.case</string>
+    <string>uni0324.case</string>
+    <string>uni0325.case</string>
+    <string>uni032D.case</string>
+    <string>uni032E.case</string>
+    <string>uni0330.case</string>
+    <string>uni0331.case</string>
+    <string>hungarumlaut.case</string>
+    <string>tildecomb.case</string>
+   </array>
+  </dict>
+ </lib>
  <instances>
-  <instance familyname="Linguistics Pro" filename="instances/LinguisticsPro-RegularItalic.ufo" stylename="Regular Italic" name="RegularItalic">
+  <instance filename="instances/LinguisticsPro-RegularItalic.ufo" familyname="Linguistics Pro" name="RegularItalic" stylename="Regular Italic">
    <location>
-    <dimension xvalue="400" name="weight"/>
+    <dimension name="weight" xvalue="400"/>
    </location>
   </instance>
-  <instance familyname="Linguistics Pro" filename="instances/LinguisticsPro-MediumItalic.ufo" stylename="Medium Italic" name="MediumItalic">
+  <instance filename="instances/LinguisticsPro-MediumItalic.ufo" familyname="Linguistics Pro" name="MediumItalic" stylename="Medium Italic">
    <location>
-    <dimension xvalue="500" name="weight"/>
+    <dimension name="weight" xvalue="500"/>
    </location>
   </instance>
-  <instance familyname="Linguistics Pro" filename="instances/LinguisticsPro-SemiBoldItalic.ufo" stylename="SemiBold Italic" name="SemiBoldItalic">
+  <instance filename="instances/LinguisticsPro-SemiBoldItalic.ufo" familyname="Linguistics Pro" name="SemiBoldItalic" stylename="SemiBold Italic">
    <location>
-    <dimension xvalue="600" name="weight"/>
+    <dimension name="weight" xvalue="600"/>
    </location>
   </instance>
-  <instance familyname="Linguistics Pro" filename="instances/LinguisticsPro-BoldItalic.ufo" stylename="Bold Italic" name="BoldItalic">
+  <instance filename="instances/LinguisticsPro-BoldItalic.ufo" familyname="Linguistics Pro" name="BoldItalic" stylename="Bold Italic">
    <location>
-    <dimension xvalue="700" name="weight"/>
+    <dimension name="weight" xvalue="700"/>
    </location>
   </instance>
  </instances>

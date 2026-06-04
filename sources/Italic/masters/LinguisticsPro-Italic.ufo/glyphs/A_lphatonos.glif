@@ -2,20 +2,21 @@
 <glyph name="Alphatonos" format="2">
   <advance width="624"/>
   <unicode hex="0386"/>
-  <anchor x="462" y="670" name="aring"/>
-  <anchor x="530" y="10" name="ogonek"/>
+  <anchor x="652" y="670" name="aring"/>
+  <anchor x="511" y="702" name="tonos"/>
+  <anchor x="720" y="10" name="ogonek"/>
   <outline>
+    <component base="tonos" xOffset="74"/>
     <component base="Alpha"/>
-    <component base="tonos" xOffset="65" yOffset="-48"/>
   </outline>
   <lib>
   <dict>
-  <key>com.fontlab.autolayer</key>
-  <true/>
+  <key>com.fontlab.metricsLeft</key>
+  <string>=A</string>
+  <key>com.fontlab.metricsRight</key>
+  <string>=A</string>
   <key>com.fontlab.recipe</key>
-  <string>Alpha+tonos</string>
-  <key>public.markColor</key>
-  <string>0.6,0.602,1,1</string>
+  <string>tonos_Alpha</string>
   </dict>
   </lib>
 </glyph>

@@ -2,17 +2,20 @@
 <glyph name="Iotadieresis" format="2">
   <advance width="386"/>
   <unicode hex="03AA"/>
-  <anchor x="337" y="740" name="top"/>
+  <anchor x="155" y="707" name="tonos"/>
+  <anchor x="380.05" y="881" name="top"/>
   <outline>
     <component base="Iota"/>
-    <component base="dieresis.cap" xOffset="-22"/>
+    <component base="uni0308" xOffset="219.05" yOffset="141"/>
   </outline>
   <lib>
   <dict>
+  <key>com.fontlab.autolayer</key>
+  <true/>
   <key>com.fontlab.recipe</key>
-  <string>Iota+~dieresis.cap</string>
+  <string>Iota+uni0308</string>
   <key>public.markColor</key>
-  <string>0.6,0.602,1,1</string>
+  <string>0.6,0.997,1,1</string>
   </dict>
   </lib>
 </glyph>

@@ -4,14 +4,17 @@
   <unicode hex="0166"/>
   <outline>
     <component base="T"/>
-    <component base="macron" xOffset="52" yOffset="-282"/>
+    <contour>
+      <point x="206" y="340" type="line"/>
+      <point x="577" y="340" type="line"/>
+      <point x="587" y="388" type="line"/>
+      <point x="216" y="388" type="line"/>
+    </contour>
   </outline>
   <lib>
   <dict>
   <key>com.fontlab.recipe</key>
   <string>T+macron</string>
-  <key>public.markColor</key>
-  <string>0.6,0.602,1,1</string>
   </dict>
   </lib>
 </glyph>

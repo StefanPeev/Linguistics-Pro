@@ -1,20 +1,101 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="AE.sc" format="2">
-  <advance width="1256"/>
-  <anchor x="1090" y="730" name="top"/>
-  <anchor x="782" y="702" name="tonos"/>
-  <anchor x="469" y="660" name="aring"/>
-  <anchor x="1114" y="10" name="ogonek"/>
+  <advance width="758"/>
   <outline>
-    <component base="A"/>
-    <component base="E" xOffset="634"/>
+    <contour>
+      <point x="-11" y="0" type="line"/>
+      <point x="168" y="0" type="line"/>
+      <point x="173" y="35" type="line"/>
+      <point x="138" y="39" type="line" smooth="yes"/>
+      <point x="130.581" y="39.8479"/>
+      <point x="126.315" y="43.7679"/>
+      <point x="126.201" y="50.1738" type="curve" smooth="yes"/>
+      <point x="126.138" y="53.7204"/>
+      <point x="133.271" y="66.8801"/>
+      <point x="152.742" y="89.9737" type="curve" smooth="yes"/>
+      <point x="490.012" y="490" type="line"/>
+      <point x="432.192" y="490" type="line"/>
+      <point x="65" y="69" type="line" smooth="yes"/>
+      <point x="46.951" y="48.3062"/>
+      <point x="33.0277" y="38.7169"/>
+      <point x="15" y="37" type="curve" smooth="yes"/>
+      <point x="-6" y="35" type="line"/>
+    </contour>
+    <contour>
+      <point x="195" y="171" type="line"/>
+      <point x="417" y="171" type="line"/>
+      <point x="430" y="216" type="line"/>
+      <point x="231" y="216" type="line"/>
+    </contour>
+    <contour>
+      <point x="275" y="0" type="line"/>
+      <point x="721" y="0" type="line"/>
+      <point x="766" y="148" type="line"/>
+      <point x="738" y="148" type="line"/>
+      <point x="713" y="112" type="line" smooth="yes"/>
+      <point x="673" y="55"/>
+      <point x="635" y="42"/>
+      <point x="573" y="42" type="curve" smooth="yes"/>
+      <point x="512.163" y="42"/>
+      <point x="486.172" y="42.1993"/>
+      <point x="485.979" y="65.3627" type="curve" smooth="yes"/>
+      <point x="485.947" y="69.2322"/>
+      <point x="486.635" y="73.7426"/>
+      <point x="488" y="79" type="curve" smooth="yes"/>
+      <point x="579" y="426" type="line" smooth="yes"/>
+      <point x="584" y="445"/>
+      <point x="590" y="448"/>
+      <point x="617" y="448" type="curve" smooth="yes"/>
+      <point x="670" y="448" type="line" smooth="yes"/>
+      <point x="737" y="448"/>
+      <point x="754" y="424"/>
+      <point x="757" y="393" type="curve" smooth="yes"/>
+      <point x="761" y="357" type="line"/>
+      <point x="796" y="357" type="line"/>
+      <point x="824" y="490" type="line"/>
+      <point x="454.012" y="490" type="line"/>
+      <point x="345" y="76" type="line" smooth="yes"/>
+      <point x="339" y="51"/>
+      <point x="329.976" y="39.4977"/>
+      <point x="314" y="38" type="curve" smooth="yes"/>
+      <point x="282" y="35" type="line"/>
+    </contour>
+    <contour>
+      <point x="513" y="233" type="line"/>
+      <point x="598" y="233" type="line" smooth="yes"/>
+      <point x="646" y="233"/>
+      <point x="652" y="214.112"/>
+      <point x="652" y="174" type="curve"/>
+      <point x="687" y="174" type="line"/>
+      <point x="729.787" y="337" type="line"/>
+      <point x="694.787" y="337" type="line"/>
+      <point x="670.787" y="289"/>
+      <point x="657.787" y="278"/>
+      <point x="610.787" y="278" type="curve" smooth="yes"/>
+      <point x="525.787" y="278" type="line"/>
+    </contour>
+    <contour>
+      <point x="315" y="455" type="line"/>
+      <point x="353" y="452" type="line" smooth="yes"/>
+      <point x="367.869" y="450.826"/>
+      <point x="379.318" y="445.874"/>
+      <point x="379.243" y="436.12" type="curve" smooth="yes"/>
+      <point x="379.2" y="430.486"/>
+      <point x="375.308" y="423.205"/>
+      <point x="366" y="414" type="curve"/>
+      <point x="388.901" y="414" type="line"/>
+      <point x="448.333" y="490" type="line"/>
+      <point x="324" y="490" type="line"/>
+    </contour>
   </outline>
+  <guideline angle="61.9184" x="-160" y="63"/>
+  <guideline angle="255.248" x="434" y="414"/>
   <lib>
   <dict>
-  <key>com.fontlab.recipe</key>
-  <string>AE</string>
-  <key>public.markColor</key>
-  <string>1,0.994,0.6,1</string>
+  <key>com.fontlab.metricsLeft</key>
+  <string>=A.sc</string>
+  <key>com.fontlab.metricsRight</key>
+  <string>=E.sc</string>
   </dict>
   </lib>
 </glyph>

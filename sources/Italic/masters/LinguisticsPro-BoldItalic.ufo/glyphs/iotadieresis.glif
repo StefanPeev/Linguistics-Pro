@@ -2,10 +2,10 @@
 <glyph name="iotadieresis" format="2">
   <advance width="386"/>
   <unicode hex="03CA"/>
-  <anchor x="225" y="713" name="top"/>
+  <anchor x="263" y="713" name="top"/>
   <outline>
     <component base="iota"/>
-    <component base="uni0308" xOffset="225" yOffset="-27"/>
+    <component base="uni0308" xOffset="102" yOffset="-27"/>
   </outline>
   <lib>
   <dict>
@@ -14,7 +14,7 @@
   <key>com.fontlab.recipe</key>
   <string>iota+uni0308</string>
   <key>public.markColor</key>
-  <string>0.6,0.602,1,1</string>
+  <string>0.6,0.997,1,1</string>
   </dict>
   </lib>
 </glyph>

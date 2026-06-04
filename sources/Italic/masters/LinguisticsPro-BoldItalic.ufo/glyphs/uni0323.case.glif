@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni0323.case" format="2">
+  <outline>
+    <contour>
+      <point x="-110" y="-163" type="curve" smooth="yes"/>
+      <point x="-110" y="-201"/>
+      <point x="-82" y="-237"/>
+      <point x="-31" y="-237" type="curve" smooth="yes"/>
+      <point x="21" y="-237"/>
+      <point x="48" y="-201"/>
+      <point x="48" y="-163" type="curve" smooth="yes"/>
+      <point x="48" y="-125"/>
+      <point x="21" y="-88"/>
+      <point x="-31" y="-88" type="curve" smooth="yes"/>
+      <point x="-82" y="-88"/>
+      <point x="-110" y="-125"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.postscript.hints</key>
+  <dict>
+    <key>formatVersion</key>
+    <string>1</string>
+    <key>id</key>
+    <string>49c95be72d733c4dc47a13a30d49bad3ac58487e880dde590de2aabfb9634cef73620d25a15538f458e6acc34e182e3ce06b9be24bcd9482b79b0ec8bb702cbe</string>
+    <key>hintSetList</key>
+    <array>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem -237 149</string>
+          <string>vstem -317 158</string>
+        </array>
+      </dict>
+    </array>
+  </dict>
+  </dict>
+  </lib>
+</glyph>

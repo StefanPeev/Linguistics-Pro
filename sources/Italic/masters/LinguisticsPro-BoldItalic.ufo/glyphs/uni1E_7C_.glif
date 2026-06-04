@@ -2,16 +2,17 @@
 <glyph name="uni1E7C" format="2">
   <advance width="630"/>
   <unicode hex="1E7C"/>
+  <anchor x="477.393" y="863" name="top"/>
   <outline>
     <component base="V"/>
-    <component base="tilde.case" xOffset="100.439"/>
+    <component base="uni0303" xOffset="477.393" yOffset="141"/>
   </outline>
   <lib>
   <dict>
   <key>com.fontlab.autolayer</key>
   <true/>
   <key>com.fontlab.recipe</key>
-  <string>V+~tilde.case</string>
+  <string>V+uni0303</string>
   </dict>
   </lib>
 </glyph>

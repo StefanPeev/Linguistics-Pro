@@ -10,7 +10,7 @@
  **Cyrillic** (U+0400 - U+04FF) 200/256  
  **Cyrillic Supplement** (U+0500 - U+052F) 4/48  
  **Phonetic Extensions** (U+1D00 - U+1D7F) 128/128  
- **Phonetic Extensions Supplement** (U+1D80 - U+1DBF) 64/64
+ **Phonetic Extensions Supplement** (U+1D80 - U+1DBF) 64/64  
  **Latin Extended Additional** (U+1E00 - U+1EFF) 247/256  
  **Greek Extended** (U+1F00 - U+1FFF) 233/233  
  **General Punctuation** (U+2000 - U+206F) 34/111  
@@ -28,14 +28,11 @@
  **Alphabetic Presentation Forms** (U+FB00 - U+FB4F) 6/58  
   
  ## **Upcoming tasks for all future versions**
- - [x] Check font contains no unreachable glyphs.  
  - [ ] Achieving full Cyrillic support in Unicode.  
  - [ ] Consider adding the Glagolitic script in accordance with Unicode encoding requirements.  
  - [ ] Ensure the font supports case swapping for all its glyphs.  
- - [x] Letters in font have glyphs that are not empty?  
- - [x] Check math signs have the same width.  
  - [ ] Ensure small caps glyphs are available.  
- - [ ] Ensure indic fonts have the Indian Rupee Sign glyph.  
+ - [ ] Revised anchors on many letters to improve diacritic positioning.  
  - [ ] Font contains all required tables?  
  - [ ] Checking OS/2 fsSelection value.  
  - [ ] Checking OS/2 usWinAscent & usWinDescent.  
@@ -53,10 +50,11 @@
  * **Regular**, **Medium**, **SemiBold**, **Bold** - v.1.088  
  * **Italic**, **Medium Italic**, **SemiBold Italic**, **Bold Italic** - v.1.083  
  
- ### Tasks  
+ ### Completed Tasks  
  - [x] Check font contains no unreachable glyphs.  
  - [x] Letters in font have glyphs that are not empty.  
  - [x] Check math signs have the same width.  
+ - [x] Ensure indic fonts have the Indian Rupee Sign glyph.  
  
  ### Added glyphs  
  * **Phonetic Extensions. Range: 1D00-1D7F. Glyphs: 128/128** ᴀ ᴁ ᴂ ᴃ ᴄ ᴅ ᴆ ᴇ ᴈ ᴉ ᴊ ᴋ ᴌ ᴍ ᴎ ᴏ ᴐ ᴑ ᴒ ᴓ ᴔ ᴕ ᴖ ᴗ ᴘ ᴙ ᴚ ᴛ ᴜ ᴝ ᴞ ᴟ ᴠ ᴡ ᴢ ᴣ ᴤ ᴥ ᴦ ᴧ ᴨ ᴩ ᴪ ᴫ ᴬ ᴭ ᴮ ᴯ ᴰ ᴱ ᴲ ᴳ ᴴ ᴵ ᴶ ᴷ ᴸ ᴹ ᴺ ᴻ ᴼ ᴽ ᴾ ᴿ ᵀ ᵁ ᵂ ᵃ ᵄ ᵅ ᵆ ᵇ ᵈ ᵉ ᵊ ᵋ ᵌ ᵍ ᵎ ᵏ ᵐ ᵑ ᵒ ᵓ ᵔ ᵕ ᵖ ᵗ ᵘ ᵙ ᵚ ᵛ ᵜ ᵝ ᵞ ᵟ ᵠ ᵡ ᵢ ᵣ ᵤ ᵥ ᵦ ᵧ ᵨ ᵩ ᵪ ᵫ ᵬ ᵭ ᵮ ᵯ ᵰ ᵱ ᵲ ᵳ ᵴ ᵵ ᵶ ᵷ ᵸ ᵹ ᵺ ᵻ ᵼ ᵽ ᵾ ᵿ 
@@ -68,7 +66,7 @@
  * **Latin Extended-D. Range: A720–A7FF. Glyphs: 14/224. Recently added:**  Ƛ Ɤ Ɦ Ɪ Ɬ Ʝ Ᵹ Ᶎ 
  * **Small Caps. Recently added:**  /uni0462.sc 
  
- ### Glyph corrections  
+ ### Improvements and fixes  
  * **Greek and Coptic:** Ά Έ Ή Ί Ό Ύ Ώ ΐ ά έ ή ί ΰ ό ύ ώ ϓ ϔ ἐ ἠ ἰ ὀ ὐ ὠ ἁ ἑ ἡ ἱ ὁ ὑ ὡ ἂ ἒ ἢ ἲ ὂ ὒ ὢ ἃ ἓ ἣ ἳ ὃ ὓ ὣ ἄ ἔ ἤ ἴ ὄ ὔ ὤ ἅ ἕ ἥ ἵ ὅ ὕ ὥ ἆ ἦ ἶ ὖ ὦ ἇ ἧ ἷ ὗ ὧ  
  * **Latin Extended Additional:** Ḙ ḙ Ḛ ḛ  
  

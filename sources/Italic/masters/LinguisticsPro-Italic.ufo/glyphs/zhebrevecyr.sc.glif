@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="zhebrevecyr.sc" format="2">
-  <advance width="982"/>
+  <advance width="810"/>
   <outline>
-    <component base="uni0436"/>
-    <component base="uni0306" xOffset="626.548"/>
+    <component base="Zhecyr.sc"/>
+    <component base="brevecyr" xOffset="390.923"/>
   </outline>
   <lib>
   <dict>
+  <key>com.fontlab.autolayer</key>
+  <true/>
   <key>com.fontlab.recipe</key>
-  <string>zhebrevecyr</string>
-  <key>public.markColor</key>
-  <string>1,0.994,0.6,1</string>
+  <string>Zhecyr.sc+brevecyr</string>
   </dict>
   </lib>
 </glyph>

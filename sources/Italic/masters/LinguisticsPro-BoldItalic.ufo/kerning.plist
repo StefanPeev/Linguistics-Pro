@@ -18,8 +18,6 @@
     <integer>-30</integer>
     <key>Gbreve</key>
     <integer>-30</integer>
-    <key>Gcaron</key>
-    <integer>-30</integer>
     <key>Gcircumflex</key>
     <integer>-30</integer>
     <key>Gdotaccent</key>
@@ -94,6 +92,8 @@
     <integer>-50</integer>
     <key>uni01D4</key>
     <integer>-18</integer>
+    <key>uni01E6</key>
+    <integer>-30</integer>
     <key>uni01F4</key>
     <integer>-30</integer>
     <key>uni020E</key>
@@ -231,8 +231,6 @@
     <integer>-30</integer>
     <key>Gbreve</key>
     <integer>-30</integer>
-    <key>Gcaron</key>
-    <integer>-30</integer>
     <key>Gcircumflex</key>
     <integer>-30</integer>
     <key>Gdotaccent</key>
@@ -305,6 +303,8 @@
     <integer>-50</integer>
     <key>uni01D4</key>
     <integer>-18</integer>
+    <key>uni01E6</key>
+    <integer>-30</integer>
     <key>uni01F4</key>
     <integer>-30</integer>
     <key>uni020E</key>
@@ -442,8 +442,6 @@
     <integer>-30</integer>
     <key>Gbreve</key>
     <integer>-30</integer>
-    <key>Gcaron</key>
-    <integer>-30</integer>
     <key>Gcircumflex</key>
     <integer>-30</integer>
     <key>Gdotaccent</key>
@@ -516,6 +514,8 @@
     <integer>-50</integer>
     <key>uni01D4</key>
     <integer>-18</integer>
+    <key>uni01E6</key>
+    <integer>-30</integer>
     <key>uni01F4</key>
     <integer>-30</integer>
     <key>uni020E</key>
@@ -1280,63 +1280,6 @@
     <key>y</key>
     <integer>-25</integer>
   </dict>
-  <key>Gcaron</key>
-  <dict>
-    <key>h</key>
-    <integer>-18</integer>
-    <key>hcircumflex</key>
-    <integer>-18</integer>
-    <key>l</key>
-    <integer>-24</integer>
-    <key>lacute</key>
-    <integer>-24</integer>
-    <key>n</key>
-    <integer>-22</integer>
-    <key>nacute</key>
-    <integer>-22</integer>
-    <key>ncaron</key>
-    <integer>-22</integer>
-    <key>quotedblright</key>
-    <integer>-30</integer>
-    <key>quoteright</key>
-    <integer>-30</integer>
-    <key>r</key>
-    <integer>-22</integer>
-    <key>racute</key>
-    <integer>-22</integer>
-    <key>rcaron</key>
-    <integer>-22</integer>
-    <key>u</key>
-    <integer>-22</integer>
-    <key>ubreve</key>
-    <integer>-22</integer>
-    <key>uhungarumlaut</key>
-    <integer>-22</integer>
-    <key>umacron</key>
-    <integer>-22</integer>
-    <key>uni01D4</key>
-    <integer>-22</integer>
-    <key>uni1EE5</key>
-    <integer>-22</integer>
-    <key>uni1EE7</key>
-    <integer>-22</integer>
-    <key>uni1EE9</key>
-    <integer>-22</integer>
-    <key>uni1EEB</key>
-    <integer>-22</integer>
-    <key>uni1EED</key>
-    <integer>-22</integer>
-    <key>uni1EEF</key>
-    <integer>-22</integer>
-    <key>uni1EF1</key>
-    <integer>-22</integer>
-    <key>uring</key>
-    <integer>-22</integer>
-    <key>y</key>
-    <integer>-25</integer>
-    <key>ycircumflex</key>
-    <integer>-25</integer>
-  </dict>
   <key>Gcircumflex</key>
   <dict>
     <key>h</key>
@@ -1715,8 +1658,6 @@
     <integer>-24</integer>
     <key>gbreve</key>
     <integer>-24</integer>
-    <key>gcaron</key>
-    <integer>-24</integer>
     <key>gcircumflex</key>
     <integer>-24</integer>
     <key>gdotaccent</key>
@@ -1763,6 +1704,8 @@
     <integer>-25</integer>
     <key>uni01D4</key>
     <integer>-30</integer>
+    <key>uni01E7</key>
+    <integer>-24</integer>
     <key>uni01F5</key>
     <integer>-24</integer>
     <key>uni01F9</key>
@@ -2435,8 +2378,6 @@
     <integer>-50</integer>
     <key>Gbreve</key>
     <integer>-50</integer>
-    <key>Gcaron</key>
-    <integer>-50</integer>
     <key>Gcircumflex</key>
     <integer>-50</integer>
     <key>Gdotaccent</key>
@@ -2497,6 +2438,8 @@
     <integer>-30</integer>
     <key>uni01D4</key>
     <integer>-30</integer>
+    <key>uni01E6</key>
+    <integer>-50</integer>
     <key>uni01F4</key>
     <integer>-50</integer>
     <key>uni01F9</key>
@@ -2632,8 +2575,6 @@
     <integer>-48</integer>
     <key>Gbreve</key>
     <integer>-48</integer>
-    <key>Gcaron</key>
-    <integer>-48</integer>
     <key>Gcircumflex</key>
     <integer>-48</integer>
     <key>Gdotaccent</key>
@@ -2706,6 +2647,8 @@
     <integer>-42</integer>
     <key>uni01D4</key>
     <integer>-18</integer>
+    <key>uni01E6</key>
+    <integer>-48</integer>
     <key>uni01F4</key>
     <integer>-48</integer>
     <key>uni0200</key>
@@ -4984,8 +4927,6 @@
     <integer>-30</integer>
     <key>gbreve</key>
     <integer>-30</integer>
-    <key>gcaron</key>
-    <integer>-30</integer>
     <key>gcircumflex</key>
     <integer>-30</integer>
     <key>gdotaccent</key>
@@ -5021,6 +4962,8 @@
     <key>uni01CD</key>
     <integer>-40</integer>
     <key>uni01CE</key>
+    <integer>-30</integer>
+    <key>uni01E7</key>
     <integer>-30</integer>
     <key>uni01F5</key>
     <integer>-30</integer>
@@ -6636,8 +6579,6 @@
     <integer>-45</integer>
     <key>Gbreve</key>
     <integer>-45</integer>
-    <key>Gcaron</key>
-    <integer>-45</integer>
     <key>Gcircumflex</key>
     <integer>-45</integer>
     <key>Gdotaccent</key>
@@ -6676,6 +6617,8 @@
     <integer>-45</integer>
     <key>uni01D4</key>
     <integer>-30</integer>
+    <key>uni01E6</key>
+    <integer>-45</integer>
     <key>uni01F4</key>
     <integer>-45</integer>
     <key>uni0205</key>
@@ -6791,8 +6734,6 @@
     <integer>-25</integer>
     <key>Gbreve</key>
     <integer>-25</integer>
-    <key>Gcaron</key>
-    <integer>-25</integer>
     <key>Gcircumflex</key>
     <integer>-25</integer>
     <key>Gdotaccent</key>
@@ -6858,6 +6799,8 @@
     <key>uni01CD</key>
     <integer>-40</integer>
     <key>uni01D1</key>
+    <integer>-25</integer>
+    <key>uni01E6</key>
     <integer>-25</integer>
     <key>uni01F4</key>
     <integer>-25</integer>
@@ -7023,8 +6966,6 @@
     <integer>-20</integer>
     <key>Gbreve</key>
     <integer>-20</integer>
-    <key>Gcaron</key>
-    <integer>-20</integer>
     <key>Gcircumflex</key>
     <integer>-20</integer>
     <key>Gdotaccent</key>
@@ -7044,6 +6985,8 @@
     <key>uni01CD</key>
     <integer>30</integer>
     <key>uni01D1</key>
+    <integer>-20</integer>
+    <key>uni01E6</key>
     <integer>-20</integer>
     <key>uni01F4</key>
     <integer>-20</integer>
@@ -7565,21 +7508,6 @@
     <key>quotedblright</key>
     <integer>-20</integer>
     <key>y</key>
-    <integer>50</integer>
-  </dict>
-  <key>gcaron</key>
-  <dict>
-    <key>comma</key>
-    <integer>20</integer>
-    <key>f</key>
-    <integer>42</integer>
-    <key>p</key>
-    <integer>30</integer>
-    <key>quotedblright</key>
-    <integer>-20</integer>
-    <key>y</key>
-    <integer>50</integer>
-    <key>ycircumflex</key>
     <integer>50</integer>
   </dict>
   <key>gcircumflex</key>
@@ -8914,8 +8842,6 @@
     <integer>-30</integer>
     <key>Gbreve</key>
     <integer>-30</integer>
-    <key>Gcaron</key>
-    <integer>-30</integer>
     <key>Gcircumflex</key>
     <integer>-30</integer>
     <key>Gdotaccent</key>
@@ -8988,6 +8914,8 @@
     <integer>-50</integer>
     <key>uni01D4</key>
     <integer>-18</integer>
+    <key>uni01E6</key>
+    <integer>-30</integer>
     <key>uni01F4</key>
     <integer>-30</integer>
     <key>uni020E</key>
@@ -9437,6 +9365,78 @@
     <key>quoteright</key>
     <integer>-65</integer>
   </dict>
+  <key>uni01E6</key>
+  <dict>
+    <key>h</key>
+    <integer>-18</integer>
+    <key>hcircumflex</key>
+    <integer>-18</integer>
+    <key>l</key>
+    <integer>-24</integer>
+    <key>lacute</key>
+    <integer>-24</integer>
+    <key>n</key>
+    <integer>-22</integer>
+    <key>nacute</key>
+    <integer>-22</integer>
+    <key>ncaron</key>
+    <integer>-22</integer>
+    <key>quotedblright</key>
+    <integer>-30</integer>
+    <key>quoteright</key>
+    <integer>-30</integer>
+    <key>r</key>
+    <integer>-22</integer>
+    <key>racute</key>
+    <integer>-22</integer>
+    <key>rcaron</key>
+    <integer>-22</integer>
+    <key>u</key>
+    <integer>-22</integer>
+    <key>ubreve</key>
+    <integer>-22</integer>
+    <key>uhungarumlaut</key>
+    <integer>-22</integer>
+    <key>umacron</key>
+    <integer>-22</integer>
+    <key>uni01D4</key>
+    <integer>-22</integer>
+    <key>uni1EE5</key>
+    <integer>-22</integer>
+    <key>uni1EE7</key>
+    <integer>-22</integer>
+    <key>uni1EE9</key>
+    <integer>-22</integer>
+    <key>uni1EEB</key>
+    <integer>-22</integer>
+    <key>uni1EED</key>
+    <integer>-22</integer>
+    <key>uni1EEF</key>
+    <integer>-22</integer>
+    <key>uni1EF1</key>
+    <integer>-22</integer>
+    <key>uring</key>
+    <integer>-22</integer>
+    <key>y</key>
+    <integer>-25</integer>
+    <key>ycircumflex</key>
+    <integer>-25</integer>
+  </dict>
+  <key>uni01E7</key>
+  <dict>
+    <key>comma</key>
+    <integer>20</integer>
+    <key>f</key>
+    <integer>42</integer>
+    <key>p</key>
+    <integer>30</integer>
+    <key>quotedblright</key>
+    <integer>-20</integer>
+    <key>y</key>
+    <integer>50</integer>
+    <key>ycircumflex</key>
+    <integer>50</integer>
+  </dict>
   <key>uni01E8</key>
   <dict>
     <key>A</key>
@@ -9456,8 +9456,6 @@
     <key>G</key>
     <integer>-50</integer>
     <key>Gbreve</key>
-    <integer>-50</integer>
-    <key>Gcaron</key>
     <integer>-50</integer>
     <key>Gcircumflex</key>
     <integer>-50</integer>
@@ -9523,6 +9521,8 @@
     <integer>-30</integer>
     <key>uni01D4</key>
     <integer>-30</integer>
+    <key>uni01E6</key>
+    <integer>-50</integer>
     <key>uni1EB9</key>
     <integer>-30</integer>
     <key>uni1EBB</key>
@@ -9765,8 +9765,6 @@
     <integer>-30</integer>
     <key>Gbreve</key>
     <integer>-30</integer>
-    <key>Gcaron</key>
-    <integer>-30</integer>
     <key>Gcircumflex</key>
     <integer>-30</integer>
     <key>Gdotaccent</key>
@@ -9833,6 +9831,8 @@
     <integer>-50</integer>
     <key>uni01D4</key>
     <integer>-18</integer>
+    <key>uni01E6</key>
+    <integer>-30</integer>
     <key>uni01F4</key>
     <integer>-30</integer>
     <key>uring</key>
@@ -9879,8 +9879,6 @@
     <integer>-30</integer>
     <key>Gbreve</key>
     <integer>-30</integer>
-    <key>Gcaron</key>
-    <integer>-30</integer>
     <key>Gcircumflex</key>
     <integer>-30</integer>
     <key>Gdotaccent</key>
@@ -9947,6 +9945,8 @@
     <integer>-50</integer>
     <key>uni01D4</key>
     <integer>-18</integer>
+    <key>uni01E6</key>
+    <integer>-30</integer>
     <key>uni01F4</key>
     <integer>-30</integer>
     <key>uring</key>
@@ -10083,8 +10083,6 @@
     <integer>-24</integer>
     <key>gbreve</key>
     <integer>-24</integer>
-    <key>gcaron</key>
-    <integer>-24</integer>
     <key>gcircumflex</key>
     <integer>-24</integer>
     <key>gdotaccent</key>
@@ -10127,6 +10125,8 @@
     <integer>-25</integer>
     <key>uni01D4</key>
     <integer>-30</integer>
+    <key>uni01E7</key>
+    <integer>-24</integer>
     <key>uni01F5</key>
     <integer>-24</integer>
     <key>uni01F9</key>
@@ -10222,8 +10222,6 @@
     <integer>-24</integer>
     <key>gbreve</key>
     <integer>-24</integer>
-    <key>gcaron</key>
-    <integer>-24</integer>
     <key>gcircumflex</key>
     <integer>-24</integer>
     <key>gdotaccent</key>
@@ -10266,6 +10264,8 @@
     <integer>-25</integer>
     <key>uni01D4</key>
     <integer>-30</integer>
+    <key>uni01E7</key>
+    <integer>-24</integer>
     <key>uni01F5</key>
     <integer>-24</integer>
     <key>uni01F9</key>
@@ -10743,8 +10743,6 @@
     <integer>-30</integer>
     <key>gbreve</key>
     <integer>-30</integer>
-    <key>gcaron</key>
-    <integer>-30</integer>
     <key>gcircumflex</key>
     <integer>-30</integer>
     <key>gdotaccent</key>
@@ -10778,6 +10776,8 @@
     <key>uni01CD</key>
     <integer>-40</integer>
     <key>uni01CE</key>
+    <integer>-30</integer>
+    <key>uni01E7</key>
     <integer>-30</integer>
     <key>uni01F5</key>
     <integer>-30</integer>
@@ -10891,8 +10891,6 @@
     <integer>-30</integer>
     <key>gbreve</key>
     <integer>-30</integer>
-    <key>gcaron</key>
-    <integer>-30</integer>
     <key>gcircumflex</key>
     <integer>-30</integer>
     <key>gdotaccent</key>
@@ -10926,6 +10924,8 @@
     <key>uni01CD</key>
     <integer>-40</integer>
     <key>uni01CE</key>
+    <integer>-30</integer>
+    <key>uni01E7</key>
     <integer>-30</integer>
     <key>uni01F5</key>
     <integer>-30</integer>
@@ -11175,8 +11175,6 @@
     <integer>-30</integer>
     <key>Gbreve</key>
     <integer>-30</integer>
-    <key>Gcaron</key>
-    <integer>-30</integer>
     <key>Gcircumflex</key>
     <integer>-30</integer>
     <key>Gdotaccent</key>
@@ -11249,6 +11247,8 @@
     <integer>-50</integer>
     <key>uni01D4</key>
     <integer>-18</integer>
+    <key>uni01E6</key>
+    <integer>-30</integer>
     <key>uni01F4</key>
     <integer>-30</integer>
     <key>uni020E</key>
@@ -11439,8 +11439,6 @@
     <integer>-25</integer>
     <key>Gbreve</key>
     <integer>-25</integer>
-    <key>Gcaron</key>
-    <integer>-25</integer>
     <key>Gcircumflex</key>
     <integer>-25</integer>
     <key>Gdotaccent</key>
@@ -11501,6 +11499,8 @@
     <integer>-40</integer>
     <key>uni01D1</key>
     <integer>-25</integer>
+    <key>uni01E6</key>
+    <integer>-25</integer>
     <key>uni01F4</key>
     <integer>-25</integer>
     <key>uni0200</key>
@@ -11552,8 +11552,6 @@
     <key>G</key>
     <integer>-30</integer>
     <key>Gbreve</key>
-    <integer>-30</integer>
-    <key>Gcaron</key>
     <integer>-30</integer>
     <key>Gcircumflex</key>
     <integer>-30</integer>
@@ -11627,6 +11625,8 @@
     <integer>-50</integer>
     <key>uni01D4</key>
     <integer>-18</integer>
+    <key>uni01E6</key>
+    <integer>-30</integer>
     <key>uni01F4</key>
     <integer>-30</integer>
     <key>uni020E</key>
@@ -12929,8 +12929,6 @@
     <integer>-30</integer>
     <key>Gbreve</key>
     <integer>-30</integer>
-    <key>Gcaron</key>
-    <integer>-30</integer>
     <key>Gcircumflex</key>
     <integer>-30</integer>
     <key>Gdotaccent</key>
@@ -13003,6 +13001,8 @@
     <integer>-50</integer>
     <key>uni01D4</key>
     <integer>-18</integer>
+    <key>uni01E6</key>
+    <integer>-30</integer>
     <key>uni01F4</key>
     <integer>-30</integer>
     <key>uni020E</key>
@@ -14527,8 +14527,6 @@
     <integer>-24</integer>
     <key>gbreve</key>
     <integer>-24</integer>
-    <key>gcaron</key>
-    <integer>-24</integer>
     <key>gcircumflex</key>
     <integer>-24</integer>
     <key>gdotaccent</key>
@@ -14573,6 +14571,8 @@
     <integer>-25</integer>
     <key>uni01D4</key>
     <integer>-30</integer>
+    <key>uni01E7</key>
+    <integer>-24</integer>
     <key>uni01F5</key>
     <integer>-24</integer>
     <key>uni01F9</key>
@@ -14715,8 +14715,6 @@
     <integer>-50</integer>
     <key>Gbreve</key>
     <integer>-50</integer>
-    <key>Gcaron</key>
-    <integer>-50</integer>
     <key>Gcircumflex</key>
     <integer>-50</integer>
     <key>Gdotaccent</key>
@@ -14775,6 +14773,8 @@
     <integer>-30</integer>
     <key>uni01D4</key>
     <integer>-30</integer>
+    <key>uni01E6</key>
+    <integer>-50</integer>
     <key>uni01F4</key>
     <integer>-50</integer>
     <key>uni01F9</key>
@@ -14875,8 +14875,6 @@
     <integer>-50</integer>
     <key>Gbreve</key>
     <integer>-50</integer>
-    <key>Gcaron</key>
-    <integer>-50</integer>
     <key>Gcircumflex</key>
     <integer>-50</integer>
     <key>Gdotaccent</key>
@@ -14941,6 +14939,8 @@
     <integer>-30</integer>
     <key>uni01D4</key>
     <integer>-30</integer>
+    <key>uni01E6</key>
+    <integer>-50</integer>
     <key>uni01F4</key>
     <integer>-50</integer>
     <key>uni01F9</key>
@@ -15045,8 +15045,6 @@
     <integer>-50</integer>
     <key>Gbreve</key>
     <integer>-50</integer>
-    <key>Gcaron</key>
-    <integer>-50</integer>
     <key>Gcircumflex</key>
     <integer>-50</integer>
     <key>Gdotaccent</key>
@@ -15111,6 +15109,8 @@
     <integer>-30</integer>
     <key>uni01D4</key>
     <integer>-30</integer>
+    <key>uni01E6</key>
+    <integer>-50</integer>
     <key>uni01F4</key>
     <integer>-50</integer>
     <key>uni01F9</key>
@@ -15215,8 +15215,6 @@
     <integer>-48</integer>
     <key>Gbreve</key>
     <integer>-48</integer>
-    <key>Gcaron</key>
-    <integer>-48</integer>
     <key>Gcircumflex</key>
     <integer>-48</integer>
     <key>Gdotaccent</key>
@@ -15281,6 +15279,8 @@
     <integer>-42</integer>
     <key>uni01D4</key>
     <integer>-18</integer>
+    <key>uni01E6</key>
+    <integer>-48</integer>
     <key>uni01F4</key>
     <integer>-48</integer>
     <key>uni0200</key>
@@ -15422,8 +15422,6 @@
     <integer>-48</integer>
     <key>Gbreve</key>
     <integer>-48</integer>
-    <key>Gcaron</key>
-    <integer>-48</integer>
     <key>Gcircumflex</key>
     <integer>-48</integer>
     <key>Gdotaccent</key>
@@ -15488,6 +15486,8 @@
     <integer>-42</integer>
     <key>uni01D4</key>
     <integer>-18</integer>
+    <key>uni01E6</key>
+    <integer>-48</integer>
     <key>uni01F4</key>
     <integer>-48</integer>
     <key>uni0200</key>
@@ -15629,8 +15629,6 @@
     <integer>-48</integer>
     <key>Gbreve</key>
     <integer>-48</integer>
-    <key>Gcaron</key>
-    <integer>-48</integer>
     <key>Gcircumflex</key>
     <integer>-48</integer>
     <key>Gdotaccent</key>
@@ -15695,6 +15693,8 @@
     <integer>-42</integer>
     <key>uni01D4</key>
     <integer>-18</integer>
+    <key>uni01E6</key>
+    <integer>-48</integer>
     <key>uni01F4</key>
     <integer>-48</integer>
     <key>uni0200</key>
@@ -15838,8 +15838,6 @@
     <integer>-48</integer>
     <key>Gbreve</key>
     <integer>-48</integer>
-    <key>Gcaron</key>
-    <integer>-48</integer>
     <key>Gcircumflex</key>
     <integer>-48</integer>
     <key>Gdotaccent</key>
@@ -15904,6 +15902,8 @@
     <integer>-42</integer>
     <key>uni01D4</key>
     <integer>-18</integer>
+    <key>uni01E6</key>
+    <integer>-48</integer>
     <key>uni01F4</key>
     <integer>-48</integer>
     <key>uni0200</key>
@@ -19661,8 +19661,6 @@
     <integer>-30</integer>
     <key>gbreve</key>
     <integer>-30</integer>
-    <key>gcaron</key>
-    <integer>-30</integer>
     <key>gcircumflex</key>
     <integer>-30</integer>
     <key>gdotaccent</key>
@@ -19696,6 +19694,8 @@
     <key>uni01CD</key>
     <integer>-40</integer>
     <key>uni01CE</key>
+    <integer>-30</integer>
+    <key>uni01E7</key>
     <integer>-30</integer>
     <key>uni01F5</key>
     <integer>-30</integer>
@@ -19869,8 +19869,6 @@
     <integer>-30</integer>
     <key>gbreve</key>
     <integer>-30</integer>
-    <key>gcaron</key>
-    <integer>-30</integer>
     <key>gcircumflex</key>
     <integer>-30</integer>
     <key>gdotaccent</key>
@@ -19904,6 +19902,8 @@
     <key>uni01CD</key>
     <integer>-40</integer>
     <key>uni01CE</key>
+    <integer>-30</integer>
+    <key>uni01E7</key>
     <integer>-30</integer>
     <key>uni01F5</key>
     <integer>-30</integer>
@@ -20077,8 +20077,6 @@
     <integer>-30</integer>
     <key>gbreve</key>
     <integer>-30</integer>
-    <key>gcaron</key>
-    <integer>-30</integer>
     <key>gcircumflex</key>
     <integer>-30</integer>
     <key>gdotaccent</key>
@@ -20112,6 +20110,8 @@
     <key>uni01CD</key>
     <integer>-40</integer>
     <key>uni01CE</key>
+    <integer>-30</integer>
+    <key>uni01E7</key>
     <integer>-30</integer>
     <key>uni01F5</key>
     <integer>-30</integer>
@@ -20955,8 +20955,6 @@
     <integer>-45</integer>
     <key>Gbreve</key>
     <integer>-45</integer>
-    <key>Gcaron</key>
-    <integer>-45</integer>
     <key>Gcircumflex</key>
     <integer>-45</integer>
     <key>Gdotaccent</key>
@@ -20995,6 +20993,8 @@
     <integer>-45</integer>
     <key>uni01D4</key>
     <integer>-30</integer>
+    <key>uni01E6</key>
+    <integer>-45</integer>
     <key>uni01F4</key>
     <integer>-45</integer>
     <key>uni0205</key>
@@ -21099,8 +21099,6 @@
     <integer>-45</integer>
     <key>Gbreve</key>
     <integer>-45</integer>
-    <key>Gcaron</key>
-    <integer>-45</integer>
     <key>Gcircumflex</key>
     <integer>-45</integer>
     <key>Gdotaccent</key>
@@ -21139,6 +21137,8 @@
     <integer>-45</integer>
     <key>uni01D4</key>
     <integer>-30</integer>
+    <key>uni01E6</key>
+    <integer>-45</integer>
     <key>uni01F4</key>
     <integer>-45</integer>
     <key>uni0205</key>
@@ -21247,8 +21247,6 @@
     <integer>-25</integer>
     <key>Gbreve</key>
     <integer>-25</integer>
-    <key>Gcaron</key>
-    <integer>-25</integer>
     <key>Gcircumflex</key>
     <integer>-25</integer>
     <key>Gdotaccent</key>
@@ -21308,6 +21306,8 @@
     <key>uni01CD</key>
     <integer>-40</integer>
     <key>uni01D1</key>
+    <integer>-25</integer>
+    <key>uni01E6</key>
     <integer>-25</integer>
     <key>uni01F4</key>
     <integer>-25</integer>
@@ -21377,8 +21377,6 @@
     <integer>-20</integer>
     <key>Gbreve</key>
     <integer>-20</integer>
-    <key>Gcaron</key>
-    <integer>-20</integer>
     <key>Gcircumflex</key>
     <integer>-20</integer>
     <key>Gdotaccent</key>
@@ -21398,6 +21396,8 @@
     <key>uni01CD</key>
     <integer>30</integer>
     <key>uni01D1</key>
+    <integer>-20</integer>
+    <key>uni01E6</key>
     <integer>-20</integer>
     <key>uni01F4</key>
     <integer>-20</integer>
@@ -21465,8 +21465,6 @@
     <integer>-20</integer>
     <key>Gbreve</key>
     <integer>-20</integer>
-    <key>Gcaron</key>
-    <integer>-20</integer>
     <key>Gcircumflex</key>
     <integer>-20</integer>
     <key>Gdotaccent</key>
@@ -21486,6 +21484,8 @@
     <key>uni01CD</key>
     <integer>30</integer>
     <key>uni01D1</key>
+    <integer>-20</integer>
+    <key>uni01E6</key>
     <integer>-20</integer>
     <key>uni01F4</key>
     <integer>-20</integer>
@@ -21553,8 +21553,6 @@
     <integer>-20</integer>
     <key>Gbreve</key>
     <integer>-20</integer>
-    <key>Gcaron</key>
-    <integer>-20</integer>
     <key>Gcircumflex</key>
     <integer>-20</integer>
     <key>Gdotaccent</key>
@@ -21574,6 +21572,8 @@
     <key>uni01CD</key>
     <integer>30</integer>
     <key>uni01D1</key>
+    <integer>-20</integer>
+    <key>uni01E6</key>
     <integer>-20</integer>
     <key>uni01F4</key>
     <integer>-20</integer>

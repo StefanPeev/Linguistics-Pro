@@ -3,6 +3,7 @@
   <advance width="389"/>
   <unicode hex="0073"/>
   <anchor x="305" y="540" name="top"/>
+  <anchor x="221" y="0" name="cedilla"/>
   <outline>
     <contour>
       <point x="54" y="83" type="curve" smooth="yes"/>
@@ -21,8 +22,11 @@
       <point x="214" y="434"/>
       <point x="239.291" y="467"/>
       <point x="281.406" y="467" type="curve" smooth="yes"/>
-      <point x="350.568" y="467"/>
-      <point x="343.174" y="378"/>
+      <point x="320.179" y="467"/>
+      <point x="334.892" y="439.029"/>
+      <point x="347.933" y="414.448" type="curve" smooth="yes"/>
+      <point x="358.155" y="395.182"/>
+      <point x="367.349" y="378"/>
       <point x="386.297" y="378" type="curve" smooth="yes"/>
       <point x="404" y="378"/>
       <point x="432" y="393"/>
@@ -42,8 +46,11 @@
       <point x="301" y="51"/>
       <point x="270.651" y="23"/>
       <point x="226.086" y="23" type="curve" smooth="yes"/>
-      <point x="136.163" y="23"/>
-      <point x="154.838" y="137"/>
+      <point x="175.207" y="23"/>
+      <point x="157.979" y="59.0259"/>
+      <point x="145.088" y="91.1878" type="curve" smooth="yes"/>
+      <point x="135.34" y="115.508"/>
+      <point x="124.833" y="137"/>
       <point x="101.808" y="137" type="curve" smooth="yes"/>
       <point x="76" y="137"/>
       <point x="54" y="110"/>
@@ -57,7 +64,7 @@
     <key>formatVersion</key>
     <string>1</string>
     <key>id</key>
-    <string>e3b0d327c2c8356f4c0698859c8e234d9ad73d9fe9d89181cb94e3d4d347b41725431fe4fc6c8c6703e945a5fd90cf5619a06d3c57df4bd4288160288bcd2f9b</string>
+    <string>d0fdbecd3e2942806e842a315db53b63d1957b2c162d4ad770f28f27e39542eab1be654fea98ca5515689ee1c5c50e82a33a6dea02923b430b504c7e10993944</string>
     <key>hintSetList</key>
     <array>
       <dict>

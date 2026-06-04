@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni2265" format="2">
+  <advance width="570"/>
+  <unicode hex="2265"/>
+  <outline>
+    <component base="greater" xOffset="21.0249" yOffset="95"/>
+    <component base="uni2212" xOffset="14.0249" yOffset="-221"/>
+  </outline>
+  <guideline angle="0" x="0" y="58"/>
+  <guideline angle="0" x="0" y="96"/>
+  <guideline angle="90" x="167" y="0"/>
+  <guideline angle="90" x="645" y="0"/>
+  <lib>
+  <dict>
+  <key>com.fontlab.recipe</key>
+  <string>space+^greater+minus%</string>
+  </dict>
+  </lib>
+</glyph>

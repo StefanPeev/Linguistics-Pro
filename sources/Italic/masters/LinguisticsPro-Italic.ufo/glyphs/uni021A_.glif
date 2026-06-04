@@ -2,89 +2,19 @@
 <glyph name="uni021A" format="2">
   <advance width="606"/>
   <unicode hex="021A"/>
+  <anchor x="311" y="0" name="cedilla"/>
   <outline>
-    <contour>
-      <point x="204" y="-247" type="curve"/>
-      <point x="218" y="-261" type="line"/>
-      <point x="270" y="-222"/>
-      <point x="334" y="-168"/>
-      <point x="334" y="-98" type="curve" smooth="yes"/>
-      <point x="334" y="-70"/>
-      <point x="319" y="-44"/>
-      <point x="284" y="-44" type="curve" smooth="yes"/>
-      <point x="258" y="-44"/>
-      <point x="240" y="-64"/>
-      <point x="240" y="-86" type="curve" smooth="yes"/>
-      <point x="240" y="-90"/>
-      <point x="240" y="-94"/>
-      <point x="241" y="-98" type="curve"/>
-      <point x="245" y="-119"/>
-      <point x="259" y="-130"/>
-      <point x="259" y="-156" type="curve" smooth="yes"/>
-      <point x="259" y="-159"/>
-      <point x="259" y="-162"/>
-      <point x="258" y="-165" type="curve"/>
-      <point x="254" y="-192"/>
-      <point x="230" y="-222"/>
-    </contour>
-    <contour>
-      <point x="152" y="0" type="line"/>
-      <point x="460" y="0" type="line"/>
-      <point x="467" y="29" type="line"/>
-      <point x="394" y="33" type="line" smooth="yes"/>
-      <point x="366" y="35"/>
-      <point x="361" y="50"/>
-      <point x="368" y="81" type="curve" smooth="yes"/>
-      <point x="377" y="119" type="line"/>
-      <point x="498" y="657" type="line"/>
-      <point x="561" y="657" type="line" smooth="yes"/>
-      <point x="664" y="657"/>
-      <point x="681" y="628"/>
-      <point x="678" y="566" type="curve"/>
-      <point x="678" y="554"/>
-      <point x="677" y="540"/>
-      <point x="675" y="525" type="curve"/>
-      <point x="705" y="525" type="line"/>
-      <point x="743" y="692" type="line"/>
-      <point x="175" y="692" type="line"/>
-      <point x="137" y="525" type="line"/>
-      <point x="167" y="525" type="line"/>
-      <point x="172" y="542"/>
-      <point x="178" y="557"/>
-      <point x="184" y="570" type="curve" smooth="yes"/>
-      <point x="213" y="636"/>
-      <point x="251" y="657"/>
-      <point x="333" y="657" type="curve" smooth="yes"/>
-      <point x="402" y="657" type="line"/>
-      <point x="272" y="81" type="line" smooth="yes"/>
-      <point x="265" y="50"/>
-      <point x="254" y="35"/>
-      <point x="224" y="33" type="curve" smooth="yes"/>
-      <point x="159" y="29" type="line"/>
-    </contour>
+    <component base="T"/>
+    <component base="uni0326" xOffset="494.585"/>
   </outline>
   <lib>
   <dict>
-  <key>public.postscript.hints</key>
-  <dict>
-    <key>formatVersion</key>
-    <string>1</string>
-    <key>id</key>
-    <string>14af50c8b05c58797ed752eff79ecbdf494b02a55565cfdd8b7e29afa5bb0c03c50d4555971350023b56874c39d93b2c17f37b299343d3052b242c5493acd995</string>
-    <key>hintSetList</key>
-    <array>
-      <dict>
-        <key>stems</key>
-        <array>
-          <string>hstem -261 217</string>
-          <string>hstem 0 31</string>
-          <string>hstem 657 35</string>
-          <string>vstem 259 75</string>
-          <string>vstem 678 27</string>
-        </array>
-      </dict>
-    </array>
-  </dict>
+  <key>com.fontlab.autolayer</key>
+  <true/>
+  <key>com.fontlab.recipe</key>
+  <string>T+uni0326</string>
+  <key>public.markColor</key>
+  <string>0.6,0.997,1,1</string>
   </dict>
   </lib>
 </glyph>

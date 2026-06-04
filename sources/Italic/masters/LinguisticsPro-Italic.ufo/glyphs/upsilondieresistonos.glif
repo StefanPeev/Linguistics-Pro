@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="upsilondieresistonos" format="2">
-  <advance width="562"/>
+  <advance width="544"/>
   <unicode hex="03B0"/>
   <outline>
     <component base="upsilon"/>
-    <component base="dieresistonos" xOffset="133" yOffset="-33"/>
+    <component base="dieresistonos.cv01" xOffset="288" yOffset="-37"/>
   </outline>
   <lib>
   <dict>
   <key>com.fontlab.autolayer</key>
   <true/>
   <key>com.fontlab.recipe</key>
-  <string>upsilon+dieresistonos</string>
+  <string>upsilon+dieresistonos.cv01</string>
   <key>public.markColor</key>
-  <string>0.6,0.602,1,1</string>
+  <string>0.6,0.997,1,1</string>
   </dict>
   </lib>
 </glyph>

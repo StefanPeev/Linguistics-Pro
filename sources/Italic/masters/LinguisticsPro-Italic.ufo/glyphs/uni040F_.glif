@@ -18,13 +18,13 @@
       <point x="605" y="0" type="curve" smooth="yes"/>
       <point x="733" y="0" type="line"/>
       <point x="740" y="29" type="line"/>
-      <point x="720" y="30"/>
-      <point x="701" y="32"/>
-      <point x="681" y="33" type="curve"/>
-      <point x="658" y="35"/>
-      <point x="652" y="53"/>
+      <point x="681" y="33" type="line" smooth="yes"/>
+      <point x="663.93" y="34.1573"/>
+      <point x="656.234" y="44.5834"/>
+      <point x="656.242" y="62.1149" type="curve" smooth="yes"/>
+      <point x="656.244" y="68.24"/>
+      <point x="657.188" y="75.2325"/>
       <point x="659" y="83" type="curve" smooth="yes"/>
-      <point x="666" y="112" type="line"/>
       <point x="779" y="609" type="line" smooth="yes"/>
       <point x="786" y="641"/>
       <point x="797" y="655"/>
@@ -34,21 +34,22 @@
       <point x="608" y="692" type="line"/>
       <point x="602" y="663" type="line"/>
       <point x="661" y="659" type="line" smooth="yes"/>
-      <point x="685" y="657"/>
-      <point x="690" y="640"/>
+      <point x="678.512" y="657.541"/>
+      <point x="685.908" y="648.096"/>
+      <point x="685.908" y="631.053" type="curve" smooth="yes"/>
+      <point x="685.908" y="624.738"/>
+      <point x="684.892" y="617.381"/>
       <point x="683" y="609" type="curve" smooth="yes"/>
-      <point x="676" y="580" type="line"/>
       <point x="564" y="88" type="line" smooth="yes"/>
       <point x="553" y="38"/>
       <point x="541" y="35"/>
       <point x="471" y="35" type="curve" smooth="yes"/>
-      <point x="444" y="35" type="line"/>
-      <point x="336" y="35" type="line" smooth="yes"/>
-      <point x="327" y="35"/>
-      <point x="318" y="35"/>
-      <point x="309" y="35" type="curve" smooth="yes"/>
-      <point x="243" y="35"/>
-      <point x="230" y="37"/>
+      <point x="309" y="35" type="line" smooth="yes"/>
+      <point x="257.143" y="35"/>
+      <point x="238.005" y="36.2347"/>
+      <point x="238.005" y="62.957" type="curve" smooth="yes"/>
+      <point x="238.005" y="70.2449"/>
+      <point x="239.429" y="79.4286"/>
       <point x="242" y="91" type="curve" smooth="yes"/>
       <point x="360" y="609" type="line" smooth="yes"/>
       <point x="367" y="641"/>
@@ -59,10 +60,12 @@
       <point x="189" y="692" type="line"/>
       <point x="183" y="663" type="line"/>
       <point x="242" y="659" type="line" smooth="yes"/>
-      <point x="266" y="657"/>
-      <point x="271" y="640"/>
+      <point x="259.512" y="657.541"/>
+      <point x="266.908" y="648.096"/>
+      <point x="266.908" y="631.053" type="curve" smooth="yes"/>
+      <point x="266.908" y="624.738"/>
+      <point x="265.892" y="617.381"/>
       <point x="264" y="609" type="curve" smooth="yes"/>
-      <point x="257" y="580" type="line"/>
       <point x="144" y="83" type="line" smooth="yes"/>
       <point x="137" y="52"/>
       <point x="127" y="36"/>
@@ -72,14 +75,12 @@
   </outline>
   <lib>
   <dict>
-  <key>public.markColor</key>
-  <string>1,0.6,0.6,1</string>
   <key>public.postscript.hints</key>
   <dict>
     <key>formatVersion</key>
     <string>1</string>
     <key>id</key>
-    <string>974926cada31f4e1369bf91042b814e81af52ec2e33f5804871377fbae4d43462cd711d349d9a60be9201e6f976ec41f5ac89416e669775fdb09ab680dba3573</string>
+    <string>ff1f0533c04bc3e017640a7708a96b8ba82b7d3d5cc0997932ca898b5c8585c1c44dd6d9909d43ab84732af92bf87603462ee38710654116e4cd66aed0054d29</string>
     <key>hintSetList</key>
     <array>
       <dict>

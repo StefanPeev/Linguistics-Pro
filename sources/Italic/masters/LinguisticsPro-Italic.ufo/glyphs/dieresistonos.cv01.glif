@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="dieresistonos.cv01" format="2">
+  <anchor x="123" y="570" name="_top"/>
+  <outline>
+    <component base="dieresis" xOffset="-188"/>
+    <contour>
+      <point x="116.448" y="635.085" type="line"/>
+      <point x="139.877" y="628.193" type="line"/>
+      <point x="215" y="734" type="line" smooth="yes"/>
+      <point x="224.235" y="747.008"/>
+      <point x="228.881" y="761.547"/>
+      <point x="228.881" y="774.275" type="curve" smooth="yes"/>
+      <point x="228.881" y="795.284"/>
+      <point x="217.026" y="807.341"/>
+      <point x="194.681" y="807.524" type="curve" smooth="yes"/>
+      <point x="170.272" y="807.724"/>
+      <point x="146.459" y="793.411"/>
+      <point x="143.875" y="779.783" type="curve" smooth="yes"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.recipe</key>
+  <string>dieresis+uni0301</string>
+  </dict>
+  </lib>
+</glyph>

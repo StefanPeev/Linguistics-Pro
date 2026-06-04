@@ -1,18 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Itilde.sc" format="2">
-  <advance width="386"/>
-  <anchor x="337" y="740" name="top"/>
+  <advance width="304"/>
+  <anchor x="284.423" y="722" name="top"/>
   <outline>
-    <component base="I" xOffset="82"/>
-    <component base="tilde.case" xOffset="-21.561"/>
+    <component base="I.sc"/>
+    <component base="uni0303" xOffset="284.423"/>
   </outline>
-  <guideline angle="77.3856" x="141" y="98"/>
   <lib>
   <dict>
+  <key>com.fontlab.autolayer</key>
+  <true/>
   <key>com.fontlab.recipe</key>
-  <string>Itilde</string>
-  <key>public.markColor</key>
-  <string>1,0.994,0.6,1</string>
+  <string>I.sc+uni0303</string>
   </dict>
   </lib>
 </glyph>

@@ -7,14 +7,14 @@
   <anchor x="154" y="707" name="tonos"/>
   <outline>
     <component base="O"/>
-    <component base="dotaccent.cap" xOffset="165.927"/>
+    <component base="dotaccent.case" xOffset="376.927"/>
   </outline>
   <lib>
   <dict>
   <key>com.fontlab.autolayer</key>
   <true/>
   <key>com.fontlab.recipe</key>
-  <string>O+~dotaccent.cap</string>
+  <string>O+~dotaccent.case</string>
   <key>public.markColor</key>
   <string>0.6,0.997,1,1</string>
   </dict>

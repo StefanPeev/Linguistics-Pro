@@ -6,14 +6,12 @@
   <anchor x="456" y="730" name="top"/>
   <outline>
     <component base="E"/>
-    <component base="macron.cap" xOffset="95.852"/>
+    <component base="macron.case" xOffset="95.852"/>
   </outline>
   <lib>
   <dict>
   <key>com.fontlab.recipe</key>
   <string>Emacron</string>
-  <key>public.markColor</key>
-  <string>1,0.994,0.6,1</string>
   </dict>
   </lib>
 </glyph>

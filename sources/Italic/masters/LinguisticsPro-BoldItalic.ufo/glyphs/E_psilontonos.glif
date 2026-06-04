@@ -1,20 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Epsilontonos" format="2">
-  <advance width="622"/>
+  <advance width="792"/>
   <unicode hex="0388"/>
-  <anchor x="480" y="10" name="ogonek"/>
+  <anchor x="358" y="702" name="tonos"/>
+  <anchor x="690" y="10" name="ogonek"/>
   <outline>
-    <component base="Epsilon"/>
-    <component base="tonos" xOffset="-189" yOffset="-68"/>
+    <component base="tonos"/>
+    <component base="Epsilon" xOffset="170"/>
   </outline>
   <lib>
   <dict>
-  <key>com.fontlab.autolayer</key>
-  <true/>
+  <key>com.fontlab.metricsLeft</key>
+  <string>=tonos</string>
+  <key>com.fontlab.metricsRight</key>
+  <string>=E</string>
   <key>com.fontlab.recipe</key>
-  <string>Epsilon+tonos</string>
-  <key>public.markColor</key>
-  <string>0.6,0.602,1,1</string>
+  <string>tonos_Epsilon</string>
   </dict>
   </lib>
 </glyph>

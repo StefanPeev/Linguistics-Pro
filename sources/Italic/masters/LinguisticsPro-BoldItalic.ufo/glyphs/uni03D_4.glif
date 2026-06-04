@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni03D4" format="2">
+  <advance width="722"/>
+  <unicode hex="03D4"/>
+  <anchor x="141" y="707" name="tonos"/>
+  <anchor x="539" y="910" name="top"/>
+  <outline>
+    <component base="uni03D2"/>
+    <component base="uni0308" xOffset="378" yOffset="170"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.autolayer</key>
+  <true/>
+  <key>com.fontlab.recipe</key>
+  <string>uni03D2+uni0308</string>
+  <key>public.markColor</key>
+  <string>0.6,0.997,1,1</string>
+  </dict>
+  </lib>
+</glyph>

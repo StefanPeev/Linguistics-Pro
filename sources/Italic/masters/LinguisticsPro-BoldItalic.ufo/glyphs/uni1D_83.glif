@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni1D83" format="2">
+  <advance width="674"/>
+  <unicode hex="1D83"/>
+  <outline>
+    <component base="uni0261"/>
+    <contour>
+      <point x="467.25" y="-174" type="curve" smooth="yes"/>
+      <point x="467.25" y="-210"/>
+      <point x="497.92" y="-242"/>
+      <point x="563.87" y="-242" type="curve" smooth="yes"/>
+      <point x="641.3" y="-242"/>
+      <point x="690.555" y="-194.987"/>
+      <point x="728.48" y="-22.98" type="curve" smooth="yes"/>
+      <point x="744.13" y="48" type="line"/>
+      <point x="434.13" y="48" type="line"/>
+      <point x="422.57" y="0" type="line"/>
+      <point x="668.21" y="0" type="line"/>
+      <point x="630.25" y="-162" type="line" smooth="yes"/>
+      <point x="623.942" y="-188.92"/>
+      <point x="619.25" y="-196"/>
+      <point x="611.25" y="-196" type="curve" smooth="yes"/>
+      <point x="575.3" y="-196"/>
+      <point x="568.83" y="-114"/>
+      <point x="527.25" y="-114" type="curve" smooth="yes"/>
+      <point x="498.25" y="-114"/>
+      <point x="467.25" y="-147"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.metricsLeft</key>
+  <string>=uni0261</string>
+  <key>com.fontlab.metricsRight</key>
+  <string>=uni0261+90</string>
+  </dict>
+  </lib>
+</glyph>

@@ -3,7 +3,7 @@
   <advance width="606"/>
   <unicode hex="025D"/>
   <outline>
-    <component base="uni025C"/>
+    <component base="uni025C" xOffset="-111"/>
     <contour>
       <point x="438" y="354" type="line"/>
       <point x="583" y="385" type="line"/>
@@ -35,8 +35,6 @@
   <dict>
   <key>com.fontlab.recipe</key>
   <string>uni025C</string>
-  <key>public.markColor</key>
-  <string>0.6,0.602,1,1</string>
   </dict>
   </lib>
 </glyph>

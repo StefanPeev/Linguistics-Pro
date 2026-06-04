@@ -3,13 +3,20 @@
 <plist version="1.0">
 <dict>
   <key>ascender</key>
-  <integer>800</integer>
+  <integer>1180</integer>
   <key>capHeight</key>
   <integer>693</integer>
   <key>copyright</key>
-  <string>Copyright \(c\) 2016 by Stefan Peev, Context Ltd. All rights reserved.</string>
+  <string>Copyright 2026 The Linguistics Pro Project Authors (https://github.com/StefanPeev/Linguistics-Pro)
+Copyright 2016 The Linguistics Pro Project Stefan Peev.
+Copyright 2015 The Utopia Nova Project Andreas Nolda, licensed under the SIL Open Font License (OFL).
+Copyright 2014 The Project by Michael Sharpe for the open-box glyphs, which are licensed under the SIL Open Font License (OFL).
+Copyright 2008-2014 The Heuristica Project Andrey V. Panov. 
+Copyright 2006 The Vntopia Project Han The Thanh.
+Copyright 2003-2004 The GUTenberg Project for the Greek glyphs.
+Copyright 1989, 1991 The Utopia Project Adobe Systems Incorporated, for the details of the license, cf. http://tug.org/fonts/utopia/LICENSE-utopia.txt.</string>
   <key>descender</key>
-  <integer>-200</integer>
+  <integer>-448</integer>
   <key>familyName</key>
   <string>Linguistics Pro</string>
   <key>guidelines</key>
@@ -126,23 +133,13 @@
   </dict>
   <dict>
     <key>angle</key>
-    <integer>90</integer>
-    <key>name</key>
-    <string>f</string>
-    <key>x</key>
-    <integer>-42</integer>
-    <key>y</key>
     <integer>0</integer>
-  </dict>
-  <dict>
-    <key>angle</key>
-    <integer>90</integer>
     <key>name</key>
-    <string>f1</string>
+    <string>t5</string>
     <key>x</key>
-    <integer>-147</integer>
-    <key>y</key>
     <integer>0</integer>
+    <key>y</key>
+    <integer>630</integer>
   </dict>
   </array>
   <key>italicAngle</key>
@@ -167,59 +164,31 @@
   <array>
   </array>
   <key>openTypeHheaAscender</key>
-  <integer>916</integer>
+  <integer>750</integer>
   <key>openTypeHheaCaretOffset</key>
   <integer>4</integer>
   <key>openTypeHheaDescender</key>
   <integer>-250</integer>
   <key>openTypeHheaLineGap</key>
-  <integer>25</integer>
-  <key>openTypeNameDescription</key>
-  <string>Copyright (c) 2016 by Stefan Peev, Context Ltd. All rights reserved.</string>
+  <integer>-0</integer>
   <key>openTypeNameDesigner</key>
-  <string>Stefan Peev, Context Ltd</string>
+  <string>Stefan Peev</string>
   <key>openTypeNameDesignerURL</key>
-  <string>http://www.contextbg.net</string>
+  <string>https://localfonts.eu</string>
   <key>openTypeNameLicense</key>
-  <string>Copyright (c) 1989, 1991 Adobe Systems Incorporated. All Rights Reserved. 
-Utopia (R) 
-Utopia is either a registered trademark or trademark of Adobe Systems
-Incorporated in the United States and/or other countries. Used under license. 
-
-For details of the license, cf. http://tug.org/fonts/utopia/LICENSE-utopia.txt. 
-
-Copyright (c) 2003-2004 the GUTenberg project for the Greek glyphs, which are 
-licensed under the Latex Public Project License (LPPL).
-
-Copyright (c) 2006 Han The Thanh, for the modifications released under the name
-&quot;Vntopia&quot;.
-
- Copyright (c) 2008-2014 Andrey V. Panov, for the modifications released under 
-the name &quot;Heuristica&quot;. 
-
-Copyright (c) 2014 Michael Sharpe for the open-box glyphs, which are licensed
-under the SIL Open Font License (OFL).
-
-Copyright (c) 2015 Andreas Nolda, for the modifications released under the
-name &quot;Utopia Nova&quot; and licensed under the SIL Open Font License (OFL).
-
- Copyright (c) 2016 Stefan Peev, Context Ltd, for the modifications released under the
-name &quot;Linguistics Pro&quot;. 
-
-This &quot;Linguistics Pro&quot; Font Software is licensed under the SIL Open Font License (OFL),
-Version 1.1.</string>
+  <string>This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: openfontlicense.org.</string>
   <key>openTypeNameLicenseURL</key>
   <string>http://scripts.sil.org/ofl</string>
   <key>openTypeNameManufacturer</key>
-  <string>Stefan Peev, Context Ltd</string>
+  <string>Stefan Peev</string>
   <key>openTypeNameManufacturerURL</key>
-  <string>http://www.contextbg.net</string>
+  <string>https://localfonts.eu</string>
   <key>openTypeNamePreferredFamilyName</key>
   <string>Linguistics Pro</string>
   <key>openTypeNamePreferredSubfamilyName</key>
   <string>Bold Italic</string>
   <key>openTypeNameVersion</key>
-  <string>Version 1.083</string>
+  <string>Version 1.084</string>
   <key>openTypeOS2CodePageRanges</key>
   <array>
     <integer>0</integer>
@@ -270,11 +239,11 @@ Version 1.1.</string>
   <array>
   </array>
   <key>openTypeOS2TypoAscender</key>
-  <integer>800</integer>
+  <integer>1180</integer>
   <key>openTypeOS2TypoDescender</key>
-  <integer>-200</integer>
+  <integer>-448</integer>
   <key>openTypeOS2TypoLineGap</key>
-  <integer>200</integer>
+  <integer>-0</integer>
   <key>openTypeOS2UnicodeRanges</key>
   <array>
     <integer>0</integer>
@@ -304,9 +273,9 @@ Version 1.1.</string>
   <key>openTypeOS2WidthClass</key>
   <integer>5</integer>
   <key>openTypeOS2WinAscent</key>
-  <integer>750</integer>
+  <integer>1180</integer>
   <key>openTypeOS2WinDescent</key>
-  <integer>250</integer>
+  <integer>448</integer>
   <key>postscriptBlueFuzz</key>
   <integer>1</integer>
   <key>postscriptBlueScale</key>
@@ -317,8 +286,8 @@ Version 1.1.</string>
   <array>
     <integer>-15</integer>
     <integer>0</integer>
-    <integer>502</integer>
-    <integer>502</integer>
+    <integer>490</integer>
+    <integer>490</integer>
     <integer>692</integer>
     <integer>707</integer>
   </array>
@@ -368,8 +337,8 @@ Version 1.1.</string>
   <key>versionMajor</key>
   <integer>1</integer>
   <key>versionMinor</key>
-  <integer>83</integer>
+  <integer>84</integer>
   <key>xHeight</key>
-  <integer>502</integer>
+  <integer>552</integer>
 </dict>
 </plist>
