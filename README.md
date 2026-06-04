@@ -55,4 +55,4 @@ The **LOCALFONTS** project consists of the following fonts:
 Donations
 ---------
 
-If you apreciate the project, please feel free to support us through sponsorship button.
+If you apreciate the project, please feel free to support us through [sponsorship button](https://github.com/sponsors/StefanPeev).
